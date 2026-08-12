@@ -86,6 +86,8 @@
     .day-count { font-size:12px; color:var(--faint); letter-spacing:.02em; white-space:nowrap; font-variant-numeric:tabular-nums; }
 
     .row { display:grid; grid-template-columns:84px 1fr auto; gap:22px; align-items:baseline; padding:15px 18px; margin:0 -18px; border-bottom:1px solid var(--line); text-decoration:none; color:inherit; }
+    .row.feat { grid-template-columns:84px 148px 1fr auto; align-items:center; }
+    .row-thumb { display:block; width:148px; aspect-ratio:16/9; object-fit:cover; border:1px solid var(--line); }
     .row:hover { background:#f6f3ea; }
     .row-time { font-size:13px; color:var(--gray); font-variant-numeric:tabular-nums; white-space:nowrap; padding-left:2px; }
     .row-artist { font-family:'Space Grotesk',system-ui,sans-serif; font-size:19px; font-weight:500; line-height:1.28; letter-spacing:-.005em; }
@@ -94,7 +96,7 @@
     .row-genre { font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--faint); white-space:nowrap; padding-top:3px; }
 
     /* sponsor slot — one per page, after the first day group */
-    .sponsor { display:flex; align-items:baseline; gap:14px; border:1px solid var(--ink); padding:15px 18px; margin:36px -18px 0; font-size:14px; color:var(--gray); }
+    .sponsor { display:flex; align-items:baseline; gap:14px; background:#eef4fd; border:1px solid var(--ink); border-left:4px solid var(--blue); padding:17px 18px; margin:36px -18px 0; font-size:14px; color:#42506b; }
     .sponsor-label { flex:none; font-size:10px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--faint); }
     .sponsor a { color:var(--blue); text-decoration:none; }
     .sponsor a:hover { text-decoration:underline; text-underline-offset:3px; }
@@ -108,14 +110,25 @@
     .missing { font-size:14px; color:var(--ink); margin-bottom:18px; }
     .missing a { text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px; }
     .missing a:hover { color:var(--gray); }
+    .foot-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:26px; }
+    .foot-card { border:1px solid var(--ink); padding:20px 22px; text-decoration:none; color:inherit; display:block; }
+    a.foot-card:hover { background:#f6f3ea; }
+    .foot-card-label { font-size:9.5px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--blue); margin-bottom:8px; }
+    .foot-card-big { font-family:'Instrument Serif',Georgia,serif; font-size:26px; line-height:1.1; }
+    a.foot-card:hover .foot-card-big { text-decoration:underline; text-underline-offset:4px; text-decoration-thickness:1px; }
+    .foot-card-sub { font-size:12.5px; color:var(--gray); margin-top:8px; line-height:1.5; }
+    .hits-digits { font-family:ui-monospace,Menlo,monospace; font-size:26px; letter-spacing:.14em; color:var(--ink); cursor:pointer; }
+    .hits-digits span { display:inline-block; border:1px solid var(--line); padding:3px 4px; margin-right:3px; background:var(--paper); }
+    @media (max-width:560px) { .foot-grid { grid-template-columns:1fr; } }
     .foot-links { font-size:14px; color:var(--ink); margin-bottom:18px; }
     .foot-links a { text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px; }
     .foot-links a:hover { color:var(--gray); }
-    .hits { font-family:ui-monospace,Menlo,monospace; font-size:11px; letter-spacing:.2em; color:var(--faint); margin-top:14px; display:none; }
-    .hits.on { display:block; }
-    .hits b { color:var(--gray); font-weight:600; letter-spacing:.25em; border:1px solid var(--line); padding:2px 5px; }
     footer p { font-size:12.5px; color:var(--faint); line-height:1.7; }
     footer b { color:var(--gray); font-weight:600; }
+
+    /* party mode — unlocked by scoring 10,000+ in Defend The Confluence */
+    .party-dot { position:fixed; width:9px; height:9px; pointer-events:none; z-index:300; transform:translate(-50%,-50%); animation:partyfade .7s linear forwards; }
+    @keyframes partyfade { to { opacity:0; transform:translate(-50%,-50%) translateY(14px) scale(.3) rotate(120deg); } }
 
     /* ---------- arcade + radio ---------- */
     #arcade-overlay { position:fixed; inset:0; background:rgba(5,7,13,.93); z-index:200; display:none; align-items:center; justify-content:center; }
@@ -149,7 +162,8 @@
     @media (max-width:700px) { .featured { display:none !important; } }
     @media (max-width:560px) {
       .mast { padding:56px 0 26px; }
-      .row { grid-template-columns:70px 1fr; gap:14px; }
+      .row, .row.feat { grid-template-columns:70px 1fr; gap:14px; }
+      .row-thumb { display:none; }
       .row-genre { display:none; }
       .tools { gap:12px; }
       .search { width:130px; }
@@ -188,7 +202,7 @@
     <div class="tools">
       <select class="select" id="genre-select" aria-label="Filter by genre"></select>
       <input class="search" id="search" type="search" placeholder="Search" autocomplete="off" aria-label="Search shows" />
-      <button class="tab" id="open-arcade" title="Confluence Defender">Arcade ▸</button>
+      <button class="tab" id="open-arcade" title="Defend The Confluence">Arcade ▸</button>
     </div>
   </div>
 </div>
@@ -204,12 +218,22 @@
 
 <footer>
   <div class="wrap">
+    <div class="foot-grid">
+      <a class="foot-card" href="mailto:bdholl@gmail.com?subject=The%20Confluence%20guestbook">
+        <div class="foot-card-label">Guestbook</div>
+        <div class="foot-card-big">Sign the guestbook →</div>
+        <div class="foot-card-sub">Opens an email to us. Say hi, request a venue, tell us what show ruled.</div>
+      </a>
+      <div class="foot-card" id="hits">
+        <div class="foot-card-label">Odometer</div>
+        <div class="hits-digits" id="hits-num" title="party mode toggle" onclick="window.__toggleParty()">——————</div>
+        <div class="foot-card-sub">You are visitor. Welcome to the confluence.</div>
+      </div>
+    </div>
     <p class="foot-links">
-      Missing a show? <a href="mailto:bdholl@gmail.com?subject=The%20Confluence%20—%20missing%20show">Tell us about it.</a><br>
-      <a href="mailto:bdholl@gmail.com?subject=The%20Confluence%20guestbook">Sign the guestbook</a> ·
+      Missing a show? <a href="mailto:bdholl@gmail.com?subject=The%20Confluence%20—%20missing%20show">Tell us about it.</a> ·
       <a href="confluence.ics" download>Subscribe — every show in your calendar (.ics)</a>
     </p>
-    <p class="hits" id="hits">You are visitor <b id="hits-num">—</b></p>
     <p><b>The Confluence</b> — Milwaukee live music.<br>
     Always confirm dates and times on the venue's page before heading out. &copy; 2026.</p>
   </div>
@@ -302,9 +326,12 @@ function buildTicker() {
   }
   const items = upcoming.filter(s => s.date === date);
   document.getElementById('ticker-label').textContent = label;
+  // sparse nights breathe: 1–2 shows get wide spacing, busy nights stay tight
+  const gapW = items.length <= 2 ? 150 : items.length <= 4 ? 70 : 26;
+  const gap = `<span style="display:inline-block;width:${gapW}px"></span>·<span style="display:inline-block;width:${gapW}px"></span>`;
   document.getElementById('ticker-inner').innerHTML = items.map(s =>
     `<span class="tk-t">${fmtTime(s.time)}</span> <b>${esc(s.title)}</b> — ${esc(s.venue)}`
-  ).join(' &nbsp;&nbsp;·&nbsp;&nbsp; ');
+  ).join(gap);
   document.getElementById('ticker').style.display = 'flex';
 }
 
@@ -324,16 +351,49 @@ function buildFeatured() {
   card.classList.add('on');
 }
 
+/* Party mode: rainbow cursor trail, earned by scoring 10,000+ in the arcade.
+   Persists via localStorage; click the visitor counter to toggle it off/on. */
+const PARTY_KEY = 'confluence-party';
+let partyBound = false, partyHue = 0, partyLast = 0;
+function partyMove(e) {
+  const now = performance.now();
+  if (now - partyLast < 26) return;
+  partyLast = now;
+  partyHue = (partyHue + 17) % 360;
+  const d = document.createElement('div');
+  d.className = 'party-dot';
+  d.style.left = e.clientX + 'px';
+  d.style.top = e.clientY + 'px';
+  d.style.background = `hsl(${partyHue}, 95%, 55%)`;
+  document.body.appendChild(d);
+  setTimeout(() => d.remove(), 720);
+}
+function startParty() {
+  if (partyBound || localStorage.getItem(PARTY_KEY) !== '1') return;
+  partyBound = true;
+  window.addEventListener('mousemove', partyMove);
+}
+function stopParty() {
+  partyBound = false;
+  window.removeEventListener('mousemove', partyMove);
+}
+window.__unlockParty = () => { localStorage.setItem(PARTY_KEY, '1'); startParty(); };
+window.__toggleParty = () => {
+  if (partyBound) { localStorage.setItem(PARTY_KEY, '0'); stopParty(); }
+  else { localStorage.setItem(PARTY_KEY, '1'); startParty(); }
+};
+startParty();
+
 function countVisit() {
   fetch('https://abacus.jasoncameron.dev/hit/theconfluencemke/visits')
     .then(r => r.ok ? r.json() : Promise.reject())
     .then(d => {
       const n = d.count ?? d.value;
       if (typeof n !== 'number') return;
-      document.getElementById('hits-num').textContent = String(n).padStart(6, '0');
-      document.getElementById('hits').classList.add('on');
+      document.getElementById('hits-num').innerHTML =
+        String(n).padStart(6, '0').split('').map(c => `<span>${c}</span>`).join('');
     })
-    .catch(() => {}); // counter down → just don't show it
+    .catch(() => {}); // counter down → dashes stay
 }
 
 function buildGenres() {
@@ -391,10 +451,21 @@ function dayLabel(dateStr) {
   return `${DAYS[d.getDay()]}, ${MONS[d.getMonth()]} ${d.getDate()}`;
 }
 
-function rowHTML(s) {
+// Rough national-vs-local ordering by room: arenas/sheds first, touring
+// theaters and clubs next, everything else after. Within a tier, by time.
+function venueTier(v) {
+  const n = (v || '').toLowerCase();
+  if (/fiserv|amphitheater|bmo|alpine|state fair|landmark|miller high life|uihlein/.test(n)) return 0;
+  if (/riverside|pabst|rave|eagles|turner|improv/.test(n)) return 1;
+  return 2;
+}
+
+function rowHTML(s, feat) {
   const sub = `${esc(s.venue)}${s.support ? ' · with '+esc(s.support) : ''} · ${esc(s.hood)}`;
-  return `<a class="row" href="${s.url}" target="_blank" rel="noopener noreferrer">
+  const thumb = feat ? `<img class="row-thumb" src="${s.img}" alt="" loading="lazy" />` : '';
+  return `<a class="row${feat ? ' feat' : ''}" href="${s.url}" target="_blank" rel="noopener noreferrer">
     <div class="row-time">${fmtTime(s.time)}</div>
+    ${thumb}
     <div class="row-body">
       <div class="row-artist">${esc(s.title)}</div>
       <div class="row-sub">${sub}</div>
@@ -407,7 +478,7 @@ function sponsorHTML() {
   if (SPONSOR) {
     return `<div class="sponsor"><span class="sponsor-label">Sponsor</span><span>Supported by <a href="${SPONSOR.url}" target="_blank" rel="noopener"><b>${esc(SPONSOR.name)}</b></a>${SPONSOR.tag ? ' · ' + esc(SPONSOR.tag) : ''}</span></div>`;
   }
-  return `<div class="sponsor"><span class="sponsor-label">Sponsor</span><span>This calendar is free and updated daily. <a href="mailto:bdholl@gmail.com?subject=Sponsoring%20The%20Confluence">Put your name on it →</a></span></div>`;
+  return `<div class="sponsor"><span class="sponsor-label">Sponsor</span><span>This calendar is free and updated daily. Want to promote your show? Your coffee shop? Your record store? <a href="mailto:bdholl@gmail.com?subject=Sponsoring%20The%20Confluence">Drop us a line →</a></span></div>`;
 }
 
 function render() {
@@ -422,11 +493,15 @@ function render() {
   const blocks = Object.keys(groups).sort().map(date => {
     const n = groups[date].length;
     const today = date===TODAY ? '<span class="day-today">Tonight</span>' : '';
+    // national touring acts float to the top of each day; one image per day
+    const dayShows = groups[date].slice().sort((a,b) =>
+      (venueTier(a.venue) - venueTier(b.venue)) || a.time.localeCompare(b.time));
+    const featShow = dayShows.find(s => s.img);
     return `<div class="day">
         <div class="day-name">${dayLabel(date)}${today}</div>
         <div class="day-count">${n} ${n===1?'show':'shows'}</div>
       </div>
-      ${groups[date].map(rowHTML).join('')}`;
+      ${dayShows.map(s => rowHTML(s, s === featShow)).join('')}`;
   });
   blocks.splice(1, 0, sponsorHTML()); // one slot, after the first day group
   el.innerHTML = blocks.join('');
@@ -555,6 +630,7 @@ load();
   let state = 'title', raf = null, t = 0;
   let player, bullets, ebullets, enemies, score, lives, wave, hi;
   hi = Number(localStorage.getItem('confluence-arcade-hs') || 0);
+  let party = localStorage.getItem('confluence-party') === '1', partyMsg = 0;
   const keys = {};
   let ac = null;
   function beep(freq, dur, type, vol) {
@@ -653,6 +729,12 @@ load();
       }
     }
     if (!enemies.length) newWave();
+
+    if (!party && score >= 10000) {
+      party = true; partyMsg = 240;
+      if (window.__unlockParty) window.__unlockParty();
+      [523, 659, 784, 1047].forEach((f, i) => setTimeout(() => beep(f, .14, 'square', .06), i * 110));
+    }
   }
 
   function drawRivers() {
@@ -715,8 +797,8 @@ load();
     if (state === 'title' || state === 'over') {
       g.textAlign = 'center';
       g.fillStyle = '#fdfcf8'; g.font = 'bold 26px monospace';
-      g.fillText(state === 'title' ? 'CONFLUENCE' : 'GAME OVER', W / 2, 205);
-      if (state === 'title') g.fillText('DEFENDER', W / 2, 235);
+      g.fillText(state === 'title' ? 'DEFEND THE' : 'GAME OVER', W / 2, 205);
+      if (state === 'title') g.fillText('CONFLUENCE', W / 2, 235);
       g.font = '11px monospace'; g.fillStyle = '#86b3ff';
       g.fillText('THREE RIVERS. ONE PICK. NO MERCY.', W / 2, 268);
       if (state === 'over') { g.fillStyle = '#f0c873'; g.fillText('SCORE ' + score + '   HI ' + hi, W / 2, 292); }
@@ -733,6 +815,14 @@ load();
     g.fillStyle = '#ff5bbd';
     ebullets.forEach(b => g.fillRect(b.x - 1.5, b.y - 5, 3, 9));
     drawPlayer();
+    if (partyMsg > 0) {
+      partyMsg--;
+      g.textAlign = 'center'; g.font = 'bold 16px monospace';
+      g.fillStyle = `hsl(${(t * 9) % 360}, 95%, 60%)`;
+      g.fillText('★ PARTY MODE UNLOCKED ★', W / 2, 250);
+      g.font = '10px monospace'; g.fillStyle = '#86b3ff';
+      g.fillText('your cursor will never be the same', W / 2, 272);
+    }
     g.textAlign = 'left'; g.fillStyle = '#86b3ff'; g.font = '11px monospace';
     g.fillText('SCORE ' + score, 10, H - 10);
     g.textAlign = 'right'; g.fillText('HI ' + hi + '  WAVE ' + wave, W - 10, H - 10);
