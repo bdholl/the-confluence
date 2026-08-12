@@ -149,9 +149,15 @@
     .gb-send:hover { background:var(--blue); border-color:var(--blue); }
     .gb-hint { font-size:11px; color:var(--faint); margin-top:9px; }
 
-    /* party mode — unlocked by scoring 10,000+ in Defend The Confluence */
+    /* party mode — unlocked by scoring 5,000+ in Defend The Confluence */
     .party-dot { position:fixed; width:9px; height:9px; pointer-events:none; z-index:300; transform:translate(-50%,-50%); animation:partyfade .7s linear forwards; }
     @keyframes partyfade { to { opacity:0; transform:translate(-50%,-50%) translateY(14px) scale(.3) rotate(120deg); } }
+    /* confetti — 10,000 points, falls over the whole page, once ever */
+    .confetti-bit { position:fixed; top:-24px; z-index:400; pointer-events:none; opacity:0; animation:confettifall linear forwards; }
+    @keyframes confettifall {
+      0% { opacity:1; transform:translate(0,0) rotate(0deg); }
+      100% { opacity:.85; transform:translate(var(--drift), 115vh) rotate(var(--spin)); }
+    }
 
     /* ---------- arcade + radio ---------- */
     #arcade-overlay { position:fixed; inset:0; background:rgba(5,7,13,.93); z-index:200; display:none; align-items:center; justify-content:center; }
@@ -464,6 +470,26 @@ function stopParty() {
   window.removeEventListener('mousemove', partyMove);
 }
 window.__unlockParty = () => { localStorage.setItem(PARTY_KEY, '1'); startParty(); };
+// 10,000 in the arcade: confetti over the whole page — once ever, then never again
+window.__confetti = () => {
+  if (localStorage.getItem('confluence-confetti') === '1') return;
+  localStorage.setItem('confluence-confetti', '1');
+  for (let i = 0; i < 160; i++) {
+    const d = document.createElement('div');
+    d.className = 'confetti-bit';
+    d.style.left = (Math.random() * 100) + 'vw';
+    d.style.background = `hsl(${Math.floor(Math.random() * 360)}, 92%, 55%)`;
+    const s = 6 + Math.random() * 8;
+    d.style.width = s + 'px';
+    d.style.height = (s * 0.6 + 2) + 'px';
+    d.style.animationDuration = (2.6 + Math.random() * 2.4) + 's';
+    d.style.animationDelay = (Math.random() * 1.8) + 's';
+    d.style.setProperty('--drift', (Math.random() * 180 - 90) + 'px');
+    d.style.setProperty('--spin', (Math.random() * 900 - 450) + 'deg');
+    document.body.appendChild(d);
+    setTimeout(() => d.remove(), 8000);
+  }
+};
 window.__toggleParty = () => {
   if (partyBound) { localStorage.setItem(PARTY_KEY, '0'); stopParty(); }
   else { localStorage.setItem(PARTY_KEY, '1'); startParty(); }
@@ -716,7 +742,10 @@ load();
   let state = 'title', raf = null, t = 0;
   let player, bullets, ebullets, enemies, score, lives, wave, hi;
   hi = Number(localStorage.getItem('confluence-arcade-hs') || 0);
-  let party = localStorage.getItem('confluence-party') === '1', partyMsg = 0;
+  let party = localStorage.getItem('confluence-party') === '1';
+  let confettiDone = localStorage.getItem('confluence-confetti') === '1';
+  let msgMain = '', msgSub = '', msgT = 0;
+  function announce(a, b) { msgMain = a; msgSub = b; msgT = 240; }
   const keys = {};
   let ac = null;
   function beep(freq, dur, type, vol) {
@@ -816,10 +845,17 @@ load();
     }
     if (!enemies.length) newWave();
 
-    if (!party && score >= 10000) {
-      party = true; partyMsg = 240;
+    if (!party && score >= 5000) {
+      party = true;
+      announce('★ PARTY MODE UNLOCKED ★', 'your cursor will never be the same');
       if (window.__unlockParty) window.__unlockParty();
       [523, 659, 784, 1047].forEach((f, i) => setTimeout(() => beep(f, .14, 'square', .06), i * 110));
+    }
+    if (!confettiDone && score >= 10000) {
+      confettiDone = true;
+      announce('★★ 10,000 ★★', 'confetti. a once-in-a-lifetime event');
+      if (window.__confetti) window.__confetti();
+      [523, 659, 784, 1047, 1319].forEach((f, i) => setTimeout(() => beep(f, .15, 'square', .07), i * 100));
     }
   }
 
@@ -901,13 +937,13 @@ load();
     g.fillStyle = '#ff5bbd';
     ebullets.forEach(b => g.fillRect(b.x - 1.5, b.y - 5, 3, 9));
     drawPlayer();
-    if (partyMsg > 0) {
-      partyMsg--;
+    if (msgT > 0) {
+      msgT--;
       g.textAlign = 'center'; g.font = 'bold 16px monospace';
       g.fillStyle = `hsl(${(t * 9) % 360}, 95%, 60%)`;
-      g.fillText('★ PARTY MODE UNLOCKED ★', W / 2, 250);
+      g.fillText(msgMain, W / 2, 250);
       g.font = '10px monospace'; g.fillStyle = '#86b3ff';
-      g.fillText('your cursor will never be the same', W / 2, 272);
+      g.fillText(msgSub, W / 2, 272);
     }
     g.textAlign = 'left'; g.fillStyle = '#86b3ff'; g.font = '11px monospace';
     g.fillText('SCORE ' + score, 10, H - 10);
