@@ -56,11 +56,12 @@
     .ticker { display:flex; align-items:center; border-bottom:1px solid var(--line); overflow:hidden; }
     .ticker-label { flex:none; font-size:10px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--paper); background:var(--blue); padding:7px 12px 6px; }
     .ticker-scroll { flex:1; overflow:hidden; white-space:nowrap; }
-    .ticker-inner { display:inline-block; padding-left:100%; animation:tickmove 45s linear infinite; font-size:12.5px; color:var(--gray); }
+    .ticker-inner { display:inline-flex; white-space:nowrap; animation:tickmove 40s linear infinite; font-size:12.5px; color:var(--gray); }
     .ticker-inner b { color:var(--ink); font-weight:600; }
     .ticker-inner .tk-t { color:var(--blue); font-variant-numeric:tabular-nums; }
     .ticker:hover .ticker-inner { animation-play-state:paused; }
-    @keyframes tickmove { to { transform:translateX(-100%); } }
+    /* two identical halves scroll by half their width = a seamless loop */
+    @keyframes tickmove { from { transform:translateX(0); } to { transform:translateX(-50%); } }
 
     /* ---------- toolbar ---------- */
     .toolbar { position:sticky; top:0; z-index:20; background:var(--paper); border-bottom:1px solid var(--line); }
@@ -96,7 +97,7 @@
     .row-genre { font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--faint); white-space:nowrap; padding-top:3px; }
 
     /* sponsor slot — one per page, after the first day group */
-    .sponsor { display:flex; align-items:baseline; gap:14px; background:#eef4fd; border:1px solid var(--ink); border-left:4px solid var(--blue); padding:17px 18px; margin:36px -18px 0; font-size:14px; color:#42506b; }
+    .sponsor { display:flex; align-items:baseline; gap:14px; background:#eef4fd; border:1px solid var(--ink); padding:17px 18px; margin:36px -18px 0; font-size:14px; color:#42506b; }
     .sponsor-label { flex:none; font-size:10px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--faint); }
     .sponsor a { color:var(--blue); text-decoration:none; }
     .sponsor a:hover { text-decoration:underline; text-underline-offset:3px; }
@@ -125,6 +126,28 @@
     .foot-links a:hover { color:var(--gray); }
     footer p { font-size:12.5px; color:var(--faint); line-height:1.7; }
     footer b { color:var(--gray); font-weight:600; }
+
+    /* guestbook popup */
+    #gb-overlay { position:fixed; inset:0; background:rgba(17,17,17,.35); z-index:180; display:none; align-items:center; justify-content:center; padding:20px; }
+    #gb-overlay.on { display:flex; }
+    .gb-panel { background:var(--paper); border:1px solid var(--ink); box-shadow:6px 6px 0 rgba(17,17,17,.15); width:min(520px,100%); max-height:84vh; display:flex; flex-direction:column; }
+    .gb-head { display:flex; align-items:baseline; gap:10px; padding:18px 22px 14px; border-bottom:1px solid var(--ink); }
+    .gb-title { font-family:'Instrument Serif',Georgia,serif; font-size:28px; }
+    .gb-close { margin-left:auto; background:none; border:0; color:var(--faint); font-size:16px; }
+    .gb-close:hover { color:var(--ink); }
+    .gb-stream { overflow-y:auto; padding:6px 22px; flex:1; }
+    .gb-entry { padding:14px 0; border-bottom:1px solid var(--line); }
+    .gb-entry:last-child { border-bottom:0; }
+    .gb-who { font-size:13px; font-weight:600; }
+    .gb-when { font-size:11px; color:var(--faint); margin-left:8px; }
+    .gb-note { font-size:14px; color:var(--gray); margin-top:4px; line-height:1.5; }
+    .gb-form { border-top:1px solid var(--ink); padding:16px 22px 18px; }
+    .gb-form input, .gb-form textarea { display:block; width:100%; font-family:inherit; font-size:13px; color:var(--ink); background:transparent; border:0; border-bottom:1px solid var(--line); padding:8px 2px; outline:none; resize:none; }
+    .gb-form input:focus, .gb-form textarea:focus { border-bottom-color:var(--ink); }
+    .gb-form input::placeholder, .gb-form textarea::placeholder { color:var(--faint); }
+    .gb-send { margin-top:12px; font-family:inherit; font-size:13px; font-weight:600; background:var(--ink); color:var(--paper); border:1px solid var(--ink); padding:9px 18px; }
+    .gb-send:hover { background:var(--blue); border-color:var(--blue); }
+    .gb-hint { font-size:11px; color:var(--faint); margin-top:9px; }
 
     /* party mode — unlocked by scoring 10,000+ in Defend The Confluence */
     .party-dot { position:fixed; width:9px; height:9px; pointer-events:none; z-index:300; transform:translate(-50%,-50%); animation:partyfade .7s linear forwards; }
@@ -219,20 +242,20 @@
 <footer>
   <div class="wrap">
     <div class="foot-grid">
-      <a class="foot-card" href="mailto:bdholl@gmail.com?subject=The%20Confluence%20guestbook">
+      <a class="foot-card" id="gb-open">
         <div class="foot-card-label">Guestbook</div>
         <div class="foot-card-big">Sign the guestbook →</div>
-        <div class="foot-card-sub">Opens an email to us. Say hi, request a venue, tell us what show ruled.</div>
+        <div class="foot-card-sub">Share what show ruled, request a venue, say hi.</div>
       </a>
       <div class="foot-card" id="hits">
-        <div class="foot-card-label">Odometer</div>
+        <div class="foot-card-label">That's right. We brought back the counter.</div>
         <div class="hits-digits" id="hits-num" title="party mode toggle" onclick="window.__toggleParty()">——————</div>
         <div class="foot-card-sub">You are visitor. Welcome to the confluence.</div>
       </div>
     </div>
     <p class="foot-links">
       Missing a show? <a href="mailto:bdholl@gmail.com?subject=The%20Confluence%20—%20missing%20show">Tell us about it.</a> ·
-      <a href="confluence.ics" download>Subscribe — every show in your calendar (.ics)</a>
+      <a href="confluence.ics" download>Add our calendar to your Apple or Google Calendar</a>
     </p>
     <p><b>The Confluence</b> — Milwaukee live music.<br>
     Always confirm dates and times on the venue's page before heading out. &copy; 2026.</p>
@@ -244,6 +267,19 @@
     <button class="arcade-close" id="arcade-close">ESC · EXIT</button>
     <canvas id="arcade-canvas" width="420" height="560"></canvas>
     <div class="arcade-scan"></div>
+  </div>
+</div>
+
+<div id="gb-overlay" aria-hidden="true">
+  <div class="gb-panel">
+    <div class="gb-head"><div class="gb-title">Guestbook</div><button class="gb-close" id="gb-close">✕</button></div>
+    <div class="gb-stream" id="gb-stream"></div>
+    <div class="gb-form">
+      <input id="gb-name" type="text" placeholder="Your name" maxlength="40" autocomplete="off" />
+      <textarea id="gb-note" rows="3" placeholder="What show ruled? What venue are we missing? Say hi…" maxlength="500"></textarea>
+      <button class="gb-send" id="gb-send">Sign →</button>
+      <div class="gb-hint">Signing opens an email to us — new signatures get posted here.</div>
+    </div>
   </div>
 </div>
 
@@ -326,20 +362,31 @@ function buildTicker() {
   }
   const items = upcoming.filter(s => s.date === date);
   document.getElementById('ticker-label').textContent = label;
-  // sparse nights breathe: 1–2 shows get wide spacing, busy nights stay tight
-  const gapW = items.length <= 2 ? 150 : items.length <= 4 ? 70 : 26;
+  const gapW = items.length <= 4 ? 46 : 26;
   const gap = `<span style="display:inline-block;width:${gapW}px"></span>·<span style="display:inline-block;width:${gapW}px"></span>`;
-  document.getElementById('ticker-inner').innerHTML = items.map(s =>
-    `<span class="tk-t">${fmtTime(s.time)}</span> <b>${esc(s.title)}</b> — ${esc(s.venue)}`
-  ).join(gap);
-  document.getElementById('ticker').style.display = 'flex';
+  // one sequence, ended with a separator so repeats chain cleanly
+  const seq = items.map(s =>
+    `<span class="tk-t">${fmtTime(s.time)}</span>&nbsp;<b>${esc(s.title)}</b> — ${esc(s.venue)}`
+  ).join(gap) + gap;
+  const inner = document.getElementById('ticker-inner');
+  const tick = document.getElementById('ticker');
+  tick.style.display = 'flex';
+  // seamless loop: repeat the sequence until one half fills the viewport,
+  // render two identical halves, and scroll by exactly half
+  inner.innerHTML = `<span>${seq}</span>`;
+  const seqW = inner.scrollWidth || 600;
+  const need = Math.max(1, Math.ceil((tick.clientWidth * 1.15) / seqW));
+  const half = `<span>${seq.repeat(need)}</span>`;
+  inner.innerHTML = half + half;
+  inner.style.animationDuration = Math.max(18, Math.round((seqW * need) / 55)) + 's';
 }
 
 function buildFeatured() {
-  const cands = DATA.shows.filter(s => s.date >= TODAY && s.img);
+  // only shows within the next two weeks; the pick cycles every two weeks
+  const cutoff = (() => { const d = new Date(); d.setDate(d.getDate() + 14); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; })();
+  const cands = DATA.shows.filter(s => s.date >= TODAY && s.date <= cutoff && s.img);
   if (!cands.length) return;
-  // rotate deterministically: a new featured show each day, stable within a day
-  const pick = cands[Math.floor(Date.now() / 86400000) % cands.length];
+  const pick = cands[Math.floor(Date.now() / 86400000 / 14) % cands.length];
   const d = new Date(pick.date + 'T12:00:00');
   const card = document.getElementById('featured');
   card.href = pick.url;
@@ -350,6 +397,45 @@ function buildFeatured() {
     `${DAYS[d.getDay()].slice(0,3)} ${MONS[d.getMonth()]} ${d.getDate()} · ${pick.venue}`;
   card.classList.add('on');
 }
+
+/* Guestbook popup: a curated stream (guestbook.json, updated by us from
+   emailed signatures) plus a sign form that composes the email. */
+(function () {
+  const overlay = document.getElementById('gb-overlay');
+  const stream = document.getElementById('gb-stream');
+  let loaded = false;
+
+  function fmtGbDate(ds) {
+    const d = new Date(ds + 'T12:00:00');
+    return isNaN(d) ? '' : `${MONS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+  }
+  async function loadStream() {
+    if (loaded) return;
+    loaded = true;
+    try {
+      const res = await fetch('guestbook.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error();
+      const entries = await res.json();
+      stream.innerHTML = entries.slice().reverse().map(e => `<div class="gb-entry">
+          <span class="gb-who">${esc(e.name)}</span><span class="gb-when">${fmtGbDate(e.date)}</span>
+          <div class="gb-note">${esc(e.note)}</div>
+        </div>`).join('');
+    } catch (e) {
+      stream.innerHTML = '<div class="gb-entry"><div class="gb-note">Couldn’t load the guestbook — but you can still sign below.</div></div>';
+    }
+  }
+
+  document.getElementById('gb-open').addEventListener('click', () => { overlay.classList.add('on'); loadStream(); });
+  document.getElementById('gb-close').addEventListener('click', () => overlay.classList.remove('on'));
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.classList.remove('on'); });
+  document.getElementById('gb-send').addEventListener('click', () => {
+    const name = document.getElementById('gb-name').value.trim() || 'Anonymous';
+    const note = document.getElementById('gb-note').value.trim();
+    if (!note) { document.getElementById('gb-note').focus(); return; }
+    const body = encodeURIComponent(`Name: ${name}\n\n${note}`);
+    window.location.href = `mailto:bdholl@gmail.com?subject=${encodeURIComponent('The Confluence guestbook')}&body=${body}`;
+  });
+})();
 
 /* Party mode: rainbow cursor trail, earned by scoring 10,000+ in the arcade.
    Persists via localStorage; click the visitor counter to toggle it off/on. */
