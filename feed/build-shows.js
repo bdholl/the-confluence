@@ -1,0 +1,346 @@
+#!/usr/bin/env node
+/*
+ * The Confluence — show feed builder
+ * ----------------------------------
+ * Pulls real, upcoming Milwaukee live-music listings from public ticketing
+ * APIs, normalizes them to the app's schema, merges any hand-curated shows,
+ * dedupes, and writes ../shows.json (which the site fetches on load).
+ *
+ * Sources (each is OPTIONAL and skipped if its key isn't set):
+ *   • Ticketmaster Discovery API   env: TICKETMASTER_API_KEY   (free: developer.ticketmaster.com)
+ *   • SeatGeek Platform API        env: SEATGEEK_CLIENT_ID     (free: seatgeek.com/account/develop)
+ *
+ * Run:   TICKETMASTER_API_KEY=xxxx node feed/build-shows.js
+ * Safe by design: if every source fails or returns nothing, the existing
+ * shows.json is left untouched (never clobbered with an empty list).
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const ROOT = path.resolve(__dirname, '..');
+const OUT = path.join(ROOT, 'shows.json');
+const EXTRAS = path.join(__dirname, 'manual-extras.json');
+
+const DAYS_AHEAD = Number(process.env.FEED_DAYS_AHEAD || 120);
+// Milwaukee metro center + search radius (miles) — covers suburbs like Cudahy.
+const LAT = 43.0389, LON = -87.9065, RADIUS = 35;
+
+// ---------- normalization helpers ----------
+
+function ymd(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+function hm(t) { return t ? t.slice(0, 5) : '20:00'; } // "HH:MM"; default 8pm when unknown
+
+// Best-effort neighborhood by venue name (matched as a substring), else the
+// venue's city. Add venues here as you see them come through.
+const VENUE_HOODS = {
+  'x-ray arcade': 'Cudahy',
+  'rave': 'Westown', 'eagles club': 'Westown', 'eagles ballroom': 'Westown',
+  'turner hall': 'Westown', 'miller high life': 'Westown',
+  'pabst theater': 'Downtown', 'riverside theater': 'Downtown', 'bmo pavilion': 'Downtown',
+  'fiserv': 'Deer District', 'uline': 'Deer District', 'deer district': 'Deer District',
+  'cactus club': 'Bay View', 'cactus': 'Bay View',
+  'shank hall': 'East Side', 'vivarium': 'East Side',
+  'anodyne': "Walker's Point", 'cooperage': "Walker's Point",
+  'linneman': 'Riverwest', 'company brewing': 'Riverwest',
+  'american family insurance amphitheater': 'Lakefront', 'henry maier': 'Lakefront', 'summerfest': 'Lakefront',
+  'pabst': 'Downtown',
+};
+function hoodFor(venueName, city) {
+  const key = (venueName || '').toLowerCase();
+  for (const [frag, hood] of Object.entries(VENUE_HOODS)) if (key.includes(frag)) return hood;
+  return city || 'Milwaukee';
+}
+
+// Map a source's genre string onto one of the app's genre keys. Order matters:
+// more specific fragments are listed before broader ones.
+const GENRE_MAP = {
+  'metal': 'metal', 'hard rock': 'rock', 'punk': 'punk',
+  'alternative': 'indie', 'indie': 'indie', 'rock': 'rock',
+  'pop': 'pop', 'country': 'country', 'americana': 'folk', 'singer': 'folk', 'folk': 'folk',
+  'jazz': 'jazz', 'blues': 'blues',
+  'r&b': 'rnb', 'soul': 'rnb', 'rhythm': 'rnb',
+  'hip': 'hiphop', 'rap': 'hiphop',
+  'edm': 'electronic', 'house': 'electronic', 'dance': 'electronic', 'electronic': 'electronic',
+  'latin': 'latin', 'festival': 'festival',
+};
+function genreFor(raw) {
+  const g = (raw || '').toLowerCase();
+  for (const [frag, key] of Object.entries(GENRE_MAP)) if (g.includes(frag)) return key;
+  return 'other';
+}
+
+// Minimal geohash encoder — Ticketmaster's geoPoint param wants a geohash.
+function geohash(lat, lon, precision = 7) {
+  const base32 = '0123456789bcdefghjkmnpqrstuvwxyz';
+  let idx = 0, bit = 0, even = true, hash = '';
+  let latMin = -90, latMax = 90, lonMin = -180, lonMax = 180;
+  while (hash.length < precision) {
+    if (even) {
+      const mid = (lonMin + lonMax) / 2;
+      if (lon > mid) { idx = idx * 2 + 1; lonMin = mid; } else { idx = idx * 2; lonMax = mid; }
+    } else {
+      const mid = (latMin + latMax) / 2;
+      if (lat > mid) { idx = idx * 2 + 1; latMin = mid; } else { idx = idx * 2; latMax = mid; }
+    }
+    even = !even;
+    if (++bit === 5) { hash += base32[idx]; bit = 0; idx = 0; }
+  }
+  return hash;
+}
+
+// ---------- sources ----------
+
+// Milwaukee music venues we always check directly by Ticketmaster venue ID.
+// WHY: the geo search uses classificationName=music, but small-room shows
+// (booked via TicketWeb) are often left "Undefined" in TM's data and get
+// silently dropped. Querying by venueId without the classification filter
+// catches them. Venues at 0 events are harmless to keep — they light up
+// whenever they list something.
+const MKE_VENUES = {
+  'KovZpZAFAJeA': 'Shank Hall',
+  'KovZpZAFAJdA': 'The Rave / Eagles Club',
+  'KovZpZA1I6lA': 'Turner Hall Ballroom',
+  'KovZpZAal6EA': 'Pabst Theater',
+  'KovZ917ASYq': 'Vivarium',
+  'KovZpZAE66IA': 'Cactus Club',
+  'KovZpa8KXe': 'X-Ray Arcade',
+  'KovZpZAalInA': 'Miramar Theatre',
+  'KovZpZAdJEnA': 'Miller High Life Theatre',
+  'rZ7HnEZ173e3A': 'Milwaukee Improv (Main Room)',
+  'KovZ917AJ4Z': 'Milwaukee Improv',
+  'Z7r9jZaAKG': 'The Fitzgerald',
+  'rZ7HnEZ178O_4': "Linneman's Riverwest Inn",
+  'rZ7HnEZ17fyA4': 'The Back Room at Colectivo',
+  'Z7r9jZadMl': 'Anodyne Coffee',
+  'KovZ917AITZ': 'The Cooperage',
+};
+
+// Venue-pass keep rule: music, comedy, and untagged events stay; theatrical
+// productions and sports/film go. TM's comedy tagging is inconsistent —
+// usually segment "Arts & Theatre" + genre "Comedy", but sometimes genre
+// "Miscellaneous" (Leanne Morgan) or missing entirely (Seinfeld) — so we keep
+// all of Arts & Theatre EXCEPT explicitly theatrical genres.
+const THEATRICAL = new Set([
+  'Performance Art', 'Theatre', 'Ballet', 'Opera', 'Dance',
+  'Magic & Illusion', 'Circus & Specialty Acts', 'Puppetry', 'Spectacular',
+  "Children's Theatre", 'Fashion', 'Multimedia', 'Cultural',
+]);
+function keepEvent(segmentName, genreName) {
+  if (!segmentName || segmentName === 'Undefined') return true;
+  if (segmentName === 'Music' || segmentName === 'Comedy') return true;
+  if (segmentName === 'Arts & Theatre') return !THEATRICAL.has(genreName);
+  return false;
+}
+
+function tmEventToShow(e) {
+  const start = e.dates?.start || {};
+  const venue = e._embedded?.venues?.[0] || {};
+  const acts = e._embedded?.attractions || [];
+  const cls = e.classifications?.find(c => c.primary) || e.classifications?.[0] || {};
+  const seg = cls.segment?.name;
+  // Comedy: either its own segment, or an Arts & Theatre event that survived
+  // the keepEvent() theatrical filter (stand-up tours live there in TM data).
+  const isComedy = seg === 'Comedy' || seg === 'Arts & Theatre';
+  const gName = cls.genre?.name && cls.genre.name !== 'Undefined' ? cls.genre.name : (seg || '');
+  return {
+    date: start.localDate,
+    time: hm(start.localTime),
+    title: acts[0]?.name || e.name,
+    support: acts.slice(1).map(a => a.name).join(', ') || null,
+    venue: venue.name || 'TBA',
+    hood: hoodFor(venue.name, venue.city?.name),
+    genre: isComedy ? 'comedy' : genreFor(gName),
+    ticketer: 'Ticketmaster',
+    url: e.url,
+  };
+}
+
+async function fromTicketmasterVenues(startISO, endISO) {
+  const key = process.env.TICKETMASTER_API_KEY;
+  if (!key) return [];
+  const out = [];
+  for (const [venueId, label] of Object.entries(MKE_VENUES)) {
+    const u = new URL('https://app.ticketmaster.com/discovery/v2/events.json');
+    u.searchParams.set('apikey', key);
+    u.searchParams.set('venueId', venueId);
+    u.searchParams.set('startDateTime', startISO);
+    u.searchParams.set('endDateTime', endISO);
+    u.searchParams.set('size', '100');
+    u.searchParams.set('sort', 'date,asc');
+    try {
+      const res = await fetch(u);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      for (const e of (data._embedded?.events || [])) {
+        if (!e.dates?.start?.localDate) continue;
+        const cls0 = e.classifications?.[0] || {};
+        if (!keepEvent(cls0.segment?.name, cls0.genre?.name)) continue;
+        out.push(tmEventToShow(e));
+      }
+    } catch (err) {
+      console.warn(`  ! venue pass failed for ${label}: ${err.message}`);
+    }
+    await new Promise(r => setTimeout(r, 250)); // stay under TM's 5 req/s
+  }
+  console.log(`• Ticketmaster venue pass (${Object.keys(MKE_VENUES).length} venues): ${out.length} events`);
+  return out;
+}
+
+async function fromTicketmaster(startISO, endISO) {
+  const key = process.env.TICKETMASTER_API_KEY;
+  if (!key) { console.log('• Ticketmaster: no TICKETMASTER_API_KEY set — skipping'); return []; }
+  const out = [];
+  const gh = geohash(LAT, LON, 7);
+  let page = 0, totalPages = 1;
+  while (page < totalPages && page < 5) {
+    const u = new URL('https://app.ticketmaster.com/discovery/v2/events.json');
+    u.searchParams.set('apikey', key);
+    u.searchParams.set('classificationName', 'music');
+    u.searchParams.set('geoPoint', gh);
+    u.searchParams.set('radius', String(RADIUS));
+    u.searchParams.set('unit', 'miles');
+    u.searchParams.set('startDateTime', startISO);
+    u.searchParams.set('endDateTime', endISO);
+    u.searchParams.set('size', '200');
+    u.searchParams.set('sort', 'date,asc');
+    u.searchParams.set('page', String(page));
+    const res = await fetch(u);
+    if (!res.ok) throw new Error(`Ticketmaster HTTP ${res.status}`);
+    const data = await res.json();
+    totalPages = data.page?.totalPages ?? 1;
+    for (const e of (data._embedded?.events || [])) {
+      if (!e.dates?.start?.localDate) continue;
+      out.push(tmEventToShow(e));
+    }
+    page++;
+  }
+  console.log(`• Ticketmaster geo pass: ${out.length} events`);
+  return out;
+}
+
+async function fromSeatGeek(startD, endD) {
+  const id = process.env.SEATGEEK_CLIENT_ID;
+  if (!id) { console.log('• SeatGeek: no SEATGEEK_CLIENT_ID set — skipping'); return []; }
+  const out = [];
+  const per = 100;
+  let page = 1, total = Infinity;
+  while ((page - 1) * per < total && page <= 5) {
+    const u = new URL('https://api.seatgeek.com/2/events');
+    u.searchParams.set('client_id', id);
+    u.searchParams.set('lat', String(LAT));
+    u.searchParams.set('lon', String(LON));
+    u.searchParams.set('range', `${RADIUS}mi`);
+    u.searchParams.set('type', 'concert');
+    u.searchParams.set('datetime_local.gte', ymd(startD));
+    u.searchParams.set('datetime_local.lte', ymd(endD));
+    u.searchParams.set('per_page', String(per));
+    u.searchParams.set('page', String(page));
+    u.searchParams.set('sort', 'datetime_local.asc');
+    const res = await fetch(u);
+    if (!res.ok) throw new Error(`SeatGeek HTTP ${res.status}`);
+    const data = await res.json();
+    total = data.meta?.total ?? 0;
+    for (const e of (data.events || [])) {
+      const [date, time] = (e.datetime_local || '').split('T');
+      if (!date) continue;
+      const perfs = e.performers || [];
+      const head = perfs.find(p => p.primary) || perfs[0] || {};
+      out.push({
+        date,
+        time: hm(time),
+        title: head.name || e.short_title || e.title,
+        support: perfs.filter(p => !p.primary).map(p => p.name).slice(0, 4).join(', ') || null,
+        venue: e.venue?.name || 'TBA',
+        hood: hoodFor(e.venue?.name, e.venue?.city),
+        genre: genreFor(e.taxonomies?.[0]?.name || head.genres?.[0]?.name || ''),
+        ticketer: 'SeatGeek',
+        url: e.url,
+      });
+    }
+    page++;
+  }
+  console.log(`• SeatGeek: ${out.length} events`);
+  return out;
+}
+
+function loadExtras() {
+  try {
+    const arr = JSON.parse(fs.readFileSync(EXTRAS, 'utf8'));
+    const shows = Array.isArray(arr) ? arr : (arr.shows || []);
+    console.log(`• Manual extras: ${shows.length} shows`);
+    return shows;
+  } catch { return []; }
+}
+
+// Keep the page's built-in fallback list (used when it's opened as a local
+// file://, where fetch is blocked) in sync with the freshest data, so
+// double-clicking the HTML always shows current shows too.
+function updateEmbedded(payload) {
+  const htmlPath = path.join(ROOT, 'index.html');
+  let html;
+  try { html = fs.readFileSync(htmlPath, 'utf8'); } catch { return; }
+  const re = /(<script id="embedded-shows"[^>]*>)([\s\S]*?)(<\/script>)/;
+  if (!re.test(html)) return;
+  // Escape "<" so a stray "</script>" in any title can't break the tag.
+  const json = JSON.stringify(payload).replace(/</g, '\\u003c');
+  fs.writeFileSync(htmlPath, html.replace(re, `$1${json}$3`));
+  console.log('• Embedded fallback in HTML refreshed');
+}
+
+function dedupe(shows) {
+  const seen = new Map();
+  for (const s of shows) {
+    // time is part of the key so a comedy club's 7:00 + 9:45 double-header
+    // survives, while TM's duplicate records (same event, same time, listed
+    // twice with different classifications) still collapse.
+    const k = `${s.date}|${s.time}|${(s.title || '').toLowerCase().trim()}|${(s.venue || '').toLowerCase().trim()}`;
+    if (!seen.has(k)) seen.set(k, s);
+  }
+  return [...seen.values()];
+}
+
+async function main() {
+  const now = new Date();
+  const end = new Date(now); end.setDate(end.getDate() + DAYS_AHEAD);
+  const startISO = now.toISOString().slice(0, 19) + 'Z';
+  const endISO = end.toISOString().slice(0, 19) + 'Z';
+
+  const results = await Promise.allSettled([
+    fromTicketmaster(startISO, endISO),
+    fromTicketmasterVenues(startISO, endISO),
+    fromSeatGeek(now, end),
+  ]);
+
+  let shows = [];
+  for (const r of results) {
+    if (r.status === 'fulfilled') shows.push(...r.value);
+    else console.warn('  ! source failed:', r.reason?.message || r.reason);
+  }
+  shows.push(...loadExtras());
+
+  const todayStr = ymd(now);
+  shows = shows.filter(s => s.date && s.title && s.url && s.date >= todayStr);
+  shows = dedupe(shows).sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+
+  if (!shows.length) {
+    console.error('✗ No shows fetched from any source — leaving existing shows.json untouched.');
+    process.exit(1);
+  }
+
+  const payload = { updated: todayStr, shows };
+  fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
+  updateEmbedded(payload);
+  const days = new Set(shows.map(s => s.date)).size;
+  console.log(`\n✓ Wrote ${shows.length} shows across ${days} days to shows.json (updated ${todayStr})`);
+}
+
+// Run only when invoked directly (`node feed/build-shows.js`), so the pure
+// helpers above can be imported by the test suite without hitting the network.
+if (require.main === module) {
+  main().catch(e => { console.error('Build failed:', e); process.exit(1); });
+}
+
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, keepEvent, tmEventToShow, GENRE_MAP, VENUE_HOODS, MKE_VENUES };

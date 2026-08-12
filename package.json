@@ -1,0 +1,10 @@
+{
+  "name": "the-confluence",
+  "version": "1.0.0",
+  "description": "Milwaukee live-music calendar — static site + ticketing-API feed builder",
+  "private": true,
+  "scripts": {
+    "build-feed": "node feed/build-shows.js",
+    "test": "node --test"
+  }
+}

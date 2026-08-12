@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Confluence — Milwaukee Live Music</title>
+  <meta name="description" content="Every live music show in Milwaukee, updated daily. A plain, complete listing — browse by day, genre, or search." />
+  <link rel="canonical" href="https://mkemusical.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="The Confluence — Milwaukee Live Music" />
+  <meta property="og:description" content="Every live music show in Milwaukee, updated daily." />
+  <meta property="og:site_name" content="The Confluence" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23111111'/><rect x='26' y='42' width='10' height='32' fill='white'/><rect x='45' y='30' width='10' height='44' fill='white'/><rect x='64' y='50' width='10' height='24' fill='white'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root {
+      --paper:#fdfcf8;   /* barely-there cream */
+      --ink:#111111;
+      --gray:#6f6f6f;
+      --faint:#9a9a9a;
+      --line:#e7e7e3;
+      --blue:#0168FB;
+      --wrap:880px;
+    }
+    html { -webkit-text-size-adjust:100%; }
+    /* IBM Plex Sans = small/utility text; Space Grotesk = artist names; Instrument Serif = wordmark */
+    body { font-family:'IBM Plex Sans',system-ui,sans-serif; background:var(--paper); color:var(--ink); font-size:16px; line-height:1.5; -webkit-font-smoothing:antialiased;
+      /* retro chunky arrow cursor (falls back to the OS cursor where unsupported) */
+      cursor:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M4 2 L4 18 L8.5 14 L11 20 L14 18.8 L11.4 13 L16 13 Z" fill="%23111111" stroke="%23ffffff" stroke-width="1.6" paint-order="stroke" shape-rendering="crispEdges"/></svg>') 4 2, auto; }
+    /* clickables get the same arrow in blue */
+    a, button, select, .row { cursor:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M4 2 L4 18 L8.5 14 L11 20 L14 18.8 L11.4 13 L16 13 Z" fill="%230168FB" stroke="%23ffffff" stroke-width="1.6" paint-order="stroke" shape-rendering="crispEdges"/></svg>') 4 2, pointer; }
+    .wrap { max-width:var(--wrap); margin:0 auto; padding:0 28px; }
+    a { color:inherit; }
+
+    /* ---------- masthead ---------- */
+    .mast { padding:88px 0 34px; border-bottom:1px solid var(--ink); }
+    .wordmark { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(46px,7vw,72px); line-height:.98; letter-spacing:-.01em; }
+    /* Brian's handwritten wordmark drops in here (replaces the serif text) */
+    .wordmark-img { display:block; width:auto; max-width:min(440px,86vw); height:auto; }
+    .mast-desc { margin-top:18px; font-size:15px; color:var(--gray); max-width:52ch; }
+
+    /* ---------- toolbar ---------- */
+    .toolbar { position:sticky; top:0; z-index:20; background:var(--paper); border-bottom:1px solid var(--line); }
+    .toolbar-inner { display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; padding:12px 28px; }
+    .tabs { display:flex; }
+    .tab { font-family:inherit; font-size:13px; letter-spacing:.01em; background:none; border:0; border-bottom:2px solid transparent; color:var(--gray); padding:6px 0; margin-right:22px; cursor:pointer; transition:color .12s; }
+    .tab:last-child { margin-right:0; }
+    .tab:hover { color:var(--ink); }
+    .tab.active { color:var(--ink); border-bottom-color:var(--ink); }
+    .tools { display:flex; align-items:center; gap:18px; }
+    .select, .search { font-family:inherit; font-size:13px; color:var(--ink); background:transparent; border:0; border-bottom:1px solid var(--line); padding:6px 2px; outline:none; }
+    .select { cursor:pointer; }
+    .search { width:170px; }
+    .search::placeholder { color:var(--faint); }
+    .select:focus, .search:focus { border-bottom-color:var(--ink); }
+
+    /* ---------- list ---------- */
+    main { padding:8px 0 90px; min-height:50vh; }
+    .day { display:flex; align-items:baseline; justify-content:space-between; gap:16px; padding:40px 18px 11px; margin:0 -18px; border-bottom:1px solid var(--ink); }
+    .day:first-child { padding-top:30px; }
+    .day-name { font-size:13px; font-weight:600; letter-spacing:.13em; text-transform:uppercase; color:var(--blue); }
+    .day-today { display:inline-block; margin-left:10px; background:var(--blue); color:var(--paper); font-size:10px; font-weight:600; letter-spacing:.14em; padding:3px 7px 2px; vertical-align:middle; }
+    .day-count { font-size:12px; color:var(--faint); letter-spacing:.02em; white-space:nowrap; font-variant-numeric:tabular-nums; }
+
+    .row { display:grid; grid-template-columns:84px 1fr auto; gap:22px; align-items:baseline; padding:15px 18px; margin:0 -18px; border-bottom:1px solid var(--line); text-decoration:none; color:inherit; }
+    .row:hover { background:#f6f3ea; }
+    .row-time { font-size:13px; color:var(--gray); font-variant-numeric:tabular-nums; white-space:nowrap; padding-left:2px; }
+    .row-artist { font-family:'Space Grotesk',system-ui,sans-serif; font-size:19px; font-weight:500; line-height:1.28; letter-spacing:-.005em; }
+    .row:hover .row-artist { text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px; }
+    .row-sub { font-size:14px; color:var(--gray); margin-top:3px; }
+    .row-genre { font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--faint); white-space:nowrap; padding-top:3px; }
+
+    /* sponsor slot — one per page, after the first day group */
+    .sponsor { display:flex; align-items:baseline; gap:14px; border:1px solid var(--ink); padding:15px 18px; margin:36px -18px 0; font-size:14px; color:var(--gray); }
+    .sponsor-label { flex:none; font-size:10px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--faint); }
+    .sponsor a { color:var(--blue); text-decoration:none; }
+    .sponsor a:hover { text-decoration:underline; text-underline-offset:3px; }
+    .sponsor b { color:var(--ink); font-weight:600; }
+
+    .empty { padding:80px 0; text-align:center; color:var(--gray); }
+    .empty b { display:block; font-family:'Instrument Serif',Georgia,serif; font-size:30px; color:var(--ink); font-weight:400; margin-bottom:8px; }
+
+    /* ---------- footer ---------- */
+    footer { border-top:1px solid var(--ink); padding:30px 0 60px; }
+    .missing { font-size:14px; color:var(--ink); margin-bottom:18px; }
+    .missing a { text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px; }
+    .missing a:hover { color:var(--gray); }
+    footer p { font-size:12.5px; color:var(--faint); line-height:1.7; }
+    footer b { color:var(--gray); font-weight:600; }
+
+    /* ---------- Y2K corner: arcade + radio (self-contained; main design untouched) ---------- */
+    .y2k { font-size:13px; color:var(--gray); margin-bottom:18px; }
+    .y2k a { color:var(--blue); text-decoration:none; }
+    .y2k a:hover { text-decoration:underline; text-underline-offset:3px; }
+
+    #arcade-overlay { position:fixed; inset:0; background:rgba(5,7,13,.93); z-index:200; display:none; align-items:center; justify-content:center; }
+    #arcade-overlay.on { display:flex; }
+    .arcade-frame { position:relative; border:1px solid #2a3350; box-shadow:0 0 70px rgba(1,104,251,.3); }
+    #arcade-canvas { display:block; background:#05070d; }
+    .arcade-scan { position:absolute; inset:0; pointer-events:none; background:repeating-linear-gradient(0deg, rgba(255,255,255,.035) 0 1px, transparent 1px 3px); }
+    .arcade-close { position:absolute; top:-36px; right:0; background:none; border:1px solid #3a4568; color:#aab6da; font:12px 'IBM Plex Sans',sans-serif; letter-spacing:.1em; padding:5px 12px; }
+    .arcade-close:hover { border-color:#aab6da; color:#fff; }
+
+    #radio-dock { position:fixed; right:18px; bottom:18px; z-index:150; background:var(--paper); border:1px solid var(--ink); padding:11px 13px; width:280px; display:none; font-size:12px; box-shadow:4px 4px 0 rgba(17,17,17,.12); }
+    #radio-dock.on { display:block; }
+    .radio-head { display:flex; align-items:center; gap:7px; font-weight:600; letter-spacing:.12em; font-size:10px; text-transform:uppercase; }
+    .onair { width:8px; height:8px; border-radius:50%; background:#e03131; animation:blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity:.2; } }
+    .radio-head .off-btn { margin-left:auto; background:none; border:0; color:var(--faint); font-size:13px; }
+    .radio-head .off-btn:hover { color:var(--ink); }
+    .radio-track { margin-top:7px; overflow:hidden; white-space:nowrap; font-weight:600; font-size:13px; }
+    .radio-track span { display:inline-block; padding-left:0; }
+    .radio-track.scroll span { animation:marquee 11s linear infinite; padding-left:100%; }
+    @keyframes marquee { to { transform:translateX(-100%); } }
+    .radio-sub { color:var(--gray); font-size:11.5px; margin-top:3px; }
+    .radio-sub a { color:var(--blue); text-decoration:none; }
+    .radio-sub a:hover { text-decoration:underline; }
+    .radio-btns { margin-top:9px; display:flex; gap:6px; align-items:center; }
+    .radio-btns button { font:11px 'IBM Plex Sans',sans-serif; letter-spacing:.06em; border:1px solid var(--line); background:none; color:var(--ink); padding:4px 10px; }
+    .radio-btns button:hover { border-color:var(--blue); color:var(--blue); }
+    .radio-note { margin-left:auto; color:var(--faint); font-size:10px; }
+
+    @media (max-width:560px) {
+      .mast { padding:56px 0 26px; }
+      .row { grid-template-columns:70px 1fr; gap:14px; }
+      .row-genre { display:none; }
+      .tools { gap:12px; }
+      .search { width:130px; }
+      #radio-dock { right:12px; bottom:12px; width:calc(100vw - 24px); }
+    }
+  </style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <h1 class="wordmark">The Confluence</h1>
+    <!-- Handwriting swap: replace the <h1> above with your scan, e.g.
+         <h1 class="wordmark"><img class="wordmark-img" src="confluence-hand.svg" alt="The Confluence"></h1> -->
+    <p class="mast-desc">Live music calendar for Milwaukee.</p>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <div class="tabs" id="when-tabs">
+      <button class="tab active" data-when="all">All upcoming</button>
+      <button class="tab" data-when="today">Today</button>
+      <button class="tab" data-when="weekend">This weekend</button>
+    </div>
+    <div class="tools">
+      <select class="select" id="genre-select" aria-label="Filter by genre"></select>
+      <input class="search" id="search" type="search" placeholder="Search" autocomplete="off" aria-label="Search shows" />
+    </div>
+  </div>
+</div>
+
+<main>
+  <div class="wrap"><div id="list"></div></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="missing">Missing a show? <a href="mailto:bdholl@gmail.com?subject=The%20Confluence%20—%20missing%20show">Tell us about it.</a></p>
+    <p class="y2k">Y2K corner: <a id="open-arcade">Play Confluence Defender ▸</a> &nbsp;·&nbsp; <a id="radio-toggle">Turn on Confluence Radio ♪</a></p>
+    <p><b>The Confluence</b> — Milwaukee live music.<br>
+    Always confirm dates and times on the venue's page before heading out. &copy; 2026.</p>
+  </div>
+</footer>
+
+<div id="arcade-overlay" aria-hidden="true">
+  <div class="arcade-frame">
+    <button class="arcade-close" id="arcade-close">ESC · EXIT</button>
+    <canvas id="arcade-canvas" width="420" height="560"></canvas>
+    <div class="arcade-scan"></div>
+  </div>
+</div>
+
+<div id="radio-dock" aria-hidden="true">
+  <div class="radio-head"><span class="onair"></span> Confluence Radio <button class="off-btn" id="radio-off" title="Turn off">✕</button></div>
+  <div class="radio-track" id="radio-track"><span>Tuning…</span></div>
+  <div class="radio-sub" id="radio-sub"></div>
+  <div class="radio-btns">
+    <button id="radio-play">Pause</button>
+    <button id="radio-skip">Skip ▸</button>
+    <span class="radio-note">30s previews · Apple</span>
+  </div>
+</div>
+
+<script id="embedded-shows" type="application/json">{"updated":"2026-08-12","shows":[{"date":"2026-08-12","time":"20:00","title":"Micky and the Motorcars","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/micky-and-the-motorcars-shank-hall-tickets/14127744"},{"date":"2026-08-13","time":"18:45","title":"Five Finger Death Punch","support":"Cody Jinks, Eva Under Fire","venue":"American Family Insurance Amphitheater - Summerfest Grounds","hood":"Lakefront","genre":"metal","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/five-finger-death-punch-milwaukee-wisconsin-08-13-2026/event/07006428B4BA5338"},{"date":"2026-08-13","time":"19:00","title":"Jennifer Lyn and the Groove Revival","support":null,"venue":"Peck Pavilion Marcus Center","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/jennifer-lyn-the-groove-revival-electric-milwaukee-wisconsin-08-13-2026/event/0700646CB1D4661C"},{"date":"2026-08-13","time":"19:00","title":"Matt Fulchiron","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/matt-fulchiron-milwaukee-improv-main-room-tickets/14750263"},{"date":"2026-08-13","time":"19:30","title":"The All-American Rejects","support":null,"venue":"Wisconsin State Fair","hood":"Milwaukee","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7OsQa"},{"date":"2026-08-13","time":"20:00","title":"Emily Nenni","support":null,"venue":"Shank Hall","hood":"East Side","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/emily-nenni-shank-hall-tickets/14201564"},{"date":"2026-08-14","time":"19:00","title":"Usama Siddiquee","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930273"},{"date":"2026-08-14","time":"19:30","title":"Lindsey Stirling","support":null,"venue":"Wisconsin State Fair","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7-k0Y"},{"date":"2026-08-14","time":"20:00","title":"Modest Mouse","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7-I4O"},{"date":"2026-08-14","time":"20:00","title":"Dogs In A Pile","support":null,"venue":"Turner Hall Ballroom","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70_-a"},{"date":"2026-08-14","time":"20:00","title":"Big Time / Signify","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/big-time-signify-shank-hall-tickets/14854143"},{"date":"2026-08-14","time":"20:00","title":"Banda El Recodo","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7088U"},{"date":"2026-08-14","time":"21:15","title":"Usama Siddiquee","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930293"},{"date":"2026-08-15","time":"18:30","title":"Usama Siddiquee","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930303"},{"date":"2026-08-15","time":"19:00","title":"Healing Gems","support":null,"venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvt"},{"date":"2026-08-15","time":"19:30","title":"Nonpoint","support":"Spineshank, (Hed) P.E.","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70Yvb"},{"date":"2026-08-15","time":"19:30","title":"AJR","support":"Em Beihold","venue":"Wisconsin State Fair","hood":"Milwaukee","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A707AS"},{"date":"2026-08-15","time":"19:30","title":"Poke-RAVE","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PM73"},{"date":"2026-08-15","time":"20:00","title":"Tori Amos","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7OPb4"},{"date":"2026-08-15","time":"20:00","title":"Eric Johanson","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/eric-johanson-shank-hall-tickets/14915823"},{"date":"2026-08-15","time":"20:00","title":"From Playbill To Punchlines","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70x3b"},{"date":"2026-08-15","time":"21:00","title":"Clarent","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PM7k"},{"date":"2026-08-15","time":"21:00","title":"Usama Siddiquee","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930283"},{"date":"2026-08-15","time":"22:30","title":"DJ Slugo","support":null,"venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvs"},{"date":"2026-08-16","time":"19:30","title":"Bryan Adams","support":"Pat Benatar & Neil Giraldo","venue":"Fiserv Forum","hood":"Deer District","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/bryan-adams-roll-with-the-punches-milwaukee-wisconsin-08-16-2026/event/0700647096E12C4A"},{"date":"2026-08-18","time":"19:00","title":"Empire of the Sun","support":"Polo & Pan, Midnight Generation","venue":"BMO Pavilion","hood":"Downtown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/empire-of-the-sun-ask-that-milwaukee-wisconsin-08-18-2026/event/07006465DEA99891"},{"date":"2026-08-18","time":"19:00","title":"Theory of a Deadman","support":"Sevendust","venue":"The Rave-Eagles Club","hood":"Westown","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PM7K"},{"date":"2026-08-19","time":"19:00","title":"Jerry Wayne Longmire","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/jerry-wayne-longmire-milwaukee-improv-main-room-tickets/14854753"},{"date":"2026-08-20","time":"19:00","title":"Trixx","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/trixx-milwaukee-improv-main-room-tickets/14973693"},{"date":"2026-08-20","time":"19:30","title":"Gladys Knight","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"rnb","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70_Ox"},{"date":"2026-08-20","time":"20:00","title":"Scattered Hamlet","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/scattered-hamlet-shank-hall-tickets/14854343"},{"date":"2026-08-21","time":"15:30","title":"Outlaw Music Festival","support":"Willie Nelson, The Avett Brothers, Lukas Nelson, Stephen Wilson Jr., Sierra Hull, Don Was","venue":"Alpine Valley Music Theatre","hood":"East Troy","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/outlaw-festival-willie-nelson-avett-brothers-east-troy-wisconsin-08-21-2026/event/07006472F746A0D5"},{"date":"2026-08-21","time":"18:00","title":"Fresh Coast Jazz Festival","support":"Spyro Gyra, Kandace Springs, Eric Essix","venue":"Pabst Theater","hood":"Downtown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7qdqz"},{"date":"2026-08-21","time":"18:00","title":"Powerman 5000","support":null,"venue":"Route 20","hood":"Sturtevant","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/powerman-5000-route-20-tickets/14796893?REFERRAL_ID=tmfeed"},{"date":"2026-08-21","time":"19:00","title":"Eddie Griffin","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016733"},{"date":"2026-08-21","time":"20:00","title":"The Black Moods","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/the-black-moods-shank-hall-tickets/14223754"},{"date":"2026-08-21","time":"20:00","title":"Rio Da Yung Og","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70xqa"},{"date":"2026-08-21","time":"21:30","title":"Eddie Griffin","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016763"},{"date":"2026-08-22","time":"17:00","title":"Fresh Coast Jazz Festival","support":"Jonathan Butler, Jarrod Lawson, Marqueal Jordan","venue":"Pabst Theater","hood":"Downtown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7qdqy"},{"date":"2026-08-22","time":"18:30","title":"Eddie Griffin","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016743"},{"date":"2026-08-22","time":"19:00","title":"Tim McGraw","support":"49 Winchester","venue":"Alpine Valley Music Theatre","hood":"East Troy","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/tim-mcgraw-pawn-shop-guitar-tour-east-troy-wisconsin-08-22-2026/event/0700643DC04472D9"},{"date":"2026-08-22","time":"20:00","title":"Rap J And Friends","support":null,"venue":"Shank Hall","hood":"East Side","genre":"hiphop","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/rap-j-and-friends-shank-hall-tickets/14160064"},{"date":"2026-08-22","time":"20:30","title":"Next Level K-Pop","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JFAw"},{"date":"2026-08-22","time":"21:00","title":"Eddie Griffin","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016753"},{"date":"2026-08-23","time":"13:00","title":"Golden Girls Drag Brunch","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/golden-girls-drag-brunch-milwaukee-improv-main-room-tickets/14245484"},{"date":"2026-08-23","time":"20:00","title":"BELLES","support":null,"venue":"Shank Hall","hood":"East Side","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/belles-shank-hall-tickets/14229354"},{"date":"2026-08-25","time":"20:00","title":"Paul Cauthen","support":"Ben Chapman","venue":"Turner Hall Ballroom","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PSGe"},{"date":"2026-08-25","time":"20:00","title":" clovers daughter","support":null,"venue":"Shank Hall","hood":"East Side","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/-clovers-daughter-shank-hall-tickets/14207954"},{"date":"2026-08-25","time":"20:00","title":"Jay Webb","support":"Caitlynne Curtis","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PM74"},{"date":"2026-08-26","time":"19:00","title":"DevilDriver","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pz74"},{"date":"2026-08-26","time":"19:30","title":"RÜFÜS DU SOL","support":"Ben Böhmer","venue":"American Family Insurance Amphitheater - Summerfest Grounds","hood":"Lakefront","genre":"electronic","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/rufus-du-sol-north-america-2026-milwaukee-wisconsin-08-26-2026/event/0700644F091BD764"},{"date":"2026-08-26","time":"20:00","title":"Todd Rundgren","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A703pA"},{"date":"2026-08-27","time":"20:00","title":"  Alexandr Misko","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/-alexandr-misko-shank-hall-tickets/14244564"},{"date":"2026-08-27","time":"20:00","title":"LUCKI","support":"Sk8star","venue":"The Rave-Eagles Club","hood":"Westown","genre":"hiphop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70gGS"},{"date":"2026-08-28","time":"18:00","title":"Trap Karaoke","support":null,"venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"hiphop","ticketer":"Ticketmaster","url":"https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster"},{"date":"2026-08-28","time":"19:00","title":"Ian Fidance","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975403"},{"date":"2026-08-28","time":"20:00","title":"Chayanne","support":null,"venue":"Fiserv Forum","hood":"Deer District","genre":"latin","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-milwaukee-wisconsin-08-28-2026/event/07006462F69B84AC"},{"date":"2026-08-28","time":"20:00","title":"Trish Toledo","support":null,"venue":"Vivarium","hood":"East Side","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JKFY"},{"date":"2026-08-28","time":"20:00","title":"The Sadies","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/the-sadies-shank-hall-tickets/14213214"},{"date":"2026-08-28","time":"21:15","title":"Ian Fidance","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975433"},{"date":"2026-08-29","time":"18:30","title":"Ian Fidance","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975413"},{"date":"2026-08-29","time":"20:00","title":"Sierra Ferrell","support":"The Brudi Brothers","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/sierra-ferrell-heavy-petal-tour-milwaukee-wisconsin-08-29-2026/event/0700643DB2306971"},{"date":"2026-08-29","time":"20:00","title":"Ellis Bullard","support":null,"venue":"Shank Hall","hood":"East Side","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/ellis-bullard-shank-hall-tickets/14169684"},{"date":"2026-08-29","time":"21:00","title":"Ian Fidance","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975423"},{"date":"2026-08-30","time":"15:00","title":"Pinky Patel","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/pinky-patel-milwaukee-improv-main-room-tickets/14972573"},{"date":"2026-08-30","time":"18:00","title":"T. Murph","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/t-murph-milwaukee-improv-main-room-tickets/14924993"},{"date":"2026-08-30","time":"19:30","title":"Thee Phantom & Illharmonic Orchestra","support":null,"venue":"Uihlein Hall Marcus Center","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/thee-phantom-illharmonic-orchestra-milwaukee-wisconsin-08-30-2026/event/070064BAA32D34A6"},{"date":"2026-08-30","time":"19:30","title":"ILUKA","support":null,"venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvw"},{"date":"2026-08-30","time":"20:00","title":"Sunny Sweeney","support":null,"venue":"Shank Hall","hood":"East Side","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/sunny-sweeney-shank-hall-tickets/14886783"},{"date":"2026-09-01","time":"20:00","title":"Isaiah Rashad","support":"Alemeda","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"hiphop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/isaiah-rashad-lil-sunnys-awful-road-milwaukee-wisconsin-09-01-2026/event/070064CBAE03440C"},{"date":"2026-09-01","time":"20:00","title":"3Quency","support":"Lucy","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70Zbw"},{"date":"2026-09-02","time":"19:00","title":"Michael Loftus","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/michael-loftus-milwaukee-improv-main-room-tickets/14975583"},{"date":"2026-09-03","time":"18:35","title":"Black Veil Brides","support":"Caskets","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70_A8"},{"date":"2026-09-03","time":"19:30","title":"Happy Together Tour","support":null,"venue":"Uihlein Hall Marcus Center","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/happy-together-tour-milwaukee-wisconsin-09-03-2026/event/0700647996FC40B7"},{"date":"2026-09-04","time":"19:00","title":"Will Burkart","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978203"},{"date":"2026-09-04","time":"19:30","title":"Brad Paisley","support":"Jake Worthington, Laci Kaye Booth","venue":"BMO Pavilion","hood":"Downtown","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/brad-paisley-live-milwaukee-wisconsin-09-04-2026/event/070064A6A972640E"},{"date":"2026-09-04","time":"21:15","title":"Will Burkart","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978223"},{"date":"2026-09-05","time":"18:30","title":"Will Burkart","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978233"},{"date":"2026-09-05","time":"19:00","title":"Chad Gray","support":"Butcher Babies","venue":"The Rave-Eagles Club","hood":"Westown","genre":"metal","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pz7M"},{"date":"2026-09-05","time":"20:00","title":"Dermot Kennedy","support":"Hunter Metts","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-milwaukee-wisconsin-09-05-2026/event/07006474B18B5FD3"},{"date":"2026-09-05","time":"21:00","title":"Will Burkart","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978213"},{"date":"2026-09-06","time":"16:45","title":"Hatebreed","support":"Terror","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PzAZ"},{"date":"2026-09-06","time":"20:00","title":"The Wallflowers","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70-49"},{"date":"2026-09-09","time":"19:00","title":"Nick Murphy","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/nick-murphy-milwaukee-improv-main-room-tickets/14250064"},{"date":"2026-09-09","time":"19:30","title":"Turnstile","support":"Texas Is the Reason","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Ps4a"},{"date":"2026-09-10","time":"19:00","title":"Michael Turner","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/michael-turner-milwaukee-improv-main-room-tickets/13977514"},{"date":"2026-09-10","time":"20:00","title":"American Aquarium","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PzA7"},{"date":"2026-09-10","time":"20:00","title":"Jonathan Van Ness","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70-40"},{"date":"2026-09-11","time":"19:00","title":"Sam Tallent","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793113"},{"date":"2026-09-11","time":"19:30","title":"Kacey Musgraves","support":"Midland","venue":"Fiserv Forum","hood":"Deer District","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-milwaukee-wisconsin-09-11-2026/event/0700649692DE2D82"},{"date":"2026-09-11","time":"20:00","title":"U2Zoo","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/u2zoo-shank-hall-tickets/14272554"},{"date":"2026-09-11","time":"20:00","title":"The Knocks","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PzAa"},{"date":"2026-09-11","time":"21:15","title":"Sam Tallent","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793133"},{"date":"2026-09-12","time":"18:30","title":"Sam Tallent","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793143"},{"date":"2026-09-12","time":"19:00","title":"Brenn!","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A703bO"},{"date":"2026-09-12","time":"19:00","title":"Derrick Stroup","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70-4I"},{"date":"2026-09-12","time":"20:00","title":"Mindy Smith","support":null,"venue":"Shank Hall","hood":"East Side","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/mindy-smith-shank-hall-tickets/14666183"},{"date":"2026-09-12","time":"20:00","title":"LP","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70kGF"},{"date":"2026-09-12","time":"20:00","title":"Pitbull","support":"Lil Jon","venue":"Alpine Valley Music Theatre","hood":"East Troy","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/pitbull-im-back-with-special-guest-east-troy-wisconsin-09-12-2026/event/07006391049B8E02"},{"date":"2026-09-12","time":"21:00","title":"Sam Tallent","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793153"},{"date":"2026-09-13","time":"13:00","title":"Jane Don’t Does America","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/jane-dont-does-america-milwaukee-improv-main-room-tickets/14867183"},{"date":"2026-09-13","time":"18:00","title":"Sam Tallent","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793123"},{"date":"2026-09-13","time":"19:30","title":"Madeleine Peyroux","support":null,"venue":"Wilson Theater at Vogel Hall","hood":"Milwaukee","genre":"jazz","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/madeleine-peyroux-milwaukee-wisconsin-09-13-2026/event/070064A890842EE4"},{"date":"2026-09-13","time":"19:30","title":"Eric Clapton","support":"Jimmie Vaughan","venue":"Fiserv Forum","hood":"Deer District","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/eric-clapton-milwaukee-wisconsin-09-13-2026/event/0700645BAAF26DB5"},{"date":"2026-09-13","time":"20:00","title":"Bikini Kill","support":null,"venue":"Turner Hall Ballroom","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7OV0z"},{"date":"2026-09-13","time":"20:00","title":"Punch Brothers","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70-4w"},{"date":"2026-09-13","time":"20:00","title":"Raq Baby","support":null,"venue":"Vivarium","hood":"East Side","genre":"hiphop","ticketer":"Ticketmaster","url":"https://www.pabsttheatergroup.com/events/detail/raq-baby-2026"},{"date":"2026-09-13","time":"20:00","title":"Peaches","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PzA8"},{"date":"2026-09-15","time":"19:00","title":"Bilmuri","support":"Knuckle Puck, Novelists","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/bilmuri-kinda-hard-tour-milwaukee-wisconsin-09-15-2026/event/070064449A543D38"},{"date":"2026-09-15","time":"19:00","title":"Kamelot","support":"Visions of Atlantis","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PzAo"},{"date":"2026-09-15","time":"20:00","title":"Roger Daltrey","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70_og"},{"date":"2026-09-15","time":"20:00","title":"Slayr","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Ps4M"},{"date":"2026-09-16","time":"19:00","title":"Bear Ghost","support":null,"venue":"X-Ray Arcade","hood":"Cudahy","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pdpd"},{"date":"2026-09-16","time":"19:00","title":"Mark Paul: The Daddy Ball Tour","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/mark-paul-the-daddy-ball-milwaukee-improv-main-room-tickets/14109834"},{"date":"2026-09-16","time":"20:00","title":"Joe Jordan","support":null,"venue":"Shank Hall","hood":"East Side","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/joe-jordan-shank-hall-tickets/14211664"},{"date":"2026-09-16","time":"20:00","title":"Violet Grohl","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PdGv"},{"date":"2026-09-17","time":"19:00","title":"ALOK","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/alok-eat-pray-leave-tour-milwaukee-improv-main-room-tickets/14883953"},{"date":"2026-09-17","time":"20:00","title":"Kevin Smith","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70-4V"},{"date":"2026-09-18","time":"18:30","title":"$UICIDEBOY$","support":"Destroy Lonely, Shakewell, Drain, Black Kray, $lim Gucci","venue":"American Family Insurance Amphitheater - Summerfest Grounds","hood":"Lakefront","genre":"hiphop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-milwaukee-wisconsin-09-18-2026/event/0700647EC340520E"},{"date":"2026-09-18","time":"19:00","title":"Tommy Davidson","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977193"},{"date":"2026-09-18","time":"20:00","title":"YYNOT Tribute to RUSH","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/yynot-tribute-to-rush-shank-hall-tickets/14914733"},{"date":"2026-09-18","time":"20:00","title":"underscores","support":"Umru","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70tqv"},{"date":"2026-09-18","time":"20:00","title":"Niko Moon","support":"Blake Proehl","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JZaZ"},{"date":"2026-09-18","time":"20:00","title":"Steve Aoki","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"electronic","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZvJo"},{"date":"2026-09-18","time":"20:00","title":"Niko Moon","support":null,"venue":"Eagles Club/The Rave/Eagles Ballroom","hood":"Westown","genre":"country","ticketer":"Ticketmaster","url":"https://www.vipnation.com/tour_date/niko-moon-milwaukee-wi-09-18-2026"},{"date":"2026-09-18","time":"20:00","title":"Small Town Murder Podcast","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70-4g"},{"date":"2026-09-18","time":"21:15","title":"Tommy Davidson","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977223"},{"date":"2026-09-19","time":"18:30","title":"Tommy Davidson","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977203"},{"date":"2026-09-19","time":"20:00","title":"Gable Price And Friends","support":null,"venue":"Vivarium","hood":"East Side","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70aQa"},{"date":"2026-09-19","time":"20:00","title":"Weeze, Matchbox 90s, American Idiots","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/weeze-matchbox-90s-american-idiots-shank-hall-tickets/14942883"},{"date":"2026-09-19","time":"20:00","title":"Poison Girl Friend","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JZae"},{"date":"2026-09-19","time":"21:00","title":"Tommy Davidson","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977213"},{"date":"2026-09-20","time":"18:00","title":"Tommy Davidson","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977233"},{"date":"2026-09-20","time":"19:30","title":"Tom Jones","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70UZ8"},{"date":"2026-09-20","time":"20:00","title":"Brian Fallon","support":"Ben Nichols","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JZad"},{"date":"2026-09-20","time":"20:00","title":"Tom Morello","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7OzFz"},{"date":"2026-09-21","time":"19:30","title":"Polyphia","support":"Ladrones, RJ Pasin","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/polyphia-tour-mmxxvi-milwaukee-wisconsin-09-21-2026/event/070064C9A3332F5D"},{"date":"2026-09-22","time":"20:00","title":"Xavier Wulf","support":null,"venue":"Turner Hall Ballroom","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZd7J"},{"date":"2026-09-23","time":"19:00","title":"Patti Smith","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZFaa"},{"date":"2026-09-23","time":"19:00","title":"Yard Sale Girls","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/yard-sale-girls-milwaukee-improv-main-room-tickets/14980883"},{"date":"2026-09-23","time":"19:30","title":"Croz Boyce","support":null,"venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PVJe"},{"date":"2026-09-23","time":"20:00","title":"Thomas Gabriel","support":null,"venue":"Shank Hall","hood":"East Side","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/thomas-gabriel-shank-hall-tickets/14978843"},{"date":"2026-09-24","time":"18:30","title":"Icon for Hire","support":"Elijah, Lauren Babic","venue":"The Rave-Eagles Club","hood":"Westown","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70ApA"},{"date":"2026-09-24","time":"19:00","title":"Zach Rushing: The Redneck Logic Tour","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/zach-rushing-the-redneck-logic-milwaukee-improv-main-room-tickets/13998644"},{"date":"2026-09-24","time":"20:00","title":"They Might Be Giants","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70-pv"},{"date":"2026-09-25","time":"19:00","title":"The Thorn","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PYqP"},{"date":"2026-09-25","time":"19:00","title":"Bubba Dub","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/bubba-dub-milwaukee-improv-main-room-tickets/14976033"},{"date":"2026-09-25","time":"20:00","title":"They Might Be Giants","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70-pd"},{"date":"2026-09-25","time":"21:00","title":"Daft Disko","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JZa6"},{"date":"2026-09-25","time":"21:15","title":"Bubba Dub","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/bubba-dub-milwaukee-improv-main-room-tickets/14976043"},{"date":"2026-09-26","time":"18:30","title":"Dying Fetus","support":"Sanguisugabogg","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JZaF"},{"date":"2026-09-26","time":"18:30","title":"Justin Silva","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/justin-silva-milwaukee-improv-main-room-tickets/14970753"},{"date":"2026-09-26","time":"19:00","title":"The Appleseed Cast","support":"The Casket Lottery","venue":"Cactus Club","hood":"Bay View","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PgvE"},{"date":"2026-09-26","time":"19:00","title":"Luke Bryan","support":"Drew Baldridge, Lauren Watkins, RaeLynn, DJ Rock","venue":"Alpine Valley Music Theatre","hood":"East Troy","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/luke-bryan-word-on-the-street-east-troy-wisconsin-09-26-2026/event/07006435FF239820"},{"date":"2026-09-26","time":"20:00","title":"Supertramp Tribute","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A709ZJ"},{"date":"2026-09-26","time":"20:00","title":"Franklin Jonas & The Byzantines","support":null,"venue":"Shank Hall","hood":"East Side","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/franklin-jonas-the-byzantines-shank-hall-tickets/14251104"},{"date":"2026-09-26","time":"21:00","title":"Justin Silva","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/justin-silva-milwaukee-improv-main-room-tickets/14970763"},{"date":"2026-09-27","time":"18:00","title":"Damon Williams","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/damon-williams-milwaukee-improv-main-room-tickets/14179714"},{"date":"2026-09-27","time":"19:30","title":"Bleachers","support":"This Is Lorelei","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/bleachers-forever-milwaukee-wisconsin-09-27-2026/event/070064698C992AC3"},{"date":"2026-09-27","time":"20:00","title":"YG","support":"Mozzy, Chef Boy","venue":"The Rave-Eagles Club","hood":"Westown","genre":"hiphop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZAQ4"},{"date":"2026-09-28","time":"20:00","title":"Amigo The Devil","support":"Liam St. John","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZaQd"},{"date":"2026-09-29","time":"19:30","title":"Bryson Tiller","support":"Majid Jordan, Ty Dolla $ign, Austin Millz","venue":"American Family Insurance Amphitheater - Summerfest Grounds","hood":"Lakefront","genre":"hiphop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-milwaukee-wisconsin-09-29-2026/event/070064BACE3F545A"},{"date":"2026-09-29","time":"20:00","title":"Foster the People","support":"Goth Babe","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/foster-the-people-good-mourning-sunshine-milwaukee-wisconsin-09-29-2026/event/0700649AE57268F4"},{"date":"2026-09-30","time":"20:00","title":"Freya Skye","support":"Alex Sampson","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/freya-skye-stars-align-tour-milwaukee-wisconsin-09-30-2026/event/0700644AC63862F8"},{"date":"2026-10-01","time":"19:01","title":"Citizen","support":"Hotline TNT","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70A4s"},{"date":"2026-10-01","time":"19:30","title":"Ian McConnell","support":null,"venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PgvI"},{"date":"2026-10-01","time":"20:00","title":"Lauren Alaina","support":"Shane Profitt","venue":"Pabst Theater","hood":"Downtown","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70gJa"},{"date":"2026-10-01","time":"20:00","title":"Too Hot For Leather","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/too-hot-for-leather-shank-hall-tickets/14243424"},{"date":"2026-10-01","time":"20:00","title":"Artemas","support":"Henry Morris","venue":"The Rave-Eagles Club","hood":"Westown","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JZaa"},{"date":"2026-10-02","time":"19:00","title":"Taking Back Sunday","support":"THRICE","venue":"The Rave-Eagles Club","hood":"Westown","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JZa8"},{"date":"2026-10-02","time":"19:00","title":"Chad Daniels","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179534"},{"date":"2026-10-02","time":"19:30","title":"Little Big Town","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7P8A9"},{"date":"2026-10-02","time":"20:00","title":"Leonid & Friends","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7OMbk"},{"date":"2026-10-02","time":"20:00","title":"Mt. Joy","support":null,"venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"folk","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/mt-joy-2026-celebrating-10-years-milwaukee-wisconsin-10-02-2026/event/07006436BAC27697"},{"date":"2026-10-02","time":"20:00","title":"Alana Springsteen","support":"Erin Kinsey","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JZao"},{"date":"2026-10-02","time":"21:15","title":"Chad Daniels","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179544"},{"date":"2026-10-03","time":"12:00","title":"Cracker","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/cracker-shank-hall-tickets/14922983"},{"date":"2026-10-03","time":"18:00","title":"In This Moment","support":"Hollywood Undead","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JZa3"},{"date":"2026-10-03","time":"18:30","title":"Chad Daniels","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179554"},{"date":"2026-10-03","time":"20:00","title":"Militarie Gun","support":null,"venue":"Vivarium","hood":"East Side","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PFuZ"},{"date":"2026-10-03","time":"20:00","title":"Fruition","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/fruition-shank-hall-tickets/14196684"},{"date":"2026-10-03","time":"20:00","title":"Ashley Cooke","support":"McCoy Moore","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JZa4"},{"date":"2026-10-03","time":"21:00","title":"Chad Daniels","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179564"},{"date":"2026-10-04","time":"18:00","title":"John Heffron","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/john-heffron-milwaukee-improv-main-room-tickets/14220314"},{"date":"2026-10-04","time":"19:00","title":"The Carpenters Songbook - A Live Celebration","support":null,"venue":"Uihlein Hall Marcus Center","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/the-carpenters-songbook-a-live-celebration-milwaukee-wisconsin-10-04-2026/event/070064CC93473652"},{"date":"2026-10-04","time":"19:30","title":"Zarna Garg","support":null,"venue":"Turner Hall Ballroom","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7xpjy"},{"date":"2026-10-04","time":"20:00","title":"Chance The Rapper","support":"La Reezy","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"hiphop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/chance-the-rapper-coloring-book-10-milwaukee-wisconsin-10-04-2026/event/070064A8B36E5BB2"},{"date":"2026-10-04","time":"20:00","title":"Gnash","support":null,"venue":"Shank Hall","hood":"East Side","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/gnash-shank-hall-tickets/14162824"},{"date":"2026-10-06","time":"19:30","title":"Dan and Phil","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PI-z"},{"date":"2026-10-06","time":"20:00","title":"Beck","support":"Ioanna Gika","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/beck-ride-lonesome-tour-milwaukee-wisconsin-10-06-2026/event/07006486B4083B7C"},{"date":"2026-10-06","time":"20:00","title":"Chris Housman","support":null,"venue":"Shank Hall","hood":"East Side","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/chris-housman-shank-hall-tickets/15030083"},{"date":"2026-10-07","time":"19:00","title":"Weezer","support":"The Shins, Silversun Pickups","venue":"Fiserv Forum","hood":"Deer District","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/weezer-the-gathering-milwaukee-wisconsin-10-07-2026/event/0700646DDB9D984D"},{"date":"2026-10-07","time":"19:00","title":"THROWN","support":"Norma Jean","venue":"The Rave-Eagles Club","hood":"Westown","genre":"metal","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PYvk"},{"date":"2026-10-07","time":"20:00","title":"UB40","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7OMbK"},{"date":"2026-10-07","time":"20:00","title":"Rhett Miller","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/rhett-miller-shank-hall-tickets/14229534"},{"date":"2026-10-08","time":"19:30","title":"Hunter Hill","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/hunter-hill-milwaukee-improv-main-room-tickets/14521563"},{"date":"2026-10-08","time":"20:00","title":"Wayne Hancock","support":null,"venue":"Shank Hall","hood":"East Side","genre":"blues","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/wayne-hancock-shank-hall-tickets/14229564"},{"date":"2026-10-08","time":"20:00","title":"Robby Hoffman","support":null,"venue":"Turner Hall Ballroom","hood":"Westown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70E3p"},{"date":"2026-10-09","time":"19:00","title":"Dana and Alden","support":null,"venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PVJd"},{"date":"2026-10-09","time":"19:00","title":"Arnez J","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982083"},{"date":"2026-10-09","time":"20:00","title":"David Nail: Down To The Studs","support":null,"venue":"Shank Hall","hood":"East Side","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/david-nail-down-to-the-shank-hall-tickets/14881973"},{"date":"2026-10-09","time":"20:00","title":"Failure","support":"quannnic","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7x9Ze"},{"date":"2026-10-09","time":"20:00","title":"Waylon Wyatt","support":null,"venue":"Turner Hall Ballroom","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70Erv"},{"date":"2026-10-09","time":"21:15","title":"Arnez J","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982103"},{"date":"2026-10-10","time":"18:30","title":"Arnez J","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982093"},{"date":"2026-10-10","time":"18:45","title":"Koe Wetzel","support":"Corey Kent, Bayker Blankenship, Logan Jahnke","venue":"Fiserv Forum","hood":"Deer District","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/koe-wetzel-the-night-champion-world-milwaukee-wisconsin-10-10-2026/event/07006458C1354217"},{"date":"2026-10-10","time":"19:00","title":"Rise Against","support":"Alkaline Trio, Teen Mortgage","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Jead"},{"date":"2026-10-10","time":"19:00","title":"CAIN","support":null,"venue":"Elmbrook Church","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/cain-live-and-in-worship-elmbrook-church-tickets/14954403"},{"date":"2026-10-10","time":"19:30","title":"Jim Brickman","support":null,"venue":"Wilson Theater at Vogel Hall","hood":"Milwaukee","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/jim-brickman-milwaukee-wisconsin-10-10-2026/event/070064F6BBE15DB6"},{"date":"2026-10-10","time":"20:00","title":"PANORAMA a Tribute to The Cars","support":null,"venue":"Shank Hall","hood":"East Side","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/panorama-a-tribute-to-the-shank-hall-tickets/14997813"},{"date":"2026-10-10","time":"20:00","title":"Zach John King","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70O_4"},{"date":"2026-10-10","time":"20:00","title":"Sawyer Hill","support":null,"venue":"Vivarium","hood":"East Side","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7P8b9"},{"date":"2026-10-10","time":"21:00","title":"Arnez J","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982113"},{"date":"2026-10-11","time":"18:00","title":"Arnez J","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982123"},{"date":"2026-10-11","time":"20:00","title":"Samara Joy","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70-po"},{"date":"2026-10-11","time":"20:00","title":"Holywatr","support":"Mercury","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Jea7"},{"date":"2026-10-12","time":"19:00","title":"Earl Sweatshirt","support":"MIKE","venue":"The Rave-Eagles Club","hood":"Westown","genre":"hiphop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7-t7N"},{"date":"2026-10-12","time":"20:00","title":"Robert Ellis","support":null,"venue":"Shank Hall","hood":"East Side","genre":"folk","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/robert-ellis-shank-hall-tickets/14979823"},{"date":"2026-10-13","time":"20:00","title":"Robin Trower","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"blues","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70-pK"},{"date":"2026-10-13","time":"20:00","title":"Suki Waterhouse","support":"Rochelle Jordan, EMMMA","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/suki-waterhouse-the-loveland-tour-milwaukee-wisconsin-10-13-2026/event/07006496898222DA"},{"date":"2026-10-13","time":"20:00","title":"DERAPS","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/deraps-shank-hall-tickets/14255374"},{"date":"2026-10-14","time":"20:00","title":"Hey, Nothing","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PpbJ"},{"date":"2026-10-14","time":"20:00","title":"Stanley Simmons","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Jeak"},{"date":"2026-10-15","time":"19:00","title":"Chris Porter","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966573"},{"date":"2026-10-15","time":"20:00","title":"UNDERTALE Symphony","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7J_fI"},{"date":"2026-10-15","time":"20:00","title":"Joe Stamm","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/joe-stamm-shank-hall-tickets/14217154"},{"date":"2026-10-16","time":"19:00","title":"Chris Porter","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966603"},{"date":"2026-10-16","time":"20:00","title":"Zach Top","support":"Marty Stuart & His Fabulous Superlatives","venue":"Fiserv Forum","hood":"Deer District","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/zach-top-cold-beer-country-music-milwaukee-wisconsin-10-16-2026/event/070064BCE3216249"},{"date":"2026-10-16","time":"20:00","title":"W.A.S.P.","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7-Fot"},{"date":"2026-10-16","time":"20:00","title":"Will Dempsey","support":null,"venue":"Shank Hall","hood":"East Side","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/will-dempsey-shank-hall-tickets/14272624"},{"date":"2026-10-16","time":"20:00","title":"Daði Freyr","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7-V4E"},{"date":"2026-10-16","time":"20:00","title":"AFI","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70pfV"},{"date":"2026-10-16","time":"20:00","title":"The Toxhards","support":null,"venue":"X-Ray Arcade","hood":"Cudahy","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70VrZ"},{"date":"2026-10-16","time":"21:15","title":"Chris Porter","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966593"},{"date":"2026-10-17","time":"16:00","title":"Leanne Morgan","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JboN"},{"date":"2026-10-17","time":"17:00","title":"Edgar Sandoval","support":null,"venue":"Shank Hall","hood":"East Side","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/edgar-sandoval-shank-hall-tickets/15023723"},{"date":"2026-10-17","time":"18:30","title":"Chris Porter","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966613"},{"date":"2026-10-17","time":"19:00","title":"Skillet","support":null,"venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/skillet-comatose-20-years-still-screaming-milwaukee-wisconsin-10-17-2026/event/070064CC9DC14114"},{"date":"2026-10-17","time":"19:00","title":"Leanne Morgan","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7-M3d"},{"date":"2026-10-17","time":"20:00","title":"WeTouchGrass","support":"Anime Rave","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Jeaa"},{"date":"2026-10-17","time":"20:30","title":"Edgar Sandoval","support":null,"venue":"Shank Hall","hood":"East Side","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/edgar-sandoval-shank-hall-tickets/15023743"},{"date":"2026-10-17","time":"21:15","title":"Chris Porter","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966583"},{"date":"2026-10-18","time":"13:00","title":"Hocus Pocus Drag Brunch","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/hocus-pocus-drag-brunch-milwaukee-improv-main-room-tickets/14251184"},{"date":"2026-10-18","time":"15:00","title":"Roger Clyne and The Peacemakers","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/roger-clyne-and-the-peacemakers-shank-hall-tickets/14166944"},{"date":"2026-10-18","time":"19:30","title":"Big Head Todd & the Monsters","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"blues","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7QFad"},{"date":"2026-10-18","time":"20:00","title":"Christone \"Kingfish\" Ingram","support":null,"venue":"Turner Hall Ballroom","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Ptr_"},{"date":"2026-10-18","time":"21:00","title":"Saliva","support":"Drowning Pool, Beyond Threshold","venue":"Live at 1175","hood":"Kansasville","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/1175s-rockin-halloween-party-live-at-1175-tickets/14997213"},{"date":"2026-10-19","time":"19:00","title":"Indigo Girls","support":"Linda Perry","venue":"Pabst Theater","hood":"Downtown","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Ptqg"},{"date":"2026-10-19","time":"19:30","title":"BEAT","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZ9f7"},{"date":"2026-10-19","time":"19:30","title":"Lords of Acid","support":null,"venue":"Vivarium","hood":"East Side","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PgG-"},{"date":"2026-10-19","time":"20:00","title":"Duane Betts & Palmetto Motel","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/duane-betts-palmetto-motel-shank-hall-tickets/14849103"},{"date":"2026-10-20","time":"19:30","title":"Godsmack","support":"Dorothy","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/godsmack-the-rise-of-rock-world-milwaukee-wisconsin-10-20-2026/event/070064F791282622"},{"date":"2026-10-20","time":"20:00","title":"Seth Walker","support":null,"venue":"Shank Hall","hood":"East Side","genre":"folk","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/seth-walker-shank-hall-tickets/14273334"},{"date":"2026-10-21","time":"19:00","title":"Tedeschi Trucks Band","support":null,"venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/tedeschi-trucks-band-future-soul-2026-milwaukee-wisconsin-10-21-2026/event/07006435C62274A2"},{"date":"2026-10-21","time":"20:00","title":"Sylvan Esso","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"electronic","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PfOs"},{"date":"2026-10-21","time":"20:00","title":"Windborne","support":null,"venue":"Shank Hall","hood":"East Side","genre":"folk","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/windborne-shank-hall-tickets/14196254"},{"date":"2026-10-21","time":"20:00","title":"Ryan Bingham","support":"The Texas Gentlemen","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZdOO"},{"date":"2026-10-22","time":"19:30","title":"Marshall Charloff & The Purple Xperience","support":null,"venue":"Uihlein Hall Marcus Center","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/marshall-charloff-the-purple-xperience-milwaukee-wisconsin-10-22-2026/event/070060CABD2F2289"},{"date":"2026-10-23","time":"19:00","title":"The Wrecks","support":"Worry Club","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PYv6"},{"date":"2026-10-23","time":"19:00","title":"D.L. Hughley","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869383"},{"date":"2026-10-23","time":"20:00","title":"Widespread Panic","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"blues","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7POf-"},{"date":"2026-10-23","time":"20:30","title":"Zacarias Ferreira","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PJPt"},{"date":"2026-10-23","time":"21:15","title":"D.L. Hughley","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869403"},{"date":"2026-10-24","time":"18:30","title":"D.L. Hughley","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869393"},{"date":"2026-10-24","time":"19:00","title":"Milo Rossi - Ages 13+","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PtOY"},{"date":"2026-10-24","time":"20:00","title":"Widespread Panic","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"blues","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7POfx"},{"date":"2026-10-24","time":"20:00","title":"In Her Own Words x Every Avenue","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/in-her-own-words-x-shank-hall-tickets/14919153"},{"date":"2026-10-24","time":"21:00","title":"D.L. Hughley","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869423"},{"date":"2026-10-25","time":"18:00","title":"Pat McGann","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/pat-mcgann-milwaukee-improv-main-room-tickets/14837983"},{"date":"2026-10-25","time":"20:00","title":"Widespread Panic","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"blues","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7POfF"},{"date":"2026-10-26","time":"19:00","title":"Spite","support":"Stick To Your Guns, Vomit Forth, No Cure","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7JfrK"},{"date":"2026-10-26","time":"20:00","title":"Wolfman Jack","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/wolfman-jack-shank-hall-tickets/14979333"},{"date":"2026-10-27","time":"20:00","title":"Old Crow Medicine Show","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70_-S"},{"date":"2026-10-27","time":"20:00","title":" Nosferatu Undead","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/-nosferatu-undead-shank-hall-tickets/14253924"},{"date":"2026-10-28","time":"20:00","title":"Blue October","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7-V04"},{"date":"2026-10-28","time":"20:00","title":"Angel","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/angel-shank-hall-tickets/14255864"},{"date":"2026-10-29","time":"19:30","title":"Sweeping Promises","support":null,"venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PVJA"},{"date":"2026-10-29","time":"20:00","title":"Shakey Graves","support":"Wild Pink","venue":"Turner Hall Ballroom","hood":"Westown","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A700Pv"},{"date":"2026-10-29","time":"20:00","title":"Delicate Steve","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/delicate-steve-shank-hall-tickets/14966633"},{"date":"2026-10-29","time":"20:00","title":"New Constellations","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7J7fY"},{"date":"2026-10-29","time":"20:00","title":"Røz","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"electronic","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PEJa"},{"date":"2026-10-30","time":"20:00","title":"Miles Nielsen & The Rusted Hearts","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/miles-nielsen-the-rusted-shank-hall-tickets/14254104"},{"date":"2026-10-30","time":"20:00","title":"Akeem Ali","support":null,"venue":"Vivarium","hood":"East Side","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70EA_"},{"date":"2026-10-30","time":"21:00","title":"TVBOO","support":null,"venue":"Miramar Theatre","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZK4O"},{"date":"2026-10-31","time":"21:00","title":"TVBOO","support":null,"venue":"Miramar Theatre","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZK4-"},{"date":"2026-11-01","time":"18:00","title":"Keith Pedro","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/keith-pedro-milwaukee-improv-main-room-tickets/14260564"},{"date":"2026-11-01","time":"20:00","title":"Sophie Hunter","support":null,"venue":"Vivarium","hood":"East Side","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PY-P"},{"date":"2026-11-02","time":"19:00","title":"Billy Prine presents Songs and Stories of John Prine","support":null,"venue":"Shank Hall","hood":"East Side","genre":"folk","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/billy-prine-presents-songs-and-shank-hall-tickets/14216114"},{"date":"2026-11-02","time":"19:00","title":"Free Throw","support":"Microwave, Carly Cosgrove, Kerosene Heights","venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pt7b"},{"date":"2026-11-03","time":"19:00","title":"Sombr","support":"The Last Dinner Party, Hannah Jadagu","venue":"Fiserv Forum","hood":"Deer District","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D"},{"date":"2026-11-03","time":"20:00","title":"Adam Ezra Group","support":null,"venue":"Shank Hall","hood":"East Side","genre":"folk","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/adam-ezra-group-shank-hall-tickets/14854403"},{"date":"2026-11-05","time":"19:00","title":"Pat Barrett","support":null,"venue":"RiverGlen Christian Church","hood":"Waukesha","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/ive-got-a-fire-tour-riverglen-christian-church-tickets/14873503"},{"date":"2026-11-05","time":"19:30","title":"Dent May","support":null,"venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pgv0"},{"date":"2026-11-05","time":"20:00","title":"Sleep","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PP4_"},{"date":"2026-11-05","time":"20:00","title":"Orville Peck","support":"Abbie Callahan","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-milwaukee-wisconsin-11-05-2026/event/070064EDB20E2C46"},{"date":"2026-11-05","time":"20:00","title":"Are We Not 80's?","support":null,"venue":"Shank Hall","hood":"East Side","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/are-we-not-80s-shank-hall-tickets/14200554"},{"date":"2026-11-06","time":"19:00","title":"Napoleon Dynamite","support":"Jon Heder, Efren Ramirez, Jon Gries","venue":"Pabst Theater","hood":"Downtown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7xpv0"},{"date":"2026-11-06","time":"19:30","title":"Goose","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pe0N"},{"date":"2026-11-06","time":"20:00","title":"Brigitte Calls Me Baby","support":null,"venue":"Vivarium","hood":"East Side","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZpq3"},{"date":"2026-11-06","time":"20:00","title":"MKE Unplugged","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/mke-unplugged-shank-hall-tickets/14229694"},{"date":"2026-11-07","time":"19:30","title":"Goose","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pe0A"},{"date":"2026-11-07","time":"20:00","title":"Teddy Thompson","support":null,"venue":"Shank Hall","hood":"East Side","genre":"pop","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/teddy-thompson-shank-hall-tickets/14930243"},{"date":"2026-11-08","time":"18:00","title":"Joey Avery ","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/joey-avery-milwaukee-improv-main-room-tickets/14959903"},{"date":"2026-11-08","time":"19:30","title":"Goose","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pe0k"},{"date":"2026-11-10","time":"19:00","title":"Daniel Sloss","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7-ZaK"},{"date":"2026-11-10","time":"20:00","title":"Andrew Bird","support":"Milwaukee Symphony Orchestra","venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7J_fS"},{"date":"2026-11-10","time":"20:00","title":"Jack White","support":null,"venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/jack-white-live-2026-milwaukee-wisconsin-11-10-2026/event/070064868A011FF3"},{"date":"2026-11-11","time":"19:00","title":"Anthony Mrocka","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/anthony-mrocka-milwaukee-improv-main-room-tickets/14775323"},{"date":"2026-11-11","time":"20:00","title":"Alison Brown","support":null,"venue":"Shank Hall","hood":"East Side","genre":"folk","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/alison-brown-shank-hall-tickets/14251154"},{"date":"2026-11-12","time":"19:00","title":"Alter Bridge","support":"Big Wreck","venue":"The Rave-Eagles Club","hood":"Westown","genre":"electronic","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70U7e"},{"date":"2026-11-13","time":"18:30","title":"Motionless In White","support":"Dayseeker, The Devil Wears Prada, Dark Divine","venue":"Fiserv Forum","hood":"Deer District","genre":"metal","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249"},{"date":"2026-11-13","time":"19:00","title":"T.J. Miller","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939153"},{"date":"2026-11-13","time":"20:00","title":"Charles Wesley Godwin","support":"Tyler Nance","venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7J_fV"},{"date":"2026-11-13","time":"20:00","title":"The Mavericks","support":null,"venue":"Pabst Theater","hood":"Downtown","genre":"country","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70Kkd"},{"date":"2026-11-13","time":"20:00","title":"STS9","support":null,"venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/sts9-human-dream-tour-milwaukee-wisconsin-11-13-2026/event/070064CAA7C54DEF"},{"date":"2026-11-13","time":"21:15","title":"T.J. Miller","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939173"},{"date":"2026-11-14","time":"18:30","title":"T.J. Miller","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939163"},{"date":"2026-11-14","time":"19:00","title":"Pentatonix","support":null,"venue":"Fiserv Forum","hood":"Deer District","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C"},{"date":"2026-11-14","time":"20:00","title":"Daily Bread","support":"Vincent Antone, Motifv","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"electronic","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/daily-bread-vanishing-point-tour-milwaukee-wisconsin-11-14-2026/event/070064E691811849"},{"date":"2026-11-14","time":"20:00","title":"Damaged Justice with Hellbilly Deluxe","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/damaged-justice-with-hellbilly-deluxe-shank-hall-tickets/14985523"},{"date":"2026-11-14","time":"20:00","title":"Rival Sons","support":"The Blue Stones, The Velveteers","venue":"The Rave-Eagles Club","hood":"Westown","genre":"indie","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Ps48"},{"date":"2026-11-14","time":"21:00","title":"T.J. Miller","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939183"},{"date":"2026-11-15","time":"13:00","title":"The Wild Kratts Live!","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7xKb3"},{"date":"2026-11-15","time":"17:00","title":"The Wild Kratts Live!","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7J3Cd"},{"date":"2026-11-15","time":"20:00","title":"Alicia Villarreal","support":null,"venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"latin","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A"},{"date":"2026-11-17","time":"19:00","title":"Saosin","support":"Silent Planet, Like Moths To Flames","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70_44"},{"date":"2026-11-18","time":"19:00","title":"Cheap Trick","support":"The Band Feel","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/cheap-trick-all-washed-up-tour-milwaukee-wisconsin-11-18-2026/event/070064E9D2CC37FA"},{"date":"2026-11-18","time":"19:00","title":"Davide De Pierro","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/davide-de-pierro-milwaukee-improv-main-room-tickets/14958163"},{"date":"2026-11-19","time":"20:00","title":"Squirrel Flower","support":"Sour Widows","venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PVJv"},{"date":"2026-11-20","time":"19:00","title":"Donnell Rawlings","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984823"},{"date":"2026-11-20","time":"20:00","title":"Lil Ed and the Blues Imperials","support":null,"venue":"Shank Hall","hood":"East Side","genre":"blues","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/lil-ed-and-the-blues-shank-hall-tickets/14273574"},{"date":"2026-11-20","time":"20:00","title":"Dax","support":null,"venue":"The Rave-Eagles Club","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70trv"},{"date":"2026-11-20","time":"21:15","title":"Donnell Rawlings","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984863"},{"date":"2026-11-21","time":"18:30","title":"Donnell Rawlings","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984843"},{"date":"2026-11-21","time":"19:00","title":"Sabaton","support":"Pop Evil, Wings of Steel","venue":"Landmark Credit Union Live","hood":"Milwaukee","genre":"metal","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5"},{"date":"2026-11-21","time":"21:00","title":"Donnell Rawlings","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984833"},{"date":"2026-11-22","time":"18:00","title":"Donnell Rawlings","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984853"},{"date":"2026-11-22","time":"19:30","title":"Jady","support":null,"venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PVJk"},{"date":"2026-11-27","time":"19:00","title":"Pete Lee","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984953"},{"date":"2026-11-27","time":"20:00","title":"The R&B Cadets","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rnb","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/the-rb-cadets-shank-hall-tickets/14273584"},{"date":"2026-11-27","time":"21:15","title":"Pete Lee","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984993"},{"date":"2026-11-28","time":"12:00","title":"The R&B Cadets","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rnb","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/the-rb-cadets-shank-hall-tickets/14273594"},{"date":"2026-11-28","time":"18:30","title":"Pete Lee","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984973"},{"date":"2026-11-28","time":"21:00","title":"Pete Lee","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984983"},{"date":"2026-11-29","time":"18:00","title":"Pete Lee","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984963"},{"date":"2026-12-03","time":"19:00","title":"GWAR","support":"Midnight - Band, Mac Sabbath, X-Cops","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A70A4Y"},{"date":"2026-12-03","time":"20:00","title":"The Steepwater Band","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/the-steepwater-band-shank-hall-tickets/14273634"},{"date":"2026-12-04","time":"19:00","title":"Colin Bracewell","support":"Floryence","venue":"Cactus Club","hood":"Bay View","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Pgu4"},{"date":"2026-12-04","time":"19:00","title":"Jessica Kirson","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224644"},{"date":"2026-12-04","time":"21:15","title":"Jessica Kirson","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224654"},{"date":"2026-12-05","time":"18:30","title":"Jessica Kirson","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224674"},{"date":"2026-12-05","time":"20:00","title":"Harry Potter and the Chamber of Secrets™ in Concert","support":"Milwaukee Symphony Orchestra","venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7OaxK"},{"date":"2026-12-05","time":"20:00","title":"Anthony Gomes","support":null,"venue":"Shank Hall","hood":"East Side","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/anthony-gomes-shank-hall-tickets/14254464"},{"date":"2026-12-05","time":"21:00","title":"Jessica Kirson","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"comedy","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224664"},{"date":"2026-12-06","time":"14:30","title":"Harry Potter and the Chamber of Secrets™ in Concert","support":"Milwaukee Symphony Orchestra","venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1A7Oaxb"},{"date":"2026-12-06","time":"15:00","title":"Mannheim Steamroller","support":null,"venue":"Miller High Life Theatre","hood":"Westown","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZe_7"},{"date":"2026-12-08","time":"19:00","title":"Silverstein","support":"Story of the Year","venue":"The Rave-Eagles Club","hood":"Westown","genre":"rock","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZK7s"},{"date":"2026-12-08","time":"19:00","title":"Don McMillan 2.0 *Now Powered By AI","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/don-mcmillan-20-now-powered-milwaukee-improv-main-room-tickets/14982493"},{"date":"2026-12-09","time":"19:00","title":"Love Actually Live in Concert","support":null,"venue":"Riverside Theatre - WI","hood":"Milwaukee","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZFao"},{"date":"2026-12-09","time":"20:00","title":"Cactus Tate","support":null,"venue":"Milwaukee Improv (Main Room)","hood":"Brookfield","genre":"other","ticketer":"Ticketmaster","url":"https://www.ticketweb.com/event/cactus-tate-milwaukee-improv-main-room-tickets/15019373"}]}</script>
+
+<script>
+let DATA = { updated:'', shows:[] };
+let activeWhen = 'all';
+let activeGenre = 'all';
+let query = '';
+
+// Real "today" in the viewer's local time (YYYY-MM-DD) — past shows drop off
+// automatically, no rebuild needed.
+const TODAY = (() => {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+})();
+
+// Sponsor slot. null = show the "sponsor this" pitch.
+// To activate: const SPONSOR = { name:'Bullseye Records', url:'https://…', tag:'Record shop in Bay View' };
+const SPONSOR = null;
+
+const GENRE_LABELS = { rock:'Rock', metal:'Metal', jazz:'Jazz', blues:'Blues', punk:'Punk', indie:'Indie', country:'Country', pop:'Pop', hiphop:'Hip-Hop', rnb:'R&B', latin:'Latin', folk:'Folk', festival:'Festival', electronic:'Electronic', comedy:'Comedy', other:'Other' };
+const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MONS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+async function load() {
+  try {
+    const res = await fetch('shows.json', { cache:'no-store' });
+    if (!res.ok) throw new Error('bad status');
+    DATA = await res.json();
+  } catch (e) {
+    try { DATA = JSON.parse(document.getElementById('embedded-shows').textContent); }
+    catch (_) {
+      document.getElementById('list').innerHTML = '<div class="empty"><b>Couldn’t load shows</b>Open this page through a web server, or redownload the file.</div>';
+      return;
+    }
+  }
+  buildGenres();
+  render();
+}
+
+function buildGenres() {
+  const genres = [...new Set(DATA.shows.map(s => s.genre))].sort((a,b) => (GENRE_LABELS[a]||a).localeCompare(GENRE_LABELS[b]||b));
+  const sel = document.getElementById('genre-select');
+  sel.innerHTML = '<option value="all">All genres</option>' +
+    genres.map(g => `<option value="${g}">${GENRE_LABELS[g]||g}</option>`).join('');
+  sel.addEventListener('change', () => { activeGenre = sel.value; render(); });
+}
+
+document.querySelectorAll('#when-tabs .tab').forEach(t => {
+  t.addEventListener('click', () => {
+    activeWhen = t.dataset.when;
+    document.querySelectorAll('#when-tabs .tab').forEach(x => x.classList.toggle('active', x===t));
+    render();
+  });
+});
+
+document.getElementById('search').addEventListener('input', (e) => {
+  query = e.target.value.trim().toLowerCase();
+  render();
+});
+
+function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function isWeekend(dateStr) {
+  const day = new Date(dateStr + 'T12:00:00').getDay();
+  return day===5 || day===6 || day===0;
+}
+
+function matchesQuery(s) {
+  if (!query) return true;
+  return (s.title+' '+(s.support||'')+' '+s.venue+' '+s.hood+' '+(GENRE_LABELS[s.genre]||s.genre)).toLowerCase().includes(query);
+}
+
+function filtered() {
+  return DATA.shows.filter(s => {
+    if (s.date < TODAY) return false;
+    if (activeWhen==='today' && s.date !== TODAY) return false;
+    if (activeWhen==='weekend' && !isWeekend(s.date)) return false;
+    if (activeGenre!=='all' && s.genre !== activeGenre) return false;
+    return matchesQuery(s);
+  }).sort((a,b) => (a.date+a.time).localeCompare(b.date+b.time));
+}
+
+function fmtTime(t) {
+  let [h,m] = t.split(':').map(Number);
+  const ap = h>=12 ? 'PM' : 'AM';
+  h = h%12 || 12;
+  return `${h}:${String(m).padStart(2,'0')} ${ap}`;
+}
+
+function dayLabel(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00');
+  return `${DAYS[d.getDay()]}, ${MONS[d.getMonth()]} ${d.getDate()}`;
+}
+
+function rowHTML(s) {
+  const sub = `${esc(s.venue)}${s.support ? ' · with '+esc(s.support) : ''} · ${esc(s.hood)}`;
+  return `<a class="row" href="${s.url}" target="_blank" rel="noopener noreferrer">
+    <div class="row-time">${fmtTime(s.time)}</div>
+    <div class="row-body">
+      <div class="row-artist">${esc(s.title)}</div>
+      <div class="row-sub">${sub}</div>
+    </div>
+    <div class="row-genre">${GENRE_LABELS[s.genre]||s.genre}</div>
+  </a>`;
+}
+
+function sponsorHTML() {
+  if (SPONSOR) {
+    return `<div class="sponsor"><span class="sponsor-label">Sponsor</span><span>Supported by <a href="${SPONSOR.url}" target="_blank" rel="noopener"><b>${esc(SPONSOR.name)}</b></a>${SPONSOR.tag ? ' · ' + esc(SPONSOR.tag) : ''}</span></div>`;
+  }
+  return `<div class="sponsor"><span class="sponsor-label">Sponsor</span><span>This calendar is free and updated daily. <a href="mailto:bdholl@gmail.com?subject=Sponsoring%20The%20Confluence">Put your name on it →</a></span></div>`;
+}
+
+function render() {
+  const shows = filtered();
+  const el = document.getElementById('list');
+  if (!shows.length) {
+    el.innerHTML = '<div class="empty"><b>Nothing here</b>No shows match this filter. Try “All upcoming,” a different genre, or clearing the search.</div>';
+    return;
+  }
+  const groups = {};
+  shows.forEach(s => { (groups[s.date] = groups[s.date]||[]).push(s); });
+  const blocks = Object.keys(groups).sort().map(date => {
+    const n = groups[date].length;
+    const today = date===TODAY ? '<span class="day-today">Tonight</span>' : '';
+    return `<div class="day">
+        <div class="day-name">${dayLabel(date)}${today}</div>
+        <div class="day-count">${n} ${n===1?'show':'shows'}</div>
+      </div>
+      ${groups[date].map(rowHTML).join('')}`;
+  });
+  blocks.splice(1, 0, sponsorHTML()); // one slot, after the first day group
+  el.innerHTML = blocks.join('');
+}
+
+load();
+
+/* ================= Confluence Radio =================
+   Shuffled 30-second previews (iTunes Search API, JSONP, no key) for artists
+   with upcoming shows. Full streams aren't licensable — previews are. */
+(function () {
+  const dock = document.getElementById('radio-dock');
+  const trackEl = document.getElementById('radio-track');
+  const subEl = document.getElementById('radio-sub');
+  const playBtn = document.getElementById('radio-play');
+  const audio = new Audio();
+  audio.volume = 0.85;
+  let queue = [], qi = -1, on = false;
+  const cache = new Map();
+
+  const cleanName = t => t.replace(/\s*\(.*?\)\s*/g, ' ').replace(/\s+/g, ' ').trim();
+
+  function jsonp(url) {
+    return new Promise((resolve, reject) => {
+      const cb = 'itcb' + Date.now() + Math.floor(Math.random() * 1e5);
+      const s = document.createElement('script');
+      const t = setTimeout(() => { cleanup(); reject(new Error('timeout')); }, 7000);
+      function cleanup() { clearTimeout(t); delete window[cb]; s.remove(); }
+      window[cb] = data => { cleanup(); resolve(data); };
+      s.onerror = () => { cleanup(); reject(new Error('load error')); };
+      s.src = url + '&callback=' + cb;
+      document.head.appendChild(s);
+    });
+  }
+
+  async function lookup(name) {
+    if (cache.has(name)) return cache.get(name);
+    let hit = null;
+    try {
+      const d = await jsonp('https://itunes.apple.com/search?media=music&entity=song&limit=6&term=' + encodeURIComponent(name));
+      const n = name.toLowerCase();
+      const r = (d.results || []).find(x => x.previewUrl && x.artistName && x.artistName.toLowerCase() === n)
+             || (d.results || []).find(x => x.previewUrl && x.artistName && x.artistName.toLowerCase().includes(n));
+      if (r) hit = { track: r.trackName, artist: r.artistName, preview: r.previewUrl };
+    } catch (e) { /* skip quietly */ }
+    cache.set(name, hit);
+    return hit;
+  }
+
+  function buildQueue() {
+    const seen = new Set();
+    queue = DATA.shows
+      .filter(s => s.date >= TODAY && s.genre !== 'comedy')
+      .filter(s => { const k = cleanName(s.title).toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
+    for (let i = queue.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [queue[i], queue[j]] = [queue[j], queue[i]]; }
+  }
+
+  async function next() {
+    if (!on || !queue.length) return;
+    for (let tries = 0; tries < 10; tries++) {
+      qi = (qi + 1) % queue.length;
+      const show = queue[qi];
+      trackEl.innerHTML = '<span>Tuning…</span>'; trackEl.classList.remove('scroll');
+      subEl.textContent = '';
+      const hit = await lookup(cleanName(show.title));
+      if (!on) return;
+      if (hit) {
+        audio.src = hit.preview;
+        try { await audio.play(); } catch (e) { continue; }
+        const label = `${hit.artist} — ${hit.track}`;
+        trackEl.innerHTML = '<span></span>'; trackEl.firstChild.textContent = label;
+        trackEl.classList.toggle('scroll', label.length > 34);
+        const d = new Date(show.date + 'T12:00:00');
+        subEl.innerHTML = '';
+        const a = document.createElement('a');
+        a.href = show.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+        a.textContent = `plays ${DAYS[d.getDay()].slice(0,3)} ${MONS[d.getMonth()]} ${d.getDate()} · ${show.venue}`;
+        subEl.appendChild(a);
+        playBtn.textContent = 'Pause';
+        return;
+      }
+    }
+    trackEl.innerHTML = '<span>No previews found — try Skip</span>';
+  }
+
+  audio.addEventListener('ended', next);
+
+  document.getElementById('radio-toggle').addEventListener('click', () => {
+    if (on) { dock.scrollIntoView({ behavior: 'smooth', block: 'end' }); return; }
+    on = true; dock.classList.add('on');
+    buildQueue(); qi = -1; next();
+  });
+  document.getElementById('radio-off').addEventListener('click', () => {
+    on = false; audio.pause(); audio.src = ''; dock.classList.remove('on');
+  });
+  document.getElementById('radio-skip').addEventListener('click', next);
+  playBtn.addEventListener('click', () => {
+    if (audio.paused) { audio.play(); playBtn.textContent = 'Pause'; }
+    else { audio.pause(); playBtn.textContent = 'Play'; }
+  });
+})();
+
+/* ================= Confluence Defender =================
+   Galaga-lite: the three rivers of the Confluence run down the screen;
+   cassettes, vinyl, and amps dive along them. You are a guitar pick. */
+(function () {
+  const overlay = document.getElementById('arcade-overlay');
+  const cv = document.getElementById('arcade-canvas');
+  const g = cv.getContext('2d');
+  const W = cv.width, H = cv.height;
+  const RIVERS = [
+    { x: W * 0.25, name: 'MILWAUKEE' },
+    { x: W * 0.50, name: 'MENOMONEE' },
+    { x: W * 0.75, name: 'KINNICKINNIC' },
+  ];
+  let state = 'title', raf = null, t = 0;
+  let player, bullets, ebullets, enemies, score, lives, wave, hi;
+  hi = Number(localStorage.getItem('confluence-arcade-hs') || 0);
+  const keys = {};
+  let ac = null;
+  function beep(freq, dur, type, vol) {
+    try {
+      ac = ac || new (window.AudioContext || window.webkitAudioContext)();
+      const o = ac.createOscillator(), gn = ac.createGain();
+      o.type = type || 'square'; o.frequency.value = freq;
+      gn.gain.value = vol || 0.04;
+      gn.gain.exponentialRampToValueAtTime(0.0001, ac.currentTime + dur);
+      o.connect(gn); gn.connect(ac.destination);
+      o.start(); o.stop(ac.currentTime + dur);
+    } catch (e) {}
+  }
+
+  function reset(full) {
+    player = { x: W / 2, w: 26, h: 16, cd: 0 };
+    bullets = []; ebullets = []; enemies = [];
+    if (full) { score = 0; lives = 3; wave = 0; }
+    newWave();
+  }
+  function newWave() {
+    wave++;
+    beep(440, .08); setTimeout(() => beep(660, .08), 90); setTimeout(() => beep(880, .12), 180);
+    const n = Math.min(6 + wave * 2, 16);
+    for (let i = 0; i < n; i++) {
+      const r = i % 3, row = Math.floor(i / 3) % 3;
+      const type = ['cassette', 'vinyl', 'amp'][Math.floor(Math.random() * (wave > 1 ? 3 : 2))];
+      enemies.push({
+        type, river: r, row,
+        x: RIVERS[r].x, y: -30 - i * 26,
+        fy: 86 + row * 34,                       // formation y
+        hp: type === 'amp' ? 2 : 1,
+        mode: 'enter', divet: 0,
+        seed: Math.random() * 1000,
+      });
+    }
+  }
+  function riverX(r, y, tt) { return RIVERS[r].x + Math.sin((y + tt) / 42) * 14; }
+
+  function update() {
+    t++;
+    if (keys.ArrowLeft || keys.a) player.x -= 4.2;
+    if (keys.ArrowRight || keys.d) player.x += 4.2;
+    player.x = Math.max(18, Math.min(W - 18, player.x));
+    if (player.cd > 0) player.cd--;
+    if ((keys[' '] || keys.Space) && player.cd === 0) {
+      bullets.push({ x: player.x, y: H - 46 });
+      player.cd = 11; beep(880, .05, 'square', .03);
+    }
+    bullets.forEach(b => b.y -= 8);
+    bullets = bullets.filter(b => b.y > -12);
+    ebullets.forEach(b => { b.y += 3.4 + wave * 0.25; });
+    ebullets = ebullets.filter(b => b.y < H + 12);
+
+    enemies.forEach(e => {
+      if (e.mode === 'enter') {
+        e.y += 2.4; e.x = riverX(e.river, e.y, t);
+        if (e.y >= e.fy) e.mode = 'form';
+      } else if (e.mode === 'form') {
+        e.x = riverX(e.river, e.fy, t) + Math.sin((t + e.seed) / 30) * 6;
+        e.y = e.fy + Math.sin((t + e.seed) / 22) * 3;
+        if (Math.random() < 0.0016 + wave * 0.0004) { e.mode = 'dive'; e.divet = 0; }
+        if (Math.random() < 0.002 + wave * 0.0005) ebullets.push({ x: e.x, y: e.y + 10 });
+      } else { // dive
+        e.divet++;
+        e.y += 3.1 + wave * 0.2;
+        e.x = riverX(e.river, e.y, t) + Math.sin(e.divet / 14) * 30;
+        if (Math.random() < 0.01) ebullets.push({ x: e.x, y: e.y + 10 });
+        if (e.y > H + 24) { e.y = -24; e.mode = 'enter'; }
+      }
+    });
+
+    // collisions
+    bullets.forEach(b => {
+      enemies.forEach(e => {
+        if (Math.abs(b.x - e.x) < 13 && Math.abs(b.y - e.y) < 12 && !b.hit) {
+          b.hit = true; e.hp--;
+          beep(220, .06, 'sawtooth', .05);
+          if (e.hp <= 0) { e.dead = true; score += e.type === 'amp' ? 300 : e.type === 'vinyl' ? 200 : 100; beep(160, .12, 'sawtooth', .06); }
+        }
+      });
+    });
+    bullets = bullets.filter(b => !b.hit);
+    enemies = enemies.filter(e => !e.dead);
+
+    const py = H - 34;
+    const hitMe = eb => Math.abs(eb.x - player.x) < 13 && Math.abs(eb.y - py) < 10;
+    const rammed = enemies.some(e => Math.abs(e.x - player.x) < 15 && Math.abs(e.y - py) < 12);
+    if (ebullets.some(hitMe) || rammed) {
+      ebullets = ebullets.filter(eb => !hitMe(eb));
+      enemies = enemies.filter(e => !(Math.abs(e.x - player.x) < 15 && Math.abs(e.y - py) < 12));
+      lives--; beep(90, .35, 'sawtooth', .09);
+      if (lives <= 0) {
+        state = 'over';
+        if (score > hi) { hi = score; localStorage.setItem('confluence-arcade-hs', String(hi)); }
+      }
+    }
+    if (!enemies.length) newWave();
+  }
+
+  function drawRivers() {
+    g.lineWidth = 22; g.strokeStyle = 'rgba(1,104,251,.13)';
+    RIVERS.forEach((r, i) => {
+      g.beginPath();
+      for (let y = -20; y <= H + 20; y += 8) {
+        const x = riverX(i, y, t);
+        y === -20 ? g.moveTo(x, y) : g.lineTo(x, y);
+      }
+      g.stroke();
+    });
+    g.lineWidth = 2; g.strokeStyle = 'rgba(111,224,255,.25)';
+    RIVERS.forEach((r, i) => {
+      g.beginPath();
+      for (let y = -20; y <= H + 20; y += 8) {
+        const x = riverX(i, y, t + 60);
+        y === -20 ? g.moveTo(x, y) : g.lineTo(x, y);
+      }
+      g.stroke();
+    });
+    g.font = '8px monospace'; g.fillStyle = 'rgba(134,179,255,.5)'; g.textAlign = 'center';
+    RIVERS.forEach((r, i) => g.fillText(r.name, RIVERS[i].x, 14));
+  }
+
+  function drawEnemy(e) {
+    g.save(); g.translate(e.x, e.y);
+    if (e.type === 'cassette') {
+      g.fillStyle = '#ff5bbd'; g.fillRect(-11, -7, 22, 14);
+      g.fillStyle = '#05070d'; g.fillRect(-8, -3, 16, 6);
+      g.fillStyle = '#fff';
+      g.beginPath(); g.arc(-4, 0, 2, 0, 7); g.arc(4, 0, 2, 0, 7); g.fill();
+    } else if (e.type === 'vinyl') {
+      g.fillStyle = '#181820'; g.beginPath(); g.arc(0, 0, 10, 0, 7); g.fill();
+      g.strokeStyle = '#3a4568'; g.lineWidth = 1; g.beginPath(); g.arc(0, 0, 6.5, 0, 7); g.stroke();
+      g.fillStyle = '#f0c873'; g.beginPath(); g.arc(0, 0, 3, 0, 7); g.fill();
+    } else { // amp
+      g.fillStyle = '#f0c873'; g.fillRect(-11, -8, 22, 16);
+      g.fillStyle = '#05070d'; g.fillRect(-8, -2, 16, 8);
+      g.strokeStyle = '#f0c873'; g.lineWidth = 1;
+      for (let i = -6; i <= 6; i += 3) { g.beginPath(); g.moveTo(i, -1); g.lineTo(i, 5); g.stroke(); }
+      g.fillStyle = '#fff'; g.beginPath(); g.arc(7, -5, 1.5, 0, 7); g.fill();
+      if (e.hp === 1) { g.globalAlpha = .5; g.strokeStyle = '#ff5bbd'; g.strokeRect(-11, -8, 22, 16); g.globalAlpha = 1; }
+    }
+    g.restore();
+  }
+
+  function drawPlayer() {
+    const py = H - 34;
+    g.save(); g.translate(player.x, py);
+    g.fillStyle = '#fdfcf8';
+    g.beginPath(); g.moveTo(0, -12); g.lineTo(11, 2); g.quadraticCurveTo(0, 14, -11, 2); g.closePath(); g.fill();
+    g.fillStyle = '#0168FB'; g.fillRect(-1.5, -12, 3, 7);
+    g.restore();
+  }
+
+  function draw() {
+    g.clearRect(0, 0, W, H);
+    drawRivers();
+    if (state === 'title' || state === 'over') {
+      g.textAlign = 'center';
+      g.fillStyle = '#fdfcf8'; g.font = 'bold 26px monospace';
+      g.fillText(state === 'title' ? 'CONFLUENCE' : 'GAME OVER', W / 2, 205);
+      if (state === 'title') g.fillText('DEFENDER', W / 2, 235);
+      g.font = '11px monospace'; g.fillStyle = '#86b3ff';
+      g.fillText('THREE RIVERS. ONE PICK. NO MERCY.', W / 2, 268);
+      if (state === 'over') { g.fillStyle = '#f0c873'; g.fillText('SCORE ' + score + '   HI ' + hi, W / 2, 292); }
+      g.fillStyle = (Math.floor(t / 30) % 2) ? '#fdfcf8' : '#3a4568';
+      g.fillText(state === 'title' ? 'PRESS SPACE TO START' : 'SPACE TO RETRY · ESC TO EXIT', W / 2, 330);
+      g.fillStyle = '#3a4568'; g.font = '10px monospace';
+      g.fillText('← → MOVE · SPACE SHOOT', W / 2, 356);
+      t++;
+      return;
+    }
+    enemies.forEach(drawEnemy);
+    g.fillStyle = '#fdfcf8'; g.font = '12px monospace'; g.textAlign = 'center';
+    bullets.forEach(b => g.fillText('♪', b.x, b.y));
+    g.fillStyle = '#ff5bbd';
+    ebullets.forEach(b => g.fillRect(b.x - 1.5, b.y - 5, 3, 9));
+    drawPlayer();
+    g.textAlign = 'left'; g.fillStyle = '#86b3ff'; g.font = '11px monospace';
+    g.fillText('SCORE ' + score, 10, H - 10);
+    g.textAlign = 'right'; g.fillText('HI ' + hi + '  WAVE ' + wave, W - 10, H - 10);
+    for (let i = 0; i < lives; i++) {
+      g.save(); g.translate(14 + i * 16, 18); g.scale(.45, .45);
+      g.fillStyle = '#fdfcf8';
+      g.beginPath(); g.moveTo(0, -12); g.lineTo(11, 2); g.quadraticCurveTo(0, 14, -11, 2); g.closePath(); g.fill();
+      g.restore();
+    }
+  }
+
+  function loop() { if (state === 'play') update(); draw(); raf = requestAnimationFrame(loop); }
+
+  function onKey(e) {
+    if (e.type === 'keydown') {
+      if (e.key === 'Escape') { close(); return; }
+      keys[e.key] = true;
+      if (e.key === ' ') {
+        e.preventDefault();
+        if (state === 'title' || state === 'over') { state = 'play'; reset(true); }
+      }
+      if ([' ', 'ArrowLeft', 'ArrowRight'].includes(e.key)) e.preventDefault();
+    } else keys[e.key] = false;
+  }
+
+  function open() {
+    overlay.classList.add('on');
+    state = 'title'; t = 0;
+    window.addEventListener('keydown', onKey);
+    window.addEventListener('keyup', onKey);
+    loop();
+  }
+  function close() {
+    overlay.classList.remove('on');
+    cancelAnimationFrame(raf); raf = null;
+    window.removeEventListener('keydown', onKey);
+    window.removeEventListener('keyup', onKey);
+  }
+  document.getElementById('open-arcade').addEventListener('click', open);
+  document.getElementById('arcade-close').addEventListener('click', close);
+})();
+</script>
+</body>
+</html>

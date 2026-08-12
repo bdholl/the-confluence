@@ -1,0 +1,33 @@
+name: Update show feed
+
+on:
+  schedule:
+    - cron: '17 11 * * *'   # daily ~6:17am Central
+  workflow_dispatch:          # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build shows.json
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+        run: node feed/build-shows.js
+
+      - name: Commit refreshed feed
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add shows.json
+          git diff --staged --quiet || git commit -m "chore: refresh show feed ($(date -u +%Y-%m-%d))"
+          git push
