@@ -4,7 +4,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const path = require('path');
 
-const { ymd, hm, hoodFor, genreFor, geohash, dedupe, keepEvent, tmEventToShow, GENRE_MAP } = require('./build-shows.js');
+const { ymd, hm, hoodFor, genreFor, geohash, dedupe, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP } = require('./build-shows.js');
 
 // The genre keys the front-end knows how to label + color. Every genre the
 // feed can emit must be in this set, or shows render with a bare key + no color.
@@ -168,6 +168,41 @@ test('dedupe collapses same date+title+venue, keeping the first', () => {
   const out = dedupe(shows);
   assert.equal(out.length, 3);
   assert.equal(out[0].ticketer, 'Ticketmaster'); // first one wins
+});
+
+// --- images / entities / ics -----------------------------------------------
+
+test('tmImage prefers a 16:9 image ≥500px wide, smallest first', () => {
+  const url = tmImage({ images: [
+    { ratio: '3_2', width: 305, url: 'small32' },
+    { ratio: '16_9', width: 2048, url: 'huge169' },
+    { ratio: '16_9', width: 640, url: 'right169' },
+  ]});
+  assert.equal(url, 'right169');
+  assert.equal(tmImage({ images: [] }), undefined);
+});
+
+test('unentity decodes the HTML entities Squarespace feeds emit', () => {
+  assert.equal(unentity('Wire &amp; Nail'), 'Wire & Nail');
+  assert.equal(unentity('Josh Bryant &#039;Live&#039;'), "Josh Bryant 'Live'");
+});
+
+test('buildIcs produces a VEVENT per show with Central-time stamps', () => {
+  const ics = buildIcs([{ date: '2026-09-20', time: '19:00', title: 'The Bouncing Souls, live', support: null, venue: 'The Argo', hood: 'Whitefish Bay', genre: 'punk', ticketer: 'Eventbrite', url: 'https://example.com/t' }]);
+  assert.match(ics, /BEGIN:VCALENDAR/);
+  assert.equal((ics.match(/BEGIN:VEVENT/g) || []).length, 1);
+  assert.match(ics, /DTSTART;TZID=America\/Chicago:20260920T190000/);
+  assert.match(ics, /SUMMARY:The Bouncing Souls\\, live @ The Argo/);
+});
+
+test('confluence.ics (if present) matches shows.json', () => {
+  const p = path.join(__dirname, '..', 'confluence.ics');
+  const sp = path.join(__dirname, '..', 'shows.json');
+  if (!fs.existsSync(p) || !fs.existsSync(sp)) return;
+  const ics = fs.readFileSync(p, 'utf8');
+  const shows = JSON.parse(fs.readFileSync(sp, 'utf8')).shows;
+  assert.equal((ics.match(/BEGIN:VEVENT/g) || []).length, shows.length);
+  assert.match(ics, /END:VCALENDAR/);
 });
 
 // --- data contract: the embedded seed + shows.json must be valid -----------

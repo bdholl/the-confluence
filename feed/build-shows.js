@@ -135,6 +135,14 @@ function keepEvent(segmentName, genreName) {
   return false;
 }
 
+// Pick a wide event image (~640px 16:9) from TM's images array, for the
+// featured-show card. Optional — shows without one just have no img field.
+function tmImage(e) {
+  const imgs = e.images || [];
+  const wide = imgs.filter(i => i.ratio === '16_9' && i.width >= 500).sort((a, b) => a.width - b.width);
+  return (wide[0] || imgs[0] || {}).url;
+}
+
 function tmEventToShow(e) {
   const start = e.dates?.start || {};
   const venue = e._embedded?.venues?.[0] || {};
@@ -145,7 +153,9 @@ function tmEventToShow(e) {
   // the keepEvent() theatrical filter (stand-up tours live there in TM data).
   const isComedy = seg === 'Comedy' || seg === 'Arts & Theatre';
   const gName = cls.genre?.name && cls.genre.name !== 'Undefined' ? cls.genre.name : (seg || '');
+  const img = tmImage(e);
   return {
+    ...(img ? { img } : {}),
     date: start.localDate,
     time: hm(start.localTime),
     title: acts[0]?.name || e.name,
@@ -266,6 +276,77 @@ async function fromSeatGeek(startD, endD) {
   return out;
 }
 
+// The Argo (Whitefish Bay) — not on Ticketmaster (their TM venue record sits
+// empty). Their site lists shows via a SociableKit→Eventbrite widget whose
+// backing feed is public JSON, refreshed daily. Embed id from theargolive.com.
+const ARGO_FEED = 'https://data.accentapi.com/feed/25619320.json?no_cache=1';
+
+function unentity(s) {
+  return (s || '').replace(/&amp;/g, '&').replace(/&#0?39;/g, "'").replace(/&quot;/g, '"')
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').trim();
+}
+
+async function fromArgo() {
+  try {
+    const res = await fetch(ARGO_FEED, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const d = await res.json();
+    const out = [];
+    for (const e of (d.events || [])) {
+      if (!e.date_start || !e.name) continue;
+      // organizer feed could include off-site events; keep Argo ones (blank
+      // location means their own room)
+      const loc = (e.location || '').toLowerCase();
+      if (loc && !loc.includes('argo')) continue;
+      out.push({
+        ...(e.pic_big ? { img: e.pic_big } : {}),
+        date: e.date_start,
+        time: hm((e.local_date_time || '').slice(11, 16) || null),
+        title: unentity(e.name),
+        support: null,
+        venue: 'The Argo',
+        hood: 'Whitefish Bay',
+        genre: 'other',
+        ticketer: 'Eventbrite',
+        url: e.ticket_uri || 'https://theargolive.com/events',
+      });
+    }
+    console.log(`• The Argo (Eventbrite widget feed): ${out.length} events`);
+    return out;
+  } catch (err) {
+    console.warn('  ! The Argo feed failed:', err.message);
+    return [];
+  }
+}
+
+// Calendar subscription file — every show as a VEVENT in Central time.
+function buildIcs(shows) {
+  const escT = s => String(s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
+  const lines = [
+    'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//The Confluence//Milwaukee Live Music//EN',
+    'X-WR-CALNAME:The Confluence — Milwaukee Live Music', 'X-WR-TIMEZONE:America/Chicago',
+  ];
+  for (const s of shows) {
+    const dt = s.date.replace(/-/g, '') + 'T' + s.time.replace(':', '') + '00';
+    const endH = String((Number(s.time.slice(0, 2)) + 2) % 24).padStart(2, '0');
+    const dtEnd = s.date.replace(/-/g, '') + 'T' + endH + s.time.slice(3) + '00';
+    const uid = `${s.date}-${s.time}-${(s.title + s.venue).replace(/[^a-z0-9]/gi, '').slice(0, 40)}@theconfluence`;
+    lines.push(
+      'BEGIN:VEVENT',
+      `UID:${uid}`,
+      `DTSTART;TZID=America/Chicago:${dt}`,
+      `DTEND;TZID=America/Chicago:${dtEnd}`,
+      `SUMMARY:${escT(s.title)} @ ${escT(s.venue)}`,
+      `LOCATION:${escT(s.venue)}\\, ${escT(s.hood)}`,
+      `DESCRIPTION:${escT((s.support ? 'With ' + s.support + '. ' : '') + 'Tickets: ' + s.url)}`,
+      `URL:${s.url}`,
+      'END:VEVENT'
+    );
+  }
+  lines.push('END:VCALENDAR');
+  return lines.join('\r\n') + '\r\n';
+}
+
 function loadExtras() {
   try {
     const arr = JSON.parse(fs.readFileSync(EXTRAS, 'utf8'));
@@ -312,6 +393,7 @@ async function main() {
     fromTicketmaster(startISO, endISO),
     fromTicketmasterVenues(startISO, endISO),
     fromSeatGeek(now, end),
+    fromArgo(),
   ]);
 
   let shows = [];
@@ -332,6 +414,7 @@ async function main() {
 
   const payload = { updated: todayStr, shows };
   fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
+  fs.writeFileSync(path.join(ROOT, 'confluence.ics'), buildIcs(shows));
   updateEmbedded(payload);
   const days = new Set(shows.map(s => s.date)).size;
   console.log(`\n✓ Wrote ${shows.length} shows across ${days} days to shows.json (updated ${todayStr})`);
@@ -343,4 +426,4 @@ if (require.main === module) {
   main().catch(e => { console.error('Build failed:', e); process.exit(1); });
 }
 
-module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, keepEvent, tmEventToShow, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
