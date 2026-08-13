@@ -39,8 +39,9 @@
     /* hero sits on a deeper cream than the page, so it reads as its own block */
     .mast { position:relative; padding:34px 0 38px; background:#f4efe2; border-bottom:1px solid var(--line); }
 
-    /* 90s pop-up-video sticker: bangs onto the page, then turns slowly */
-    .badge { width:46px; height:46px; margin-bottom:18px; transform-origin:50% 50%;
+    /* 90s pop-up-video sticker, slapped over the corner of the featured photo */
+    .badge { position:absolute; top:-17px; left:-17px; z-index:2; width:52px; height:52px; transform-origin:50% 50%;
+      filter:drop-shadow(0 2px 5px rgba(17,17,17,.22));
       animation:badgepop .62s cubic-bezier(.18,1.5,.4,1) .35s both; }
     .badge svg { display:block; width:100%; height:100%; animation:badgespin 16s linear infinite; }
     @keyframes badgepop {
@@ -62,7 +63,7 @@
     .manifesto b { color:var(--ink); font-weight:600; }
 
     /* featured show card (top right of masthead) */
-    .featured { flex:none; width:228px; display:none; text-decoration:none; color:inherit; }
+    .featured { position:relative; flex:none; width:228px; display:none; text-decoration:none; color:inherit; }
     .featured.on { display:block; }
     .featured img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; border:2px solid var(--blue); }
     .featured-label { font-size:9.5px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--blue); margin:10px 0 3px; }
@@ -275,11 +276,6 @@
   <div class="wrap">
     <div class="mast-top">
       <div>
-        <div class="badge" aria-hidden="true">
-          <svg viewBox="-55 -55 110 110">
-            <polygon fill="#0168FB" points="0,-50 7.25,-27.05 25,-43.3 19.8,-19.8 43.3,-25 27.05,-7.25 50,0 27.05,7.25 43.3,25 19.8,19.8 25,43.3 7.25,27.05 0,50 -7.25,27.05 -25,43.3 -19.8,19.8 -43.3,25 -27.05,7.25 -50,0 -27.05,-7.25 -43.3,-25 -19.8,-19.8 -25,-43.3 -7.25,-27.05" />
-          </svg>
-        </div>
         <h1 class="wordmark">The Confluence</h1>
         <!-- Handwriting swap: replace the <h1> above with your scan, e.g.
              <h1 class="wordmark"><img class="wordmark-img" src="confluence-hand.svg" alt="The Confluence"></h1> -->
@@ -287,6 +283,11 @@
         <p class="manifesto">No one has time to click around bloated event websites just to see who’s playing in Milwaukee. <b>Come here, grab some tickets, go to the show.</b></p>
       </div>
       <a class="featured" id="featured" target="_blank" rel="noopener noreferrer">
+        <div class="badge" aria-hidden="true">
+          <svg viewBox="-55 -55 110 110">
+            <polygon fill="#0168FB" points="0,-50 7.25,-27.05 25,-43.3 19.8,-19.8 43.3,-25 27.05,-7.25 50,0 27.05,7.25 43.3,25 19.8,19.8 25,43.3 7.25,27.05 0,50 -7.25,27.05 -25,43.3 -19.8,19.8 -43.3,25 -27.05,7.25 -50,0 -27.05,-7.25 -43.3,-25 -19.8,-19.8 -25,-43.3 -7.25,-27.05" />
+          </svg>
+        </div>
         <img id="featured-img" alt="" />
         <div class="featured-label">Featured show</div>
         <div class="featured-title" id="featured-title"></div>
