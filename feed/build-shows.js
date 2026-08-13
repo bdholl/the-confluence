@@ -66,6 +66,9 @@ const VENUE_ALIASES = [
   [/bmo (harris )?pavilion/i, 'BMO Pavilion'],
   [/uihlein/i, 'Uihlein Hall'],
   [/wisconsin state fair|state fair park/i, 'Wisconsin State Fair'],
+  [/miramar/i, 'Miramar Theatre'],
+  [/wilson theater|vogel hall/i, 'Wilson Theater at Vogel Hall'],
+  [/peck pavilion/i, 'Peck Pavilion'],
 ];
 function canonVenue(name) {
   const n = String(name || '').trim();
@@ -404,6 +407,9 @@ function updateEmbedded(payload) {
 // vs "Rave / Eagles Club"), so squash to a comparable core before matching.
 function normKey(s) {
   return String(s || '')
+    // sources append " - Milwaukee" / " - Marcus Center for the …" to the
+    // same room; drop anything after the first dash separator
+    .split(' - ')[0]
     .toLowerCase()
     .replace(/&/g, ' and ')
     .replace(/\b(the|at|a)\b/g, ' ')

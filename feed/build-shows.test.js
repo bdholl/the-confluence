@@ -162,6 +162,10 @@ test('normKey squashes venue spellings that differ across sources', () => {
   assert.equal(normKey('The Rave-Eagles Club'), normKey('Rave / Eagles Club'));
   assert.equal(normKey('Turner Hall Ballroom'), normKey('turner hall ballroom'));
   assert.equal(normKey('Shank Hall'), normKey('The Shank Hall'));
+  // SeatGeek appends a city / parent-complex suffix after a dash
+  assert.equal(normKey('Miramar Theatre'), normKey('Miramar Theatre - Milwaukee'));
+  assert.equal(normKey('Wilson Theater at Vogel Hall'),
+               normKey('Wilson Theater at Vogel Hall - Marcus Center for the Performing Arts'));
   assert.notEqual(normKey('Cactus Club'), normKey('Vivarium'));
 });
 
