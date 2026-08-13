@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Confluence — Milwaukee Live Music</title>
   <meta name="description" content="Every live music show in Milwaukee, updated daily. A plain, complete listing — browse by day, genre, or search." />
-  <link rel="canonical" href="https://bdholl.github.io/the-confluence/" />
+  <link rel="canonical" href="https://theconfluencemke.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="The Confluence — Milwaukee Live Music" />
   <meta property="og:description" content="Every live music show in Milwaukee, updated daily." />
@@ -26,6 +26,15 @@
       --wrap:880px;
     }
     html { -webkit-text-size-adjust:100%; }
+    /* the three rivers: barely-there current down both edges of the page */
+    body::before, body::after { content:''; position:fixed; top:0; bottom:0; width:min(190px,16vw); pointer-events:none; z-index:0; }
+    body::before { left:0; background:
+      linear-gradient(90deg, rgba(1,104,251,.055) 0%, rgba(1,104,251,.022) 42%, transparent 100%),
+      linear-gradient(90deg, transparent 0%, rgba(1,104,251,.03) 55%, transparent 100%); }
+    body::after { right:0; background:
+      linear-gradient(270deg, rgba(1,104,251,.055) 0%, rgba(1,104,251,.022) 42%, transparent 100%),
+      linear-gradient(270deg, transparent 0%, rgba(1,104,251,.03) 55%, transparent 100%); }
+    header, .toolbar, .ticker, main, footer { position:relative; z-index:1; }
     /* IBM Plex Sans = small/utility text; Space Grotesk = artist names; Instrument Serif = wordmark */
     body { font-family:'IBM Plex Sans',system-ui,sans-serif; background:var(--paper); color:var(--ink); font-size:16px; line-height:1.5; -webkit-font-smoothing:antialiased;
       /* retro chunky arrow cursor (falls back to the OS cursor where unsupported) */
@@ -46,7 +55,7 @@
     /* featured show card (top right of masthead) */
     .featured { flex:none; width:228px; display:none; text-decoration:none; color:inherit; }
     .featured.on { display:block; }
-    .featured img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; border:1px solid var(--ink); }
+    .featured img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; border:2px solid var(--blue); }
     .featured-label { font-size:9.5px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--blue); margin:8px 0 3px; }
     .featured-title { font-family:'Space Grotesk',system-ui,sans-serif; font-size:15px; font-weight:600; line-height:1.25; }
     .featured:hover .featured-title { text-decoration:underline; text-underline-offset:3px; }
@@ -102,6 +111,35 @@
     .sponsor a { color:var(--blue); text-decoration:none; }
     .sponsor a:hover { text-decoration:underline; text-underline-offset:3px; }
     .sponsor b { color:var(--ink); font-weight:600; }
+
+    /* month grid (Calendar tab) */
+    .cal-head { display:flex; align-items:baseline; gap:16px; padding:30px 0 14px; }
+    .cal-title { font-family:'Instrument Serif',Georgia,serif; font-size:30px; line-height:1; }
+    .cal-nav { margin-left:auto; display:flex; gap:6px; }
+    .cal-nav button { font-family:inherit; font-size:13px; background:none; border:1px solid var(--line); color:var(--ink); padding:5px 13px; }
+    .cal-nav button:hover:not(:disabled) { border-color:var(--blue); color:var(--blue); }
+    .cal-nav button:disabled { color:var(--faint); border-color:var(--line); }
+    .cal-grid { display:grid; grid-template-columns:repeat(7,1fr); border-top:1px solid var(--ink); border-left:1px solid var(--line); }
+    .cal-dow { font-size:9.5px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--faint); padding:8px 9px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .cal-cell { min-height:98px; padding:7px 9px 9px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .cal-cell.blank { background:rgba(0,0,0,.012); }
+    .cal-cell.past { opacity:.35; }
+    .cal-cell.today { background:#eef4fd; }
+    .cal-num { font-size:12px; font-variant-numeric:tabular-nums; color:var(--gray); margin-bottom:5px; }
+    .cal-cell.today .cal-num { color:var(--blue); font-weight:700; }
+    .cal-ev { display:block; font-size:11px; line-height:1.3; color:var(--ink); text-decoration:none; margin-bottom:3px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .cal-ev:hover { color:var(--blue); text-decoration:underline; text-underline-offset:2px; }
+    .cal-ev .ce-time { color:var(--faint); font-variant-numeric:tabular-nums; }
+    .cal-more { font-size:10px; color:var(--blue); cursor:pointer; }
+    .cal-more:hover { text-decoration:underline; }
+    @media (max-width:640px) {
+      .cal-grid { grid-template-columns:repeat(7,1fr); }
+      .cal-cell { min-height:56px; padding:4px 4px 6px; }
+      .cal-ev { font-size:0; margin-bottom:2px; }
+      .cal-ev::before { content:''; display:block; width:5px; height:5px; border-radius:50%; background:var(--blue); }
+      .cal-more { display:none; }
+      .cal-dow { padding:6px 3px; font-size:8.5px; }
+    }
 
     .empty { padding:80px 0; text-align:center; color:var(--gray); }
     .empty b { display:block; font-family:'Instrument Serif',Georgia,serif; font-size:30px; color:var(--ink); font-weight:400; margin-bottom:8px; }
@@ -227,6 +265,7 @@
       <button class="tab active" data-when="all">All upcoming</button>
       <button class="tab" data-when="today">Today</button>
       <button class="tab" data-when="weekend">This weekend</button>
+      <button class="tab" data-when="calendar">Calendar</button>
     </div>
     <div class="tools">
       <select class="select" id="genre-select" aria-label="Filter by genre"></select>
@@ -256,7 +295,6 @@
       <div class="foot-card" id="hits">
         <div class="foot-card-label">That's right. We brought back the counter.</div>
         <div class="hits-digits" id="hits-num" title="party mode toggle" onclick="window.__toggleParty()">——————</div>
-        <div class="foot-card-sub">You are visitor. Welcome to the confluence.</div>
       </div>
     </div>
     <p class="foot-links">
@@ -284,7 +322,7 @@
       <input id="gb-name" type="text" placeholder="Your name" maxlength="40" autocomplete="off" />
       <textarea id="gb-note" rows="3" placeholder="What show ruled? What venue are we missing? Say hi…" maxlength="500"></textarea>
       <button class="gb-send" id="gb-send">Sign →</button>
-      <div class="gb-hint">Signing opens an email to us — new signatures get posted here.</div>
+      <div class="gb-hint" id="gb-hint"></div>
     </div>
   </div>
 </div>
@@ -316,6 +354,7 @@ let DATA = { updated:'', shows:[] };
 let activeWhen = 'all';
 let activeGenre = 'all';
 let query = '';
+let calMonth = null;   // {y, m} for the Calendar tab; set on first open
 
 // Real "today" in the viewer's local time (YYYY-MM-DD) — past shows drop off
 // automatically, no rebuild needed.
@@ -327,6 +366,16 @@ const TODAY = (() => {
 // Sponsor slot. null = show the "sponsor this" pitch.
 // To activate: const SPONSOR = { name:'Bullseye Records', url:'https://…', tag:'Record shop in Bay View' };
 const SPONSOR = null;
+
+// Featured show. Set to an artist name (matched against the calendar) to pick
+// it by hand; set to null to auto-rotate every two weeks.
+//   const FEATURED = null;                  ← automatic
+//   const FEATURED = 'Empire of the Sun';   ← manual pick
+const FEATURED = 'Empire of the Sun';
+
+// Guestbook backend (Cloudflare Worker). Empty = read-only from guestbook.json.
+// Set to your Worker URL once deployed, e.g. 'https://confluence-guestbook.<you>.workers.dev'
+const GUESTBOOK_API = '';
 
 const GENRE_LABELS = { rock:'Rock', metal:'Metal', jazz:'Jazz', blues:'Blues', punk:'Punk', indie:'Indie', country:'Country', pop:'Pop', hiphop:'Hip-Hop', rnb:'R&B', latin:'Latin', folk:'Folk', festival:'Festival', electronic:'Electronic', comedy:'Comedy', other:'Other' };
 const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
@@ -391,8 +440,12 @@ function buildFeatured() {
   // only shows within the next two weeks; the pick cycles every two weeks
   const cutoff = (() => { const d = new Date(); d.setDate(d.getDate() + 14); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; })();
   const cands = DATA.shows.filter(s => s.date >= TODAY && s.date <= cutoff && s.img);
-  if (!cands.length) return;
-  const pick = cands[Math.floor(Date.now() / 86400000 / 14) % cands.length];
+  // a hand-picked FEATURED wins if that artist still has an upcoming show
+  const manual = FEATURED && DATA.shows
+    .filter(s => s.date >= TODAY && s.img && s.title.toLowerCase().includes(FEATURED.toLowerCase()))
+    .sort((a, b) => a.date.localeCompare(b.date))[0];
+  if (!manual && !cands.length) return;
+  const pick = manual || cands[Math.floor(Date.now() / 86400000 / 14) % cands.length];
   const d = new Date(pick.date + 'T12:00:00');
   const card = document.getElementById('featured');
   card.href = pick.url;
@@ -409,37 +462,67 @@ function buildFeatured() {
 (function () {
   const overlay = document.getElementById('gb-overlay');
   const stream = document.getElementById('gb-stream');
+  const hint = document.getElementById('gb-hint');
+  const sendBtn = document.getElementById('gb-send');
   let loaded = false;
 
   function fmtGbDate(ds) {
-    const d = new Date(ds + 'T12:00:00');
+    const d = new Date((ds || '').length <= 10 ? ds + 'T12:00:00' : ds);
     return isNaN(d) ? '' : `${MONS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+  }
+  function paint(entries) {
+    stream.innerHTML = entries.length ? entries.map(e => `<div class="gb-entry">
+        <span class="gb-who">${esc(e.name)}</span><span class="gb-when">${fmtGbDate(e.date)}</span>
+        <div class="gb-note">${esc(e.note)}</div>
+      </div>`).join('')
+      : '<div class="gb-entry"><div class="gb-note">Nobody has signed yet. Go ahead — be first.</div></div>';
   }
   async function loadStream() {
     if (loaded) return;
     loaded = true;
+    // live stream if the guestbook API is configured; otherwise the static file
+    if (GUESTBOOK_API) {
+      try {
+        const res = await fetch(GUESTBOOK_API, { cache: 'no-store' });
+        if (!res.ok) throw new Error();
+        paint((await res.json()).reverse());
+        return;
+      } catch (e) { /* fall through to the static copy */ }
+    }
     try {
       const res = await fetch('guestbook.json', { cache: 'no-store' });
       if (!res.ok) throw new Error();
-      const entries = await res.json();
-      stream.innerHTML = entries.slice().reverse().map(e => `<div class="gb-entry">
-          <span class="gb-who">${esc(e.name)}</span><span class="gb-when">${fmtGbDate(e.date)}</span>
-          <div class="gb-note">${esc(e.note)}</div>
-        </div>`).join('');
+      paint((await res.json()).reverse());
     } catch (e) {
-      stream.innerHTML = '<div class="gb-entry"><div class="gb-note">Couldn’t load the guestbook — but you can still sign below.</div></div>';
+      stream.innerHTML = '<div class="gb-entry"><div class="gb-note">Couldn’t load the guestbook right now.</div></div>';
     }
   }
 
   document.getElementById('gb-open').addEventListener('click', () => { overlay.classList.add('on'); loadStream(); });
   document.getElementById('gb-close').addEventListener('click', () => overlay.classList.remove('on'));
   overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.classList.remove('on'); });
-  document.getElementById('gb-send').addEventListener('click', () => {
-    const name = document.getElementById('gb-name').value.trim() || 'Anonymous';
-    const note = document.getElementById('gb-note').value.trim();
-    if (!note) { document.getElementById('gb-note').focus(); return; }
-    const body = encodeURIComponent(`Name: ${name}\n\n${note}`);
-    window.location.href = `mailto:bdholl@gmail.com?subject=${encodeURIComponent('The Confluence guestbook')}&body=${body}`;
+
+  sendBtn.addEventListener('click', async () => {
+    const nameEl = document.getElementById('gb-name');
+    const noteEl = document.getElementById('gb-note');
+    const name = nameEl.value.trim() || 'Anonymous';
+    const note = noteEl.value.trim();
+    if (!note) { noteEl.focus(); return; }
+    if (!GUESTBOOK_API) { hint.textContent = 'The guestbook isn’t accepting signatures yet — check back soon.'; return; }
+    sendBtn.disabled = true; hint.textContent = 'Posting…';
+    try {
+      const res = await fetch(GUESTBOOK_API, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, note }),
+      });
+      if (!res.ok) throw new Error();
+      paint((await res.json()).reverse());
+      nameEl.value = ''; noteEl.value = '';
+      hint.textContent = 'Signed. Thanks for stopping by.';
+    } catch (e) {
+      hint.textContent = 'Couldn’t post that — try again in a moment.';
+    } finally { sendBtn.disabled = false; }
   });
 })();
 
@@ -590,12 +673,87 @@ function sponsorHTML() {
   if (SPONSOR) {
     return `<div class="sponsor"><span class="sponsor-label">Sponsor</span><span>Supported by <a href="${SPONSOR.url}" target="_blank" rel="noopener"><b>${esc(SPONSOR.name)}</b></a>${SPONSOR.tag ? ' · ' + esc(SPONSOR.tag) : ''}</span></div>`;
   }
-  return `<div class="sponsor"><span class="sponsor-label">Sponsor</span><span>This calendar is free and updated daily. Want to promote your show? Your coffee shop? Your record store? <a href="mailto:bdholl@gmail.com?subject=Sponsoring%20The%20Confluence">Drop us a line →</a></span></div>`;
+  return `<div class="sponsor"><span class="sponsor-label">Sponsor</span><span>This calendar is free and updated daily. Want to promote your show? Your coffee shop? Your record store? <a href="mailto:bdholl@gmail.com?subject=Sponsoring%20The%20Confluence">Drop&nbsp;us&nbsp;a&nbsp;line&nbsp;→</a></span></div>`;
+}
+
+const MONS_FULL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+// Month grid: scan ahead without scrolling. Respects genre + search.
+function renderMonth() {
+  const shows = DATA.shows
+    .filter(s => s.date >= TODAY)
+    .filter(s => activeGenre === 'all' || s.genre === activeGenre)
+    .filter(matchesQuery);
+  if (!calMonth) { const d = new Date(TODAY + 'T12:00:00'); calMonth = { y: d.getFullYear(), m: d.getMonth() }; }
+  const { y, m } = calMonth;
+
+  const byDay = {};
+  shows.forEach(s => { (byDay[s.date] = byDay[s.date] || []).push(s); });
+  Object.values(byDay).forEach(a => a.sort((x, z) =>
+    (venueTier(x.venue) - venueTier(z.venue)) || x.time.localeCompare(z.time)));
+
+  const first = new Date(y, m, 1);
+  const startPad = first.getDay();
+  const daysIn = new Date(y, m + 1, 0).getDate();
+  const nowM = new Date(TODAY + 'T12:00:00');
+  const atStart = y === nowM.getFullYear() && m === nowM.getMonth();
+  const last = shows.length ? shows[shows.length - 1].date : TODAY;
+  const lastD = new Date(last + 'T12:00:00');
+  const atEnd = y === lastD.getFullYear() && m >= lastD.getMonth();
+
+  let cells = '';
+  for (let i = 0; i < startPad; i++) cells += '<div class="cal-cell blank"></div>';
+  for (let day = 1; day <= daysIn; day++) {
+    const ds = `${y}-${String(m + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+    const evs = byDay[ds] || [];
+    const cls = ['cal-cell'];
+    if (ds < TODAY) cls.push('past');
+    if (ds === TODAY) cls.push('today');
+    const shown = evs.slice(0, 3).map(s =>
+      `<a class="cal-ev" href="${s.url}" target="_blank" rel="noopener noreferrer" title="${esc(s.title)} — ${esc(s.venue)}"><span class="ce-time">${fmtTime(s.time).replace(':00','')}</span> ${esc(s.title)}</a>`).join('');
+    const more = evs.length > 3
+      ? `<div class="cal-more" onclick="jumpToDay('${ds}')">+${evs.length - 3} more</div>` : '';
+    cells += `<div class="${cls.join(' ')}"><div class="cal-num">${day}</div>${shown}${more}</div>`;
+  }
+
+  return `<div class="cal-head">
+      <div class="cal-title">${MONS_FULL[m]} ${y}</div>
+      <div class="cal-nav">
+        <button onclick="calShift(-1)"${atStart ? ' disabled' : ''}>← Prev</button>
+        <button onclick="calShift(1)"${atEnd ? ' disabled' : ''}>Next →</button>
+      </div>
+    </div>
+    <div class="cal-grid">
+      ${DAYS.map(d => `<div class="cal-dow">${d.slice(0,3)}</div>`).join('')}
+      ${cells}
+    </div>`;
+}
+
+function calShift(delta) {
+  if (!calMonth) return;
+  let { y, m } = calMonth;
+  m += delta;
+  if (m < 0) { m = 11; y--; } else if (m > 11) { m = 0; y++; }
+  calMonth = { y, m };
+  render();
+}
+
+// "+N more" → jump to that day in the list view
+function jumpToDay(ds) {
+  activeWhen = 'all';
+  document.querySelectorAll('#when-tabs .tab').forEach(x => x.classList.toggle('active', x.dataset.when === 'all'));
+  render();
+  setTimeout(() => {
+    const head = [...document.querySelectorAll('.day-name')]
+      .find(el => el.textContent.startsWith(dayLabel(ds)));
+    if (head) head.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 40);
 }
 
 function render() {
-  const shows = filtered();
   const el = document.getElementById('list');
+  if (activeWhen === 'calendar') { el.innerHTML = renderMonth(); return; }
+  const shows = filtered();
   if (!shows.length) {
     el.innerHTML = '<div class="empty"><b>Nothing here</b>No shows match this filter. Try “All upcoming,” a different genre, or clearing the search.</div>';
     return;
