@@ -26,15 +26,6 @@
       --wrap:880px;
     }
     html { -webkit-text-size-adjust:100%; }
-    /* the three rivers: barely-there current down both edges of the page */
-    body::before, body::after { content:''; position:fixed; top:0; bottom:0; width:min(190px,16vw); pointer-events:none; z-index:0; }
-    body::before { left:0; background:
-      linear-gradient(90deg, rgba(1,104,251,.055) 0%, rgba(1,104,251,.022) 42%, transparent 100%),
-      linear-gradient(90deg, transparent 0%, rgba(1,104,251,.03) 55%, transparent 100%); }
-    body::after { right:0; background:
-      linear-gradient(270deg, rgba(1,104,251,.055) 0%, rgba(1,104,251,.022) 42%, transparent 100%),
-      linear-gradient(270deg, transparent 0%, rgba(1,104,251,.03) 55%, transparent 100%); }
-    header, .toolbar, .ticker, main, footer { position:relative; z-index:1; }
     /* IBM Plex Sans = small/utility text; Space Grotesk = artist names; Instrument Serif = wordmark */
     body { font-family:'IBM Plex Sans',system-ui,sans-serif; background:var(--paper); color:var(--ink); font-size:16px; line-height:1.5; -webkit-font-smoothing:antialiased;
       /* retro chunky arrow cursor (falls back to the OS cursor where unsupported) */
