@@ -51,6 +51,8 @@
     /* Brian's handwritten wordmark drops in here (replaces the serif text) */
     .wordmark-img { display:block; width:auto; max-width:min(440px,86vw); height:auto; }
     .mast-desc { margin-top:18px; font-size:15px; color:var(--gray); max-width:52ch; }
+    .manifesto { margin-top:14px; padding-left:14px; border-left:2px solid var(--blue); font-size:14px; line-height:1.6; color:var(--gray); max-width:54ch; }
+    .manifesto b { color:var(--ink); font-weight:600; }
 
     /* featured show card (top right of masthead) */
     .featured { flex:none; width:228px; display:none; text-decoration:none; color:inherit; }
@@ -248,6 +250,7 @@
         <!-- Handwriting swap: replace the <h1> above with your scan, e.g.
              <h1 class="wordmark"><img class="wordmark-img" src="confluence-hand.svg" alt="The Confluence"></h1> -->
         <p class="mast-desc">Live music calendar for Milwaukee.</p>
+        <p class="manifesto">No one has time to click around bloated event websites just to see who’s playing in Milwaukee. <b>Come here, grab some tickets, go to the show.</b></p>
       </div>
       <a class="featured" id="featured" target="_blank" rel="noopener noreferrer">
         <img id="featured-img" alt="" />
@@ -580,7 +583,7 @@ window.__toggleParty = () => {
 startParty();
 
 function countVisit() {
-  fetch('https://abacus.jasoncameron.dev/hit/theconfluencemke/visits')
+  fetch('https://abacus.jasoncameron.dev/hit/theconfluencemke/counter')
     .then(r => r.ok ? r.json() : Promise.reject())
     .then(d => {
       const n = d.count ?? d.value;
