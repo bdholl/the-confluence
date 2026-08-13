@@ -48,6 +48,31 @@ const VENUE_HOODS = {
   'american family insurance amphitheater': 'Lakefront', 'henry maier': 'Lakefront', 'summerfest': 'Lakefront',
   'pabst': 'Downtown',
 };
+// Sources (and even Ticketmaster itself) carry several records for the same
+// room. Collapse them to one display name so listings and dedupe agree.
+const VENUE_ALIASES = [
+  [/eagles\s*club|eagles\s*ballroom|\brave\b/i, 'The Rave / Eagles Club'],
+  [/summerfest|american family insurance amph|henry maier/i, 'American Family Insurance Amphitheater'],
+  [/riverside theat/i, 'Riverside Theater'],
+  [/pabst theat/i, 'Pabst Theater'],
+  [/turner hall/i, 'Turner Hall Ballroom'],
+  [/milwaukee improv/i, 'Milwaukee Improv'],
+  [/miller high life/i, 'Miller High Life Theatre'],
+  [/x-?ray arcade/i, 'X-Ray Arcade'],
+  [/cactus club/i, 'Cactus Club'],
+  [/vivarium/i, 'Vivarium'],
+  [/shank hall/i, 'Shank Hall'],
+  [/fiserv/i, 'Fiserv Forum'],
+  [/bmo (harris )?pavilion/i, 'BMO Pavilion'],
+  [/uihlein/i, 'Uihlein Hall'],
+  [/wisconsin state fair|state fair park/i, 'Wisconsin State Fair'],
+];
+function canonVenue(name) {
+  const n = String(name || '').trim();
+  for (const [re, canon] of VENUE_ALIASES) if (re.test(n)) return canon;
+  return n || 'TBA';
+}
+
 function hoodFor(venueName, city) {
   const key = (venueName || '').toLowerCase();
   for (const [frag, hood] of Object.entries(VENUE_HOODS)) if (key.includes(frag)) return hood;
@@ -160,7 +185,7 @@ function tmEventToShow(e) {
     time: hm(start.localTime),
     title: acts[0]?.name || e.name,
     support: acts.slice(1).map(a => a.name).join(', ') || null,
-    venue: venue.name || 'TBA',
+    venue: canonVenue(venue.name),
     hood: hoodFor(venue.name, venue.city?.name),
     genre: isComedy ? 'comedy' : genreFor(gName),
     ticketer: 'Ticketmaster',
@@ -243,7 +268,8 @@ async function fromSeatGeek(startD, endD) {
     u.searchParams.set('lat', String(LAT));
     u.searchParams.set('lon', String(LON));
     u.searchParams.set('range', `${RADIUS}mi`);
-    u.searchParams.set('type', 'concert');
+    // 'concert' alone misses club shows and comedy; SeatGeek splits these out
+    for (const t of ['concert', 'music_festival', 'comedy']) u.searchParams.append('type', t);
     u.searchParams.set('datetime_local.gte', ymd(startD));
     u.searchParams.set('datetime_local.lte', ymd(endD));
     u.searchParams.set('per_page', String(per));
@@ -258,14 +284,17 @@ async function fromSeatGeek(startD, endD) {
       if (!date) continue;
       const perfs = e.performers || [];
       const head = perfs.find(p => p.primary) || perfs[0] || {};
+      const img = head.image || head.images?.huge || head.images?.large;
+      const taxo = (e.taxonomies || []).map(t => t.name).join(' ');
       out.push({
+        ...(img ? { img } : {}),
         date,
         time: hm(time),
         title: head.name || e.short_title || e.title,
         support: perfs.filter(p => !p.primary).map(p => p.name).slice(0, 4).join(', ') || null,
-        venue: e.venue?.name || 'TBA',
+        venue: canonVenue(e.venue?.name),
         hood: hoodFor(e.venue?.name, e.venue?.city),
-        genre: genreFor(e.taxonomies?.[0]?.name || head.genres?.[0]?.name || ''),
+        genre: /comedy/i.test(taxo) ? 'comedy' : genreFor(taxo || head.genres?.[0]?.name || ''),
         ticketer: 'SeatGeek',
         url: e.url,
       });
@@ -371,14 +400,33 @@ function updateEmbedded(payload) {
   console.log('• Embedded fallback in HTML refreshed');
 }
 
+// Different sources spell the same room differently ("The Rave-Eagles Club"
+// vs "Rave / Eagles Club"), so squash to a comparable core before matching.
+function normKey(s) {
+  return String(s || '')
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/\b(the|at|a)\b/g, ' ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .split(' ')
+    .filter(Boolean)
+    .slice(0, 6)          // first few words carry the identity
+    .join(' ');
+}
+
 function dedupe(shows) {
   const seen = new Map();
   for (const s of shows) {
     // time is part of the key so a comedy club's 7:00 + 9:45 double-header
-    // survives, while TM's duplicate records (same event, same time, listed
-    // twice with different classifications) still collapse.
-    const k = `${s.date}|${s.time}|${(s.title || '').toLowerCase().trim()}|${(s.venue || '').toLowerCase().trim()}`;
-    if (!seen.has(k)) seen.set(k, s);
+    // survives, while duplicate records of one show still collapse.
+    const k = `${s.date}|${s.time}|${normKey(s.title)}|${normKey(s.venue)}`;
+    const prev = seen.get(k);
+    if (!prev) { seen.set(k, s); continue; }
+    // same show from two sources: keep the richer record
+    const better = (a, b) => (a.img ? 1 : 0) - (b.img ? 1 : 0)
+      || (a.support ? 1 : 0) - (b.support ? 1 : 0);
+    if (better(s, prev) > 0) seen.set(k, s);
   }
   return [...seen.values()];
 }
@@ -426,4 +474,4 @@ if (require.main === module) {
   main().catch(e => { console.error('Build failed:', e); process.exit(1); });
 }
 
-module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP, VENUE_HOODS, MKE_VENUES };

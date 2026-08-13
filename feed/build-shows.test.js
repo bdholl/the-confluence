@@ -4,7 +4,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const path = require('path');
 
-const { ymd, hm, hoodFor, genreFor, geohash, dedupe, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP } = require('./build-shows.js');
+const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP } = require('./build-shows.js');
 
 // The genre keys the front-end knows how to label + color. Every genre the
 // feed can emit must be in this set, or shows render with a bare key + no color.
@@ -157,6 +157,22 @@ test('tmEventToShow handles untagged events (genre → other, name fallback)', (
 });
 
 // --- dedupe ----------------------------------------------------------------
+
+test('normKey squashes venue spellings that differ across sources', () => {
+  assert.equal(normKey('The Rave-Eagles Club'), normKey('Rave / Eagles Club'));
+  assert.equal(normKey('Turner Hall Ballroom'), normKey('turner hall ballroom'));
+  assert.equal(normKey('Shank Hall'), normKey('The Shank Hall'));
+  assert.notEqual(normKey('Cactus Club'), normKey('Vivarium'));
+});
+
+test('dedupe merges the same show from two sources, keeping the richer record', () => {
+  const merged = dedupe([
+    { date: '2026-09-01', time: '20:00', title: 'Band X', venue: 'The Rave-Eagles Club', ticketer: 'Ticketmaster' },
+    { date: '2026-09-01', time: '20:00', title: 'Band X', venue: 'Rave / Eagles Club', ticketer: 'SeatGeek', img: 'pic.jpg', support: 'Opener' },
+  ]);
+  assert.equal(merged.length, 1, 'cross-source duplicate should collapse');
+  assert.equal(merged[0].img, 'pic.jpg', 'the record with an image should win');
+});
 
 test('dedupe collapses same date+title+venue, keeping the first', () => {
   const shows = [

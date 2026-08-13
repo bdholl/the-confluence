@@ -16,8 +16,8 @@ BEGIN:VEVENT
 UID:2026-08-13-18:45-FiveFingerDeathPunchAmericanFamilyInsura@theconfluence
 DTSTART;TZID=America/Chicago:20260813T184500
 DTEND;TZID=America/Chicago:20260813T204500
-SUMMARY:Five Finger Death Punch @ American Family Insurance Amphitheater - Summerfest Grounds
-LOCATION:American Family Insurance Amphitheater - Summerfest Grounds\, Lakefront
+SUMMARY:Five Finger Death Punch @ American Family Insurance Amphitheater
+LOCATION:American Family Insurance Amphitheater\, Lakefront
 DESCRIPTION:With Cody Jinks\, Eva Under Fire. Tickets: https://www.ticketmaster.com/five-finger-death-punch-milwaukee-wisconsin-08-13-2026/event/07006428B4BA5338
 URL:https://www.ticketmaster.com/five-finger-death-punch-milwaukee-wisconsin-08-13-2026/event/07006428B4BA5338
 END:VEVENT
@@ -31,11 +31,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/jennifer-lyn-the-groove-reviva
 URL:https://www.ticketmaster.com/jennifer-lyn-the-groove-revival-electric-milwaukee-wisconsin-08-13-2026/event/0700646CB1D4661C
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-13-19:00-MattFulchironMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-13-19:00-MattFulchironMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260813T190000
 DTEND;TZID=America/Chicago:20260813T210000
-SUMMARY:Matt Fulchiron @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Matt Fulchiron @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/matt-fulchiron-milwaukee-improv-main-room-tickets/14750263
 URL:https://www.ticketweb.com/event/matt-fulchiron-milwaukee-improv-main-room-tickets/14750263
 END:VEVENT
@@ -67,11 +67,11 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/emily-nenni-shank-hall-tick
 URL:https://www.ticketweb.com/event/emily-nenni-shank-hall-tickets/14201564
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-14-19:00-UsamaSiddiqueeMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-14-19:00-UsamaSiddiqueeMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260814T190000
 DTEND;TZID=America/Chicago:20260814T210000
-SUMMARY:Usama Siddiquee @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Usama Siddiquee @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930273
 URL:https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930273
 END:VEVENT
@@ -85,11 +85,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7-k0Y
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7-k0Y
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-14-20:00-ModestMouseRiversideTheatreWI@theconfluence
+UID:2026-08-14-20:00-ModestMouseRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20260814T200000
 DTEND;TZID=America/Chicago:20260814T220000
-SUMMARY:Modest Mouse @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Modest Mouse @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7-I4O
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7-I4O
 END:VEVENT
@@ -115,8 +115,8 @@ BEGIN:VEVENT
 UID:2026-08-14-20:00-BandaElRecodoTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260814T200000
 DTEND;TZID=America/Chicago:20260814T220000
-SUMMARY:Banda El Recodo @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Banda El Recodo @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7088U
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7088U
 END:VEVENT
@@ -130,20 +130,20 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-verve-pipe-w-edie-current-
 URL:https://www.eventbrite.com/e/the-verve-pipe-w-edie-current-tickets-1988514883546
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-14-21:15-UsamaSiddiqueeMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-14-21:15-UsamaSiddiqueeMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260814T211500
 DTEND;TZID=America/Chicago:20260814T231500
-SUMMARY:Usama Siddiquee @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Usama Siddiquee @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930293
 URL:https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930293
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-15-18:30-UsamaSiddiqueeMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-15-18:30-UsamaSiddiqueeMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260815T183000
 DTEND;TZID=America/Chicago:20260815T203000
-SUMMARY:Usama Siddiquee @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Usama Siddiquee @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930303
 URL:https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930303
 END:VEVENT
@@ -160,8 +160,8 @@ BEGIN:VEVENT
 UID:2026-08-15-19:30-NonpointTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260815T193000
 DTEND;TZID=America/Chicago:20260815T213000
-SUMMARY:Nonpoint @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Nonpoint @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Spineshank\, (Hed) P.E.. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70Yvb
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70Yvb
 END:VEVENT
@@ -178,17 +178,17 @@ BEGIN:VEVENT
 UID:2026-08-15-19:30-PokeRAVETheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260815T193000
 DTEND;TZID=America/Chicago:20260815T213000
-SUMMARY:Poke-RAVE @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Poke-RAVE @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PM73
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PM73
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-15-20:00-ToriAmosRiversideTheatreWI@theconfluence
+UID:2026-08-15-20:00-ToriAmosRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20260815T200000
 DTEND;TZID=America/Chicago:20260815T220000
-SUMMARY:Tori Amos @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Tori Amos @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7OPb4
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7OPb4
 END:VEVENT
@@ -223,17 +223,17 @@ BEGIN:VEVENT
 UID:2026-08-15-21:00-ClarentTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260815T210000
 DTEND;TZID=America/Chicago:20260815T230000
-SUMMARY:Clarent @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Clarent @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PM7k
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PM7k
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-15-21:00-UsamaSiddiqueeMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-15-21:00-UsamaSiddiqueeMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260815T210000
 DTEND;TZID=America/Chicago:20260815T230000
-SUMMARY:Usama Siddiquee @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Usama Siddiquee @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930283
 URL:https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930283
 END:VEVENT
@@ -268,17 +268,17 @@ BEGIN:VEVENT
 UID:2026-08-18-19:00-TheoryofaDeadmanTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260818T190000
 DTEND;TZID=America/Chicago:20260818T210000
-SUMMARY:Theory of a Deadman @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Theory of a Deadman @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Sevendust. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PM7K
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PM7K
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-19-19:00-JerryWayneLongmireMilwaukeeImprovMainRoo@theconfluence
+UID:2026-08-19-19:00-JerryWayneLongmireMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260819T190000
 DTEND;TZID=America/Chicago:20260819T210000
-SUMMARY:Jerry Wayne Longmire @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Jerry Wayne Longmire @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/jerry-wayne-longmire-milwaukee-improv-main-room-tickets/14854753
 URL:https://www.ticketweb.com/event/jerry-wayne-longmire-milwaukee-improv-main-room-tickets/14854753
 END:VEVENT
@@ -310,11 +310,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-tenley-sh
 URL:https://www.eventbrite.com/e/live-in-the-lounge-w-tenley-sheldon-free-tickets-1992955187615
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-20-19:00-TrixxMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-20-19:00-TrixxMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260820T190000
 DTEND;TZID=America/Chicago:20260820T210000
-SUMMARY:Trixx @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Trixx @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/trixx-milwaukee-improv-main-room-tickets/14973693
 URL:https://www.ticketweb.com/event/trixx-milwaukee-improv-main-room-tickets/14973693
 END:VEVENT
@@ -373,11 +373,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/kid-boogie-down-lets-glow-craz
 URL:https://www.eventbrite.com/e/kid-boogie-down-lets-glow-crazy-tickets-1993365472789
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-21-19:00-EddieGriffinMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-21-19:00-EddieGriffinMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260821T190000
 DTEND;TZID=America/Chicago:20260821T210000
-SUMMARY:Eddie Griffin @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Eddie Griffin @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016733
 URL:https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016733
 END:VEVENT
@@ -403,17 +403,17 @@ BEGIN:VEVENT
 UID:2026-08-21-20:00-RioDaYungOgTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260821T200000
 DTEND;TZID=America/Chicago:20260821T220000
-SUMMARY:Rio Da Yung Og @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Rio Da Yung Og @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70xqa
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70xqa
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-21-21:30-EddieGriffinMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-21-21:30-EddieGriffinMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260821T213000
 DTEND;TZID=America/Chicago:20260821T233000
-SUMMARY:Eddie Griffin @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Eddie Griffin @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016763
 URL:https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016763
 END:VEVENT
@@ -427,11 +427,11 @@ DESCRIPTION:With Jonathan Butler\, Jarrod Lawson\, Marqueal Jordan. Tickets: htt
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7qdqy
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-22-18:30-EddieGriffinMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-22-18:30-EddieGriffinMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260822T183000
 DTEND;TZID=America/Chicago:20260822T203000
-SUMMARY:Eddie Griffin @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Eddie Griffin @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016743
 URL:https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016743
 END:VEVENT
@@ -466,26 +466,26 @@ BEGIN:VEVENT
 UID:2026-08-22-20:30-NextLevelKPopTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260822T203000
 DTEND;TZID=America/Chicago:20260822T223000
-SUMMARY:Next Level K-Pop @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Next Level K-Pop @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JFAw
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JFAw
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-22-21:00-EddieGriffinMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-22-21:00-EddieGriffinMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260822T210000
 DTEND;TZID=America/Chicago:20260822T230000
-SUMMARY:Eddie Griffin @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Eddie Griffin @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016753
 URL:https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016753
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-23-13:00-GoldenGirlsDragBrunchMilwaukeeImprovMain@theconfluence
+UID:2026-08-23-13:00-GoldenGirlsDragBrunchMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260823T130000
 DTEND;TZID=America/Chicago:20260823T150000
-SUMMARY:Golden Girls Drag Brunch @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Golden Girls Drag Brunch @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/golden-girls-drag-brunch-milwaukee-improv-main-room-tickets/14245484
 URL:https://www.ticketweb.com/event/golden-girls-drag-brunch-milwaukee-improv-main-room-tickets/14245484
 END:VEVENT
@@ -520,8 +520,8 @@ BEGIN:VEVENT
 UID:2026-08-25-20:00-JayWebbTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260825T200000
 DTEND;TZID=America/Chicago:20260825T220000
-SUMMARY:Jay Webb @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Jay Webb @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Caitlynne Curtis. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PM74
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PM74
 END:VEVENT
@@ -529,8 +529,8 @@ BEGIN:VEVENT
 UID:2026-08-26-19:00-DevilDriverTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260826T190000
 DTEND;TZID=America/Chicago:20260826T210000
-SUMMARY:DevilDriver @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:DevilDriver @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Pz74
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pz74
 END:VEVENT
@@ -547,8 +547,8 @@ BEGIN:VEVENT
 UID:2026-08-26-19:30-RFSDUSOLAmericanFamilyInsuranceAmphithea@theconfluence
 DTSTART;TZID=America/Chicago:20260826T193000
 DTEND;TZID=America/Chicago:20260826T213000
-SUMMARY:RÜFÜS DU SOL @ American Family Insurance Amphitheater - Summerfest Grounds
-LOCATION:American Family Insurance Amphitheater - Summerfest Grounds\, Lakefront
+SUMMARY:RÜFÜS DU SOL @ American Family Insurance Amphitheater
+LOCATION:American Family Insurance Amphitheater\, Lakefront
 DESCRIPTION:With Ben Böhmer. Tickets: https://www.ticketmaster.com/rufus-du-sol-north-america-2026-milwaukee-wisconsin-08-26-2026/event/0700644F091BD764
 URL:https://www.ticketmaster.com/rufus-du-sol-north-america-2026-milwaukee-wisconsin-08-26-2026/event/0700644F091BD764
 END:VEVENT
@@ -592,17 +592,17 @@ BEGIN:VEVENT
 UID:2026-08-27-20:00-LUCKITheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260827T200000
 DTEND;TZID=America/Chicago:20260827T220000
-SUMMARY:LUCKI @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:LUCKI @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Sk8star. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70gGS
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70gGS
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-28-19:00-IanFidanceMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-28-19:00-IanFidanceMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260828T190000
 DTEND;TZID=America/Chicago:20260828T210000
-SUMMARY:Ian Fidance @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Ian Fidance @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975403
 URL:https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975403
 END:VEVENT
@@ -643,20 +643,20 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/the-sadies-shank-hall-ticke
 URL:https://www.ticketweb.com/event/the-sadies-shank-hall-tickets/14213214
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-28-21:15-IanFidanceMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-28-21:15-IanFidanceMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260828T211500
 DTEND;TZID=America/Chicago:20260828T231500
-SUMMARY:Ian Fidance @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Ian Fidance @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975433
 URL:https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975433
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-29-18:30-IanFidanceMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-29-18:30-IanFidanceMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260829T183000
 DTEND;TZID=America/Chicago:20260829T203000
-SUMMARY:Ian Fidance @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Ian Fidance @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975413
 URL:https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975413
 END:VEVENT
@@ -688,29 +688,29 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/ellis-bullard-shank-hall-ti
 URL:https://www.ticketweb.com/event/ellis-bullard-shank-hall-tickets/14169684
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-29-21:00-IanFidanceMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-29-21:00-IanFidanceMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260829T210000
 DTEND;TZID=America/Chicago:20260829T230000
-SUMMARY:Ian Fidance @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Ian Fidance @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975423
 URL:https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975423
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-30-15:00-PinkyPatelMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-30-15:00-PinkyPatelMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260830T150000
 DTEND;TZID=America/Chicago:20260830T170000
-SUMMARY:Pinky Patel @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Pinky Patel @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/pinky-patel-milwaukee-improv-main-room-tickets/14972573
 URL:https://www.ticketweb.com/event/pinky-patel-milwaukee-improv-main-room-tickets/14972573
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-30-18:00-TMurphMilwaukeeImprovMainRoom@theconfluence
+UID:2026-08-30-18:00-TMurphMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260830T180000
 DTEND;TZID=America/Chicago:20260830T200000
-SUMMARY:T. Murph @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:T. Murph @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/t-murph-milwaukee-improv-main-room-tickets/14924993
 URL:https://www.ticketweb.com/event/t-murph-milwaukee-improv-main-room-tickets/14924993
 END:VEVENT
@@ -718,8 +718,8 @@ BEGIN:VEVENT
 UID:2026-08-30-19:30-TheePhantomIllharmonicOrchestraUihleinHa@theconfluence
 DTSTART;TZID=America/Chicago:20260830T193000
 DTEND;TZID=America/Chicago:20260830T213000
-SUMMARY:Thee Phantom & Illharmonic Orchestra @ Uihlein Hall Marcus Center
-LOCATION:Uihlein Hall Marcus Center\, Milwaukee
+SUMMARY:Thee Phantom & Illharmonic Orchestra @ Uihlein Hall
+LOCATION:Uihlein Hall\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/thee-phantom-illharmonic-orchestra-milwaukee-wisconsin-08-30-2026/event/070064BAA32D34A6
 URL:https://www.ticketmaster.com/thee-phantom-illharmonic-orchestra-milwaukee-wisconsin-08-30-2026/event/070064BAA32D34A6
 END:VEVENT
@@ -754,17 +754,17 @@ BEGIN:VEVENT
 UID:2026-09-01-20:00-3QuencyTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260901T200000
 DTEND;TZID=America/Chicago:20260901T220000
-SUMMARY:3Quency @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:3Quency @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Lucy. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70Zbw
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70Zbw
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-02-19:00-MichaelLoftusMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-02-19:00-MichaelLoftusMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260902T190000
 DTEND;TZID=America/Chicago:20260902T210000
-SUMMARY:Michael Loftus @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Michael Loftus @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/michael-loftus-milwaukee-improv-main-room-tickets/14975583
 URL:https://www.ticketweb.com/event/michael-loftus-milwaukee-improv-main-room-tickets/14975583
 END:VEVENT
@@ -781,17 +781,17 @@ BEGIN:VEVENT
 UID:2026-09-03-18:35-BlackVeilBridesTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260903T183500
 DTEND;TZID=America/Chicago:20260903T203500
-SUMMARY:Black Veil Brides @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Black Veil Brides @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Caskets. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_A8
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_A8
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-03-19:30-HappyTogetherTourUihleinHallMarcusCenter@theconfluence
+UID:2026-09-03-19:30-HappyTogetherTourUihleinHall@theconfluence
 DTSTART;TZID=America/Chicago:20260903T193000
 DTEND;TZID=America/Chicago:20260903T213000
-SUMMARY:Happy Together Tour @ Uihlein Hall Marcus Center
-LOCATION:Uihlein Hall Marcus Center\, Milwaukee
+SUMMARY:Happy Together Tour @ Uihlein Hall
+LOCATION:Uihlein Hall\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/happy-together-tour-milwaukee-wisconsin-09-03-2026/event/0700647996FC40B7
 URL:https://www.ticketmaster.com/happy-together-tour-milwaukee-wisconsin-09-03-2026/event/0700647996FC40B7
 END:VEVENT
@@ -805,11 +805,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/pink-talking-fish-a-fusion-of-
 URL:https://www.eventbrite.com/e/pink-talking-fish-a-fusion-of-pink-floyd-talking-heads-and-phish-tickets-1992160356253
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-04-19:00-WillBurkartMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-04-19:00-WillBurkartMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260904T190000
 DTEND;TZID=America/Chicago:20260904T210000
-SUMMARY:Will Burkart @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Will Burkart @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978203
 URL:https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978203
 END:VEVENT
@@ -841,20 +841,20 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/steel-beans-presents-steel-bea
 URL:https://www.eventbrite.com/e/steel-beans-presents-steel-beans-is-a-psyop-tour-2026-tickets-1993843764372
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-04-21:15-WillBurkartMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-04-21:15-WillBurkartMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260904T211500
 DTEND;TZID=America/Chicago:20260904T231500
-SUMMARY:Will Burkart @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Will Burkart @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978223
 URL:https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978223
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-05-18:30-WillBurkartMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-05-18:30-WillBurkartMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260905T183000
 DTEND;TZID=America/Chicago:20260905T203000
-SUMMARY:Will Burkart @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Will Burkart @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978233
 URL:https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978233
 END:VEVENT
@@ -862,8 +862,8 @@ BEGIN:VEVENT
 UID:2026-09-05-19:00-ChadGrayTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260905T190000
 DTEND;TZID=America/Chicago:20260905T210000
-SUMMARY:Chad Gray @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Chad Gray @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Butcher Babies. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Pz7M
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pz7M
 END:VEVENT
@@ -886,11 +886,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/jon-mroz-his-central-avenue-se
 URL:https://www.eventbrite.com/e/jon-mroz-his-central-avenue-senders-tickets-1994240948360
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-05-21:00-WillBurkartMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-05-21:00-WillBurkartMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260905T210000
 DTEND;TZID=America/Chicago:20260905T230000
-SUMMARY:Will Burkart @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Will Burkart @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978213
 URL:https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978213
 END:VEVENT
@@ -898,8 +898,8 @@ BEGIN:VEVENT
 UID:2026-09-06-16:45-HatebreedTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260906T164500
 DTEND;TZID=America/Chicago:20260906T184500
-SUMMARY:Hatebreed @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Hatebreed @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Terror. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PzAZ
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PzAZ
 END:VEVENT
@@ -913,11 +913,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70-49
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70-49
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-09-19:00-NickMurphyMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-09-19:00-NickMurphyMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260909T190000
 DTEND;TZID=America/Chicago:20260909T210000
-SUMMARY:Nick Murphy @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Nick Murphy @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/nick-murphy-milwaukee-improv-main-room-tickets/14250064
 URL:https://www.ticketweb.com/event/nick-murphy-milwaukee-improv-main-room-tickets/14250064
 END:VEVENT
@@ -934,8 +934,8 @@ BEGIN:VEVENT
 UID:2026-09-09-19:30-TurnstileTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260909T193000
 DTEND;TZID=America/Chicago:20260909T213000
-SUMMARY:Turnstile @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Turnstile @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Texas Is the Reason. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Ps4a
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Ps4a
 END:VEVENT
@@ -949,11 +949,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-matt-froe
 URL:https://www.eventbrite.com/e/live-in-the-lounge-w-matt-froelich-free-tickets-1997088171481
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-10-19:00-MichaelTurnerMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-10-19:00-MichaelTurnerMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260910T190000
 DTEND;TZID=America/Chicago:20260910T210000
-SUMMARY:Michael Turner @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Michael Turner @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/michael-turner-milwaukee-improv-main-room-tickets/13977514
 URL:https://www.ticketweb.com/event/michael-turner-milwaukee-improv-main-room-tickets/13977514
 END:VEVENT
@@ -961,8 +961,8 @@ BEGIN:VEVENT
 UID:2026-09-10-20:00-AmericanAquariumTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260910T200000
 DTEND;TZID=America/Chicago:20260910T220000
-SUMMARY:American Aquarium @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:American Aquarium @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PzA7
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PzA7
 END:VEVENT
@@ -976,11 +976,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70-40
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70-40
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-11-19:00-SamTallentMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-11-19:00-SamTallentMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260911T190000
 DTEND;TZID=America/Chicago:20260911T210000
-SUMMARY:Sam Tallent @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Sam Tallent @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793113
 URL:https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793113
 END:VEVENT
@@ -1006,26 +1006,26 @@ BEGIN:VEVENT
 UID:2026-09-11-20:00-TheKnocksTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260911T200000
 DTEND;TZID=America/Chicago:20260911T220000
-SUMMARY:The Knocks @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:The Knocks @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PzAa
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PzAa
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-11-21:15-SamTallentMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-11-21:15-SamTallentMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260911T211500
 DTEND;TZID=America/Chicago:20260911T231500
-SUMMARY:Sam Tallent @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Sam Tallent @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793133
 URL:https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793133
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-12-18:30-SamTallentMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-12-18:30-SamTallentMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260912T183000
 DTEND;TZID=America/Chicago:20260912T203000
-SUMMARY:Sam Tallent @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Sam Tallent @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793143
 URL:https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793143
 END:VEVENT
@@ -1033,8 +1033,8 @@ BEGIN:VEVENT
 UID:2026-09-12-19:00-BrennTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260912T190000
 DTEND;TZID=America/Chicago:20260912T210000
-SUMMARY:Brenn! @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Brenn! @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A703bO
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A703bO
 END:VEVENT
@@ -1060,8 +1060,8 @@ BEGIN:VEVENT
 UID:2026-09-12-20:00-LPTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260912T200000
 DTEND;TZID=America/Chicago:20260912T220000
-SUMMARY:LP @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:LP @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70kGF
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70kGF
 END:VEVENT
@@ -1084,29 +1084,29 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/lily-rose-w-adam-paddock-ticke
 URL:https://www.eventbrite.com/e/lily-rose-w-adam-paddock-tickets-1992172183629
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-12-21:00-SamTallentMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-12-21:00-SamTallentMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260912T210000
 DTEND;TZID=America/Chicago:20260912T230000
-SUMMARY:Sam Tallent @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Sam Tallent @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793153
 URL:https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793153
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-13-13:00-JaneDontDoesAmericaMilwaukeeImprovMainRo@theconfluence
+UID:2026-09-13-13:00-JaneDontDoesAmericaMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260913T130000
 DTEND;TZID=America/Chicago:20260913T150000
-SUMMARY:Jane Don’t Does America @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Jane Don’t Does America @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/jane-dont-does-america-milwaukee-improv-main-room-tickets/14867183
 URL:https://www.ticketweb.com/event/jane-dont-does-america-milwaukee-improv-main-room-tickets/14867183
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-13-18:00-SamTallentMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-13-18:00-SamTallentMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260913T180000
 DTEND;TZID=America/Chicago:20260913T200000
-SUMMARY:Sam Tallent @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Sam Tallent @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793123
 URL:https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793123
 END:VEVENT
@@ -1159,8 +1159,8 @@ BEGIN:VEVENT
 UID:2026-09-13-20:00-PeachesTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260913T200000
 DTEND;TZID=America/Chicago:20260913T220000
-SUMMARY:Peaches @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Peaches @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PzA8
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PzA8
 END:VEVENT
@@ -1177,17 +1177,17 @@ BEGIN:VEVENT
 UID:2026-09-15-19:00-KamelotTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260915T190000
 DTEND;TZID=America/Chicago:20260915T210000
-SUMMARY:Kamelot @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Kamelot @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Visions of Atlantis. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PzAo
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PzAo
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-15-20:00-RogerDaltreyRiversideTheatreWI@theconfluence
+UID:2026-09-15-20:00-RogerDaltreyRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20260915T200000
 DTEND;TZID=America/Chicago:20260915T220000
-SUMMARY:Roger Daltrey @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Roger Daltrey @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_og
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_og
 END:VEVENT
@@ -1195,8 +1195,8 @@ BEGIN:VEVENT
 UID:2026-09-15-20:00-SlayrTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260915T200000
 DTEND;TZID=America/Chicago:20260915T220000
-SUMMARY:Slayr @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Slayr @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Ps4M
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Ps4M
 END:VEVENT
@@ -1210,11 +1210,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Pdpd
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pdpd
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-16-19:00-MarkPaulTheDaddyBallTourMilwaukeeImprovM@theconfluence
+UID:2026-09-16-19:00-MarkPaulTheDaddyBallTourMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260916T190000
 DTEND;TZID=America/Chicago:20260916T210000
-SUMMARY:Mark Paul: The Daddy Ball Tour @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Mark Paul: The Daddy Ball Tour @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/mark-paul-the-daddy-ball-milwaukee-improv-main-room-tickets/14109834
 URL:https://www.ticketweb.com/event/mark-paul-the-daddy-ball-milwaukee-improv-main-room-tickets/14109834
 END:VEVENT
@@ -1240,8 +1240,8 @@ BEGIN:VEVENT
 UID:2026-09-16-20:00-VioletGrohlTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260916T200000
 DTEND;TZID=America/Chicago:20260916T220000
-SUMMARY:Violet Grohl @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Violet Grohl @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PdGv
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PdGv
 END:VEVENT
@@ -1255,11 +1255,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-alejandro
 URL:https://www.eventbrite.com/e/live-in-the-lounge-w-alejandro-meola-free-tickets-1997088353024
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-17-19:00-ALOKMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-17-19:00-ALOKMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260917T190000
 DTEND;TZID=America/Chicago:20260917T210000
-SUMMARY:ALOK @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:ALOK @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/alok-eat-pray-leave-tour-milwaukee-improv-main-room-tickets/14883953
 URL:https://www.ticketweb.com/event/alok-eat-pray-leave-tour-milwaukee-improv-main-room-tickets/14883953
 END:VEVENT
@@ -1276,17 +1276,17 @@ BEGIN:VEVENT
 UID:2026-09-18-18:30-UICIDEBOYAmericanFamilyInsuranceAmphithe@theconfluence
 DTSTART;TZID=America/Chicago:20260918T183000
 DTEND;TZID=America/Chicago:20260918T203000
-SUMMARY:$UICIDEBOY$ @ American Family Insurance Amphitheater - Summerfest Grounds
-LOCATION:American Family Insurance Amphitheater - Summerfest Grounds\, Lakefront
+SUMMARY:$UICIDEBOY$ @ American Family Insurance Amphitheater
+LOCATION:American Family Insurance Amphitheater\, Lakefront
 DESCRIPTION:With Destroy Lonely\, Shakewell\, Drain\, Black Kray\, $lim Gucci. Tickets: https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-milwaukee-wisconsin-09-18-2026/event/0700647EC340520E
 URL:https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-milwaukee-wisconsin-09-18-2026/event/0700647EC340520E
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-18-19:00-TommyDavidsonMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-18-19:00-TommyDavidsonMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260918T190000
 DTEND;TZID=America/Chicago:20260918T210000
-SUMMARY:Tommy Davidson @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Tommy Davidson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977193
 URL:https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977193
 END:VEVENT
@@ -1303,8 +1303,8 @@ BEGIN:VEVENT
 UID:2026-09-18-20:00-underscoresTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260918T200000
 DTEND;TZID=America/Chicago:20260918T220000
-SUMMARY:underscores @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:underscores @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Umru. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70tqv
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70tqv
 END:VEVENT
@@ -1312,8 +1312,8 @@ BEGIN:VEVENT
 UID:2026-09-18-20:00-NikoMoonTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260918T200000
 DTEND;TZID=America/Chicago:20260918T220000
-SUMMARY:Niko Moon @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Niko Moon @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Blake Proehl. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZaZ
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZaZ
 END:VEVENT
@@ -1321,19 +1321,10 @@ BEGIN:VEVENT
 UID:2026-09-18-20:00-SteveAokiTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260918T200000
 DTEND;TZID=America/Chicago:20260918T220000
-SUMMARY:Steve Aoki @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Steve Aoki @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZvJo
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZvJo
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-18-20:00-NikoMoonEaglesClubTheRaveEaglesBallroom@theconfluence
-DTSTART;TZID=America/Chicago:20260918T200000
-DTEND;TZID=America/Chicago:20260918T220000
-SUMMARY:Niko Moon @ Eagles Club/The Rave/Eagles Ballroom
-LOCATION:Eagles Club/The Rave/Eagles Ballroom\, Westown
-DESCRIPTION:Tickets: https://www.vipnation.com/tour_date/niko-moon-milwaukee-wi-09-18-2026
-URL:https://www.vipnation.com/tour_date/niko-moon-milwaukee-wi-09-18-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-18-20:00-SmallTownMurderPodcastPabstTheater@theconfluence
@@ -1354,20 +1345,20 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/pat-mccurdy-tickets-1994257294
 URL:https://www.eventbrite.com/e/pat-mccurdy-tickets-1994257294251
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-18-21:15-TommyDavidsonMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-18-21:15-TommyDavidsonMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260918T211500
 DTEND;TZID=America/Chicago:20260918T231500
-SUMMARY:Tommy Davidson @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Tommy Davidson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977223
 URL:https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977223
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-19-18:30-TommyDavidsonMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-19-18:30-TommyDavidsonMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260919T183000
 DTEND;TZID=America/Chicago:20260919T203000
-SUMMARY:Tommy Davidson @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Tommy Davidson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977203
 URL:https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977203
 END:VEVENT
@@ -1393,8 +1384,8 @@ BEGIN:VEVENT
 UID:2026-09-19-20:00-PoisonGirlFriendTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260919T200000
 DTEND;TZID=America/Chicago:20260919T220000
-SUMMARY:Poison Girl Friend @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Poison Girl Friend @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZae
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZae
 END:VEVENT
@@ -1408,20 +1399,20 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/driveways-w-rematch-tickets-19
 URL:https://www.eventbrite.com/e/driveways-w-rematch-tickets-1996257434725
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-19-21:00-TommyDavidsonMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-19-21:00-TommyDavidsonMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260919T210000
 DTEND;TZID=America/Chicago:20260919T230000
-SUMMARY:Tommy Davidson @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Tommy Davidson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977213
 URL:https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977213
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-20-18:00-TommyDavidsonMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-20-18:00-TommyDavidsonMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260920T180000
 DTEND;TZID=America/Chicago:20260920T200000
-SUMMARY:Tommy Davidson @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Tommy Davidson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977233
 URL:https://www.ticketweb.com/event/tommy-davidson-milwaukee-improv-main-room-tickets/14977233
 END:VEVENT
@@ -1447,8 +1438,8 @@ BEGIN:VEVENT
 UID:2026-09-20-20:00-BrianFallonTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260920T200000
 DTEND;TZID=America/Chicago:20260920T220000
-SUMMARY:Brian Fallon @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Brian Fallon @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Ben Nichols. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZad
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZad
 END:VEVENT
@@ -1456,8 +1447,8 @@ BEGIN:VEVENT
 UID:2026-09-20-20:00-TomMorelloTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260920T200000
 DTEND;TZID=America/Chicago:20260920T220000
-SUMMARY:Tom Morello @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Tom Morello @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7OzFz
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7OzFz
 END:VEVENT
@@ -1489,20 +1480,20 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZd7J
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZd7J
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-23-19:00-PattiSmithRiversideTheatreWI@theconfluence
+UID:2026-09-23-19:00-PattiSmithRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20260923T190000
 DTEND;TZID=America/Chicago:20260923T210000
-SUMMARY:Patti Smith @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Patti Smith @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZFaa
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZFaa
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-23-19:00-YardSaleGirlsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-23-19:00-YardSaleGirlsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260923T190000
 DTEND;TZID=America/Chicago:20260923T210000
-SUMMARY:Yard Sale Girls @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Yard Sale Girls @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/yard-sale-girls-milwaukee-improv-main-room-tickets/14980883
 URL:https://www.ticketweb.com/event/yard-sale-girls-milwaukee-improv-main-room-tickets/14980883
 END:VEVENT
@@ -1537,8 +1528,8 @@ BEGIN:VEVENT
 UID:2026-09-24-18:30-IconforHireTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260924T183000
 DTEND;TZID=America/Chicago:20260924T203000
-SUMMARY:Icon for Hire @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Icon for Hire @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Elijah\, Lauren Babic. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70ApA
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70ApA
 END:VEVENT
@@ -1546,8 +1537,8 @@ BEGIN:VEVENT
 UID:2026-09-24-19:00-ZachRushingTheRedneckLogicTourMilwaukeeI@theconfluence
 DTSTART;TZID=America/Chicago:20260924T190000
 DTEND;TZID=America/Chicago:20260924T210000
-SUMMARY:Zach Rushing: The Redneck Logic Tour @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Zach Rushing: The Redneck Logic Tour @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/zach-rushing-the-redneck-logic-milwaukee-improv-main-room-tickets/13998644
 URL:https://www.ticketweb.com/event/zach-rushing-the-redneck-logic-milwaukee-improv-main-room-tickets/13998644
 END:VEVENT
@@ -1570,11 +1561,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PYqP
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PYqP
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-25-19:00-BubbaDubMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-25-19:00-BubbaDubMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260925T190000
 DTEND;TZID=America/Chicago:20260925T210000
-SUMMARY:Bubba Dub @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Bubba Dub @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/bubba-dub-milwaukee-improv-main-room-tickets/14976033
 URL:https://www.ticketweb.com/event/bubba-dub-milwaukee-improv-main-room-tickets/14976033
 END:VEVENT
@@ -1600,17 +1591,17 @@ BEGIN:VEVENT
 UID:2026-09-25-21:00-DaftDiskoTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260925T210000
 DTEND;TZID=America/Chicago:20260925T230000
-SUMMARY:Daft Disko @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Daft Disko @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZa6
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZa6
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-25-21:15-BubbaDubMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-25-21:15-BubbaDubMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260925T211500
 DTEND;TZID=America/Chicago:20260925T231500
-SUMMARY:Bubba Dub @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Bubba Dub @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/bubba-dub-milwaukee-improv-main-room-tickets/14976043
 URL:https://www.ticketweb.com/event/bubba-dub-milwaukee-improv-main-room-tickets/14976043
 END:VEVENT
@@ -1618,17 +1609,17 @@ BEGIN:VEVENT
 UID:2026-09-26-18:30-DyingFetusTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260926T183000
 DTEND;TZID=America/Chicago:20260926T203000
-SUMMARY:Dying Fetus @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Dying Fetus @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Sanguisugabogg. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZaF
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZaF
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-26-18:30-JustinSilvaMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-26-18:30-JustinSilvaMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260926T183000
 DTEND;TZID=America/Chicago:20260926T203000
-SUMMARY:Justin Silva @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Justin Silva @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/justin-silva-milwaukee-improv-main-room-tickets/14970753
 URL:https://www.ticketweb.com/event/justin-silva-milwaukee-improv-main-room-tickets/14970753
 END:VEVENT
@@ -1678,20 +1669,20 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/big-richard-tickets-1990612374
 URL:https://www.eventbrite.com/e/big-richard-tickets-1990612374197
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-26-21:00-JustinSilvaMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-26-21:00-JustinSilvaMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260926T210000
 DTEND;TZID=America/Chicago:20260926T230000
-SUMMARY:Justin Silva @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Justin Silva @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/justin-silva-milwaukee-improv-main-room-tickets/14970763
 URL:https://www.ticketweb.com/event/justin-silva-milwaukee-improv-main-room-tickets/14970763
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-27-18:00-DamonWilliamsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-09-27-18:00-DamonWilliamsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20260927T180000
 DTEND;TZID=America/Chicago:20260927T200000
-SUMMARY:Damon Williams @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Damon Williams @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/damon-williams-milwaukee-improv-main-room-tickets/14179714
 URL:https://www.ticketweb.com/event/damon-williams-milwaukee-improv-main-room-tickets/14179714
 END:VEVENT
@@ -1708,8 +1699,8 @@ BEGIN:VEVENT
 UID:2026-09-27-20:00-YGTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260927T200000
 DTEND;TZID=America/Chicago:20260927T220000
-SUMMARY:YG @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:YG @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Mozzy\, Chef Boy. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZAQ4
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZAQ4
 END:VEVENT
@@ -1726,8 +1717,8 @@ BEGIN:VEVENT
 UID:2026-09-28-20:00-AmigoTheDevilTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260928T200000
 DTEND;TZID=America/Chicago:20260928T220000
-SUMMARY:Amigo The Devil @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Amigo The Devil @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Liam St. John. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZaQd
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZaQd
 END:VEVENT
@@ -1744,8 +1735,8 @@ BEGIN:VEVENT
 UID:2026-09-29-19:30-BrysonTillerAmericanFamilyInsuranceAmphi@theconfluence
 DTSTART;TZID=America/Chicago:20260929T193000
 DTEND;TZID=America/Chicago:20260929T213000
-SUMMARY:Bryson Tiller @ American Family Insurance Amphitheater - Summerfest Grounds
-LOCATION:American Family Insurance Amphitheater - Summerfest Grounds\, Lakefront
+SUMMARY:Bryson Tiller @ American Family Insurance Amphitheater
+LOCATION:American Family Insurance Amphitheater\, Lakefront
 DESCRIPTION:With Majid Jordan\, Ty Dolla $ign\, Austin Millz. Tickets: https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-milwaukee-wisconsin-09-29-2026/event/070064BACE3F545A
 URL:https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-milwaukee-wisconsin-09-29-2026/event/070064BACE3F545A
 END:VEVENT
@@ -1780,8 +1771,8 @@ BEGIN:VEVENT
 UID:2026-10-01-19:01-CitizenTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261001T190100
 DTEND;TZID=America/Chicago:20261001T210100
-SUMMARY:Citizen @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Citizen @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Hotline TNT. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70A4s
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70A4s
 END:VEVENT
@@ -1816,8 +1807,8 @@ BEGIN:VEVENT
 UID:2026-10-01-20:00-ArtemasTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261001T200000
 DTEND;TZID=America/Chicago:20261001T220000
-SUMMARY:Artemas @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Artemas @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Henry Morris. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZaa
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZaa
 END:VEVENT
@@ -1825,17 +1816,17 @@ BEGIN:VEVENT
 UID:2026-10-02-19:00-TakingBackSundayTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261002T190000
 DTEND;TZID=America/Chicago:20261002T210000
-SUMMARY:Taking Back Sunday @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Taking Back Sunday @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With THRICE. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZa8
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZa8
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-02-19:00-ChadDanielsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-02-19:00-ChadDanielsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261002T190000
 DTEND;TZID=America/Chicago:20261002T210000
-SUMMARY:Chad Daniels @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Chad Daniels @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179534
 URL:https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179534
 END:VEVENT
@@ -1858,11 +1849,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/shwayze-the-nostalgia-tour-w-s
 URL:https://www.eventbrite.com/e/shwayze-the-nostalgia-tour-w-sammy-adams-chiddy-bang-tickets-1993023611272
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-02-20:00-LeonidFriendsRiversideTheatreWI@theconfluence
+UID:2026-10-02-20:00-LeonidFriendsRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261002T200000
 DTEND;TZID=America/Chicago:20261002T220000
-SUMMARY:Leonid & Friends @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Leonid & Friends @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7OMbk
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7OMbk
 END:VEVENT
@@ -1879,8 +1870,8 @@ BEGIN:VEVENT
 UID:2026-10-02-20:00-AlanaSpringsteenTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261002T200000
 DTEND;TZID=America/Chicago:20261002T220000
-SUMMARY:Alana Springsteen @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Alana Springsteen @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Erin Kinsey. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZao
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZao
 END:VEVENT
@@ -1894,11 +1885,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/king-mala-the-golden-thing-tou
 URL:https://www.eventbrite.com/e/king-mala-the-golden-thing-tour-w-jayden-hammer-tickets-1993023248186
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-02-21:15-ChadDanielsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-02-21:15-ChadDanielsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261002T211500
 DTEND;TZID=America/Chicago:20261002T231500
-SUMMARY:Chad Daniels @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Chad Daniels @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179544
 URL:https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179544
 END:VEVENT
@@ -1915,17 +1906,17 @@ BEGIN:VEVENT
 UID:2026-10-03-18:00-InThisMomentTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261003T180000
 DTEND;TZID=America/Chicago:20261003T200000
-SUMMARY:In This Moment @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:In This Moment @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Hollywood Undead. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZa3
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZa3
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-03-18:30-ChadDanielsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-03-18:30-ChadDanielsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261003T183000
 DTEND;TZID=America/Chicago:20261003T203000
-SUMMARY:Chad Daniels @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Chad Daniels @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179554
 URL:https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179554
 END:VEVENT
@@ -1951,8 +1942,8 @@ BEGIN:VEVENT
 UID:2026-10-03-20:00-AshleyCookeTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261003T200000
 DTEND;TZID=America/Chicago:20261003T220000
-SUMMARY:Ashley Cooke @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Ashley Cooke @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With McCoy Moore. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZa4
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZa4
 END:VEVENT
@@ -1975,20 +1966,20 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-holdup-the-buying-time-tou
 URL:https://www.eventbrite.com/e/the-holdup-the-buying-time-tour-w-cydeways-dylan-reese-tickets-1991394584810
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-03-21:00-ChadDanielsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-03-21:00-ChadDanielsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261003T210000
 DTEND;TZID=America/Chicago:20261003T230000
-SUMMARY:Chad Daniels @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Chad Daniels @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179564
 URL:https://www.ticketweb.com/event/chad-daniels-milwaukee-improv-main-room-tickets/14179564
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-04-18:00-JohnHeffronMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-04-18:00-JohnHeffronMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261004T180000
 DTEND;TZID=America/Chicago:20261004T200000
-SUMMARY:John Heffron @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:John Heffron @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/john-heffron-milwaukee-improv-main-room-tickets/14220314
 URL:https://www.ticketweb.com/event/john-heffron-milwaukee-improv-main-room-tickets/14220314
 END:VEVENT
@@ -1996,8 +1987,8 @@ BEGIN:VEVENT
 UID:2026-10-04-19:00-TheCarpentersSongbookALiveCelebrationUih@theconfluence
 DTSTART;TZID=America/Chicago:20261004T190000
 DTEND;TZID=America/Chicago:20261004T210000
-SUMMARY:The Carpenters Songbook - A Live Celebration @ Uihlein Hall Marcus Center
-LOCATION:Uihlein Hall Marcus Center\, Milwaukee
+SUMMARY:The Carpenters Songbook - A Live Celebration @ Uihlein Hall
+LOCATION:Uihlein Hall\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/the-carpenters-songbook-a-live-celebration-milwaukee-wisconsin-10-04-2026/event/070064CC93473652
 URL:https://www.ticketmaster.com/the-carpenters-songbook-a-live-celebration-milwaukee-wisconsin-10-04-2026/event/070064CC93473652
 END:VEVENT
@@ -2077,8 +2068,8 @@ BEGIN:VEVENT
 UID:2026-10-07-19:00-THROWNTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261007T190000
 DTEND;TZID=America/Chicago:20261007T210000
-SUMMARY:THROWN @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:THROWN @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Norma Jean. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PYvk
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PYvk
 END:VEVENT
@@ -2101,11 +2092,11 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/rhett-miller-shank-hall-tic
 URL:https://www.ticketweb.com/event/rhett-miller-shank-hall-tickets/14229534
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-08-19:30-HunterHillMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-08-19:30-HunterHillMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261008T193000
 DTEND;TZID=America/Chicago:20261008T213000
-SUMMARY:Hunter Hill @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Hunter Hill @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/hunter-hill-milwaukee-improv-main-room-tickets/14521563
 URL:https://www.ticketweb.com/event/hunter-hill-milwaukee-improv-main-room-tickets/14521563
 END:VEVENT
@@ -2137,11 +2128,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PVJd
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PVJd
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-09-19:00-ArnezJMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-09-19:00-ArnezJMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261009T190000
 DTEND;TZID=America/Chicago:20261009T210000
-SUMMARY:Arnez J @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Arnez J @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982083
 URL:https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982083
 END:VEVENT
@@ -2158,8 +2149,8 @@ BEGIN:VEVENT
 UID:2026-10-09-20:00-FailureTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261009T200000
 DTEND;TZID=America/Chicago:20261009T220000
-SUMMARY:Failure @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Failure @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With quannnic. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7x9Ze
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7x9Ze
 END:VEVENT
@@ -2173,20 +2164,20 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70Erv
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70Erv
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-09-21:15-ArnezJMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-09-21:15-ArnezJMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261009T211500
 DTEND;TZID=America/Chicago:20261009T231500
-SUMMARY:Arnez J @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Arnez J @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982103
 URL:https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982103
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-10-18:30-ArnezJMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-10-18:30-ArnezJMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261010T183000
 DTEND;TZID=America/Chicago:20261010T203000
-SUMMARY:Arnez J @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Arnez J @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982093
 URL:https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982093
 END:VEVENT
@@ -2203,8 +2194,8 @@ BEGIN:VEVENT
 UID:2026-10-10-19:00-RiseAgainstTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261010T190000
 DTEND;TZID=America/Chicago:20261010T210000
-SUMMARY:Rise Against @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Rise Against @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Alkaline Trio\, Teen Mortgage. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Jead
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Jead
 END:VEVENT
@@ -2239,8 +2230,8 @@ BEGIN:VEVENT
 UID:2026-10-10-20:00-ZachJohnKingTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261010T200000
 DTEND;TZID=America/Chicago:20261010T220000
-SUMMARY:Zach John King @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Zach John King @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70O_4
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70O_4
 END:VEVENT
@@ -2263,20 +2254,20 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/infinite-80s-tickets-199459174
 URL:https://www.eventbrite.com/e/infinite-80s-tickets-1994591749616
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-10-21:00-ArnezJMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-10-21:00-ArnezJMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261010T210000
 DTEND;TZID=America/Chicago:20261010T230000
-SUMMARY:Arnez J @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Arnez J @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982113
 URL:https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982113
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-11-18:00-ArnezJMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-11-18:00-ArnezJMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261011T180000
 DTEND;TZID=America/Chicago:20261011T200000
-SUMMARY:Arnez J @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Arnez J @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982123
 URL:https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982123
 END:VEVENT
@@ -2293,8 +2284,8 @@ BEGIN:VEVENT
 UID:2026-10-11-20:00-HolywatrTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261011T200000
 DTEND;TZID=America/Chicago:20261011T220000
-SUMMARY:Holywatr @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Holywatr @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Mercury. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Jea7
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Jea7
 END:VEVENT
@@ -2302,8 +2293,8 @@ BEGIN:VEVENT
 UID:2026-10-12-19:00-EarlSweatshirtTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261012T190000
 DTEND;TZID=America/Chicago:20261012T210000
-SUMMARY:Earl Sweatshirt @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Earl Sweatshirt @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With MIKE. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7-t7N
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7-t7N
 END:VEVENT
@@ -2356,8 +2347,8 @@ BEGIN:VEVENT
 UID:2026-10-14-20:00-HeyNothingTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261014T200000
 DTEND;TZID=America/Chicago:20261014T220000
-SUMMARY:Hey\, Nothing @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Hey\, Nothing @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PpbJ
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PpbJ
 END:VEVENT
@@ -2365,17 +2356,17 @@ BEGIN:VEVENT
 UID:2026-10-14-20:00-StanleySimmonsTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261014T200000
 DTEND;TZID=America/Chicago:20261014T220000
-SUMMARY:Stanley Simmons @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Stanley Simmons @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Jeak
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Jeak
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-15-19:00-ChrisPorterMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-15-19:00-ChrisPorterMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261015T190000
 DTEND;TZID=America/Chicago:20261015T210000
-SUMMARY:Chris Porter @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Chris Porter @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966573
 URL:https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966573
 END:VEVENT
@@ -2389,11 +2380,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/hiss-golden-messenger-im-peopl
 URL:https://www.eventbrite.com/e/hiss-golden-messenger-im-people-tour-w-sam-amidon-tickets-1994986264621
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-15-20:00-UNDERTALESymphonyRiversideTheatreWI@theconfluence
+UID:2026-10-15-20:00-UNDERTALESymphonyRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261015T200000
 DTEND;TZID=America/Chicago:20261015T220000
-SUMMARY:UNDERTALE Symphony @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:UNDERTALE Symphony @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7J_fI
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7J_fI
 END:VEVENT
@@ -2407,11 +2398,11 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/joe-stamm-shank-hall-ticket
 URL:https://www.ticketweb.com/event/joe-stamm-shank-hall-tickets/14217154
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-16-19:00-ChrisPorterMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-16-19:00-ChrisPorterMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261016T190000
 DTEND;TZID=America/Chicago:20261016T210000
-SUMMARY:Chris Porter @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Chris Porter @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966603
 URL:https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966603
 END:VEVENT
@@ -2446,8 +2437,8 @@ BEGIN:VEVENT
 UID:2026-10-16-20:00-DaiFreyrTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261016T200000
 DTEND;TZID=America/Chicago:20261016T220000
-SUMMARY:Daði Freyr @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Daði Freyr @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7-V4E
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7-V4E
 END:VEVENT
@@ -2455,8 +2446,8 @@ BEGIN:VEVENT
 UID:2026-10-16-20:00-AFITheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261016T200000
 DTEND;TZID=America/Chicago:20261016T220000
-SUMMARY:AFI @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:AFI @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70pfV
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70pfV
 END:VEVENT
@@ -2470,11 +2461,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70VrZ
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70VrZ
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-16-21:15-ChrisPorterMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-16-21:15-ChrisPorterMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261016T211500
 DTEND;TZID=America/Chicago:20261016T231500
-SUMMARY:Chris Porter @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Chris Porter @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966593
 URL:https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966593
 END:VEVENT
@@ -2497,11 +2488,11 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/edgar-sandoval-shank-hall-t
 URL:https://www.ticketweb.com/event/edgar-sandoval-shank-hall-tickets/15023723
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-17-18:30-ChrisPorterMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-17-18:30-ChrisPorterMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261017T183000
 DTEND;TZID=America/Chicago:20261017T203000
-SUMMARY:Chris Porter @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Chris Porter @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966613
 URL:https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966613
 END:VEVENT
@@ -2527,8 +2518,8 @@ BEGIN:VEVENT
 UID:2026-10-17-20:00-WeTouchGrassTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261017T200000
 DTEND;TZID=America/Chicago:20261017T220000
-SUMMARY:WeTouchGrass @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:WeTouchGrass @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Anime Rave. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Jeaa
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Jeaa
 END:VEVENT
@@ -2551,20 +2542,20 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/edgar-sandoval-shank-hall-t
 URL:https://www.ticketweb.com/event/edgar-sandoval-shank-hall-tickets/15023743
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-17-21:15-ChrisPorterMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-17-21:15-ChrisPorterMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261017T211500
 DTEND;TZID=America/Chicago:20261017T231500
-SUMMARY:Chris Porter @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Chris Porter @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966583
 URL:https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966583
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-18-13:00-HocusPocusDragBrunchMilwaukeeImprovMainR@theconfluence
+UID:2026-10-18-13:00-HocusPocusDragBrunchMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261018T130000
 DTEND;TZID=America/Chicago:20261018T150000
-SUMMARY:Hocus Pocus Drag Brunch @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Hocus Pocus Drag Brunch @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/hocus-pocus-drag-brunch-milwaukee-improv-main-room-tickets/14251184
 URL:https://www.ticketweb.com/event/hocus-pocus-drag-brunch-milwaukee-improv-main-room-tickets/14251184
 END:VEVENT
@@ -2614,11 +2605,11 @@ DESCRIPTION:With Linda Perry. Tickets: https://www.ticketmaster.com/event/Z7r9jZ
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Ptqg
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-19-19:30-BEATRiversideTheatreWI@theconfluence
+UID:2026-10-19-19:30-BEATRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261019T193000
 DTEND;TZID=America/Chicago:20261019T213000
-SUMMARY:BEAT @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:BEAT @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZ9f7
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ9f7
 END:VEVENT
@@ -2668,11 +2659,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/tedeschi-trucks-band-future-so
 URL:https://www.ticketmaster.com/tedeschi-trucks-band-future-soul-2026-milwaukee-wisconsin-10-21-2026/event/07006435C62274A2
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-21-20:00-SylvanEssoRiversideTheatreWI@theconfluence
+UID:2026-10-21-20:00-SylvanEssoRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261021T200000
 DTEND;TZID=America/Chicago:20261021T220000
-SUMMARY:Sylvan Esso @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Sylvan Esso @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PfOs
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PfOs
 END:VEVENT
@@ -2689,8 +2680,8 @@ BEGIN:VEVENT
 UID:2026-10-21-20:00-RyanBinghamTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261021T200000
 DTEND;TZID=America/Chicago:20261021T220000
-SUMMARY:Ryan Bingham @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Ryan Bingham @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With The Texas Gentlemen. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZdOO
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZdOO
 END:VEVENT
@@ -2698,8 +2689,8 @@ BEGIN:VEVENT
 UID:2026-10-22-19:30-MarshallCharloffThePurpleXperienceUihlei@theconfluence
 DTSTART;TZID=America/Chicago:20261022T193000
 DTEND;TZID=America/Chicago:20261022T213000
-SUMMARY:Marshall Charloff & The Purple Xperience @ Uihlein Hall Marcus Center
-LOCATION:Uihlein Hall Marcus Center\, Milwaukee
+SUMMARY:Marshall Charloff & The Purple Xperience @ Uihlein Hall
+LOCATION:Uihlein Hall\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/marshall-charloff-the-purple-xperience-milwaukee-wisconsin-10-22-2026/event/070060CABD2F2289
 URL:https://www.ticketmaster.com/marshall-charloff-the-purple-xperience-milwaukee-wisconsin-10-22-2026/event/070060CABD2F2289
 END:VEVENT
@@ -2716,26 +2707,26 @@ BEGIN:VEVENT
 UID:2026-10-23-19:00-TheWrecksTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261023T190000
 DTEND;TZID=America/Chicago:20261023T210000
-SUMMARY:The Wrecks @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:The Wrecks @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Worry Club. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PYv6
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PYv6
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-23-19:00-DLHughleyMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-23-19:00-DLHughleyMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261023T190000
 DTEND;TZID=America/Chicago:20261023T210000
-SUMMARY:D.L. Hughley @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:D.L. Hughley @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869383
 URL:https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869383
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-23-20:00-WidespreadPanicRiversideTheatreWI@theconfluence
+UID:2026-10-23-20:00-WidespreadPanicRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261023T200000
 DTEND;TZID=America/Chicago:20261023T220000
-SUMMARY:Widespread Panic @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Widespread Panic @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7POf-
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7POf-
 END:VEVENT
@@ -2743,17 +2734,17 @@ BEGIN:VEVENT
 UID:2026-10-23-20:30-ZacariasFerreiraTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261023T203000
 DTEND;TZID=America/Chicago:20261023T223000
-SUMMARY:Zacarias Ferreira @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Zacarias Ferreira @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PJPt
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PJPt
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-23-21:15-DLHughleyMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-23-21:15-DLHughleyMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261023T211500
 DTEND;TZID=America/Chicago:20261023T231500
-SUMMARY:D.L. Hughley @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:D.L. Hughley @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869403
 URL:https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869403
 END:VEVENT
@@ -2767,11 +2758,11 @@ DESCRIPTION:Tickets: https://www.universe.com/events/trap-karaoke-milwaukee-tick
 URL:https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-24-18:30-DLHughleyMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-24-18:30-DLHughleyMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261024T183000
 DTEND;TZID=America/Chicago:20261024T203000
-SUMMARY:D.L. Hughley @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:D.L. Hughley @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869393
 URL:https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869393
 END:VEVENT
@@ -2785,11 +2776,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PtOY
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PtOY
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-24-20:00-WidespreadPanicRiversideTheatreWI@theconfluence
+UID:2026-10-24-20:00-WidespreadPanicRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261024T200000
 DTEND;TZID=America/Chicago:20261024T220000
-SUMMARY:Widespread Panic @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Widespread Panic @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7POfx
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7POfx
 END:VEVENT
@@ -2812,29 +2803,29 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-longest-johns-tickets-1990
 URL:https://www.eventbrite.com/e/the-longest-johns-tickets-1990993982598
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-24-21:00-DLHughleyMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-24-21:00-DLHughleyMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261024T210000
 DTEND;TZID=America/Chicago:20261024T230000
-SUMMARY:D.L. Hughley @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:D.L. Hughley @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869423
 URL:https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869423
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-25-18:00-PatMcGannMilwaukeeImprovMainRoom@theconfluence
+UID:2026-10-25-18:00-PatMcGannMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261025T180000
 DTEND;TZID=America/Chicago:20261025T200000
-SUMMARY:Pat McGann @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Pat McGann @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/pat-mcgann-milwaukee-improv-main-room-tickets/14837983
 URL:https://www.ticketweb.com/event/pat-mcgann-milwaukee-improv-main-room-tickets/14837983
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-25-20:00-WidespreadPanicRiversideTheatreWI@theconfluence
+UID:2026-10-25-20:00-WidespreadPanicRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261025T200000
 DTEND;TZID=America/Chicago:20261025T220000
-SUMMARY:Widespread Panic @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Widespread Panic @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7POfF
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7POfF
 END:VEVENT
@@ -2842,8 +2833,8 @@ BEGIN:VEVENT
 UID:2026-10-26-19:00-SpiteTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261026T190000
 DTEND;TZID=America/Chicago:20261026T210000
-SUMMARY:Spite @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Spite @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Stick To Your Guns\, Vomit Forth\, No Cure. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JfrK
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JfrK
 END:VEVENT
@@ -2857,11 +2848,11 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/wolfman-jack-shank-hall-tic
 URL:https://www.ticketweb.com/event/wolfman-jack-shank-hall-tickets/14979333
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-27-20:00-OldCrowMedicineShowRiversideTheatreWI@theconfluence
+UID:2026-10-27-20:00-OldCrowMedicineShowRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261027T200000
 DTEND;TZID=America/Chicago:20261027T220000
-SUMMARY:Old Crow Medicine Show @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Old Crow Medicine Show @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_-S
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_-S
 END:VEVENT
@@ -2923,8 +2914,8 @@ BEGIN:VEVENT
 UID:2026-10-29-20:00-NewConstellationsTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261029T200000
 DTEND;TZID=America/Chicago:20261029T220000
-SUMMARY:New Constellations @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:New Constellations @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7J7fY
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7J7fY
 END:VEVENT
@@ -2932,8 +2923,8 @@ BEGIN:VEVENT
 UID:2026-10-29-20:00-RzTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261029T200000
 DTEND;TZID=America/Chicago:20261029T220000
-SUMMARY:Røz @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Røz @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PEJa
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PEJa
 END:VEVENT
@@ -2974,11 +2965,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZK4-
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZK4-
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-01-18:00-KeithPedroMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-01-18:00-KeithPedroMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261101T180000
 DTEND;TZID=America/Chicago:20261101T200000
-SUMMARY:Keith Pedro @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Keith Pedro @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/keith-pedro-milwaukee-improv-main-room-tickets/14260564
 URL:https://www.ticketweb.com/event/keith-pedro-milwaukee-improv-main-room-tickets/14260564
 END:VEVENT
@@ -3004,8 +2995,8 @@ BEGIN:VEVENT
 UID:2026-11-02-19:00-FreeThrowTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261102T190000
 DTEND;TZID=America/Chicago:20261102T210000
-SUMMARY:Free Throw @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Free Throw @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Microwave\, Carly Cosgrove\, Kerosene Heights. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Pt7b
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pt7b
 END:VEVENT
@@ -3145,11 +3136,11 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/teddy-thompson-shank-hall-t
 URL:https://www.ticketweb.com/event/teddy-thompson-shank-hall-tickets/14930243
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-08-18:00-JoeyAveryMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-08-18:00-JoeyAveryMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261108T180000
 DTEND;TZID=America/Chicago:20261108T200000
-SUMMARY:Joey Avery  @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Joey Avery  @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/joey-avery-milwaukee-improv-main-room-tickets/14959903
 URL:https://www.ticketweb.com/event/joey-avery-milwaukee-improv-main-room-tickets/14959903
 END:VEVENT
@@ -3181,11 +3172,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7-ZaK
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7-ZaK
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-10-20:00-AndrewBirdRiversideTheatreWI@theconfluence
+UID:2026-11-10-20:00-AndrewBirdRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261110T200000
 DTEND;TZID=America/Chicago:20261110T220000
-SUMMARY:Andrew Bird @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Andrew Bird @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:With Milwaukee Symphony Orchestra. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7J_fS
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7J_fS
 END:VEVENT
@@ -3199,11 +3190,11 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/jack-white-live-2026-milwaukee
 URL:https://www.ticketmaster.com/jack-white-live-2026-milwaukee-wisconsin-11-10-2026/event/070064868A011FF3
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-11-19:00-AnthonyMrockaMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-11-19:00-AnthonyMrockaMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261111T190000
 DTEND;TZID=America/Chicago:20261111T210000
-SUMMARY:Anthony Mrocka @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Anthony Mrocka @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/anthony-mrocka-milwaukee-improv-main-room-tickets/14775323
 URL:https://www.ticketweb.com/event/anthony-mrocka-milwaukee-improv-main-room-tickets/14775323
 END:VEVENT
@@ -3229,8 +3220,8 @@ BEGIN:VEVENT
 UID:2026-11-12-19:00-AlterBridgeTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261112T190000
 DTEND;TZID=America/Chicago:20261112T210000
-SUMMARY:Alter Bridge @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Alter Bridge @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Big Wreck. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70U7e
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70U7e
 END:VEVENT
@@ -3244,20 +3235,20 @@ DESCRIPTION:With Dayseeker\, The Devil Wears Prada\, Dark Divine. Tickets: https
 URL:https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-13-19:00-TJMillerMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-13-19:00-TJMillerMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261113T190000
 DTEND;TZID=America/Chicago:20261113T210000
-SUMMARY:T.J. Miller @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:T.J. Miller @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939153
 URL:https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939153
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-13-20:00-CharlesWesleyGodwinRiversideTheatreWI@theconfluence
+UID:2026-11-13-20:00-CharlesWesleyGodwinRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261113T200000
 DTEND;TZID=America/Chicago:20261113T220000
-SUMMARY:Charles Wesley Godwin @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Charles Wesley Godwin @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:With Tyler Nance. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7J_fV
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7J_fV
 END:VEVENT
@@ -3280,20 +3271,20 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/sts9-human-dream-tour-milwauke
 URL:https://www.ticketmaster.com/sts9-human-dream-tour-milwaukee-wisconsin-11-13-2026/event/070064CAA7C54DEF
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-13-21:15-TJMillerMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-13-21:15-TJMillerMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261113T211500
 DTEND;TZID=America/Chicago:20261113T231500
-SUMMARY:T.J. Miller @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:T.J. Miller @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939173
 URL:https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939173
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-14-18:30-TJMillerMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-14-18:30-TJMillerMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261114T183000
 DTEND;TZID=America/Chicago:20261114T203000
-SUMMARY:T.J. Miller @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:T.J. Miller @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939163
 URL:https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939163
 END:VEVENT
@@ -3328,17 +3319,17 @@ BEGIN:VEVENT
 UID:2026-11-14-20:00-RivalSonsTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261114T200000
 DTEND;TZID=America/Chicago:20261114T220000
-SUMMARY:Rival Sons @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Rival Sons @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With The Blue Stones\, The Velveteers. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Ps48
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Ps48
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-14-21:00-TJMillerMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-14-21:00-TJMillerMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261114T210000
 DTEND;TZID=America/Chicago:20261114T230000
-SUMMARY:T.J. Miller @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:T.J. Miller @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939183
 URL:https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939183
 END:VEVENT
@@ -3382,8 +3373,8 @@ BEGIN:VEVENT
 UID:2026-11-17-19:00-SaosinTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261117T190000
 DTEND;TZID=America/Chicago:20261117T210000
-SUMMARY:Saosin @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Saosin @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Silent Planet\, Like Moths To Flames. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_44
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_44
 END:VEVENT
@@ -3397,11 +3388,11 @@ DESCRIPTION:With The Band Feel. Tickets: https://www.ticketmaster.com/cheap-tric
 URL:https://www.ticketmaster.com/cheap-trick-all-washed-up-tour-milwaukee-wisconsin-11-18-2026/event/070064E9D2CC37FA
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-18-19:00-DavideDePierroMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-18-19:00-DavideDePierroMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261118T190000
 DTEND;TZID=America/Chicago:20261118T210000
-SUMMARY:Davide De Pierro @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Davide De Pierro @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/davide-de-pierro-milwaukee-improv-main-room-tickets/14958163
 URL:https://www.ticketweb.com/event/davide-de-pierro-milwaukee-improv-main-room-tickets/14958163
 END:VEVENT
@@ -3415,11 +3406,11 @@ DESCRIPTION:With Sour Widows. Tickets: https://www.ticketmaster.com/event/Z7r9jZ
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PVJv
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-20-19:00-DonnellRawlingsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-20-19:00-DonnellRawlingsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261120T190000
 DTEND;TZID=America/Chicago:20261120T210000
-SUMMARY:Donnell Rawlings @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Donnell Rawlings @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984823
 URL:https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984823
 END:VEVENT
@@ -3436,26 +3427,26 @@ BEGIN:VEVENT
 UID:2026-11-20-20:00-DaxTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261120T200000
 DTEND;TZID=America/Chicago:20261120T220000
-SUMMARY:Dax @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Dax @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70trv
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70trv
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-20-21:15-DonnellRawlingsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-20-21:15-DonnellRawlingsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261120T211500
 DTEND;TZID=America/Chicago:20261120T231500
-SUMMARY:Donnell Rawlings @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Donnell Rawlings @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984863
 URL:https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984863
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-21-18:30-DonnellRawlingsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-21-18:30-DonnellRawlingsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261121T183000
 DTEND;TZID=America/Chicago:20261121T203000
-SUMMARY:Donnell Rawlings @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Donnell Rawlings @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984843
 URL:https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984843
 END:VEVENT
@@ -3469,20 +3460,20 @@ DESCRIPTION:With Pop Evil\, Wings of Steel. Tickets: https://www.ticketmaster.co
 URL:https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-21-21:00-DonnellRawlingsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-21-21:00-DonnellRawlingsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261121T210000
 DTEND;TZID=America/Chicago:20261121T230000
-SUMMARY:Donnell Rawlings @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Donnell Rawlings @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984833
 URL:https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984833
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-22-18:00-DonnellRawlingsMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-22-18:00-DonnellRawlingsMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261122T180000
 DTEND;TZID=America/Chicago:20261122T200000
-SUMMARY:Donnell Rawlings @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Donnell Rawlings @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984853
 URL:https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984853
 END:VEVENT
@@ -3514,11 +3505,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/chrissy-chlapecka-tickets-1993
 URL:https://www.eventbrite.com/e/chrissy-chlapecka-tickets-1993023002451
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-27-19:00-PeteLeeMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-27-19:00-PeteLeeMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261127T190000
 DTEND;TZID=America/Chicago:20261127T210000
-SUMMARY:Pete Lee @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Pete Lee @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984953
 URL:https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984953
 END:VEVENT
@@ -3532,11 +3523,11 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/the-rb-cadets-shank-hall-ti
 URL:https://www.ticketweb.com/event/the-rb-cadets-shank-hall-tickets/14273584
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-27-21:15-PeteLeeMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-27-21:15-PeteLeeMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261127T211500
 DTEND;TZID=America/Chicago:20261127T231500
-SUMMARY:Pete Lee @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Pete Lee @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984993
 URL:https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984993
 END:VEVENT
@@ -3550,11 +3541,11 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/the-rb-cadets-shank-hall-ti
 URL:https://www.ticketweb.com/event/the-rb-cadets-shank-hall-tickets/14273594
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-28-18:30-PeteLeeMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-28-18:30-PeteLeeMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261128T183000
 DTEND;TZID=America/Chicago:20261128T203000
-SUMMARY:Pete Lee @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Pete Lee @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984973
 URL:https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984973
 END:VEVENT
@@ -3568,20 +3559,20 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/beatallica-tickets-19950061651
 URL:https://www.eventbrite.com/e/beatallica-tickets-1995006165144
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-28-21:00-PeteLeeMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-28-21:00-PeteLeeMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261128T210000
 DTEND;TZID=America/Chicago:20261128T230000
-SUMMARY:Pete Lee @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Pete Lee @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984983
 URL:https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984983
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-29-18:00-PeteLeeMilwaukeeImprovMainRoom@theconfluence
+UID:2026-11-29-18:00-PeteLeeMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261129T180000
 DTEND;TZID=America/Chicago:20261129T200000
-SUMMARY:Pete Lee @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Pete Lee @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984963
 URL:https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984963
 END:VEVENT
@@ -3589,8 +3580,8 @@ BEGIN:VEVENT
 UID:2026-12-03-19:00-GWARTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261203T190000
 DTEND;TZID=America/Chicago:20261203T210000
-SUMMARY:GWAR @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:GWAR @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Midnight - Band\, Mac Sabbath\, X-Cops. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70A4Y
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70A4Y
 END:VEVENT
@@ -3613,29 +3604,29 @@ DESCRIPTION:With Floryence. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pgu4
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-04-19:00-JessicaKirsonMilwaukeeImprovMainRoom@theconfluence
+UID:2026-12-04-19:00-JessicaKirsonMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261204T190000
 DTEND;TZID=America/Chicago:20261204T210000
-SUMMARY:Jessica Kirson @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Jessica Kirson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224644
 URL:https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224644
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-04-21:15-JessicaKirsonMilwaukeeImprovMainRoom@theconfluence
+UID:2026-12-04-21:15-JessicaKirsonMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261204T211500
 DTEND;TZID=America/Chicago:20261204T231500
-SUMMARY:Jessica Kirson @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Jessica Kirson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224654
 URL:https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224654
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-05-18:30-JessicaKirsonMilwaukeeImprovMainRoom@theconfluence
+UID:2026-12-05-18:30-JessicaKirsonMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261205T183000
 DTEND;TZID=America/Chicago:20261205T203000
-SUMMARY:Jessica Kirson @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Jessica Kirson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224674
 URL:https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224674
 END:VEVENT
@@ -3643,8 +3634,8 @@ BEGIN:VEVENT
 UID:2026-12-05-20:00-HarryPotterandtheChamberofSecretsinConce@theconfluence
 DTSTART;TZID=America/Chicago:20261205T200000
 DTEND;TZID=America/Chicago:20261205T220000
-SUMMARY:Harry Potter and the Chamber of Secrets™ in Concert @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Harry Potter and the Chamber of Secrets™ in Concert @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:With Milwaukee Symphony Orchestra. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7OaxK
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7OaxK
 END:VEVENT
@@ -3667,11 +3658,11 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-gringos-tickets-1992178379
 URL:https://www.eventbrite.com/e/the-gringos-tickets-1992178379160
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-05-21:00-JessicaKirsonMilwaukeeImprovMainRoom@theconfluence
+UID:2026-12-05-21:00-JessicaKirsonMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261205T210000
 DTEND;TZID=America/Chicago:20261205T230000
-SUMMARY:Jessica Kirson @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Jessica Kirson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224664
 URL:https://www.ticketweb.com/event/jessica-kirson-milwaukee-improv-main-room-tickets/14224664
 END:VEVENT
@@ -3679,8 +3670,8 @@ BEGIN:VEVENT
 UID:2026-12-06-14:30-HarryPotterandtheChamberofSecretsinConce@theconfluence
 DTSTART;TZID=America/Chicago:20261206T143000
 DTEND;TZID=America/Chicago:20261206T163000
-SUMMARY:Harry Potter and the Chamber of Secrets™ in Concert @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Harry Potter and the Chamber of Secrets™ in Concert @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:With Milwaukee Symphony Orchestra. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Oaxb
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Oaxb
 END:VEVENT
@@ -3697,8 +3688,8 @@ BEGIN:VEVENT
 UID:2026-12-08-19:00-SilversteinTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261208T190000
 DTEND;TZID=America/Chicago:20261208T210000
-SUMMARY:Silverstein @ The Rave-Eagles Club
-LOCATION:The Rave-Eagles Club\, Westown
+SUMMARY:Silverstein @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:With Story of the Year. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZK7s
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZK7s
 END:VEVENT
@@ -3706,26 +3697,26 @@ BEGIN:VEVENT
 UID:2026-12-08-19:00-DonMcMillan20NowPoweredByAIMilwaukeeImpr@theconfluence
 DTSTART;TZID=America/Chicago:20261208T190000
 DTEND;TZID=America/Chicago:20261208T210000
-SUMMARY:Don McMillan 2.0 *Now Powered By AI @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Don McMillan 2.0 *Now Powered By AI @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/don-mcmillan-20-now-powered-milwaukee-improv-main-room-tickets/14982493
 URL:https://www.ticketweb.com/event/don-mcmillan-20-now-powered-milwaukee-improv-main-room-tickets/14982493
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-09-19:00-LoveActuallyLiveinConcertRiversideTheatr@theconfluence
+UID:2026-12-09-19:00-LoveActuallyLiveinConcertRiversideTheate@theconfluence
 DTSTART;TZID=America/Chicago:20261209T190000
 DTEND;TZID=America/Chicago:20261209T210000
-SUMMARY:Love Actually Live in Concert @ Riverside Theatre - WI
-LOCATION:Riverside Theatre - WI\, Milwaukee
+SUMMARY:Love Actually Live in Concert @ Riverside Theater
+LOCATION:Riverside Theater\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZFao
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZFao
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-09-20:00-CactusTateMilwaukeeImprovMainRoom@theconfluence
+UID:2026-12-09-20:00-CactusTateMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261209T200000
 DTEND;TZID=America/Chicago:20261209T220000
-SUMMARY:Cactus Tate @ Milwaukee Improv (Main Room)
-LOCATION:Milwaukee Improv (Main Room)\, Brookfield
+SUMMARY:Cactus Tate @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/cactus-tate-milwaukee-improv-main-room-tickets/15019373
 URL:https://www.ticketweb.com/event/cactus-tate-milwaukee-improv-main-room-tickets/15019373
 END:VEVENT

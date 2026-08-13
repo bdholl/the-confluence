@@ -26,6 +26,8 @@ site and the live data replaces the built-in sample. If every source fails or
 returns nothing, the script exits without touching `shows.json` (so a bad run
 never wipes good data).
 
+SeatGeek adds concert + comedy coverage and sometimes catches AXS-ticketed shows Ticketmaster misses.
+
 Optional env: `FEED_DAYS_AHEAD` (default `120`) — how far ahead to pull.
 
 ## 3. Automate it
