@@ -43,8 +43,9 @@
     .badge { position:absolute; z-index:2; transform-origin:50% 50%;
       filter:drop-shadow(0 2px 5px rgba(17,17,17,.22));
       animation:badgepop .62s cubic-bezier(.18,1.5,.4,1) .35s both; pointer-events:none; }
-    .badge svg { display:block; width:100%; height:100%; }
-    .badge.spin svg { animation:badgespin 16s linear infinite; }
+    /* every sticker turns; slightly different speeds and directions so they
+       never march in lockstep */
+    .badge svg { display:block; width:100%; height:100%; animation:badgespin 16s linear infinite; }
     @keyframes badgepop {
       0%   { transform:scale(0) rotate(-45deg); opacity:0; }
       60%  { transform:scale(1.22) rotate(8deg); opacity:1; }
@@ -55,13 +56,18 @@
 
     /* where each one lands */
     .badge.on-featured { top:-17px; left:-17px; width:52px; height:52px; }
-    .badge.on-sponsor  { top:-15px; right:-13px; width:46px; height:46px; rotate:14deg; animation-delay:.5s; }
-    .badge.on-tonight  { top:-15px; right:-19px; width:31px; height:31px; rotate:-12deg; animation-delay:.45s; }
-    .badge.on-guestbook{ top:-16px; right:-14px; width:44px; height:44px; rotate:-9deg; animation-delay:.55s; }
-    .badge.on-radio    { top:-15px; left:-14px; width:38px; height:38px; rotate:10deg; animation-delay:.7s; }
+    .badge.on-sponsor  { top:-15px; right:-13px; width:46px; height:46px; animation-delay:.5s; }
+    .badge.on-tonight  { top:-15px; right:-19px; width:31px; height:31px; animation-delay:.45s; }
+    .badge.on-guestbook{ top:-16px; right:-14px; width:44px; height:44px; animation-delay:.55s; }
+    .badge.on-radio    { top:-15px; left:-14px; width:38px; height:38px; animation-delay:.7s; }
+    .badge.on-featured svg { animation-duration:16s; }
+    .badge.on-sponsor  svg { animation-duration:22s; animation-direction:reverse; }
+    .badge.on-tonight  svg { animation-duration:11s; }
+    .badge.on-guestbook svg { animation-duration:19s; animation-direction:reverse; }
+    .badge.on-radio    svg { animation-duration:26s; }
     @media (max-width:560px) { .badge.on-sponsor, .badge.on-guestbook { display:none; } }
     @media (prefers-reduced-motion:reduce) {
-      .badge { animation:none; } .badge.spin svg { animation:none; }
+      .badge { animation:none; } .badge svg { animation:none; }
     }
     .mast-top { display:flex; align-items:flex-start; justify-content:space-between; gap:32px; }
     .wordmark { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(46px,7vw,72px); line-height:.98; letter-spacing:-.01em; color:var(--blue); }
@@ -292,7 +298,7 @@
         <p class="manifesto">No one has time to click around bloated event websites just to see who’s playing in Milwaukee. <b>Come here, grab some tickets, go to the show.</b></p>
       </div>
       <a class="featured" id="featured" target="_blank" rel="noopener noreferrer">
-        <div class="badge on-featured spin" aria-hidden="true">
+        <div class="badge on-featured" aria-hidden="true">
           <svg viewBox="-55 -55 110 110"><g fill="#0168FB" stroke="#fff" stroke-width="8" paint-order="stroke" stroke-linejoin="round">
             <polygon points="0,-50 7.25,-27.05 25,-43.3 19.8,-19.8 43.3,-25 27.05,-7.25 50,0 27.05,7.25 43.3,25 19.8,19.8 25,43.3 7.25,27.05 0,50 -7.25,27.05 -25,43.3 -19.8,19.8 -43.3,25 -27.05,7.25 -50,0 -27.05,-7.25 -43.3,-25 -19.8,-19.8 -25,-43.3 -7.25,-27.05" />
           </g></svg>
@@ -757,8 +763,8 @@ const STICKER_SHAPES = {
 };
 // White outline sits *outside* the fill (paint-order), so each one reads as
 // die-cut vinyl rather than a flat shape.
-function sticker(shape, color, place, spin) {
-  return `<div class="badge ${place}${spin ? ' spin' : ''}" aria-hidden="true">
+function sticker(shape, color, place) {
+  return `<div class="badge ${place}" aria-hidden="true">
     <svg viewBox="-55 -55 110 110"><g fill="${color}" stroke="#fff" stroke-width="8" paint-order="stroke" stroke-linejoin="round">${STICKER_SHAPES[shape]}</g></svg>
   </div>`;
 }
