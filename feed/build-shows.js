@@ -413,9 +413,11 @@ async function lookupPreview(name) {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
   const want = name.toLowerCase();
-  const hit = (data.results || []).find(r => r.previewUrl && (r.artistName || '').toLowerCase() === want)
-           || (data.results || []).find(r => r.previewUrl && (r.artistName || '').toLowerCase().includes(want));
-  return hit ? { url: hit.previewUrl, track: hit.trackName, artist: hit.artistName } : null;
+  // exact artist match only — "includes" collides badly on common names
+  // (a gospel "Kevin Smith", a jazz "Tommy Davidson") and would play a
+  // stranger's song under a comedian's listing
+  const hit = (data.results || []).find(r => r.previewUrl && (r.artistName || '').toLowerCase() === want);
+  return hit ? { url: hit.previewUrl, track: hit.trackName, artist: hit.artistName, kind: hit.primaryGenreName || '' } : null;
 }
 
 async function attachPreviews(shows) {
@@ -450,7 +452,11 @@ async function attachPreviews(shows) {
   let withPreview = 0;
   for (const s of shows) {
     const hit = cache[cleanArtist(s.title)];
-    if (hit && hit.url) { s.preview = hit; withPreview++; }
+    if (!hit || !hit.url) continue;
+    // a comedian's listing should only play actual comedy — otherwise it's a
+    // same-name musician, and the ▶ would be a lie
+    if (s.genre === 'comedy' && !/comedy|spoken/i.test(hit.kind || '')) continue;
+    s.preview = hit; withPreview++;
   }
   console.log(`• Previews: ${withPreview}/${shows.length} shows playable (${fetched} looked up, ${names.length - missing.length} cached)`);
   return shows;
