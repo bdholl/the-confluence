@@ -39,11 +39,12 @@
     /* hero sits on a deeper cream than the page, so it reads as its own block */
     .mast { position:relative; padding:34px 0 38px; background:#f4efe2; border-bottom:1px solid var(--line); }
 
-    /* 90s pop-up-video sticker, slapped over the corner of the featured photo */
-    .badge { position:absolute; top:-17px; left:-17px; z-index:2; width:52px; height:52px; transform-origin:50% 50%;
+    /* ---- stickers: 90s pop-up-video vinyl, white-outlined, slapped on ---- */
+    .badge { position:absolute; z-index:2; transform-origin:50% 50%;
       filter:drop-shadow(0 2px 5px rgba(17,17,17,.22));
-      animation:badgepop .62s cubic-bezier(.18,1.5,.4,1) .35s both; }
-    .badge svg { display:block; width:100%; height:100%; animation:badgespin 16s linear infinite; }
+      animation:badgepop .62s cubic-bezier(.18,1.5,.4,1) .35s both; pointer-events:none; }
+    .badge svg { display:block; width:100%; height:100%; }
+    .badge.spin svg { animation:badgespin 16s linear infinite; }
     @keyframes badgepop {
       0%   { transform:scale(0) rotate(-45deg); opacity:0; }
       60%  { transform:scale(1.22) rotate(8deg); opacity:1; }
@@ -51,8 +52,16 @@
       100% { transform:scale(1) rotate(0deg); opacity:1; }
     }
     @keyframes badgespin { to { transform:rotate(360deg); } }
+
+    /* where each one lands */
+    .badge.on-featured { top:-17px; left:-17px; width:52px; height:52px; }
+    .badge.on-sponsor  { top:-15px; right:-13px; width:46px; height:46px; rotate:14deg; animation-delay:.5s; }
+    .badge.on-tonight  { top:-15px; right:-19px; width:31px; height:31px; rotate:-12deg; animation-delay:.45s; }
+    .badge.on-guestbook{ top:-16px; right:-14px; width:44px; height:44px; rotate:-9deg; animation-delay:.55s; }
+    .badge.on-radio    { top:-15px; left:-14px; width:38px; height:38px; rotate:10deg; animation-delay:.7s; }
+    @media (max-width:560px) { .badge.on-sponsor, .badge.on-guestbook { display:none; } }
     @media (prefers-reduced-motion:reduce) {
-      .badge { animation:none; } .badge svg { animation:none; }
+      .badge { animation:none; } .badge.spin svg { animation:none; }
     }
     .mast-top { display:flex; align-items:flex-start; justify-content:space-between; gap:32px; }
     .wordmark { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(46px,7vw,72px); line-height:.98; letter-spacing:-.01em; color:var(--blue); }
@@ -102,7 +111,7 @@
     .day { display:flex; align-items:baseline; justify-content:space-between; gap:16px; padding:40px 18px 11px; margin:0 -18px; border-bottom:1px solid var(--ink); }
     .day:first-child { padding-top:30px; }
     .day-name { font-size:13px; font-weight:600; letter-spacing:.13em; text-transform:uppercase; color:var(--blue); }
-    .day-today { display:inline-block; margin-left:10px; background:var(--blue); color:var(--paper); font-size:10px; font-weight:600; letter-spacing:.14em; padding:3px 7px 2px; vertical-align:middle; }
+    .day-today { position:relative; display:inline-block; margin-left:10px; background:var(--blue); color:var(--paper); font-size:10px; font-weight:600; letter-spacing:.14em; padding:3px 7px 2px; vertical-align:middle; }
     .day-count { font-size:12px; color:var(--faint); letter-spacing:.02em; white-space:nowrap; font-variant-numeric:tabular-nums; }
 
     .row { display:grid; grid-template-columns:84px 1fr auto; gap:22px; align-items:baseline; padding:15px 18px; margin:0 -18px; border-bottom:1px solid var(--line); color:inherit; }
@@ -136,7 +145,7 @@
     .list-empty b { display:block; font-family:'Instrument Serif',Georgia,serif; font-size:28px; color:var(--ink); font-weight:400; margin-bottom:8px; }
 
     /* sponsor slot — one per page, after the first day group */
-    .sponsor { display:flex; align-items:baseline; gap:14px; background:#eef4fd; border:1px solid var(--ink); padding:17px 18px; margin:36px -18px 0; font-size:14px; color:#42506b; }
+    .sponsor { position:relative; display:flex; align-items:baseline; gap:14px; background:#eef4fd; border:1px solid var(--ink); padding:17px 18px; margin:36px -18px 0; font-size:14px; color:#42506b; }
     .sponsor-label { flex:none; font-size:10px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--faint); }
     .sponsor a { color:var(--blue); text-decoration:none; }
     .sponsor a:hover { text-decoration:underline; text-underline-offset:3px; }
@@ -180,7 +189,7 @@
     .missing a { text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px; }
     .missing a:hover { color:var(--gray); }
     .foot-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:26px; }
-    .foot-card { border:1px solid var(--ink); padding:20px 22px; text-decoration:none; color:inherit; display:block; }
+    .foot-card { position:relative; border:1px solid var(--ink); padding:20px 22px; text-decoration:none; color:inherit; display:block; }
     a.foot-card:hover { background:#f6f3ea; }
     .foot-card-label { font-size:9.5px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--blue); margin-bottom:8px; }
     .foot-card-big { font-family:'Instrument Serif',Georgia,serif; font-size:26px; line-height:1.1; }
@@ -283,10 +292,10 @@
         <p class="manifesto">No one has time to click around bloated event websites just to see who’s playing in Milwaukee. <b>Come here, grab some tickets, go to the show.</b></p>
       </div>
       <a class="featured" id="featured" target="_blank" rel="noopener noreferrer">
-        <div class="badge" aria-hidden="true">
-          <svg viewBox="-55 -55 110 110">
-            <polygon fill="#0168FB" points="0,-50 7.25,-27.05 25,-43.3 19.8,-19.8 43.3,-25 27.05,-7.25 50,0 27.05,7.25 43.3,25 19.8,19.8 25,43.3 7.25,27.05 0,50 -7.25,27.05 -25,43.3 -19.8,19.8 -43.3,25 -27.05,7.25 -50,0 -27.05,-7.25 -43.3,-25 -19.8,-19.8 -25,-43.3 -7.25,-27.05" />
-          </svg>
+        <div class="badge on-featured spin" aria-hidden="true">
+          <svg viewBox="-55 -55 110 110"><g fill="#0168FB" stroke="#fff" stroke-width="8" paint-order="stroke" stroke-linejoin="round">
+            <polygon points="0,-50 7.25,-27.05 25,-43.3 19.8,-19.8 43.3,-25 27.05,-7.25 50,0 27.05,7.25 43.3,25 19.8,19.8 25,43.3 7.25,27.05 0,50 -7.25,27.05 -25,43.3 -19.8,19.8 -43.3,25 -27.05,7.25 -50,0 -27.05,-7.25 -43.3,-25 -19.8,-19.8 -25,-43.3 -7.25,-27.05" />
+          </g></svg>
         </div>
         <img id="featured-img" alt="" />
         <div class="featured-label">Featured show</div>
@@ -327,6 +336,11 @@
   <div class="wrap">
     <div class="foot-grid">
       <a class="foot-card" id="gb-open">
+        <div class="badge on-guestbook" aria-hidden="true">
+          <svg viewBox="-55 -55 110 110"><g fill="#5ad427" stroke="#fff" stroke-width="8" paint-order="stroke" stroke-linejoin="round">
+            <path d="M14,-50 L-26,6 L-2,6 L-12,50 L28,-8 L4,-8 Z" />
+          </g></svg>
+        </div>
         <div class="foot-card-label">Guestbook</div>
         <div class="foot-card-big">Sign the guestbook →</div>
         <div class="foot-card-sub">Share what show ruled, request a venue, say hi.</div>
@@ -367,6 +381,11 @@
 </div>
 
 <div id="radio-dock" aria-hidden="true">
+  <div class="badge on-radio" aria-hidden="true">
+    <svg viewBox="-55 -55 110 110"><g fill="#0168FB" stroke="#fff" stroke-width="8" paint-order="stroke" stroke-linejoin="round">
+      <path d="M0,-50 C6,-16 16,-6 50,0 C16,6 6,16 0,50 C-6,16 -16,6 -50,0 C-16,-6 -6,-16 0,-50 Z" />
+    </g></svg>
+  </div>
   <div class="radio-head">
     <svg class="cassette-icon" width="18" height="12" viewBox="0 0 18 12" aria-hidden="true">
       <rect x="0.5" y="0.5" width="17" height="11" fill="none" stroke="#111" />
@@ -729,6 +748,21 @@ function venueTier(v) {
   return 2;
 }
 
+/* ---- sticker shapes, drawn centred in a -55..55 box ---- */
+const STICKER_SHAPES = {
+  starburst: '<polygon points="0,-50 7.25,-27.05 25,-43.3 19.8,-19.8 43.3,-25 27.05,-7.25 50,0 27.05,7.25 43.3,25 19.8,19.8 25,43.3 7.25,27.05 0,50 -7.25,27.05 -25,43.3 -19.8,19.8 -43.3,25 -27.05,7.25 -50,0 -27.05,-7.25 -43.3,-25 -19.8,-19.8 -25,-43.3 -7.25,-27.05" />',
+  sparkle:   '<path d="M0,-50 C6,-16 16,-6 50,0 C16,6 6,16 0,50 C-6,16 -16,6 -50,0 C-16,-6 -6,-16 0,-50 Z" />',
+  blob:      '<path d="M14,-46 C40,-52 54,-28 50,-6 C46,16 56,34 34,46 C12,58 -14,50 -32,38 C-50,26 -54,2 -46,-18 C-38,-38 -12,-40 14,-46 Z" />',
+  bolt:      '<path d="M14,-50 L-26,6 L-2,6 L-12,50 L28,-8 L4,-8 Z" />',
+};
+// White outline sits *outside* the fill (paint-order), so each one reads as
+// die-cut vinyl rather than a flat shape.
+function sticker(shape, color, place, spin) {
+  return `<div class="badge ${place}${spin ? ' spin' : ''}" aria-hidden="true">
+    <svg viewBox="-55 -55 110 110"><g fill="${color}" stroke="#fff" stroke-width="8" paint-order="stroke" stroke-linejoin="round">${STICKER_SHAPES[shape]}</g></svg>
+  </div>`;
+}
+
 // A show's stable handle, so the radio can find it again after a re-render.
 const showId = s => `${s.date}|${s.time}|${s.title}`;
 
@@ -801,7 +835,7 @@ function sponsorHTML() {
   if (SPONSOR) {
     return `<div class="sponsor"><span class="sponsor-label">Sponsor</span><span>Supported by <a href="${SPONSOR.url}" target="_blank" rel="noopener"><b>${esc(SPONSOR.name)}</b></a>${SPONSOR.tag ? ' · ' + esc(SPONSOR.tag) : ''}</span></div>`;
   }
-  return `<div class="sponsor"><span class="sponsor-label">Sponsor</span><span>This calendar is free and updated daily. Want to promote your show? Your coffee shop? Your record store? <a href="mailto:bdholl@gmail.com?subject=Sponsoring%20The%20Confluence">Drop&nbsp;us&nbsp;a&nbsp;line&nbsp;→</a></span></div>`;
+  return `<div class="sponsor">${sticker('blob', '#5ad427', 'on-sponsor')}<span class="sponsor-label">Sponsor</span><span>This calendar is free and updated daily. Want to promote your show? Your coffee shop? Your record store? <a href="mailto:bdholl@gmail.com?subject=Sponsoring%20The%20Confluence">Drop&nbsp;us&nbsp;a&nbsp;line&nbsp;→</a></span></div>`;
 }
 
 const MONS_FULL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -892,7 +926,8 @@ function render() {
   shows.forEach(s => { (groups[s.date] = groups[s.date]||[]).push(s); });
   const blocks = Object.keys(groups).sort().map(date => {
     const n = groups[date].length;
-    const today = date===TODAY ? '<span class="day-today">Tonight</span>' : '';
+    const today = date===TODAY
+      ? `<span class="day-today">Tonight${sticker('sparkle', '#ff3b8e', 'on-tonight')}</span>` : '';
     // national touring acts float to the top of each day; one image per day
     const dayShows = groups[date].slice().sort((a,b) =>
       (venueTier(a.venue) - venueTier(b.venue)) || a.time.localeCompare(b.time));
