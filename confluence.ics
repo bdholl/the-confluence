@@ -4,22 +4,13 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-08-12-20:00-MickyandtheMotorcarsShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20260812T200000
-DTEND;TZID=America/Chicago:20260812T220000
-SUMMARY:Micky and the Motorcars @ Shank Hall
-LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/micky-and-the-motorcars-shank-hall-tickets/14127744
-URL:https://www.ticketweb.com/event/micky-and-the-motorcars-shank-hall-tickets/14127744
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-08-12-20:00-HolyWaveTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20260812T200000
-DTEND;TZID=America/Chicago:20260812T220000
-SUMMARY:Holy Wave @ The Argo
+UID:2026-08-13-18:30-LiveintheLoungewWillPfrangFreeTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260813T183000
+DTEND;TZID=America/Chicago:20260813T203000
+SUMMARY:Live in the Lounge w/ Will Pfrang (Free) @ The Argo
 LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/holy-wave-tickets-1990413267664
-URL:https://www.eventbrite.com/e/holy-wave-tickets-1990413267664
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-will-pfrang-free-tickets-1992954779394
+URL:https://www.eventbrite.com/e/live-in-the-lounge-w-will-pfrang-free-tickets-1992954779394
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-13-18:45-FiveFingerDeathPunchAmericanFamilyInsura@theconfluence
@@ -47,6 +38,15 @@ SUMMARY:Matt Fulchiron @ Milwaukee Improv (Main Room)
 LOCATION:Milwaukee Improv (Main Room)\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/matt-fulchiron-milwaukee-improv-main-room-tickets/14750263
 URL:https://www.ticketweb.com/event/matt-fulchiron-milwaukee-improv-main-room-tickets/14750263
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-13-19:00-LineDancingNightwReddsLineUpTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260813T190000
+DTEND;TZID=America/Chicago:20260813T210000
+SUMMARY:Line Dancing Night w/ Redd's Line Up @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/line-dancing-night-w-redds-line-up-tickets-1996833048401
+URL:https://www.eventbrite.com/e/line-dancing-night-w-redds-line-up-tickets-1996833048401
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-13-19:30-TheAllAmericanRejectsWisconsinStateFair@theconfluence
@@ -121,13 +121,13 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7088U
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7088U
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-14-20:00-TheVervePipeTheArgo@theconfluence
+UID:2026-08-14-20:00-TheVervePipewEdieCurrentTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20260814T200000
 DTEND;TZID=America/Chicago:20260814T220000
-SUMMARY:The Verve Pipe @ The Argo
+SUMMARY:The Verve Pipe w/ Edie Current @ The Argo
 LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-verve-pipe-tickets-1988514883546
-URL:https://www.eventbrite.com/e/the-verve-pipe-tickets-1988514883546
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-verve-pipe-w-edie-current-tickets-1988514883546
+URL:https://www.eventbrite.com/e/the-verve-pipe-w-edie-current-tickets-1988514883546
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-14-21:15-UsamaSiddiqueeMilwaukeeImprovMainRoom@theconfluence
@@ -211,6 +211,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70x3b
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70x3b
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-08-15-20:00-PinkshiftSaccharine5YearAnniversaryTourT@theconfluence
+DTSTART;TZID=America/Chicago:20260815T200000
+DTEND;TZID=America/Chicago:20260815T220000
+SUMMARY:Pinkshift: Saccharine 5 Year Anniversary Tour @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/pinkshift-saccharine-5-year-anniversary-tour-tickets-1992499818594
+URL:https://www.eventbrite.com/e/pinkshift-saccharine-5-year-anniversary-tour-tickets-1992499818594
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-08-15-21:00-ClarentTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260815T210000
 DTEND;TZID=America/Chicago:20260815T230000
@@ -274,6 +283,33 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/jerry-wayne-longmire-milwau
 URL:https://www.ticketweb.com/event/jerry-wayne-longmire-milwaukee-improv-main-room-tickets/14854753
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-08-19-19:00-SwingJazzWednesdaysTheSazerac5FreeTheArg@theconfluence
+DTSTART;TZID=America/Chicago:20260819T190000
+DTEND;TZID=America/Chicago:20260819T210000
+SUMMARY:Swing Jazz Wednesdays: The Sazerac 5 (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-1993634965850
+URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-1993634965850
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-20-18:00-SalsaDancingNightTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260820T180000
+DTEND;TZID=America/Chicago:20260820T200000
+SUMMARY:Salsa Dancing Night @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/salsa-dancing-night-tickets-1992951503596
+URL:https://www.eventbrite.com/e/salsa-dancing-night-tickets-1992951503596
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-20-18:30-LiveintheLoungewTenleySheldonFreeTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260820T183000
+DTEND;TZID=America/Chicago:20260820T203000
+SUMMARY:Live in the Lounge w/ Tenley Sheldon (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-tenley-sheldon-free-tickets-1992955187615
+URL:https://www.eventbrite.com/e/live-in-the-lounge-w-tenley-sheldon-free-tickets-1992955187615
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-08-20-19:00-TrixxMilwaukeeImprovMainRoom@theconfluence
 DTSTART;TZID=America/Chicago:20260820T190000
 DTEND;TZID=America/Chicago:20260820T210000
@@ -328,6 +364,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/powerman-5000-route-20-tick
 URL:https://www.ticketweb.com/event/powerman-5000-route-20-tickets/14796893?REFERRAL_ID=tmfeed
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-08-21-18:00-KidBoogieDownLetsGLOWCrazyTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260821T180000
+DTEND;TZID=America/Chicago:20260821T200000
+SUMMARY:Kid Boogie Down: Let's GLOW Crazy @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/kid-boogie-down-lets-glow-crazy-tickets-1993365472789
+URL:https://www.eventbrite.com/e/kid-boogie-down-lets-glow-crazy-tickets-1993365472789
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-08-21-19:00-EddieGriffinMilwaukeeImprovMainRoom@theconfluence
 DTSTART;TZID=America/Chicago:20260821T190000
 DTEND;TZID=America/Chicago:20260821T210000
@@ -335,6 +380,15 @@ SUMMARY:Eddie Griffin @ Milwaukee Improv (Main Room)
 LOCATION:Milwaukee Improv (Main Room)\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016733
 URL:https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016733
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-21-19:00-NemesisEnginewProgXPWidacre9EyesTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260821T190000
+DTEND;TZID=America/Chicago:20260821T210000
+SUMMARY:Nemesis Engine w/ Prog XP\, Widacre\, & 9Eyes @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/nemesis-engine-w-prog-xp-widacre-9eyes-tickets-1993357942265
+URL:https://www.eventbrite.com/e/nemesis-engine-w-prog-xp-widacre-9eyes-tickets-1993357942265
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-21-20:00-TheBlackMoodsShankHall@theconfluence
@@ -391,6 +445,15 @@ DESCRIPTION:With 49 Winchester. Tickets: https://www.ticketmaster.com/tim-mcgraw
 URL:https://www.ticketmaster.com/tim-mcgraw-pawn-shop-guitar-tour-east-troy-wisconsin-08-22-2026/event/0700643DC04472D9
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-08-22-19:00-DizgoHotLikeMarswWonderfulBlufferTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260822T190000
+DTEND;TZID=America/Chicago:20260822T210000
+SUMMARY:Dizgo & Hot Like Mars w/ Wonderful Bluffer @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/dizgo-hot-like-mars-w-wonderful-bluffer-tickets-1987940065249
+URL:https://www.eventbrite.com/e/dizgo-hot-like-mars-w-wonderful-bluffer-tickets-1987940065249
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-08-22-20:00-RapJAndFriendsShankHall@theconfluence
 DTSTART;TZID=America/Chicago:20260822T200000
 DTEND;TZID=America/Chicago:20260822T220000
@@ -398,15 +461,6 @@ SUMMARY:Rap J And Friends @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/rap-j-and-friends-shank-hall-tickets/14160064
 URL:https://www.ticketweb.com/event/rap-j-and-friends-shank-hall-tickets/14160064
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-08-22-20:00-DizgoHotLikeMarsTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20260822T200000
-DTEND;TZID=America/Chicago:20260822T220000
-SUMMARY:Dizgo & Hot Like Mars @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/dizgo-hot-like-mars-tickets-1987940065249
-URL:https://www.eventbrite.com/e/dizgo-hot-like-mars-tickets-1987940065249
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-22-20:30-NextLevelKPopTheRaveEaglesClub@theconfluence
@@ -481,6 +535,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Pz74
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pz74
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-08-26-19:00-SwingJazzWednesdaysMicroBrewSwingBandFre@theconfluence
+DTSTART;TZID=America/Chicago:20260826T190000
+DTEND;TZID=America/Chicago:20260826T210000
+SUMMARY:Swing Jazz Wednesdays: Micro Brew Swing Band (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-1993635077183
+URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-1993635077183
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-08-26-19:30-RFSDUSOLAmericanFamilyInsuranceAmphithea@theconfluence
 DTSTART;TZID=America/Chicago:20260826T193000
 DTEND;TZID=America/Chicago:20260826T213000
@@ -497,6 +560,24 @@ SUMMARY:Todd Rundgren @ Pabst Theater
 LOCATION:Pabst Theater\, Downtown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A703pA
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A703pA
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-27-18:30-LiveintheLoungewMichaelSodnikTrioFreeThe@theconfluence
+DTSTART;TZID=America/Chicago:20260827T183000
+DTEND;TZID=America/Chicago:20260827T203000
+SUMMARY:Live in the Lounge w/ Michael Sodnik Trio (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-michael-sodnik-trio-free-tickets-1993635371062
+URL:https://www.eventbrite.com/e/live-in-the-lounge-w-michael-sodnik-trio-free-tickets-1993635371062
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-27-19:00-LineDancingNightwReddsLineUpTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260827T190000
+DTEND;TZID=America/Chicago:20260827T210000
+SUMMARY:Line Dancing Night w/ Redd's Line Up @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/line-dancing-night-w-redds-line-up-tickets-1996881183374
+URL:https://www.eventbrite.com/e/line-dancing-night-w-redds-line-up-tickets-1996881183374
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-27-20:00-AlexandrMiskoShankHall@theconfluence
@@ -517,15 +598,6 @@ DESCRIPTION:With Sk8star. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70gGS
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-08-28-18:00-TrapKaraokeLandmarkCreditUnionLive@theconfluence
-DTSTART;TZID=America/Chicago:20260828T180000
-DTEND;TZID=America/Chicago:20260828T200000
-SUMMARY:Trap Karaoke @ Landmark Credit Union Live
-LOCATION:Landmark Credit Union Live\, Milwaukee
-DESCRIPTION:Tickets: https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster
-URL:https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-08-28-19:00-IanFidanceMilwaukeeImprovMainRoom@theconfluence
 DTSTART;TZID=America/Chicago:20260828T190000
 DTEND;TZID=America/Chicago:20260828T210000
@@ -533,6 +605,15 @@ SUMMARY:Ian Fidance @ Milwaukee Improv (Main Room)
 LOCATION:Milwaukee Improv (Main Room)\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975403
 URL:https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975403
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-28-19:00-FreeKaraokeNightSongsoftheSummer21TheArg@theconfluence
+DTSTART;TZID=America/Chicago:20260828T190000
+DTEND;TZID=America/Chicago:20260828T210000
+SUMMARY:Free Karaoke Night: Songs of the Summer (21+) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/free-karaoke-night-songs-of-the-summer-21-tickets-1992954108387
+URL:https://www.eventbrite.com/e/free-karaoke-night-songs-of-the-summer-21-tickets-1992954108387
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-28-20:00-ChayanneFiservForum@theconfluence
@@ -578,6 +659,15 @@ SUMMARY:Ian Fidance @ Milwaukee Improv (Main Room)
 LOCATION:Milwaukee Improv (Main Room)\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975413
 URL:https://www.ticketweb.com/event/ian-fidance-milwaukee-improv-main-room-tickets/14975413
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-29-19:00-DJDancePartyDaftDiscoEdition21TheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260829T190000
+DTEND;TZID=America/Chicago:20260829T210000
+SUMMARY:DJ Dance Party: Daft Disco Edition (21+) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/dj-dance-party-daft-disco-edition-21-tickets-1996887946603
+URL:https://www.eventbrite.com/e/dj-dance-party-daft-disco-edition-21-tickets-1996887946603
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-29-20:00-SierraFerrellLandmarkCreditUnionLive@theconfluence
@@ -679,6 +769,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/michael-loftus-milwaukee-im
 URL:https://www.ticketweb.com/event/michael-loftus-milwaukee-improv-main-room-tickets/14975583
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-09-02-19:00-SwingJazzWednesdaysSweetSheiksTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260902T190000
+DTEND;TZID=America/Chicago:20260902T210000
+SUMMARY:Swing Jazz Wednesdays: Sweet Sheiks @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-sweet-sheiks-tickets-1997062733395
+URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-sweet-sheiks-tickets-1997062733395
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-09-03-18:35-BlackVeilBridesTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260903T183500
 DTEND;TZID=America/Chicago:20260903T203500
@@ -695,6 +794,15 @@ SUMMARY:Happy Together Tour @ Uihlein Hall Marcus Center
 LOCATION:Uihlein Hall Marcus Center\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/happy-together-tour-milwaukee-wisconsin-09-03-2026/event/0700647996FC40B7
 URL:https://www.ticketmaster.com/happy-together-tour-milwaukee-wisconsin-09-03-2026/event/0700647996FC40B7
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-03-20:00-PinkTalkingFishAFusionofPinkFloydTalking@theconfluence
+DTSTART;TZID=America/Chicago:20260903T200000
+DTEND;TZID=America/Chicago:20260903T220000
+SUMMARY:Pink Talking Fish: A Fusion of Pink Floyd\, Talking Heads and Phish @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/pink-talking-fish-a-fusion-of-pink-floyd-talking-heads-and-phish-tickets-1992160356253
+URL:https://www.eventbrite.com/e/pink-talking-fish-a-fusion-of-pink-floyd-talking-heads-and-phish-tickets-1992160356253
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-04-19:00-WillBurkartMilwaukeeImprovMainRoom@theconfluence
@@ -722,6 +830,15 @@ SUMMARY:Second Hand News: A Tribute to Fleetwood Mac @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/second-hand-news-a-tribute-to-fleetwood-mac-tickets-1991945611947
 URL:https://www.eventbrite.com/e/second-hand-news-a-tribute-to-fleetwood-mac-tickets-1991945611947
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-04-20:00-STEELBEANSPRESENTSSteelBeansisaPsyopTour@theconfluence
+DTSTART;TZID=America/Chicago:20260904T200000
+DTEND;TZID=America/Chicago:20260904T220000
+SUMMARY:STEEL BEANS PRESENTS: Steel Beans is… a Psyop Tour 2026 @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/steel-beans-presents-steel-beans-is-a-psyop-tour-2026-tickets-1993843764372
+URL:https://www.eventbrite.com/e/steel-beans-presents-steel-beans-is-a-psyop-tour-2026-tickets-1993843764372
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-04-21:15-WillBurkartMilwaukeeImprovMainRoom@theconfluence
@@ -760,6 +877,15 @@ DESCRIPTION:With Hunter Metts. Tickets: https://www.ticketmaster.com/dermot-kenn
 URL:https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-milwaukee-wisconsin-09-05-2026/event/07006474B18B5FD3
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-09-05-20:00-JonMrozHisCentralAvenueSendersTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260905T200000
+DTEND;TZID=America/Chicago:20260905T220000
+SUMMARY:Jon Mroz & His Central Avenue Senders @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/jon-mroz-his-central-avenue-senders-tickets-1994240948360
+URL:https://www.eventbrite.com/e/jon-mroz-his-central-avenue-senders-tickets-1994240948360
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-09-05-21:00-WillBurkartMilwaukeeImprovMainRoom@theconfluence
 DTSTART;TZID=America/Chicago:20260905T210000
 DTEND;TZID=America/Chicago:20260905T230000
@@ -796,6 +922,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/nick-murphy-milwaukee-impro
 URL:https://www.ticketweb.com/event/nick-murphy-milwaukee-improv-main-room-tickets/14250064
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-09-09-19:00-SwingJazzWednesdayOldSamTheTeardropsFree@theconfluence
+DTSTART;TZID=America/Chicago:20260909T190000
+DTEND;TZID=America/Chicago:20260909T210000
+SUMMARY:Swing Jazz Wednesday:  Old Sam & The Teardrops (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesday-old-sam-the-teardrops-free-tickets-1997063293069
+URL:https://www.eventbrite.com/e/swing-jazz-wednesday-old-sam-the-teardrops-free-tickets-1997063293069
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-09-09-19:30-TurnstileTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260909T193000
 DTEND;TZID=America/Chicago:20260909T213000
@@ -803,6 +938,15 @@ SUMMARY:Turnstile @ The Rave-Eagles Club
 LOCATION:The Rave-Eagles Club\, Westown
 DESCRIPTION:With Texas Is the Reason. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Ps4a
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Ps4a
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-10-18:30-LiveintheLoungewMattFroelichFreeTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260910T183000
+DTEND;TZID=America/Chicago:20260910T203000
+SUMMARY:Live in the Lounge w/ Matt Froelich (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-matt-froelich-free-tickets-1997088171481
+URL:https://www.eventbrite.com/e/live-in-the-lounge-w-matt-froelich-free-tickets-1997088171481
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-10-19:00-MichaelTurnerMilwaukeeImprovMainRoom@theconfluence
@@ -929,6 +1073,15 @@ SUMMARY:Pitbull @ Alpine Valley Music Theatre
 LOCATION:Alpine Valley Music Theatre\, East Troy
 DESCRIPTION:With Lil Jon. Tickets: https://www.ticketmaster.com/pitbull-im-back-with-special-guest-east-troy-wisconsin-09-12-2026/event/07006391049B8E02
 URL:https://www.ticketmaster.com/pitbull-im-back-with-special-guest-east-troy-wisconsin-09-12-2026/event/07006391049B8E02
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-12-20:00-LilyRosewAdamPaddockTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260912T200000
+DTEND;TZID=America/Chicago:20260912T220000
+SUMMARY:Lily Rose w/ Adam Paddock @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/lily-rose-w-adam-paddock-tickets-1992172183629
+URL:https://www.eventbrite.com/e/lily-rose-w-adam-paddock-tickets-1992172183629
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-12-21:00-SamTallentMilwaukeeImprovMainRoom@theconfluence
@@ -1066,6 +1219,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/mark-paul-the-daddy-ball-mi
 URL:https://www.ticketweb.com/event/mark-paul-the-daddy-ball-milwaukee-improv-main-room-tickets/14109834
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-09-16-19:00-SwingJazzWednesdaysAnthonyDeutschTrioThe@theconfluence
+DTSTART;TZID=America/Chicago:20260916T190000
+DTEND;TZID=America/Chicago:20260916T210000
+SUMMARY:Swing Jazz Wednesdays:  Anthony Deutsch Trio @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-anthony-deutsch-trio-tickets-1997063598984
+URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-anthony-deutsch-trio-tickets-1997063598984
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-09-16-20:00-JoeJordanShankHall@theconfluence
 DTSTART;TZID=America/Chicago:20260916T200000
 DTEND;TZID=America/Chicago:20260916T220000
@@ -1082,6 +1244,15 @@ SUMMARY:Violet Grohl @ The Rave-Eagles Club
 LOCATION:The Rave-Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PdGv
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PdGv
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17-18:30-LiveintheLoungewAlejandroMeolaFreeTheArg@theconfluence
+DTSTART;TZID=America/Chicago:20260917T183000
+DTEND;TZID=America/Chicago:20260917T203000
+SUMMARY:Live in the Lounge w/ Alejandro Meola (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-alejandro-meola-free-tickets-1997088353024
+URL:https://www.eventbrite.com/e/live-in-the-lounge-w-alejandro-meola-free-tickets-1997088353024
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-17-19:00-ALOKMilwaukeeImprovMainRoom@theconfluence
@@ -1174,6 +1345,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70-4g
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70-4g
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-09-18-20:00-PatMcCurdyTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260918T200000
+DTEND;TZID=America/Chicago:20260918T220000
+SUMMARY:Pat McCurdy @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/pat-mccurdy-tickets-1994257294251
+URL:https://www.eventbrite.com/e/pat-mccurdy-tickets-1994257294251
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-09-18-21:15-TommyDavidsonMilwaukeeImprovMainRoom@theconfluence
 DTSTART;TZID=America/Chicago:20260918T211500
 DTEND;TZID=America/Chicago:20260918T231500
@@ -1217,6 +1397,15 @@ SUMMARY:Poison Girl Friend @ The Rave-Eagles Club
 LOCATION:The Rave-Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZae
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZae
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-19-20:00-DrivewayswRematchTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260919T200000
+DTEND;TZID=America/Chicago:20260919T220000
+SUMMARY:Driveways w/ Rematch @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/driveways-w-rematch-tickets-1996257434725
+URL:https://www.eventbrite.com/e/driveways-w-rematch-tickets-1996257434725
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-19-21:00-TommyDavidsonMilwaukeeImprovMainRoom@theconfluence
@@ -1273,6 +1462,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7OzFz
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7OzFz
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-09-20-20:00-THEBLACKQUEENFeverDaydream10thAnniversar@theconfluence
+DTSTART;TZID=America/Chicago:20260920T200000
+DTEND;TZID=America/Chicago:20260920T220000
+SUMMARY:THE BLACK QUEEN: Fever Daydream 10th Anniversary w/ clubdrugs @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-tickets-1992231319506
+URL:https://www.eventbrite.com/e/the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-tickets-1992231319506
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-09-21-19:30-PolyphiaLandmarkCreditUnionLive@theconfluence
 DTSTART;TZID=America/Chicago:20260921T193000
 DTEND;TZID=America/Chicago:20260921T213000
@@ -1307,6 +1505,15 @@ SUMMARY:Yard Sale Girls @ Milwaukee Improv (Main Room)
 LOCATION:Milwaukee Improv (Main Room)\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/yard-sale-girls-milwaukee-improv-main-room-tickets/14980883
 URL:https://www.ticketweb.com/event/yard-sale-girls-milwaukee-improv-main-room-tickets/14980883
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-23-19:00-SwingJazzWednesdaysTheWesterleesFreeTheA@theconfluence
+DTSTART;TZID=America/Chicago:20260923T190000
+DTEND;TZID=America/Chicago:20260923T210000
+SUMMARY:Swing Jazz Wednesdays: The Westerlees (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-the-westerlees-free-tickets-1997064404393
+URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-the-westerlees-free-tickets-1997064404393
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-23-19:30-CrozBoyceCactusClub@theconfluence
@@ -1379,6 +1586,15 @@ SUMMARY:They Might Be Giants @ Pabst Theater
 LOCATION:Pabst Theater\, Downtown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70-pd
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70-pd
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-25-20:00-RussianCircleswPelicanTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260925T200000
+DTEND;TZID=America/Chicago:20260925T220000
+SUMMARY:Russian Circles w/ Pelican @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/russian-circles-w-pelican-tickets-1992173433367
+URL:https://www.eventbrite.com/e/russian-circles-w-pelican-tickets-1992173433367
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-25-21:00-DaftDiskoTheRaveEaglesClub@theconfluence
@@ -1498,6 +1714,15 @@ DESCRIPTION:With Mozzy\, Chef Boy. Tickets: https://www.ticketmaster.com/event/Z
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZAQ4
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-09-28-19:30-RipeTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260928T193000
+DTEND;TZID=America/Chicago:20260928T213000
+SUMMARY:Ripe @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/ripe-tickets-1995789771933
+URL:https://www.eventbrite.com/e/ripe-tickets-1995789771933
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-09-28-20:00-AmigoTheDevilTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20260928T200000
 DTEND;TZID=America/Chicago:20260928T220000
@@ -1505,6 +1730,15 @@ SUMMARY:Amigo The Devil @ The Rave-Eagles Club
 LOCATION:The Rave-Eagles Club\, Westown
 DESCRIPTION:With Liam St. John. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZaQd
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZaQd
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29-16:30-TheArgoOpenHouseTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260929T163000
+DTEND;TZID=America/Chicago:20260929T183000
+SUMMARY:The Argo Open House @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752
+URL:https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-29-19:30-BrysonTillerAmericanFamilyInsuranceAmphi@theconfluence
@@ -1532,6 +1766,15 @@ SUMMARY:Freya Skye @ Landmark Credit Union Live
 LOCATION:Landmark Credit Union Live\, Milwaukee
 DESCRIPTION:With Alex Sampson. Tickets: https://www.ticketmaster.com/freya-skye-stars-align-tour-milwaukee-wisconsin-09-30-2026/event/0700644AC63862F8
 URL:https://www.ticketmaster.com/freya-skye-stars-align-tour-milwaukee-wisconsin-09-30-2026/event/0700644AC63862F8
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-01-18:30-LiveintheLoungewJakeWilliamsFreeTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261001T183000
+DTEND;TZID=America/Chicago:20261001T203000
+SUMMARY:Live in the Lounge w/ Jake Williams (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-jake-williams-free-tickets-1997088832458
+URL:https://www.eventbrite.com/e/live-in-the-lounge-w-jake-williams-free-tickets-1997088832458
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-01-19:01-CitizenTheRaveEaglesClub@theconfluence
@@ -1606,6 +1849,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7P8A9
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7P8A9
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-02-19:30-ShwayzeTheNostalgiaTourwSammyAdamsChiddy@theconfluence
+DTSTART;TZID=America/Chicago:20261002T193000
+DTEND;TZID=America/Chicago:20261002T213000
+SUMMARY:Shwayze: The Nostalgia Tour w/ Sammy Adams & Chiddy Bang @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/shwayze-the-nostalgia-tour-w-sammy-adams-chiddy-bang-tickets-1993023611272
+URL:https://www.eventbrite.com/e/shwayze-the-nostalgia-tour-w-sammy-adams-chiddy-bang-tickets-1993023611272
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-02-20:00-LeonidFriendsRiversideTheatreWI@theconfluence
 DTSTART;TZID=America/Chicago:20261002T200000
 DTEND;TZID=America/Chicago:20261002T220000
@@ -1631,6 +1883,15 @@ SUMMARY:Alana Springsteen @ The Rave-Eagles Club
 LOCATION:The Rave-Eagles Club\, Westown
 DESCRIPTION:With Erin Kinsey. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7JZao
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7JZao
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-02-20:00-KiNGMALATheGoldenThingTourwJaydenHammerT@theconfluence
+DTSTART;TZID=America/Chicago:20261002T200000
+DTEND;TZID=America/Chicago:20261002T220000
+SUMMARY:KiNG MALA: The Golden Thing Tour w/ Jayden Hammer @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/king-mala-the-golden-thing-tour-w-jayden-hammer-tickets-1993023248186
+URL:https://www.eventbrite.com/e/king-mala-the-golden-thing-tour-w-jayden-hammer-tickets-1993023248186
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-02-21:15-ChadDanielsMilwaukeeImprovMainRoom@theconfluence
@@ -1766,6 +2027,15 @@ SUMMARY:Gnash @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/gnash-shank-hall-tickets/14162824
 URL:https://www.ticketweb.com/event/gnash-shank-hall-tickets/14162824
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-04-20:00-StarcrawlerTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261004T200000
+DTEND;TZID=America/Chicago:20261004T220000
+SUMMARY:Starcrawler @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/starcrawler-tickets-1995470306403
+URL:https://www.eventbrite.com/e/starcrawler-tickets-1995470306403
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-06-19:30-DanandPhilPabstTheater@theconfluence
@@ -1984,6 +2254,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7P8b9
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7P8b9
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-10-20:00-Infinite80sTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261010T200000
+DTEND;TZID=America/Chicago:20261010T220000
+SUMMARY:Infinite 80s @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/infinite-80s-tickets-1994591749616
+URL:https://www.eventbrite.com/e/infinite-80s-tickets-1994591749616
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-10-21:00-ArnezJMilwaukeeImprovMainRoom@theconfluence
 DTSTART;TZID=America/Chicago:20261010T210000
 DTEND;TZID=America/Chicago:20261010T230000
@@ -2038,6 +2317,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/robert-ellis-shank-hall-tic
 URL:https://www.ticketweb.com/event/robert-ellis-shank-hall-tickets/14979823
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-13-19:30-FirstToElevenTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261013T193000
+DTEND;TZID=America/Chicago:20261013T213000
+SUMMARY:First To Eleven @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/first-to-eleven-tickets-1993023969343
+URL:https://www.eventbrite.com/e/first-to-eleven-tickets-1993023969343
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-13-20:00-RobinTrowerPabstTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261013T200000
 DTEND;TZID=America/Chicago:20261013T220000
@@ -2090,6 +2378,15 @@ SUMMARY:Chris Porter @ Milwaukee Improv (Main Room)
 LOCATION:Milwaukee Improv (Main Room)\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966573
 URL:https://www.ticketweb.com/event/chris-porter-milwaukee-improv-main-room-tickets/14966573
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-15-19:00-HissGoldenMessengerImPeopleTourwSamAmido@theconfluence
+DTSTART;TZID=America/Chicago:20261015T190000
+DTEND;TZID=America/Chicago:20261015T210000
+SUMMARY:Hiss Golden Messenger: I'm People Tour w/ Sam Amidon @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/hiss-golden-messenger-im-people-tour-w-sam-amidon-tickets-1994986264621
+URL:https://www.eventbrite.com/e/hiss-golden-messenger-im-people-tour-w-sam-amidon-tickets-1994986264621
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-15-20:00-UNDERTALESymphonyRiversideTheatreWI@theconfluence
@@ -2234,6 +2531,15 @@ SUMMARY:WeTouchGrass @ The Rave-Eagles Club
 LOCATION:The Rave-Eagles Club\, Westown
 DESCRIPTION:With Anime Rave. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Jeaa
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Jeaa
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-17-20:00-InsideaDreamTheMusicofDavidLynchTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261017T200000
+DTEND;TZID=America/Chicago:20261017T220000
+SUMMARY:Inside a Dream: The Music of David Lynch @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/inside-a-dream-the-music-of-david-lynch-tickets-1996258367515
+URL:https://www.eventbrite.com/e/inside-a-dream-the-music-of-david-lynch-tickets-1996258367515
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-17-20:30-EdgarSandovalShankHall@theconfluence
@@ -2398,6 +2704,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/marshall-charloff-the-purple-x
 URL:https://www.ticketmaster.com/marshall-charloff-the-purple-xperience-milwaukee-wisconsin-10-22-2026/event/070060CABD2F2289
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-22-20:00-TheJackWharffBandTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261022T200000
+DTEND;TZID=America/Chicago:20261022T220000
+SUMMARY:The Jack Wharff Band @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-jack-wharff-band-tickets-1992375559933
+URL:https://www.eventbrite.com/e/the-jack-wharff-band-tickets-1992375559933
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-23-19:00-TheWrecksTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261023T190000
 DTEND;TZID=America/Chicago:20261023T210000
@@ -2441,6 +2756,15 @@ SUMMARY:D.L. Hughley @ Milwaukee Improv (Main Room)
 LOCATION:Milwaukee Improv (Main Room)\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869403
 URL:https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869403
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-18:00-TrapKaraokeLandmarkCreditUnionLive@theconfluence
+DTSTART;TZID=America/Chicago:20261024T180000
+DTEND;TZID=America/Chicago:20261024T200000
+SUMMARY:Trap Karaoke @ Landmark Credit Union Live
+LOCATION:Landmark Credit Union Live\, Milwaukee
+DESCRIPTION:Tickets: https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster
+URL:https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-18:30-DLHughleyMilwaukeeImprovMainRoom@theconfluence
@@ -2785,6 +3109,24 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/mke-unplugged-shank-hall-ti
 URL:https://www.ticketweb.com/event/mke-unplugged-shank-hall-tickets/14229694
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-06-20:00-TheWldlfeTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261106T200000
+DTEND;TZID=America/Chicago:20261106T220000
+SUMMARY:The Wldlfe @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-wldlfe-tickets-1991792351541
+URL:https://www.eventbrite.com/e/the-wldlfe-tickets-1991792351541
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-20:00-BrotherAliMidwestTrek26wDJAbilitiesTheAr@theconfluence
+DTSTART;TZID=America/Chicago:20261106T200000
+DTEND;TZID=America/Chicago:20261106T220000
+SUMMARY:Brother Ali: Midwest Trek '26 w/ DJ Abilities @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/brother-ali-midwest-trek-26-w-dj-abilities-tickets-1993353774800
+URL:https://www.eventbrite.com/e/brother-ali-midwest-trek-26-w-dj-abilities-tickets-1993353774800
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-07-19:30-GooseMillerHighLifeTheatre@theconfluence
 DTSTART;TZID=America/Chicago:20261107T193000
 DTEND;TZID=America/Chicago:20261107T213000
@@ -2819,6 +3161,15 @@ SUMMARY:Goose @ Miller High Life Theatre
 LOCATION:Miller High Life Theatre\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Pe0k
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pe0k
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-08-20:00-BillCallahanTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261108T200000
+DTEND;TZID=America/Chicago:20261108T220000
+SUMMARY:Bill Callahan @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/bill-callahan-tickets-1997613696340
+URL:https://www.eventbrite.com/e/bill-callahan-tickets-1997613696340
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10-19:00-DanielSlossPabstTheater@theconfluence
@@ -2864,15 +3215,6 @@ SUMMARY:Alison Brown @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/alison-brown-shank-hall-tickets/14251154
 URL:https://www.ticketweb.com/event/alison-brown-shank-hall-tickets/14251154
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-11-20:00-AmythystKiahTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261111T200000
-DTEND;TZID=America/Chicago:20261111T220000
-SUMMARY:Amythyst Kiah @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/amythyst-kiah-tickets-1990527452193
-URL:https://www.eventbrite.com/e/amythyst-kiah-tickets-1990527452193
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-19:00-AlterBridgeTheRaveEaglesClub@theconfluence
@@ -3019,6 +3361,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/alicia-villarreal-bendita-locu
 URL:https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-15-20:00-88NINEPresentsPostAnimalMaybeYouHaveToTo@theconfluence
+DTSTART;TZID=America/Chicago:20261115T200000
+DTEND;TZID=America/Chicago:20261115T220000
+SUMMARY:88NINE Presents: Post Animal - Maybe You Have To Tour @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/88nine-presents-post-animal-maybe-you-have-to-tour-tickets-1996497370379
+URL:https://www.eventbrite.com/e/88nine-presents-post-animal-maybe-you-have-to-tour-tickets-1996497370379
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-17-19:00-SaosinTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261117T190000
 DTEND;TZID=America/Chicago:20261117T210000
@@ -3136,6 +3487,24 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PVJk
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PVJk
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-22-20:00-HotFreaksSoftBodyTourwThesaurusRexTheArg@theconfluence
+DTSTART;TZID=America/Chicago:20261122T200000
+DTEND;TZID=America/Chicago:20261122T220000
+SUMMARY:Hot Freaks: Soft Body Tour w/ Thesaurus Rex @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-tickets-1993842013134
+URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-tickets-1993842013134
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-20:00-ChrissyChlapeckaTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261125T200000
+DTEND;TZID=America/Chicago:20261125T220000
+SUMMARY:Chrissy Chlapecka @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/chrissy-chlapecka-tickets-1993023002451
+URL:https://www.eventbrite.com/e/chrissy-chlapecka-tickets-1993023002451
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-27-19:00-PeteLeeMilwaukeeImprovMainRoom@theconfluence
 DTSTART;TZID=America/Chicago:20261127T190000
 DTEND;TZID=America/Chicago:20261127T210000
@@ -3179,6 +3548,15 @@ SUMMARY:Pete Lee @ Milwaukee Improv (Main Room)
 LOCATION:Milwaukee Improv (Main Room)\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984973
 URL:https://www.ticketweb.com/event/pete-lee-milwaukee-improv-main-room-tickets/14984973
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-28-20:00-BeatallicaTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261128T200000
+DTEND;TZID=America/Chicago:20261128T220000
+SUMMARY:Beatallica @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/beatallica-tickets-1995006165144
+URL:https://www.eventbrite.com/e/beatallica-tickets-1995006165144
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-21:00-PeteLeeMilwaukeeImprovMainRoom@theconfluence
@@ -3271,6 +3649,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/anthony-gomes-shank-hall-ti
 URL:https://www.ticketweb.com/event/anthony-gomes-shank-hall-tickets/14254464
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-05-20:00-TheGringosTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261205T200000
+DTEND;TZID=America/Chicago:20261205T220000
+SUMMARY:The Gringos @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-gringos-tickets-1992178379160
+URL:https://www.eventbrite.com/e/the-gringos-tickets-1992178379160
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-05-21:00-JessicaKirsonMilwaukeeImprovMainRoom@theconfluence
 DTSTART;TZID=America/Chicago:20261205T210000
 DTEND;TZID=America/Chicago:20261205T230000
@@ -3332,5 +3719,23 @@ SUMMARY:Cactus Tate @ Milwaukee Improv (Main Room)
 LOCATION:Milwaukee Improv (Main Room)\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/cactus-tate-milwaukee-improv-main-room-tickets/15019373
 URL:https://www.ticketweb.com/event/cactus-tate-milwaukee-improv-main-room-tickets/15019373
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-31-20:00-SkerryvoreTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20270131T200000
+DTEND;TZID=America/Chicago:20270131T220000
+SUMMARY:Skerryvore @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/skerryvore-tickets-1992672365687
+URL:https://www.eventbrite.com/e/skerryvore-tickets-1992672365687
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-23-20:00-TheMaryWallopersTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20270323T200000
+DTEND;TZID=America/Chicago:20270323T220000
+SUMMARY:The Mary Wallopers @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-mary-wallopers-tickets-1996258847952
+URL:https://www.eventbrite.com/e/the-mary-wallopers-tickets-1996258847952
 END:VEVENT
 END:VCALENDAR

@@ -24,10 +24,15 @@ jobs:
           SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
         run: node feed/build-shows.js
 
+      - name: Verify the build
+        run: node --test
+
       - name: Commit refreshed feed
         run: |
           git config user.name "feed-bot"
           git config user.email "feed-bot@users.noreply.github.com"
-          git add shows.json
+          # all three move together: the data, the calendar file, and the
+          # offline fallback baked into index.html
+          git add shows.json confluence.ics index.html
           git diff --staged --quiet || git commit -m "chore: refresh show feed ($(date -u +%Y-%m-%d))"
           git push
