@@ -31,8 +31,8 @@ jobs:
         run: |
           git config user.name "feed-bot"
           git config user.email "feed-bot@users.noreply.github.com"
-          # all three move together: the data, the calendar file, and the
-          # offline fallback baked into index.html
-          git add shows.json confluence.ics index.html
+          # data, calendar file, offline fallback, and the preview cache
+          # (so each run only looks up artists it hasn't seen before)
+          git add shows.json confluence.ics index.html feed/preview-cache.json
           git diff --staged --quiet || git commit -m "chore: refresh show feed ($(date -u +%Y-%m-%d))"
           git push

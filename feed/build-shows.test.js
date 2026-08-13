@@ -4,7 +4,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const path = require('path');
 
-const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP } = require('./build-shows.js');
+const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP } = require('./build-shows.js');
 
 // The genre keys the front-end knows how to label + color. Every genre the
 // feed can emit must be in this set, or shows render with a bare key + no color.
@@ -297,4 +297,23 @@ test('mergeTitleVariants folds spelling variants but keeps distinct shows', () =
     { date: '2026-08-15', time: '19:30', title: 'Poke-RAVE', venue: 'The Rave / Eagles Club', offers: [{ src: 'SeatGeek', url: 'b' }] },
   ]);
   assert.equal(kept.length, 2, 'different shows in the same building must stay separate');
+});
+
+// --- artist name cleanup for preview lookup --------------------------------
+
+test('cleanArtist strips the noise that breaks music lookups', () => {
+  assert.equal(cleanArtist('Live in the Lounge w/ Will Pfrang (Free)'), 'Live in the Lounge');
+  assert.equal(cleanArtist('Milwaukee Metal Fest (Day 1)'), 'Milwaukee Metal Fest');
+  assert.equal(cleanArtist('Dead Letter Office - A Tribute to R.E.M.'), 'Dead Letter Office');
+  assert.equal(cleanArtist('Modest Mouse'), 'Modest Mouse');
+});
+
+test('shows.json previews (if present) carry a playable url', () => {
+  const p = path.join(__dirname, '..', 'shows.json');
+  if (!fs.existsSync(p)) return;
+  for (const s of JSON.parse(fs.readFileSync(p, 'utf8')).shows) {
+    if (!s.preview) continue;
+    assert.match(s.preview.url, /^https?:\/\//, `bad preview url for ${s.title}`);
+    assert.ok(s.preview.artist, `preview missing artist for ${s.title}`);
+  }
 });

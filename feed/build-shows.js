@@ -388,6 +388,74 @@ function buildIcs(shows) {
   return lines.join('\r\n') + '\r\n';
 }
 
+// ---------- artist previews (iTunes Search) ----------
+// Resolved at build time so the page knows which listings can actually be
+// played — no play button on comedy nights or local acts with no catalogue —
+// and so pressing play starts instantly instead of waiting on a lookup.
+// Results are cached between builds; only new artists are ever fetched.
+const PREVIEW_CACHE = path.join(__dirname, 'preview-cache.json');
+
+const cleanArtist = t => String(t || '')
+  .replace(/\s*\(.*?\)\s*/g, ' ')          // "(Free)", "(Day 1)"
+  .replace(/\s*[-–—:]\s*(a tribute|tribute).*$/i, '')
+  .replace(/\s+w\/.*$/i, '')                // "w/ Support"
+  .replace(/\s+/g, ' ')
+  .trim();
+
+async function lookupPreview(name) {
+  const u = new URL('https://itunes.apple.com/search');
+  u.searchParams.set('media', 'music');
+  u.searchParams.set('entity', 'song');
+  u.searchParams.set('limit', '5');
+  u.searchParams.set('term', name);
+  const res = await fetch(u, { signal: AbortSignal.timeout(10000) });
+  if (res.status === 403 || res.status === 429) throw new Error(`rate limited (${res.status})`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const data = await res.json();
+  const want = name.toLowerCase();
+  const hit = (data.results || []).find(r => r.previewUrl && (r.artistName || '').toLowerCase() === want)
+           || (data.results || []).find(r => r.previewUrl && (r.artistName || '').toLowerCase().includes(want));
+  return hit ? { url: hit.previewUrl, track: hit.trackName, artist: hit.artistName } : null;
+}
+
+async function attachPreviews(shows) {
+  let cache = {};
+  try { cache = JSON.parse(fs.readFileSync(PREVIEW_CACHE, 'utf8')); } catch { /* first run */ }
+
+  const names = [...new Set(shows.map(s => cleanArtist(s.title)).filter(Boolean))];
+  const missing = names.filter(n => !(n in cache));
+  let fetched = 0, failed = 0;
+
+  for (const n of missing) {
+    let done = false;
+    for (let attempt = 0; attempt < 2 && !done; attempt++) {
+      try {
+        cache[n] = await lookupPreview(n);  // null means "checked, none exists"
+        fetched++; done = true;
+      } catch (e) {
+        // Apple throttles bursts; back off and give it one more go
+        await new Promise(r => setTimeout(r, 2500));
+      }
+    }
+    if (!done) {
+      failed++;
+      if (failed >= 25) { console.warn('  ! previews: throttled, leaving the rest for the next build'); break; }
+      continue;                            // uncached, so a later build retries
+    }
+    await new Promise(r => setTimeout(r, 480));   // stay under Apple's burst limit
+  }
+
+  try { fs.writeFileSync(PREVIEW_CACHE, JSON.stringify(cache, null, 0)); } catch {}
+
+  let withPreview = 0;
+  for (const s of shows) {
+    const hit = cache[cleanArtist(s.title)];
+    if (hit && hit.url) { s.preview = hit; withPreview++; }
+  }
+  console.log(`• Previews: ${withPreview}/${shows.length} shows playable (${fetched} looked up, ${names.length - missing.length} cached)`);
+  return shows;
+}
+
 function loadExtras() {
   try {
     const arr = JSON.parse(fs.readFileSync(EXTRAS, 'utf8'));
@@ -580,6 +648,8 @@ async function main() {
     process.exit(1);
   }
 
+  await attachPreviews(shows);
+
   const payload = { updated: todayStr, shows };
   fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
   fs.writeFileSync(path.join(ROOT, 'confluence.ics'), buildIcs(shows));
@@ -594,4 +664,4 @@ if (require.main === module) {
   main().catch(e => { console.error('Build failed:', e); process.exit(1); });
 }
 
-module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
