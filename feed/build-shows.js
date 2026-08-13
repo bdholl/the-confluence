@@ -182,8 +182,13 @@ function tmEventToShow(e) {
   const isComedy = seg === 'Comedy' || seg === 'Arts & Theatre';
   const gName = cls.genre?.name && cls.genre.name !== 'Undefined' ? cls.genre.name : (seg || '');
   const img = tmImage(e);
+  // face-value floor when Ticketmaster publishes it (~25% of events)
+  const price = e.priceRanges?.length
+    ? Math.min(...e.priceRanges.map(p => p.min).filter(n => typeof n === 'number'))
+    : undefined;
   return {
     ...(img ? { img } : {}),
+    ...(price != null && isFinite(price) ? { price } : {}),
     date: start.localDate,
     time: hm(start.localTime),
     title: acts[0]?.name || e.name,
@@ -410,6 +415,8 @@ function normKey(s) {
     // sources append " - Milwaukee" / " - Marcus Center for the …" to the
     // same room; drop anything after the first dash separator
     .split(' - ')[0]
+    // RÜFÜS DU SOL vs RUFUS DU SOL — fold accents before comparing
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
     .toLowerCase()
     .replace(/&/g, ' and ')
     .replace(/\b(the|at|a)\b/g, ' ')
@@ -421,6 +428,53 @@ function normKey(s) {
     .join(' ');
 }
 
+// Levenshtein similarity, 0..1. Used only to catch spelling variants of the
+// SAME show ("Jennifer Lyn" vs "Jennifer Lynn"); the threshold is deliberately
+// high because multi-room venues (The Rave, the Improv) genuinely run
+// different shows at the same time, and merging those would lose listings.
+function similarity(a, b) {
+  if (a === b) return 1;
+  const [s, t] = a.length >= b.length ? [a, b] : [b, a];
+  if (!s.length) return 1;
+  let prev = Array.from({ length: t.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= s.length; i++) {
+    const cur = [i];
+    for (let j = 1; j <= t.length; j++) {
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (s[i - 1] === t[j - 1] ? 0 : 1));
+    }
+    prev = cur;
+  }
+  return 1 - prev[t.length] / s.length;
+}
+const TITLE_MATCH = 0.85;
+
+// Second pass: within one date+time+venue slot, fold near-identical titles
+// together. Anything below the threshold stays its own listing.
+function mergeTitleVariants(shows) {
+  const slots = new Map();
+  for (const s of shows) {
+    const slot = `${s.date}|${s.time}|${normKey(s.venue)}`;
+    const list = slots.get(slot) || [];
+    const twin = list.find(x => similarity(normKey(x.title), normKey(s.title)) >= TITLE_MATCH);
+    if (twin) {
+      for (const o of s.offers || []) if (!twin.offers.some(t => t.src === o.src)) twin.offers.push(o);
+      if (!twin.img && s.img) twin.img = s.img;
+      if (!twin.support && s.support) twin.support = s.support;
+    } else {
+      list.push(s);
+      slots.set(slot, list);
+    }
+  }
+  return [...slots.values()].flat();
+}
+
+// One offer per ticketing source: where to buy, and the price if we know it.
+function toOffer(s) {
+  return { src: s.ticketer, url: s.url, ...(s.price != null ? { price: s.price } : {}) };
+}
+
+// Merge rather than discard: the same show on two platforms becomes one
+// listing carrying both places to buy.
 function dedupe(shows) {
   const seen = new Map();
   for (const s of shows) {
@@ -428,11 +482,20 @@ function dedupe(shows) {
     // survives, while duplicate records of one show still collapse.
     const k = `${s.date}|${s.time}|${normKey(s.title)}|${normKey(s.venue)}`;
     const prev = seen.get(k);
-    if (!prev) { seen.set(k, s); continue; }
-    // same show from two sources: keep the richer record
-    const better = (a, b) => (a.img ? 1 : 0) - (b.img ? 1 : 0)
-      || (a.support ? 1 : 0) - (b.support ? 1 : 0);
-    if (better(s, prev) > 0) seen.set(k, s);
+    if (!prev) { seen.set(k, { ...s, offers: [toOffer(s)] }); continue; }
+
+    // fold this source's offer in (skip if that source is already present)
+    if (!prev.offers.some(o => o.src === s.ticketer)) prev.offers.push(toOffer(s));
+    // and let the richer record supply the display fields
+    if (!prev.img && s.img) prev.img = s.img;
+    if (!prev.support && s.support) prev.support = s.support;
+    if (prev.price == null && s.price != null) prev.price = s.price;
+  }
+  // cheapest known price first, then alphabetical for a stable order
+  for (const s of seen.values()) {
+    s.offers.sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity) || a.src.localeCompare(b.src));
+    s.url = s.offers[0].url;          // primary link = cheapest/first offer
+    s.ticketer = s.offers[0].src;
   }
   return [...seen.values()];
 }
@@ -459,7 +522,14 @@ async function main() {
 
   const todayStr = ymd(now);
   shows = shows.filter(s => s.date && s.title && s.url && s.date >= todayStr);
-  shows = dedupe(shows).sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+  shows = mergeTitleVariants(dedupe(shows))
+    .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+  // offers may have grown during the variant merge — re-sort and re-point
+  for (const s of shows) {
+    s.offers.sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity) || a.src.localeCompare(b.src));
+    s.url = s.offers[0].url;
+    s.ticketer = s.offers[0].src;
+  }
 
   if (!shows.length) {
     console.error('✗ No shows fetched from any source — leaving existing shows.json untouched.');
@@ -480,4 +550,4 @@ if (require.main === module) {
   main().catch(e => { console.error('Build failed:', e); process.exit(1); });
 }
 
-module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP, VENUE_HOODS, MKE_VENUES };

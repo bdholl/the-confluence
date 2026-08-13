@@ -4,7 +4,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const path = require('path');
 
-const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP } = require('./build-shows.js');
+const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP } = require('./build-shows.js');
 
 // The genre keys the front-end knows how to label + color. Every genre the
 // feed can emit must be in this set, or shows render with a bare key + no color.
@@ -178,7 +178,25 @@ test('dedupe merges the same show from two sources, keeping the richer record', 
   assert.equal(merged[0].img, 'pic.jpg', 'the record with an image should win');
 });
 
-test('dedupe collapses same date+title+venue, keeping the first', () => {
+test('dedupe orders offers cheapest-first and makes that the primary link', () => {
+  const [show] = dedupe([
+    { date: '2026-10-01', time: '20:00', title: 'Band Z', venue: 'Pabst Theater', ticketer: 'SeatGeek', url: 'sg' },
+    { date: '2026-10-01', time: '20:00', title: 'Band Z', venue: 'Pabst Theater', ticketer: 'Ticketmaster', url: 'tm', price: 30 },
+  ]);
+  assert.equal(show.offers.length, 2, 'both platforms should be offered');
+  assert.equal(show.offers[0].src, 'Ticketmaster', 'the priced offer sorts first');
+  assert.equal(show.url, 'tm', 'primary link follows the first offer');
+});
+
+test('dedupe never lists the same platform twice for one show', () => {
+  const [show] = dedupe([
+    { date: '2026-10-02', time: '20:00', title: 'Band Y', venue: 'Vivarium', ticketer: 'Ticketmaster', url: 'a' },
+    { date: '2026-10-02', time: '20:00', title: 'Band Y', venue: 'Vivarium', ticketer: 'Ticketmaster', url: 'b' },
+  ]);
+  assert.equal(show.offers.length, 1);
+});
+
+test('dedupe collapses same date+title+venue into one merged listing', () => {
   const shows = [
     { date: '2026-06-10', title: 'Band A', venue: 'Shank Hall', ticketer: 'Ticketmaster' },
     { date: '2026-06-10', title: 'band a', venue: 'shank hall', ticketer: 'SeatGeek' }, // dup (case-insensitive)
@@ -187,7 +205,8 @@ test('dedupe collapses same date+title+venue, keeping the first', () => {
   ];
   const out = dedupe(shows);
   assert.equal(out.length, 3);
-  assert.equal(out[0].ticketer, 'Ticketmaster'); // first one wins
+  assert.equal(out[0].offers.length, 2, 'the cross-source pair merges into one listing with both offers');
+  assert.deepEqual(out[0].offers.map(o => o.src).sort(), ['SeatGeek', 'Ticketmaster']);
 });
 
 // --- images / entities / ics -----------------------------------------------
@@ -253,4 +272,29 @@ test('shows.json (if present) is valid', () => {
   if (!fs.existsSync(p)) { return; } // feed may not have run yet
   const data = JSON.parse(fs.readFileSync(p, 'utf8'));
   validateShows(data.shows, 'shows.json');
+});
+
+// --- title-variant merging (multi-room venues must NOT collapse) ----------
+
+test('similarity scores spelling variants high and different acts low', () => {
+  assert.ok(similarity('jennifer lyn and the groove revival', 'jennifer lynn and the groove revival') > 0.9);
+  assert.ok(similarity('rufus du sol', 'rufus du sol') === 1);
+  assert.ok(similarity('eddie griffin', 'dl hughley') < 0.5);
+  assert.ok(similarity('nonpoint', 'poke rave') < 0.5);
+});
+
+test('mergeTitleVariants folds spelling variants but keeps distinct shows', () => {
+  const merged = mergeTitleVariants([
+    { date: '2026-08-13', time: '19:00', title: 'Jennifer Lyn and the Groove Revival', venue: 'Peck Pavilion', offers: [{ src: 'Ticketmaster', url: 'a' }] },
+    { date: '2026-08-13', time: '19:00', title: 'Jennifer Lynn and The Groove Revival', venue: 'Peck Pavilion', offers: [{ src: 'SeatGeek', url: 'b' }] },
+  ]);
+  assert.equal(merged.length, 1, 'spelling variants should merge');
+  assert.equal(merged[0].offers.length, 2, 'and keep both places to buy');
+
+  // The Rave runs several rooms at once — these are different shows
+  const kept = mergeTitleVariants([
+    { date: '2026-08-15', time: '19:30', title: 'Nonpoint', venue: 'The Rave / Eagles Club', offers: [{ src: 'Ticketmaster', url: 'a' }] },
+    { date: '2026-08-15', time: '19:30', title: 'Poke-RAVE', venue: 'The Rave / Eagles Club', offers: [{ src: 'SeatGeek', url: 'b' }] },
+  ]);
+  assert.equal(kept.length, 2, 'different shows in the same building must stay separate');
 });
