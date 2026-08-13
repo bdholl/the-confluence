@@ -123,8 +123,9 @@
     .row-offers a { color:var(--blue); text-decoration:none; }
     .row-offers a:hover { text-decoration:underline; text-underline-offset:2px; }
     /* listen: hear this artist on Confluence Radio (only when a preview exists) */
-    .row-artist-line { display:flex; align-items:center; gap:9px; flex-wrap:wrap; }
-    .play-btn { flex:none; width:20px; height:20px; border:1px solid var(--line); background:transparent; color:#5ad427; border-radius:50%; font-size:8px; line-height:1; display:inline-flex; align-items:center; justify-content:center; padding:0 0 0 2px; transition:.12s; }
+    /* inline so the ▶ trails the last word instead of dropping to its own line */
+    .row-artist-line { display:block; }
+    .play-btn { width:20px; height:20px; margin-left:9px; vertical-align:2px; border:1px solid var(--line); background:transparent; color:#5ad427; border-radius:50%; font-size:8px; line-height:1; display:inline-flex; align-items:center; justify-content:center; padding:0 0 0 2px; transition:.12s; }
     .play-btn:hover { border-color:#5ad427; background:#f2fdec; }
     .play-btn.playing { border-color:#5ad427; background:#5ad427; color:#fff; }
     /* My List — a quiet text action beside the venue line */
