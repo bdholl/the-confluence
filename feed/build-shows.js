@@ -182,12 +182,15 @@ function tmEventToShow(e) {
   const isComedy = seg === 'Comedy' || seg === 'Arts & Theatre';
   const gName = cls.genre?.name && cls.genre.name !== 'Undefined' ? cls.genre.name : (seg || '');
   const img = tmImage(e);
+  // "time to be announced" — the timestamp is a placeholder, not a showtime
+  const tbd = !!(start.timeTBA || start.noSpecificTime);
   // face-value floor when Ticketmaster publishes it (~25% of events)
   const price = e.priceRanges?.length
     ? Math.min(...e.priceRanges.map(p => p.min).filter(n => typeof n === 'number'))
     : undefined;
   return {
     ...(img ? { img } : {}),
+    ...(tbd ? { tbd: true } : {}),
     ...(price != null && isFinite(price) ? { price } : {}),
     date: start.localDate,
     time: hm(start.localTime),
@@ -296,6 +299,7 @@ async function fromSeatGeek(startD, endD) {
       const taxo = (e.taxonomies || []).map(t => t.name).join(' ');
       out.push({
         ...(img ? { img } : {}),
+        ...(e.time_tbd || e.datetime_tbd ? { tbd: true } : {}),
         date,
         time: hm(time),
         title: head.name || e.short_title || e.title,
@@ -447,26 +451,66 @@ function similarity(a, b) {
   return 1 - prev[t.length] / s.length;
 }
 const TITLE_MATCH = 0.85;
+// Two listings of the same act on the same night more than this far apart are
+// genuinely separate performances (comedy clubs run ~7:00 and ~9:15). Closer
+// than this and it's one show whose sources disagree — often doors vs stage
+// time (Modest Mouse listed 7:00 by one source, 8:00 by the other).
+const SEPARATE_SHOW_MIN = 120;
 
-// Second pass: within one date+time+venue slot, fold near-identical titles
-// together. Anything below the threshold stays its own listing.
+const toMin = t => { const [h, m] = String(t).split(':').map(Number); return h * 60 + m; };
+const toHM = n => `${String(Math.floor(n / 60)).padStart(2, '0')}:${String(n % 60).padStart(2, '0')}`;
+
+// Second pass: within one date+venue, fold near-identical titles into a single
+// listing. Showtimes are clustered — a real double-header keeps both times,
+// while a source disagreement collapses to one.
 function mergeTitleVariants(shows) {
   const slots = new Map();
   for (const s of shows) {
-    const slot = `${s.date}|${s.time}|${normKey(s.venue)}`;
+    const slot = `${s.date}|${normKey(s.venue)}`;
     const list = slots.get(slot) || [];
     const twin = list.find(x => similarity(normKey(x.title), normKey(s.title)) >= TITLE_MATCH);
     if (twin) {
       for (const o of s.offers || []) if (!twin.offers.some(t => t.src === o.src)) twin.offers.push(o);
       if (!twin.img && s.img) twin.img = s.img;
       if (!twin.support && s.support) twin.support = s.support;
+      twin._t.push({ min: toMin(s.time), src: s.ticketer, tbd: !!s.tbd });
+      if (!s.tbd) twin.tbd = twin.tbd && false;
     } else {
+      s._t = [{ min: toMin(s.time), src: s.ticketer, tbd: !!s.tbd }];
       list.push(s);
       slots.set(slot, list);
     }
   }
-  return [...slots.values()].flat();
+
+  const out = [];
+  for (const list of slots.values()) for (const s of list) {
+    // a "time TBA" placeholder must never invent a showtime or a second
+    // performance — drop those the moment any source states a real time
+    const real = s._t.filter(t => !t.tbd);
+    if (real.length) { s._t = real; delete s.tbd; } else { s.tbd = true; }
+    const sorted = s._t.sort((a, b) => a.min - b.min);
+    const clusters = [];
+    for (const t of sorted) {
+      const last = clusters[clusters.length - 1];
+      if (last && t.min - last[last.length - 1].min < SEPARATE_SHOW_MIN) last.push(t);
+      else clusters.push([t]);
+    }
+    // within a cluster prefer Ticketmaster's stated time, else the earliest
+    const times = clusters.map(c => (c.find(x => x.src === 'Ticketmaster') || c[0]).min);
+    delete s._t;
+    s.time = toHM(times[0]);
+    if (times.length > 1) s.times = times.map(toHM);
+    out.push(s);
+  }
+  return out;
 }
+
+// Which ticket page to send people to when a show sells in several places.
+// Primary/box-office sellers first, resale marketplaces last — buying direct
+// is normally the better deal.
+const SOURCE_RANK = { Ticketmaster: 0, AXS: 1, Eventbrite: 1, 'At the door': 1, SeatGeek: 5 };
+const rankOf = src => (SOURCE_RANK[src] ?? 3);
+const bestOfferFirst = (a, b) => rankOf(a.src) - rankOf(b.src) || a.src.localeCompare(b.src);
 
 // One offer per ticketing source: where to buy, and the price if we know it.
 function toOffer(s) {
@@ -491,10 +535,10 @@ function dedupe(shows) {
     if (!prev.support && s.support) prev.support = s.support;
     if (prev.price == null && s.price != null) prev.price = s.price;
   }
-  // cheapest known price first, then alphabetical for a stable order
+  // best place to buy first (box office before resale)
   for (const s of seen.values()) {
-    s.offers.sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity) || a.src.localeCompare(b.src));
-    s.url = s.offers[0].url;          // primary link = cheapest/first offer
+    s.offers.sort(bestOfferFirst);
+    s.url = s.offers[0].url;          // where the listing links
     s.ticketer = s.offers[0].src;
   }
   return [...seen.values()];
@@ -526,7 +570,7 @@ async function main() {
     .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
   // offers may have grown during the variant merge — re-sort and re-point
   for (const s of shows) {
-    s.offers.sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity) || a.src.localeCompare(b.src));
+    s.offers.sort(bestOfferFirst);
     s.url = s.offers[0].url;
     s.ticketer = s.offers[0].src;
   }
