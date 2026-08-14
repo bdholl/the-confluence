@@ -661,6 +661,11 @@ const cleanArtist = t => String(t || '')
   .replace(/\s*\(.*?\)\s*/g, ' ')          // "(Free)", "(Day 1)"
   .replace(/\s*[-–—:]\s*(a tribute|tribute).*$/i, '')
   .replace(/\s+w\/.*$/i, '')                // "w/ Support"
+  // Tour branding hides the band from Apple: "Pinkshift: Saccharine 5 Year
+  // Anniversary Tour" never matched, so it had no preview and no genre. Only
+  // strip when the tail actually reads like tour branding — a bare colon or
+  // dash can be part of the name.
+  .replace(/\s*[-–—:]\s*['"]?[^-–—:]*\b(tour|anniversary|songbook|reunion|farewell)\b.*$/i, '')
   .replace(/\s+/g, ' ')
   .trim();
 
@@ -682,9 +687,12 @@ async function lookupPreview(name) {
   return hit ? { url: hit.previewUrl, track: hit.trackName, artist: hit.artistName, kind: hit.primaryGenreName || '' } : null;
 }
 
+function loadPreviewCache() {
+  try { return JSON.parse(fs.readFileSync(PREVIEW_CACHE, 'utf8')); } catch { return {}; }
+}
+
 async function attachPreviews(shows) {
-  let cache = {};
-  try { cache = JSON.parse(fs.readFileSync(PREVIEW_CACHE, 'utf8')); } catch { /* first run */ }
+  let cache = loadPreviewCache();
 
   const names = [...new Set(shows.map(s => cleanArtist(s.title)).filter(Boolean))];
   const missing = names.filter(n => !(n in cache));
@@ -721,6 +729,104 @@ async function attachPreviews(shows) {
     s.preview = hit; withPreview++;
   }
   console.log(`• Previews: ${withPreview}/${shows.length} shows playable (${fetched} looked up, ${names.length - missing.length} cached)`);
+  return cache;    // the same lookups drive genre refinement
+}
+
+// ---------- genre refinement ----------
+// Ticketmaster and SeatGeek describe the *booking*, not the band: nearly half
+// the feed came through as "other", and acts like Foster the People landed in
+// the same "rock" bucket as a hair-metal cover night. Apple's catalogue knows
+// what the artist actually sounds like, and we already fetch it for previews —
+// primaryGenreName was sitting in the preview cache unused.
+//
+// ORDER MATTERS here. "Alternative Country" is country, not indie, so the
+// specific pairs have to be tested before the general ones. That's why this is
+// an array of pairs rather than an object.
+const ITUNES_GENRE = [
+  ['alternative country', 'country'],
+  ['alternative folk', 'folk'],
+  ['adult alternative', 'indie'],
+  ['indie', 'indie'],
+  ['alternative', 'indie'],
+  ['standup', 'comedy'], ['comedy', 'comedy'],
+  ['hard rock', 'rock'], ['jam band', 'rock'], ['pop/rock', 'rock'], ['rock', 'rock'],
+  ['metal', 'metal'],
+  ['punk', 'punk'],
+  ['country', 'country'], ['bluegrass', 'folk'],
+  ['singer/songwriter', 'folk'], ['americana', 'folk'], ['folk', 'folk'],
+  ['hip-hop', 'hiphop'], ['rap', 'hiphop'],
+  ['r&b', 'rnb'], ['soul', 'rnb'], ['motown', 'rnb'], ['funk', 'rnb'],
+  ['latino', 'latin'], ['latin', 'latin'],
+  ['blues', 'blues'],
+  ['jazz', 'jazz'],
+  ['electronic', 'electronic'], ['dance', 'electronic'], ['house', 'electronic'],
+  ['techno', 'electronic'], ['dubstep', 'electronic'], ['bass', 'electronic'],
+  ['pop', 'pop'],
+  // deliberately unmapped: Christian, Holiday, New Age, Instrumental — they
+  // say nothing about which of our buckets a show belongs in.
+];
+
+function itunesGenre(kind) {
+  const k = String(kind || '').toLowerCase();
+  if (!k) return null;
+  for (const [frag, g] of ITUNES_GENRE) if (k.includes(frag)) return g;
+  return null;
+}
+
+// Where neither source gets it right. Apple files Beck under Pop, which is
+// true of his catalogue and wrong for how anyone books or hears him. Keep this
+// short — it's a hand-maintained exception list, not a genre system.
+const ARTIST_GENRE = {
+  'beck': 'indie',
+};
+
+// Last resort for the acts Apple has never heard of — local bands, DJ nights,
+// tribute shows. Only ever consulted when everything else said "other", and
+// only for words that are unambiguous in a show title.
+const TITLE_GENRE = [
+  [/\bk-?pop\b/i, 'pop'],
+  [/\b(dj|rave|techno|house music|edm)\b/i, 'electronic'],
+  [/\bmetal\b/i, 'metal'],
+  [/\bpunk\b/i, 'punk'],
+  [/\b(jazz|big band)\b/i, 'jazz'],
+  [/\bblues\b/i, 'blues'],
+  [/\b(bluegrass|folk|old-?time)\b/i, 'folk'],
+  [/\b(hip-?hop|rap)\b/i, 'hiphop'],
+  [/\b(salsa|mariachi|cumbia|banda|norteñ|reggaeton)\b/i, 'latin'],
+  [/\b(open mic|karaoke|trivia|bingo|drag brunch)\b/i, null],   // genuinely not a genre
+];
+
+// Rock is Ticketmaster's parent bucket, so a narrower rock style from Apple is
+// a refinement worth taking. Country or pop would be a *disagreement*, and
+// there the ticket seller — who saw the billing — is likelier to be right.
+const ROCK_SUBGENRES = new Set(['indie', 'punk', 'metal']);
+
+function refineGenres(shows, cache) {
+  let filled = 0, sharpened = 0;
+  for (const s of shows) {
+    // comedy comes from the ticket classification, not free text — it's the
+    // one label the sources are reliably right about
+    if (s.genre === 'comedy') continue;
+
+    const override = ARTIST_GENRE[cleanArtist(s.title).toLowerCase()];
+    if (override) { if (s.genre !== override) sharpened++; s.genre = override; continue; }
+
+    const hit = cache[cleanArtist(s.title)];
+    const apple = itunesGenre(hit && hit.kind);
+
+    if (apple && apple !== 'comedy') {
+      if (s.genre === 'other') { s.genre = apple; filled++; continue; }
+      if (s.genre === 'rock' && ROCK_SUBGENRES.has(apple)) { s.genre = apple; sharpened++; continue; }
+    }
+
+    if (s.genre !== 'other') continue;
+    for (const [re, g] of TITLE_GENRE) {
+      if (!re.test(s.title)) continue;
+      if (g) { s.genre = g; filled++; }
+      break;                          // matched a non-genre word: leave it alone
+    }
+  }
+  console.log(`• Genres: ${filled} rescued from "other", ${sharpened} sharpened`);
   return shows;
 }
 
@@ -921,7 +1027,8 @@ async function main() {
     process.exit(1);
   }
 
-  await attachPreviews(shows);
+  const cache = await attachPreviews(shows);
+  refineGenres(shows, cache);    // Apple knows the band; the seller knows the booking
   assignSlugs(shows);            // every show gets its own shareable address
 
   const payload = { updated: todayStr, shows };
@@ -936,8 +1043,12 @@ async function main() {
 // Rebuild the slugs and the share pages from whatever is already in
 // shows.json — no API keys, no network. Handy after editing manual-extras, and
 // it's how the pages were first generated.
-function pagesOnly() {
+async function pagesOnly() {
   const payload = JSON.parse(fs.readFileSync(OUT, 'utf8'));
+  // Everything downstream of the ticketing APIs, re-derived from what's already
+  // in shows.json. Only iTunes is called, and only for artists not yet cached.
+  const cache = await attachPreviews(payload.shows);
+  refineGenres(payload.shows, cache);               // idempotent; safe to re-run
   assignSlugs(payload.shows);
   fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
   updateEmbedded(payload);
@@ -948,10 +1059,10 @@ function pagesOnly() {
 // helpers above can be imported by the test suite without hitting the network.
 if (require.main === module) {
   if (process.argv.includes('--pages')) {
-    try { pagesOnly(); } catch (e) { console.error('Page build failed:', e); process.exit(1); }
+    pagesOnly().catch(e => { console.error('Page build failed:', e); process.exit(1); });
   } else {
     main().catch(e => { console.error('Build failed:', e); process.exit(1); });
   }
 }
 
-module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, GENRE_MAP, VENUE_HOODS, MKE_VENUES };

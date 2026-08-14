@@ -9,7 +9,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "blues",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/buffalo-nichols-tickets/milwaukee-wisconsin-cactus-club-2026-08-14-6-30-pm/concert/18400684",
       "offers": [
@@ -63,7 +63,7 @@
       "support": "PVRIS",
       "venue": "Wisconsin State Fair",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-k0Y",
       "offers": [
@@ -121,7 +121,7 @@
       "support": null,
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-a",
       "offers": [
@@ -171,7 +171,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "latin",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7088U",
       "offers": [
@@ -194,7 +194,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/the-verve-pipe-w-edie-current-tickets-1988514883546",
       "offers": [
@@ -248,7 +248,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "jazz",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvt",
       "offers": [
@@ -306,7 +306,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PM73",
       "offers": [
@@ -437,7 +437,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/american-vanity-tickets/milwaukee-wisconsin-vivarium-2026-08-15-8-pm/concert/18400958",
       "offers": [
@@ -462,7 +462,7 @@
       "support": null,
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/american-football-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-08-15-8-pm/concert/18050636",
       "offers": [
@@ -487,7 +487,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "punk",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/pinkshift-saccharine-5-year-anniversary-tour-tickets-1992499818594",
       "offers": [
@@ -496,7 +496,13 @@
           "url": "https://www.eventbrite.com/e/pinkshift-saccharine-5-year-anniversary-tour-tickets-1992499818594"
         }
       ],
-      "slug": "pinkshift-saccharine-5-year-anniversary-tour-2026-08-15"
+      "slug": "pinkshift-saccharine-5-year-anniversary-tour-2026-08-15",
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/aa/f7/ce/aaf7cee0-dcae-9357-67d0-b68829ab7a99/mzaf_2631836454074792735.plus.aac.p.m4a",
+        "track": "I'm Gonna Tell My Therapist On You",
+        "artist": "Pinkshift",
+        "kind": "Punk"
+      }
     },
     {
       "img": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg",
@@ -506,7 +512,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "latin",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PM7k",
       "offers": [
@@ -535,7 +541,7 @@
       "support": null,
       "venue": "Miramar Theatre",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/darude-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-08-15-9-pm/concert/18400681",
       "offers": [
@@ -560,7 +566,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvs",
       "offers": [
@@ -822,7 +828,7 @@
       "support": "Spyro Gyra, Kandace Springs, Eric Essix",
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "jazz",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qdqz",
       "offers": [
@@ -928,7 +934,7 @@
       "support": null,
       "venue": "Anodyne Coffee Roasting Co.",
       "hood": "Walker's Point",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/vacation-manor-tickets/milwaukee-wisconsin-anodyne-coffee-roasting-co-2026-08-21-7-30-pm/concert/18400794",
       "offers": [
@@ -984,7 +990,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "hiphop",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70xqa",
       "offers": [
@@ -1013,7 +1019,7 @@
       "support": null,
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "hiphop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/emmitt-james-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-08-21-8-pm/concert/18307069",
       "offers": [
@@ -1038,7 +1044,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "hiphop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/bungalow-collect-tickets/milwaukee-wisconsin-vivarium-2026-08-21-8-30-pm/concert/18400960",
       "offers": [
@@ -1063,7 +1069,7 @@
       "support": "Jonathan Butler, Jarrod Lawson, Marqueal Jordan",
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "jazz",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qdqy",
       "offers": [
@@ -1253,7 +1259,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/k-pop-rave-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-22-8-30-pm/concert/18400454",
       "offers": [
@@ -1339,7 +1345,7 @@
       "support": "Ben Chapman",
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PSGe",
       "offers": [
@@ -1395,7 +1401,7 @@
       "support": "Caitlynne Curtis",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PM74",
       "offers": [
@@ -1424,7 +1430,7 @@
       "support": "Ov Sulfur",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "rock",
+      "genre": "metal",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pz74",
       "offers": [
@@ -1511,7 +1517,7 @@
       "support": null,
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/the-marshall-tucker-band-tickets/milwaukee-wisconsin-pabst-theater-2026-08-27-7-30-pm/concert/18400479",
       "offers": [
@@ -1615,7 +1621,7 @@
       "support": null,
       "venue": "Cedar Creek Park",
       "hood": "Cedarburg",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/josh-turner-tickets/cedarburg-wisconsin-cedar-creek-park-2026-08-28-5-45-pm/concert/18397766",
       "offers": [
@@ -1694,7 +1700,7 @@
       "support": null,
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/danny-gonzalez-tickets/milwaukee-wisconsin-pabst-theater-2026-08-28-7-pm/concert/18400487",
       "offers": [
@@ -1752,7 +1758,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "rnb",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JKFY",
       "offers": [
@@ -1782,7 +1788,7 @@
       "support": null,
       "venue": "Shank Hall",
       "hood": "East Side",
-      "genre": "rock",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketweb.com/event/the-sadies-shank-hall-tickets/14213214",
       "offers": [
@@ -1926,7 +1932,7 @@
       "support": null,
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "jazz",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/michael-feinstein-tickets/milwaukee-wisconsin-pabst-theater-2026-08-29-8-pm/concert/18400489",
       "offers": [
@@ -1952,7 +1958,7 @@
       "support": null,
       "venue": "Milwaukee Improv",
       "hood": "Brookfield",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketweb.com/event/pinky-patel-milwaukee-improv-main-room-tickets/14972573",
       "offers": [
@@ -2026,7 +2032,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvw",
       "offers": [
@@ -2116,7 +2122,7 @@
       "support": "Lucy",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Zbw",
       "offers": [
@@ -2456,7 +2462,7 @@
       "support": "Terror",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "rock",
+      "genre": "metal",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzAZ",
       "offers": [
@@ -2515,7 +2521,7 @@
       "support": null,
       "venue": "Milwaukee Improv",
       "hood": "Brookfield",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketweb.com/event/nick-murphy-milwaukee-improv-main-room-tickets/14250064",
       "offers": [
@@ -2541,7 +2547,7 @@
       "support": "Texas Is the Reason",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps4a",
       "offers": [
@@ -2597,7 +2603,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzA7",
       "offers": [
@@ -2649,7 +2655,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/dan-rodriguez-tickets/milwaukee-wisconsin-vivarium-2026-09-10-8-pm/concert/18400964",
       "offers": [
@@ -2675,7 +2681,7 @@
       "support": null,
       "venue": "Milwaukee Improv",
       "hood": "Brookfield",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793113",
       "offers": [
@@ -2759,7 +2765,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzAa",
       "offers": [
@@ -2808,7 +2814,7 @@
       "support": null,
       "venue": "Milwaukee Improv",
       "hood": "Brookfield",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793143",
       "offers": [
@@ -2900,7 +2906,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kGF",
       "offers": [
@@ -2983,7 +2989,7 @@
       "support": "Anna Tivel",
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/margaret-glaspy-tickets/milwaukee-wisconsin-vivarium-2026-09-12-8-pm/concert/18283417",
       "offers": [
@@ -3008,7 +3014,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/lily-rose-tickets-1992172183629",
       "offers": [
@@ -3055,7 +3061,7 @@
       "support": null,
       "venue": "Milwaukee Improv",
       "hood": "Brookfield",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793123",
       "offers": [
@@ -3143,7 +3149,7 @@
       "support": null,
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OV0z",
       "offers": [
@@ -3251,7 +3257,7 @@
       "support": null,
       "venue": "Falcon Bowl",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/mini-trees-tickets/milwaukee-wisconsin-falcon-bowl-2026-09-13-8-pm/concert/18256466",
       "offers": [
@@ -3276,7 +3282,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/homestyle-dinner-rolls-tickets/milwaukee-wisconsin-cactus-club-2026-09-14-7-30-pm/concert/18420486",
       "offers": [
@@ -3330,7 +3336,7 @@
       "support": "Visions of Atlantis",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "rock",
+      "genre": "metal",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzAo",
       "offers": [
@@ -3359,7 +3365,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "hiphop",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps4M",
       "offers": [
@@ -3417,7 +3423,7 @@
       "support": null,
       "venue": "X-Ray Arcade",
       "hood": "Cudahy",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pdpd",
       "offers": [
@@ -3443,7 +3449,7 @@
       "support": null,
       "venue": "Milwaukee Improv",
       "hood": "Brookfield",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketweb.com/event/mark-paul-the-daddy-ball-milwaukee-improv-main-room-tickets/14109834",
       "offers": [
@@ -3453,7 +3459,13 @@
           "price": 32.39
         }
       ],
-      "slug": "mark-paul-the-daddy-ball-tour-2026-09-16"
+      "slug": "mark-paul-the-daddy-ball-tour-2026-09-16",
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/d1/4d/e6/d14de658-184c-2a8a-a9e7-ed790fec6b4e/mzaf_5197805756868333854.plus.aac.p.m4a",
+        "track": "Doctor My Eyes",
+        "artist": "Mark Paul",
+        "kind": "Rock"
+      }
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/mark-paul-6c98fc/1966967/huge.jpg",
@@ -3513,7 +3525,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "rock",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdGv",
       "offers": [
@@ -3542,7 +3554,7 @@
       "support": null,
       "venue": "Falcon Bowl",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/jim-e-brown-tickets/milwaukee-wisconsin-falcon-bowl-2026-09-16-8-pm/concert/18263961",
       "offers": [
@@ -3567,7 +3579,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/the-wilder-blue-tickets/milwaukee-wisconsin-vivarium-2026-09-16-8-pm/concert/18400944",
       "offers": [
@@ -3655,7 +3667,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/improvement-movement-tickets/milwaukee-wisconsin-vivarium-2026-09-17-8-pm/concert/18400945",
       "offers": [
@@ -3759,7 +3771,7 @@
       "support": null,
       "venue": "Shank Hall",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/yynot-tribute-to-rush-tickets/milwaukee-wisconsin-shank-hall-2026-09-18-8-pm/concert/18400615",
       "offers": [
@@ -3784,7 +3796,7 @@
       "support": "Umru",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tqv",
       "offers": [
@@ -3809,7 +3821,7 @@
       "support": "Blake Proehl",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZaZ",
       "offers": [
@@ -3984,7 +3996,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZae",
       "offers": [
@@ -4013,7 +4025,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/mac-mcanally-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-19-8-pm/concert/18400457",
       "offers": [
@@ -4063,7 +4075,7 @@
       "support": null,
       "venue": "Falcon Bowl",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/your-arms-are-my-cocoon-tickets/milwaukee-wisconsin-falcon-bowl-2026-09-20-7-pm/concert/18400833",
       "offers": [
@@ -4088,7 +4100,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/the-bouncing-souls-born-to-be-tour-w-the-suicide-machines-tickets-1987151586889",
       "offers": [
@@ -4097,7 +4109,13 @@
           "url": "https://www.eventbrite.com/e/the-bouncing-souls-born-to-be-tour-w-the-suicide-machines-tickets-1987151586889"
         }
       ],
-      "slug": "the-bouncing-souls-born-to-be-tour-w-the-suicide-machines-2026-09-20"
+      "slug": "the-bouncing-souls-born-to-be-tour-w-the-suicide-machines-2026-09-20",
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/09/f9/ca/09f9ca1c-6566-8432-4614-0a2cddcf4293/mzaf_12996448362490806326.plus.aac.p.m4a",
+        "track": "True Believers",
+        "artist": "The Bouncing Souls",
+        "kind": "Alternative"
+      }
     },
     {
       "img": "https://s1.ticketm.net/dam/a/dca/e3197c3f-db63-41c5-be46-f48e5c2d2dca_RETINA_PORTRAIT_16_9.jpg",
@@ -4166,7 +4184,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OzFz",
       "offers": [
@@ -4195,7 +4213,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-tickets-1992231319506",
       "offers": [
@@ -4204,7 +4222,13 @@
           "url": "https://www.eventbrite.com/e/the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-tickets-1992231319506"
         }
       ],
-      "slug": "the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-2026-09-20"
+      "slug": "the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-2026-09-20",
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/ec/5d/71ec5dc8-0a28-9882-f747-4040acb90950/mzaf_11857164481591359606.plus.aac.p.m4a",
+        "track": "Ice to Never",
+        "artist": "The Black Queen",
+        "kind": "Alternative"
+      }
     },
     {
       "img": "https://s1.ticketm.net/dam/a/d0c/4429459a-7a75-4e95-899b-955fa0bded0c_RETINA_PORTRAIT_16_9.jpg",
@@ -4243,7 +4267,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/noah-rinker-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-22-7-30-pm/concert/18374388",
       "offers": [
@@ -4268,7 +4292,7 @@
       "support": null,
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "hiphop",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd7J",
       "offers": [
@@ -4397,7 +4421,7 @@
       "support": null,
       "venue": "Falcon Bowl",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/aj-lee-blue-summit-tickets/milwaukee-wisconsin-falcon-bowl-2026-09-23-8-pm/concert/18400834",
       "offers": [
@@ -4539,7 +4563,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/clay-street-unit-tickets/milwaukee-wisconsin-vivarium-2026-09-24-8-pm/concert/18400950",
       "offers": [
@@ -4647,7 +4671,7 @@
       "support": "Pelican",
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/russian-circles-tickets/whitefish-bay-wisconsin-the-argo-2026-09-25-8-pm/concert/18334133",
       "offers": [
@@ -4672,7 +4696,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/russian-circles-w-pelican-tickets-1992173433367",
       "offers": [
@@ -4697,7 +4721,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/briscoe-tickets/milwaukee-wisconsin-vivarium-2026-09-25-8-pm/concert/18400952",
       "offers": [
@@ -4745,7 +4769,7 @@
       "support": "Sanguisugabogg",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZaF",
       "offers": [
@@ -4945,7 +4969,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "rnb",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/paul-cebar-tickets/milwaukee-wisconsin-vivarium-2026-09-26-8-pm/concert/18400954",
       "offers": [
@@ -4970,7 +4994,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/big-richard-tickets-1990612374197",
       "offers": [
@@ -5020,7 +5044,7 @@
       "support": "This Is Lorelei",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
-      "genre": "rock",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/bleachers-forever-milwaukee-wisconsin-09-27-2026/event/070064698C992AC3",
       "offers": [
@@ -5072,7 +5096,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/bahamas-tickets/milwaukee-wisconsin-vivarium-2026-09-27-8-pm/concert/18401004",
       "offers": [
@@ -5097,7 +5121,7 @@
       "support": "Liam St. John",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZaQd",
       "offers": [
@@ -5126,7 +5150,7 @@
       "support": null,
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/mico-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-28-8-pm/concert/18259835",
       "offers": [
@@ -5199,7 +5223,7 @@
       "support": "Goth Babe",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
-      "genre": "rock",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/foster-the-people-good-mourning-sunshine-milwaukee-wisconsin-09-29-2026/event/0700649AE57268F4",
       "offers": [
@@ -5228,7 +5252,7 @@
       "support": "VIAL",
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/the-linda-lindas-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-29-8-pm/concert/18371273",
       "offers": [
@@ -5282,7 +5306,7 @@
       "support": "Hotline TNT",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70A4s",
       "offers": [
@@ -5311,7 +5335,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgvI",
       "offers": [
@@ -5518,7 +5542,7 @@
       "support": "Erin Kinsey",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZao",
       "offers": [
@@ -5547,7 +5571,7 @@
       "support": null,
       "venue": "Riverside Theater",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OMbk",
       "offers": [
@@ -5605,7 +5629,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/them-coulee-boys-tickets/milwaukee-wisconsin-vivarium-2026-10-02-8-pm/concert/18400966",
       "offers": [
@@ -5649,7 +5673,7 @@
       "support": null,
       "venue": "Miramar Theatre",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/morgan-page-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-10-02-9-pm/concert/18400685",
       "offers": [
@@ -5815,7 +5839,7 @@
       "support": "McCoy Moore",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZa4",
       "offers": [
@@ -5844,7 +5868,7 @@
       "support": "Softcult, Shady Nasty, Dazy",
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PFuZ",
       "offers": [
@@ -5873,7 +5897,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/the-holdup-the-buying-time-tour-w-cydeways-dylan-reese-tickets-1991394584810",
       "offers": [
@@ -5882,7 +5906,13 @@
           "url": "https://www.eventbrite.com/e/the-holdup-the-buying-time-tour-w-cydeways-dylan-reese-tickets-1991394584810"
         }
       ],
-      "slug": "the-holdup-the-buying-time-tour-w-cydeways-and-dylan-reese-2026-10-03"
+      "slug": "the-holdup-the-buying-time-tour-w-cydeways-and-dylan-reese-2026-10-03",
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b1/a0/94/b1a0940d-fff5-d7b3-f6cb-ad8fb34918b7/mzaf_18018204788496152792.plus.aac.p.m4a",
+        "track": "Sativa",
+        "artist": "The Holdup",
+        "kind": "Alternative"
+      }
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178058618%2F2971726526301%2F1%2Foriginal.20260220-202316?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=42da38b3c2f2659661809c5b5d12332b",
@@ -6054,7 +6084,7 @@
       "support": "Future Joy",
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/octave-cat-tickets/milwaukee-wisconsin-vivarium-2026-10-04-8-pm/concert/18345667",
       "offers": [
@@ -6121,7 +6151,7 @@
       "support": "Ioanna Gika",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
-      "genre": "rock",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-milwaukee-wisconsin-10-06-2026/event/07006486B4083B7C",
       "offers": [
@@ -6320,7 +6350,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692",
       "offers": [
@@ -6345,7 +6375,7 @@
       "support": null,
       "venue": "X-Ray Arcade",
       "hood": "Cudahy",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/the-haunt-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-08-7-30-pm/concert/18410531",
       "offers": [
@@ -6449,7 +6479,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "jazz",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PVJd",
       "offers": [
@@ -6528,7 +6558,7 @@
       "support": null,
       "venue": "Shank Hall",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/david-nail-tickets/milwaukee-wisconsin-shank-hall-2026-10-09-8-pm/concert/18235709",
       "offers": [
@@ -6576,7 +6606,7 @@
       "support": null,
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Erv",
       "offers": [
@@ -6624,7 +6654,7 @@
       "support": null,
       "venue": "Falcon Bowl",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/chasing-abbey-tickets/milwaukee-wisconsin-falcon-bowl-2026-10-09-8-pm/concert/18256468",
       "offers": [
@@ -6830,7 +6860,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70O_4",
       "offers": [
@@ -6880,7 +6910,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8b9",
       "offers": [
@@ -6953,7 +6983,7 @@
       "support": null,
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "jazz",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70-po",
       "offers": [
@@ -6982,7 +7012,7 @@
       "support": "Mercury",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "metal",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jea7",
       "offers": [
@@ -7120,7 +7150,7 @@
       "support": "Rochelle Jordan, EMMMA",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
-      "genre": "rock",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/suki-waterhouse-the-loveland-tour-milwaukee-wisconsin-10-13-2026/event/07006496898222DA",
       "offers": [
@@ -7180,7 +7210,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/north-mississippi-allstars-tickets/milwaukee-wisconsin-vivarium-2026-10-13-8-pm/concert/18312255",
       "offers": [
@@ -7234,7 +7264,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jeak",
       "offers": [
@@ -7288,7 +7318,7 @@
       "support": null,
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/the-midnight-tickets/milwaukee-wisconsin-pabst-theater-2026-10-14-8-pm/concert/18261705",
       "offers": [
@@ -7432,7 +7462,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/faux-real-tickets/milwaukee-wisconsin-cactus-club-2026-10-16-7-pm/concert/18400694",
       "offers": [
@@ -7557,7 +7587,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V4E",
       "offers": [
@@ -7615,7 +7645,7 @@
       "support": null,
       "venue": "X-Ray Arcade",
       "hood": "Cudahy",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70VrZ",
       "offers": [
@@ -7659,7 +7689,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893",
       "offers": [
@@ -7962,7 +7992,7 @@
       "support": null,
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "blues",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptr_",
       "offers": [
@@ -8070,7 +8100,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgG-",
       "offers": [
@@ -8120,7 +8150,7 @@
       "support": null,
       "venue": "Shank Hall",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/duane-betts-tickets/milwaukee-wisconsin-shank-hall-2026-10-19-8-pm/concert/18284249",
       "offers": [
@@ -8299,7 +8329,7 @@
       "support": "The Texas Gentlemen",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdOO",
       "offers": [
@@ -8413,7 +8443,7 @@
       "support": null,
       "venue": "Falcon Bowl",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/ian-sweet-tickets/milwaukee-wisconsin-falcon-bowl-2026-10-22-8-pm/concert/18198363",
       "offers": [
@@ -8438,7 +8468,7 @@
       "support": "Worry Club",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYv6",
       "offers": [
@@ -8525,7 +8555,7 @@
       "support": null,
       "venue": "Shank Hall",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "hiphop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636",
       "offers": [
@@ -8550,7 +8580,7 @@
       "support": null,
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "latin",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495",
       "offers": [
@@ -8575,7 +8605,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/rod-tuffcurls-the-bench-press-tickets/milwaukee-wisconsin-vivarium-2026-10-23-8-pm/concert/18400983",
       "offers": [
@@ -8744,7 +8774,7 @@
       "support": null,
       "venue": "Shank Hall",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/in-her-own-words-tickets/milwaukee-wisconsin-shank-hall-2026-10-24-8-pm/concert/18400608",
       "offers": [
@@ -8769,7 +8799,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/the-longest-johns-tickets-1990993982598",
       "offers": [
@@ -8848,7 +8878,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "hiphop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/twiztid-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-25-8-pm/concert/18400460",
       "offers": [
@@ -8873,7 +8903,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/she-wants-revenge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-25-8-pm/concert/18400461",
       "offers": [
@@ -8948,7 +8978,7 @@
       "support": "Emma Ruth Rundle",
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/all-them-witches-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-10-26-8-pm/concert/18201304",
       "offers": [
@@ -9077,7 +9107,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PVJA",
       "offers": [
@@ -9136,7 +9166,7 @@
       "support": null,
       "venue": "Shank Hall",
       "hood": "East Side",
-      "genre": "rock",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketweb.com/event/delicate-steve-shank-hall-tickets/14966633",
       "offers": [
@@ -9166,7 +9196,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "rock",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7fY",
       "offers": [
@@ -9210,7 +9240,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/rehash-tickets/milwaukee-wisconsin-vivarium-2026-10-29-8-pm/concert/18400984",
       "offers": [
@@ -9260,7 +9290,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "rnb",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EA_",
       "offers": [
@@ -9289,7 +9319,7 @@
       "support": "Daniel Donato's Cosmic Country",
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-30-8-pm/concert/18400506",
       "offers": [
@@ -9314,7 +9344,7 @@
       "support": "Twopercent, OZZTIN",
       "venue": "Miramar Theatre",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZK4O",
       "offers": [
@@ -9381,7 +9411,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862",
       "offers": [
@@ -9406,7 +9436,7 @@
       "support": "Daniel Donato's Cosmic Country",
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508",
       "offers": [
@@ -9431,7 +9461,7 @@
       "support": "Mport",
       "venue": "Miramar Theatre",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZK4-",
       "offers": [
@@ -9537,7 +9567,7 @@
       "support": "Microwave, Carly Cosgrove, Kerosene Heights",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pt7b",
       "offers": [
@@ -9566,7 +9596,7 @@
       "support": "The Last Dinner Party, Hannah Jadagu",
       "venue": "Fiserv Forum",
       "hood": "Deer District",
-      "genre": "rock",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D",
       "offers": [
@@ -9653,7 +9683,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pgv0",
       "offers": [
@@ -9793,7 +9823,7 @@
       "support": null,
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/ax-and-the-hatchetmen-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-06-7-pm/concert/18400554",
       "offers": [
@@ -9837,7 +9867,7 @@
       "support": null,
       "venue": "Miller High Life Theatre",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pe0N",
       "offers": [
@@ -9935,7 +9965,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/colby-acuff-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-06-8-pm/concert/18400467",
       "offers": [
@@ -9960,7 +9990,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/the-wldlfe-tickets-1991792351541",
       "offers": [
@@ -10004,7 +10034,7 @@
       "support": null,
       "venue": "Miller High Life Theatre",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pe0A",
       "offers": [
@@ -10033,7 +10063,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/the-maine-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-07-7-30-pm/concert/18400468",
       "offers": [
@@ -10141,7 +10171,7 @@
       "support": null,
       "venue": "Miller High Life Theatre",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pe0k",
       "offers": [
@@ -10322,7 +10352,7 @@
       "support": null,
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706",
       "offers": [
@@ -10347,7 +10377,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989",
       "offers": [
@@ -10372,7 +10402,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/amythyst-kiah-tickets-1990527452193",
       "offers": [
@@ -10426,7 +10456,7 @@
       "support": null,
       "venue": "Pabst Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511",
       "offers": [
@@ -10515,7 +10545,7 @@
       "support": "Tyler Nance",
       "venue": "Riverside Theater",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_fV",
       "offers": [
@@ -10617,7 +10647,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482",
       "offers": [
@@ -10642,7 +10672,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991",
       "offers": [
@@ -10692,7 +10722,7 @@
       "support": null,
       "venue": "Falcon Bowl",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837",
       "offers": [
@@ -11014,7 +11044,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "folk",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/nicole-atkins-tickets/milwaukee-wisconsin-vivarium-2026-11-18-8-pm/concert/18400996",
       "offers": [
@@ -11039,7 +11069,7 @@
       "support": "Sour Widows",
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PVJv",
       "offers": [
@@ -11068,7 +11098,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/craig-finn-tickets/milwaukee-wisconsin-vivarium-2026-11-19-8-pm/concert/18400997",
       "offers": [
@@ -11149,7 +11179,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70trv",
       "offers": [
@@ -11178,7 +11208,7 @@
       "support": "Rev3rent",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "metal",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/slaughter-to-prevail-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-20-8-pm/concert/18374418",
       "offers": [
@@ -11268,7 +11298,7 @@
       "support": null,
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/zingara-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-21-8-pm/concert/18400458",
       "offers": [
@@ -11293,7 +11323,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/the-dead-bolts-tickets/milwaukee-wisconsin-vivarium-2026-11-21-8-pm/concert/18400978",
       "offers": [
@@ -11349,7 +11379,7 @@
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PVJk",
       "offers": [
@@ -11378,7 +11408,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "pop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/hot-freaks-tickets/whitefish-bay-wisconsin-the-argo-2026-11-22-8-pm/concert/18373855",
       "offers": [
@@ -11403,7 +11433,7 @@
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
       "offers": [
@@ -11490,7 +11520,7 @@
       "support": null,
       "venue": "Miramar Theatre",
       "hood": "Milwaukee",
-      "genre": "other",
+      "genre": "electronic",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/seth-david-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-11-27-9-pm/concert/18400687",
       "offers": [
@@ -11633,7 +11663,7 @@
       "support": "Midnight - Band, Mac Sabbath, X-Cops",
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
-      "genre": "rock",
+      "genre": "metal",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70A4Y",
       "offers": [
@@ -11689,7 +11719,7 @@
       "support": "Floryence",
       "venue": "Cactus Club",
       "hood": "Bay View",
-      "genre": "other",
+      "genre": "blues",
       "ticketer": "Ticketmaster",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pgu4",
       "offers": [
@@ -11845,7 +11875,7 @@
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "Eventbrite",
       "url": "https://www.eventbrite.com/e/the-gringos-tickets-1992178379160",
       "offers": [
@@ -11983,7 +12013,7 @@
       "support": null,
       "venue": "Miller High Life Theatre",
       "hood": "Westown",
-      "genre": "other",
+      "genre": "country",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/brett-eldredge-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-12-08-8-pm/concert/18400671",
       "offers": [

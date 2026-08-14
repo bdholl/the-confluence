@@ -4,7 +4,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const path = require('path');
 
-const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, GENRE_MAP } = require('./build-shows.js');
+const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, GENRE_MAP } = require('./build-shows.js');
 
 // The genre keys the front-end knows how to label + color. Every genre the
 // feed can emit must be in this set, or shows render with a bare key + no color.
@@ -306,6 +306,70 @@ test('cleanArtist strips the noise that breaks music lookups', () => {
   assert.equal(cleanArtist('Milwaukee Metal Fest (Day 1)'), 'Milwaukee Metal Fest');
   assert.equal(cleanArtist('Dead Letter Office - A Tribute to R.E.M.'), 'Dead Letter Office');
   assert.equal(cleanArtist('Modest Mouse'), 'Modest Mouse');
+  // tour branding hid real bands from Apple: no preview, no genre
+  assert.equal(cleanArtist('Pinkshift: Saccharine 5 Year Anniversary Tour'), 'Pinkshift');
+  assert.equal(cleanArtist("THE BOUNCING SOULS - 'Born To Be Tour'"), 'THE BOUNCING SOULS');
+  assert.equal(cleanArtist('Zach Rushing: The Redneck Logic Tour'), 'Zach Rushing');
+  // a colon that isn't tour branding is part of the name and must survive
+  assert.equal(cleanArtist('Chad Gray: Voice of Mudvayne & Hellyeah'), 'Chad Gray: Voice of Mudvayne & Hellyeah');
+});
+
+// --- genre refinement ------------------------------------------------------
+
+test('itunesGenre tests specific styles before the general ones', () => {
+  assert.equal(itunesGenre('Alternative'), 'indie');
+  assert.equal(itunesGenre('Indie Rock'), 'indie');
+  assert.equal(itunesGenre('Adult Alternative'), 'indie');
+  // these two would both be "indie" if the general rule ran first
+  assert.equal(itunesGenre('Alternative Country'), 'country');
+  assert.equal(itunesGenre('Alternative Folk'), 'folk');
+  assert.equal(itunesGenre('Hard Rock'), 'rock');
+  assert.equal(itunesGenre('Hip-Hop/Rap'), 'hiphop');
+  assert.equal(itunesGenre('Singer/Songwriter'), 'folk');
+  assert.equal(itunesGenre('Urbano latino'), 'latin');
+  // says nothing about which bucket a show belongs in
+  assert.equal(itunesGenre('Christian'), null);
+  assert.equal(itunesGenre(''), null);
+  assert.equal(itunesGenre(undefined), null);
+});
+
+test('refineGenres fills "other" and sharpens rock, without flattening everything', () => {
+  const cache = {
+    'Hovvdy': { kind: 'Alternative' },
+    'Foster the People': { kind: 'Alternative' },
+    'Some Cover Band': { kind: 'Country' },
+    'A Comedian': { kind: 'Comedy' },
+  };
+  const shows = [
+    // the case Brian raised: unfiltered before, indie now
+    { title: 'Hovvdy', genre: 'other' },
+    // rock is Ticketmaster's parent bucket, so a narrower style refines it
+    { title: 'Foster the People', genre: 'rock' },
+    // country is a disagreement, not a refinement — the seller saw the billing
+    { title: 'Some Cover Band', genre: 'rock' },
+    // comedy comes from the ticket classification and is never overridden
+    { title: 'A Comedian', genre: 'comedy' },
+    // Apple files Beck under Pop; the override is a deliberate human call
+    { title: 'Beck', genre: 'rock' },
+    // nothing known, nothing invented
+    { title: 'Some Local Band', genre: 'other' },
+  ];
+  refineGenres(shows, cache);
+  assert.deepEqual(shows.map(s => s.genre),
+    ['indie', 'indie', 'rock', 'comedy', 'indie', 'other']);
+});
+
+test('refineGenres reads a genre out of a title only as a last resort', () => {
+  const shows = [
+    { title: 'Milwaukee Metal Fest', genre: 'other' },
+    { title: 'K-Pop Rave', genre: 'other' },
+    // not a genre — must stay filterable as "other", not guessed at
+    { title: 'Golden Girls Drag Brunch', genre: 'other' },
+    // already classified: the title must not second-guess the source
+    { title: 'Jazz Night', genre: 'blues' },
+  ];
+  refineGenres(shows, {});
+  assert.deepEqual(shows.map(s => s.genre), ['metal', 'pop', 'other', 'blues']);
 });
 
 // --- shareable per-show pages ----------------------------------------------
