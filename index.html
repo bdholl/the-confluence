@@ -293,7 +293,9 @@
     .nudge-x { position:absolute; top:8px; right:9px; background:none; border:0; font-family:inherit;
       font-size:13px; line-height:1; color:var(--faint); padding:3px; }
     .nudge-x:hover { color:var(--ink); }
-    .badge.on-nudge { top:-15px; right:-13px; width:40px; height:40px; animation-delay:.45s; }
+    /* bottom-right, not top-right: up there it sat straight on top of the ✕ and
+       hid the way out. Down here the corner is empty — the CTA is left-aligned. */
+    .badge.on-nudge { bottom:-14px; right:-10px; width:40px; height:40px; animation-delay:.45s; }
     .badge.on-nudge svg { animation-duration:14s; }
     /* on a phone the radio dock owns the bottom-right, so the nudge takes the
        full width and lifts the dock out of its way while it's up */
