@@ -171,6 +171,11 @@ function tmImage(e) {
   return (wide[0] || imgs[0] || {}).url;
 }
 
+// Ticket status, worst-first. When two sources disagree we keep the more
+// serious one — better to over-warn than send someone to a dead show.
+const STATUSES = ['cancelled', 'postponed', 'rescheduled', 'offsale', 'onsale'];
+const statusRank = s => { const i = STATUSES.indexOf(s || 'onsale'); return i < 0 ? STATUSES.length : i; };
+
 function tmEventToShow(e) {
   const start = e.dates?.start || {};
   const venue = e._embedded?.venues?.[0] || {};
@@ -184,6 +189,12 @@ function tmEventToShow(e) {
   const img = tmImage(e);
   // "time to be announced" — the timestamp is a placeholder, not a showtime
   const tbd = !!(start.timeTBA || start.noSpecificTime);
+  // cancelled / rescheduled / sold-out shows must not look like normal ones
+  const code = (e.dates?.status?.code || '').toLowerCase();
+  const status = STATUSES.includes(code) && code !== 'onsale' ? code : undefined;
+  // a public on-sale time still in the future means "not buyable yet"
+  const onsaleAt = e.sales?.public?.startDateTime;
+  const onsale = onsaleAt && Date.parse(onsaleAt) > Date.now() ? onsaleAt : undefined;
   // face-value floor when Ticketmaster publishes it (~25% of events)
   const price = e.priceRanges?.length
     ? Math.min(...e.priceRanges.map(p => p.min).filter(n => typeof n === 'number'))
@@ -191,6 +202,8 @@ function tmEventToShow(e) {
   return {
     ...(img ? { img } : {}),
     ...(tbd ? { tbd: true } : {}),
+    ...(status ? { status } : {}),
+    ...(onsale ? { onsale } : {}),
     ...(price != null && isFinite(price) ? { price } : {}),
     date: start.localDate,
     time: hm(start.localTime),
@@ -547,6 +560,8 @@ function mergeTitleVariants(shows) {
       for (const o of s.offers || []) if (!twin.offers.some(t => t.src === o.src)) twin.offers.push(o);
       if (!twin.img && s.img) twin.img = s.img;
       if (!twin.support && s.support) twin.support = s.support;
+      if (!twin.onsale && s.onsale) twin.onsale = s.onsale;
+      if (statusRank(s.status) < statusRank(twin.status)) twin.status = s.status;
       twin._t.push({ min: toMin(s.time), src: s.ticketer, tbd: !!s.tbd });
       if (!s.tbd) twin.tbd = twin.tbd && false;
     } else {
@@ -608,6 +623,9 @@ function dedupe(shows) {
     if (!prev.img && s.img) prev.img = s.img;
     if (!prev.support && s.support) prev.support = s.support;
     if (prev.price == null && s.price != null) prev.price = s.price;
+    if (!prev.onsale && s.onsale) prev.onsale = s.onsale;
+    // never let a cheerful source overwrite a cancellation
+    if (statusRank(s.status) < statusRank(prev.status)) prev.status = s.status;
   }
   // best place to buy first (box office before resale)
   for (const s of seen.values()) {
@@ -670,4 +688,4 @@ if (require.main === module) {
   main().catch(e => { console.error('Build failed:', e); process.exit(1); });
 }
 
-module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
