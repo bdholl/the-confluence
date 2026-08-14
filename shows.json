@@ -1,222 +1,6 @@
 {
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "shows": [
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183377796%2F285524009645%2F1%2Foriginal.20260429-212033?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=dc137e2d2c606dae1592a2b21c84fb8b",
-      "date": "2026-08-13",
-      "time": "18:30",
-      "title": "Live in the Lounge w/ Will Pfrang (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-will-pfrang-free-tickets-1992954779394",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-will-pfrang-free-tickets-1992954779394"
-        }
-      ]
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/253/b53fa94f-d21a-4b07-8822-7e00b6142253_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-13",
-      "time": "18:45",
-      "title": "Five Finger Death Punch",
-      "support": "Cody Jinks, Eva Under Fire",
-      "venue": "American Family Insurance Amphitheater",
-      "hood": "Lakefront",
-      "genre": "metal",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/five-finger-death-punch-milwaukee-wisconsin-08-13-2026/event/07006428B4BA5338",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/five-finger-death-punch-milwaukee-wisconsin-08-13-2026/event/07006428B4BA5338"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/five-finger-death-punch-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2026-08-13-6-45-pm/concert/18010544"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/72/35/5f723574-7f38-1723-8116-a63b1d8d4483/mzaf_8813844452133721603.plus.aac.p.m4a",
-        "track": "Bad Company",
-        "artist": "Five Finger Death Punch",
-        "kind": "Rock"
-      }
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/91b/1be7c492-1fa8-4424-97b0-3020fcd4591b_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-13",
-      "time": "19:00",
-      "title": "Jennifer Lyn and the Groove Revival",
-      "support": null,
-      "venue": "Peck Pavilion",
-      "hood": "Milwaukee",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/jennifer-lyn-the-groove-revival-electric-milwaukee-wisconsin-08-13-2026/event/0700646CB1D4661C",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/jennifer-lyn-the-groove-revival-electric-milwaukee-wisconsin-08-13-2026/event/0700646CB1D4661C"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jennifer-lyn-and-the-groove-revival-tickets/milwaukee-wisconsin-peck-pavilion-at-marcus-center-2026-08-13-7-pm/concert/18123419"
-        }
-      ]
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/8d0/6d3c0e34-b935-4ae7-8dd5-ae94999008d0_RETINA_PORTRAIT_16_9.jpg",
-      "price": 26.22,
-      "date": "2026-08-13",
-      "time": "19:00",
-      "title": "Matt Fulchiron",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/matt-fulchiron-milwaukee-improv-main-room-tickets/14750263",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/matt-fulchiron-milwaukee-improv-main-room-tickets/14750263",
-          "price": 26.22
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/matt-fulchiron-tickets/comedy/2026-08-13-7-pm/18400905"
-        }
-      ]
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187121607%2F285524009645%2F1%2Foriginal.20260617-164104?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=01fb0f03305b77a7b44229e27d6f2392",
-      "date": "2026-08-13",
-      "time": "19:00",
-      "title": "Line Dancing Night w/ Redd's Line Up",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/line-dancing-night-w-redds-line-up-tickets-1996833048401",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/line-dancing-night-w-redds-line-up-tickets-1996833048401"
-        }
-      ]
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/a42/30774c39-b792-4a13-8ad4-1cf033c0fa42_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-13",
-      "time": "19:30",
-      "title": "The All-American Rejects",
-      "support": null,
-      "venue": "Wisconsin State Fair",
-      "hood": "Milwaukee",
-      "genre": "indie",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OsQa",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OsQa"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-all-american-rejects-tickets/west-allis-wisconsin-wisconsin-state-fair-2026-08-13-7-30-pm/concert/18011681"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/f7/7b/2ef77b90-8982-063e-df65-cbcdb505105a/mzaf_16802800602797827563.plus.aac.p.m4a",
-        "track": "Gives You Hell",
-        "artist": "The All-American Rejects",
-        "kind": "Alternative"
-      }
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/phillip-michael-scales-83a55b/1963340/huge.jpg",
-      "date": "2026-08-13",
-      "time": "19:30",
-      "title": "Phillip-Michael Scales",
-      "support": null,
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/phillip-michael-scales-tickets/milwaukee-wisconsin-cactus-club-2026-08-13-7-30-pm/concert/18400682",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/phillip-michael-scales-tickets/milwaukee-wisconsin-cactus-club-2026-08-13-7-30-pm/concert/18400682"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/e9/97/cce99770-6d07-c5dc-65c7-fb46f2da8b9e/mzaf_11726190226355577285.plus.aac.p.m4a",
-        "track": "Be My Own Man",
-        "artist": "Phillip-Michael Scales",
-        "kind": "Funk"
-      }
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/677/c58dd0af-cda8-49b2-bdaf-068540c3a677_106541_RETINA_PORTRAIT_16_9.jpg",
-      "price": 24.96,
-      "date": "2026-08-13",
-      "time": "20:00",
-      "title": "Emily Nenni",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/emily-nenni-shank-hall-tickets/14201564",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/emily-nenni-shank-hall-tickets/14201564",
-          "price": 24.96
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/emily-nenni-tickets/milwaukee-wisconsin-shank-hall-2026-08-13-8-pm/concert/18400569"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/f5/cb/85f5cb64-2e14-28ef-b338-c95ba98e64be/mzaf_8223991821540070451.plus.aac.p.m4a",
-        "track": "Livin’ In Shame",
-        "artist": "Emily Nenni",
-        "kind": "Country"
-      }
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/tommy-oeffling-b18c98/1965940/huge.jpg",
-      "date": "2026-08-13",
-      "time": "20:00",
-      "title": "Tommy Oeffling",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/tommy-oeffling-tickets/milwaukee-wisconsin-vivarium-2026-08-13-8-pm/concert/18401000",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/tommy-oeffling-tickets/milwaukee-wisconsin-vivarium-2026-08-13-8-pm/concert/18401000"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/97/9f/a7/979fa7e6-e101-f11a-a8f4-27ea41cf5b53/mzaf_7224893360924969506.plus.aac.p.m4a",
-        "track": "Oh, You",
-        "artist": "tommy oeffling",
-        "kind": "Indie Rock"
-      }
-    },
     {
       "img": "https://seatgeekimages.com/performers-landscape/buffalo-nichols-e77e79/786744/huge.jpg",
       "date": "2026-08-14",
@@ -886,60 +670,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180188566%2F285524009645%2F1%2Foriginal.20260318-225446?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=817fcacd20f9bb3e4e17a3ba6cf40e03",
-      "date": "2026-08-19",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesdays: The Sazerac 5 (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-1993634965850",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-1993634965850"
-        }
-      ]
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188030355%2F285524009645%2F1%2Foriginal.20260701-195017?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa73f5e7389d330b883eb44d23d781e0",
-      "date": "2026-08-20",
-      "time": "18:00",
-      "title": "Salsa Dancing Night",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/salsa-dancing-night-tickets-1992951503596",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/salsa-dancing-night-tickets-1992951503596"
-        }
-      ]
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188034728%2F285524009645%2F1%2Foriginal.20260701-204120?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.508&fp-y=0.364&s=96f89ff33d73f6a7cd2d811df16b11ed",
-      "date": "2026-08-20",
-      "time": "18:30",
-      "title": "Live in the Lounge w/ Tenley Sheldon (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-tenley-sheldon-free-tickets-1992955187615",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-tenley-sheldon-free-tickets-1992955187615"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "price": 26.22,
       "date": "2026-08-20",
@@ -1104,24 +834,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188847099%2F285524009645%2F1%2Foriginal.20260714-165211?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d908899bbe08e88b624a7bdc303260a7",
-      "date": "2026-08-21",
-      "time": "18:00",
-      "title": "Kid Boogie Down: Let's GLOW Crazy",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/kid-boogie-down-lets-glow-crazy-tickets-1993365472789",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/kid-boogie-down-lets-glow-crazy-tickets-1993365472789"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/18d/16b0a14e-0a70-4a97-9583-d328359a318d_1281791_RETINA_PORTRAIT_16_9.jpg",
       "price": 51.22,
       "date": "2026-08-21",
@@ -1171,24 +883,6 @@
       "times": [
         "19:00",
         "21:15"
-      ]
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189015363%2F285524009645%2F1%2Foriginal.20260716-170816?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.442&s=9c73a40bcaa529263c8863cc1baab7d7",
-      "date": "2026-08-21",
-      "time": "19:00",
-      "title": "Nemesis Engine w/ Prog XP, Widacre, & 9Eyes",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/nemesis-engine-w-prog-xp-widacre-9eyes-tickets-1993357942265",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/nemesis-engine-w-prog-xp-widacre-9eyes-tickets-1993357942265"
-        }
       ]
     },
     {
@@ -1424,24 +1118,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183089846%2F285524009645%2F1%2Foriginal.20260427-010535?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.694&s=d580d1122e1256f97366b34da9c0ffa7",
-      "date": "2026-08-22",
-      "time": "19:00",
-      "title": "Dizgo & Hot Like Mars w/ Wonderful Bluffer",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/dizgo-hot-like-mars-w-wonderful-bluffer-tickets-1987940065249",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/dizgo-hot-like-mars-w-wonderful-bluffer-tickets-1987940065249"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_PORTRAIT_16_9.jpg",
       "price": 12.88,
       "date": "2026-08-22",
@@ -1484,6 +1160,24 @@
         "artist": "Natalie Cuomo",
         "kind": "Comedy"
       }
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183089846%2F285524009645%2F1%2Foriginal.20260427-010535?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.694&s=d580d1122e1256f97366b34da9c0ffa7",
+      "date": "2026-08-22",
+      "time": "20:00",
+      "title": "Dizgo & Hot Like Mars",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/dizgo-hot-like-mars-tickets-1987940065249",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/dizgo-hot-like-mars-tickets-1987940065249"
+        }
+      ]
     },
     {
       "img": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
@@ -1696,24 +1390,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180189102%2F285524009645%2F1%2Foriginal.20260318-230308?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e69e0f9c9388e8765a097f78a2c496df",
-      "date": "2026-08-26",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesdays: Micro Brew Swing Band (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-1993635077183",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-1993635077183"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/404/1d8668b5-4925-4633-8230-d1f69db4a404_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-08-26",
       "time": "19:30",
@@ -1768,42 +1444,6 @@
         "artist": "Todd Rundgren",
         "kind": "Rock"
       }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188578756%2F285524009645%2F1%2Foriginal.20260709-232522?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.508&fp-y=0.477&s=6505ac7f638d51fbf784c2b93e3763aa",
-      "date": "2026-08-27",
-      "time": "18:30",
-      "title": "Live in the Lounge w/ Michael Sodnik Trio (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-michael-sodnik-trio-free-tickets-1993635371062",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-michael-sodnik-trio-free-tickets-1993635371062"
-        }
-      ]
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187121607%2F285524009645%2F1%2Foriginal.20260617-164104?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=01fb0f03305b77a7b44229e27d6f2392",
-      "date": "2026-08-27",
-      "time": "19:00",
-      "title": "Line Dancing Night w/ Redd's Line Up",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/line-dancing-night-w-redds-line-up-tickets-1996881183374",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/line-dancing-night-w-redds-line-up-tickets-1996881183374"
-        }
-      ]
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/the-marshall-tucker-band-7db97a/1196/huge.jpg",
@@ -2010,24 +1650,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188032802%2F285524009645%2F1%2Foriginal.20260701-201928?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=8b1b5546e1b694a4d15254c64a87e4e9",
-      "date": "2026-08-28",
-      "time": "19:00",
-      "title": "Free Karaoke Night: Songs of the Summer (21+)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/free-karaoke-night-songs-of-the-summer-21-tickets-1992954108387",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/free-karaoke-night-songs-of-the-summer-21-tickets-1992954108387"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/8d1/274af277-90d0-4cfb-87aa-76dc679f98d1_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-08-28",
       "time": "20:00",
@@ -2164,24 +1786,6 @@
         "artist": "Ian Fidance",
         "kind": "Comedy"
       }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190411999%2F285524009645%2F1%2Foriginal.20260805-211100?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=12098675e8433c20871a51e261737633",
-      "date": "2026-08-29",
-      "time": "19:00",
-      "title": "DJ Dance Party: Daft Disco Edition (21+)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/dj-dance-party-daft-disco-edition-21-tickets-1996887946603",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/dj-dance-party-daft-disco-edition-21-tickets-1996887946603"
-        }
-      ]
     },
     {
       "img": "https://s1.ticketm.net/dam/a/a79/b1e9f605-2cf3-40e4-8c47-d2ee394d0a79_RETINA_PORTRAIT_16_9.jpg",
@@ -2482,24 +2086,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180190187%2F285524009645%2F1%2Foriginal.20260318-232035?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=91ba025da1438eee86a8ef1f613af49f",
-      "date": "2026-09-02",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesdays: Sweet Sheiks",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-sweet-sheiks-tickets-1997062733395",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-sweet-sheiks-tickets-1997062733395"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/f7d/82a26e44-b08e-45d4-8b4a-99afa558ff7d_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-03",
       "time": "18:35",
@@ -2656,24 +2242,6 @@
       ]
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188762749%2F285524009645%2F1%2Foriginal.20260713-162812?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bb4d2f776756814d0cd59b31dfc2f8de",
-      "date": "2026-09-04",
-      "time": "20:00",
-      "title": "STEEL BEANS PRESENTS: Steel Beans is… a Psyop Tour 2026",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/steel-beans-presents-steel-beans-is-a-psyop-tour-2026-tickets-1993843764372",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/steel-beans-presents-steel-beans-is-a-psyop-tour-2026-tickets-1993843764372"
-        }
-      ]
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/bingo-loco-84a98b/685519/huge.jpg",
       "date": "2026-09-05",
       "time": "18:00",
@@ -2786,24 +2354,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189022748%2F285524009645%2F1%2Foriginal.20260716-184519?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.115&s=e6186db5ff9bf4b10bfc6e89d4cf2559",
-      "date": "2026-09-05",
-      "time": "20:00",
-      "title": "Jon Mroz & His Central Avenue Senders",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/jon-mroz-his-central-avenue-senders-tickets-1994240948360",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/jon-mroz-his-central-avenue-senders-tickets-1994240948360"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/1d5/7d7a98af-9f26-49fe-8c27-6b2a5d7b91d5_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-06",
       "time": "16:45",
@@ -2886,24 +2436,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1165039593%2F2668491103591%2F1%2Foriginal.20251029-013742?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1be5f3110b0f29678585973b9b320b12",
-      "date": "2026-09-09",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesday:  Old Sam & The Teardrops (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesday-old-sam-the-teardrops-free-tickets-1997063293069",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesday-old-sam-the-teardrops-free-tickets-1997063293069"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/a37/9a486633-4306-4fcb-a0ea-3e4c84d01a37_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-09",
       "time": "19:30",
@@ -2930,24 +2462,6 @@
         "artist": "Turnstile",
         "kind": "Rock"
       }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190503995%2F285524009645%2F1%2Foriginal.20260806-223348?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.22&s=b98bc4054bab3b506ed9fb105535700c",
-      "date": "2026-09-10",
-      "time": "18:30",
-      "title": "Live in the Lounge w/ Matt Froelich (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-matt-froelich-free-tickets-1997088171481",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-matt-froelich-free-tickets-1997088171481"
-        }
-      ]
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -3375,17 +2889,17 @@
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187299403%2F285524009645%2F1%2Foriginal.20260619-232257?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cf7489d8ae7309e26870a30782661d4b",
       "date": "2026-09-12",
       "time": "20:00",
-      "title": "Lily Rose w/ Adam Paddock",
+      "title": "Lily Rose",
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
       "genre": "other",
       "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/lily-rose-w-adam-paddock-tickets-1992172183629",
+      "url": "https://www.eventbrite.com/e/lily-rose-tickets-1992172183629",
       "offers": [
         {
           "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/lily-rose-w-adam-paddock-tickets-1992172183629"
+          "url": "https://www.eventbrite.com/e/lily-rose-tickets-1992172183629"
         }
       ],
       "preview": {
@@ -3828,24 +3342,6 @@
       ]
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186088415%2F285524009645%2F1%2Foriginal.20260603-184746?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=86775f2a89aa6b1df93c448c0386e2de",
-      "date": "2026-09-16",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesdays:  Anthony Deutsch Trio",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-anthony-deutsch-trio-tickets-1997063598984",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-anthony-deutsch-trio-tickets-1997063598984"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
       "price": 24.96,
       "date": "2026-09-16",
@@ -3952,24 +3448,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190504465%2F285524009645%2F1%2Foriginal.20260806-224318?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.273&fp-y=0.598&s=55b5670a91952ad3ee5a8a551978330f",
-      "date": "2026-09-17",
-      "time": "18:30",
-      "title": "Live in the Lounge w/ Alejandro Meola (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-alejandro-meola-free-tickets-1997088353024",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-alejandro-meola-free-tickets-1997088353024"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/365/2ed4d0bf-fbd5-4429-a335-75e84f5d7365_RETINA_PORTRAIT_16_9.jpg",
       "price": 32.39,
       "date": "2026-09-17",
@@ -4012,24 +3490,6 @@
       ]
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/bleach-b5701a/94408/huge.jpg",
-      "date": "2026-09-17",
-      "time": "20:00",
-      "title": "Bleach",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
-        }
-      ]
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/improvement-movement-9e976e/1961898/huge.jpg",
       "date": "2026-09-17",
       "time": "20:00",
@@ -4052,6 +3512,24 @@
         "artist": "Improvement Movement",
         "kind": "Folk"
       }
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/bleach-b5701a/94408/huge.jpg",
+      "date": "2026-09-17",
+      "time": "20:00",
+      "title": "Bleach",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
+        }
+      ]
     },
     {
       "img": "https://s1.ticketm.net/dam/a/ea8/fe1025a1-d118-4c3f-b53a-29810fd0bea8_RETINA_PORTRAIT_16_9.jpg",
@@ -4252,30 +3730,6 @@
       ]
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189040670%2F285524009645%2F1%2Foriginal.20260716-232230?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a1fb39efdc80bef3c2e5bedf8d3e7cb4",
-      "date": "2026-09-18",
-      "time": "20:00",
-      "title": "Pat McCurdy",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/pat-mccurdy-tickets-1994257294251",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/pat-mccurdy-tickets-1994257294251"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/11/1e/d0/111ed044-229c-8d77-3ec3-7b1165b01344/mzaf_3720824576772565881.plus.aac.p.m4a",
-        "track": "Hey Paddy (Live)",
-        "artist": "Pat McCurdy",
-        "kind": "Pop"
-      }
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/d9e/9a8f8cfa-57c0-4e0c-91f4-d151d795fd9e_1115211_RETINA_PORTRAIT_16_9.jpg",
       "price": 32.39,
       "date": "2026-09-19",
@@ -4419,30 +3873,6 @@
         "track": "Back Where I Come from (Live)",
         "artist": "Mac McAnally",
         "kind": "Country"
-      }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190054189%2F285524009645%2F1%2Foriginal.20260731-182137?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c3f7dd7a2636c309500bb88298f93504",
-      "date": "2026-09-19",
-      "time": "20:00",
-      "title": "Driveways w/ Rematch",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/driveways-w-rematch-tickets-1996257434725",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/driveways-w-rematch-tickets-1996257434725"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/49/60/b9/4960b912-0a8c-3509-39b2-8202c4ac9420/mzaf_12122932819236898085.plus.aac.p.m4a",
-        "track": "Lights on Long Island",
-        "artist": "Driveways",
-        "kind": "Rock"
       }
     },
     {
@@ -4742,24 +4172,6 @@
       ]
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187297890%2F285524009645%2F1%2Foriginal.20260619-223211?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d2b40249c020ecbd7852389bc14917bd",
-      "date": "2026-09-23",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesdays: The Westerlees (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-the-westerlees-free-tickets-1997064404393",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-the-westerlees-free-tickets-1997064404393"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-23",
       "time": "19:30",
@@ -5048,6 +4460,30 @@
       }
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/briscoe-40ad73/803792/huge.jpg",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "title": "Briscoe",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/briscoe-tickets/milwaukee-wisconsin-vivarium-2026-09-25-8-pm/concert/18400952",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/briscoe-tickets/milwaukee-wisconsin-vivarium-2026-09-25-8-pm/concert/18400952"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e7/e5/c2/e7e5c20b-45da-8210-2fdc-0a38f2f9c54c/mzaf_1258273342842419207.plus.aac.p.m4a",
+        "track": "Easy Does It",
+        "artist": "Briscoe",
+        "kind": "Folk"
+      }
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/russian-circles-6684a9/11866/huge.jpg",
       "date": "2026-09-25",
       "time": "20:00",
@@ -5093,30 +4529,6 @@
         "track": "Conduit",
         "artist": "Russian Circles",
         "kind": "Rock"
-      }
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/briscoe-40ad73/803792/huge.jpg",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "title": "Briscoe",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/briscoe-tickets/milwaukee-wisconsin-vivarium-2026-09-25-8-pm/concert/18400952",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/briscoe-tickets/milwaukee-wisconsin-vivarium-2026-09-25-8-pm/concert/18400952"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e7/e5/c2/e7e5c20b-45da-8210-2fdc-0a38f2f9c54c/mzaf_1258273342842419207.plus.aac.p.m4a",
-        "track": "Easy Does It",
-        "artist": "Briscoe",
-        "kind": "Folk"
       }
     },
     {
@@ -5480,30 +4892,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189898612%2F285524009645%2F1%2Foriginal.20260729-181540?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.381&fp-y=0.502&s=7feb4381bcbed0345688d3c28eccc4e5",
-      "date": "2026-09-28",
-      "time": "19:30",
-      "title": "Ripe",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/ripe-tickets-1995789771933",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/ripe-tickets-1995789771933"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/7a/85/4b7a85bc-3689-5fde-e067-4e5b6f4efa6b/mzaf_13454832624311804787.plus.aac.p.m4a",
-        "track": "Downward",
-        "artist": "Ripe",
-        "kind": "Alternative"
-      }
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/877/dd6b1e92-74ff-40f5-9966-44a83c2b3877_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-28",
       "time": "20:00",
@@ -5554,24 +4942,6 @@
         "artist": "MICO",
         "kind": "Pop"
       }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190668765%2F285524009645%2F1%2Foriginal.20260809-231004?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=02bbdb75748caae957aa8230e26ed7c2",
-      "date": "2026-09-29",
-      "time": "16:30",
-      "title": "The Argo Open House",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752"
-        }
-      ]
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/bayway-9404d3/1964402/huge.jpg",
@@ -5698,24 +5068,6 @@
         "artist": "Freya Skye",
         "kind": "Pop"
       }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186086683%2F285524009645%2F1%2Foriginal.20260603-182828?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.627&fp-y=0.124&s=bc5c396b6d4617df669ec56aecf36893",
-      "date": "2026-10-01",
-      "time": "18:30",
-      "title": "Live in the Lounge w/ Jake Williams (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-jake-williams-free-tickets-1997088832458",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-jake-williams-free-tickets-1997088832458"
-        }
-      ]
     },
     {
       "img": "https://s1.ticketm.net/dam/a/0ef/57ce286b-a9b5-47e2-a2ec-fc79ee4330ef_RETINA_PORTRAIT_16_9.jpg",
@@ -5946,24 +5298,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188387595%2F285524009645%2F1%2Foriginal.20260707-173204?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=6c5246f09e46d3c29132141e9c8ea6fa",
-      "date": "2026-10-02",
-      "time": "19:30",
-      "title": "Shwayze: The Nostalgia Tour w/ Sammy Adams & Chiddy Bang",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/shwayze-the-nostalgia-tour-w-sammy-adams-chiddy-bang-tickets-1993023611272",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/shwayze-the-nostalgia-tour-w-sammy-adams-chiddy-bang-tickets-1993023611272"
-        }
-      ]
-    },
-    {
       "img": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-02",
       "time": "20:00",
@@ -6086,24 +5420,6 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/kyle-gordon-tickets/comedy/2026-10-02-8-pm/18400835"
-        }
-      ]
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188313830%2F285524009645%2F1%2Foriginal.20260706-194213?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.063&fp-y=0.591&s=451b27cdceeff9157a277cc8ac6e65c6",
-      "date": "2026-10-02",
-      "time": "20:00",
-      "title": "KiNG MALA: The Golden Thing Tour w/ Jayden Hammer",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/king-mala-the-golden-thing-tour-w-jayden-hammer-tickets-1993023248186",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/king-mala-the-golden-thing-tour-w-jayden-hammer-tickets-1993023248186"
         }
       ]
     },
@@ -6320,24 +5636,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178058618%2F2971726526301%2F1%2Foriginal.20260220-202316?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=42da38b3c2f2659661809c5b5d12332b",
-      "date": "2026-10-03",
-      "time": "20:00",
-      "title": "Mamma Mania: The American ABBA Tribute (Seated)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/mamma-mania-the-american-abba-tribute-seated-tickets-1983485853582",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/mamma-mania-the-american-abba-tribute-seated-tickets-1983485853582"
-        }
-      ]
-    },
-    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186437214%2F285524009645%2F1%2Foriginal.20260608-195857?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.523&fp-y=0.475&s=ccd882e27239d61882179edda5cc7067",
       "date": "2026-10-03",
       "time": "20:00",
@@ -6352,6 +5650,24 @@
         {
           "src": "Eventbrite",
           "url": "https://www.eventbrite.com/e/the-holdup-the-buying-time-tour-w-cydeways-dylan-reese-tickets-1991394584810"
+        }
+      ]
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178058618%2F2971726526301%2F1%2Foriginal.20260220-202316?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=42da38b3c2f2659661809c5b5d12332b",
+      "date": "2026-10-03",
+      "time": "20:00",
+      "title": "Mamma Mania: The American ABBA Tribute (Seated)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/mamma-mania-the-american-abba-tribute-seated-tickets-1983485853582",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/mamma-mania-the-american-abba-tribute-seated-tickets-1983485853582"
         }
       ]
     },
@@ -6515,30 +5831,6 @@
         "track": "TitTat",
         "artist": "Octave Cat",
         "kind": "Electronic"
-      }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189822450%2F285524009645%2F1%2Foriginal.20260728-201905?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f125a4b72d2ddbe8f036ad3b5e5ce045",
-      "date": "2026-10-04",
-      "time": "20:00",
-      "title": "Starcrawler",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/starcrawler-tickets-1995470306403",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/starcrawler-tickets-1995470306403"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b1/95/9a/b1959aa2-e323-0eba-52a0-b822102e169a/mzaf_15422758610772091951.plus.aac.p.m4a",
-        "track": "I Love LA",
-        "artist": "Starcrawler",
-        "kind": "Alternative"
       }
     },
     {
@@ -6774,30 +6066,6 @@
       }
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-bright-light-social-hour-a3d915/15055/huge.jpg",
-      "date": "2026-10-08",
-      "time": "19:30",
-      "title": "The Bright Light Social Hour",
-      "support": null,
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/a3/63/f8a3639d-ec82-777e-2b05-a86926a1c94c/mzaf_11873081065011976574.plus.aac.p.m4a",
-        "track": "Infinite Cities",
-        "artist": "The Bright Light Social Hour",
-        "kind": "Alternative"
-      }
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/generic-concerts-1095cf/677165/47517/huge.jpg",
       "date": "2026-10-08",
       "time": "19:30",
@@ -6819,6 +6087,30 @@
         "track": "Ghost",
         "artist": "The Haunt",
         "kind": "Rock"
+      }
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/the-bright-light-social-hour-a3d915/15055/huge.jpg",
+      "date": "2026-10-08",
+      "time": "19:30",
+      "title": "The Bright Light Social Hour",
+      "support": null,
+      "venue": "Cactus Club",
+      "hood": "Bay View",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/a3/63/f8a3639d-ec82-777e-2b05-a86926a1c94c/mzaf_11873081065011976574.plus.aac.p.m4a",
+        "track": "Infinite Cities",
+        "artist": "The Bright Light Social Hour",
+        "kind": "Alternative"
       }
     },
     {
@@ -7048,24 +6340,6 @@
       }
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/kevin-sullivan-7b822d/1981751/huge.jpg",
-      "date": "2026-10-09",
-      "time": "20:00",
-      "title": "Kevin Sullivan",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/kevin-sullivan-tickets/comedy/2026-10-09-8-pm/18400968",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/kevin-sullivan-tickets/comedy/2026-10-09-8-pm/18400968"
-        }
-      ]
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/chasing-abbey-dda8b8/627108/huge.jpg",
       "date": "2026-10-09",
       "time": "20:00",
@@ -7088,6 +6362,24 @@
         "artist": "Chasing Abbey",
         "kind": "Electronic"
       }
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/kevin-sullivan-7b822d/1981751/huge.jpg",
+      "date": "2026-10-09",
+      "time": "20:00",
+      "title": "Kevin Sullivan",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/kevin-sullivan-tickets/comedy/2026-10-09-8-pm/18400968",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/kevin-sullivan-tickets/comedy/2026-10-09-8-pm/18400968"
+        }
+      ]
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/st-louis-blues-festival-bf468e/8728/huge.jpg",
@@ -7340,24 +6632,6 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189338781%2F285524009645%2F1%2Foriginal.20260721-194830?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=b61f6e22638ab244006d6967732dc308",
-      "date": "2026-10-10",
-      "time": "20:00",
-      "title": "Infinite 80s",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/infinite-80s-tickets-1994591749616",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/infinite-80s-tickets-1994591749616"
-        }
-      ]
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/st-louis-blues-festival-bf468e/8728/huge.jpg",
       "date": "2026-10-11",
       "time": "11:00",
@@ -7529,30 +6803,6 @@
         "track": "Topo Chico",
         "artist": "Robert Ellis",
         "kind": "Singer/Songwriter"
-      }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188319857%2F285524009645%2F1%2Foriginal.20260706-204612?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e8e4ecad85745a2f41c1e3962c2182fc",
-      "date": "2026-10-13",
-      "time": "19:30",
-      "title": "First To Eleven",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/first-to-eleven-tickets-1993023969343",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/first-to-eleven-tickets-1993023969343"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/2b/aa/6f2baaf8-1380-10d0-d8b1-018d264d01cd/mzaf_10814661731013414388.plus.aac.p.m4a",
-        "track": "Sweet Child O' Mine",
-        "artist": "First to Eleven",
-        "kind": "Alternative"
       }
     },
     {
@@ -7808,24 +7058,6 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/chris-porter-tickets/comedy/2026-10-15-7-pm/18400868"
-        }
-      ]
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189817603%2F285524009645%2F1%2Foriginal.20260728-192942?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.527&fp-y=0.342&s=2e2a19f4af508c5191d62a3f2707b242",
-      "date": "2026-10-15",
-      "time": "19:00",
-      "title": "Hiss Golden Messenger: I'm People Tour w/ Sam Amidon",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/hiss-golden-messenger-im-people-tour-w-sam-amidon-tickets-1994986264621",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/hiss-golden-messenger-im-people-tour-w-sam-amidon-tickets-1994986264621"
         }
       ]
     },
@@ -8102,24 +7334,6 @@
       }
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/ben-schwartz-56309f/615991/huge.jpg",
-      "date": "2026-10-16",
-      "time": "20:00",
-      "title": "Ben Schwartz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
-        }
-      ]
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/friko-704b1c/205524/huge.jpg",
       "date": "2026-10-16",
       "time": "20:00",
@@ -8142,6 +7356,24 @@
         "artist": "Friko",
         "kind": "Alternative"
       }
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/ben-schwartz-56309f/615991/huge.jpg",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "title": "Ben Schwartz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
+        }
+      ]
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/brian-posehn-a3dfdb/7217/huge.jpg",
@@ -8334,24 +7566,6 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/weird-al-yankovic-tickets/milwaukee-wisconsin-fiserv-forum-2026-10-17-8-pm/concert/17914009"
-        }
-      ]
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190390959%2F285524009645%2F1%2Foriginal.20260805-172527?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c5bf4d857d0b6491f5a04f0863c13b24",
-      "date": "2026-10-17",
-      "time": "20:00",
-      "title": "Inside a Dream: The Music of David Lynch",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/inside-a-dream-the-music-of-david-lynch-tickets-1996258367515",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/inside-a-dream-the-music-of-david-lynch-tickets-1996258367515"
         }
       ]
     },
@@ -8794,6 +8008,26 @@
       ]
     },
     {
+      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
+      "price": 38.67,
+      "date": "2026-10-22",
+      "time": "19:00",
+      "title": "Justin Whitehead",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/justin-whitehead-milwaukee-improv-main-room-tickets/15036443",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/justin-whitehead-milwaukee-improv-main-room-tickets/15036443",
+          "price": 38.67
+        }
+      ]
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/randy-feltface-caa6cf/788720/huge.jpg",
       "date": "2026-10-22",
       "time": "19:00",
@@ -8861,30 +8095,6 @@
         "track": "Criminal Kissing",
         "artist": "IAN SWEET",
         "kind": "Alternative"
-      }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187436570%2F2971726526301%2F1%2Foriginal.20260622-221330?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.519&s=5ee5b9f7ec119ddf85666a593459aef2",
-      "date": "2026-10-22",
-      "time": "20:00",
-      "title": "The Jack Wharff Band",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-jack-wharff-band-tickets-1992375559933",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-jack-wharff-band-tickets-1992375559933"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/cf/69/06cf694e-fc32-7d5b-466b-12260a6dd868/mzaf_11435275329888723354.plus.aac.p.m4a",
-        "track": "Washed",
-        "artist": "The Jack Wharff Band",
-        "kind": "Country"
       }
     },
     {
@@ -8996,30 +8206,6 @@
       }
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/wolfman-jack-d55efd/796411/huge.jpg",
-      "date": "2026-10-23",
-      "time": "20:00",
-      "title": "Wolfman Jack",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/1a/7c/951a7c0d-731a-71f6-073f-0504a227eb9d/mzaf_2955758073806199377.plus.aac.p.m4a",
-        "track": "Lay Your Hand On the Radio",
-        "artist": "Wolfman Jack",
-        "kind": "Hip-Hop/Rap"
-      }
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/the-buena-vista-orchestra-90dfcb/1954936/huge.jpg",
       "date": "2026-10-23",
       "time": "20:00",
@@ -9041,6 +8227,30 @@
         "track": "Chan Chan (Live in Austin, TX)",
         "artist": "The Buena Vista Orchestra",
         "kind": "Latin"
+      }
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/wolfman-jack-d55efd/796411/huge.jpg",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "title": "Wolfman Jack",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/1a/7c/951a7c0d-731a-71f6-073f-0504a227eb9d/mzaf_2955758073806199377.plus.aac.p.m4a",
+        "track": "Lay Your Hand On the Radio",
+        "artist": "Wolfman Jack",
+        "kind": "Hip-Hop/Rap"
       }
     },
     {
@@ -9772,6 +8982,30 @@
       ]
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/paradox-7e99bf/141352/huge.jpg",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "title": "The Paradox",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/54/d3/4454d38b-7713-6432-d781-546102625080/mzaf_9180604864890607563.plus.aac.p.m4a",
+        "track": "Bender (feat. Travis Barker)",
+        "artist": "The Paradox",
+        "kind": "Pop/Rock"
+      }
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/outlander-in-concert-eafd9d/1975481/huge.jpg",
       "date": "2026-10-31",
       "time": "20:00",
@@ -9811,30 +9045,6 @@
         "track": "Fire on the Mountain",
         "artist": "Daniel Donato",
         "kind": "Americana"
-      }
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/paradox-7e99bf/141352/huge.jpg",
-      "date": "2026-10-31",
-      "time": "20:00",
-      "title": "The Paradox",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/54/d3/4454d38b-7713-6432-d781-546102625080/mzaf_9180604864890607563.plus.aac.p.m4a",
-        "track": "Bender (feat. Travis Barker)",
-        "artist": "The Paradox",
-        "kind": "Pop/Rock"
       }
     },
     {
@@ -10186,6 +9396,24 @@
       ]
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/mojo-brookzz-41630e/797742/huge.jpg",
+      "date": "2026-11-06",
+      "time": "19:00",
+      "title": "Mojo Brookzz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363"
+        }
+      ]
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/ax-and-the-hatchetmen-e61633/1957473/huge.jpg",
       "date": "2026-11-06",
       "time": "19:00",
@@ -10208,24 +9436,6 @@
         "artist": "Ax and the Hatchetmen",
         "kind": "Indie Rock"
       }
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/mojo-brookzz-41630e/797742/huge.jpg",
-      "date": "2026-11-06",
-      "time": "19:00",
-      "title": "Mojo Brookzz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363"
-        }
-      ]
     },
     {
       "img": "https://s1.ticketm.net/dam/a/ff9/230bc504-e335-44b6-9d57-24509c477ff9_RETINA_PORTRAIT_16_9.jpg",
@@ -10304,24 +9514,6 @@
       ]
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/agriculture-78092d/178754/huge.jpg",
-      "date": "2026-11-06",
-      "time": "20:00",
-      "title": "Agriculture",
-      "support": null,
-      "venue": "Falcon Bowl",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/agriculture-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-06-8-pm/concert/18343769",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/agriculture-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-06-8-pm/concert/18343769"
-        }
-      ]
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/colby-acuff-4cf5ee/805532/huge.jpg",
       "date": "2026-11-06",
       "time": "20:00",
@@ -10346,6 +9538,24 @@
       }
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/agriculture-78092d/178754/huge.jpg",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "title": "Agriculture",
+      "support": null,
+      "venue": "Falcon Bowl",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/agriculture-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-06-8-pm/concert/18343769",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/agriculture-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-06-8-pm/concert/18343769"
+        }
+      ]
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187367778%2F285524009645%2F1%2Foriginal.20260622-004721?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.51&fp-y=0.737&s=b9c0ea47bb40d018dc6111bf03c5b1a7",
       "date": "2026-11-06",
       "time": "20:00",
@@ -10368,24 +9578,6 @@
         "artist": "The Wldlfe",
         "kind": "Alternative"
       }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188785733%2F285524009645%2F1%2Foriginal.20260713-210100?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.554&s=b081b8353d22752c8e4b59dfe20cd04b",
-      "date": "2026-11-06",
-      "time": "20:00",
-      "title": "Brother Ali: Midwest Trek '26 w/ DJ Abilities",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/brother-ali-midwest-trek-26-w-dj-abilities-tickets-1993353774800",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/brother-ali-midwest-trek-26-w-dj-abilities-tickets-1993353774800"
-        }
-      ]
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/joey-diaz-f8a061/20856/huge.jpg",
@@ -10584,30 +9776,6 @@
       ]
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190830099%2F285524009645%2F1%2Foriginal.20260811-193326?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=10eb1a993ef45c184f0870bfe2378885",
-      "date": "2026-11-08",
-      "time": "20:00",
-      "title": "Bill Callahan",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/bill-callahan-tickets-1997613696340",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/bill-callahan-tickets-1997613696340"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/16/f2/e9/16f2e949-a1c5-d11c-4b1f-62882a40acc7/mzaf_1115438766315114845.plus.aac.p.m4a",
-        "track": "One Fine Morning",
-        "artist": "Bill Callahan",
-        "kind": "Alternative"
-      }
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/cfa/e476394e-b2ce-4a11-8230-879e15686cfa_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-10",
       "time": "19:00",
@@ -10736,6 +9904,30 @@
       }
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/micky-dolenz-bfc761/16114/huge.jpg",
+      "date": "2026-11-11",
+      "time": "20:00",
+      "title": "Micky Dolenz",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/ea/7a/e2ea7aa3-4232-129e-b167-dcc0919df961/mzaf_3825163222081962595.plus.aac.p.m4a",
+        "track": "Good Morning Good Morning",
+        "artist": "Micky Dolenz",
+        "kind": "Rock"
+      }
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/tyler-ballgame-730a45/1962000/huge.jpg",
       "date": "2026-11-11",
       "time": "20:00",
@@ -10760,27 +9952,27 @@
       }
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/micky-dolenz-bfc761/16114/huge.jpg",
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186002894%2F285524009645%2F1%2Foriginal.20260602-204358?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.286&fp-y=0.356&s=3665ca6a0b7ecfb7daa40e9936033f96",
       "date": "2026-11-11",
       "time": "20:00",
-      "title": "Micky Dolenz",
+      "title": "Amythyst Kiah",
       "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
       "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/amythyst-kiah-tickets-1990527452193",
       "offers": [
         {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706"
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/amythyst-kiah-tickets-1990527452193"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/ea/7a/e2ea7aa3-4232-129e-b167-dcc0919df961/mzaf_3825163222081962595.plus.aac.p.m4a",
-        "track": "Good Morning Good Morning",
-        "artist": "Micky Dolenz",
-        "kind": "Rock"
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/76/0f/3f/760f3f3d-dc4b-09b2-4d58-1a4f10a9aa48/mzaf_17552071473882895859.plus.aac.p.m4a",
+        "track": "Black Myself",
+        "artist": "Amythyst Kiah",
+        "kind": "Alternative"
       }
     },
     {
@@ -10996,30 +10188,6 @@
       ]
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/steve-martin-df0aba/8142/huge.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Steve Martin",
-      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
-        "track": "King Tut",
-        "artist": "Steve Martin",
-        "kind": "Comedy"
-      }
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/bryan-andrews-d20467/1957287/huge.jpg",
       "date": "2026-11-13",
       "time": "20:00",
@@ -11065,6 +10233,30 @@
         "track": "Jean",
         "artist": "Hovvdy",
         "kind": "Alternative"
+      }
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/steve-martin-df0aba/8142/huge.jpg",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Steve Martin",
+      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
+      "venue": "Miller High Life Theatre",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
+        "track": "King Tut",
+        "artist": "Steve Martin",
+        "kind": "Comedy"
       }
     },
     {
@@ -11294,24 +10486,6 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
-        }
-      ]
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190501470%2F285524009645%2F1%2Foriginal.20260806-215239?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=a64d16016ec213c857985914c6237b83",
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "88NINE Presents: Post Animal - Maybe You Have To Tour",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/88nine-presents-post-animal-maybe-you-have-to-tour-tickets-1996497370379",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/88nine-presents-post-animal-maybe-you-have-to-tour-tickets-1996497370379"
         }
       ]
     },
@@ -11636,30 +10810,6 @@
       }
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-dead-bolts-fa7302/709651/huge.jpg",
-      "date": "2026-11-21",
-      "time": "20:00",
-      "title": "The Dead Bolts",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-dead-bolts-tickets/milwaukee-wisconsin-vivarium-2026-11-21-8-pm/concert/18400978",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-dead-bolts-tickets/milwaukee-wisconsin-vivarium-2026-11-21-8-pm/concert/18400978"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/ad/d2/03add2b7-cb8b-f3f2-e883-5984a1f04d89/mzaf_4264610981410039981.plus.aac.p.m4a",
-        "track": "IDCIYDC",
-        "artist": "The Dead Bolts",
-        "kind": "Rock"
-      }
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/zingara-281b13/796568/huge.jpg",
       "date": "2026-11-21",
       "time": "20:00",
@@ -11681,6 +10831,30 @@
         "track": "Deeper",
         "artist": "Zingara",
         "kind": "Bass"
+      }
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/the-dead-bolts-fa7302/709651/huge.jpg",
+      "date": "2026-11-21",
+      "time": "20:00",
+      "title": "The Dead Bolts",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-dead-bolts-tickets/milwaukee-wisconsin-vivarium-2026-11-21-8-pm/concert/18400978",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-dead-bolts-tickets/milwaukee-wisconsin-vivarium-2026-11-21-8-pm/concert/18400978"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/ad/d2/03add2b7-cb8b-f3f2-e883-5984a1f04d89/mzaf_4264610981410039981.plus.aac.p.m4a",
+        "track": "IDCIYDC",
+        "artist": "The Dead Bolts",
+        "kind": "Rock"
       }
     },
     {
@@ -11742,30 +10916,6 @@
       }
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/michigander-fd98bb/383377/huge.jpg",
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      }
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/hot-freaks-41554b/811054/huge.jpg",
       "date": "2026-11-22",
       "time": "20:00",
@@ -11790,45 +10940,27 @@
       }
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188928960%2F285524009645%2F1%2Foriginal.20260715-153143?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.587&fp-y=0.295&s=d19abf62bc31ee66a1e75c85dafbb358",
+      "img": "https://seatgeekimages.com/performers-landscape/michigander-fd98bb/383377/huge.jpg",
       "date": "2026-11-22",
       "time": "20:00",
-      "title": "Hot Freaks: Soft Body Tour w/ Thesaurus Rex",
+      "title": "Michigander",
       "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
+      "venue": "Vivarium",
+      "hood": "East Side",
       "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-tickets-1993842013134",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
       "offers": [
         {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-tickets-1993842013134"
-        }
-      ]
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188315677%2F285524009645%2F1%2Foriginal.20260706-200346?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.465&s=c287fb00f379d2ee2834a6498c370395",
-      "date": "2026-11-25",
-      "time": "20:00",
-      "title": "Chrissy Chlapecka",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/chrissy-chlapecka-tickets-1993023002451",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/chrissy-chlapecka-tickets-1993023002451"
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/12/00/b61200b3-7ff0-010e-eb5a-0e666dca2e4e/mzaf_10257595990423095919.plus.aac.p.m4a",
-        "track": "Passionfruit",
-        "artist": "Chrissy Chlapecka",
-        "kind": "Pop"
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
       }
     },
     {
@@ -11973,30 +11105,6 @@
         "track": "Work",
         "artist": "Pete Lee",
         "kind": "Comedy"
-      }
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189819911%2F285524009645%2F1%2Foriginal.20260728-195518?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2bc4a95a0e174c2b0e1843086e8349e8",
-      "date": "2026-11-28",
-      "time": "20:00",
-      "title": "Beatallica",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/beatallica-tickets-1995006165144",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/beatallica-tickets-1995006165144"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/86/3d/ee/863dee9b-a1cb-5f8b-a6c8-b286df1129d3/mzaf_16026992690347227156.plus.aac.p.m4a",
-        "track": "I Saw Her Standing There",
-        "artist": "Beatallica",
-        "kind": "Metal"
       }
     },
     {
@@ -12452,51 +11560,75 @@
       ]
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187966534%2F285524009645%2F1%2Foriginal.20260630-235741?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3097851842cb2589f03e476a93b46b2a",
-      "date": "2027-01-31",
-      "time": "20:00",
-      "title": "Skerryvore",
+      "img": "https://s1.ticketm.net/dam/a/1da/59f86268-e95d-401d-a46d-4bac1eaca1da_RETINA_PORTRAIT_16_9.jpg",
+      "price": 32.39,
+      "date": "2026-12-11",
+      "time": "19:00",
+      "title": "Alfred Robles",
       "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/skerryvore-tickets-1992672365687",
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/alfred-robles-vatos-with-gatos-milwaukee-improv-main-room-tickets/14884363",
       "offers": [
         {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/skerryvore-tickets-1992672365687"
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/alfred-robles-vatos-with-gatos-milwaukee-improv-main-room-tickets/14884363",
+          "price": 32.39
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/alfred-robles-tickets/comedy/2026-12-11-7-pm/18400880"
         }
       ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/61/05/0e/61050efc-7fbd-86ee-0506-79795850b669/mzaf_9175068707449332902.plus.aac.p.m4a",
-        "track": "Take My Hand",
-        "artist": "Skerryvore",
-        "kind": "Worldwide"
-      }
+      "times": [
+        "19:00",
+        "21:15"
+      ]
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190405031%2F285524009645%2F1%2Foriginal.20260805-195322?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3f5bc2e2cdcf09743643d544ace13dfa",
-      "date": "2027-03-23",
+      "img": "https://s1.ticketm.net/dam/a/b20/6af3f817-14e2-4579-a5b5-712c8cffdb20_1790271_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-11",
       "time": "20:00",
-      "title": "The Mary Wallopers",
+      "title": "The Rush Tribute Project",
       "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
       "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-mary-wallopers-tickets-1996258847952",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZb0z",
       "offers": [
         {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-mary-wallopers-tickets-1996258847952"
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZb0z"
+        }
+      ]
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/186/32bd8764-1ed9-4881-9067-11c26a515186_880511_RETINA_PORTRAIT_16_9.jpg",
+      "price": 24.96,
+      "date": "2026-12-11",
+      "time": "20:00",
+      "title": "The Reverend Peyton's Big Damn Band",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "blues",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/the-reverend-peytons-big-damn-shank-hall-tickets/14997523",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/the-reverend-peytons-big-damn-shank-hall-tickets/14997523",
+          "price": 24.96
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/2c/9b/8f/2c9b8f3c-aa50-c6ed-f605-1e67266ff766/mzaf_9378286523078755997.plus.aac.p.m4a",
-        "track": "Cod Liver Oil & the Orange Juice (Single Version)",
-        "artist": "The Mary Wallopers",
-        "kind": "Singer/Songwriter"
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/55/33/7b5533f4-00fb-a0d1-36f2-8521f41aef95/mzaf_13347135847382509456.plus.aac.p.m4a",
+        "track": "Honeysuckle",
+        "artist": "The Reverend Peyton's Big Damn Band",
+        "kind": "Blues"
       }
     }
   ]
