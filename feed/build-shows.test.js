@@ -4,7 +4,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const path = require('path');
 
-const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP } = require('./build-shows.js');
+const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, GENRE_MAP } = require('./build-shows.js');
 
 // The genre keys the front-end knows how to label + color. Every genre the
 // feed can emit must be in this set, or shows render with a bare key + no color.
@@ -306,6 +306,90 @@ test('cleanArtist strips the noise that breaks music lookups', () => {
   assert.equal(cleanArtist('Milwaukee Metal Fest (Day 1)'), 'Milwaukee Metal Fest');
   assert.equal(cleanArtist('Dead Letter Office - A Tribute to R.E.M.'), 'Dead Letter Office');
   assert.equal(cleanArtist('Modest Mouse'), 'Modest Mouse');
+});
+
+// --- shareable per-show pages ----------------------------------------------
+
+test('slugify makes a clean, readable, url-safe handle', () => {
+  assert.equal(slugify('Big Head Todd and The Monsters'), 'big-head-todd-and-the-monsters');
+  assert.equal(slugify('RÜFÜS DU SOL'), 'rufus-du-sol');
+  assert.equal(slugify('Hall & Oates'), 'hall-and-oates');
+  assert.equal(slugify('  D.L. Hughley!  '), 'd-l-hughley');
+  assert.equal(slugify(''), 'show');
+  // long titles get trimmed at a word, never mid-word or past the limit
+  const long = slugify('Pink Talking Fish A Fusion of Pink Floyd Talking Heads and Phish');
+  assert.ok(long.length <= 60);
+  assert.ok(!long.endsWith('-'));
+});
+
+test('assignSlugs gives every show a unique address', () => {
+  const shows = [
+    { title: 'Nonpoint', date: '2026-08-15' },
+    // same act, same night, two rooms — both need their own page
+    { title: 'Nonpoint', date: '2026-08-15' },
+    { title: 'Nonpoint', date: '2026-08-16' },
+  ];
+  assignSlugs(shows);
+  assert.equal(shows[0].slug, 'nonpoint-2026-08-15');
+  assert.equal(shows[1].slug, 'nonpoint-2026-08-15-2');
+  assert.equal(shows[2].slug, 'nonpoint-2026-08-16');
+  assert.equal(new Set(shows.map(s => s.slug)).size, 3);
+});
+
+test('a show page carries its own preview tags and a direct ticket link', () => {
+  const show = {
+    title: 'Modest Mouse', support: 'Mattress', date: '2026-10-18', time: '20:00',
+    venue: 'The Rave / Eagles Club', hood: 'Westown', genre: 'indie',
+    slug: 'modest-mouse-2026-10-18', img: 'https://img.example/pic.jpg',
+    ticketer: 'Ticketmaster', url: 'https://tm.example/e/1',
+    offers: [{ src: 'Ticketmaster', url: 'https://tm.example/e/1' }],
+  };
+  const html = showPageHtml(show);
+  assert.match(html, /<meta property="og:title" content="Modest Mouse · The Rave \/ Eagles Club" \/>/);
+  assert.match(html, /<meta property="og:image" content="https:\/\/img\.example\/pic\.jpg" \/>/);
+  assert.match(html, /twitter:card" content="summary_large_image"/);
+  assert.match(html, /og:url" content="https:\/\/theconfluencemke\.com\/show\/modest-mouse-2026-10-18\.html"/);
+  assert.match(html, /Sunday, October 18, 2026 · 8:00 PM/);
+  // the whole point: one click from a shared link to the ticket page
+  assert.match(html, /<a class="buy" href="https:\/\/tm\.example\/e\/1"/);
+  assert.match(html, /"@type":"MusicEvent"/);
+});
+
+test('a show page reflects a cancellation instead of selling tickets', () => {
+  const html = showPageHtml({
+    title: 'Marshall Charloff', date: '2026-10-22', time: '19:30', venue: 'Pabst Theater',
+    hood: 'Westown', slug: 'x-2026-10-22', status: 'cancelled',
+    offers: [{ src: 'Ticketmaster', url: 'https://tm.example/e/2' }],
+  });
+  assert.doesNotMatch(html, /class="buy"/);
+  assert.match(html, /Cancelled/);
+  assert.match(html, /EventCancelled/);
+});
+
+test('a show page escapes titles that would otherwise break the markup', () => {
+  const html = showPageHtml({
+    title: 'AC/DC "Live" & <loud>', date: '2026-10-18', time: '20:00', venue: 'Fiserv Forum',
+    hood: 'Westown', slug: 'x-2026-10-18', offers: [{ src: 'Ticketmaster', url: 'https://tm.example/e/3' }],
+  });
+  assert.doesNotMatch(html, /<loud>/);
+  assert.match(html, /&quot;Live&quot; &amp; &lt;loud&gt;/);
+  // the quote must not close the og:title attribute early
+  assert.match(html, /og:title" content="AC\/DC &quot;Live&quot; &amp; &lt;loud&gt; · Fiserv Forum"/);
+});
+
+test('every show in shows.json has a unique slug and a page on disk', () => {
+  const p = path.join(__dirname, '..', 'shows.json');
+  if (!fs.existsSync(p)) return;
+  const shows = JSON.parse(fs.readFileSync(p, 'utf8')).shows;
+  const slugs = shows.map(s => s.slug);
+  assert.ok(slugs.every(Boolean), 'every show needs a slug for its share link');
+  assert.equal(new Set(slugs).size, slugs.length, 'slugs must be unique');
+  for (const s of slugs) assert.match(s, /^[a-z0-9-]+$/, `slug not url-safe: ${s}`);
+  const dir = path.join(__dirname, '..', 'show');
+  if (!fs.existsSync(dir)) return;
+  for (const s of shows) {
+    assert.ok(fs.existsSync(path.join(dir, `${s.slug}.html`)), `missing share page for ${s.title}`);
+  }
 });
 
 test('shows.json previews (if present) carry a playable url', () => {

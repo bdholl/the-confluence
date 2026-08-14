@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build-feed": "node feed/build-shows.js",
+    "build-pages": "node feed/build-shows.js --pages",
     "test": "node --test"
   }
 }

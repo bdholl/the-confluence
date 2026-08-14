@@ -14,6 +14,7 @@ the site itself.
 | --- | --- |
 | `index.html` | The entire site — markup, CSS, JS, and a baked-in copy of the show data for `file://` use |
 | `shows.json` | The live feed the page fetches on load |
+| `show/` | One small shareable page per show, written by the feed builder |
 | `confluence.ics` | Calendar subscription file, regenerated each build |
 | `guestbook.json` | Read-only fallback if the guestbook Worker is unreachable |
 | `feed/build-shows.js` | Pulls, normalizes, dedupes, and writes the feed |
@@ -25,8 +26,9 @@ the site itself.
 ## Running it
 
 ```bash
-npm test                                   # 28 tests
+npm test                                   # 34 tests
 TICKETMASTER_API_KEY=… SEATGEEK_CLIENT_ID=… npm run build-feed
+npm run build-pages                        # just the share pages, no API keys
 ```
 
 Preview locally with the `mkelive` server in `.claude/launch.json` (port 8753).
@@ -60,6 +62,32 @@ Merging is the fiddly part, and most of it exists because of a real bug:
 **The build never wipes good data.** If every source fails it exits non-zero and
 leaves `shows.json` alone.
 
+## Sharing a single show
+
+A calendar spreads when someone texts three friends "look at this", so every
+show gets its own address: `/show/lindsey-stirling-2026-08-14.html`.
+
+Each page is written at build time with its own `og:` tags — the artist's
+photo, name, venue and date — so pasting the link into iMessage, Facebook, or
+a group chat produces a real preview instead of this site's generic blurb. A
+`#hash` deep link into the homepage would have been an hour's work, but link
+crawlers never see anything after the `#`, so shared links would have looked
+broken. The page itself has one job: a button straight to the ticket page.
+
+The slug is the artist plus the date, which keeps it readable and lets the
+builder read the date back off the filename. Two acts with the same name on
+the same night (The Rave runs several rooms) get a `-2` suffix. Pages outlive
+their show by 30 days so a link shared the week of the gig still resolves,
+then the next build prunes them.
+
+Rows on the calendar carry a **Share** button beside "Add to my list": phones
+get the native share sheet, everything else copies the link. "Get Tickets"
+stays exactly what it was — one click, straight to the seller.
+
+Note that these pages are written by Node and never run `index.html`'s JS, so
+they carry their own copy of the `AFFILIATE` map. If those params are ever
+filled in, fill them in **both** places.
+
 ## Known gaps
 
 - **Anodyne and The Cooperage** don't list on any API we can reach. Add their
@@ -76,7 +104,4 @@ leaves `shows.json` alone.
   `AFFILIATE` and every outbound ticket link already routes through
   `ticketUrl()`. It stays inert until the entries are filled in, which needs
   approval from Ticketmaster (via Impact) and SeatGeek first.
-- **Shareable per-show links** — discussed, not built. The good version
-  generates a small page per show at build time so pasted links get a real
-  preview; a `#hash` deep link is simpler but previews poorly when shared.
 - **A sponsor** — the slot renders a pitch until `SPONSOR` is filled in.

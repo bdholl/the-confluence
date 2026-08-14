@@ -401,6 +401,211 @@ function buildIcs(shows) {
   return lines.join('\r\n') + '\r\n';
 }
 
+// ---------- shareable per-show pages ----------
+// A calendar spreads when someone texts three friends "look at this". A link
+// to the calendar's homepage previews as the homepage, so instead every show
+// gets its own small page carrying its own og: tags — paste it into iMessage
+// or Facebook and the artist's photo, name, venue and date do the selling.
+// The page itself is one screen with one job: a button straight to tickets.
+const SITE = 'https://theconfluencemke.com';
+const PAGES_DIR = path.join(ROOT, 'show');
+// How long a page outlives its show, so a link shared the week of the gig
+// still resolves for the people who go back to it afterwards.
+const PAGE_GRACE_DAYS = 30;
+
+// Keep in sync with AFFILIATE in index.html — these pages are written by Node
+// and never run that file's JS, so the params have to be applied here too.
+const AFFILIATE = { Ticketmaster: {}, SeatGeek: {}, AXS: {}, Eventbrite: {} };
+
+function ticketUrl(src, url) {
+  const params = AFFILIATE[src];
+  if (!params || !Object.keys(params).length) return url;
+  try {
+    const u = new URL(url);
+    for (const [k, v] of Object.entries(params)) if (v) u.searchParams.set(k, v);
+    return u.toString();
+  } catch { return url; }
+}
+
+// Escapes quotes too, unlike the page's own esc() — these strings land in
+// attributes (og:title, alt, href).
+const escH = s => String(s == null ? '' : s)
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+
+function slugify(s) {
+  const base = String(s || '')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')   // RÜFÜS → RUFUS
+    .replace(/&/g, ' and ')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  if (base.length <= 60) return base || 'show';
+  // trim at a word boundary rather than mid-name
+  return base.slice(0, 60).replace(/-[^-]*$/, '') || base.slice(0, 60);
+}
+
+// "big-head-todd-and-the-monsters-2026-10-18" — readable when pasted, and the
+// trailing date is what the pruner reads back off the filename.
+function assignSlugs(shows) {
+  const taken = new Set();
+  for (const s of shows) {
+    const base = `${slugify(s.title)}-${s.date}`;
+    let slug = base;
+    // two rooms, same act, same night (The Rave runs several) — keep both
+    for (let n = 2; taken.has(slug); n++) slug = `${base}-${n}`;
+    taken.add(slug);
+    s.slug = slug;
+  }
+  return shows;
+}
+
+const fmt12 = t => {
+  const [h, m] = String(t).split(':').map(Number);
+  return `${h % 12 || 12}:${String(m).padStart(2, '0')} ${h >= 12 ? 'PM' : 'AM'}`;
+};
+
+const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+function longDate(date) {
+  const d = new Date(date + 'T12:00:00');
+  return `${WEEKDAYS[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+}
+
+// Only the statuses that still show a buy button need explaining — "Cancelled"
+// and "Off sale" already say it where the button would have been.
+const STATUS_NOTE = {
+  postponed: 'This show has been postponed — check with the venue before buying.',
+  rescheduled: 'This show has been rescheduled — check the date on the ticket page.',
+};
+
+function showPageHtml(s) {
+  const when = s.tbd ? 'Time TBA' : (s.times && s.times.length > 1
+    ? s.times.map(fmt12).join(' & ') : fmt12(s.time));
+  const dateLine = `${longDate(s.date)} · ${when}`;
+  const where = `${s.venue}${s.hood && s.hood !== s.venue ? ' · ' + s.hood : ''}`;
+  const desc = `${s.title} plays ${s.venue} in Milwaukee on ${longDate(s.date)}${s.tbd ? '' : ' at ' + fmt12(s.time)}.`;
+  const url = `${SITE}/show/${s.slug}.html`;
+  const buy = (s.offers && s.offers[0]) || { src: s.ticketer, url: s.url };
+
+  // one button, straight to the ticket page — same promise the calendar makes
+  let action = `<a class="buy" href="${escH(ticketUrl(buy.src, buy.url))}" target="_blank" rel="noopener noreferrer">Get Tickets →</a>`;
+  if (s.status === 'cancelled') action = '<p class="dead">Cancelled</p>';
+  else if (s.status === 'offsale') action = '<p class="dead">Off sale</p>';
+
+  const note = s.status && STATUS_NOTE[s.status]
+    ? `<p class="note ${s.status}">${STATUS_NOTE[s.status]}</p>` : '';
+
+  // structured data, so search results and some chat apps read the event
+  // rather than guessing from the page text
+  const ld = {
+    '@context': 'https://schema.org', '@type': 'MusicEvent',
+    name: s.title, url,
+    startDate: `${s.date}T${s.time}:00-05:00`,
+    eventStatus: `https://schema.org/Event${s.status === 'cancelled' ? 'Cancelled'
+      : s.status === 'postponed' ? 'Postponed'
+      : s.status === 'rescheduled' ? 'Rescheduled' : 'Scheduled'}`,
+    location: { '@type': 'Place', name: s.venue, address: { '@type': 'PostalAddress', addressLocality: 'Milwaukee', addressRegion: 'WI', addressCountry: 'US' } },
+    ...(s.img ? { image: s.img } : {}),
+    ...(buy.url ? { offers: { '@type': 'Offer', url: buy.url, ...(buy.price != null ? { price: buy.price, priceCurrency: 'USD' } : {}) } } : {}),
+  };
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>${escH(s.title)} — ${escH(s.venue)}, ${escH(longDate(s.date))} | The Confluence</title>
+<meta name="description" content="${escH(desc)}" />
+<link rel="canonical" href="${escH(url)}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="${escH(url)}" />
+<meta property="og:site_name" content="The Confluence" />
+<meta property="og:title" content="${escH(s.title)} · ${escH(s.venue)}" />
+<meta property="og:description" content="${escH(dateLine)} — Milwaukee" />
+${s.img ? `<meta property="og:image" content="${escH(s.img)}" />\n<meta name="twitter:card" content="summary_large_image" />` : '<meta name="twitter:card" content="summary" />'}
+<meta name="twitter:title" content="${escH(s.title)} · ${escH(s.venue)}" />
+<meta name="twitter:description" content="${escH(dateLine)} — Milwaukee" />
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png" />
+<link rel="apple-touch-icon" href="../apple-touch-icon.png" />
+<meta name="theme-color" content="#0168FB" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet" />
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--paper:#fdfcf8;--ink:#111;--gray:#6f6f6f;--faint:#9a9a9a;--line:#e7e7e3;--blue:#0168FB}
+body{font-family:'IBM Plex Sans',system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:600px;margin:0 auto;padding:0 26px}
+.mast{background:#f4efe2;border-bottom:1px solid var(--line);padding:20px 0}
+.mark{font-family:'Instrument Serif',Georgia,serif;font-size:28px;line-height:1;color:var(--blue);text-decoration:none;display:inline-block}
+main.wrap{padding-top:38px;padding-bottom:52px}
+.kicker{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+h1{font-family:'Space Grotesk',system-ui,sans-serif;font-size:clamp(30px,6.5vw,44px);font-weight:700;line-height:1.08;letter-spacing:-.015em;margin:10px 0 0}
+h1.off{text-decoration:line-through;text-decoration-thickness:2px;color:var(--gray)}
+.support{margin-top:8px;font-size:15px;color:var(--gray)}
+.when{margin-top:20px;font-size:19px;font-weight:600}
+.where{margin-top:3px;font-size:16px;color:var(--gray)}
+.art{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border:1px solid var(--line);margin-top:26px}
+.art.off{filter:grayscale(1);opacity:.55}
+.buy{display:inline-block;margin-top:26px;background:var(--ink);color:var(--paper);text-decoration:none;font-size:16px;font-weight:600;padding:14px 26px;border:1px solid var(--ink)}
+.buy:hover{background:var(--blue);border-color:var(--blue)}
+.dead{margin-top:26px;font-size:16px;font-weight:600;color:var(--faint)}
+.note{margin-top:14px;font-size:13.5px;font-weight:600}
+.note.cancelled{color:var(--ink)}
+.note.postponed,.note.rescheduled{color:#8a6a00}
+.note.offsale{color:var(--gray)}
+.back{display:block;margin-top:34px;padding-top:22px;border-top:1px solid var(--line);font-size:15px;color:var(--ink)}
+.back a{color:var(--blue);text-decoration:none;font-weight:600}
+.back a:hover{text-decoration:underline;text-underline-offset:3px}
+footer.wrap{padding-bottom:44px;font-size:12.5px;color:var(--faint)}
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap"><a class="mark" href="../">The Confluence</a></div></header>
+<main class="wrap">
+  <p class="kicker">Live in Milwaukee</p>
+  <h1${s.status === 'cancelled' ? ' class="off"' : ''}>${escH(s.title)}</h1>
+  ${s.support ? `<p class="support">with ${escH(s.support)}</p>` : ''}
+  <p class="when">${escH(dateLine)}</p>
+  <p class="where">${escH(where)}</p>
+  ${s.img ? `<img class="art${s.status === 'cancelled' ? ' off' : ''}" src="${escH(s.img)}" alt="${escH(s.title)}" />` : ''}
+  ${action}
+  ${note}
+  <p class="back">Every show in Milwaukee, updated every morning — <a href="../">see the full calendar →</a></p>
+</main>
+<footer class="wrap">The Confluence · Milwaukee live music calendar</footer>
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
+</body>
+</html>
+`;
+}
+
+// Writes one page per show and clears out pages whose show is long gone, so
+// the directory tracks the feed instead of growing forever.
+function buildShowPages(shows, today) {
+  fs.mkdirSync(PAGES_DIR, { recursive: true });
+  const live = new Set();
+  for (const s of shows) {
+    live.add(`${s.slug}.html`);
+    fs.writeFileSync(path.join(PAGES_DIR, `${s.slug}.html`), showPageHtml(s));
+  }
+
+  const cutoff = new Date(today + 'T12:00:00');
+  cutoff.setDate(cutoff.getDate() - PAGE_GRACE_DAYS);
+  const cutoffStr = ymd(cutoff);
+  let pruned = 0;
+  for (const f of fs.readdirSync(PAGES_DIR)) {
+    if (!f.endsWith('.html') || live.has(f)) continue;
+    const d = f.match(/(\d{4}-\d{2}-\d{2})(?:-\d+)?\.html$/);
+    if (d && d[1] >= cutoffStr) continue;      // still inside the grace window
+    fs.unlinkSync(path.join(PAGES_DIR, f));
+    pruned++;
+  }
+  console.log(`• Show pages: ${shows.length} written${pruned ? `, ${pruned} expired removed` : ''}`);
+}
+
 // ---------- artist previews (iTunes Search) ----------
 // Resolved at build time so the page knows which listings can actually be
 // played — no play button on comedy nights or local acts with no catalogue —
@@ -673,19 +878,36 @@ async function main() {
   }
 
   await attachPreviews(shows);
+  assignSlugs(shows);            // every show gets its own shareable address
 
   const payload = { updated: todayStr, shows };
   fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
   fs.writeFileSync(path.join(ROOT, 'confluence.ics'), buildIcs(shows));
   updateEmbedded(payload);
+  buildShowPages(shows, todayStr);
   const days = new Set(shows.map(s => s.date)).size;
   console.log(`\n✓ Wrote ${shows.length} shows across ${days} days to shows.json (updated ${todayStr})`);
+}
+
+// Rebuild the slugs and the share pages from whatever is already in
+// shows.json — no API keys, no network. Handy after editing manual-extras, and
+// it's how the pages were first generated.
+function pagesOnly() {
+  const payload = JSON.parse(fs.readFileSync(OUT, 'utf8'));
+  assignSlugs(payload.shows);
+  fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
+  updateEmbedded(payload);
+  buildShowPages(payload.shows, ymd(new Date()));
 }
 
 // Run only when invoked directly (`node feed/build-shows.js`), so the pure
 // helpers above can be imported by the test suite without hitting the network.
 if (require.main === module) {
-  main().catch(e => { console.error('Build failed:', e); process.exit(1); });
+  if (process.argv.includes('--pages')) {
+    try { pagesOnly(); } catch (e) { console.error('Page build failed:', e); process.exit(1); }
+  } else {
+    main().catch(e => { console.error('Build failed:', e); process.exit(1); });
+  }
 }
 
-module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
