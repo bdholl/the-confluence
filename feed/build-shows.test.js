@@ -355,6 +355,19 @@ test('a show page carries its own preview tags and a direct ticket link', () => 
   assert.match(html, /"@type":"MusicEvent"/);
 });
 
+test('a show page saves under the same id the calendar reads', () => {
+  const html = showPageHtml({
+    title: 'Modest Mouse', date: '2026-10-18', time: '20:00', venue: 'Turner Hall',
+    hood: 'Westown', slug: 'modest-mouse-2026-10-18',
+    offers: [{ src: 'Ticketmaster', url: 'https://tm.example/e/1' }],
+  });
+  // index.html: showId = `${s.date}|${s.time}|${s.title}` against 'confluence-mylist'.
+  // If either side drifts, a show saved from its own page vanishes from My List.
+  assert.match(html, /var ID = "2026-10-18\|20:00\|Modest Mouse"/);
+  assert.match(html, /var KEY = 'confluence-mylist'/);
+  assert.match(html, /id="save"/);
+});
+
 test('a show page reflects a cancellation instead of selling tickets', () => {
   const html = showPageHtml({
     title: 'Marshall Charloff', date: '2026-10-22', time: '19:30', venue: 'Pabst Theater',

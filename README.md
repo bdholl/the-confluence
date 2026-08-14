@@ -84,6 +84,30 @@ Rows on the calendar carry a **Share** button beside "Add to my list": phones
 get the native share sheet, everything else copies the link. "Get Tickets"
 stays exactly what it was — one click, straight to the seller.
 
+**Calendar view links here too.** A month-grid square is too small to hold a
+star and a ticket link, so its entries open the show's own page, which has
+room for all of it. The save button there writes the same `confluence-mylist`
+localStorage key, under the same `date|time|title` id the calendar uses — save
+a show from its page and it turns up under My List back on the calendar. Both
+sides of that contract are covered by a test, because nothing would visibly
+break if they drifted; shows would just quietly stop appearing.
+
+## Traffic
+
+Cloudflare Web Analytics, cookie-free, so there's no consent banner. The
+beacon is on `index.html` and on all 466 show pages, all with the same token —
+which is public by design and ships in the HTML, so it isn't a secret and
+isn't in an env var.
+
+The domain is DNS-only (grey cloud), so Cloudflare can't inject the beacon
+automatically and the manual snippet is required. If the DNS is ever proxied,
+check that automatic injection doesn't start double-counting.
+
+Page path is the useful dimension: a hit on `/show/…` means someone followed a
+shared link. Links shared in iMessage or a private group chat arrive with no
+referrer and land in "direct" — unavoidable, but the path still says which
+show traveled.
+
 Note that these pages are written by Node and never run `index.html`'s JS, so
 they carry their own copy of the `AFFILIATE` map. If those params are ever
 filled in, fill them in **both** places.

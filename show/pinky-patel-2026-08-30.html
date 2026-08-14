@@ -37,9 +37,13 @@ h1.off{text-decoration:line-through;text-decoration-thickness:2px;color:var(--gr
 .where{margin-top:3px;font-size:16px;color:var(--gray)}
 .art{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border:1px solid var(--line);margin-top:26px}
 .art.off{filter:grayscale(1);opacity:.55}
-.buy{display:inline-block;margin-top:26px;background:var(--ink);color:var(--paper);text-decoration:none;font-size:16px;font-weight:600;padding:14px 26px;border:1px solid var(--ink)}
+.actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px 18px;margin-top:26px}
+.buy{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;font-size:16px;font-weight:600;padding:14px 26px;border:1px solid var(--ink)}
 .buy:hover{background:var(--blue);border-color:var(--blue)}
-.dead{margin-top:26px;font-size:16px;font-weight:600;color:var(--faint)}
+.save{background:none;border:0;padding:0;font-family:inherit;font-size:15px;color:var(--gray);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--line);cursor:pointer}
+.save:hover{color:var(--blue);text-decoration-color:var(--blue)}
+.save.on{color:var(--blue);text-decoration:none;font-weight:600}
+.dead{font-size:16px;font-weight:600;color:var(--faint)}
 .note{margin-top:14px;font-size:13.5px;font-weight:600}
 .note.cancelled{color:var(--ink)}
 .note.postponed,.note.rescheduled{color:#8a6a00}
@@ -59,11 +63,41 @@ footer.wrap{padding-bottom:44px;font-size:12.5px;color:var(--faint)}
   <p class="when">Sunday, August 30, 2026 · 3:00 PM</p>
   <p class="where">Milwaukee Improv · Brookfield</p>
   <img class="art" src="https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg" alt="Pinky Patel" />
-  <a class="buy" href="https://www.ticketweb.com/event/pinky-patel-milwaukee-improv-main-room-tickets/14972573" target="_blank" rel="noopener noreferrer">Get Tickets →</a>
+  <div class="actions"><a class="buy" href="https://www.ticketweb.com/event/pinky-patel-milwaukee-improv-main-room-tickets/14972573" target="_blank" rel="noopener noreferrer">Get Tickets →</a><button class="save" id="save" hidden>Add to my list</button></div>
   
   <p class="back">Every show in Milwaukee, updated every morning — <a href="../">see the full calendar →</a></p>
 </main>
 <footer class="wrap">The Confluence · Milwaukee live music calendar</footer>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicEvent","name":"Pinky Patel","url":"https://theconfluencemke.com/show/pinky-patel-2026-08-30.html","startDate":"2026-08-30T15:00:00-05:00","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"Milwaukee Improv","address":{"@type":"PostalAddress","addressLocality":"Milwaukee","addressRegion":"WI","addressCountry":"US"}},"image":"https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg","offers":{"@type":"Offer","url":"https://www.ticketweb.com/event/pinky-patel-milwaukee-improv-main-room-tickets/14972573","price":26.22,"priceCurrency":"USD"}}</script>
+<script>
+// Same key and same id format the calendar uses, so a show saved here turns up
+// under My List over there — one browser, one list.
+(function () {
+  var ID = "2026-08-30|15:00|Pinky Patel";
+  var KEY = 'confluence-mylist';
+  var btn = document.getElementById('save');
+  if (!btn) return;
+  function read() {
+    try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
+    catch (e) { return null; }
+  }
+  if (!read()) return;                      // storage blocked — leave it hidden
+  btn.hidden = false;
+  function paint(on) {
+    btn.classList.toggle('on', on);
+    btn.textContent = on ? '✓ On my list' : 'Add to my list';
+  }
+  paint(read().has(ID));
+  btn.addEventListener('click', function () {
+    var list = read();
+    if (!list) return;
+    if (list.has(ID)) list.delete(ID); else list.add(ID);
+    // Array.from, not slice.call — a Set has no length, so slice yields []
+    try { localStorage.setItem(KEY, JSON.stringify(Array.from(list))); } catch (e) { return; }
+    paint(list.has(ID));
+  });
+})();
+</script>
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5a2a6db87bcb490689d0cf58825d61e5"}'></script>
 </body>
 </html>

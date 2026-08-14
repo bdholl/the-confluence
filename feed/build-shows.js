@@ -417,6 +417,10 @@ const PAGE_GRACE_DAYS = 30;
 // and never run that file's JS, so the params have to be applied here too.
 const AFFILIATE = { Ticketmaster: {}, SeatGeek: {}, AXS: {}, Eventbrite: {} };
 
+// Cloudflare Web Analytics site token. Public by design (it ships in the HTML),
+// so it lives here rather than in an env var. Same token as index.html.
+const CF_ANALYTICS_TOKEN = '5a2a6db87bcb490689d0cf58825d61e5';
+
 function ticketUrl(src, url) {
   const params = AFFILIATE[src];
   if (!params || !Object.keys(params).length) return url;
@@ -491,8 +495,14 @@ function showPageHtml(s) {
 
   // one button, straight to the ticket page — same promise the calendar makes
   let action = `<a class="buy" href="${escH(ticketUrl(buy.src, buy.url))}" target="_blank" rel="noopener noreferrer">Get Tickets →</a>`;
-  if (s.status === 'cancelled') action = '<p class="dead">Cancelled</p>';
-  else if (s.status === 'offsale') action = '<p class="dead">Off sale</p>';
+  if (s.status === 'cancelled') action = '<span class="dead">Cancelled</span>';
+  else if (s.status === 'offsale') action = '<span class="dead">Off sale</span>';
+
+  // Saving here writes the same localStorage key the calendar reads, so a show
+  // starred from its own page shows up under My List back on the calendar.
+  // A cancelled show isn't worth saving.
+  const save = s.status === 'cancelled' ? ''
+    : '<button class="save" id="save" hidden>Add to my list</button>';
 
   const note = s.status && STATUS_NOTE[s.status]
     ? `<p class="note ${s.status}">${STATUS_NOTE[s.status]}</p>` : '';
@@ -549,9 +559,13 @@ h1.off{text-decoration:line-through;text-decoration-thickness:2px;color:var(--gr
 .where{margin-top:3px;font-size:16px;color:var(--gray)}
 .art{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border:1px solid var(--line);margin-top:26px}
 .art.off{filter:grayscale(1);opacity:.55}
-.buy{display:inline-block;margin-top:26px;background:var(--ink);color:var(--paper);text-decoration:none;font-size:16px;font-weight:600;padding:14px 26px;border:1px solid var(--ink)}
+.actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px 18px;margin-top:26px}
+.buy{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;font-size:16px;font-weight:600;padding:14px 26px;border:1px solid var(--ink)}
 .buy:hover{background:var(--blue);border-color:var(--blue)}
-.dead{margin-top:26px;font-size:16px;font-weight:600;color:var(--faint)}
+.save{background:none;border:0;padding:0;font-family:inherit;font-size:15px;color:var(--gray);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--line);cursor:pointer}
+.save:hover{color:var(--blue);text-decoration-color:var(--blue)}
+.save.on{color:var(--blue);text-decoration:none;font-weight:600}
+.dead{font-size:16px;font-weight:600;color:var(--faint)}
 .note{margin-top:14px;font-size:13.5px;font-weight:600}
 .note.cancelled{color:var(--ink)}
 .note.postponed,.note.rescheduled{color:#8a6a00}
@@ -571,12 +585,42 @@ footer.wrap{padding-bottom:44px;font-size:12.5px;color:var(--faint)}
   <p class="when">${escH(dateLine)}</p>
   <p class="where">${escH(where)}</p>
   ${s.img ? `<img class="art${s.status === 'cancelled' ? ' off' : ''}" src="${escH(s.img)}" alt="${escH(s.title)}" />` : ''}
-  ${action}
+  <div class="actions">${action}${save}</div>
   ${note}
   <p class="back">Every show in Milwaukee, updated every morning — <a href="../">see the full calendar →</a></p>
 </main>
 <footer class="wrap">The Confluence · Milwaukee live music calendar</footer>
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
+<script>
+// Same key and same id format the calendar uses, so a show saved here turns up
+// under My List over there — one browser, one list.
+(function () {
+  var ID = ${JSON.stringify(`${s.date}|${s.time}|${s.title}`).replace(/</g, '\\u003c')};
+  var KEY = 'confluence-mylist';
+  var btn = document.getElementById('save');
+  if (!btn) return;
+  function read() {
+    try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
+    catch (e) { return null; }
+  }
+  if (!read()) return;                      // storage blocked — leave it hidden
+  btn.hidden = false;
+  function paint(on) {
+    btn.classList.toggle('on', on);
+    btn.textContent = on ? '✓ On my list' : 'Add to my list';
+  }
+  paint(read().has(ID));
+  btn.addEventListener('click', function () {
+    var list = read();
+    if (!list) return;
+    if (list.has(ID)) list.delete(ID); else list.add(ID);
+    // Array.from, not slice.call — a Set has no length, so slice yields []
+    try { localStorage.setItem(KEY, JSON.stringify(Array.from(list))); } catch (e) { return; }
+    paint(list.has(ID));
+  });
+})();
+</script>
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "${CF_ANALYTICS_TOKEN}"}'></script>
 </body>
 </html>
 `;

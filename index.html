@@ -74,6 +74,9 @@
     }
     .mast-top { display:flex; align-items:flex-start; justify-content:space-between; gap:32px; }
     .wordmark { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:clamp(46px,7vw,72px); line-height:.98; letter-spacing:-.01em; color:var(--blue); }
+    /* the wordmark is the way back: clears every filter and starts over */
+    .wordmark a { color:inherit; text-decoration:none; display:inline-block; }
+    .wordmark a:hover { opacity:.72; }
     /* Brian's handwritten wordmark drops in here (replaces the serif text) */
     .wordmark-img { display:block; width:auto; max-width:min(440px,86vw); height:auto; }
     .mast-desc { margin-top:18px; font-size:16px; font-weight:600; color:var(--ink); max-width:52ch; }
@@ -203,7 +206,9 @@
     @media (max-width:640px) {
       .cal-grid { grid-template-columns:repeat(7,1fr); }
       .cal-cell { min-height:56px; padding:4px 4px 6px; }
-      .cal-ev { font-size:0; margin-bottom:2px; }
+      /* the dot is 5px but the tap target shouldn't be — now that a tap opens
+         the show's page, it needs to be hittable with a thumb */
+      .cal-ev { font-size:0; margin-bottom:0; padding:4px 0; }
       .cal-ev::before { content:''; display:block; width:5px; height:5px; border-radius:50%; background:var(--blue); }
       .cal-more { display:none; }
       .cal-dow { padding:6px 3px; font-size:8.5px; }
@@ -314,9 +319,9 @@
   <div class="wrap">
     <div class="mast-top">
       <div>
-        <h1 class="wordmark">The Confluence</h1>
-        <!-- Handwriting swap: replace the <h1> above with your scan, e.g.
-             <h1 class="wordmark"><img class="wordmark-img" src="confluence-hand.svg" alt="The Confluence"></h1> -->
+        <h1 class="wordmark"><a href="./" id="home-link" title="Back to every upcoming show">The Confluence</a></h1>
+        <!-- Handwriting swap: replace the <a> contents above with your scan, e.g.
+             <a href="./" id="home-link"><img class="wordmark-img" src="confluence-hand.svg" alt="The Confluence"></a> -->
         <p class="mast-desc">Live music calendar for Milwaukee.</p>
         <p class="manifesto">No one has time to click around bloated event websites just to see who’s playing in Milwaukee. <b>Come here, grab some tickets, go to the show.</b></p>
       </div>
@@ -762,6 +767,28 @@ document.getElementById('search').addEventListener('input', (e) => {
   render();
 });
 
+// Clicking the wordmark is "start over": every filter, tab, and search box
+// back to how the page loads. It stays a real link to "./" so it still works
+// from the per-show pages and with JS off — here we just skip the reload.
+function resetToHome() {
+  activeWhen = 'all';
+  activeGenre = 'all';
+  query = '';
+  calMonth = null;
+  const sel = document.getElementById('genre-select');
+  if (sel) sel.value = 'all';
+  const box = document.getElementById('search');
+  if (box) box.value = '';
+  document.querySelectorAll('#when-tabs .tab').forEach(x => x.classList.toggle('active', x.dataset.when === 'all'));
+  render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+document.getElementById('home-link').addEventListener('click', (e) => {
+  e.preventDefault();
+  resetToHome();
+});
+
 function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
 function isWeekend(dateStr) {
@@ -974,8 +1001,14 @@ function renderMonth() {
     const cls = ['cal-cell'];
     if (ds < TODAY) cls.push('past');
     if (ds === TODAY) cls.push('today');
-    const shown = evs.slice(0, 3).map(s =>
-      `<a class="cal-ev" href="${s.url}" target="_blank" rel="noopener noreferrer" title="${esc(s.title)} — ${esc(s.venue)}"><span class="ce-time">${fmtTime(s.time).replace(':00','')}</span> ${esc(s.title)}</a>`).join('');
+    // A calendar square is too small to hold a star and a ticket link, so the
+    // entry opens the show's own page instead — that's where you can read it,
+    // save it, share it, or buy. Falls back to the ticket page pre-slug.
+    const shown = evs.slice(0, 3).map(s => {
+      const href = s.slug ? `show/${s.slug}.html` : s.url;
+      const ext = s.slug ? '' : ' target="_blank" rel="noopener noreferrer"';
+      return `<a class="cal-ev" href="${href}"${ext} title="${esc(s.title)} — ${esc(s.venue)}"><span class="ce-time">${fmtTime(s.time).replace(':00','')}</span> ${esc(s.title)}</a>`;
+    }).join('');
     const more = evs.length > 3
       ? `<div class="cal-more" onclick="jumpToDay('${ds}')">+${evs.length - 3} more</div>` : '';
     cells += `<div class="${cls.join(' ')}"><div class="cal-num">${day}</div>${shown}${more}</div>`;
@@ -1468,5 +1501,9 @@ load();
   document.getElementById('arcade-close').addEventListener('click', close);
 })();
 </script>
+
+<!-- Cloudflare Web Analytics — cookie-free, so no consent banner. The token is
+     a public site id, not a secret. Same beacon runs on every /show/ page. -->
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5a2a6db87bcb490689d0cf58825d61e5"}'></script>
 </body>
 </html>
