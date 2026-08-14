@@ -279,7 +279,31 @@
     .arcade-close { position:absolute; top:-36px; right:0; background:none; border:1px solid #3a4568; color:#aab6da; font:12px 'IBM Plex Sans',sans-serif; letter-spacing:.1em; padding:5px 12px; }
     .arcade-close:hover { border-color:#aab6da; color:#fff; }
 
-    #radio-dock { position:fixed; right:18px; bottom:18px; z-index:150; background:var(--paper); border:1px solid var(--ink); padding:11px 13px; width:280px; display:none; font-size:12px; box-shadow:4px 4px 0 rgba(17,17,17,.12); }
+    /* ---- little moments: a nudge toward the guestbook, then the arcade ---- */
+    #nudge { position:fixed; left:18px; bottom:18px; z-index:160; width:264px; display:none;
+      background:var(--paper); border:1px solid var(--ink); padding:15px 16px 14px;
+      box-shadow:4px 4px 0 rgba(17,17,17,.12); }
+    #nudge.on { display:block; animation:nudgein .5s cubic-bezier(.18,1.5,.4,1) both; }
+    @keyframes nudgein { from { transform:translateY(14px); opacity:0; } to { transform:none; opacity:1; } }
+    .nudge-title { font-family:'Instrument Serif',Georgia,serif; font-size:23px; line-height:1.1; padding-right:18px; }
+    .nudge-body { font-size:13px; color:var(--gray); margin-top:6px; line-height:1.5; }
+    .nudge-go { margin-top:12px; font-family:inherit; font-size:13px; font-weight:600;
+      background:var(--ink); color:var(--paper); border:1px solid var(--ink); padding:8px 15px; }
+    .nudge-go:hover { background:var(--blue); border-color:var(--blue); }
+    .nudge-x { position:absolute; top:8px; right:9px; background:none; border:0; font-family:inherit;
+      font-size:13px; line-height:1; color:var(--faint); padding:3px; }
+    .nudge-x:hover { color:var(--ink); }
+    .badge.on-nudge { top:-15px; right:-13px; width:40px; height:40px; animation-delay:.45s; }
+    .badge.on-nudge svg { animation-duration:14s; }
+    /* on a phone the radio dock owns the bottom-right, so the nudge takes the
+       full width and lifts the dock out of its way while it's up */
+    @media (max-width:700px) {
+      #nudge { left:12px; right:12px; bottom:12px; width:auto; }
+      body.nudge-on #radio-dock { bottom:calc(18px + 148px); }
+    }
+    @media (prefers-reduced-motion:reduce) { #nudge.on { animation:none; } }
+
+    #radio-dock { position:fixed; right:18px; bottom:18px; z-index:150; background:var(--paper); border:1px solid var(--ink); padding:11px 13px; width:280px; display:none; font-size:12px; box-shadow:4px 4px 0 rgba(17,17,17,.12); transition:bottom .25s; }
     #radio-dock.on { display:block; }
     .radio-head { display:flex; align-items:center; gap:7px; font-weight:600; letter-spacing:.12em; font-size:10px; text-transform:uppercase; }
     .cassette-icon { flex:none; animation:blink 1.4s steps(1) infinite; }
@@ -412,6 +436,13 @@
       <div class="gb-hint" id="gb-hint"></div>
     </div>
   </div>
+</div>
+
+<div id="nudge" aria-hidden="true">
+  <button class="nudge-x" id="nudge-x" aria-label="Dismiss">✕</button>
+  <div class="nudge-title" id="nudge-title"></div>
+  <div class="nudge-body" id="nudge-body"></div>
+  <button class="nudge-go" id="nudge-go"></button>
 </div>
 
 <div id="radio-dock" aria-hidden="true">
@@ -559,6 +590,85 @@ function afterData() {
   if (window.__radioShow) window.__radioShow();
   updateListCount();
   countVisit();
+  maybeNudge();
+}
+
+/* ---- Little moments ----
+   Two of the best things here are easy to never find: the guestbook is at the
+   bottom of the footer and the arcade is a small button at the end of the
+   toolbar. Rather than shout about them on day one, wait until someone has
+   come back enough times to count as a regular, then mention one — once.
+
+   Counted in DAYS VISITED, not page loads, so refreshing all afternoon doesn't
+   burn through them. Guestbook at five days, arcade at ten. */
+const VISITS_KEY = 'confluence-visits';   // { days, last }
+const NUDGED_KEY = 'confluence-nudged';   // ids already shown, never repeated
+
+// Ordered on purpose: the guestbook always gets its turn first. Someone who
+// arrives at day 12 having seen neither gets the guestbook now and the arcade
+// on their next visit — one at a time, never a pile.
+const NUDGES = [
+  {
+    id: 'guestbook', afterDays: 5,
+    title: 'Remember guestbooks?',
+    body: 'Say hi to your fellow web surfers.',
+    cta: 'Sign the guestbook →',
+    sticker: ['bolt', '#5ad427'],
+    open: () => window.__openGuestbook && window.__openGuestbook(),
+  },
+  {
+    id: 'arcade', afterDays: 10,
+    title: 'Defend The Confluence',
+    body: 'idk, why not',
+    cta: 'Play ▸',
+    sticker: ['starburst', '#ff3b8e'],
+    open: () => window.__openArcade && window.__openArcade(),
+  },
+];
+
+function readJSON(key, fallback) {
+  try { return JSON.parse(localStorage.getItem(key)) ?? fallback; }
+  catch (e) { return fallback; }
+}
+function writeJSON(key, val) {
+  try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {}
+}
+
+// Bumps once per calendar day and returns the running total.
+function visitDays() {
+  const v = Object.assign({ days: 0, last: '' }, readJSON(VISITS_KEY, {}));
+  if (v.last !== TODAY) { v.days++; v.last = TODAY; writeJSON(VISITS_KEY, v); }
+  return v.days;
+}
+
+function maybeNudge() {
+  const days = visitDays();
+  const shown = readJSON(NUDGED_KEY, []);
+  const due = NUDGES.find(n => days >= n.afterDays && !shown.includes(n.id));
+  if (!due) return;
+
+  const box = document.getElementById('nudge');
+  document.getElementById('nudge-title').textContent = due.title;
+  document.getElementById('nudge-body').textContent = due.body;
+  document.getElementById('nudge-go').textContent = due.cta;
+  box.insertAdjacentHTML('afterbegin', sticker(due.sticker[0], due.sticker[1], 'on-nudge'));
+
+  function hide() {
+    box.classList.remove('on');
+    box.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('nudge-on');
+  }
+  document.getElementById('nudge-x').addEventListener('click', hide);
+  document.getElementById('nudge-go').addEventListener('click', () => { hide(); due.open(); });
+
+  // let the page settle first — arriving over the top of a render reads as an ad
+  setTimeout(() => {
+    box.classList.add('on');
+    box.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('nudge-on');
+    // counts as shown the moment it appears, so it's genuinely once-only
+    writeJSON(NUDGED_KEY, shown.concat(due.id));
+  }, 3200);
 }
 
 function buildTicker() {
@@ -653,7 +763,9 @@ function buildFeatured() {
     }
   }
 
-  document.getElementById('gb-open').addEventListener('click', () => { overlay.classList.add('on'); loadStream(); });
+  const openGb = () => { overlay.classList.add('on'); loadStream(); };
+  document.getElementById('gb-open').addEventListener('click', openGb);
+  window.__openGuestbook = openGb;   // so a nudge can open it too
   document.getElementById('gb-close').addEventListener('click', () => overlay.classList.remove('on'));
   overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.classList.remove('on'); });
 
@@ -1499,6 +1611,7 @@ load();
   }
   document.getElementById('open-arcade').addEventListener('click', open);
   document.getElementById('arcade-close').addEventListener('click', close);
+  window.__openArcade = open;        // so a nudge can start the game
 })();
 </script>
 

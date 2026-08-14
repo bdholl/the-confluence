@@ -137,6 +137,27 @@ Note that these pages are written by Node and never run `index.html`'s JS, so
 they carry their own copy of the `AFFILIATE` map. If those params are ever
 filled in, fill them in **both** places.
 
+## Little moments
+
+The guestbook lives at the bottom of the footer and the arcade is a small
+button at the end of the toolbar, so both are easy to never find. Rather than
+shout about them on day one, `maybeNudge()` waits until someone reads as a
+regular and then mentions one — once, ever.
+
+Counted in **distinct days visited**, not page loads, so refreshing all
+afternoon doesn't burn through them. Guestbook at five days, arcade at ten.
+
+`NUDGES` is ordered deliberately: the guestbook always gets its turn first.
+Someone who arrives on day 12 having seen neither gets the guestbook that
+visit and the arcade the next — one at a time, never a pile. A nudge is marked
+seen the moment it appears, whether or not it's clicked.
+
+State is two localStorage keys, `confluence-visits` and `confluence-nudged`.
+To see one again, clear those.
+
+On a phone the radio dock owns the bottom-right, so the nudge takes the full
+width and lifts the dock out of its way via a `nudge-on` class on `<body>`.
+
 ## Genres
 
 The ticketing APIs describe the booking, not the band, so half the feed used
