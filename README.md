@@ -26,7 +26,7 @@ the site itself.
 ## Running it
 
 ```bash
-npm test                                   # 38 tests
+npm test                                   # 41 tests
 TICKETMASTER_API_KEY=… SEATGEEK_CLIENT_ID=… npm run build-feed
 npm run build-pages                        # previews, genres, slugs, share pages
                                            # — no ticketing keys, iTunes only
@@ -62,6 +62,30 @@ Merging is the fiddly part, and most of it exists because of a real bug:
 
 **The build never wipes good data.** If every source fails it exits non-zero and
 leaves `shows.json` alone.
+
+### Which ticket link a show gets
+
+`pointAtBestOffer()` is the single place that decides where "Get Tickets" goes.
+Box office before resale, with one important exception.
+
+Ticketmaster's Discovery API lists events Ticketmaster **doesn't sell** — The
+Rave, every Pabst Theater Group room, Cactus Club — and for those it returns a
+bare `ticketmaster.com/event/<id>` pointer to an internal record rather than a
+ticket page. Those links error out when clicked; two got reported from the live
+site before this was caught.
+
+The tell is the URL shape, so `DEAD_TM_LINK` ranks by where a link actually
+goes rather than which API reported it:
+
+| Shape | Meaning | Rank |
+| --- | --- | --- |
+| `ticketmaster.com/<slug>/event/<id>` | TM genuinely sells it | first |
+| `ticketweb.com/…`, `pabsttheatergroup.com/…` | TM's API reporting the real box office | first |
+| SeatGeek | resale, but it works | after |
+| `ticketmaster.com/event/<id>` | dead internal record | last |
+
+A working resale listing beats a box-office link that 404s. A dead link is
+still used when it's the only offer a show has — no link at all would be worse.
 
 ## Sharing a single show
 
@@ -144,8 +168,11 @@ Result: "other" went from 224 to 71 and indie from 19 to 61, without widening
 any rule to match more loosely — the filters hold more shows because more
 shows are correctly labelled.
 
-Punk is the thinnest bucket, because Apple files most punk acts as
-"Alternative". Add them to `ARTIST_GENRE` if that ever matters enough.
+Punk is the standing reason `ARTIST_GENRE` exists: Apple files nearly all punk
+as "Alternative", so the filter held one show until Bikini Kill, The Bouncing
+Souls, AFI, Public Image Ltd, Turnstile and Militarie Gun were named by hand.
+Citizen, Free Throw and Taking Back Sunday are deliberately left in indie —
+they're emo, and there's no emo bucket.
 
 ## Known gaps
 
@@ -154,6 +181,10 @@ Punk is the thinnest bucket, because Apple files most punk acts as
 - **AXS and pabsttheatergroup.com block automated requests** (403/406). SeatGeek
   covers most of that inventory; a headless-browser scraper is the only other
   option and hasn't been built.
+- **26 shows have only a dead Ticketmaster link** and no second offer, so
+  "Get Tickets" still lands on an error page for them. They're at The Rave,
+  Pabst, Riverside, Miller High Life, Cactus Club and X-Ray Arcade. Fixing it
+  properly needs a per-venue box-office URL map as a last-resort fallback.
 - **Prices** come from Ticketmaster only, on roughly a quarter of shows.
   SeatGeek gates pricing behind a partner tier. Prices are stored but not shown.
 

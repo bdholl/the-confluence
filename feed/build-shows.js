@@ -776,8 +776,23 @@ function itunesGenre(kind) {
 // Where neither source gets it right. Apple files Beck under Pop, which is
 // true of his catalogue and wrong for how anyone books or hears him. Keep this
 // short — it's a hand-maintained exception list, not a genre system.
+//
+// Punk is the standing example of why this list has to exist: Apple files
+// almost everything punk as "Alternative", so the filter held one show until
+// these were named by hand. Keys are matched against cleanArtist(title)
+// lowercased, so tour branding and support acts are already stripped.
 const ARTIST_GENRE = {
   'beck': 'indie',
+
+  'bikini kill': 'punk',
+  'the bouncing souls': 'punk',
+  'afi': 'punk',
+  'public image ltd': 'punk',
+  'turnstile': 'punk',
+  'militarie gun': 'punk',
+  // Left alone on purpose: Citizen, Free Throw and Taking Back Sunday are emo
+  // rather than punk, and there's no emo bucket. They stay in indie unless
+  // that starts feeling wrong.
 };
 
 // Last resort for the acts Apple has never heard of — local bands, DJ nights,
@@ -950,15 +965,47 @@ function mergeTitleVariants(shows) {
 }
 
 // Which ticket page to send people to when a show sells in several places.
-// Primary/box-office sellers first, resale marketplaces last — buying direct
+// Primary/box-office sellers first, resale marketplaces after — buying direct
 // is normally the better deal.
-const SOURCE_RANK = { Ticketmaster: 0, AXS: 1, Eventbrite: 1, 'At the door': 1, SeatGeek: 5 };
-const rankOf = src => (SOURCE_RANK[src] ?? 3);
-const bestOfferFirst = (a, b) => rankOf(a.src) - rankOf(b.src) || a.src.localeCompare(b.src);
+const SOURCE_RANK = { Ticketmaster: 0, AXS: 1, Eventbrite: 1, 'At the door': 1, SeatGeek: 2 };
+
+// ...except when the "box office" link doesn't work. Ticketmaster's Discovery
+// API lists events Ticketmaster doesn't actually sell — everything at The Rave,
+// every Pabst Theater Group room, Cactus Club — and for those it returns a bare
+// /event/<id> pointer to an internal record instead of a real ticket page.
+// Those error out when you click them.
+//
+// The tell is the URL shape. Events TM genuinely sells come back as a full
+// /<artist-venue-date>/event/<id> consumer URL, and when the seller is someone
+// else the same API happily hands back a real ticketweb.com or
+// pabsttheatergroup.com link. It's only this third shape that's a dead end.
+//
+// So rank by where a link actually goes, not by which API reported it: a
+// working resale listing beats a box-office link that 404s.
+const DEAD_TM_LINK = /^https?:\/\/(www\.)?ticketmaster\.com\/event\/[^/?#]+\/?$/;
+const offerRank = o => (DEAD_TM_LINK.test(o.url || '') ? 9 : (SOURCE_RANK[o.src] ?? 3));
+const bestOfferFirst = (a, b) => offerRank(a) - offerRank(b) || a.src.localeCompare(b.src);
 
 // One offer per ticketing source: where to buy, and the price if we know it.
 function toOffer(s) {
   return { src: s.ticketer, url: s.url, ...(s.price != null ? { price: s.price } : {}) };
+}
+
+// Sort each show's offers best-first and point the listing at the winner.
+// Everything that renders a ticket link reads offers[0], so this is the single
+// place that decides where "Get Tickets" goes.
+function pointAtBestOffer(shows) {
+  let demoted = 0;
+  for (const s of shows) {
+    if (!s.offers || !s.offers.length) continue;
+    const was = s.offers[0];
+    s.offers.sort(bestOfferFirst);
+    s.url = s.offers[0].url;
+    s.ticketer = s.offers[0].src;
+    if (s.offers[0] !== was && DEAD_TM_LINK.test(was.url || '')) demoted++;
+  }
+  if (demoted) console.log(`• Tickets: ${demoted} shows moved off a dead Ticketmaster link`);
+  return shows;
 }
 
 // Merge rather than discard: the same show on two platforms becomes one
@@ -1015,12 +1062,7 @@ async function main() {
   shows = shows.filter(s => s.date && s.title && s.url && s.date >= todayStr);
   shows = mergeTitleVariants(dedupe(shows))
     .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
-  // offers may have grown during the variant merge — re-sort and re-point
-  for (const s of shows) {
-    s.offers.sort(bestOfferFirst);
-    s.url = s.offers[0].url;
-    s.ticketer = s.offers[0].src;
-  }
+  pointAtBestOffer(shows);   // offers may have grown during the variant merge
 
   if (!shows.length) {
     console.error('✗ No shows fetched from any source — leaving existing shows.json untouched.');
@@ -1049,6 +1091,7 @@ async function pagesOnly() {
   // in shows.json. Only iTunes is called, and only for artists not yet cached.
   const cache = await attachPreviews(payload.shows);
   refineGenres(payload.shows, cache);               // idempotent; safe to re-run
+  pointAtBestOffer(payload.shows);
   assignSlugs(payload.shows);
   fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
   updateEmbedded(payload);
@@ -1065,4 +1108,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, pointAtBestOffer, GENRE_MAP, VENUE_HOODS, MKE_VENUES };

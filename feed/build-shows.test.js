@@ -4,7 +4,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const path = require('path');
 
-const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, GENRE_MAP } = require('./build-shows.js');
+const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, pointAtBestOffer, GENRE_MAP } = require('./build-shows.js');
 
 // The genre keys the front-end knows how to label + color. Every genre the
 // feed can emit must be in this set, or shows render with a bare key + no color.
@@ -314,6 +314,54 @@ test('cleanArtist strips the noise that breaks music lookups', () => {
   assert.equal(cleanArtist('Chad Gray: Voice of Mudvayne & Hellyeah'), 'Chad Gray: Voice of Mudvayne & Hellyeah');
 });
 
+// --- which ticket link wins ------------------------------------------------
+
+test('a dead Ticketmaster link loses to any offer that actually works', () => {
+  // TM's Discovery API lists shows it doesn't sell (The Rave, every Pabst
+  // Theater Group room, Cactus Club) and returns a bare /event/<id> pointer
+  // that errors when clicked. Real reports: Robby Hoffman, ILUKA.
+  const shows = [{
+    title: 'Robby Hoffman',
+    offers: [
+      { src: 'Ticketmaster', url: 'https://www.ticketmaster.com/event/Z7r9jZ1A70E3p' },
+      { src: 'SeatGeek', url: 'https://seatgeek.com/robby-hoffman-tickets/comedy/x/18400549' },
+    ],
+  }];
+  pointAtBestOffer(shows);
+  assert.equal(shows[0].ticketer, 'SeatGeek');
+  assert.match(shows[0].url, /seatgeek/);
+});
+
+test('a real Ticketmaster link still outranks resale', () => {
+  const shows = [
+    { // full consumer URL — TM genuinely sells this one
+      offers: [
+        { src: 'SeatGeek', url: 'https://seatgeek.com/x/1' },
+        { src: 'Ticketmaster', url: 'https://www.ticketmaster.com/ajr-milwaukee-08-15-2026/event/07006465DEA99891' },
+      ],
+    },
+    { // TM's API reporting a TicketWeb box office — also the real seller
+      offers: [
+        { src: 'SeatGeek', url: 'https://seatgeek.com/x/2' },
+        { src: 'Ticketmaster', url: 'https://www.ticketweb.com/event/healing-gems-cactus-club-tickets/14930273' },
+      ],
+    },
+  ];
+  pointAtBestOffer(shows);
+  assert.equal(shows[0].ticketer, 'Ticketmaster');
+  assert.equal(shows[1].ticketer, 'Ticketmaster');
+  assert.match(shows[1].url, /ticketweb/);
+});
+
+test('a dead link is still better than no link at all', () => {
+  // 26 shows have nothing else. Dropping the link would leave no way to buy.
+  const shows = [{
+    offers: [{ src: 'Ticketmaster', url: 'https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvw' }],
+  }];
+  pointAtBestOffer(shows);
+  assert.equal(shows[0].url, 'https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvw');
+});
+
 // --- genre refinement ------------------------------------------------------
 
 test('itunesGenre tests specific styles before the general ones', () => {
@@ -351,12 +399,15 @@ test('refineGenres fills "other" and sharpens rock, without flattening everythin
     { title: 'A Comedian', genre: 'comedy' },
     // Apple files Beck under Pop; the override is a deliberate human call
     { title: 'Beck', genre: 'rock' },
+    // Apple calls almost all punk "Alternative", so punk is hand-seeded —
+    // and tour branding must be stripped before the override is looked up
+    { title: "THE BOUNCING SOULS - 'Born To Be Tour' w/ The Suicide Machines", genre: 'other' },
     // nothing known, nothing invented
     { title: 'Some Local Band', genre: 'other' },
   ];
   refineGenres(shows, cache);
   assert.deepEqual(shows.map(s => s.genre),
-    ['indie', 'indie', 'rock', 'comedy', 'indie', 'other']);
+    ['indie', 'indie', 'rock', 'comedy', 'indie', 'punk', 'other']);
 });
 
 test('refineGenres reads a genre out of a title only as a last resort', () => {
