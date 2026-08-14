@@ -6,4 +6,4 @@ compatibility_date = "2026-01-01"
 # Paste the returned id below, then: npx wrangler deploy
 [[kv_namespaces]]
 binding = "GUESTBOOK"
-id = "PASTE_KV_NAMESPACE_ID_HERE"
+id = "243c304f337d4a2d89655d0d93eb61e9"
