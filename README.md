@@ -26,9 +26,10 @@ the site itself.
 ## Running it
 
 ```bash
-npm test                                   # 34 tests
+npm test                                   # 38 tests
 TICKETMASTER_API_KEY=… SEATGEEK_CLIENT_ID=… npm run build-feed
-npm run build-pages                        # just the share pages, no API keys
+npm run build-pages                        # previews, genres, slugs, share pages
+                                           # — no ticketing keys, iTunes only
 ```
 
 Preview locally with the `mkelive` server in `.claude/launch.json` (port 8753).
@@ -111,6 +112,40 @@ show traveled.
 Note that these pages are written by Node and never run `index.html`'s JS, so
 they carry their own copy of the `AFFILIATE` map. If those params are ever
 filled in, fill them in **both** places.
+
+## Genres
+
+The ticketing APIs describe the booking, not the band, so half the feed used
+to arrive as "other" and the filters were close to decorative. `refineGenres()`
+fixes that with Apple's `primaryGenreName`, which the preview cache already
+holds for every artist we've looked up.
+
+Precedence, in order:
+
+1. **Comedy is never overridden.** It comes from the ticket classification
+   rather than free text — the one label the sources are reliably right about.
+2. **`ARTIST_GENRE`** — a short hand-maintained exception list. Apple files
+   Beck under Pop, which is true of the catalogue and wrong for how anyone
+   books or hears him. Keep this list short; it isn't a genre system.
+3. **An Apple genre fills an "other"** outright.
+4. **It only overrides "rock" when it's a narrower rock** — indie, punk,
+   metal. Rock is Ticketmaster's parent bucket, so that's a refinement.
+   Country or pop would be a *disagreement*, and there the seller who saw the
+   billing is likelier to be right.
+5. **Title keywords, last.** Only for shows still on "other", and only for
+   words that are unambiguous. "Drag Brunch" and "Karaoke" match a rule whose
+   genre is `null` — they aren't a genre and shouldn't be guessed at.
+
+`ITUNES_GENRE` is an array of pairs, not an object, **because the order is
+load-bearing**: "Alternative Country" has to be tested before "Alternative" or
+it lands in indie. There's a test pinning exactly that.
+
+Result: "other" went from 224 to 71 and indie from 19 to 61, without widening
+any rule to match more loosely — the filters hold more shows because more
+shows are correctly labelled.
+
+Punk is the thinnest bucket, because Apple files most punk acts as
+"Alternative". Add them to `ARTIST_GENRE` if that ever matters enough.
 
 ## Known gaps
 
