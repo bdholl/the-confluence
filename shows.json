@@ -1,378 +1,6 @@
 {
-  "updated": "2026-08-15",
+  "updated": "2026-08-16",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/a12/f6c544db-b3a3-4d88-b839-922713136a12_RETINA_PORTRAIT_16_9.jpg",
-      "price": 0,
-      "date": "2026-08-15",
-      "time": "18:30",
-      "title": "Usama Siddiquee",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930303",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/usama-siddiquee-milwaukee-improv-main-room-tickets/14930303",
-          "price": 0
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/usama-siddiquee-tickets/comedy/2026-08-15-6-30-pm/18400850"
-        }
-      ],
-      "times": [
-        "18:30",
-        "21:00"
-      ],
-      "slug": "usama-siddiquee-2026-08-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-15",
-      "time": "19:00",
-      "title": "Healing Gems",
-      "support": null,
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "jazz",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/healing-gems-tickets/milwaukee-wisconsin-cactus-club-2026-08-15-7-pm/concert/18400686",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/healing-gems-tickets/milwaukee-wisconsin-cactus-club-2026-08-15-7-pm/concert/18400686"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvt"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/86/4b/82/864b8213-af70-8c41-4d4b-def4485a8bcd/mzaf_1721724093224061626.plus.aac.p.m4a",
-        "track": "Tijuana Mushroom (Driving on LSD)",
-        "artist": "Healing Gems",
-        "kind": "Jazz"
-      },
-      "slug": "healing-gems-2026-08-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/834/36bd28bc-32a5-45fd-a48c-915a2131d834_1654091_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-15",
-      "time": "19:30",
-      "title": "Nonpoint",
-      "support": "Spineshank, (Hed) P.E.",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/nonpoint-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-15-7-30-pm/concert/18345837",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/nonpoint-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-15-7-30-pm/concert/18345837"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Yvb"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d2/73/ed/d273edbb-cb86-57e8-2088-67c6aeb6f57e/mzaf_15055896556534388682.plus.aac.p.m4a",
-        "track": "Bullet With a Name",
-        "artist": "Nonpoint",
-        "kind": "Rock"
-      },
-      "slug": "nonpoint-2026-08-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-15",
-      "time": "19:30",
-      "title": "Poke-RAVE",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/poke-rave-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-15-7-30-pm/concert/18346272",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/poke-rave-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-15-7-30-pm/concert/18346272"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PM73"
-        }
-      ],
-      "slug": "poke-rave-2026-08-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/331/b7107cfc-1444-4c6b-921a-071a1d9b6331_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-15",
-      "time": "19:30",
-      "title": "AJR",
-      "support": "Em Beihold",
-      "venue": "Wisconsin State Fair",
-      "hood": "Milwaukee",
-      "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ajr-tickets/west-allis-wisconsin-wisconsin-state-fair-2026-08-15-7-30-pm/concert/18082701",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ajr-tickets/west-allis-wisconsin-wisconsin-state-fair-2026-08-15-7-30-pm/concert/18082701"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A707AS"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/d9/f9/72d9f903-1876-bcac-3516-5fd41f0a78f0/mzaf_18362770675304591681.plus.aac.p.m4a",
-        "track": "Bang!",
-        "artist": "AJR",
-        "kind": "Alternative"
-      },
-      "slug": "ajr-2026-08-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/4ac/a665b33c-4931-4b9c-a3ed-c066d557e4ac_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-15",
-      "time": "20:00",
-      "title": "Tori Amos",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Milwaukee",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/tori-amos-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-08-15-7-30-pm/concert/18021115",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/tori-amos-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-08-15-7-30-pm/concert/18021115"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OPb4"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5b/28/a0/5b28a0dc-5772-306a-db3f-a992c069105a/mzaf_14934656320826526591.plus.aac.p.m4a",
-        "track": "Cornflake Girl (2015 Remastered)",
-        "artist": "Tori Amos",
-        "kind": "Pop"
-      },
-      "slug": "tori-amos-2026-08-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
-      "price": 30.37,
-      "date": "2026-08-15",
-      "time": "20:00",
-      "title": "Eric Johanson",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/eric-johanson-shank-hall-tickets/14915823",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/eric-johanson-shank-hall-tickets/14915823",
-          "price": 30.37
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/eric-johanson-tickets/milwaukee-wisconsin-shank-hall-2026-08-15-8-pm/concert/18400572"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d3/52/f4/d352f460-af65-40d1-6ff5-3698c4e7d77f/mzaf_13799946704203791982.plus.aac.p.m4a",
-        "track": "Burn It Down",
-        "artist": "Eric Johanson",
-        "kind": "Blues"
-      },
-      "slug": "eric-johanson-2026-08-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-15",
-      "time": "20:00",
-      "title": "From Playbill To Punchlines",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70x3b",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70x3b"
-        }
-      ],
-      "slug": "from-playbill-to-punchlines-2026-08-15"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/american-vanity-0eba72/1985806/huge.jpg",
-      "date": "2026-08-15",
-      "time": "20:00",
-      "title": "American Vanity",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/american-vanity-tickets/milwaukee-wisconsin-vivarium-2026-08-15-8-pm/concert/18400958",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/american-vanity-tickets/milwaukee-wisconsin-vivarium-2026-08-15-8-pm/concert/18400958"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/c1/90/34c190a8-e74b-0760-7719-30e22b19ebb6/mzaf_12970104568692476087.plus.aac.p.m4a",
-        "track": "Sabotage Myself",
-        "artist": "American Vanity",
-        "kind": "Alternative"
-      },
-      "slug": "american-vanity-2026-08-15"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/american-football-ad6932/156357/huge.jpg",
-      "date": "2026-08-15",
-      "time": "20:00",
-      "title": "American Football",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/american-football-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-08-15-8-pm/concert/18050636",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/american-football-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-08-15-8-pm/concert/18050636"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/53/2b/d9/532bd9e7-5f04-ab94-fe30-e85b911d15ce/mzaf_13111898941128044078.plus.aac.p.m4a",
-        "track": "Never Meant",
-        "artist": "American Football",
-        "kind": "Alternative"
-      },
-      "slug": "american-football-2026-08-15"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187587236%2F285524009645%2F1%2Foriginal.20260624-191558?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.394&fp-y=0.118&s=e4862ad91d66cf6dbeafa2ba98f6fc36",
-      "date": "2026-08-15",
-      "time": "20:00",
-      "title": "Pinkshift: Saccharine 5 Year Anniversary Tour",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "punk",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/pinkshift-saccharine-5-year-anniversary-tour-tickets-1992499818594",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/pinkshift-saccharine-5-year-anniversary-tour-tickets-1992499818594"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/aa/f7/ce/aaf7cee0-dcae-9357-67d0-b68829ab7a99/mzaf_2631836454074792735.plus.aac.p.m4a",
-        "track": "I'm Gonna Tell My Therapist On You",
-        "artist": "Pinkshift",
-        "kind": "Punk"
-      },
-      "slug": "pinkshift-saccharine-5-year-anniversary-tour-2026-08-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-15",
-      "time": "21:00",
-      "title": "Clarent",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "latin",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/clarent-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-15-9-pm/concert/18346262",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/clarent-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-15-9-pm/concert/18346262"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PM7k"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/0a/42/e60a4294-b4c0-fc9a-f208-9ca23ad05ad6/mzaf_4791173916092364927.plus.aac.p.m4a",
-        "track": "Buenas",
-        "artist": "Clarent",
-        "kind": "Urbano latino"
-      },
-      "slug": "clarent-2026-08-15"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/darude-37370f/70556/24462/huge.jpg",
-      "date": "2026-08-15",
-      "time": "21:00",
-      "title": "Darude",
-      "support": null,
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/darude-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-08-15-9-pm/concert/18400681",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/darude-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-08-15-9-pm/concert/18400681"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/20/32/6f/20326ff3-49e4-a9d3-d1f0-8f231731479d/mzaf_10863530844880662698.plus.aac.p.m4a",
-        "track": "Sandstorm",
-        "artist": "Darude",
-        "kind": "Dance"
-      },
-      "slug": "darude-2026-08-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-15",
-      "time": "22:30",
-      "title": "DJ Slugo",
-      "support": null,
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "electronic",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvs",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvs"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/3b/bb/09/3bbb0983-01e8-f088-5bea-f1648d9da8d1/mzaf_5195952975688762109.plus.aac.p.m4a",
-        "track": "Godzilla (114799)",
-        "artist": "DJ Slugo",
-        "kind": "Dance"
-      },
-      "slug": "dj-slugo-2026-08-15"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/414/eec4659a-b582-47b3-b4d6-a9dfa6324414_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-08-16",
@@ -1535,6 +1163,31 @@
         "kind": "Hip-Hop/Rap"
       },
       "slug": "lucki-2026-08-27"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/daikaiju-77fc7a/18982/huge.jpg",
+      "date": "2026-08-27",
+      "time": "20:00",
+      "title": "Daikaiju",
+      "support": null,
+      "venue": "Falcon Bowl",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/daikaiju-tickets/milwaukee-wisconsin-falcon-bowl-2026-08-27-8-pm/concert/18500854",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/daikaiju-tickets/milwaukee-wisconsin-falcon-bowl-2026-08-27-8-pm/concert/18500854"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1a/a4/d1/1aa4d198-e76d-b06d-d3c2-9f7f29cff217/mzaf_9856845090187975978.plus.aac.p.m4a",
+        "track": "Attack of the Crab Women",
+        "artist": "Daikaiju",
+        "kind": "Rock"
+      },
+      "slug": "daikaiju-2026-08-27"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/country-in-the-burg-3c88b8/782783/huge.jpg",
@@ -6002,10 +5655,6 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/cracker-shank-hall-tickets/14922983",
           "price": 40.93
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/cracker-tickets/milwaukee-wisconsin-shank-hall-2026-10-03-12-pm/concert/18400621"
         }
       ],
       "preview": {
@@ -6688,31 +6337,6 @@
       "slug": "hunter-hill-2026-10-08"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-bright-light-social-hour-a3d915/15055/huge.jpg",
-      "date": "2026-10-08",
-      "time": "19:30",
-      "title": "The Bright Light Social Hour",
-      "support": null,
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/a3/63/f8a3639d-ec82-777e-2b05-a86926a1c94c/mzaf_11873081065011976574.plus.aac.p.m4a",
-        "track": "Infinite Cities",
-        "artist": "The Bright Light Social Hour",
-        "kind": "Alternative"
-      },
-      "slug": "the-bright-light-social-hour-2026-10-08"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/generic-concerts-1095cf/677165/47517/huge.jpg",
       "date": "2026-10-08",
       "time": "19:30",
@@ -6736,6 +6360,31 @@
         "kind": "Rock"
       },
       "slug": "the-haunt-2026-10-08"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/the-bright-light-social-hour-a3d915/15055/huge.jpg",
+      "date": "2026-10-08",
+      "time": "19:30",
+      "title": "The Bright Light Social Hour",
+      "support": null,
+      "venue": "Cactus Club",
+      "hood": "Bay View",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/a3/63/f8a3639d-ec82-777e-2b05-a86926a1c94c/mzaf_11873081065011976574.plus.aac.p.m4a",
+        "track": "Infinite Cities",
+        "artist": "The Bright Light Social Hour",
+        "kind": "Alternative"
+      },
+      "slug": "the-bright-light-social-hour-2026-10-08"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/7be/4e1e9428-29ec-401f-aa45-f1577614b7be_105421_RETINA_PORTRAIT_16_9.jpg",
@@ -9031,31 +8680,6 @@
       "slug": "rod-tuffcurls-and-the-bench-press-2026-10-23"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-buena-vista-orchestra-90dfcb/1954936/huge.jpg",
-      "date": "2026-10-23",
-      "time": "20:00",
-      "title": "The Buena Vista Orchestra",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "latin",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/dc/bb/60dcbb20-93ab-4a5d-6b2e-8564678ebff7/mzaf_14207648578104142895.plus.aac.p.m4a",
-        "track": "Chan Chan (Live in Austin, TX)",
-        "artist": "The Buena Vista Orchestra",
-        "kind": "Latin"
-      },
-      "slug": "the-buena-vista-orchestra-2026-10-23"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/wolfman-jack-d55efd/796411/huge.jpg",
       "date": "2026-10-23",
       "time": "20:00",
@@ -9079,6 +8703,31 @@
         "kind": "Hip-Hop/Rap"
       },
       "slug": "wolfman-jack-2026-10-23"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/the-buena-vista-orchestra-90dfcb/1954936/huge.jpg",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "title": "The Buena Vista Orchestra",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "latin",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/dc/bb/60dcbb20-93ab-4a5d-6b2e-8564678ebff7/mzaf_14207648578104142895.plus.aac.p.m4a",
+        "track": "Chan Chan (Live in Austin, TX)",
+        "artist": "The Buena Vista Orchestra",
+        "kind": "Latin"
+      },
+      "slug": "the-buena-vista-orchestra-2026-10-23"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/1a6/2d346343-859f-4e91-b997-36b46e5091a6_RETINA_PORTRAIT_16_9.jpg",
@@ -11943,31 +11592,6 @@
       "slug": "jady-2026-11-22"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/michigander-fd98bb/383377/huge.jpg",
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/hot-freaks-41554b/811054/huge.jpg",
       "date": "2026-11-22",
       "time": "20:00",
@@ -12016,6 +11640,31 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-soft-body-tour-w-thesaurus-rex-2026-11-22"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/michigander-fd98bb/383377/huge.jpg",
+      "date": "2026-11-22",
+      "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188315677%2F285524009645%2F1%2Foriginal.20260706-200346?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.465&s=c287fb00f379d2ee2834a6498c370395",
