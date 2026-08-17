@@ -4,15 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-08-16-19:30-BryanAdamsFiservForum@theconfluence
-DTSTART;TZID=America/Chicago:20260816T193000
-DTEND;TZID=America/Chicago:20260816T213000
-SUMMARY:Bryan Adams @ Fiserv Forum
-LOCATION:Fiserv Forum\, Deer District
-DESCRIPTION:With Pat Benatar & Neil Giraldo. Tickets: https://www.ticketmaster.com/bryan-adams-roll-with-the-punches-milwaukee-wisconsin-08-16-2026/event/0700647096E12C4A
-URL:https://www.ticketmaster.com/bryan-adams-roll-with-the-punches-milwaukee-wisconsin-08-16-2026/event/0700647096E12C4A
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-08-18-19:00-EmpireoftheSunBMOPavilion@theconfluence
 DTSTART;TZID=America/Chicago:20260818T190000
 DTEND;TZID=America/Chicago:20260818T210000
@@ -1210,15 +1201,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/kevin-smith-tickets/comedy/2026-09-17-
 URL:https://seatgeek.com/kevin-smith-tickets/comedy/2026-09-17-8-pm/18400490
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-17-20:00-ImprovementMovementVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20260917T200000
-DTEND;TZID=America/Chicago:20260917T220000
-SUMMARY:Improvement Movement @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/improvement-movement-tickets/milwaukee-wisconsin-vivarium-2026-09-17-8-pm/concert/18400945
-URL:https://seatgeek.com/improvement-movement-tickets/milwaukee-wisconsin-vivarium-2026-09-17-8-pm/concert/18400945
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-09-17-20:00-BleachTurnerHallBallroom@theconfluence
 DTSTART;TZID=America/Chicago:20260917T200000
 DTEND;TZID=America/Chicago:20260917T220000
@@ -1226,6 +1208,15 @@ SUMMARY:Bleach @ Turner Hall Ballroom
 LOCATION:Turner Hall Ballroom\, Westown
 DESCRIPTION:Tickets: https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389
 URL:https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17-20:00-ImprovementMovementVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20260917T200000
+DTEND;TZID=America/Chicago:20260917T220000
+SUMMARY:Improvement Movement @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/improvement-movement-tickets/milwaukee-wisconsin-vivarium-2026-09-17-8-pm/concert/18400945
+URL:https://seatgeek.com/improvement-movement-tickets/milwaukee-wisconsin-vivarium-2026-09-17-8-pm/concert/18400945
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-18-18:30-UICIDEBOYAmericanFamilyInsuranceAmphithe@theconfluence
@@ -2227,15 +2218,6 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/hunter-hill-milwaukee-impro
 URL:https://www.ticketweb.com/event/hunter-hill-milwaukee-improv-main-room-tickets/14521563
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-08-19:30-TheHauntXRayArcade@theconfluence
-DTSTART;TZID=America/Chicago:20261008T193000
-DTEND;TZID=America/Chicago:20261008T213000
-SUMMARY:The Haunt @ X-Ray Arcade
-LOCATION:X-Ray Arcade\, Cudahy
-DESCRIPTION:Tickets: https://seatgeek.com/the-haunt-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-08-7-30-pm/concert/18410531
-URL:https://seatgeek.com/the-haunt-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-08-7-30-pm/concert/18410531
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-08-19:30-TheBrightLightSocialHourCactusClub@theconfluence
 DTSTART;TZID=America/Chicago:20261008T193000
 DTEND;TZID=America/Chicago:20261008T213000
@@ -2243,6 +2225,15 @@ SUMMARY:The Bright Light Social Hour @ Cactus Club
 LOCATION:Cactus Club\, Bay View
 DESCRIPTION:Tickets: https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692
 URL:https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-08-19:30-TheHauntXRayArcade@theconfluence
+DTSTART;TZID=America/Chicago:20261008T193000
+DTEND;TZID=America/Chicago:20261008T213000
+SUMMARY:The Haunt @ X-Ray Arcade
+LOCATION:X-Ray Arcade\, Cudahy
+DESCRIPTION:Tickets: https://seatgeek.com/the-haunt-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-08-7-30-pm/concert/18410531
+URL:https://seatgeek.com/the-haunt-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-08-7-30-pm/concert/18410531
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-08-20:00-WayneHancockShankHall@theconfluence
@@ -4072,6 +4063,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactu
 URL:https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactus-club-2026-11-22-7-pm/concert/18400698
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261122T200000
+DTEND;TZID=America/Chicago:20261122T220000
+SUMMARY:Michigander @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
+URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20261122T200000
 DTEND;TZID=America/Chicago:20261122T220000
@@ -4088,15 +4088,6 @@ SUMMARY:Hot Freaks: Soft Body Tour w/ Thesaurus Rex @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-tickets-1993842013134
 URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-tickets-1993842013134
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261122T200000
-DTEND;TZID=America/Chicago:20261122T220000
-SUMMARY:Michigander @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
-URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-20:00-ChrissyChlapeckaTheArgo@theconfluence

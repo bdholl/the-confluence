@@ -1,35 +1,6 @@
 {
-  "updated": "2026-08-16",
+  "updated": "2026-08-17",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/414/eec4659a-b582-47b3-b4d6-a9dfa6324414_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-16",
-      "time": "19:30",
-      "title": "Bryan Adams",
-      "support": "Pat Benatar & Neil Giraldo",
-      "venue": "Fiserv Forum",
-      "hood": "Deer District",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/bryan-adams-roll-with-the-punches-milwaukee-wisconsin-08-16-2026/event/0700647096E12C4A",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/bryan-adams-roll-with-the-punches-milwaukee-wisconsin-08-16-2026/event/0700647096E12C4A"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bryan-adams-tickets/milwaukee-wisconsin-fiserv-forum-2026-08-16-7-30-pm/concert/18138136"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/1b/ef/b61befa0-78e2-302e-6e11-61b9b1ccfb4a/mzaf_6549192166299634383.plus.aac.p.m4a",
-        "track": "(Everything I Do) I Do It for You",
-        "artist": "Bryan Adams",
-        "kind": "Rock"
-      },
-      "slug": "bryan-adams-2026-08-16"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/646/1b8fbcb9-46d0-45e4-ba5c-867795b8c646_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-08-18",
@@ -3407,6 +3378,25 @@
       "slug": "kevin-smith-2026-09-17"
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/bleach-b5701a/94408/huge.jpg",
+      "date": "2026-09-17",
+      "time": "20:00",
+      "title": "Bleach",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
+        }
+      ],
+      "slug": "bleach-2026-09-17"
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/improvement-movement-9e976e/1961898/huge.jpg",
       "date": "2026-09-17",
       "time": "20:00",
@@ -3430,25 +3420,6 @@
         "kind": "Folk"
       },
       "slug": "improvement-movement-2026-09-17"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/bleach-b5701a/94408/huge.jpg",
-      "date": "2026-09-17",
-      "time": "20:00",
-      "title": "Bleach",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
-        }
-      ],
-      "slug": "bleach-2026-09-17"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/ea8/fe1025a1-d118-4c3f-b53a-29810fd0bea8_RETINA_PORTRAIT_16_9.jpg",
@@ -6337,31 +6308,6 @@
       "slug": "hunter-hill-2026-10-08"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/generic-concerts-1095cf/677165/47517/huge.jpg",
-      "date": "2026-10-08",
-      "time": "19:30",
-      "title": "The Haunt",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-haunt-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-08-7-30-pm/concert/18410531",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-haunt-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-08-7-30-pm/concert/18410531"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/76/7a/26767a20-9708-7853-b2c4-72ebde9eba0c/mzaf_8687855225556867898.plus.aac.p.m4a",
-        "track": "Ghost",
-        "artist": "The Haunt",
-        "kind": "Rock"
-      },
-      "slug": "the-haunt-2026-10-08"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/the-bright-light-social-hour-a3d915/15055/huge.jpg",
       "date": "2026-10-08",
       "time": "19:30",
@@ -6385,6 +6331,31 @@
         "kind": "Alternative"
       },
       "slug": "the-bright-light-social-hour-2026-10-08"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/generic-concerts-1095cf/677165/47517/huge.jpg",
+      "date": "2026-10-08",
+      "time": "19:30",
+      "title": "The Haunt",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-haunt-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-08-7-30-pm/concert/18410531",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-haunt-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-08-7-30-pm/concert/18410531"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/76/7a/26767a20-9708-7853-b2c4-72ebde9eba0c/mzaf_8687855225556867898.plus.aac.p.m4a",
+        "track": "Ghost",
+        "artist": "The Haunt",
+        "kind": "Rock"
+      },
+      "slug": "the-haunt-2026-10-08"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/7be/4e1e9428-29ec-401f-aa45-f1577614b7be_105421_RETINA_PORTRAIT_16_9.jpg",
@@ -11592,6 +11563,31 @@
       "slug": "jady-2026-11-22"
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/michigander-fd98bb/383377/huge.jpg",
+      "date": "2026-11-22",
+      "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/hot-freaks-41554b/811054/huge.jpg",
       "date": "2026-11-22",
       "time": "20:00",
@@ -11640,31 +11636,6 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-soft-body-tour-w-thesaurus-rex-2026-11-22"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/michigander-fd98bb/383377/huge.jpg",
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188315677%2F285524009645%2F1%2Foriginal.20260706-200346?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.465&s=c287fb00f379d2ee2834a6498c370395",
