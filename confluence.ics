@@ -18,8 +18,8 @@ DTSTART;TZID=America/Chicago:20260818T190000
 DTEND;TZID=America/Chicago:20260818T210000
 SUMMARY:Theory of a Deadman @ The Rave / Eagles Club
 LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:With Sevendust. Tickets: https://seatgeek.com/theory-of-a-deadman-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-18-3-30-am/concert/18224825
-URL:https://seatgeek.com/theory-of-a-deadman-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-18-3-30-am/concert/18224825
+DESCRIPTION:With Sevendust. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7PM7K
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PM7K
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-19-19:00-JerryWayneLongmireMilwaukeeImprov@theconfluence
@@ -38,6 +38,15 @@ SUMMARY:Swing Jazz Wednesdays: The Sazerac 5 (Free) @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-1993634965850
 URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-1993634965850
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-19-19:00-TriviaNightFreeTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20260819T190000
+DTEND;TZID=America/Chicago:20260819T210000
+SUMMARY:Trivia Night (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/trivia-night-free-tickets-1998290967075
+URL:https://www.eventbrite.com/e/trivia-night-free-tickets-1998290967075
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-20-18:00-SalsaDancingNightTheArgo@theconfluence
@@ -1777,13 +1786,13 @@ DESCRIPTION:Tickets: https://seatgeek.com/mico-tickets/milwaukee-wisconsin-turne
 URL:https://seatgeek.com/mico-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-28-8-pm/concert/18259835
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-29-16:30-TheArgoOpenHouseTheArgo@theconfluence
+UID:2026-09-29-16:30-TheArgoWeddingExpoOpenHouseTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20260929T163000
 DTEND;TZID=America/Chicago:20260929T183000
-SUMMARY:The Argo Open House @ The Argo
+SUMMARY:The Argo Wedding Expo & Open House @ The Argo
 LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752
-URL:https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-argo-wedding-expo-open-house-tickets-1997398857752
+URL:https://www.eventbrite.com/e/the-argo-wedding-expo-open-house-tickets-1997398857752
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-29-19:00-BaywayXRayArcade@theconfluence
@@ -3046,15 +3055,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/rod-tuffcurls-the-bench-press-tickets/
 URL:https://seatgeek.com/rod-tuffcurls-the-bench-press-tickets/milwaukee-wisconsin-vivarium-2026-10-23-8-pm/concert/18400983
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-23-20:00-WolfmanJackShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20261023T200000
-DTEND;TZID=America/Chicago:20261023T220000
-SUMMARY:Wolfman Jack @ Shank Hall
-LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636
-URL:https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-23-20:00-TheBuenaVistaOrchestraPabstTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261023T200000
 DTEND;TZID=America/Chicago:20261023T220000
@@ -3062,6 +3062,15 @@ SUMMARY:The Buena Vista Orchestra @ Pabst Theater
 LOCATION:Pabst Theater\, Downtown
 DESCRIPTION:Tickets: https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495
 URL:https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23-20:00-WolfmanJackShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20261023T200000
+DTEND;TZID=America/Chicago:20261023T220000
+SUMMARY:Wolfman Jack @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636
+URL:https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-20:30-ZacariasFerreiraTheRaveEaglesClub@theconfluence
@@ -3386,6 +3395,15 @@ SUMMARY:Keith Pedro @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/keith-pedro-milwaukee-improv-main-room-tickets/14260564
 URL:https://www.ticketweb.com/event/keith-pedro-milwaukee-improv-main-room-tickets/14260564
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-01-19:30-JonasBrothersFiservForum@theconfluence
+DTSTART;TZID=America/Chicago:20261101T193000
+DTEND;TZID=America/Chicago:20261101T213000
+SUMMARY:Jonas Brothers @ Fiserv Forum
+LOCATION:Fiserv Forum\, Deer District
+DESCRIPTION:With Magnus Ferrell. Tickets: https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB
+URL:https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01-20:00-SophieHunterVivarium@theconfluence

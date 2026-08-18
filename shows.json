@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "shows": [
     {
       "img": "https://s1.ticketm.net/dam/a/646/1b8fbcb9-46d0-45e4-ba5c-867795b8c646_RETINA_PORTRAIT_16_9.jpg",
@@ -39,13 +39,9 @@
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
       "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/theory-of-a-deadman-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-18-3-30-am/concert/18224825",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PM7K",
       "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/theory-of-a-deadman-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-18-3-30-am/concert/18224825"
-        },
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PM7K"
@@ -108,6 +104,25 @@
         }
       ],
       "slug": "swing-jazz-wednesdays-the-sazerac-5-free-2026-08-19"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191291788%2F2748863006061%2F1%2Foriginal.20260817-232926?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e3b5341fef38c26e8c4c71f1dd967133",
+      "date": "2026-08-19",
+      "time": "19:00",
+      "title": "Trivia Night (Free)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/trivia-night-free-tickets-1998290967075",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/trivia-night-free-tickets-1998290967075"
+        }
+      ],
+      "slug": "trivia-night-free-2026-08-19"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188030355%2F285524009645%2F1%2Foriginal.20260701-195017?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa73f5e7389d330b883eb44d23d781e0",
@@ -1980,7 +1995,7 @@
       "slug": "steel-beans-presents-steel-beans-is-a-psyop-tour-2026-2026-09-04"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/bingo-loco-84a98b/685519/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/70b/dcda4fe8-2449-483c-93a1-03877718a70b_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-05",
       "time": "18:00",
       "title": "Bingo Loco",
@@ -1994,6 +2009,10 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/bingo-loco-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-05-6-pm/concert/18400552"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JoPN"
         }
       ],
       "slug": "bingo-loco-2026-09-05"
@@ -4999,23 +5018,23 @@
       "slug": "mico-2026-09-28"
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190668765%2F285524009645%2F1%2Foriginal.20260809-231004?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=02bbdb75748caae957aa8230e26ed7c2",
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191213972%2F2748863006061%2F1%2Foriginal.20260817-033901?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.143&s=96befc14693455db9a339adc87dde365",
       "date": "2026-09-29",
       "time": "16:30",
-      "title": "The Argo Open House",
+      "title": "The Argo Wedding Expo & Open House",
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
       "genre": "other",
       "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752",
+      "url": "https://www.eventbrite.com/e/the-argo-wedding-expo-open-house-tickets-1997398857752",
       "offers": [
         {
           "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752"
+          "url": "https://www.eventbrite.com/e/the-argo-wedding-expo-open-house-tickets-1997398857752"
         }
       ],
-      "slug": "the-argo-open-house-2026-09-29"
+      "slug": "the-argo-wedding-expo-and-open-house-2026-09-29"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/bayway-9404d3/1964402/huge.jpg",
@@ -5626,6 +5645,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/cracker-shank-hall-tickets/14922983",
           "price": 40.93
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/cracker-tickets/milwaukee-wisconsin-shank-hall-2026-10-03-12-pm/concert/18400621"
         }
       ],
       "preview": {
@@ -8651,31 +8674,6 @@
       "slug": "rod-tuffcurls-and-the-bench-press-2026-10-23"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/wolfman-jack-d55efd/796411/huge.jpg",
-      "date": "2026-10-23",
-      "time": "20:00",
-      "title": "Wolfman Jack",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/1a/7c/951a7c0d-731a-71f6-073f-0504a227eb9d/mzaf_2955758073806199377.plus.aac.p.m4a",
-        "track": "Lay Your Hand On the Radio",
-        "artist": "Wolfman Jack",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "wolfman-jack-2026-10-23"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/the-buena-vista-orchestra-90dfcb/1954936/huge.jpg",
       "date": "2026-10-23",
       "time": "20:00",
@@ -8699,6 +8697,31 @@
         "kind": "Latin"
       },
       "slug": "the-buena-vista-orchestra-2026-10-23"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/wolfman-jack-d55efd/796411/huge.jpg",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "title": "Wolfman Jack",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "hiphop",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/1a/7c/951a7c0d-731a-71f6-073f-0504a227eb9d/mzaf_2955758073806199377.plus.aac.p.m4a",
+        "track": "Lay Your Hand On the Radio",
+        "artist": "Wolfman Jack",
+        "kind": "Hip-Hop/Rap"
+      },
+      "slug": "wolfman-jack-2026-10-23"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/1a6/2d346343-859f-4e91-b997-36b46e5091a6_RETINA_PORTRAIT_16_9.jpg",
@@ -9193,7 +9216,7 @@
         },
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/angel-1-tickets/milwaukee-wisconsin-shank-hall-2026-10-28-8-pm/concert/18115562"
+          "url": "https://seatgeek.com/angel-tickets/milwaukee-wisconsin-shank-hall-2026-10-28-8-pm/concert/18115562"
         }
       ],
       "slug": "angel-2026-10-28"
@@ -9607,6 +9630,37 @@
         "kind": "Comedy"
       },
       "slug": "keith-pedro-2026-11-01"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/378/809a1187-1545-43be-b5ab-e2d220621378_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-08-21T15:00:00Z",
+      "date": "2026-11-01",
+      "time": "19:30",
+      "title": "Jonas Brothers",
+      "support": "Magnus Ferrell",
+      "venue": "Fiserv Forum",
+      "hood": "Deer District",
+      "genre": "pop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/jonas-brothers-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-01-7-30-pm/concert/18503891"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/84/c8/9a84c8e2-06c6-2035-cb14-3328cc78246b/mzaf_10606044621508595579.plus.aac.p.m4a",
+        "track": "Burnin' Up",
+        "artist": "Jonas Brothers",
+        "kind": "Pop"
+      },
+      "slug": "jonas-brothers-2026-11-01"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/c87/076f8133-0e85-4add-a34a-a7b891795c87_RETINA_PORTRAIT_16_9.jpg",
