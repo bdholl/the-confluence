@@ -1,60 +1,6 @@
 {
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/646/1b8fbcb9-46d0-45e4-ba5c-867795b8c646_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-18",
-      "time": "19:00",
-      "title": "Empire of the Sun",
-      "support": "Polo & Pan, Midnight Generation",
-      "venue": "BMO Pavilion",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/empire-of-the-sun-ask-that-milwaukee-wisconsin-08-18-2026/event/07006465DEA99891",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/empire-of-the-sun-ask-that-milwaukee-wisconsin-08-18-2026/event/07006465DEA99891"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/empire-of-the-sun-tickets/milwaukee-wisconsin-bmo-pavilion-2026-08-18-7-pm/concert/18117196"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/32/28/ff322824-bf6c-f621-5c2e-32dcb237edca/mzaf_15258983271916273742.plus.aac.p.m4a",
-        "track": "Walking On a Dream",
-        "artist": "Empire Of The Sun",
-        "kind": "Electronic"
-      },
-      "slug": "empire-of-the-sun-2026-08-18"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/0e7/e5547df1-9f39-410a-8b88-517486d990e7_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-18",
-      "time": "19:00",
-      "title": "Theory of a Deadman",
-      "support": "Sevendust",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "indie",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PM7K",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PM7K"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ca/f2/26/caf22653-6d05-b782-51d2-2e739cbe36eb/mzaf_5438306085039030240.plus.aac.p.m4a",
-        "track": "Not Meant to Be",
-        "artist": "Theory of a Deadman",
-        "kind": "Rock"
-      },
-      "slug": "theory-of-a-deadman-2026-08-18"
-    },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "price": 26.22,
@@ -104,25 +50,6 @@
         }
       ],
       "slug": "swing-jazz-wednesdays-the-sazerac-5-free-2026-08-19"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191291788%2F2748863006061%2F1%2Foriginal.20260817-232926?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e3b5341fef38c26e8c4c71f1dd967133",
-      "date": "2026-08-19",
-      "time": "19:00",
-      "title": "Trivia Night (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/trivia-night-free-tickets-1998290967075",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/trivia-night-free-tickets-1998290967075"
-        }
-      ],
-      "slug": "trivia-night-free-2026-08-19"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188030355%2F285524009645%2F1%2Foriginal.20260701-195017?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa73f5e7389d330b883eb44d23d781e0",
@@ -1066,11 +993,11 @@
       "slug": "line-dancing-night-w-redd-s-line-up-2026-08-27"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-marshall-tucker-band-7db97a/1196/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/78a/ddb6d0f7-14ce-48d3-b418-16a46790f78a_1828291_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-08-27",
       "time": "19:30",
       "title": "The Marshall Tucker Band",
-      "support": null,
+      "support": "Lady Bird",
       "venue": "Pabst Theater",
       "hood": "Downtown",
       "genre": "rock",
@@ -1080,6 +1007,10 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/the-marshall-tucker-band-tickets/milwaukee-wisconsin-pabst-theater-2026-08-27-7-30-pm/concert/18400479"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZUAx"
         }
       ],
       "preview": {
@@ -1151,7 +1082,7 @@
       "slug": "lucki-2026-08-27"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/daikaiju-77fc7a/18982/huge.jpg",
+      "img": "https://seatgeekimages.com/performers-landscape/daikaiju-c49898/18982/huge.jpg",
       "date": "2026-08-27",
       "time": "20:00",
       "title": "Daikaiju",
@@ -4264,7 +4195,7 @@
       "slug": "aj-lee-and-blue-summit-2026-09-23"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/public-image-ltd-9177ca/4452/30056/huge.jpg",
+      "img": "https://seatgeekimages.com/performers-landscape/public-image-ltd-651a40/4452/30054/huge.jpg",
       "date": "2026-09-23",
       "time": "20:00",
       "title": "Public Image Ltd",
@@ -5018,23 +4949,23 @@
       "slug": "mico-2026-09-28"
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191213972%2F2748863006061%2F1%2Foriginal.20260817-033901?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.143&s=96befc14693455db9a339adc87dde365",
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190668765%2F285524009645%2F1%2Foriginal.20260809-231004?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=02bbdb75748caae957aa8230e26ed7c2",
       "date": "2026-09-29",
       "time": "16:30",
-      "title": "The Argo Wedding Expo & Open House",
+      "title": "The Argo Open House",
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
       "genre": "other",
       "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-argo-wedding-expo-open-house-tickets-1997398857752",
+      "url": "https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752",
       "offers": [
         {
           "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-argo-wedding-expo-open-house-tickets-1997398857752"
+          "url": "https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752"
         }
       ],
-      "slug": "the-argo-wedding-expo-and-open-house-2026-09-29"
+      "slug": "the-argo-open-house-2026-09-29"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/bayway-9404d3/1964402/huge.jpg",
@@ -5645,10 +5576,6 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/cracker-shank-hall-tickets/14922983",
           "price": 40.93
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/cracker-tickets/milwaukee-wisconsin-shank-hall-2026-10-03-12-pm/concert/18400621"
         }
       ],
       "preview": {
@@ -6331,31 +6258,6 @@
       "slug": "hunter-hill-2026-10-08"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-bright-light-social-hour-a3d915/15055/huge.jpg",
-      "date": "2026-10-08",
-      "time": "19:30",
-      "title": "The Bright Light Social Hour",
-      "support": null,
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/a3/63/f8a3639d-ec82-777e-2b05-a86926a1c94c/mzaf_11873081065011976574.plus.aac.p.m4a",
-        "track": "Infinite Cities",
-        "artist": "The Bright Light Social Hour",
-        "kind": "Alternative"
-      },
-      "slug": "the-bright-light-social-hour-2026-10-08"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/generic-concerts-1095cf/677165/47517/huge.jpg",
       "date": "2026-10-08",
       "time": "19:30",
@@ -6379,6 +6281,31 @@
         "kind": "Rock"
       },
       "slug": "the-haunt-2026-10-08"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/the-bright-light-social-hour-a3d915/15055/huge.jpg",
+      "date": "2026-10-08",
+      "time": "19:30",
+      "title": "The Bright Light Social Hour",
+      "support": null,
+      "venue": "Cactus Club",
+      "hood": "Bay View",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/a3/63/f8a3639d-ec82-777e-2b05-a86926a1c94c/mzaf_11873081065011976574.plus.aac.p.m4a",
+        "track": "Infinite Cities",
+        "artist": "The Bright Light Social Hour",
+        "kind": "Alternative"
+      },
+      "slug": "the-bright-light-social-hour-2026-10-08"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/7be/4e1e9428-29ec-401f-aa45-f1577614b7be_105421_RETINA_PORTRAIT_16_9.jpg",
@@ -7720,25 +7647,6 @@
       "slug": "the-toxhards-2026-10-16"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/ben-schwartz-56309f/615991/huge.jpg",
-      "date": "2026-10-16",
-      "time": "20:00",
-      "title": "Ben Schwartz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
-        }
-      ],
-      "slug": "ben-schwartz-2026-10-16"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/friko-704b1c/205524/huge.jpg",
       "date": "2026-10-16",
       "time": "20:00",
@@ -7762,6 +7670,25 @@
         "kind": "Alternative"
       },
       "slug": "friko-2026-10-16"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/ben-schwartz-56309f/615991/huge.jpg",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "title": "Ben Schwartz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
+        }
+      ],
+      "slug": "ben-schwartz-2026-10-16"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/brian-posehn-a3dfdb/7217/huge.jpg",
@@ -7903,7 +7830,7 @@
       "date": "2026-10-17",
       "time": "19:00",
       "title": "Skillet",
-      "support": null,
+      "support": "Escape the Fate, Bad Wolves",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "rock",
@@ -8674,31 +8601,6 @@
       "slug": "rod-tuffcurls-and-the-bench-press-2026-10-23"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-buena-vista-orchestra-90dfcb/1954936/huge.jpg",
-      "date": "2026-10-23",
-      "time": "20:00",
-      "title": "The Buena Vista Orchestra",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "latin",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/dc/bb/60dcbb20-93ab-4a5d-6b2e-8564678ebff7/mzaf_14207648578104142895.plus.aac.p.m4a",
-        "track": "Chan Chan (Live in Austin, TX)",
-        "artist": "The Buena Vista Orchestra",
-        "kind": "Latin"
-      },
-      "slug": "the-buena-vista-orchestra-2026-10-23"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/wolfman-jack-d55efd/796411/huge.jpg",
       "date": "2026-10-23",
       "time": "20:00",
@@ -8722,6 +8624,31 @@
         "kind": "Hip-Hop/Rap"
       },
       "slug": "wolfman-jack-2026-10-23"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/the-buena-vista-orchestra-90dfcb/1954936/huge.jpg",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "title": "The Buena Vista Orchestra",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "latin",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/dc/bb/60dcbb20-93ab-4a5d-6b2e-8564678ebff7/mzaf_14207648578104142895.plus.aac.p.m4a",
+        "track": "Chan Chan (Live in Austin, TX)",
+        "artist": "The Buena Vista Orchestra",
+        "kind": "Latin"
+      },
+      "slug": "the-buena-vista-orchestra-2026-10-23"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/1a6/2d346343-859f-4e91-b997-36b46e5091a6_RETINA_PORTRAIT_16_9.jpg",
@@ -10409,6 +10336,25 @@
       "slug": "bill-callahan-2026-11-08"
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/the-music-of-hey-arnold-live-8fbe3d/1989756/huge.jpg",
+      "date": "2026-11-09",
+      "time": "20:00",
+      "title": "The Music of Hey Arnold! Live",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-music-of-hey-arnold-live-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-09-8-pm/concert/18509114",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-music-of-hey-arnold-live-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-09-8-pm/concert/18509114"
+        }
+      ],
+      "slug": "the-music-of-hey-arnold-live-2026-11-09"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/cfa/e476394e-b2ce-4a11-8230-879e15686cfa_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-10",
       "time": "19:00",
@@ -10488,6 +10434,29 @@
         "kind": "Rock"
       },
       "slug": "jack-white-2026-11-10"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-08-21T15:00:00Z",
+      "price": 24.96,
+      "date": "2026-11-10",
+      "time": "20:00",
+      "title": "Amythyst Kiah with Buffalo Nichols",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "folk",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/amythyst-kiah-with-buffalo-nichols-shank-hall-tickets/15043373",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/amythyst-kiah-with-buffalo-nichols-shank-hall-tickets/15043373",
+          "price": 24.96
+        }
+      ],
+      "slug": "amythyst-kiah-with-buffalo-nichols-2026-11-10"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -11078,6 +11047,27 @@
       "slug": "the-wild-kratts-live-2026-11-15"
     },
     {
+      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
+      "price": 32.39,
+      "date": "2026-11-15",
+      "time": "18:00",
+      "title": "Tee Sanders",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/tee-sanders-milwaukee-improv-main-room-tickets/15043603",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/tee-sanders-milwaukee-improv-main-room-tickets/15043603",
+          "price": 32.39
+        }
+      ],
+      "slug": "tee-sanders-2026-11-15"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/4ca/5c9545d5-be9f-4824-869b-42bf3734f4ca_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-15",
       "time": "20:00",
@@ -11617,31 +11607,6 @@
       "slug": "jady-2026-11-22"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/michigander-fd98bb/383377/huge.jpg",
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/hot-freaks-41554b/811054/huge.jpg",
       "date": "2026-11-22",
       "time": "20:00",
@@ -11690,6 +11655,31 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-soft-body-tour-w-thesaurus-rex-2026-11-22"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/michigander-fd98bb/383377/huge.jpg",
+      "date": "2026-11-22",
+      "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188315677%2F285524009645%2F1%2Foriginal.20260706-200346?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.465&s=c287fb00f379d2ee2834a6498c370395",
@@ -11866,6 +11856,29 @@
       "slug": "pete-lee-2026-11-28"
     },
     {
+      "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-08-20T15:00:00Z",
+      "price": 24.96,
+      "date": "2026-11-28",
+      "time": "20:00",
+      "title": "The Last Waltz: 50th Anniversary Tribute",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/the-last-waltz-50th-anniversary-shank-hall-tickets/15044173",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/the-last-waltz-50th-anniversary-shank-hall-tickets/15044173",
+          "price": 24.96
+        }
+      ],
+      "slug": "the-last-waltz-50th-anniversary-tribute-2026-11-28"
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189819911%2F285524009645%2F1%2Foriginal.20260728-195518?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2bc4a95a0e174c2b0e1843086e8349e8",
       "date": "2026-11-28",
       "time": "20:00",
@@ -11945,6 +11958,35 @@
         "kind": "Christian"
       },
       "slug": "the-collingsworth-family-2026-11-30"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-08-20T17:00:00Z",
+      "price": 24.96,
+      "date": "2026-12-02",
+      "time": "20:00",
+      "title": "JARED JAMES NICHOLS",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/jared-james-nichols-shank-hall-tickets/15043863",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/jared-james-nichols-shank-hall-tickets/15043863",
+          "price": 24.96
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/a8/b9/57a8b93e-f518-a96d-adc6-0b50a068a853/mzaf_826669858454392431.plus.aac.p.m4a",
+        "track": "Let's Go",
+        "artist": "Jared James Nichols",
+        "kind": "Rock"
+      },
+      "slug": "jared-james-nichols-2026-12-02"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/fb2/3a21ec04-36e3-4510-baa9-d04f58b81fb2_RETINA_PORTRAIT_16_9.jpg",
@@ -12061,6 +12103,29 @@
         "kind": "Comedy"
       },
       "slug": "jessica-kirson-2026-12-04"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-08-21T15:00:00Z",
+      "price": 30.37,
+      "date": "2026-12-04",
+      "time": "20:00",
+      "title": "Davina and the Vagabonds",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "jazz",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/davina-and-the-vagabonds-shank-hall-tickets/15043703",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/davina-and-the-vagabonds-shank-hall-tickets/15043703",
+          "price": 30.37
+        }
+      ],
+      "slug": "davina-and-the-vagabonds-2026-12-04"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/sisters-christmas-catechism-8f9cb3/12510/huge.jpg",
