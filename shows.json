@@ -1,56 +1,6 @@
 {
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
-      "price": 26.22,
-      "date": "2026-08-19",
-      "time": "19:00",
-      "title": "Jerry Wayne Longmire",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "other",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/jerry-wayne-longmire-milwaukee-improv-main-room-tickets/14854753",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/jerry-wayne-longmire-milwaukee-improv-main-room-tickets/14854753",
-          "price": 26.22
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jerry-wayne-longmire-tickets/comedy/2026-08-19-7-pm/18372570"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/38/69/15/mzm.nbbluked.aac.p.m4a",
-        "track": "CJ & the Family",
-        "artist": "Jerry Wayne Longmire",
-        "kind": "Comedy"
-      },
-      "slug": "jerry-wayne-longmire-2026-08-19"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180188566%2F285524009645%2F1%2Foriginal.20260318-225446?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=817fcacd20f9bb3e4e17a3ba6cf40e03",
-      "date": "2026-08-19",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesdays: The Sazerac 5 (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "jazz",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-1993634965850",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-1993634965850"
-        }
-      ],
-      "slug": "swing-jazz-wednesdays-the-sazerac-5-free-2026-08-19"
-    },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188030355%2F285524009645%2F1%2Foriginal.20260701-195017?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa73f5e7389d330b883eb44d23d781e0",
       "date": "2026-08-20",
@@ -184,6 +134,25 @@
         }
       ],
       "slug": "ron-funches-2026-08-20"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/kal-mcraven-493da2/1989865/huge.jpg",
+      "date": "2026-08-20",
+      "time": "20:00",
+      "title": "FunkyFrogBait (Kal McRaven)",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/kal-mcraven-tickets/comedy/2026-08-20-8-pm/18513233",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/kal-mcraven-tickets/comedy/2026-08-20-8-pm/18513233"
+        }
+      ],
+      "slug": "funkyfrogbait-kal-mcraven-2026-08-20"
     },
     {
       "img": "https://s1.ticketm.net/dam/e/64e/d419005c-0280-4ad3-861f-4052ddab864e_RETINA_PORTRAIT_16_9.jpg",
@@ -3641,11 +3610,11 @@
       "hood": "Downtown",
       "genre": "comedy",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/hasan-minhaj-tickets/comedy/2026-09-19-7-pm/18299484",
+      "url": "https://seatgeek.com/hasan-minhaj-tickets/comedy/2026-09-19-7-pm/18400620",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/hasan-minhaj-tickets/comedy/2026-09-19-7-pm/18299484"
+          "url": "https://seatgeek.com/hasan-minhaj-tickets/comedy/2026-09-19-7-pm/18400620"
         }
       ],
       "slug": "hasan-minhaj-2026-09-19"
@@ -4661,9 +4630,13 @@
       "venue": "Pabst Theater",
       "hood": "Downtown",
       "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709ZJ",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/supertramp-tribute-tickets/milwaukee-wisconsin-pabst-theater-2026-09-26-8-pm/concert/18513235",
       "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/supertramp-tribute-tickets/milwaukee-wisconsin-pabst-theater-2026-09-26-8-pm/concert/18513235"
+        },
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709ZJ"
@@ -4949,23 +4922,23 @@
       "slug": "mico-2026-09-28"
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190668765%2F285524009645%2F1%2Foriginal.20260809-231004?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=02bbdb75748caae957aa8230e26ed7c2",
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191213972%2F2748863006061%2F1%2Foriginal.20260817-033901?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.143&s=96befc14693455db9a339adc87dde365",
       "date": "2026-09-29",
       "time": "16:30",
-      "title": "The Argo Open House",
+      "title": "The Argo Wedding Expo & Open House",
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
       "genre": "other",
       "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752",
+      "url": "https://www.eventbrite.com/e/the-argo-wedding-expo-open-house-tickets-1997398857752",
       "offers": [
         {
           "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-argo-open-house-tickets-1997398857752"
+          "url": "https://www.eventbrite.com/e/the-argo-wedding-expo-open-house-tickets-1997398857752"
         }
       ],
-      "slug": "the-argo-open-house-2026-09-29"
+      "slug": "the-argo-wedding-expo-and-open-house-2026-09-29"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/bayway-9404d3/1964402/huge.jpg",
@@ -5576,6 +5549,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/cracker-shank-hall-tickets/14922983",
           "price": 40.93
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/cracker-tickets/milwaukee-wisconsin-shank-hall-2026-10-03-12-pm/concert/18400621"
         }
       ],
       "preview": {
@@ -5876,6 +5853,31 @@
         }
       ],
       "slug": "the-carpenters-songbook-a-live-celebration-2026-10-04"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/clint-black-70c36a/478/30610/huge.jpg",
+      "date": "2026-10-04",
+      "time": "19:00",
+      "title": "Clint Black",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/clint-black-tickets/milwaukee-wisconsin-pabst-theater-2026-10-04-7-pm/concert/18513237",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/clint-black-tickets/milwaukee-wisconsin-pabst-theater-2026-10-04-7-pm/concert/18513237"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/73/0c/62/730c6285-4e36-dc4a-c65a-5267c4f6dd92/mzaf_13035131587573324981.plus.aac.p.m4a",
+        "track": "Killin' Time",
+        "artist": "Clint Black",
+        "kind": "Country"
+      },
+      "slug": "clint-black-2026-10-04"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -10236,6 +10238,31 @@
       "slug": "matt-rife-2026-11-07"
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/better-than-ezra-dc5983/289/15125/huge.jpg",
+      "date": "2026-11-07",
+      "time": "20:00",
+      "title": "Better Than Ezra",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/33/7a/0a/337a0af3-faf7-11b7-58ae-719a9589b966/mzaf_4280286902317630645.plus.aac.p.m4a",
+        "track": "Good",
+        "artist": "Better Than Ezra",
+        "kind": "Rock"
+      },
+      "slug": "better-than-ezra-2026-11-07"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "price": 26.22,
       "date": "2026-11-08",
@@ -10781,29 +10808,33 @@
       "slug": "sound-tribe-sector-9-sts9-2026-11-13"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/bryan-andrews-d20467/1957287/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-08-21T15:00:00Z",
+      "price": 24.96,
       "date": "2026-11-13",
       "time": "20:00",
-      "title": "Bryan Andrews",
+      "title": "Welshly Arms",
       "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482",
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/welshly-arms-shank-hall-tickets/15036363",
       "offers": [
         {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482"
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/welshly-arms-shank-hall-tickets/15036363",
+          "price": 24.96
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/46/a1/8c46a1b0-879c-2fa9-1912-3259ca773a16/mzaf_6523337656613776054.plus.aac.p.m4a",
-        "track": "Are We Great Yet?",
-        "artist": "Bryan Andrews",
-        "kind": "Country"
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7a/2c/cf/7a2ccfe1-15db-84ea-a31a-373e12ea8062/mzaf_9197516673507092341.plus.aac.p.m4a",
+        "track": "Legendary",
+        "artist": "Welshly Arms",
+        "kind": "Alternative"
       },
-      "slug": "bryan-andrews-2026-11-13"
+      "slug": "welshly-arms-2026-11-13"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/hovvdy-005bd1/336062/huge.jpg",
@@ -10829,6 +10860,31 @@
         "kind": "Alternative"
       },
       "slug": "hovvdy-2026-11-13"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/bryan-andrews-d20467/1957287/huge.jpg",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Bryan Andrews",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/46/a1/8c46a1b0-879c-2fa9-1912-3259ca773a16/mzaf_6523337656613776054.plus.aac.p.m4a",
+        "track": "Are We Great Yet?",
+        "artist": "Bryan Andrews",
+        "kind": "Country"
+      },
+      "slug": "bryan-andrews-2026-11-13"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/steve-martin-df0aba/8142/huge.jpg",
