@@ -1,309 +1,6 @@
 {
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/e/64e/d419005c-0280-4ad3-861f-4052ddab864e_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-21",
-      "time": "15:30",
-      "title": "Outlaw Music Festival",
-      "support": "Willie Nelson, The Avett Brothers, Lukas Nelson, Stephen Wilson Jr., Sierra Hull, Don Was",
-      "venue": "Alpine Valley Music Theatre",
-      "hood": "East Troy",
-      "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/outlaw-festival-willie-nelson-avett-brothers-east-troy-wisconsin-08-21-2026/event/07006472F746A0D5",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/outlaw-festival-willie-nelson-avett-brothers-east-troy-wisconsin-08-21-2026/event/07006472F746A0D5"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/outlaw-music-festival-tickets/east-troy-wisconsin-alpine-valley-music-theatre-2026-08-21-3-30-pm/concert/18140149"
-        }
-      ],
-      "slug": "outlaw-music-festival-2026-08-21"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-21",
-      "time": "18:00",
-      "title": "Fresh Coast Jazz Festival",
-      "support": "Spyro Gyra, Kandace Springs, Eric Essix",
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "jazz",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/fresh-coast-jazz-festival-tickets/milwaukee-wisconsin-pabst-theater-2026-08-21-6-pm/music-festival/17848786",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/fresh-coast-jazz-festival-tickets/milwaukee-wisconsin-pabst-theater-2026-08-21-6-pm/music-festival/17848786"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qdqz"
-        }
-      ],
-      "slug": "fresh-coast-jazz-festival-2026-08-21"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/a8b/1f0e11df-51b4-4481-9e0e-5783b4581a8b_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "date": "2026-08-21",
-      "time": "18:00",
-      "title": "Powerman 5000",
-      "support": null,
-      "venue": "Route 20",
-      "hood": "Sturtevant",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/powerman-5000-route-20-tickets/14796893?REFERRAL_ID=tmfeed",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/powerman-5000-route-20-tickets/14796893?REFERRAL_ID=tmfeed"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/powerman-5000-tickets/sturtevant-wisconsin-route-20-outhouse-2026-08-21-6-pm/concert/18132473"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e0/37/99/e03799a9-ae2e-d40f-669d-0e29f5c914fb/mzaf_15987245006032268628.plus.aac.p.m4a",
-        "track": "When Worlds Collide",
-        "artist": "Powerman 5000",
-        "kind": "Hard Rock"
-      },
-      "slug": "powerman-5000-2026-08-21"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188847099%2F285524009645%2F1%2Foriginal.20260714-165211?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d908899bbe08e88b624a7bdc303260a7",
-      "date": "2026-08-21",
-      "time": "18:00",
-      "title": "Kid Boogie Down: Let's GLOW Crazy",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/kid-boogie-down-lets-glow-crazy-tickets-1993365472789",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/kid-boogie-down-lets-glow-crazy-tickets-1993365472789"
-        }
-      ],
-      "slug": "kid-boogie-down-let-s-glow-crazy-2026-08-21"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/18d/16b0a14e-0a70-4a97-9583-d328359a318d_1281791_RETINA_PORTRAIT_16_9.jpg",
-      "price": 51.22,
-      "date": "2026-08-21",
-      "time": "19:00",
-      "title": "Eddie Griffin",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016733",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/eddie-griffin-milwaukee-improv-main-room-tickets/15016733",
-          "price": 51.22
-        }
-      ],
-      "times": [
-        "19:00",
-        "21:30"
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/8f/ec/8d8fec42-ab02-4eb8-0edb-3008d7514cb2/mzaf_1597622563239694748.plus.aac.p.m4a",
-        "track": "Bone People",
-        "artist": "Eddie Griffin",
-        "kind": "Comedy"
-      },
-      "slug": "eddie-griffin-2026-08-21"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/dl-hughley-4fd25d/5264/huge.jpg",
-      "date": "2026-08-21",
-      "time": "19:00",
-      "title": "DL Hughley",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/dl-hughley-tickets/comedy/2026-08-21-7-pm/18400907",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/dl-hughley-tickets/comedy/2026-08-21-7-pm/18400907"
-        }
-      ],
-      "times": [
-        "19:00",
-        "21:15"
-      ],
-      "slug": "dl-hughley-2026-08-21"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189015363%2F285524009645%2F1%2Foriginal.20260716-170816?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.442&s=9c73a40bcaa529263c8863cc1baab7d7",
-      "date": "2026-08-21",
-      "time": "19:00",
-      "title": "Nemesis Engine w/ Prog XP, Widacre, & 9Eyes",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/nemesis-engine-w-prog-xp-widacre-9eyes-tickets-1993357942265",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/nemesis-engine-w-prog-xp-widacre-9eyes-tickets-1993357942265"
-        }
-      ],
-      "slug": "nemesis-engine-w-prog-xp-widacre-and-9eyes-2026-08-21"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/vacation-manor-47d3b8/495822/huge.jpg",
-      "date": "2026-08-21",
-      "time": "19:30",
-      "title": "Vacation Manor",
-      "support": null,
-      "venue": "Anodyne Coffee Roasting Co.",
-      "hood": "Walker's Point",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/vacation-manor-tickets/milwaukee-wisconsin-anodyne-coffee-roasting-co-2026-08-21-7-30-pm/concert/18400794",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/vacation-manor-tickets/milwaukee-wisconsin-anodyne-coffee-roasting-co-2026-08-21-7-30-pm/concert/18400794"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/2e/8c/b0/2e8cb0e2-0dbe-77fe-c631-4a9dfa0c85f3/mzaf_9364897255669849536.plus.aac.p.m4a",
-        "track": "If Only for Tonight",
-        "artist": "Vacation Manor",
-        "kind": "Alternative"
-      },
-      "slug": "vacation-manor-2026-08-21"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
-      "price": 24.96,
-      "date": "2026-08-21",
-      "time": "20:00",
-      "title": "The Black Moods",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/the-black-moods-shank-hall-tickets/14223754",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/the-black-moods-shank-hall-tickets/14223754",
-          "price": 24.96
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-black-moods-tickets/milwaukee-wisconsin-shank-hall-2026-08-21-8-pm/concert/18400575"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/03/7b/76/037b76cc-14db-b9a3-3ab1-e3bb4f30dbbd/mzaf_5934504463171435731.plus.aac.p.m4a",
-        "track": "Sunshine",
-        "artist": "The Black Moods",
-        "kind": "Rock"
-      },
-      "slug": "the-black-moods-2026-08-21"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-21",
-      "time": "20:00",
-      "title": "Rio Da Yung Og",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/rio-da-yung-og-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-21-8-pm/concert/18259889",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/rio-da-yung-og-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-21-8-pm/concert/18259889"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70xqa"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/c1/0b/d4c10bae-6bd6-f853-5a5f-47d704e52d8c/mzaf_14315358451997520030.plus.aac.p.m4a",
-        "track": "RIO FREE",
-        "artist": "Rio Da Yung Og",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "rio-da-yung-og-2026-08-21"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/emmitt-james-e093a2/1982318/huge.jpg",
-      "date": "2026-08-21",
-      "time": "20:00",
-      "title": "Emmitt James",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/emmitt-james-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-08-21-8-pm/concert/18307069",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/emmitt-james-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-08-21-8-pm/concert/18307069"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/87/86/34/87863427-7d03-b78e-910e-5a15ed9214af/mzaf_11953037117615980017.plus.aac.p.m4a",
-        "track": "Real Love (feat. LENA. & Domino)",
-        "artist": "Emmitt James",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "emmitt-james-2026-08-21"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/bungalow-collect-8d3a9f/1982187/huge.jpg",
-      "date": "2026-08-21",
-      "time": "20:30",
-      "title": "Bungalow Collect",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bungalow-collect-tickets/milwaukee-wisconsin-vivarium-2026-08-21-8-30-pm/concert/18400960",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bungalow-collect-tickets/milwaukee-wisconsin-vivarium-2026-08-21-8-30-pm/concert/18400960"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/ec/83/52ec83e6-7d61-c47f-891e-f25628877506/mzaf_5102522780293918811.plus.aac.p.m4a",
-        "track": "How I Love",
-        "artist": "Bungalow Collect",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "bungalow-collect-2026-08-21"
-    },
     {
       "img": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-08-22",
@@ -1230,6 +927,25 @@
         "kind": "Comedy"
       },
       "slug": "ian-fidance-2026-08-29"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/home-for-the-weekend-0e7299/483157/huge.jpg",
+      "date": "2026-08-29",
+      "time": "19:00",
+      "title": "Home For the Weekend",
+      "support": null,
+      "venue": "Falcon Bowl",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/home-for-the-weekend-tickets/milwaukee-wisconsin-falcon-bowl-2026-08-29-7-pm/concert/18502565",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/home-for-the-weekend-tickets/milwaukee-wisconsin-falcon-bowl-2026-08-29-7-pm/concert/18502565"
+        }
+      ],
+      "slug": "home-for-the-weekend-2026-08-29"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191455283%2F285524009645%2F1%2Foriginal.20260819-193024?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=82211f19b78d77533f4f8492230c6ad9",
@@ -3202,6 +2918,25 @@
       "slug": "kevin-smith-2026-09-17"
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/bleach-b5701a/94408/huge.jpg",
+      "date": "2026-09-17",
+      "time": "20:00",
+      "title": "Bleach",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
+        }
+      ],
+      "slug": "bleach-2026-09-17"
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/improvement-movement-9e976e/1961898/huge.jpg",
       "date": "2026-09-17",
       "time": "20:00",
@@ -3225,25 +2960,6 @@
         "kind": "Folk"
       },
       "slug": "improvement-movement-2026-09-17"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/bleach-b5701a/94408/huge.jpg",
-      "date": "2026-09-17",
-      "time": "20:00",
-      "title": "Bleach",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
-        }
-      ],
-      "slug": "bleach-2026-09-17"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/ea8/fe1025a1-d118-4c3f-b53a-29810fd0bea8_RETINA_PORTRAIT_16_9.jpg",
@@ -3515,11 +3231,11 @@
       "hood": "Downtown",
       "genre": "comedy",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/hasan-minhaj-tickets/comedy/2026-09-19-7-pm/18400620",
+      "url": "https://seatgeek.com/hasan-minhaj-tickets/comedy/2026-09-19-7-pm/18299484",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/hasan-minhaj-tickets/comedy/2026-09-19-7-pm/18400620"
+          "url": "https://seatgeek.com/hasan-minhaj-tickets/comedy/2026-09-19-7-pm/18299484"
         }
       ],
       "slug": "hasan-minhaj-2026-09-19"
@@ -4292,6 +4008,31 @@
         "kind": "Alternative"
       },
       "slug": "they-might-be-giants-2026-09-25"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/conjunto-primavera-7b38fc/498/huge.jpg",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "title": "Conjunto Primavera",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/conjunto-primavera-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-25-8-pm/concert/18521326",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/conjunto-primavera-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-25-8-pm/concert/18521326"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ff/3c/bc/ff3cbc04-51df-2c26-2013-60b8ba51bad6/mzaf_11313067196015526971.plus.aac.p.m4a",
+        "track": "Necesito Decirte",
+        "artist": "Conjunto Primavera",
+        "kind": "Música Mexicana"
+      },
+      "slug": "conjunto-primavera-2026-09-25"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/briscoe-40ad73/803792/huge.jpg",
@@ -7752,7 +7493,7 @@
       "date": "2026-10-17",
       "time": "19:00",
       "title": "Skillet",
-      "support": "Escape the Fate, Bad Wolves",
+      "support": "Escape the Fate",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "rock",
@@ -8971,6 +8712,25 @@
       "slug": "all-them-witches-2026-10-26"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/8ae/76dadbb0-93e3-4c6c-b1da-3a0158a228ae_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-27",
+      "time": "19:00",
+      "title": "Fr. Mike Schmitz",
+      "support": null,
+      "venue": "Miller High Life Theatre",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZy4Y",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZy4Y"
+        }
+      ],
+      "slug": "fr-mike-schmitz-2026-10-27"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/3e6/a5887c53-4a2a-4c10-baa4-fa9f23df23e6_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-27",
       "time": "20:00",
@@ -9507,8 +9267,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/a/378/809a1187-1545-43be-b5ab-e2d220621378_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-08-21T15:00:00Z",
       "date": "2026-11-01",
       "time": "19:30",
       "title": "Jonas Brothers",
@@ -10449,8 +10207,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-08-21T15:00:00Z",
       "price": 24.96,
       "date": "2026-11-10",
       "time": "20:00",
@@ -10794,8 +10550,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-08-21T15:00:00Z",
       "price": 24.96,
       "date": "2026-11-13",
       "time": "20:00",
@@ -10822,31 +10576,6 @@
       "slug": "welshly-arms-2026-11-13"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/bryan-andrews-d20467/1957287/huge.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Bryan Andrews",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/46/a1/8c46a1b0-879c-2fa9-1912-3259ca773a16/mzaf_6523337656613776054.plus.aac.p.m4a",
-        "track": "Are We Great Yet?",
-        "artist": "Bryan Andrews",
-        "kind": "Country"
-      },
-      "slug": "bryan-andrews-2026-11-13"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/hovvdy-005bd1/336062/huge.jpg",
       "date": "2026-11-13",
       "time": "20:00",
@@ -10870,6 +10599,31 @@
         "kind": "Alternative"
       },
       "slug": "hovvdy-2026-11-13"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/bryan-andrews-d20467/1957287/huge.jpg",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Bryan Andrews",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/46/a1/8c46a1b0-879c-2fa9-1912-3259ca773a16/mzaf_6523337656613776054.plus.aac.p.m4a",
+        "track": "Are We Great Yet?",
+        "artist": "Bryan Andrews",
+        "kind": "Country"
+      },
+      "slug": "bryan-andrews-2026-11-13"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/steve-martin-df0aba/8142/huge.jpg",
@@ -11918,6 +11672,31 @@
       "slug": "the-last-waltz-50th-anniversary-tribute-2026-11-28"
     },
     {
+      "img": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-28",
+      "time": "20:00",
+      "title": "bleood",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZz40",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZz40"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/9a/e6/479ae627-9825-c63c-e67c-3151af60b68e/mzaf_6893254817879351329.plus.aac.p.m4a",
+        "track": "Everyone In the World Needs Bleood",
+        "artist": "bleood",
+        "kind": "Alternative"
+      },
+      "slug": "bleood-2026-11-28"
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189819911%2F285524009645%2F1%2Foriginal.20260728-195518?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2bc4a95a0e174c2b0e1843086e8349e8",
       "date": "2026-11-28",
       "time": "20:00",
@@ -12143,8 +11922,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-08-21T15:00:00Z",
       "price": 30.37,
       "date": "2026-12-04",
       "time": "20:00",
@@ -12568,6 +12345,31 @@
       "slug": "alfred-robles-2026-12-12"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/1c3/fab2b51a-f809-44ab-a500-b00fb6bd81c3_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-12",
+      "time": "19:30",
+      "title": "Ben Rector",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZb4F",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZb4F"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4c/c1/74/4cc174a5-b8ed-30a7-e43b-fc0f4d982455/mzaf_14479084348621511206.plus.aac.p.m4a",
+        "track": "Brand New",
+        "artist": "Ben Rector",
+        "kind": "Singer/Songwriter"
+      },
+      "slug": "ben-rector-2026-12-12"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
       "price": 30.37,
       "date": "2026-12-12",
@@ -12689,6 +12491,73 @@
         "kind": "Contemporary Jazz"
       },
       "slug": "the-bad-plus-2026-12-18"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/celtic-christmas-781ac9/292622/huge.jpg",
+      "date": "2026-12-19",
+      "time": "14:00",
+      "title": "A Celtic Christmas",
+      "support": null,
+      "venue": "Wilson Theater at Vogel Hall",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/celtic-christmas-tickets/milwaukee-wisconsin-vogel-hall-at-marcus-center-2026-12-19-2-pm/concert/18400705",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/celtic-christmas-tickets/milwaukee-wisconsin-vogel-hall-at-marcus-center-2026-12-19-2-pm/concert/18400705"
+        }
+      ],
+      "times": [
+        "14:00",
+        "19:30"
+      ],
+      "slug": "a-celtic-christmas-2026-12-19"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
+      "price": 32.39,
+      "date": "2026-12-19",
+      "time": "18:30",
+      "title": "Shuler King",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/shuler-king-milwaukee-improv-main-room-tickets/14968113",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/shuler-king-milwaukee-improv-main-room-tickets/14968113",
+          "price": 32.39
+        }
+      ],
+      "times": [
+        "18:30",
+        "21:00"
+      ],
+      "slug": "shuler-king-2026-12-19"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/lil-mo-mozzarella-7c5d57/1966369/huge.jpg",
+      "date": "2026-12-19",
+      "time": "20:00",
+      "title": "Lil Mo Mozzarella",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-12-19-8-pm/18400980",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-12-19-8-pm/18400980"
+        }
+      ],
+      "slug": "lil-mo-mozzarella-2026-12-19"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187966534%2F285524009645%2F1%2Foriginal.20260630-235741?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3097851842cb2589f03e476a93b46b2a",
