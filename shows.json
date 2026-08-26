@@ -1,91 +1,6 @@
 {
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/8e8/db979100-7f18-45e7-b941-ea2ce647b8e8_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-25",
-      "time": "20:00",
-      "title": "Paul Cauthen",
-      "support": "Ben Chapman",
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/paul-cauthen-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-08-25-8-pm/concert/18400556",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/paul-cauthen-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-08-25-8-pm/concert/18400556"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PSGe"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/c6/e9/61c6e9ee-7580-fb73-f89a-b42301c465f3/mzaf_7813340938288392014.plus.aac.p.m4a",
-        "track": "Cocaine Country Dancing",
-        "artist": "Paul Cauthen",
-        "kind": "Country"
-      },
-      "slug": "paul-cauthen-2026-08-25"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg",
-      "price": 19.3,
-      "date": "2026-08-25",
-      "time": "20:00",
-      "title": " clovers daughter",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/-clovers-daughter-shank-hall-tickets/14207954",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/-clovers-daughter-shank-hall-tickets/14207954",
-          "price": 19.3
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/ca/47/61ca478d-7414-4d38-8d2c-69bbe06fc7fd/mzaf_6443853484756803571.plus.aac.p.m4a",
-        "track": "Infatuated",
-        "artist": "clovers daughter",
-        "kind": "Pop"
-      },
-      "slug": "clovers-daughter-2026-08-25"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-25",
-      "time": "20:00",
-      "title": "Jay Webb",
-      "support": "Caitlynne Curtis",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/jay-webb-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-25-8-pm/concert/18346273",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jay-webb-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-08-25-8-pm/concert/18346273"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PM74"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/33/0f/29330f5f-693d-b334-cffa-2765aca3aadc/mzaf_4434516664265688482.plus.aac.p.m4a",
-        "track": "Love Me Tonight",
-        "artist": "Jay Webb",
-        "kind": "Country"
-      },
-      "slug": "jay-webb-2026-08-25"
-    },
     {
       "img": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-08-26",
@@ -427,7 +342,7 @@
       "slug": "trap-karaoke-2026-08-28"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/4ed/54c618b9-b02b-45ec-920d-2661ff6b24ed_RETINA_PORTRAIT_16_9.jpg",
+      "img": "https://s1.ticketm.net/dam/a/702/25aa95c8-8453-493a-803c-ed8bd8a24702_RETINA_PORTRAIT_16_9.jpg",
       "price": 5,
       "date": "2026-08-28",
       "time": "19:00",
@@ -618,7 +533,7 @@
       "slug": "country-in-the-burg-2026-08-29"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/4ed/54c618b9-b02b-45ec-920d-2661ff6b24ed_RETINA_PORTRAIT_16_9.jpg",
+      "img": "https://s1.ticketm.net/dam/a/702/25aa95c8-8453-493a-803c-ed8bd8a24702_RETINA_PORTRAIT_16_9.jpg",
       "price": 5,
       "date": "2026-08-29",
       "time": "18:30",
@@ -828,29 +743,6 @@
       "slug": "t-murph-2026-08-30"
     },
     {
-      "img": "https://s1.ticketm.net/dam/e/a63/2d0bdb2b-5c2a-49e7-853e-e77d152aba63_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-30",
-      "time": "19:30",
-      "title": "Thee Phantom & Illharmonic Orchestra",
-      "support": null,
-      "venue": "Uihlein Hall",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/thee-phantom-illharmonic-orchestra-milwaukee-wisconsin-08-30-2026/event/070064BAA32D34A6",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/thee-phantom-illharmonic-orchestra-milwaukee-wisconsin-08-30-2026/event/070064BAA32D34A6"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/thee-phantom-and-illharmonic-orchestra-tickets/milwaukee-wisconsin-uihlein-hall-at-marcus-center-for-the-performing-arts-2026-08-30-7-30-pm/concert/18269348"
-        }
-      ],
-      "slug": "thee-phantom-and-illharmonic-orchestra-2026-08-30"
-    },
-    {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-08-30",
       "time": "19:30",
@@ -878,6 +770,25 @@
         "kind": "Pop"
       },
       "slug": "iluka-2026-08-30"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/thee-phantom-and-illharmonic-orchestra-5f77f0/801661/47517/huge.jpg",
+      "date": "2026-08-30",
+      "time": "19:30",
+      "title": "Thee Phantom & Illharmonic Orchestra",
+      "support": null,
+      "venue": "Uihlein Hall",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/thee-phantom-and-illharmonic-orchestra-tickets/milwaukee-wisconsin-uihlein-hall-at-marcus-center-for-the-performing-arts-2026-08-30-7-30-pm/concert/18269348",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/thee-phantom-and-illharmonic-orchestra-tickets/milwaukee-wisconsin-uihlein-hall-at-marcus-center-for-the-performing-arts-2026-08-30-7-30-pm/concert/18269348"
+        }
+      ],
+      "slug": "thee-phantom-and-illharmonic-orchestra-2026-08-30"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/677/c58dd0af-cda8-49b2-bdaf-068540c3a677_106541_RETINA_PORTRAIT_16_9.jpg",
@@ -2556,31 +2467,6 @@
       "slug": "violet-grohl-2026-09-16"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-wilder-blue-17df16/798751/huge.jpg",
-      "date": "2026-09-16",
-      "time": "20:00",
-      "title": "The Wilder Blue",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-wilder-blue-tickets/milwaukee-wisconsin-vivarium-2026-09-16-8-pm/concert/18400944",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-wilder-blue-tickets/milwaukee-wisconsin-vivarium-2026-09-16-8-pm/concert/18400944"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/05/b8/4705b83a-8880-8714-5232-86e0499b77d5/mzaf_861754745980104863.plus.aac.p.m4a",
-        "track": "Palomino Gold",
-        "artist": "The Wilder Blue",
-        "kind": "Country"
-      },
-      "slug": "the-wilder-blue-2026-09-16"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/jim-e-brown-328cb8/1980211/huge.jpg",
       "date": "2026-09-16",
       "time": "20:00",
@@ -2604,6 +2490,31 @@
         "kind": "Alternative"
       },
       "slug": "jim-e-brown-2026-09-16"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/the-wilder-blue-17df16/798751/huge.jpg",
+      "date": "2026-09-16",
+      "time": "20:00",
+      "title": "The Wilder Blue",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-wilder-blue-tickets/milwaukee-wisconsin-vivarium-2026-09-16-8-pm/concert/18400944",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-wilder-blue-tickets/milwaukee-wisconsin-vivarium-2026-09-16-8-pm/concert/18400944"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/05/b8/4705b83a-8880-8714-5232-86e0499b77d5/mzaf_861754745980104863.plus.aac.p.m4a",
+        "track": "Palomino Gold",
+        "artist": "The Wilder Blue",
+        "kind": "Country"
+      },
+      "slug": "the-wilder-blue-2026-09-16"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190504465%2F285524009645%2F1%2Foriginal.20260806-224318?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.273&fp-y=0.598&s=2c865ea1b13624b1c59df0c98ccfe273",
@@ -2669,25 +2580,6 @@
       "slug": "kevin-smith-2026-09-17"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/bleach-b5701a/94408/huge.jpg",
-      "date": "2026-09-17",
-      "time": "20:00",
-      "title": "Bleach",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
-        }
-      ],
-      "slug": "bleach-2026-09-17"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/improvement-movement-9e976e/1961898/huge.jpg",
       "date": "2026-09-17",
       "time": "20:00",
@@ -2711,6 +2603,25 @@
         "kind": "Folk"
       },
       "slug": "improvement-movement-2026-09-17"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/bleach-b5701a/94408/huge.jpg",
+      "date": "2026-09-17",
+      "time": "20:00",
+      "title": "Bleach",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
+        }
+      ],
+      "slug": "bleach-2026-09-17"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/ea8/fe1025a1-d118-4c3f-b53a-29810fd0bea8_RETINA_PORTRAIT_16_9.jpg",
@@ -5019,10 +4930,6 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/cracker-shank-hall-tickets/14922983",
           "price": 40.93
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/cracker-tickets/milwaukee-wisconsin-shank-hall-2026-10-03-12-pm/concert/18400621"
         }
       ],
       "preview": {
@@ -6228,7 +6135,7 @@
       "slug": "rise-against-2026-10-10"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/56/11/23_Edp.jpg?v=14",
+      "img": "https://s1.ticketm.net/dam/a/4ca/4fd5881a-b855-41ef-addc-d01a5cf254ca_RETINA_PORTRAIT_16_9.jpg",
       "price": 25,
       "date": "2026-10-10",
       "time": "19:00",
@@ -7236,31 +7143,6 @@
       "slug": "the-toxhards-2026-10-16"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/brian-posehn-a3dfdb/7217/huge.jpg",
-      "date": "2026-10-16",
-      "time": "20:00",
-      "title": "Brian Posehn",
-      "support": null,
-      "venue": "Falcon Bowl",
-      "hood": "Milwaukee",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/brian-posehn-tickets/comedy/2026-10-16-8-pm/18400836",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/brian-posehn-tickets/comedy/2026-10-16-8-pm/18400836"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/54/84/90/54849051-0d33-8159-e24d-f56a92a88847/mzaf_14476005210064729482.plus.aac.p.m4a",
-        "track": "Dork for Thirty Years",
-        "artist": "Brian Posehn",
-        "kind": "Comedy"
-      },
-      "slug": "brian-posehn-2026-10-16"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/ben-schwartz-56309f/615991/huge.jpg",
       "date": "2026-10-16",
       "time": "20:00",
@@ -7303,6 +7185,31 @@
         "kind": "Alternative"
       },
       "slug": "friko-2026-10-16"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/brian-posehn-a3dfdb/7217/huge.jpg",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "title": "Brian Posehn",
+      "support": null,
+      "venue": "Falcon Bowl",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/brian-posehn-tickets/comedy/2026-10-16-8-pm/18400836",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/brian-posehn-tickets/comedy/2026-10-16-8-pm/18400836"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/54/84/90/54849051-0d33-8159-e24d-f56a92a88847/mzaf_14476005210064729482.plus.aac.p.m4a",
+        "track": "Dork for Thirty Years",
+        "artist": "Brian Posehn",
+        "kind": "Comedy"
+      },
+      "slug": "brian-posehn-2026-10-16"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/da9/e244b269-a579-4c18-9104-2f8f21c13da9_RETINA_PORTRAIT_16_9.jpg",
@@ -8642,31 +8549,6 @@
       "slug": "widespread-panic-2026-10-25"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/she-wants-revenge-af8195/1614/huge.jpg",
-      "date": "2026-10-25",
-      "time": "20:00",
-      "title": "She Wants Revenge",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/she-wants-revenge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-25-8-pm/concert/18400461",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/she-wants-revenge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-25-8-pm/concert/18400461"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/81/d9/9d81d956-8a34-98e2-28e3-d79c2f99d981/mzaf_12714767842989350306.plus.aac.p.m4a",
-        "track": "Out of Control",
-        "artist": "She Wants Revenge",
-        "kind": "Rock"
-      },
-      "slug": "she-wants-revenge-2026-10-25"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/twiztid-0a5828/4241/22592/huge.jpg",
       "date": "2026-10-25",
       "time": "20:00",
@@ -8690,6 +8572,31 @@
         "kind": "Hardcore Rap"
       },
       "slug": "twiztid-2026-10-25"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/she-wants-revenge-af8195/1614/huge.jpg",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "title": "She Wants Revenge",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/she-wants-revenge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-25-8-pm/concert/18400461",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/she-wants-revenge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-25-8-pm/concert/18400461"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/81/d9/9d81d956-8a34-98e2-28e3-d79c2f99d981/mzaf_12714767842989350306.plus.aac.p.m4a",
+        "track": "Out of Control",
+        "artist": "She Wants Revenge",
+        "kind": "Rock"
+      },
+      "slug": "she-wants-revenge-2026-10-25"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/abd/a5e66631-a733-48d5-b556-d14b8d362abd_RETINA_PORTRAIT_16_9.jpg",
@@ -9236,6 +9143,25 @@
       "slug": "the-paradox-2026-10-31"
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/outlander-in-concert-eafd9d/1975481/huge.jpg",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "title": "Outlander in Concert",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221"
+        }
+      ],
+      "slug": "outlander-in-concert-2026-10-31"
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/daniel-donato-49e794/667780/huge.jpg",
       "date": "2026-10-31",
       "time": "20:00",
@@ -9259,25 +9185,6 @@
         "kind": "Americana"
       },
       "slug": "daniel-donato-2026-10-31"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/outlander-in-concert-eafd9d/1975481/huge.jpg",
-      "date": "2026-10-31",
-      "time": "20:00",
-      "title": "Outlander in Concert",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221"
-        }
-      ],
-      "slug": "outlander-in-concert-2026-10-31"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_PORTRAIT_16_9.jpg",
@@ -10009,31 +9916,6 @@
       "slug": "mke-unplugged-2026-11-06"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/colby-acuff-4cf5ee/805532/huge.jpg",
-      "date": "2026-11-06",
-      "time": "20:00",
-      "title": "Colby Acuff",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/colby-acuff-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-06-8-pm/concert/18400467",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/colby-acuff-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-06-8-pm/concert/18400467"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/2c/4d/502c4d71-c12d-9f75-4e80-fa33fe832deb/mzaf_942451993072418493.plus.aac.p.m4a",
-        "track": "MATTER OF TIME",
-        "artist": "Colby Acuff",
-        "kind": "Country"
-      },
-      "slug": "colby-acuff-2026-11-06"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/waterparks-28f7b6/386084/huge.jpg",
       "date": "2026-11-06",
       "time": "20:00",
@@ -10057,6 +9939,31 @@
         "kind": "Alternative"
       },
       "slug": "waterparks-2026-11-06"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/colby-acuff-4cf5ee/805532/huge.jpg",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "title": "Colby Acuff",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/colby-acuff-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-06-8-pm/concert/18400467",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/colby-acuff-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-06-8-pm/concert/18400467"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/2c/4d/502c4d71-c12d-9f75-4e80-fa33fe832deb/mzaf_942451993072418493.plus.aac.p.m4a",
+        "track": "MATTER OF TIME",
+        "artist": "Colby Acuff",
+        "kind": "Country"
+      },
+      "slug": "colby-acuff-2026-11-06"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/agriculture-78092d/178754/huge.jpg",
@@ -10226,31 +10133,6 @@
       "slug": "teddy-thompson-2026-11-07"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/better-than-ezra-dc5983/289/15125/huge.jpg",
-      "date": "2026-11-07",
-      "time": "20:00",
-      "title": "Better Than Ezra",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/33/7a/0a/337a0af3-faf7-11b7-58ae-719a9589b966/mzaf_4280286902317630645.plus.aac.p.m4a",
-        "track": "Good",
-        "artist": "Better Than Ezra",
-        "kind": "Rock"
-      },
-      "slug": "better-than-ezra-2026-11-07"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/matt-rife-21602b/313930/huge.jpg",
       "date": "2026-11-07",
       "time": "20:00",
@@ -10274,6 +10156,31 @@
         "kind": "Comedy"
       },
       "slug": "matt-rife-2026-11-07"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/better-than-ezra-dc5983/289/15125/huge.jpg",
+      "date": "2026-11-07",
+      "time": "20:00",
+      "title": "Better Than Ezra",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/33/7a/0a/337a0af3-faf7-11b7-58ae-719a9589b966/mzaf_4280286902317630645.plus.aac.p.m4a",
+        "track": "Good",
+        "artist": "Better Than Ezra",
+        "kind": "Rock"
+      },
+      "slug": "better-than-ezra-2026-11-07"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -12976,6 +12883,31 @@
         }
       ],
       "slug": "sam-jay-2026-12-12"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/hunter-flynn-7cc631/1984556/huge.jpg",
+      "date": "2026-12-17",
+      "time": "19:30",
+      "title": "Hunter Flynn",
+      "support": null,
+      "venue": "Caribou Room - Menomonee Falls",
+      "hood": "Menomonee Falls",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/hunter-flynn-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-12-17-7-30-pm/concert/18532804",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/hunter-flynn-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-12-17-7-30-pm/concert/18532804"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/96/37/11963726-8b15-bda8-2770-04ae89321744/mzaf_1708981124870804305.plus.aac.p.m4a",
+        "track": "Robbing A Bank",
+        "artist": "Hunter Flynn",
+        "kind": "Country"
+      },
+      "slug": "hunter-flynn-2026-12-17"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/9d2/5f0ebea2-3344-4065-8ea3-1a9f6412b9d2_RETINA_PORTRAIT_16_9.jpg",
