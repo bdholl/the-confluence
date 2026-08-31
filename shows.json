@@ -1,137 +1,6 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
-      "price": 26.22,
-      "date": "2026-08-30",
-      "time": "15:00",
-      "title": "Pinky Patel",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "pop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/pinky-patel-milwaukee-improv-main-room-tickets/14972573",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/pinky-patel-milwaukee-improv-main-room-tickets/14972573",
-          "price": 26.22
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/5f/ee/ba/5feebaf6-9ba6-d11c-1960-ceacb6e178f2/mzaf_16947372769211400525.plus.aac.p.m4a",
-        "track": "Meri Jindgi Me Meri Jaan Ho Tum",
-        "artist": "Pinky Patel",
-        "kind": "Indian Pop"
-      },
-      "slug": "pinky-patel-2026-08-30"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
-      "price": 32.39,
-      "date": "2026-08-30",
-      "time": "18:00",
-      "title": "T. Murph",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "other",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/t-murph-milwaukee-improv-main-room-tickets/14924993",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/t-murph-milwaukee-improv-main-room-tickets/14924993",
-          "price": 32.39
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/t-murph-tickets/comedy/2026-08-30-6-pm/18400910"
-        }
-      ],
-      "slug": "t-murph-2026-08-30"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-08-30",
-      "time": "19:30",
-      "title": "ILUKA",
-      "support": null,
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/iluka-tickets/milwaukee-wisconsin-cactus-club-2026-08-30-7-30-pm/concert/18400688",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/iluka-tickets/milwaukee-wisconsin-cactus-club-2026-08-30-7-30-pm/concert/18400688"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pgvw"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/6b/5f/306b5f23-436a-b205-6320-4360c073e456/mzaf_1587132087569496324.plus.aac.p.m4a",
-        "track": "Crucify Me",
-        "artist": "ILUKA",
-        "kind": "Pop"
-      },
-      "slug": "iluka-2026-08-30"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/thee-phantom-and-illharmonic-orchestra-78a3e1/801661/huge.jpg",
-      "date": "2026-08-30",
-      "time": "19:30",
-      "title": "Thee Phantom & Illharmonic Orchestra",
-      "support": null,
-      "venue": "Uihlein Hall",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/thee-phantom-and-illharmonic-orchestra-tickets/milwaukee-wisconsin-uihlein-hall-at-marcus-center-for-the-performing-arts-2026-08-30-7-30-pm/concert/18539227",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/thee-phantom-and-illharmonic-orchestra-tickets/milwaukee-wisconsin-uihlein-hall-at-marcus-center-for-the-performing-arts-2026-08-30-7-30-pm/concert/18539227"
-        }
-      ],
-      "slug": "thee-phantom-and-illharmonic-orchestra-2026-08-30"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/677/c58dd0af-cda8-49b2-bdaf-068540c3a677_106541_RETINA_PORTRAIT_16_9.jpg",
-      "price": 24.96,
-      "date": "2026-08-30",
-      "time": "20:00",
-      "title": "Sunny Sweeney",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/sunny-sweeney-shank-hall-tickets/14886783",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/sunny-sweeney-shank-hall-tickets/14886783",
-          "price": 24.96
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sunny-sweeney-tickets/milwaukee-wisconsin-shank-hall-2026-08-30-8-pm/concert/18400592"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/31/be/2531be80-f829-1327-b624-19126bc0cda7/mzaf_16555511702366664868.plus.aac.p.m4a",
-        "track": "From a Table Away",
-        "artist": "Sunny Sweeney",
-        "kind": "Country"
-      },
-      "slug": "sunny-sweeney-2026-08-30"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/2b3/d3c09135-2615-4cde-a37a-743ac37c42b3_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-01",
@@ -1835,31 +1704,6 @@
       "slug": "violet-grohl-2026-09-16"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/jim-e-brown-328cb8/1980211/huge.jpg",
-      "date": "2026-09-16",
-      "time": "20:00",
-      "title": "Jim E. Brown",
-      "support": null,
-      "venue": "Falcon Bowl",
-      "hood": "Milwaukee",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/jim-e-brown-tickets/milwaukee-wisconsin-falcon-bowl-2026-09-16-8-pm/concert/18263961",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jim-e-brown-tickets/milwaukee-wisconsin-falcon-bowl-2026-09-16-8-pm/concert/18263961"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/fe/d5/edfed5d5-78e8-87b1-bdbb-cf096649ac77/mzaf_5707206795240458166.plus.aac.p.m4a",
-        "track": "I'm Quitting Prozac to Continue Drinking",
-        "artist": "Jim E. Brown",
-        "kind": "Alternative"
-      },
-      "slug": "jim-e-brown-2026-09-16"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/the-wilder-blue-17df16/798751/huge.jpg",
       "date": "2026-09-16",
       "time": "20:00",
@@ -1883,6 +1727,31 @@
         "kind": "Country"
       },
       "slug": "the-wilder-blue-2026-09-16"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/jim-e-brown-328cb8/1980211/huge.jpg",
+      "date": "2026-09-16",
+      "time": "20:00",
+      "title": "Jim E. Brown",
+      "support": null,
+      "venue": "Falcon Bowl",
+      "hood": "Milwaukee",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/jim-e-brown-tickets/milwaukee-wisconsin-falcon-bowl-2026-09-16-8-pm/concert/18263961",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/jim-e-brown-tickets/milwaukee-wisconsin-falcon-bowl-2026-09-16-8-pm/concert/18263961"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/fe/d5/edfed5d5-78e8-87b1-bdbb-cf096649ac77/mzaf_5707206795240458166.plus.aac.p.m4a",
+        "track": "I'm Quitting Prozac to Continue Drinking",
+        "artist": "Jim E. Brown",
+        "kind": "Alternative"
+      },
+      "slug": "jim-e-brown-2026-09-16"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190504465%2F285524009645%2F1%2Foriginal.20260806-224318?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.273&fp-y=0.598&s=2c865ea1b13624b1c59df0c98ccfe273",
@@ -6069,6 +5938,33 @@
       "slug": "north-mississippi-allstars-2026-10-13"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/113/a6487484-f2b3-4bca-a28b-32f016487113_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-09-01T15:00:00Z",
+      "date": "2026-10-14",
+      "time": "20:00",
+      "title": "Chief Keef",
+      "support": null,
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "hiphop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/chief-keef-milwaukee-wisconsin-10-14-2026/event/0700651C98BE2A46",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/chief-keef-milwaukee-wisconsin-10-14-2026/event/0700651C98BE2A46"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/c5/08/3dc50869-d6bd-ef4c-1e77-08a1c8783544/mzaf_2659196068499875111.plus.aac.p.m4a",
+        "track": "Love Sosa",
+        "artist": "Chief Keef",
+        "kind": "Hip-Hop/Rap"
+      },
+      "slug": "chief-keef-2026-10-14"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/7ae/7e905deb-b3b8-4c97-90c9-89a6b96437ae_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-14",
       "time": "20:00",
@@ -6127,31 +6023,6 @@
       "slug": "stanley-simmons-2026-10-14"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-midnight-200ce1/645072/huge.jpg",
-      "date": "2026-10-14",
-      "time": "20:00",
-      "title": "The Midnight",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-midnight-tickets/milwaukee-wisconsin-pabst-theater-2026-10-14-8-pm/concert/18261705",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-midnight-tickets/milwaukee-wisconsin-pabst-theater-2026-10-14-8-pm/concert/18261705"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/1a/3a/991a3a0e-2c88-ea48-c669-6b9c66f7ad13/mzaf_375640438879048672.plus.aac.p.m4a",
-        "track": "Los Angeles",
-        "artist": "The Midnight",
-        "kind": "Electronica"
-      },
-      "slug": "the-midnight-2026-10-14"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/mike-dawes-6a5cec/252920/huge.jpg",
       "date": "2026-10-14",
       "time": "20:00",
@@ -6175,6 +6046,31 @@
         "kind": "Instrumental"
       },
       "slug": "mike-dawes-2026-10-14"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/the-midnight-200ce1/645072/huge.jpg",
+      "date": "2026-10-14",
+      "time": "20:00",
+      "title": "The Midnight",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "electronic",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-midnight-tickets/milwaukee-wisconsin-pabst-theater-2026-10-14-8-pm/concert/18261705",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-midnight-tickets/milwaukee-wisconsin-pabst-theater-2026-10-14-8-pm/concert/18261705"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/1a/3a/991a3a0e-2c88-ea48-c669-6b9c66f7ad13/mzaf_375640438879048672.plus.aac.p.m4a",
+        "track": "Los Angeles",
+        "artist": "The Midnight",
+        "kind": "Electronica"
+      },
+      "slug": "the-midnight-2026-10-14"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191904747%2F285524009645%2F1%2Foriginal.20260826-001244?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a56f9854f11573ec7b08c79a72dcb0d2",
@@ -6602,6 +6498,25 @@
       "slug": "brian-posehn-2026-10-16"
     },
     {
+      "img": "https://seatgeekimages.com/performers-landscape/ben-schwartz-56309f/615991/huge.jpg",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "title": "Ben Schwartz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
+        }
+      ],
+      "slug": "ben-schwartz-2026-10-16"
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/friko-704b1c/205524/huge.jpg",
       "date": "2026-10-16",
       "time": "20:00",
@@ -6625,25 +6540,6 @@
         "kind": "Alternative"
       },
       "slug": "friko-2026-10-16"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/ben-schwartz-56309f/615991/huge.jpg",
-      "date": "2026-10-16",
-      "time": "20:00",
-      "title": "Ben Schwartz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
-        }
-      ],
-      "slug": "ben-schwartz-2026-10-16"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/da9/e244b269-a579-4c18-9104-2f8f21c13da9_RETINA_PORTRAIT_16_9.jpg",
@@ -10295,31 +10191,6 @@
       "slug": "lil-ed-and-the-blues-imperials-2026-11-13"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/bryan-andrews-d20467/1957287/huge.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Bryan Andrews",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/46/a1/8c46a1b0-879c-2fa9-1912-3259ca773a16/mzaf_6523337656613776054.plus.aac.p.m4a",
-        "track": "Are We Great Yet?",
-        "artist": "Bryan Andrews",
-        "kind": "Country"
-      },
-      "slug": "bryan-andrews-2026-11-13"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/hovvdy-005bd1/336062/huge.jpg",
       "date": "2026-11-13",
       "time": "20:00",
@@ -10343,6 +10214,31 @@
         "kind": "Alternative"
       },
       "slug": "hovvdy-2026-11-13"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/bryan-andrews-d20467/1957287/huge.jpg",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Bryan Andrews",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/46/a1/8c46a1b0-879c-2fa9-1912-3259ca773a16/mzaf_6523337656613776054.plus.aac.p.m4a",
+        "track": "Are We Great Yet?",
+        "artist": "Bryan Andrews",
+        "kind": "Country"
+      },
+      "slug": "bryan-andrews-2026-11-13"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/steve-martin-df0aba/8142/huge.jpg",
@@ -11016,8 +10912,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-08-31T15:00:00Z",
       "price": 0,
       "date": "2026-11-21",
       "time": "20:00",
