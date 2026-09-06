@@ -1,142 +1,6 @@
 {
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/70b/dcda4fe8-2449-483c-93a1-03877718a70b_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-05",
-      "time": "18:00",
-      "title": "Bingo Loco",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bingo-loco-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-05-6-pm/concert/18400552",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bingo-loco-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-05-6-pm/concert/18400552"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JoPN"
-        }
-      ],
-      "slug": "bingo-loco-2026-09-05"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RETINA_PORTRAIT_16_9.jpg",
-      "price": 28.63,
-      "date": "2026-09-05",
-      "time": "18:30",
-      "title": "Will Burkart",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978233",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/will-burkart-milwaukee-improv-main-room-tickets/14978233",
-          "price": 28.63
-        }
-      ],
-      "times": [
-        "18:30",
-        "21:00"
-      ],
-      "slug": "will-burkart-2026-09-05"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/02c/1335986a-f703-4e6b-a5b5-2be317bdf02c_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-05",
-      "time": "19:00",
-      "title": "Chad Gray",
-      "support": "Butcher Babies",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "metal",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pz7M",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pz7M"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/7f/c5/c8/7fc5c874-4e8e-5545-eb7d-6a9d9df30c8b/mzaf_17052737155047492655.plus.aac.p.m4a",
-        "track": "Always on My Mind",
-        "artist": "Chad Gray",
-        "kind": "Rock"
-      },
-      "slug": "chad-gray-2026-09-05"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/chad-gray-voice-of-mudvayne-and-hellyeah-cc6664/1973280/huge.jpg",
-      "date": "2026-09-05",
-      "time": "19:00",
-      "title": "Chad Gray: Voice of Mudvayne & Hellyeah",
-      "support": "Butcher Babies",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/chad-gray-voice-of-mudvayne-and-hellyeah-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-05-7-pm/concert/18345840",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/chad-gray-voice-of-mudvayne-and-hellyeah-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-05-7-pm/concert/18345840"
-        }
-      ],
-      "slug": "chad-gray-voice-of-mudvayne-and-hellyeah-2026-09-05"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/dermot-kennedy-525b9a/434919/huge.jpg",
-      "date": "2026-09-05",
-      "time": "20:00",
-      "title": "Dermot Kennedy",
-      "support": "Hunter Metts",
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "folk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/dermot-kennedy-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-05-8-pm/concert/18147723",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/dermot-kennedy-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-05-8-pm/concert/18147723"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/da/14/cf/da14cf50-4fe8-646f-ce36-fe1709eb80f0/mzaf_13805294112615488176.plus.aac.p.m4a",
-        "track": "Outnumbered",
-        "artist": "Dermot Kennedy",
-        "kind": "Singer/Songwriter"
-      },
-      "slug": "dermot-kennedy-2026-09-05"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189022748%2F285524009645%2F1%2Foriginal.20260716-184519?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.115&s=d944c500d2154305ced90c15417d0edb",
-      "date": "2026-09-05",
-      "time": "20:00",
-      "title": "Jon Mroz & His Central Avenue Senders",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/jon-mroz-his-central-avenue-senders-tickets-1994240948360",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/jon-mroz-his-central-avenue-senders-tickets-1994240948360"
-        }
-      ],
-      "slug": "jon-mroz-and-his-central-avenue-senders-2026-09-05"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/1d5/7d7a98af-9f26-49fe-8c27-6b2a5d7b91d5_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-06",
@@ -488,7 +352,7 @@
       "slug": "free-movie-night-w-ryan-jay-2026-09-11"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/kacey-musgraves-6d0b42/62090/46471/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/8c3/a6be573f-37e6-4adc-9bad-cd25711378c3_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-11",
       "time": "19:30",
       "title": "Kacey Musgraves",
@@ -496,9 +360,13 @@
       "venue": "Fiserv Forum",
       "hood": "Deer District",
       "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/kacey-musgraves-tickets/milwaukee-wisconsin-fiserv-forum-2026-09-11-7-30-pm/concert/18210151",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-milwaukee-wisconsin-09-11-2026/event/0700649692DE2D82",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-milwaukee-wisconsin-09-11-2026/event/0700649692DE2D82"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/kacey-musgraves-tickets/milwaukee-wisconsin-fiserv-forum-2026-09-11-7-30-pm/concert/18210151"
@@ -700,6 +568,35 @@
       "slug": "derrick-stroup-2026-09-12"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/6ef/67eeb68d-efaf-46d8-9e34-02502489b6ef_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-09-12",
+      "time": "20:00",
+      "title": "LP",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/lp-laura-pergolizzi-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-12-8-pm/concert/18345849",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/lp-laura-pergolizzi-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-12-8-pm/concert/18345849"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kGF"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/fb/66/13fb669f-5455-902b-ed58-faf61c907555/mzaf_2669233365416453722.plus.aac.p.m4a",
+        "track": "Lost on You",
+        "artist": "LP",
+        "kind": "Alternative"
+      },
+      "slug": "lp-2026-09-12"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
       "price": 30.37,
       "date": "2026-09-12",
@@ -731,46 +628,21 @@
       "slug": "mindy-smith-2026-09-12"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/6ef/67eeb68d-efaf-46d8-9e34-02502489b6ef_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-12",
-      "time": "20:00",
-      "title": "LP",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/lp-laura-pergolizzi-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-12-8-pm/concert/18345849",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/lp-laura-pergolizzi-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-12-8-pm/concert/18345849"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kGF"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/fb/66/13fb669f-5455-902b-ed58-faf61c907555/mzaf_2669233365416453722.plus.aac.p.m4a",
-        "track": "Lost on You",
-        "artist": "LP",
-        "kind": "Alternative"
-      },
-      "slug": "lp-2026-09-12"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/pitbull-817bfd/1443/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/918/bd324c03-b456-4cb9-87b2-fe8664cb1918_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-12",
       "time": "20:00",
       "title": "Pitbull",
       "support": "Lil Jon",
       "venue": "Alpine Valley Music Theatre",
       "hood": "East Troy",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/pitbull-tickets/east-troy-wisconsin-alpine-valley-music-theatre-2026-09-12-8-pm/concert/18014186",
+      "genre": "pop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/pitbull-im-back-with-special-guest-east-troy-wisconsin-09-12-2026/event/07006391049B8E02",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/pitbull-im-back-with-special-guest-east-troy-wisconsin-09-12-2026/event/07006391049B8E02"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/pitbull-tickets/east-troy-wisconsin-alpine-valley-music-theatre-2026-09-12-8-pm/concert/18014186"
@@ -881,7 +753,7 @@
       "slug": "sam-tallent-2026-09-13"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/madeleine-peyroux-ad73fe/1172/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/3ba/d005f072-d1db-4020-989d-5cecc69213ba_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-13",
       "time": "19:30",
       "title": "Madeleine Peyroux",
@@ -889,9 +761,13 @@
       "venue": "Wilson Theater at Vogel Hall",
       "hood": "Milwaukee",
       "genre": "jazz",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/madeleine-peyroux-tickets/milwaukee-wisconsin-vogel-hall-at-marcus-center-2026-09-13-7-30-pm/concert/18238955",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/madeleine-peyroux-milwaukee-wisconsin-09-13-2026/event/070064A890842EE4",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/madeleine-peyroux-milwaukee-wisconsin-09-13-2026/event/070064A890842EE4"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/madeleine-peyroux-tickets/milwaukee-wisconsin-vogel-hall-at-marcus-center-2026-09-13-7-30-pm/concert/18238955"
@@ -906,7 +782,7 @@
       "slug": "madeleine-peyroux-2026-09-13"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/eric-clapton-53efef/696/61488/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/3da/e651c5ed-62f9-499c-b245-a67963d583da_1169611_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-13",
       "time": "19:30",
       "title": "Eric Clapton",
@@ -914,9 +790,13 @@
       "venue": "Fiserv Forum",
       "hood": "Deer District",
       "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/eric-clapton-tickets/milwaukee-wisconsin-fiserv-forum-2026-09-13-7-30-pm/concert/18100289",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/eric-clapton-milwaukee-wisconsin-09-13-2026/event/0700645BAAF26DB5",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/eric-clapton-milwaukee-wisconsin-09-13-2026/event/0700645BAAF26DB5"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/eric-clapton-tickets/milwaukee-wisconsin-fiserv-forum-2026-09-13-7-30-pm/concert/18100289"
@@ -929,33 +809,6 @@
         "kind": "Rock"
       },
       "slug": "eric-clapton-2026-09-13"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/85f/341c6a8b-0174-4307-99ee-d76ace5ee85f_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-13",
-      "time": "20:00",
-      "title": "Peaches",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/peaches-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-13-8-pm/concert/18297031",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/peaches-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-13-8-pm/concert/18297031"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzA8"
-        }
-      ],
-      "times": [
-        "20:00",
-        "23:49"
-      ],
-      "slug": "peaches-2026-09-13"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/cbf/c7ef837c-14fe-47e2-93e3-88a65d822cbf_RETINA_PORTRAIT_16_9.jpg",
@@ -1016,27 +869,54 @@
       "slug": "punch-brothers-2026-09-13"
     },
     {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
+      "img": "https://s1.ticketm.net/dam/a/179/e4d90f37-6303-4e4c-93f0-4e37b4bd5179_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-13",
       "time": "20:00",
       "title": "Raq Baby",
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/raq-baby-tickets/milwaukee-wisconsin-vivarium-2026-09-13-8-pm/concert/18347783",
+      "genre": "hiphop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.pabsttheatergroup.com/events/detail/raq-baby-2026",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.pabsttheatergroup.com/events/detail/raq-baby-2026"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/raq-baby-tickets/milwaukee-wisconsin-vivarium-2026-09-13-8-pm/concert/18347783"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pwke"
         }
       ],
       "slug": "raq-baby-2026-09-13"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/85f/341c6a8b-0174-4307-99ee-d76ace5ee85f_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-09-13",
+      "time": "20:00",
+      "title": "Peaches",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/peaches-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-13-8-pm/concert/18297031",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/peaches-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-13-8-pm/concert/18297031"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzA8"
+        }
+      ],
+      "times": [
+        "20:00",
+        "23:49"
+      ],
+      "slug": "peaches-2026-09-13"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/mini-trees-dc9787/1963549/huge.jpg",
@@ -1089,6 +969,35 @@
       "slug": "homestyle-dinner-rolls-2026-09-14"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/4f6/59d763b4-53ac-4ffd-be3f-a33345d7f4f6_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-09-15",
+      "time": "19:00",
+      "title": "Bilmuri",
+      "support": "Knuckle Puck, Novelists",
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/bilmuri-kinda-hard-tour-milwaukee-wisconsin-09-15-2026/event/070064449A543D38",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/bilmuri-kinda-hard-tour-milwaukee-wisconsin-09-15-2026/event/070064449A543D38"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bilmuri-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-15-7-pm/concert/18063557"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/6e/17/526e17ed-61bb-97cc-3b9e-30f581c30c3e/mzaf_7208586505048377805.plus.aac.p.m4a",
+        "track": "MORE THAN HATE",
+        "artist": "Bilmuri",
+        "kind": "Rock"
+      },
+      "slug": "bilmuri-2026-09-15"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/3bb/c5c245cb-288f-4d23-8102-cb76ab4d13bb_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-15",
       "time": "19:00",
@@ -1116,31 +1025,6 @@
         "kind": "Metal"
       },
       "slug": "kamelot-2026-09-15"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/bilmuri-d726b3/709449/huge.jpg",
-      "date": "2026-09-15",
-      "time": "19:00",
-      "title": "Bilmuri",
-      "support": "Knuckle Puck",
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bilmuri-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-15-7-pm/concert/18063557",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bilmuri-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-15-7-pm/concert/18063557"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/6e/17/526e17ed-61bb-97cc-3b9e-30f581c30c3e/mzaf_7208586505048377805.plus.aac.p.m4a",
-        "track": "MORE THAN HATE",
-        "artist": "Bilmuri",
-        "kind": "Rock"
-      },
-      "slug": "bilmuri-2026-09-15"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -1172,13 +1056,13 @@
       "slug": "slayr-2026-09-15"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/roger-daltrey-658d44/1559/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/e48/613f9786-c877-4ebb-bc26-8505042bbe48_812401_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-15",
       "time": "20:00",
       "title": "Roger Daltrey",
       "support": null,
       "venue": "Riverside Theater",
-      "hood": "Downtown",
+      "hood": "Milwaukee",
       "genre": "rock",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/roger-daltrey-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-09-15-8-pm/concert/18237391",
@@ -1186,6 +1070,10 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/roger-daltrey-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-09-15-8-pm/concert/18237391"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_og"
         }
       ],
       "preview": {
@@ -1366,31 +1254,6 @@
       "slug": "violet-grohl-2026-09-16"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-wilder-blue-17df16/798751/huge.jpg",
-      "date": "2026-09-16",
-      "time": "20:00",
-      "title": "The Wilder Blue",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-wilder-blue-tickets/milwaukee-wisconsin-vivarium-2026-09-16-8-pm/concert/18400944",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-wilder-blue-tickets/milwaukee-wisconsin-vivarium-2026-09-16-8-pm/concert/18400944"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/05/b8/4705b83a-8880-8714-5232-86e0499b77d5/mzaf_861754745980104863.plus.aac.p.m4a",
-        "track": "Palomino Gold",
-        "artist": "The Wilder Blue",
-        "kind": "Country"
-      },
-      "slug": "the-wilder-blue-2026-09-16"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/jim-e-brown-328cb8/1980211/huge.jpg",
       "date": "2026-09-16",
       "time": "20:00",
@@ -1414,6 +1277,31 @@
         "kind": "Alternative"
       },
       "slug": "jim-e-brown-2026-09-16"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/the-wilder-blue-17df16/798751/huge.jpg",
+      "date": "2026-09-16",
+      "time": "20:00",
+      "title": "The Wilder Blue",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-wilder-blue-tickets/milwaukee-wisconsin-vivarium-2026-09-16-8-pm/concert/18400944",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-wilder-blue-tickets/milwaukee-wisconsin-vivarium-2026-09-16-8-pm/concert/18400944"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/05/b8/4705b83a-8880-8714-5232-86e0499b77d5/mzaf_861754745980104863.plus.aac.p.m4a",
+        "track": "Palomino Gold",
+        "artist": "The Wilder Blue",
+        "kind": "Country"
+      },
+      "slug": "the-wilder-blue-2026-09-16"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190504465%2F285524009645%2F1%2Foriginal.20260806-224318?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.273&fp-y=0.598&s=2c865ea1b13624b1c59df0c98ccfe273",
@@ -1479,25 +1367,6 @@
       "slug": "kevin-smith-2026-09-17"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/bleach-b5701a/94408/huge.jpg",
-      "date": "2026-09-17",
-      "time": "20:00",
-      "title": "Bleach",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
-        }
-      ],
-      "slug": "bleach-2026-09-17"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/improvement-movement-9e976e/1961898/huge.jpg",
       "date": "2026-09-17",
       "time": "20:00",
@@ -1523,25 +1392,48 @@
       "slug": "improvement-movement-2026-09-17"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/uicideboy-9bb81c/473117/huge.jpg",
+      "img": "https://seatgeekimages.com/performers-landscape/bleach-b5701a/94408/huge.jpg",
+      "date": "2026-09-17",
+      "time": "20:00",
+      "title": "Bleach",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
+        }
+      ],
+      "slug": "bleach-2026-09-17"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/ea8/fe1025a1-d118-4c3f-b53a-29810fd0bea8_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-18",
       "time": "18:30",
-      "title": "$uicideboy$",
-      "support": "Destroy Lonely, Shakewell, Drain, Black Kray",
+      "title": "$UICIDEBOY$",
+      "support": "Destroy Lonely, Shakewell, Drain, Black Kray, $lim Gucci",
       "venue": "American Family Insurance Amphitheater",
       "hood": "Lakefront",
       "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/uicideboy-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2026-09-18-6-30-pm/concert/18155867",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-milwaukee-wisconsin-09-18-2026/event/0700647EC340520E",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-milwaukee-wisconsin-09-18-2026/event/0700647EC340520E"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/uicideboy-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2026-09-18-6-30-pm/concert/18155867"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/c7/c6/79c7c6a3-5280-802e-a167-2b0d515b4462/mzaf_8794466018327581371.plus.aac.p.m4a",
-        "track": "THE_EVIL_THAT_MEN_DO",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/77/38/1d/77381dc2-1dbb-a947-6101-563d9f5a2762/mzaf_2852144189371221986.plus.aac.p.m4a",
+        "track": "Matte Black",
         "artist": "$uicideboy$",
         "kind": "Hip-Hop"
       },
@@ -1798,6 +1690,35 @@
       "slug": "hasan-minhaj-2026-09-19"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/da4/1f1b69b4-8a83-4165-8a4b-59cbf1e64da4_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-09-19",
+      "time": "20:00",
+      "title": "Gable Price And Friends",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/gable-price-and-friends-tickets/milwaukee-wisconsin-vivarium-2026-09-19-8-pm/concert/18220675",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/gable-price-and-friends-tickets/milwaukee-wisconsin-vivarium-2026-09-19-8-pm/concert/18220675"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70aQa"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a8/89/6d/a8896ddc-bdd8-05e8-23c7-bcb194f8d44c/mzaf_11318520419213538893.plus.aac.p.m4a",
+        "track": "I Need You",
+        "artist": "Gable Price and Friends",
+        "kind": "Christian"
+      },
+      "slug": "gable-price-and-friends-2026-09-19"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
       "price": 19.3,
       "date": "2026-09-19",
@@ -1871,35 +1792,6 @@
         "kind": "Country"
       },
       "slug": "mac-mcanally-2026-09-19"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/da4/1f1b69b4-8a83-4165-8a4b-59cbf1e64da4_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-19",
-      "time": "20:00",
-      "title": "Gable Price And Friends",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/gable-price-and-friends-tickets/milwaukee-wisconsin-vivarium-2026-09-19-8-pm/concert/18220675",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/gable-price-and-friends-tickets/milwaukee-wisconsin-vivarium-2026-09-19-8-pm/concert/18220675"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70aQa"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a8/89/6d/a8896ddc-bdd8-05e8-23c7-bcb194f8d44c/mzaf_11318520419213538893.plus.aac.p.m4a",
-        "track": "I Need You",
-        "artist": "Gable Price and Friends",
-        "kind": "Christian"
-      },
-      "slug": "gable-price-and-friends-2026-09-19"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/cheerleader-roadkill-024a00/1962086/huge.jpg",
@@ -2194,6 +2086,35 @@
       "slug": "xavier-wulf-2026-09-22"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/ec5/a3a8a9ab-2de0-439e-9348-54e4a540bec5_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-09-23",
+      "time": "19:00",
+      "title": "Patti Smith",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/patti-smith-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-09-23-7-pm/concert/18400624",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/patti-smith-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-09-23-7-pm/concert/18400624"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZFaa"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/2c/55/2d2c55d1-f4a5-6473-0590-c452872ed211/mzaf_13241356546586355626.plus.aac.p.m4a",
+        "track": "Because the Night",
+        "artist": "Patti Smith",
+        "kind": "Rock"
+      },
+      "slug": "patti-smith-2026-09-23"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "price": 26.22,
       "date": "2026-09-23",
@@ -2213,31 +2134,6 @@
         }
       ],
       "slug": "yard-sale-girls-2026-09-23"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/patti-smith-4b7e9d/1403/25087/huge.jpg",
-      "date": "2026-09-23",
-      "time": "19:00",
-      "title": "Patti Smith",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/patti-smith-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-09-23-7-pm/concert/18400624",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/patti-smith-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-09-23-7-pm/concert/18400624"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/2c/55/2d2c55d1-f4a5-6473-0590-c452872ed211/mzaf_13241356546586355626.plus.aac.p.m4a",
-        "track": "Because the Night",
-        "artist": "Patti Smith",
-        "kind": "Rock"
-      },
-      "slug": "patti-smith-2026-09-23"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187297890%2F285524009645%2F1%2Foriginal.20260619-223211?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c92a40c69c97229bd536a4362fa69f07",
@@ -2328,25 +2224,6 @@
       "slug": "thomas-gabriel-2026-09-23"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/public-image-ltd-651a40/4452/30054/huge.jpg",
-      "date": "2026-09-23",
-      "time": "20:00",
-      "title": "Public Image Ltd",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "punk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/public-image-ltd-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-23-8-pm/concert/18150406",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/public-image-ltd-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-23-8-pm/concert/18150406"
-        }
-      ],
-      "slug": "public-image-ltd-2026-09-23"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/aj-lee-blue-summit-ce1bee/1955909/huge.jpg",
       "date": "2026-09-23",
       "time": "20:00",
@@ -2370,6 +2247,25 @@
         "kind": "Country"
       },
       "slug": "aj-lee-and-blue-summit-2026-09-23"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/public-image-ltd-651a40/4452/30054/huge.jpg",
+      "date": "2026-09-23",
+      "time": "20:00",
+      "title": "Public Image Ltd",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "punk",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/public-image-ltd-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-23-8-pm/concert/18150406",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/public-image-ltd-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-23-8-pm/concert/18150406"
+        }
+      ],
+      "slug": "public-image-ltd-2026-09-23"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/fb9/52fca4c8-7ddd-4e92-a636-2e86c91b3fb9_RETINA_PORTRAIT_16_9.jpg",
@@ -2547,31 +2443,6 @@
       "slug": "bubba-dub-2026-09-25"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/conjunto-primavera-7b38fc/498/huge.jpg",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "title": "Conjunto Primavera",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/conjunto-primavera-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-25-8-pm/concert/18521326",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/conjunto-primavera-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-25-8-pm/concert/18521326"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ff/3c/bc/ff3cbc04-51df-2c26-2013-60b8ba51bad6/mzaf_11313067196015526971.plus.aac.p.m4a",
-        "track": "Necesito Decirte",
-        "artist": "Conjunto Primavera",
-        "kind": "Música Mexicana"
-      },
-      "slug": "conjunto-primavera-2026-09-25"
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/00d/6773c392-9fbc-4702-a25b-aa645fdd000d_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-25",
       "time": "20:00",
@@ -2599,6 +2470,31 @@
         "kind": "Alternative"
       },
       "slug": "they-might-be-giants-2026-09-25"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/conjunto-primavera-7b38fc/498/huge.jpg",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "title": "Conjunto Primavera",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/conjunto-primavera-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-25-8-pm/concert/18521326",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/conjunto-primavera-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-25-8-pm/concert/18521326"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ff/3c/bc/ff3cbc04-51df-2c26-2013-60b8ba51bad6/mzaf_11313067196015526971.plus.aac.p.m4a",
+        "track": "Necesito Decirte",
+        "artist": "Conjunto Primavera",
+        "kind": "Música Mexicana"
+      },
+      "slug": "conjunto-primavera-2026-09-25"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/russian-circles-6684a9/11866/huge.jpg",
@@ -2786,17 +2682,21 @@
       "slug": "the-appleseed-cast-2026-09-26"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/luke-bryan-46acd7/1164/23952/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/975/02e31abe-ffb0-4ccc-9185-ae6fcc229975_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-26",
       "time": "19:00",
       "title": "Luke Bryan",
-      "support": "Drew Baldridge, Lauren Watkins, RaeLynn, DJ R.O.C.K.",
+      "support": "Drew Baldridge, Lauren Watkins, RaeLynn, DJ Rock",
       "venue": "Alpine Valley Music Theatre",
       "hood": "East Troy",
       "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/luke-bryan-tickets/east-troy-wisconsin-alpine-valley-music-theatre-2026-09-26-7-pm/concert/18028943",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/luke-bryan-word-on-the-street-east-troy-wisconsin-09-26-2026/event/07006435FF239820",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/luke-bryan-word-on-the-street-east-troy-wisconsin-09-26-2026/event/07006435FF239820"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/luke-bryan-tickets/east-troy-wisconsin-alpine-valley-music-theatre-2026-09-26-7-pm/concert/18028943"
@@ -2828,6 +2728,29 @@
         }
       ],
       "slug": "matt-mccusker-2026-09-26"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/ef5/20a94c54-a473-4431-969e-a349b084def5_179891_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-09-26",
+      "time": "20:00",
+      "title": "Supertramp Tribute",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/supertramp-tribute-tickets/milwaukee-wisconsin-pabst-theater-2026-09-26-8-pm/concert/18513235",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/supertramp-tribute-tickets/milwaukee-wisconsin-pabst-theater-2026-09-26-8-pm/concert/18513235"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709ZJ"
+        }
+      ],
+      "slug": "supertramp-tribute-2026-09-26"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg",
@@ -2874,29 +2797,6 @@
         }
       ],
       "slug": "franklin-jonas-2026-09-26"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/ef5/20a94c54-a473-4431-969e-a349b084def5_179891_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "title": "Supertramp Tribute",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/supertramp-tribute-tickets/milwaukee-wisconsin-pabst-theater-2026-09-26-8-pm/concert/18513235",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/supertramp-tribute-tickets/milwaukee-wisconsin-pabst-theater-2026-09-26-8-pm/concert/18513235"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709ZJ"
-        }
-      ],
-      "slug": "supertramp-tribute-2026-09-26"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/paul-cebar-18bf75/773721/huge.jpg",
@@ -2993,17 +2893,21 @@
       "slug": "damon-williams-2026-09-27"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/bleachers-9aa55c/211903/70435/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/c22/c8629e9a-cca8-4ef6-992e-712853df0c22_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-27",
       "time": "19:30",
       "title": "Bleachers",
-      "support": "This is Lorelei",
+      "support": "This Is Lorelei",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bleachers-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-27-7-30-pm/concert/18122700",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/bleachers-forever-milwaukee-wisconsin-09-27-2026/event/070064698C992AC3",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/bleachers-forever-milwaukee-wisconsin-09-27-2026/event/070064698C992AC3"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/bleachers-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-27-7-30-pm/concert/18122700"
@@ -3183,17 +3087,21 @@
       "slug": "bayway-2026-09-29"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/bryson-tiller-45e6a2/375017/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/433/021fc7b3-815d-4f88-9fce-83b31a96d433_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-29",
       "time": "19:30",
       "title": "Bryson Tiller",
       "support": "Majid Jordan, Ty Dolla $ign, Austin Millz",
       "venue": "American Family Insurance Amphitheater",
       "hood": "Lakefront",
-      "genre": "rnb",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bryson-tiller-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2026-09-29-7-30-pm/concert/18280891",
+      "genre": "hiphop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-milwaukee-wisconsin-09-29-2026/event/070064BACE3F545A",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-milwaukee-wisconsin-09-29-2026/event/070064BACE3F545A"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/bryson-tiller-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2026-09-29-7-30-pm/concert/18280891"
@@ -3208,24 +3116,28 @@
       "slug": "bryson-tiller-2026-09-29"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/foster-the-people-248503/7723/70775/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/c41/d6a7f0e3-fbaf-4a44-9a26-39041ac60c41_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-29",
       "time": "20:00",
-      "title": "Foster The People",
+      "title": "Foster the People",
       "support": "Goth Babe",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/foster-the-people-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-29-8-pm/concert/18210213",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/foster-the-people-good-mourning-sunshine-milwaukee-wisconsin-09-29-2026/event/0700649AE57268F4",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/foster-the-people-good-mourning-sunshine-milwaukee-wisconsin-09-29-2026/event/0700649AE57268F4"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/foster-the-people-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-29-8-pm/concert/18210213"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/5b/df/065bdfe1-4d16-53c9-f24d-f1ad16983f92/mzaf_15283020811004936626.plus.aac.p.m4a",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/dd/a9/80/dda980a0-3b62-f7b7-9588-11b929a30b3c/mzaf_4007504837203131685.plus.aac.p.m4a",
         "track": "Pumped Up Kicks",
         "artist": "Foster the People",
         "kind": "Alternative"
@@ -3296,7 +3208,7 @@
       "slug": "trivia-night-free-2026-09-30"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/freya-skye-612c3c/1967389/68370/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/bd1/4bf9a435-fa2b-4157-a4c9-add083e81bd1_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-30",
       "time": "20:00",
       "title": "Freya Skye",
@@ -3304,9 +3216,13 @@
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/freya-skye-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-30-8-pm/concert/18084644",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/freya-skye-stars-align-tour-milwaukee-wisconsin-09-30-2026/event/0700644AC63862F8",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/freya-skye-stars-align-tour-milwaukee-wisconsin-09-30-2026/event/0700644AC63862F8"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/freya-skye-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-30-8-pm/concert/18084644"
@@ -3423,33 +3339,6 @@
       "slug": "ian-mcconnell-2026-10-01"
     },
     {
-      "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
-      "price": 16.21,
-      "date": "2026-10-01",
-      "time": "20:00",
-      "title": "Too Hot For Leather",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/too-hot-for-leather-shank-hall-tickets/14243424",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/too-hot-for-leather-shank-hall-tickets/14243424",
-          "price": 16.21
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/ca/f0/d9caf0e8-a705-ad02-7c5a-776f2ce6e122/mzaf_12432270557668620493.plus.aac.p.m4a",
-        "track": "Show Me What You Got!",
-        "artist": "Too Hot For Leather",
-        "kind": "Rock"
-      },
-      "slug": "too-hot-for-leather-2026-10-01"
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/2ec/1db3f5b8-3900-4c18-a2c1-25feeb1d42ec_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-01",
       "time": "20:00",
@@ -3506,6 +3395,33 @@
         "kind": "Country"
       },
       "slug": "lauren-alaina-2026-10-01"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
+      "price": 16.21,
+      "date": "2026-10-01",
+      "time": "20:00",
+      "title": "Too Hot For Leather",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/too-hot-for-leather-shank-hall-tickets/14243424",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/too-hot-for-leather-shank-hall-tickets/14243424",
+          "price": 16.21
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/ca/f0/d9caf0e8-a705-ad02-7c5a-776f2ce6e122/mzaf_12432270557668620493.plus.aac.p.m4a",
+        "track": "Show Me What You Got!",
+        "artist": "Too Hot For Leather",
+        "kind": "Rock"
+      },
+      "slug": "too-hot-for-leather-2026-10-01"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/d76/61d095a0-3822-4bd9-beda-00a9e8276d76_RETINA_PORTRAIT_16_9.jpg",
@@ -3680,13 +3596,13 @@
       "slug": "alana-springsteen-2026-10-02"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/leonid-friends-f61bb6/303239/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/04d/ff62c781-05be-424b-880e-7d2d3b00804d_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-02",
       "time": "20:00",
       "title": "Leonid & Friends",
       "support": null,
       "venue": "Riverside Theater",
-      "hood": "Downtown",
+      "hood": "Milwaukee",
       "genre": "pop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/leonid-friends-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-02-8-pm/concert/18051570",
@@ -3694,6 +3610,10 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/leonid-friends-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-02-8-pm/concert/18051570"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OMbk"
         }
       ],
       "preview": {
@@ -3705,23 +3625,33 @@
       "slug": "leonid-and-friends-2026-10-02"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/kyle-gordon-ef6c3c/811451/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/54c/1e50f365-4f53-4bbd-8571-f0eb65f5154c_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-02",
       "time": "20:00",
-      "title": "Kyle Gordon",
+      "title": "Mt. Joy",
       "support": null,
-      "venue": "Falcon Bowl",
+      "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/kyle-gordon-tickets/comedy/2026-10-02-8-pm/18400835",
+      "genre": "folk",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/mt-joy-2026-celebrating-10-years-milwaukee-wisconsin-10-02-2026/event/07006436BAC27697",
       "offers": [
         {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/mt-joy-2026-celebrating-10-years-milwaukee-wisconsin-10-02-2026/event/07006436BAC27697"
+        },
+        {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/kyle-gordon-tickets/comedy/2026-10-02-8-pm/18400835"
+          "url": "https://seatgeek.com/mt-joy-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-02-8-pm/concert/18050038"
         }
       ],
-      "slug": "kyle-gordon-2026-10-02"
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7e/00/45/7e004516-584e-8b56-6361-43b73818c7f8/mzaf_6466076730559496269.plus.aac.p.m4a",
+        "track": "Silver Lining",
+        "artist": "Mt. Joy",
+        "kind": "Alternative"
+      },
+      "slug": "mt-joy-2026-10-02"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/them-coulee-boys-6b74b9/413058/huge.jpg",
@@ -3749,29 +3679,23 @@
       "slug": "them-coulee-boys-2026-10-02"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/mt-joy-6c6643/609942/48872/huge.jpg",
+      "img": "https://seatgeekimages.com/performers-landscape/kyle-gordon-ef6c3c/811451/huge.jpg",
       "date": "2026-10-02",
       "time": "20:00",
-      "title": "Mt. Joy",
+      "title": "Kyle Gordon",
       "support": null,
-      "venue": "Landmark Credit Union Live",
+      "venue": "Falcon Bowl",
       "hood": "Milwaukee",
-      "genre": "indie",
+      "genre": "comedy",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/mt-joy-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-02-8-pm/concert/18050038",
+      "url": "https://seatgeek.com/kyle-gordon-tickets/comedy/2026-10-02-8-pm/18400835",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/mt-joy-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-02-8-pm/concert/18050038"
+          "url": "https://seatgeek.com/kyle-gordon-tickets/comedy/2026-10-02-8-pm/18400835"
         }
       ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7e/00/45/7e004516-584e-8b56-6361-43b73818c7f8/mzaf_6466076730559496269.plus.aac.p.m4a",
-        "track": "Silver Lining",
-        "artist": "Mt. Joy",
-        "kind": "Alternative"
-      },
-      "slug": "mt-joy-2026-10-02"
+      "slug": "kyle-gordon-2026-10-02"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188313830%2F285524009645%2F1%2Foriginal.20260706-194213?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.063&fp-y=0.591&s=625ea73e5b4ae99f702835f2f0737d48",
@@ -3840,6 +3764,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/cracker-shank-hall-tickets/14922983",
           "price": 40.93
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/cracker-tickets/milwaukee-wisconsin-shank-hall-2026-10-03-12-pm/concert/18400621"
         }
       ],
       "preview": {
@@ -4138,6 +4066,29 @@
       "slug": "john-heffron-2026-10-04"
     },
     {
+      "img": "https://s1.ticketm.net/dam/e/dc7/e7a8c2ef-3400-49cd-afdb-a51b60da9dc7_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-04",
+      "time": "19:00",
+      "title": "The Carpenters Songbook - A Live Celebration",
+      "support": null,
+      "venue": "Uihlein Hall",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/the-carpenters-songbook-a-live-celebration-milwaukee-wisconsin-10-04-2026/event/070064CC93473652",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/the-carpenters-songbook-a-live-celebration-milwaukee-wisconsin-10-04-2026/event/070064CC93473652"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-carpenters-songbook-tickets/milwaukee-wisconsin-uihlein-hall-at-marcus-center-for-the-performing-arts-2026-10-04-7-pm/concert/18400449"
+        }
+      ],
+      "slug": "the-carpenters-songbook-a-live-celebration-2026-10-04"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/302/2ae1d204-bb3a-423d-9cd9-4a4ef97d9302_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-04",
       "time": "19:00",
@@ -4165,25 +4116,6 @@
         "kind": "Country"
       },
       "slug": "clint-black-2026-10-04"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/the-carpenters-songbook-1ef1a9/1979013/huge.jpg",
-      "date": "2026-10-04",
-      "time": "19:00",
-      "title": "The Carpenters Songbook",
-      "support": null,
-      "venue": "Uihlein Hall",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-carpenters-songbook-tickets/milwaukee-wisconsin-uihlein-hall-at-marcus-center-for-the-performing-arts-2026-10-04-7-pm/concert/18400449",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-carpenters-songbook-tickets/milwaukee-wisconsin-uihlein-hall-at-marcus-center-for-the-performing-arts-2026-10-04-7-pm/concert/18400449"
-        }
-      ],
-      "slug": "the-carpenters-songbook-2026-10-04"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -4215,6 +4147,35 @@
       "slug": "zarna-garg-2026-10-04"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/fd0/f1e801a1-dd16-4838-b39c-8a2817e9ffd0_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-04",
+      "time": "20:00",
+      "title": "Chance The Rapper",
+      "support": "La Reezy",
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "hiphop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/chance-the-rapper-coloring-book-10-milwaukee-wisconsin-10-04-2026/event/070064A8B36E5BB2",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/chance-the-rapper-coloring-book-10-milwaukee-wisconsin-10-04-2026/event/070064A8B36E5BB2"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/chance-the-rapper-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-04-8-pm/concert/18242199"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6f/50/95/6f5095db-8d35-37df-1139-6be3c509fd73/mzaf_12544685800792122721.plus.aac.p.m4a",
+        "track": "Same Drugs",
+        "artist": "Chance the Rapper",
+        "kind": "Hip-Hop/Rap"
+      },
+      "slug": "chance-the-rapper-2026-10-04"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg",
       "price": 0,
       "date": "2026-10-04",
@@ -4244,31 +4205,6 @@
         "kind": "Pop"
       },
       "slug": "gnash-2026-10-04"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/chance-the-rapper-5dc885/23226/34879/huge.jpg",
-      "date": "2026-10-04",
-      "time": "20:00",
-      "title": "Chance the Rapper",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/chance-the-rapper-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-04-8-pm/concert/18242199",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/chance-the-rapper-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-04-8-pm/concert/18242199"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/78/77/7d787714-0595-e46a-ab31-5bfe9e55270e/mzaf_1500234276992000563.plus.aac.p.m4a",
-        "track": "Same Drugs",
-        "artist": "Chance the Rapper",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "chance-the-rapper-2026-10-04"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/octave-cat-b1dd7e/731279/huge.jpg",
@@ -4359,6 +4295,35 @@
       "slug": "dan-and-phil-2026-10-06"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/3ac/d5ca2c8b-6833-416d-8256-d0b0b6e603ac_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-06",
+      "time": "20:00",
+      "title": "Beck",
+      "support": "Ioanna Gika",
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-milwaukee-wisconsin-10-06-2026/event/07006486B4083B7C",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-milwaukee-wisconsin-10-06-2026/event/07006486B4083B7C"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/beck-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-06-8-pm/concert/18194403"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/15/63/62/15636288-1e10-7d53-9f13-e26405efd3b5/mzaf_7319409321789244658.plus.aac.p.m4a",
+        "track": "Loser",
+        "artist": "Beck",
+        "kind": "Pop"
+      },
+      "slug": "beck-2026-10-06"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/677/c58dd0af-cda8-49b2-bdaf-068540c3a677_106541_RETINA_PORTRAIT_16_9.jpg",
       "price": 19.3,
       "date": "2026-10-06",
@@ -4386,29 +4351,33 @@
       "slug": "chris-housman-2026-10-06"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/beck-271fb4/269/71228/huge.jpg",
-      "date": "2026-10-06",
-      "time": "20:00",
-      "title": "Beck",
-      "support": "Ioanna Gika",
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/beck-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-06-8-pm/concert/18194403",
+      "img": "https://s1.ticketm.net/dam/a/a2e/4990f811-a315-4173-adcf-405a96de3a2e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-07",
+      "time": "19:00",
+      "title": "Weezer",
+      "support": "The Shins, Silversun Pickups",
+      "venue": "Fiserv Forum",
+      "hood": "Deer District",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/weezer-the-gathering-milwaukee-wisconsin-10-07-2026/event/0700646DDB9D984D",
       "offers": [
         {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/weezer-the-gathering-milwaukee-wisconsin-10-07-2026/event/0700646DDB9D984D"
+        },
+        {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/beck-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-06-8-pm/concert/18194403"
+          "url": "https://seatgeek.com/weezer-tickets/milwaukee-wisconsin-fiserv-forum-2026-10-07-7-pm/concert/18147529"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/15/63/62/15636288-1e10-7d53-9f13-e26405efd3b5/mzaf_7319409321789244658.plus.aac.p.m4a",
-        "track": "Loser",
-        "artist": "Beck",
-        "kind": "Pop"
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/a6/03/52a6032e-39c0-fd3e-555d-ce683f3d9d31/mzaf_7707796819108024384.plus.aac.p.m4a",
+        "track": "Island In the Sun",
+        "artist": "Weezer",
+        "kind": "Rock"
       },
-      "slug": "beck-2026-10-06"
+      "slug": "weezer-2026-10-07"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/b16/fb3e0c4d-1127-4ae9-879a-819e96543b16_RETINA_PORTRAIT_16_9.jpg",
@@ -4434,29 +4403,33 @@
       "slug": "thrown-2026-10-07"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/weezer-a1fbef/89/25372/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/d52/a25f5fc6-cf03-453d-bfd1-2b9c04644d52_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-07",
-      "time": "19:00",
-      "title": "Weezer",
-      "support": "The Shins, Silversun Pickups",
-      "venue": "Fiserv Forum",
-      "hood": "Deer District",
-      "genre": "rock",
+      "time": "20:00",
+      "title": "UB40",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "pop",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/weezer-tickets/milwaukee-wisconsin-fiserv-forum-2026-10-07-7-pm/concert/18147529",
+      "url": "https://seatgeek.com/ub40-tickets/milwaukee-wisconsin-pabst-theater-2026-10-07-8-pm/concert/18035211",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/weezer-tickets/milwaukee-wisconsin-fiserv-forum-2026-10-07-7-pm/concert/18147529"
+          "url": "https://seatgeek.com/ub40-tickets/milwaukee-wisconsin-pabst-theater-2026-10-07-8-pm/concert/18035211"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OMbK"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/a6/03/52a6032e-39c0-fd3e-555d-ce683f3d9d31/mzaf_7707796819108024384.plus.aac.p.m4a",
-        "track": "Island In the Sun",
-        "artist": "Weezer",
-        "kind": "Rock"
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c1/e3/80/c1e38071-7971-e8f0-4544-020ed36e3d70/mzaf_13140990414724419859.plus.aac.p.m4a",
+        "track": "(I Can't Help) Falling In Love with You",
+        "artist": "UB40",
+        "kind": "Pop"
       },
-      "slug": "weezer-2026-10-07"
+      "slug": "ub40-2026-10-07"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
@@ -4488,35 +4461,6 @@
         "kind": "Singer/Songwriter"
       },
       "slug": "rhett-miller-2026-10-07"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/d52/a25f5fc6-cf03-453d-bfd1-2b9c04644d52_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-07",
-      "time": "20:00",
-      "title": "UB40",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ub40-tickets/milwaukee-wisconsin-pabst-theater-2026-10-07-8-pm/concert/18035211",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ub40-tickets/milwaukee-wisconsin-pabst-theater-2026-10-07-8-pm/concert/18035211"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OMbK"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c1/e3/80/c1e38071-7971-e8f0-4544-020ed36e3d70/mzaf_13140990414724419859.plus.aac.p.m4a",
-        "track": "(I Can't Help) Falling In Love with You",
-        "artist": "UB40",
-        "kind": "Pop"
-      },
-      "slug": "ub40-2026-10-07"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -4994,7 +4938,7 @@
       "slug": "arnez-j-2026-10-10"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/koe-wetzel-277b19/571455/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/11b/e42f09d5-8050-43d0-baf8-582503adb11b_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-10",
       "time": "18:45",
       "title": "Koe Wetzel",
@@ -5002,9 +4946,13 @@
       "venue": "Fiserv Forum",
       "hood": "Deer District",
       "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/koe-wetzel-tickets/milwaukee-wisconsin-fiserv-forum-2026-10-10-6-45-pm/concert/18095091",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/koe-wetzel-the-night-champion-world-milwaukee-wisconsin-10-10-2026/event/07006458C1354217",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/koe-wetzel-the-night-champion-world-milwaukee-wisconsin-10-10-2026/event/07006458C1354217"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/koe-wetzel-tickets/milwaukee-wisconsin-fiserv-forum-2026-10-10-6-45-pm/concert/18095091"
@@ -5048,6 +4996,33 @@
       "slug": "rise-against-2026-10-10"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/4ca/4fd5881a-b855-41ef-addc-d01a5cf254ca_RETINA_PORTRAIT_16_9.jpg",
+      "price": 25,
+      "date": "2026-10-10",
+      "time": "19:00",
+      "title": "CAIN",
+      "support": null,
+      "venue": "Elmbrook Church",
+      "hood": "Brookfield",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/cain-live-and-in-worship-elmbrook-church-tickets/14954403",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/cain-live-and-in-worship-elmbrook-church-tickets/14954403",
+          "price": 25
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/25/a0/e2/25a0e29d-e64d-cb2a-ede9-5f253643ca33/mzaf_6165477893735758918.plus.aac.p.m4a",
+        "track": "Rise Up (Lazarus)",
+        "artist": "CAIN",
+        "kind": "Christian"
+      },
+      "slug": "cain-2026-10-10"
+    },
+    {
       "img": "https://seatgeekimages.com/performers-landscape/anthony-jeselnik-3ebd3b/12483/huge.jpg",
       "date": "2026-10-10",
       "time": "19:00",
@@ -5065,6 +5040,35 @@
         }
       ],
       "slug": "anthony-jeselnik-2026-10-10"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/e/695/2a94d2c7-9be4-41c1-a1c6-a1462bfd3695_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-10",
+      "time": "19:30",
+      "title": "Jim Brickman",
+      "support": null,
+      "venue": "Wilson Theater at Vogel Hall",
+      "hood": "Milwaukee",
+      "genre": "pop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/jim-brickman-milwaukee-wisconsin-10-10-2026/event/070064F6BBE15DB6",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/jim-brickman-milwaukee-wisconsin-10-10-2026/event/070064F6BBE15DB6"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/jim-brickman-tickets/milwaukee-wisconsin-vogel-hall-at-marcus-center-2026-10-10-7-30-pm/concert/18397323"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/37/f7/2837f7d6-6cba-2008-fb58-fa0655842118/mzaf_1175890059370116957.plus.aac.p.m4a",
+        "track": "What a Beautiful Name",
+        "artist": "Jim Brickman",
+        "kind": "Christian"
+      },
+      "slug": "jim-brickman-2026-10-10"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/a8a/1f9c5741-c3f1-41f8-a5a5-1b0ef0483a8a_RETINA_PORTRAIT_16_9.jpg",
@@ -5096,52 +5100,6 @@
       "slug": "umphrey-s-mcgee-2026-10-10"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/jim-brickman-43c28f/951/huge.jpg",
-      "date": "2026-10-10",
-      "time": "19:30",
-      "title": "Jim Brickman",
-      "support": null,
-      "venue": "Wilson Theater at Vogel Hall",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/jim-brickman-tickets/milwaukee-wisconsin-vogel-hall-at-marcus-center-2026-10-10-7-30-pm/concert/18397323",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jim-brickman-tickets/milwaukee-wisconsin-vogel-hall-at-marcus-center-2026-10-10-7-30-pm/concert/18397323"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/37/f7/2837f7d6-6cba-2008-fb58-fa0655842118/mzaf_1175890059370116957.plus.aac.p.m4a",
-        "track": "What a Beautiful Name",
-        "artist": "Jim Brickman",
-        "kind": "Christian"
-      },
-      "slug": "jim-brickman-2026-10-10"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
-      "price": 19.3,
-      "date": "2026-10-10",
-      "time": "20:00",
-      "title": "PANORAMA a Tribute to The Cars",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "pop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/panorama-a-tribute-to-the-shank-hall-tickets/14997813",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/panorama-a-tribute-to-the-shank-hall-tickets/14997813",
-          "price": 19.3
-        }
-      ],
-      "slug": "panorama-a-tribute-to-the-cars-2026-10-10"
-    },
-    {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-10",
       "time": "20:00",
@@ -5169,6 +5127,27 @@
         "kind": "Country"
       },
       "slug": "zach-john-king-2026-10-10"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
+      "price": 19.3,
+      "date": "2026-10-10",
+      "time": "20:00",
+      "title": "PANORAMA a Tribute to The Cars",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "pop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/panorama-a-tribute-to-the-shank-hall-tickets/14997813",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/panorama-a-tribute-to-the-shank-hall-tickets/14997813",
+          "price": 19.3
+        }
+      ],
+      "slug": "panorama-a-tribute-to-the-cars-2026-10-10"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -5263,35 +5242,6 @@
       "slug": "arnez-j-2026-10-11"
     },
     {
-      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-11",
-      "time": "20:00",
-      "title": "Holywatr",
-      "support": "Mercury",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "metal",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/holywatr-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-11-8-pm/concert/18321498",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/holywatr-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-11-8-pm/concert/18321498"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jea7"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/a4/d1/cea4d1bf-6711-48d0-c4ae-4d9bd16d41ab/mzaf_1995923081430804460.plus.aac.p.m4a",
-        "track": "Nightmares",
-        "artist": "Holywatr",
-        "kind": "Metal"
-      },
-      "slug": "holywatr-2026-10-11"
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/6c0/caaa06a1-3c7a-4b3c-bc4b-ca255f0936c0_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-11",
       "time": "20:00",
@@ -5319,6 +5269,35 @@
         "kind": "Jazz"
       },
       "slug": "samara-joy-2026-10-11"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-11",
+      "time": "20:00",
+      "title": "Holywatr",
+      "support": "Mercury",
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "metal",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/holywatr-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-11-8-pm/concert/18321498",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/holywatr-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-11-8-pm/concert/18321498"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jea7"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/a4/d1/cea4d1bf-6711-48d0-c4ae-4d9bd16d41ab/mzaf_1995923081430804460.plus.aac.p.m4a",
+        "track": "Nightmares",
+        "artist": "Holywatr",
+        "kind": "Metal"
+      },
+      "slug": "holywatr-2026-10-11"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/469/f6db8121-664a-4972-9853-b1eb4d318469_RETINA_PORTRAIT_16_9.jpg",
@@ -5426,6 +5405,64 @@
       "slug": "first-to-eleven-2026-10-13"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/a66/3dc47e4b-5b49-4cd6-8d8e-530eaf46aa66_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-13",
+      "time": "20:00",
+      "title": "Robin Trower",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "blues",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/robin-trower-tickets/milwaukee-wisconsin-pabst-theater-2026-10-13-8-pm/concert/18261703",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/robin-trower-tickets/milwaukee-wisconsin-pabst-theater-2026-10-13-8-pm/concert/18261703"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70-pK"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ed/3b/3e/ed3b3e2a-e523-ec83-2217-d41a64767f97/mzaf_12702739714136111242.plus.aac.p.m4a",
+        "track": "Bridge of Sighs (2007 Remaster)",
+        "artist": "Robin Trower",
+        "kind": "Rock"
+      },
+      "slug": "robin-trower-2026-10-13"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/91f/fc2ae2a1-cdce-480e-b7a8-3bcae38dd91f_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-13",
+      "time": "20:00",
+      "title": "Suki Waterhouse",
+      "support": "Rochelle Jordan, EMMMA",
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/suki-waterhouse-the-loveland-tour-milwaukee-wisconsin-10-13-2026/event/07006496898222DA",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/suki-waterhouse-the-loveland-tour-milwaukee-wisconsin-10-13-2026/event/07006496898222DA"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/suki-waterhouse-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-13-8-pm/concert/18208149"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/c7/56/33c7560f-22b1-57b8-fd77-857e56746af6/mzaf_2657754448874097337.plus.aac.p.m4a",
+        "track": "Good Looking",
+        "artist": "Suki Waterhouse",
+        "kind": "Alternative"
+      },
+      "slug": "suki-waterhouse-2026-10-13"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
       "price": 19.3,
       "date": "2026-10-13",
@@ -5457,35 +5494,6 @@
       "slug": "deraps-2026-10-13"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/a66/3dc47e4b-5b49-4cd6-8d8e-530eaf46aa66_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-13",
-      "time": "20:00",
-      "title": "Robin Trower",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "blues",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/robin-trower-tickets/milwaukee-wisconsin-pabst-theater-2026-10-13-8-pm/concert/18261703",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/robin-trower-tickets/milwaukee-wisconsin-pabst-theater-2026-10-13-8-pm/concert/18261703"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70-pK"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ed/3b/3e/ed3b3e2a-e523-ec83-2217-d41a64767f97/mzaf_12702739714136111242.plus.aac.p.m4a",
-        "track": "Bridge of Sighs (2007 Remaster)",
-        "artist": "Robin Trower",
-        "kind": "Rock"
-      },
-      "slug": "robin-trower-2026-10-13"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/north-mississippi-allstars-4dcfe5/2537/18427/huge.jpg",
       "date": "2026-10-13",
       "time": "20:00",
@@ -5511,58 +5519,52 @@
       "slug": "north-mississippi-allstars-2026-10-13"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/suki-waterhouse-2b33a6/797423/huge.jpg",
-      "date": "2026-10-13",
-      "time": "20:00",
-      "title": "Suki Waterhouse",
-      "support": "Rochelle Jordan",
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/suki-waterhouse-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-13-8-pm/concert/18208149",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/suki-waterhouse-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-13-8-pm/concert/18208149"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/c7/56/33c7560f-22b1-57b8-fd77-857e56746af6/mzaf_2657754448874097337.plus.aac.p.m4a",
-        "track": "Good Looking",
-        "artist": "Suki Waterhouse",
-        "kind": "Alternative"
-      },
-      "slug": "suki-waterhouse-2026-10-13"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg",
+      "img": "https://s1.ticketm.net/dam/a/ec1/43b67cdc-2051-4dff-94c4-c7c39ea9fec1_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-14",
-      "time": "20:00",
-      "title": "Stanley Simmons",
+      "time": "19:30",
+      "title": "Jazz At Lincoln Center Orchestra",
       "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/stanley-simmons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18324781",
+      "venue": "Wilson Theater at Vogel Hall",
+      "hood": "Milwaukee",
+      "genre": "jazz",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/jazz-at-lincoln-center-orchestra-milwaukee-wisconsin-10-14-2026/event/0700651F9CA120EE",
       "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/stanley-simmons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18324781"
-        },
         {
           "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jeak"
+          "url": "https://www.ticketmaster.com/jazz-at-lincoln-center-orchestra-milwaukee-wisconsin-10-14-2026/event/0700651F9CA120EE"
+        }
+      ],
+      "slug": "jazz-at-lincoln-center-orchestra-2026-10-14"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/113/a6487484-f2b3-4bca-a28b-32f016487113_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-14",
+      "time": "20:00",
+      "title": "Chief Keef",
+      "support": null,
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "hiphop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/chief-keef-milwaukee-wisconsin-10-14-2026/event/0700651C98BE2A46",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/chief-keef-milwaukee-wisconsin-10-14-2026/event/0700651C98BE2A46"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/chief-keef-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-14-8-pm/concert/18550639"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/6b/a2/596ba297-9f37-edd0-11d2-5315b2236c32/mzaf_13961052966840279751.plus.aac.p.m4a",
-        "track": "Cellophane",
-        "artist": "Stanley Simmons",
-        "kind": "Rock"
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/c5/08/3dc50869-d6bd-ef4c-1e77-08a1c8783544/mzaf_2659196068499875111.plus.aac.p.m4a",
+        "track": "Love Sosa",
+        "artist": "Chief Keef",
+        "kind": "Hip-Hop/Rap"
       },
-      "slug": "stanley-simmons-2026-10-14"
+      "slug": "chief-keef-2026-10-14"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/7ae/7e905deb-b3b8-4c97-90c9-89a6b96437ae_RETINA_PORTRAIT_16_9.jpg",
@@ -5592,6 +5594,35 @@
         "kind": "Alternative Folk"
       },
       "slug": "hey-nothing-2026-10-14"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-14",
+      "time": "20:00",
+      "title": "Stanley Simmons",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/stanley-simmons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18324781",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/stanley-simmons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18324781"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jeak"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/6b/a2/596ba297-9f37-edd0-11d2-5315b2236c32/mzaf_13961052966840279751.plus.aac.p.m4a",
+        "track": "Cellophane",
+        "artist": "Stanley Simmons",
+        "kind": "Rock"
+      },
+      "slug": "stanley-simmons-2026-10-14"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/the-midnight-200ce1/645072/huge.jpg",
@@ -5642,31 +5673,6 @@
         "kind": "Instrumental"
       },
       "slug": "mike-dawes-2026-10-14"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/chief-keef-ed11a8/24652/45951/huge.jpg",
-      "date": "2026-10-14",
-      "time": "20:00",
-      "title": "Chief Keef",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/chief-keef-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-14-8-pm/concert/18550639",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/chief-keef-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-14-8-pm/concert/18550639"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/c5/08/3dc50869-d6bd-ef4c-1e77-08a1c8783544/mzaf_2659196068499875111.plus.aac.p.m4a",
-        "track": "Love Sosa",
-        "artist": "Chief Keef",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "chief-keef-2026-10-14"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191904747%2F285524009645%2F1%2Foriginal.20260826-001244?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a56f9854f11573ec7b08c79a72dcb0d2",
@@ -5755,6 +5761,44 @@
         "kind": "Folk"
       },
       "slug": "hiss-golden-messenger-i-m-people-tour-w-sam-amidon-2026-10-15"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/ec1/43b67cdc-2051-4dff-94c4-c7c39ea9fec1_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-15",
+      "time": "19:30",
+      "title": "Jazz At Lincoln Center Orchestra",
+      "support": null,
+      "venue": "Wilson Theater at Vogel Hall",
+      "hood": "Milwaukee",
+      "genre": "jazz",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/jazz-at-lincoln-center-orchestra-milwaukee-wisconsin-10-15-2026/event/0700651F9C9D20EA",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/jazz-at-lincoln-center-orchestra-milwaukee-wisconsin-10-15-2026/event/0700651F9C9D20EA"
+        }
+      ],
+      "slug": "jazz-at-lincoln-center-orchestra-2026-10-15"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/89f/cfc4e11c-9cb4-4c46-b44c-0140a127189f_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-15",
+      "time": "20:00",
+      "title": "UNDERTALE Symphony",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_fI",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_fI"
+        }
+      ],
+      "slug": "undertale-symphony-2026-10-15"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
@@ -5863,6 +5907,79 @@
       "slug": "faux-real-2026-10-16"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/ff8/71274c83-6c43-4189-9d05-83af235c0ff8_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "title": "Zach Top",
+      "support": "Marty Stuart & His Fabulous Superlatives",
+      "venue": "Fiserv Forum",
+      "hood": "Deer District",
+      "genre": "country",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-milwaukee-wisconsin-10-16-2026/event/070064BCE3216249",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-milwaukee-wisconsin-10-16-2026/event/070064BCE3216249"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/zach-top-tickets/milwaukee-wisconsin-fiserv-forum-2026-10-16-8-pm/concert/18285538"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/55/31/84553122-f495-79fe-d6d2-a31f06c17f3e/mzaf_15377421175680389584.plus.aac.p.m4a",
+        "track": "I Never Lie",
+        "artist": "Zach Top",
+        "kind": "Traditional Country"
+      },
+      "slug": "zach-top-2026-10-16"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/4a2/f044bd80-ab67-4319-ad3a-3a94631394a2_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "title": "W.A.S.P.",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Fot",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Fot"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c6/43/d3/c643d3be-f1eb-47b3-2a93-161eeafb59c2/mzaf_16585755690524269525.plus.aac.p.m4a",
+        "track": "Hellion",
+        "artist": "W.A.S.P.",
+        "kind": "Hard Rock"
+      },
+      "slug": "w-a-s-p-2026-10-16"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/wasp-35c2af/27889/huge.jpg",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "title": "WASP",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/wasp-tickets/milwaukee-wisconsin-pabst-theater-2026-10-16-8-pm/concert/18080336",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/wasp-tickets/milwaukee-wisconsin-pabst-theater-2026-10-16-8-pm/concert/18080336"
+        }
+      ],
+      "slug": "wasp-2026-10-16"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/677/c58dd0af-cda8-49b2-bdaf-068540c3a677_106541_RETINA_PORTRAIT_16_9.jpg",
       "price": 0,
       "date": "2026-10-16",
@@ -5952,50 +6069,6 @@
       "slug": "afi-2026-10-16"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/4a2/f044bd80-ab67-4319-ad3a-3a94631394a2_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-16",
-      "time": "20:00",
-      "title": "W.A.S.P.",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Fot",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Fot"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c6/43/d3/c643d3be-f1eb-47b3-2a93-161eeafb59c2/mzaf_16585755690524269525.plus.aac.p.m4a",
-        "track": "Hellion",
-        "artist": "W.A.S.P.",
-        "kind": "Hard Rock"
-      },
-      "slug": "w-a-s-p-2026-10-16"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/wasp-35c2af/27889/huge.jpg",
-      "date": "2026-10-16",
-      "time": "20:00",
-      "title": "WASP",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/wasp-tickets/milwaukee-wisconsin-pabst-theater-2026-10-16-8-pm/concert/18080336",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/wasp-tickets/milwaukee-wisconsin-pabst-theater-2026-10-16-8-pm/concert/18080336"
-        }
-      ],
-      "slug": "wasp-2026-10-16"
-    },
-    {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-16",
       "time": "20:00",
@@ -6046,29 +6119,23 @@
       "slug": "brian-posehn-2026-10-16"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/zach-top-dcc311/807216/huge.jpg",
+      "img": "https://seatgeekimages.com/performers-landscape/ben-schwartz-56309f/615991/huge.jpg",
       "date": "2026-10-16",
       "time": "20:00",
-      "title": "Zach Top",
-      "support": "Marty Stuart And His Fabulous Superlatives",
-      "venue": "Fiserv Forum",
-      "hood": "Deer District",
-      "genre": "country",
+      "title": "Ben Schwartz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/zach-top-tickets/milwaukee-wisconsin-fiserv-forum-2026-10-16-8-pm/concert/18285538",
+      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/zach-top-tickets/milwaukee-wisconsin-fiserv-forum-2026-10-16-8-pm/concert/18285538"
+          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
         }
       ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/55/31/84553122-f495-79fe-d6d2-a31f06c17f3e/mzaf_15377421175680389584.plus.aac.p.m4a",
-        "track": "I Never Lie",
-        "artist": "Zach Top",
-        "kind": "Traditional Country"
-      },
-      "slug": "zach-top-2026-10-16"
+      "slug": "ben-schwartz-2026-10-16"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/friko-704b1c/205524/huge.jpg",
@@ -6094,25 +6161,6 @@
         "kind": "Alternative"
       },
       "slug": "friko-2026-10-16"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/ben-schwartz-56309f/615991/huge.jpg",
-      "date": "2026-10-16",
-      "time": "20:00",
-      "title": "Ben Schwartz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
-        }
-      ],
-      "slug": "ben-schwartz-2026-10-16"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/da9/e244b269-a579-4c18-9104-2f8f21c13da9_RETINA_PORTRAIT_16_9.jpg",
@@ -6225,17 +6273,21 @@
       "slug": "chris-porter-2026-10-17"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/skillet-ef089a/1636/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/1ee/a023bba4-c203-4ae6-8ea4-8787675401ee_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-17",
       "time": "19:00",
       "title": "Skillet",
-      "support": "Escape The Fate",
+      "support": "Escape the Fate, Autumn Kings",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/skillet-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-17-7-pm/concert/18324496",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/skillet-comatose-20-years-still-screaming-milwaukee-wisconsin-10-17-2026/event/070064CC9DC14114",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/skillet-comatose-20-years-still-screaming-milwaukee-wisconsin-10-17-2026/event/070064CC9DC14114"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/skillet-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-17-7-pm/concert/18324496"
@@ -6437,6 +6489,33 @@
       "slug": "son-rompe-pera-2026-10-18"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/3e2/11eb8fd3-3b69-46b5-a7b8-5feb2d6a53e2_RETINA_PORTRAIT_16_9.jpg",
+      "price": 30.31,
+      "date": "2026-10-18",
+      "time": "21:00",
+      "title": "Saliva",
+      "support": "Drowning Pool, Beyond Threshold",
+      "venue": "Live at 1175",
+      "hood": "Kansasville",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/1175s-rockin-halloween-party-live-at-1175-tickets/14997213",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/1175s-rockin-halloween-party-live-at-1175-tickets/14997213",
+          "price": 30.31
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3a/5a/04/3a5a049f-23f2-1591-4cf4-026ba71ae5d7/mzaf_7514159657088716614.plus.aac.p.m4a",
+        "track": "Click Click Boom",
+        "artist": "Saliva",
+        "kind": "Hard Rock"
+      },
+      "slug": "saliva-2026-10-18"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/a19/11068b3c-afc0-4a6b-a3a9-623e7f31ba19_76611_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-19",
       "time": "19:00",
@@ -6466,6 +6545,29 @@
       "slug": "indigo-girls-2026-10-19"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/461/e58a2592-728f-4741-be53-6a7a6d97b461_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-19",
+      "time": "19:30",
+      "title": "BEAT",
+      "support": "Adrian Belew, Steve Vai, Tony Levin, Terry Bozzio",
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/beat-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-19-7-30-pm/concert/18449970",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/beat-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-19-7-30-pm/concert/18449970"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ9f7"
+        }
+      ],
+      "slug": "beat-2026-10-19"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/ee1/bdb7ed52-a897-4277-82db-95d09e224ee1_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-19",
       "time": "19:30",
@@ -6493,25 +6595,6 @@
         "kind": "Techno"
       },
       "slug": "lords-of-acid-2026-10-19"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/beat-606f5f/811503/huge.jpg",
-      "date": "2026-10-19",
-      "time": "19:30",
-      "title": "BEAT - King Crimson Tribute",
-      "support": "Adrian Belew, Steve Vai, Tony Levin, Terry Bozzio",
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/beat-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-19-7-30-pm/concert/18449970",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/beat-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-19-7-30-pm/concert/18449970"
-        }
-      ],
-      "slug": "beat-king-crimson-tribute-2026-10-19"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
@@ -6581,7 +6664,7 @@
       "slug": "chaos-and-crawlers-2026-10-20"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/godsmack-4e1c8f/799/24883/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/71b/b17c61bc-6d1f-4c70-a287-766dbcebf71b_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-20",
       "time": "19:30",
       "title": "Godsmack",
@@ -6589,9 +6672,13 @@
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/godsmack-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-20-7-30-pm/concert/18409558",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/godsmack-the-rise-of-rock-world-milwaukee-wisconsin-10-20-2026/event/070064F791282622",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/godsmack-the-rise-of-rock-world-milwaukee-wisconsin-10-20-2026/event/070064F791282622"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/godsmack-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-20-7-30-pm/concert/18409558"
@@ -6662,7 +6749,7 @@
       "slug": "mexican-slum-rats-2026-10-20"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/tedeschi-trucks-band-d916d3/10361/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/a34/70d5dad0-2ee1-435d-9b85-da5833847a34_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-21",
       "time": "19:00",
       "title": "Tedeschi Trucks Band",
@@ -6670,9 +6757,13 @@
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/tedeschi-trucks-band-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-21-7-pm/concert/18029017",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/tedeschi-trucks-band-future-soul-2026-milwaukee-wisconsin-10-21-2026/event/07006435C62274A2",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/tedeschi-trucks-band-future-soul-2026-milwaukee-wisconsin-10-21-2026/event/07006435C62274A2"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/tedeschi-trucks-band-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-21-7-pm/concert/18029017"
@@ -6704,6 +6795,35 @@
         }
       ],
       "slug": "catacombs-and-comedians-2026-10-21"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/31d/f82bc044-7ba1-4be8-a33f-f6923d2ba31d_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-21",
+      "time": "20:00",
+      "title": "Sylvan Esso",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "electronic",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/sylvan-esso-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-21-8-pm/concert/18299151",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/sylvan-esso-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-21-8-pm/concert/18299151"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOs"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/87/4c/25/874c250d-cdf0-3b39-4075-ba93d3eb593c/mzaf_6567645334714689999.plus.aac.p.m4a",
+        "track": "Coffee",
+        "artist": "Sylvan Esso",
+        "kind": "Alternative"
+      },
+      "slug": "sylvan-esso-2026-10-21"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_RETINA_PORTRAIT_16_9.jpg",
@@ -6769,31 +6889,6 @@
         }
       ],
       "slug": "ryan-bingham-and-the-texas-gentlemen-2026-10-21"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/sylvan-esso-dffe4a/152016/huge.jpg",
-      "date": "2026-10-21",
-      "time": "20:00",
-      "title": "Sylvan Esso",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sylvan-esso-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-21-8-pm/concert/18299151",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sylvan-esso-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-21-8-pm/concert/18299151"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/87/4c/25/874c250d-cdf0-3b39-4075-ba93d3eb593c/mzaf_6567645334714689999.plus.aac.p.m4a",
-        "track": "Coffee",
-        "artist": "Sylvan Esso",
-        "kind": "Alternative"
-      },
-      "slug": "sylvan-esso-2026-10-21"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191382789%2F285524009645%2F1%2Foriginal.20260818-231413?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.034&fp-y=0.549&s=150523fbcffc292f67267c5304f578c3",
@@ -6869,6 +6964,26 @@
         "kind": "Comedy"
       },
       "slug": "randy-feltface-2026-10-22"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/471/baa8d341-9743-4748-958c-9c634d2f9471_RETINA_PORTRAIT_16_9.jpg",
+      "status": "cancelled",
+      "date": "2026-10-22",
+      "time": "19:30",
+      "title": "Marshall Charloff & The Purple Xperience",
+      "support": null,
+      "venue": "Uihlein Hall",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/marshall-charloff-the-purple-xperience-milwaukee-wisconsin-10-22-2026/event/070060CABD2F2289",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/marshall-charloff-the-purple-xperience-milwaukee-wisconsin-10-22-2026/event/070060CABD2F2289"
+        }
+      ],
+      "slug": "marshall-charloff-and-the-purple-xperience-2026-10-22"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/ian-sweet-5b149d/581842/huge.jpg",
@@ -7004,20 +7119,24 @@
       "slug": "prince-daddy-and-the-hyena-2026-10-23"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/widespread-panic-0def35/2011/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-23",
       "time": "20:00",
       "title": "Widespread Panic",
       "support": null,
       "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "rock",
+      "hood": "Milwaukee",
+      "genre": "blues",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-23-3-30-am/concert/18327284",
+      "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-23-8-pm/concert/18327288",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-23-3-30-am/concert/18327284"
+          "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-23-8-pm/concert/18327288"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POf-"
         }
       ],
       "preview": {
@@ -7152,17 +7271,21 @@
       "slug": "zacarias-ferreira-2026-10-23"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/trap-karaoke-7e7a58/371284/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/64c/76cc8226-9c36-4d1a-b616-d5acc3fa564c_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-24",
       "time": "18:00",
       "title": "Trap Karaoke",
       "support": null,
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/trap-karaoke-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-24-6-pm/concert/18499236",
+      "genre": "hiphop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/trap-karaoke-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-24-6-pm/concert/18499236"
@@ -7219,6 +7342,35 @@
       "slug": "milo-rossi-ages-13-2026-10-24"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "title": "Widespread Panic",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "blues",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-24-8-pm/concert/18327290",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-24-8-pm/concert/18327290"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POfx"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/97/2c/ed/972ced45-9864-5470-caf9-321e612191c8/mzaf_10403575814145893179.plus.aac.p.m4a",
+        "track": "Up All Night",
+        "artist": "Widespread Panic",
+        "kind": "Rock"
+      },
+      "slug": "widespread-panic-2026-10-24"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
       "price": 30.37,
       "date": "2026-10-24",
@@ -7263,31 +7415,6 @@
         "kind": "Alternative"
       },
       "slug": "in-her-own-words-2026-10-24"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/widespread-panic-0def35/2011/huge.jpg",
-      "date": "2026-10-24",
-      "time": "20:00",
-      "title": "Widespread Panic",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-24-8-pm/concert/18327290",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-24-8-pm/concert/18327290"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/97/2c/ed/972ced45-9864-5470-caf9-321e612191c8/mzaf_10403575814145893179.plus.aac.p.m4a",
-        "track": "Up All Night",
-        "artist": "Widespread Panic",
-        "kind": "Rock"
-      },
-      "slug": "widespread-panic-2026-10-24"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/dylan-scott-0b33a6/115352/huge.jpg",
@@ -7365,20 +7492,24 @@
       "slug": "pat-mcgann-2026-10-25"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/widespread-panic-0def35/2011/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-25",
       "time": "20:00",
       "title": "Widespread Panic",
       "support": null,
       "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "rock",
+      "hood": "Milwaukee",
+      "genre": "blues",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-25-8-pm/concert/18327294",
       "offers": [
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-25-8-pm/concert/18327294"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POfF"
         }
       ],
       "preview": {
@@ -7388,31 +7519,6 @@
         "kind": "Rock"
       },
       "slug": "widespread-panic-2026-10-25"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/she-wants-revenge-af8195/1614/huge.jpg",
-      "date": "2026-10-25",
-      "time": "20:00",
-      "title": "She Wants Revenge",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/she-wants-revenge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-25-8-pm/concert/18400461",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/she-wants-revenge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-25-8-pm/concert/18400461"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/81/d9/9d81d956-8a34-98e2-28e3-d79c2f99d981/mzaf_12714767842989350306.plus.aac.p.m4a",
-        "track": "Out of Control",
-        "artist": "She Wants Revenge",
-        "kind": "Rock"
-      },
-      "slug": "she-wants-revenge-2026-10-25"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/twiztid-0a5828/4241/22592/huge.jpg",
@@ -7438,6 +7544,31 @@
         "kind": "Hardcore Rap"
       },
       "slug": "twiztid-2026-10-25"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/she-wants-revenge-af8195/1614/huge.jpg",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "title": "She Wants Revenge",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/she-wants-revenge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-25-8-pm/concert/18400461",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/she-wants-revenge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-25-8-pm/concert/18400461"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/81/d9/9d81d956-8a34-98e2-28e3-d79c2f99d981/mzaf_12714767842989350306.plus.aac.p.m4a",
+        "track": "Out of Control",
+        "artist": "She Wants Revenge",
+        "kind": "Rock"
+      },
+      "slug": "she-wants-revenge-2026-10-25"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/abd/a5e66631-a733-48d5-b556-d14b8d362abd_RETINA_PORTRAIT_16_9.jpg",
@@ -7534,6 +7665,31 @@
       "slug": "fr-mike-schmitz-2026-10-27"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/3e6/a5887c53-4a2a-4c10-baa4-fa9f23df23e6_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-27",
+      "time": "20:00",
+      "title": "Old Crow Medicine Show",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "country",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-S",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-S"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/93/ad/c893ad2f-c1ac-e598-5e1b-ff88bae0a9f0/mzaf_5692155206557567243.plus.aac.p.m4a",
+        "track": "Wagon Wheel",
+        "artist": "Old Crow Medicine Show",
+        "kind": "Americana"
+      },
+      "slug": "old-crow-medicine-show-2026-10-27"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
       "price": 30.37,
       "date": "2026-10-27",
@@ -7577,7 +7733,7 @@
         "artist": "Old Crow Medicine Show",
         "kind": "Americana"
       },
-      "slug": "old-crow-medicine-show-2026-10-27"
+      "slug": "old-crow-medicine-show-2026-10-27-2"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -7599,31 +7755,6 @@
         }
       ],
       "slug": "the-granny-horror-bingo-show-2026-10-28"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
-      "price": 40.93,
-      "date": "2026-10-28",
-      "time": "20:00",
-      "title": "Angel",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/angel-shank-hall-tickets/14255864",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/angel-shank-hall-tickets/14255864",
-          "price": 40.93
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/angel-tickets/milwaukee-wisconsin-shank-hall-2026-10-28-8-pm/concert/18115562"
-        }
-      ],
-      "slug": "angel-2026-10-28"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/472/1426901f-6f24-44ff-986e-54c2f1743472_RETINA_PORTRAIT_16_9.jpg",
@@ -7655,6 +7786,31 @@
       "slug": "blue-october-2026-10-28"
     },
     {
+      "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
+      "price": 40.93,
+      "date": "2026-10-28",
+      "time": "20:00",
+      "title": "Angel",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/angel-shank-hall-tickets/14255864",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/angel-shank-hall-tickets/14255864",
+          "price": 40.93
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/angel-tickets/milwaukee-wisconsin-shank-hall-2026-10-28-8-pm/concert/18115562"
+        }
+      ],
+      "slug": "angel-2026-10-28"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-29",
       "time": "19:30",
@@ -7682,6 +7838,35 @@
         "kind": "Alternative"
       },
       "slug": "sweeping-promises-2026-10-29"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/3ce/e0ccdd6c-0f66-46e4-85cb-3526689df3ce_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-29",
+      "time": "20:00",
+      "title": "Shakey Graves",
+      "support": "Wild Pink",
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/shakey-graves-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-10-29-8-pm/concert/18259534",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/shakey-graves-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-10-29-8-pm/concert/18259534"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A700Pv"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/89/4c/80894c61-9aaa-32ec-aa19-8f98d72939e9/mzaf_9904636351992775516.plus.aac.p.m4a",
+        "track": "Dearly Departed (feat. Esmé Patterson)",
+        "artist": "Shakey Graves",
+        "kind": "Folk"
+      },
+      "slug": "shakey-graves-2026-10-29"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
@@ -7780,35 +7965,6 @@
         }
       ],
       "slug": "roz-2026-10-29"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/3ce/e0ccdd6c-0f66-46e4-85cb-3526689df3ce_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-29",
-      "time": "20:00",
-      "title": "Shakey Graves",
-      "support": "Wild Pink",
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/shakey-graves-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-10-29-8-pm/concert/18259534",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/shakey-graves-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-10-29-8-pm/concert/18259534"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A700Pv"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/89/4c/80894c61-9aaa-32ec-aa19-8f98d72939e9/mzaf_9904636351992775516.plus.aac.p.m4a",
-        "track": "Dearly Departed (feat. Esmé Patterson)",
-        "artist": "Shakey Graves",
-        "kind": "Folk"
-      },
-      "slug": "shakey-graves-2026-10-29"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/rehash-386ad0/204784/huge.jpg",
@@ -7982,31 +8138,6 @@
       "slug": "peter-antoniou-2026-10-31"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/daniel-donato-49e794/667780/huge.jpg",
-      "date": "2026-10-31",
-      "time": "20:00",
-      "title": "Daniel Donato",
-      "support": "Daniel Donato's Cosmic Country",
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "folk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/67/72/e2677282-2dba-99e6-a630-51129847f768/mzaf_16119325956718764931.plus.aac.p.m4a",
-        "track": "Fire on the Mountain",
-        "artist": "Daniel Donato",
-        "kind": "Americana"
-      },
-      "slug": "daniel-donato-2026-10-31"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/paradox-7e99bf/141352/huge.jpg",
       "date": "2026-10-31",
       "time": "20:00",
@@ -8030,6 +8161,31 @@
         "kind": "Pop/Rock"
       },
       "slug": "the-paradox-2026-10-31"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/daniel-donato-49e794/667780/huge.jpg",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "title": "Daniel Donato",
+      "support": "Daniel Donato's Cosmic Country",
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "folk",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/67/72/e2677282-2dba-99e6-a630-51129847f768/mzaf_16119325956718764931.plus.aac.p.m4a",
+        "track": "Fire on the Mountain",
+        "artist": "Daniel Donato",
+        "kind": "Americana"
+      },
+      "slug": "daniel-donato-2026-10-31"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/outlander-in-concert-eafd9d/1975481/huge.jpg",
@@ -8107,17 +8263,21 @@
       "slug": "keith-pedro-2026-11-01"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/jonas-brothers-ac64c3/82/63344/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/378/809a1187-1545-43be-b5ab-e2d220621378_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-01",
       "time": "19:30",
       "title": "Jonas Brothers",
-      "support": "Magnus Ferrell, Deleasa",
+      "support": "Magnus Ferrell",
       "venue": "Fiserv Forum",
       "hood": "Deer District",
       "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/jonas-brothers-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-01-7-30-pm/concert/18503891",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/jonas-brothers-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-01-7-30-pm/concert/18503891"
@@ -8286,7 +8446,7 @@
       "slug": "authority-zero-2026-11-03"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/sombr-a7e3d4/1955379/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/0b8/d1bc79bb-d6e6-4735-bc5c-190572eec0b8_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-03",
       "time": "19:00",
       "title": "Sombr",
@@ -8294,9 +8454,13 @@
       "venue": "Fiserv Forum",
       "hood": "Deer District",
       "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sombr-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-03-7-pm/concert/18175592",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/sombr-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-03-7-pm/concert/18175592"
@@ -8417,6 +8581,33 @@
       "slug": "shallowater-w-snag-2026-11-04"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/3b7/711dfe19-4cb0-4357-add7-fe69546173b7_RETINA_PORTRAIT_16_9.jpg",
+      "price": 27.62,
+      "date": "2026-11-05",
+      "time": "19:00",
+      "title": "Pat Barrett",
+      "support": null,
+      "venue": "RiverGlen Christian Church",
+      "hood": "Waukesha",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/ive-got-a-fire-tour-riverglen-christian-church-tickets/14873503",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/ive-got-a-fire-tour-riverglen-christian-church-tickets/14873503",
+          "price": 27.62
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/74/35/34/74353449-8ff9-6a5e-faef-09e5c3258f79/mzaf_13185458057009878457.plus.aac.p.m4a",
+        "track": "I've Got A Fire",
+        "artist": "Pat Barrett",
+        "kind": "Christian"
+      },
+      "slug": "pat-barrett-2026-11-05"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/3ec/8c140ad6-da9e-4949-b008-c6441e1d53ec_RETINA_PORTRAIT_16_9.jpg",
       "price": 26.22,
       "date": "2026-11-05",
@@ -8467,27 +8658,6 @@
       "slug": "dent-may-2026-11-05"
     },
     {
-      "img": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
-      "price": 19.3,
-      "date": "2026-11-05",
-      "time": "20:00",
-      "title": "Are We Not 80's?",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "pop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/are-we-not-80s-shank-hall-tickets/14200554",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/are-we-not-80s-shank-hall-tickets/14200554",
-          "price": 19.3
-        }
-      ],
-      "slug": "are-we-not-80-s-2026-11-05"
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/676/785b4e6d-2feb-4f59-ba70-5c51a1536676_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-05",
       "time": "20:00",
@@ -8509,6 +8679,56 @@
         }
       ],
       "slug": "sleep-2026-11-05"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/4da/8a560086-9fb3-4792-b8a1-f1ed67b054da_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-05",
+      "time": "20:00",
+      "title": "Orville Peck",
+      "support": "Abbie Callahan",
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "country",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-milwaukee-wisconsin-11-05-2026/event/070064EDB20E2C46",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-milwaukee-wisconsin-11-05-2026/event/070064EDB20E2C46"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/orville-peck-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-05-8-pm/concert/18398314"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0d/8b/e7/0d8be739-f3f5-4b12-e05d-b014f78b0e91/mzaf_3534434690103566480.plus.aac.p.m4a",
+        "track": "Dead of Night",
+        "artist": "Orville Peck",
+        "kind": "Alternative"
+      },
+      "slug": "orville-peck-2026-11-05"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg",
+      "price": 19.3,
+      "date": "2026-11-05",
+      "time": "20:00",
+      "title": "Are We Not 80's?",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "pop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/are-we-not-80s-shank-hall-tickets/14200554",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/are-we-not-80s-shank-hall-tickets/14200554",
+          "price": 19.3
+        }
+      ],
+      "slug": "are-we-not-80-s-2026-11-05"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/waterparks-28f7b6/386084/huge.jpg",
@@ -8534,56 +8754,6 @@
         "kind": "Alternative"
       },
       "slug": "waterparks-2026-11-05"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/orville-peck-e8df29/700342/huge.jpg",
-      "date": "2026-11-05",
-      "time": "20:00",
-      "title": "Orville Peck",
-      "support": "Abbie Callahan",
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/orville-peck-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-05-8-pm/concert/18398314",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/orville-peck-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-05-8-pm/concert/18398314"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0d/8b/e7/0d8be739-f3f5-4b12-e05d-b014f78b0e91/mzaf_3534434690103566480.plus.aac.p.m4a",
-        "track": "Dead of Night",
-        "artist": "Orville Peck",
-        "kind": "Alternative"
-      },
-      "slug": "orville-peck-2026-11-05"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/brigitte-calls-me-baby-45f73c/806582/huge.jpg",
-      "date": "2026-11-05",
-      "time": "20:00",
-      "title": "Brigitte Calls Me Baby",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
-        "track": "Slumber Party",
-        "artist": "Brigitte Calls Me Baby",
-        "kind": "Alternative"
-      },
-      "slug": "brigitte-calls-me-baby-2026-11-05"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/levi-bloom-36bd8b/1980973/huge.jpg",
@@ -8613,6 +8783,31 @@
         "kind": "Country"
       },
       "slug": "levi-bloom-2026-11-05"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/brigitte-calls-me-baby-45f73c/806582/huge.jpg",
+      "date": "2026-11-05",
+      "time": "20:00",
+      "title": "Brigitte Calls Me Baby",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
+        "track": "Slumber Party",
+        "artist": "Brigitte Calls Me Baby",
+        "kind": "Alternative"
+      },
+      "slug": "brigitte-calls-me-baby-2026-11-05"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/joanne-mcnally-0fc492/804789/huge.jpg",
@@ -8793,31 +8988,6 @@
       "slug": "agriculture-2026-11-06"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/colby-acuff-4cf5ee/805532/huge.jpg",
-      "date": "2026-11-06",
-      "time": "20:00",
-      "title": "Colby Acuff",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/colby-acuff-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-06-8-pm/concert/18400467",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/colby-acuff-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-06-8-pm/concert/18400467"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/2c/4d/502c4d71-c12d-9f75-4e80-fa33fe832deb/mzaf_942451993072418493.plus.aac.p.m4a",
-        "track": "MATTER OF TIME",
-        "artist": "Colby Acuff",
-        "kind": "Country"
-      },
-      "slug": "colby-acuff-2026-11-06"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/waterparks-28f7b6/386084/huge.jpg",
       "date": "2026-11-06",
       "time": "20:00",
@@ -8841,6 +9011,31 @@
         "kind": "Alternative"
       },
       "slug": "waterparks-2026-11-06"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/colby-acuff-4cf5ee/805532/huge.jpg",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "title": "Colby Acuff",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/colby-acuff-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-06-8-pm/concert/18400467",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/colby-acuff-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-06-8-pm/concert/18400467"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/2c/4d/502c4d71-c12d-9f75-4e80-fa33fe832deb/mzaf_942451993072418493.plus.aac.p.m4a",
+        "track": "MATTER OF TIME",
+        "artist": "Colby Acuff",
+        "kind": "Country"
+      },
+      "slug": "colby-acuff-2026-11-06"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187367778%2F285524009645%2F1%2Foriginal.20260622-004721?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.51&fp-y=0.737&s=69ab7cfb50286f22662d7328a3bbfbd2",
@@ -8991,31 +9186,6 @@
       "slug": "teddy-thompson-2026-11-07"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/better-than-ezra-dc5983/289/15125/huge.jpg",
-      "date": "2026-11-07",
-      "time": "20:00",
-      "title": "Better Than Ezra",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/33/7a/0a/337a0af3-faf7-11b7-58ae-719a9589b966/mzaf_4280286902317630645.plus.aac.p.m4a",
-        "track": "Good",
-        "artist": "Better Than Ezra",
-        "kind": "Rock"
-      },
-      "slug": "better-than-ezra-2026-11-07"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/matt-rife-21602b/313930/huge.jpg",
       "date": "2026-11-07",
       "time": "20:00",
@@ -9039,6 +9209,31 @@
         "kind": "Comedy"
       },
       "slug": "matt-rife-2026-11-07"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/better-than-ezra-dc5983/289/15125/huge.jpg",
+      "date": "2026-11-07",
+      "time": "20:00",
+      "title": "Better Than Ezra",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/33/7a/0a/337a0af3-faf7-11b7-58ae-719a9589b966/mzaf_4280286902317630645.plus.aac.p.m4a",
+        "track": "Good",
+        "artist": "Better Than Ezra",
+        "kind": "Rock"
+      },
+      "slug": "better-than-ezra-2026-11-07"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -9183,6 +9378,64 @@
       "slug": "daniel-sloss-2026-11-10"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/f55/a6bc2ab4-1080-4eb4-a2aa-4f54a835cf55_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-10",
+      "time": "20:00",
+      "title": "Andrew Bird",
+      "support": "Milwaukee Symphony Orchestra",
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/andrew-bird-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-10-8-pm/concert/18094525",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/andrew-bird-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-10-8-pm/concert/18094525"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_fS"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9e/26/08/9e260895-8ee3-8e52-1eb0-f320c4a92283/mzaf_13913858859310995268.plus.aac.p.m4a",
+        "track": "Sisyphus",
+        "artist": "Andrew Bird",
+        "kind": "Alternative"
+      },
+      "slug": "andrew-bird-2026-11-10"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/1cc/dbbdb302-9c0e-42cc-baaa-8cae6651c1cc_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-10",
+      "time": "20:00",
+      "title": "Jack White",
+      "support": null,
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/jack-white-live-2026-milwaukee-wisconsin-11-10-2026/event/070064868A011FF3",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/jack-white-live-2026-milwaukee-wisconsin-11-10-2026/event/070064868A011FF3"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/jack-white-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-10-8-pm/concert/18168189"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/01/03/bd01037a-6624-c7b5-d446-1d7dd37e66bc/mzaf_10010278149962191512.plus.aac.p.m4a",
+        "track": "G.O.D. And The Broken Ribs",
+        "artist": "Jack White",
+        "kind": "Rock"
+      },
+      "slug": "jack-white-2026-11-10"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_RETINA_PORTRAIT_16_9.jpg",
       "price": 24.96,
       "date": "2026-11-10",
@@ -9227,56 +9480,6 @@
         "kind": "Alternative"
       },
       "slug": "amythyst-kiah-2026-11-10"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/jack-white-6b4c3b/14442/71669/huge.jpg",
-      "date": "2026-11-10",
-      "time": "20:00",
-      "title": "Jack White",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/jack-white-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-10-8-pm/concert/18168189",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jack-white-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-10-8-pm/concert/18168189"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/01/03/bd01037a-6624-c7b5-d446-1d7dd37e66bc/mzaf_10010278149962191512.plus.aac.p.m4a",
-        "track": "G.O.D. And The Broken Ribs",
-        "artist": "Jack White",
-        "kind": "Rock"
-      },
-      "slug": "jack-white-2026-11-10"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/andrew-bird-551040/198/huge.jpg",
-      "date": "2026-11-10",
-      "time": "20:00",
-      "title": "Andrew Bird",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/andrew-bird-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-10-8-pm/concert/18094525",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/andrew-bird-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-10-8-pm/concert/18094525"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9e/26/08/9e260895-8ee3-8e52-1eb0-f320c4a92283/mzaf_13913858859310995268.plus.aac.p.m4a",
-        "track": "Sisyphus",
-        "artist": "Andrew Bird",
-        "kind": "Alternative"
-      },
-      "slug": "andrew-bird-2026-11-10"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -9331,31 +9534,6 @@
       "slug": "alison-brown-2026-11-11"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/tyler-ballgame-730a45/1962000/huge.jpg",
-      "date": "2026-11-11",
-      "time": "20:00",
-      "title": "Tyler Ballgame",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/18/47/1e1847a2-7b54-1d60-b276-0ad4e070af50/mzaf_11625053578229540426.plus.aac.p.m4a",
-        "track": "I Believe In Love",
-        "artist": "Tyler Ballgame",
-        "kind": "Alternative"
-      },
-      "slug": "tyler-ballgame-2026-11-11"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/micky-dolenz-bfc761/16114/huge.jpg",
       "date": "2026-11-11",
       "time": "20:00",
@@ -9379,6 +9557,31 @@
         "kind": "Rock"
       },
       "slug": "micky-dolenz-2026-11-11"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/tyler-ballgame-730a45/1962000/huge.jpg",
+      "date": "2026-11-11",
+      "time": "20:00",
+      "title": "Tyler Ballgame",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/18/47/1e1847a2-7b54-1d60-b276-0ad4e070af50/mzaf_11625053578229540426.plus.aac.p.m4a",
+        "track": "I Believe In Love",
+        "artist": "Tyler Ballgame",
+        "kind": "Alternative"
+      },
+      "slug": "tyler-ballgame-2026-11-11"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/19a/5916bf6f-8c45-479b-9492-388ae74ab19a_RETINA_PORTRAIT_16_9.jpg",
@@ -9439,24 +9642,28 @@
       "slug": "michelle-branch-2026-11-12"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/motionless-in-white-345d80/23721/17621/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/ae8/69667459-3c21-434e-af03-1dd0420c9ae8_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-13",
       "time": "18:30",
-      "title": "Motionless in White",
+      "title": "Motionless In White",
       "support": "Dayseeker, The Devil Wears Prada, Dark Divine",
       "venue": "Fiserv Forum",
       "hood": "Deer District",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/motionless-in-white-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-13-6-30-pm/concert/18281907",
+      "genre": "metal",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/motionless-in-white-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-13-6-30-pm/concert/18281907"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/f0/70/0af070e1-81a2-7554-f54d-b67f17c1285e/mzaf_11515017162720435539.plus.aac.p.m4a",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c0/af/ae/c0afaeb3-aea5-3c20-788f-64017d7db37b/mzaf_13680975937059509813.plus.aac.p.m4a",
         "track": "Another Life",
         "artist": "Motionless In White",
         "kind": "Hard Rock"
@@ -9497,6 +9704,108 @@
         "kind": "Comedy"
       },
       "slug": "t-j-miller-2026-11-13"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/b9a/21e3268e-901c-489a-8b5e-ce70d6a94b9a_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Charles Wesley Godwin",
+      "support": "Tyler Nance",
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/charles-wesley-godwin-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-13-8-pm/concert/18354424",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/charles-wesley-godwin-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-13-8-pm/concert/18354424"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_fV"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/39/a4/9a39a438-2ed4-87a2-5295-a5e8b32c9d63/mzaf_16929281132567801034.plus.aac.p.m4a",
+        "track": "Dance in Rain",
+        "artist": "Charles Wesley Godwin",
+        "kind": "Country"
+      },
+      "slug": "charles-wesley-godwin-2026-11-13"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/6dd/e7e4cb71-b18b-4ca4-a319-e3ea123966dd_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "The Mavericks",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-mavericks-tickets/milwaukee-wisconsin-pabst-theater-2026-11-13-8-pm/concert/18226467",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-mavericks-tickets/milwaukee-wisconsin-pabst-theater-2026-11-13-8-pm/concert/18226467"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Kkd"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e4/75/8a/e4758a8c-f0f0-c56c-5ca8-b6a8684a5905/mzaf_5598777930256231635.plus.aac.p.m4a",
+        "track": "What a Crying Shame",
+        "artist": "The Mavericks",
+        "kind": "Country"
+      },
+      "slug": "the-mavericks-2026-11-13"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/c7d/705f2eed-23d5-4ce6-b9e9-cf49d6859c7d_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "STS9",
+      "support": null,
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/sts9-human-dream-tour-milwaukee-wisconsin-11-13-2026/event/070064CAA7C54DEF",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/sts9-human-dream-tour-milwaukee-wisconsin-11-13-2026/event/070064CAA7C54DEF"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/77/cf/60/77cf60e6-2ba8-c4d3-027f-6c46be6928c6/mzaf_1909593991510754453.plus.aac.p.m4a",
+        "track": "When the Dust Settles",
+        "artist": "STS9",
+        "kind": "Jam Bands"
+      },
+      "slug": "sts9-2026-11-13"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/sound-tribe-sector-9-sts9-e6091c/1663/huge.jpg",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Sound Tribe Sector 9 - STS9",
+      "support": null,
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/sound-tribe-sector-9-sts9-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-13-8-pm/concert/18319540",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/sound-tribe-sector-9-sts9-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-13-8-pm/concert/18319540"
+        }
+      ],
+      "slug": "sound-tribe-sector-9-sts9-2026-11-13"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg",
@@ -9555,104 +9864,6 @@
       "slug": "lil-ed-and-the-blues-imperials-2026-11-13"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/6dd/e7e4cb71-b18b-4ca4-a319-e3ea123966dd_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "The Mavericks",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-mavericks-tickets/milwaukee-wisconsin-pabst-theater-2026-11-13-8-pm/concert/18226467",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-mavericks-tickets/milwaukee-wisconsin-pabst-theater-2026-11-13-8-pm/concert/18226467"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Kkd"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e4/75/8a/e4758a8c-f0f0-c56c-5ca8-b6a8684a5905/mzaf_5598777930256231635.plus.aac.p.m4a",
-        "track": "What a Crying Shame",
-        "artist": "The Mavericks",
-        "kind": "Country"
-      },
-      "slug": "the-mavericks-2026-11-13"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/steve-martin-df0aba/8142/huge.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Steve Martin",
-      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
-        "track": "King Tut",
-        "artist": "Steve Martin",
-        "kind": "Comedy"
-      },
-      "slug": "steve-martin-2026-11-13"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/charles-wesley-godwin-0e92ec/767445/huge.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Charles Wesley Godwin",
-      "support": "Tyler Nance",
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/charles-wesley-godwin-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-13-8-pm/concert/18354424",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/charles-wesley-godwin-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-13-8-pm/concert/18354424"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/39/a4/9a39a438-2ed4-87a2-5295-a5e8b32c9d63/mzaf_16929281132567801034.plus.aac.p.m4a",
-        "track": "Dance in Rain",
-        "artist": "Charles Wesley Godwin",
-        "kind": "Country"
-      },
-      "slug": "charles-wesley-godwin-2026-11-13"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/sound-tribe-sector-9-sts9-e6091c/1663/huge.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Sound Tribe Sector 9 - STS9",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sound-tribe-sector-9-sts9-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-13-8-pm/concert/18319540",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sound-tribe-sector-9-sts9-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-13-8-pm/concert/18319540"
-        }
-      ],
-      "slug": "sound-tribe-sector-9-sts9-2026-11-13"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/hovvdy-005bd1/336062/huge.jpg",
       "date": "2026-11-13",
       "time": "20:00",
@@ -9701,6 +9912,31 @@
         "kind": "Country"
       },
       "slug": "bryan-andrews-2026-11-13"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/steve-martin-df0aba/8142/huge.jpg",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Steve Martin",
+      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
+      "venue": "Miller High Life Theatre",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
+        "track": "King Tut",
+        "artist": "Steve Martin",
+        "kind": "Comedy"
+      },
+      "slug": "steve-martin-2026-11-13"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/emo-night-karaoke-4d68c6/703965/huge.jpg",
@@ -9763,17 +9999,21 @@
       "slug": "t-j-miller-2026-11-14"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/pentatonix-912e90/20599/20676/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/007/c8a22313-f355-4dbd-8a5e-994183aa3007_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-14",
       "time": "19:00",
       "title": "Pentatonix",
       "support": null,
       "venue": "Fiserv Forum",
       "hood": "Deer District",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/pentatonix-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-14-7-pm/concert/18427195",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/pentatonix-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-14-7-pm/concert/18427195"
@@ -9786,6 +10026,35 @@
         "kind": "Holiday"
       },
       "slug": "pentatonix-2026-11-14"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/a05/864074ba-2f52-49e8-94cb-3aef94581a05_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-14",
+      "time": "20:00",
+      "title": "Daily Bread",
+      "support": "Vincent Antone, Motifv",
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "electronic",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/daily-bread-vanishing-point-tour-milwaukee-wisconsin-11-14-2026/event/070064E691811849",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/daily-bread-vanishing-point-tour-milwaukee-wisconsin-11-14-2026/event/070064E691811849"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/daily-bread-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-14-8-pm/concert/18372630"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/99/27/7a/99277a38-2a83-9582-8c17-33115c4ddf6a/mzaf_177624539375254197.plus.aac.p.m4a",
+        "track": "Snickerz",
+        "artist": "Daily Bread",
+        "kind": "Funk"
+      },
+      "slug": "daily-bread-2026-11-14"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
@@ -9838,31 +10107,6 @@
       "slug": "rival-sons-2026-11-14"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/daily-bread-cce550/58901/huge.jpg",
-      "date": "2026-11-14",
-      "time": "20:00",
-      "title": "Daily Bread",
-      "support": "Vincent Antone",
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "rnb",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/daily-bread-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-14-8-pm/concert/18372630",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/daily-bread-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-14-8-pm/concert/18372630"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/99/27/7a/99277a38-2a83-9582-8c17-33115c4ddf6a/mzaf_177624539375254197.plus.aac.p.m4a",
-        "track": "Snickerz",
-        "artist": "Daily Bread",
-        "kind": "Funk"
-      },
-      "slug": "daily-bread-2026-11-14"
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/241/941e4b5a-5117-4186-882f-ef96ae19b241_952621_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-15",
       "time": "13:00",
@@ -9907,32 +10151,7 @@
       "slug": "tee-sanders-2026-11-15"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-wood-brothers-e4d069/1886/17139/huge.jpg",
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "The Wood Brothers",
-      "support": "Amelia Day",
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/67/c3/f6/67c3f6e4-38e6-6167-49f4-9e0c8c38f940/mzaf_1525483130211597519.plus.aac.p.m4a",
-        "track": "Luckiest Man",
-        "artist": "The Wood Brothers",
-        "kind": "Country"
-      },
-      "slug": "the-wood-brothers-2026-11-15"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/alicia-villarreal-49a71f/237179/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/4ca/5c9545d5-be9f-4824-869b-42bf3734f4ca_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-15",
       "time": "20:00",
       "title": "Alicia Villarreal",
@@ -9940,9 +10159,13 @@
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "latin",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/alicia-villarreal-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-15-8-pm/concert/18312282",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/alicia-villarreal-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-15-8-pm/concert/18312282"
@@ -9974,6 +10197,31 @@
         }
       ],
       "slug": "luke-kidgell-2026-11-15"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/the-wood-brothers-e4d069/1886/17139/huge.jpg",
+      "date": "2026-11-15",
+      "time": "20:00",
+      "title": "The Wood Brothers",
+      "support": "Amelia Day",
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/67/c3/f6/67c3f6e4-38e6-6167-49f4-9e0c8c38f940/mzaf_1525483130211597519.plus.aac.p.m4a",
+        "track": "Luckiest Man",
+        "artist": "The Wood Brothers",
+        "kind": "Country"
+      },
+      "slug": "the-wood-brothers-2026-11-15"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190501470%2F285524009645%2F1%2Foriginal.20260806-215239?w=640&auto=format%2Ccompress&q=75&sharp=10&s=b72f6b76147f929a4ae8419c2db73fbe",
@@ -10024,6 +10272,35 @@
       "slug": "saosin-2026-11-17"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/d20/752b570b-6c6a-4ceb-9c05-306e46a69d20_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-18",
+      "time": "19:00",
+      "title": "Cheap Trick",
+      "support": "The Band Feel",
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/cheap-trick-all-washed-up-tour-milwaukee-wisconsin-11-18-2026/event/070064E9D2CC37FA",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/cheap-trick-all-washed-up-tour-milwaukee-wisconsin-11-18-2026/event/070064E9D2CC37FA"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/cheap-trick-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-18-7-pm/concert/18393658"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a3/2c/c6/a32cc62e-c356-4241-8aac-3f7af58c3bfd/mzaf_12185621636843130602.plus.aac.p.m4a",
+        "track": "Surrender",
+        "artist": "Cheap Trick",
+        "kind": "Rock"
+      },
+      "slug": "cheap-trick-2026-11-18"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "price": 0,
       "date": "2026-11-18",
@@ -10047,31 +10324,6 @@
         }
       ],
       "slug": "davide-de-pierro-2026-11-18"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/cheap-trick-921d03/439/33711/huge.jpg",
-      "date": "2026-11-18",
-      "time": "19:00",
-      "title": "Cheap Trick",
-      "support": "The Band FEEL",
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/cheap-trick-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-18-7-pm/concert/18393658",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/cheap-trick-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-18-7-pm/concert/18393658"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a3/2c/c6/a32cc62e-c356-4241-8aac-3f7af58c3bfd/mzaf_12185621636843130602.plus.aac.p.m4a",
-        "track": "Surrender",
-        "artist": "Cheap Trick",
-        "kind": "Rock"
-      },
-      "slug": "cheap-trick-2026-11-18"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/nicole-atkins-87aec9/10003/huge.jpg",
@@ -10302,17 +10554,22 @@
       "slug": "donnell-rawlings-2026-11-21"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/sabaton-ddad29/12809/65696/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/6af/faa2c053-7247-49f9-9cd2-9dd6512986af_RETINA_PORTRAIT_16_9.jpg",
+      "status": "rescheduled",
       "date": "2026-11-21",
       "time": "19:00",
       "title": "Sabaton",
-      "support": null,
+      "support": "Pop Evil, Wings of Steel",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "metal",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sabaton-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-21-7-pm/concert/17857308",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5",
       "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5"
+        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/sabaton-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-21-7-pm/concert/17857308"
@@ -10533,31 +10790,6 @@
       "slug": "jady-2026-11-22"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/michigander-fd98bb/383377/huge.jpg",
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
-    },
-    {
       "img": "https://seatgeekimages.com/performers-landscape/hot-freaks-41554b/811054/huge.jpg",
       "date": "2026-11-22",
       "time": "20:00",
@@ -10606,6 +10838,31 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-soft-body-tour-w-thesaurus-rex-2026-11-22"
+    },
+    {
+      "img": "https://seatgeekimages.com/performers-landscape/michigander-fd98bb/383377/huge.jpg",
+      "date": "2026-11-22",
+      "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
@@ -11077,6 +11334,33 @@
       "slug": "gwar-2026-12-03"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/a11/505822b5-bce8-4b9f-addc-e4140f16ca11_1809451_RETINA_PORTRAIT_16_9.jpg",
+      "price": 29.25,
+      "date": "2026-12-03",
+      "time": "19:00",
+      "title": "Jackyl",
+      "support": null,
+      "venue": "Route 20",
+      "hood": "Sturtevant",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/jackyl-route-20-tickets/14291584",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/jackyl-route-20-tickets/14291584",
+          "price": 29.25
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c0/7c/ba/c07cbaa4-537c-ca96-73ea-7fb365814065/mzaf_5359874013564830493.plus.aac.p.m4a",
+        "track": "Down on Me",
+        "artist": "Jackyl",
+        "kind": "Hard Rock"
+      },
+      "slug": "jackyl-2026-12-03"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
       "price": 24.96,
       "date": "2026-12-03",
@@ -11293,6 +11577,25 @@
       "slug": "jessica-kirson-2026-12-05"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/5e4/89593bbf-0a48-4be1-95a4-8ffba46375e4_1065341_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-05",
+      "time": "20:00",
+      "title": "Harry Potter and the Chamber of Secrets™ in Concert",
+      "support": "Milwaukee Symphony Orchestra",
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OaxK",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OaxK"
+        }
+      ],
+      "slug": "harry-potter-and-the-chamber-of-secrets-in-concert-2026-12-05"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
       "price": 40.93,
       "date": "2026-12-05",
@@ -11368,6 +11671,25 @@
         "kind": "Indie Rock"
       },
       "slug": "the-gringos-2026-12-05"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/5e4/89593bbf-0a48-4be1-95a4-8ffba46375e4_1065341_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-06",
+      "time": "14:30",
+      "title": "Harry Potter and the Chamber of Secrets™ in Concert",
+      "support": "Milwaukee Symphony Orchestra",
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Oaxb",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Oaxb"
+        }
+      ],
+      "slug": "harry-potter-and-the-chamber-of-secrets-in-concert-2026-12-06"
     },
     {
       "img": "https://s1.ticketm.net/dam/c/2e8/33262bfb-cb4b-4d42-bf4e-0134d992b2e8_106361_RETINA_PORTRAIT_16_9.jpg",
@@ -11518,6 +11840,25 @@
       "slug": "brett-eldredge-2026-12-08"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/aee/862e521c-694d-4ef4-84c3-0fa9b91d1aee_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-09",
+      "time": "19:00",
+      "title": "Love Actually Live in Concert",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZFao",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZFao"
+        }
+      ],
+      "slug": "love-actually-live-in-concert-2026-12-09"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg",
       "price": 32.39,
       "date": "2026-12-09",
@@ -11568,6 +11909,29 @@
       "slug": "alfred-robles-2026-12-11"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/b20/6af3f817-14e2-4579-a5b5-712c8cffdb20_1790271_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-11",
+      "time": "20:00",
+      "title": "The Rush Tribute Project",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-rush-tribute-project-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-11-8-pm/concert/18526359",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-rush-tribute-project-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-11-8-pm/concert/18526359"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZb0z"
+        }
+      ],
+      "slug": "the-rush-tribute-project-2026-12-11"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/186/32bd8764-1ed9-4881-9067-11c26a515186_880511_RETINA_PORTRAIT_16_9.jpg",
       "price": 24.96,
       "date": "2026-12-11",
@@ -11599,39 +11963,24 @@
       "slug": "the-reverend-peyton-s-big-damn-band-2026-12-11"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/the-rush-tribute-project-8061b3/657368/huge.jpg",
-      "date": "2026-12-11",
-      "time": "20:00",
-      "title": "The Rush Tribute Project",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-rush-tribute-project-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-11-8-pm/concert/18526359",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-rush-tribute-project-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-11-8-pm/concert/18526359"
-        }
-      ],
-      "slug": "the-rush-tribute-project-2026-12-11"
-    },
-    {
-      "img": "https://seatgeekimages.com/performers-landscape/ben-rector-6211e4/6138/25922/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/1c3/fab2b51a-f809-44ab-a500-b00fb6bd81c3_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-12",
       "time": "15:30",
       "title": "Ben Rector",
       "support": null,
       "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "folk",
+      "hood": "Milwaukee",
+      "genre": "indie",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ben-rector-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-12-3-30-pm/concert/18526363",
+      "url": "https://seatgeek.com/ben-rector-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-12-7-30-pm/concert/18526365",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/ben-rector-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-12-3-30-pm/concert/18526363"
+          "url": "https://seatgeek.com/ben-rector-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-12-7-30-pm/concert/18526365"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZb4F"
         }
       ],
       "times": [
@@ -11720,20 +12069,24 @@
       "slug": "sam-jay-2026-12-12"
     },
     {
-      "img": "https://seatgeekimages.com/performers-landscape/chris-tomlin-435f7e/458/19759/huge.jpg",
+      "img": "https://s1.ticketm.net/dam/a/ad6/46848aab-c22d-4f38-b4ac-ac82dc156ad6_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-17",
       "time": "19:00",
       "title": "Chris Tomlin",
       "support": null,
       "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "other",
+      "hood": "Milwaukee",
+      "genre": "pop",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/chris-tomlin-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-17-7-pm/concert/18549322",
       "offers": [
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/chris-tomlin-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-17-7-pm/concert/18549322"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv4bE"
         }
       ],
       "preview": {
@@ -12150,6 +12503,26 @@
         "kind": "Comedy"
       },
       "slug": "greg-warren-2026-12-31"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_PORTRAIT_16_9.jpg",
+      "tbd": true,
+      "date": "2026-12-31",
+      "time": "20:00",
+      "title": "2026 Premium Season Tickets",
+      "support": null,
+      "venue": "Alpine Valley Music Theatre",
+      "hood": "East Troy",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://premium.livenation.com/venue/alpine-valley-music-theatre",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://premium.livenation.com/venue/alpine-valley-music-theatre"
+        }
+      ],
+      "slug": "2026-premium-season-tickets-2026-12-31"
     },
     {
       "img": "https://seatgeekimages.com/performers-landscape/spafford-fbc1a6/102962/huge.jpg",
