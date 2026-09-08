@@ -163,12 +163,49 @@ function keepEvent(segmentName, genreName) {
   return false;
 }
 
+// When Ticketmaster has no photo of the act it serves generic category art —
+// one abstract swirl standing in for 44 unrelated listings. Those live under
+// /dam/c/ (classification) while real artist photos are /dam/a/ (attraction).
+//
+// A placeholder is worse than no image at all: it's wrong in the row, and in a
+// shared link preview it puts abstract art next to a comedian's name. Dropping
+// it here also lets the merge fall through to SeatGeek's real performer photo,
+// which a placeholder would otherwise have blocked.
+const TM_PLACEHOLDER = /\/dam\/c\//;
+
 // Pick a wide event image (~640px 16:9) from TM's images array, for the
 // featured-show card. Optional — shows without one just have no img field.
 function tmImage(e) {
-  const imgs = e.images || [];
+  const imgs = (e.images || []).filter(i => i.url && !TM_PLACEHOLDER.test(i.url));
   const wide = imgs.filter(i => i.ratio === '16_9' && i.width >= 500).sort((a, b) => a.width - b.width);
   return (wide[0] || imgs[0] || {}).url;
+}
+
+// Belt and braces: catch a placeholder that reached a show by any other route,
+// and let an existing shows.json be cleaned without re-querying the APIs.
+function dropPlaceholderImages(shows) {
+  let n = 0;
+  for (const s of shows) if (s.img && TM_PLACEHOLDER.test(s.img)) { delete s.img; n++; }
+  if (n) console.log(`• Images: ${n} generic Ticketmaster placeholders dropped`);
+  return shows;
+}
+
+// Some rooms only ever book one thing. Ticketmaster leaves a lot of Milwaukee
+// Improv listings untagged, which filed comedians under the music genres and —
+// worse — let the preview lookup bind a stranger's song to a comedian's name,
+// because the "a comedy listing needs a comedy release" guard only fires on
+// genre 'comedy'. A comedian at a comedy club is comedy whatever the API says.
+const COMEDY_VENUES = [/milwaukee improv/i];
+
+function tagVenueGenres(shows) {
+  let n = 0;
+  for (const s of shows) {
+    if (s.genre === 'comedy') continue;
+    if (!COMEDY_VENUES.some(re => re.test(s.venue || ''))) continue;
+    s.genre = 'comedy'; n++;
+  }
+  if (n) console.log(`• Genres: ${n} shows tagged comedy by their venue`);
+  return shows;
 }
 
 // Ticket status, worst-first. When two sources disagree we keep the more
@@ -721,6 +758,9 @@ async function attachPreviews(shows) {
 
   let withPreview = 0;
   for (const s of shows) {
+    // decide from scratch every run — a show carried in from an existing
+    // shows.json may hold a preview that no longer passes the checks below
+    delete s.preview;
     const hit = cache[cleanArtist(s.title)];
     if (!hit || !hit.url) continue;
     // a comedian's listing should only play actual comedy — otherwise it's a
@@ -1069,6 +1109,10 @@ async function main() {
     process.exit(1);
   }
 
+  // both of these must run BEFORE previews: the venue tag is what stops a
+  // comedian being handed a same-named musician's song
+  tagVenueGenres(shows);
+  dropPlaceholderImages(shows);
   const cache = await attachPreviews(shows);
   refineGenres(shows, cache);    // Apple knows the band; the seller knows the booking
   assignSlugs(shows);            // every show gets its own shareable address
@@ -1089,6 +1133,8 @@ async function pagesOnly() {
   const payload = JSON.parse(fs.readFileSync(OUT, 'utf8'));
   // Everything downstream of the ticketing APIs, re-derived from what's already
   // in shows.json. Only iTunes is called, and only for artists not yet cached.
+  tagVenueGenres(payload.shows);
+  dropPlaceholderImages(payload.shows);
   const cache = await attachPreviews(payload.shows);
   refineGenres(payload.shows, cache);               // idempotent; safe to re-run
   pointAtBestOffer(payload.shows);
@@ -1108,4 +1154,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, pointAtBestOffer, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, pointAtBestOffer, dropPlaceholderImages, tagVenueGenres, GENRE_MAP, VENUE_HOODS, MKE_VENUES };

@@ -4,7 +4,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const path = require('path');
 
-const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, pointAtBestOffer, GENRE_MAP } = require('./build-shows.js');
+const { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, pointAtBestOffer, dropPlaceholderImages, tagVenueGenres, GENRE_MAP } = require('./build-shows.js');
 
 // The genre keys the front-end knows how to label + color. Every genre the
 // feed can emit must be in this set, or shows render with a bare key + no color.
@@ -312,6 +312,64 @@ test('cleanArtist strips the noise that breaks music lookups', () => {
   assert.equal(cleanArtist('Zach Rushing: The Redneck Logic Tour'), 'Zach Rushing');
   // a colon that isn't tour branding is part of the name and must survive
   assert.equal(cleanArtist('Chad Gray: Voice of Mudvayne & Hellyeah'), 'Chad Gray: Voice of Mudvayne & Hellyeah');
+});
+
+// --- images -----------------------------------------------------------------
+
+test('tmImage refuses Ticketmaster generic category art', () => {
+  // /dam/c/ is classification art — one abstract swirl shared by 44 unrelated
+  // listings. /dam/a/ is a real photo of the attraction.
+  const placeholder = 'https://s1.ticketm.net/dam/c/f51/ee785ed6_106201_RETINA_PORTRAIT_16_9.jpg';
+  const real = 'https://s1.ticketm.net/dam/a/331/b7107cfc_RETINA_PORTRAIT_16_9.jpg';
+
+  assert.equal(tmImage({ images: [{ url: real, ratio: '16_9', width: 640 }] }), real);
+  // a placeholder is worse than nothing: wrong in the row, wrong in a shared preview
+  assert.equal(tmImage({ images: [{ url: placeholder, ratio: '16_9', width: 640 }] }), undefined);
+  // and it must never be preferred over a real photo
+  assert.equal(tmImage({ images: [
+    { url: placeholder, ratio: '16_9', width: 640 },
+    { url: real, ratio: '16_9', width: 640 },
+  ] }), real);
+  assert.equal(tmImage({ images: [] }), undefined);
+});
+
+test('dropPlaceholderImages cleans shows that already carry one', () => {
+  const shows = [
+    { title: 'A', img: 'https://s1.ticketm.net/dam/c/f51/x_RETINA_PORTRAIT_16_9.jpg' },
+    { title: 'B', img: 'https://s1.ticketm.net/dam/a/331/y_RETINA_PORTRAIT_16_9.jpg' },
+    { title: 'C' },
+  ];
+  dropPlaceholderImages(shows);
+  assert.equal('img' in shows[0], false, 'placeholder should be removed entirely');
+  assert.ok(shows[1].img, 'a real photo must survive');
+});
+
+// --- venues that only book one thing ----------------------------------------
+
+test('tagVenueGenres marks comedy-club listings as comedy', () => {
+  // Ticketmaster leaves many Milwaukee Improv shows untagged. Left alone they
+  // filed comedians under music genres AND slipped past the preview guard,
+  // which is how a comedian ended up with a same-named Christian singer's song.
+  const shows = [
+    { title: 'Michael Turner', venue: 'Milwaukee Improv', genre: 'other' },
+    { title: 'Sam Tallent', venue: 'Milwaukee Improv', genre: 'country' },
+    { title: 'Already Right', venue: 'Milwaukee Improv', genre: 'comedy' },
+    { title: 'A Real Band', venue: 'Shank Hall', genre: 'rock' },
+  ];
+  tagVenueGenres(shows);
+  assert.deepEqual(shows.map(s => s.genre), ['comedy', 'comedy', 'comedy', 'rock']);
+});
+
+test('no show in shows.json carries a placeholder or a mismatched comedy preview', () => {
+  const p = path.join(__dirname, '..', 'shows.json');
+  if (!fs.existsSync(p)) return;
+  for (const s of JSON.parse(fs.readFileSync(p, 'utf8')).shows) {
+    assert.doesNotMatch(s.img || '', /\/dam\/c\//, `placeholder image on ${s.title}`);
+    if (s.genre === 'comedy' && s.preview) {
+      assert.match(s.preview.kind || '', /comedy|spoken/i,
+        `${s.title} is comedy but its ▶ plays ${s.preview.artist} (${s.preview.kind})`);
+    }
+  }
 });
 
 // --- which ticket link wins ------------------------------------------------
