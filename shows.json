@@ -1,157 +1,6 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "shows": [
-    {
-      "img": "https://i.ticketweb.com/i/00/13/39/56/43_Edp.jpg?v=7",
-      "price": 26.22,
-      "date": "2026-09-11",
-      "time": "19:00",
-      "title": "Sam Tallent",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793113",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/sam-tallent-milwaukee-improv-main-room-tickets/14793113",
-          "price": 26.22
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sam-tallent-tickets/comedy/2026-09-11-7-pm/18400862"
-        }
-      ],
-      "times": [
-        "19:00",
-        "21:15"
-      ],
-      "slug": "sam-tallent-2026-09-11"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191882258%2F285524009645%2F1%2Foriginal.20260825-191849?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=1.0&fp-y=0.519&s=5e9398ce3706dd086653a7c5d685f2a7",
-      "date": "2026-09-11",
-      "time": "19:00",
-      "title": "Free Movie Night w/ Ryan Jay",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/free-movie-night-w-ryan-jay-tickets-1998916685616",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/free-movie-night-w-ryan-jay-tickets-1998916685616"
-        }
-      ],
-      "slug": "free-movie-night-w-ryan-jay-2026-09-11"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/8c3/a6be573f-37e6-4adc-9bad-cd25711378c3_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-11",
-      "time": "19:30",
-      "title": "Kacey Musgraves",
-      "support": "Midland",
-      "venue": "Fiserv Forum",
-      "hood": "Deer District",
-      "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-milwaukee-wisconsin-09-11-2026/event/0700649692DE2D82",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-milwaukee-wisconsin-09-11-2026/event/0700649692DE2D82"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/kacey-musgraves-tickets/milwaukee-wisconsin-fiserv-forum-2026-09-11-7-30-pm/concert/18210151"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/ba/3f/48ba3f3a-c17e-f0ee-b2da-d57c6e311041/mzaf_3166207278943984447.plus.aac.p.m4a",
-        "track": "Dry Spell",
-        "artist": "Kacey Musgraves",
-        "kind": "Country"
-      },
-      "slug": "kacey-musgraves-2026-09-11"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/12/98/76/74_Edp.jpg?v=4",
-      "price": 19.3,
-      "date": "2026-09-11",
-      "time": "20:00",
-      "title": "U2Zoo",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/u2zoo-shank-hall-tickets/14272554",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/u2zoo-shank-hall-tickets/14272554",
-          "price": 19.3
-        }
-      ],
-      "slug": "u2zoo-2026-09-11"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/6e5/231540ba-47db-405b-aa6f-d1ca689966e5_224351_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-11",
-      "time": "20:00",
-      "title": "The Knocks",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-knocks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-11-8-pm/concert/18346275",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-knocks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-11-8-pm/concert/18346275"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzAa"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/68/51/24/685124b7-0cd1-459a-b5fa-e2fb25cb1273/mzaf_7475377649593431190.plus.aac.p.m4a",
-        "track": "Classic (feat. Powers)",
-        "artist": "The Knocks",
-        "kind": "Electronica"
-      },
-      "slug": "the-knocks-2026-09-11"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "20:00",
-      "title": "Shoobies",
-      "support": null,
-      "venue": "Falcon Bowl",
-      "hood": "Milwaukee",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/shoobies-tickets/milwaukee-wisconsin-falcon-bowl-2026-09-11-8-pm/concert/18526496",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/shoobies-tickets/milwaukee-wisconsin-falcon-bowl-2026-09-11-8-pm/concert/18526496"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/13/1e/40131e6f-a476-3668-ecfd-56d82472da28/mzaf_12331966205796146642.plus.aac.p.m4a",
-        "track": "Violet",
-        "artist": "Shoobies",
-        "kind": "Alternative"
-      },
-      "slug": "shoobies-2026-09-11"
-    },
     {
       "date": "2026-09-12",
       "time": "16:00",
@@ -171,7 +20,7 @@
       "slug": "islander-2026-09-12"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/39/56/43_Edp.jpg?v=7",
+      "img": "https://i.ticketweb.com/i/00/13/39/56/43_Edp.jpg?v=8",
       "price": 26.22,
       "date": "2026-09-12",
       "time": "18:30",
@@ -471,7 +320,7 @@
       "slug": "the-sunday-club-kickoff-party-free-2026-09-13"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/39/56/43_Edp.jpg?v=7",
+      "img": "https://i.ticketweb.com/i/00/13/39/56/43_Edp.jpg?v=8",
       "price": 26.22,
       "date": "2026-09-13",
       "time": "18:00",
@@ -1099,6 +948,24 @@
     {
       "date": "2026-09-17",
       "time": "20:00",
+      "title": "Bleach",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
+        }
+      ],
+      "slug": "bleach-2026-09-17"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "20:00",
       "title": "Improvement Movement",
       "support": null,
       "venue": "Vivarium",
@@ -1119,24 +986,6 @@
         "kind": "Folk"
       },
       "slug": "improvement-movement-2026-09-17"
-    },
-    {
-      "date": "2026-09-17",
-      "time": "20:00",
-      "title": "Bleach",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bleach-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-09-17-8-pm/concert/18162389"
-        }
-      ],
-      "slug": "bleach-2026-09-17"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/ea8/fe1025a1-d118-4c3f-b53a-29810fd0bea8_RETINA_PORTRAIT_16_9.jpg",
@@ -1669,6 +1518,31 @@
       "slug": "tom-jones-2026-09-20"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187423826%2F285524009645%2F1%2Foriginal.20260622-193616?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.486&fp-y=0.056&s=a3efd7ec9534eb2e53719f4532d9e2f5",
+      "date": "2026-09-20",
+      "time": "19:30",
+      "title": "THE BLACK QUEEN: Fever Daydream 10th Anniversary w/ clubdrugs & HOLY WATER",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "indie",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-holy-water-tickets-1992231319506",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-holy-water-tickets-1992231319506"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/ec/5d/71ec5dc8-0a28-9882-f747-4040acb90950/mzaf_11857164481591359606.plus.aac.p.m4a",
+        "track": "Ice to Never",
+        "artist": "The Black Queen",
+        "kind": "Alternative"
+      },
+      "slug": "the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-2026-09-20"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/898/e52094fc-1fae-4a52-ab32-80bfe32cf898_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-09-20",
       "time": "20:00",
@@ -1726,31 +1600,6 @@
         "kind": "Alternative"
       },
       "slug": "tom-morello-2026-09-20"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187423826%2F285524009645%2F1%2Foriginal.20260622-193616?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.486&fp-y=0.056&s=a3efd7ec9534eb2e53719f4532d9e2f5",
-      "date": "2026-09-20",
-      "time": "20:00",
-      "title": "THE BLACK QUEEN: Fever Daydream 10th Anniversary w/ clubdrugs",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "indie",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-tickets-1992231319506",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-tickets-1992231319506"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/ec/5d/71ec5dc8-0a28-9882-f747-4040acb90950/mzaf_11857164481591359606.plus.aac.p.m4a",
-        "track": "Ice to Never",
-        "artist": "The Black Queen",
-        "kind": "Alternative"
-      },
-      "slug": "the-black-queen-fever-daydream-10th-anniversary-w-clubdrugs-2026-09-20"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/dd5/9c1cb676-0653-4ba0-8ca3-1b5b5e474dd5_RETINA_PORTRAIT_16_9.jpg",
@@ -3974,17 +3823,17 @@
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189822450%2F285524009645%2F1%2Foriginal.20260728-201905?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=067c861178cae432c65580cdf8b284f9",
       "date": "2026-10-04",
       "time": "20:00",
-      "title": "Starcrawler",
+      "title": "Starcrawler w/ Runner and Bobby",
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
       "genre": "indie",
       "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/starcrawler-tickets-1995470306403",
+      "url": "https://www.eventbrite.com/e/starcrawler-w-runner-and-bobby-tickets-1995470306403",
       "offers": [
         {
           "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/starcrawler-tickets-1995470306403"
+          "url": "https://www.eventbrite.com/e/starcrawler-w-runner-and-bobby-tickets-1995470306403"
         }
       ],
       "preview": {
@@ -3993,7 +3842,7 @@
         "artist": "Starcrawler",
         "kind": "Alternative"
       },
-      "slug": "starcrawler-2026-10-04"
+      "slug": "starcrawler-w-runner-and-bobby-2026-10-04"
     },
     {
       "date": "2026-10-05",
@@ -5098,17 +4947,17 @@
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188319857%2F285524009645%2F1%2Foriginal.20260706-204612?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f603db872e6de66d9f639dbc7248f3ee",
       "date": "2026-10-13",
       "time": "19:30",
-      "title": "First To Eleven",
+      "title": "First To Eleven w/ KEEPSAKE",
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
       "genre": "indie",
       "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/first-to-eleven-tickets-1993023969343",
+      "url": "https://www.eventbrite.com/e/first-to-eleven-w-keepsake-tickets-1993023969343",
       "offers": [
         {
           "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/first-to-eleven-tickets-1993023969343"
+          "url": "https://www.eventbrite.com/e/first-to-eleven-w-keepsake-tickets-1993023969343"
         }
       ],
       "preview": {
@@ -5117,7 +4966,7 @@
         "artist": "First to Eleven",
         "kind": "Alternative"
       },
-      "slug": "first-to-eleven-2026-10-13"
+      "slug": "first-to-eleven-w-keepsake-2026-10-13"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/a66/3dc47e4b-5b49-4cd6-8d8e-530eaf46aa66_RETINA_PORTRAIT_16_9.jpg",
@@ -6420,6 +6269,31 @@
         "kind": "Contemporary Blues"
       },
       "slug": "seth-walker-2026-10-20"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/b05/86458cb4-3b36-4038-a164-665231047b05_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-10-20",
+      "time": "20:00",
+      "title": "Dogstar",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNuz",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNuz"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/4c/81/7d4c81b8-3295-24d9-11aa-01f93976fb98/mzaf_17564405459658068200.plus.aac.p.m4a",
+        "track": "All In Now",
+        "artist": "Dogstar",
+        "kind": "Alternative"
+      },
+      "slug": "dogstar-2026-10-20"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191368410%2F285524009645%2F1%2Foriginal.20260818-200539?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.591&fp-y=0.481&s=9fe1226f82e26ba4c4c9065a6c56778f",
@@ -8068,7 +7942,7 @@
       "date": "2026-11-01",
       "time": "19:30",
       "title": "Jonas Brothers",
-      "support": "Magnus Ferrell",
+      "support": "Magnus Ferrell, Deleasa",
       "venue": "Fiserv Forum",
       "hood": "Deer District",
       "genre": "pop",
@@ -9149,6 +9023,31 @@
       "slug": "bill-callahan-2026-11-08"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193209906%2F285524009645%2F1%2Foriginal.20260910-215730?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c38185ee7f96215083c981b84a0ac9c1",
+      "date": "2026-11-08",
+      "time": "20:00",
+      "title": "Certainly So",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "indie",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/certainly-so-tickets-2000316930787",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/certainly-so-tickets-2000316930787"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/f7/a8/e1f7a80d-9f9e-5a12-e20c-88c35c69e9f0/mzaf_5166485413211246287.plus.aac.p.m4a",
+        "track": "Foreign Ties",
+        "artist": "Certainly So",
+        "kind": "Indie Rock"
+      },
+      "slug": "certainly-so-2026-11-08"
+    },
+    {
       "date": "2026-11-09",
       "time": "20:00",
       "title": "The Music of Hey Arnold! Live",
@@ -9552,9 +9451,13 @@
       "venue": "Pabst Theater",
       "hood": "Downtown",
       "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Kkd",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-mavericks-tickets/milwaukee-wisconsin-pabst-theater-2026-11-13-8-pm/concert/18226467",
       "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-mavericks-tickets/milwaukee-wisconsin-pabst-theater-2026-11-13-8-pm/concert/18226467"
+        },
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Kkd"
@@ -9669,30 +9572,6 @@
     {
       "date": "2026-11-13",
       "time": "20:00",
-      "title": "Bryan Andrews",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/46/a1/8c46a1b0-879c-2fa9-1912-3259ca773a16/mzaf_6523337656613776054.plus.aac.p.m4a",
-        "track": "Are We Great Yet?",
-        "artist": "Bryan Andrews",
-        "kind": "Country"
-      },
-      "slug": "bryan-andrews-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "20:00",
       "title": "Hovvdy",
       "support": null,
       "venue": "Vivarium",
@@ -9713,6 +9592,30 @@
         "kind": "Alternative"
       },
       "slug": "hovvdy-2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Bryan Andrews",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/46/a1/8c46a1b0-879c-2fa9-1912-3259ca773a16/mzaf_6523337656613776054.plus.aac.p.m4a",
+        "track": "Are We Great Yet?",
+        "artist": "Bryan Andrews",
+        "kind": "Country"
+      },
+      "slug": "bryan-andrews-2026-11-13"
     },
     {
       "date": "2026-11-13",
@@ -10986,6 +10889,42 @@
         }
       ],
       "slug": "the-last-waltz-50th-anniversary-tribute-2026-11-28"
+    },
+    {
+      "date": "2026-11-28",
+      "time": "20:00",
+      "title": "The Last Waltz",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-last-waltz-tickets/milwaukee-wisconsin-shank-hall-2026-11-28-8-pm/concert/18526353",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-last-waltz-tickets/milwaukee-wisconsin-shank-hall-2026-11-28-8-pm/concert/18526353"
+        }
+      ],
+      "slug": "the-last-waltz-2026-11-28"
+    },
+    {
+      "date": "2026-11-28",
+      "time": "20:00",
+      "title": "A Celebration of Tom Petty",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.pabsttheatergroup.com/events/detail/celebration-of-tom-petty-2026",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.pabsttheatergroup.com/events/detail/celebration-of-tom-petty-2026"
+        }
+      ],
+      "slug": "a-celebration-of-tom-petty-2026-11-28"
     },
     {
       "date": "2026-11-28",
