@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "shows": [
     {
       "img": "https://s1.ticketm.net/dam/a/dd5/9c1cb676-0653-4ba0-8ca3-1b5b5e474dd5_RETINA_PORTRAIT_16_9.jpg",
@@ -1849,6 +1849,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/cracker-shank-hall-tickets/14922983",
           "price": 40.93
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/cracker-tickets/milwaukee-wisconsin-shank-hall-2026-10-03-12-pm/concert/18400621"
         }
       ],
       "preview": {
@@ -2612,30 +2616,6 @@
     {
       "date": "2026-10-08",
       "time": "19:30",
-      "title": "The Bright Light Social Hour",
-      "support": null,
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/a3/63/f8a3639d-ec82-777e-2b05-a86926a1c94c/mzaf_11873081065011976574.plus.aac.p.m4a",
-        "track": "Infinite Cities",
-        "artist": "The Bright Light Social Hour",
-        "kind": "Alternative"
-      },
-      "slug": "the-bright-light-social-hour-2026-10-08"
-    },
-    {
-      "date": "2026-10-08",
-      "time": "19:30",
       "title": "The Haunt",
       "support": null,
       "venue": "X-Ray Arcade",
@@ -2656,6 +2636,30 @@
         "kind": "Rock"
       },
       "slug": "the-haunt-2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "time": "19:30",
+      "title": "The Bright Light Social Hour",
+      "support": null,
+      "venue": "Cactus Club",
+      "hood": "Bay View",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-bright-light-social-hour-tickets/milwaukee-wisconsin-cactus-club-2026-10-08-7-30-pm/concert/18400692"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/a3/63/f8a3639d-ec82-777e-2b05-a86926a1c94c/mzaf_11873081065011976574.plus.aac.p.m4a",
+        "track": "Infinite Cities",
+        "artist": "The Bright Light Social Hour",
+        "kind": "Alternative"
+      },
+      "slug": "the-bright-light-social-hour-2026-10-08"
     },
     {
       "img": "https://i.ticketweb.com/i/00/12/94/66/14_Edp.jpg?v=4",
@@ -2944,24 +2948,6 @@
     {
       "date": "2026-10-09",
       "time": "20:00",
-      "title": "Kevin Sullivan",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/kevin-sullivan-tickets/comedy/2026-10-09-8-pm/18400968",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/kevin-sullivan-tickets/comedy/2026-10-09-8-pm/18400968"
-        }
-      ],
-      "slug": "kevin-sullivan-2026-10-09"
-    },
-    {
-      "date": "2026-10-09",
-      "time": "20:00",
       "title": "SoDown",
       "support": null,
       "venue": "Miramar Theatre",
@@ -2982,6 +2968,24 @@
         "kind": "Electronic"
       },
       "slug": "sodown-2026-10-09"
+    },
+    {
+      "date": "2026-10-09",
+      "time": "20:00",
+      "title": "Kevin Sullivan",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/kevin-sullivan-tickets/comedy/2026-10-09-8-pm/18400968",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/kevin-sullivan-tickets/comedy/2026-10-09-8-pm/18400968"
+        }
+      ],
+      "slug": "kevin-sullivan-2026-10-09"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190507086%2F285524009645%2F1%2Foriginal.20260806-233144?w=640&auto=format%2Ccompress&q=75&sharp=10&s=935c5b77449c1fa6a2f7cc003d3d8093",
@@ -3747,30 +3751,6 @@
     {
       "date": "2026-10-14",
       "time": "20:00",
-      "title": "Mike Dawes",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/mike-dawes-tickets/milwaukee-wisconsin-vivarium-2026-10-14-8-pm/concert/18081840",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/mike-dawes-tickets/milwaukee-wisconsin-vivarium-2026-10-14-8-pm/concert/18081840"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/eb/58/bfeb58c5-4203-4c80-0268-06ba159f720c/mzaf_4471836646032756647.plus.aac.p.m4a",
-        "track": "Goliath",
-        "artist": "Mike Dawes",
-        "kind": "Instrumental"
-      },
-      "slug": "mike-dawes-2026-10-14"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "20:00",
       "title": "The Midnight",
       "support": null,
       "venue": "Pabst Theater",
@@ -3791,6 +3771,30 @@
         "kind": "Electronica"
       },
       "slug": "the-midnight-2026-10-14"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "20:00",
+      "title": "Mike Dawes",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/mike-dawes-tickets/milwaukee-wisconsin-vivarium-2026-10-14-8-pm/concert/18081840",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/mike-dawes-tickets/milwaukee-wisconsin-vivarium-2026-10-14-8-pm/concert/18081840"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/eb/58/bfeb58c5-4203-4c80-0268-06ba159f720c/mzaf_4471836646032756647.plus.aac.p.m4a",
+        "track": "Goliath",
+        "artist": "Mike Dawes",
+        "kind": "Instrumental"
+      },
+      "slug": "mike-dawes-2026-10-14"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191904747%2F285524009645%2F1%2Foriginal.20260826-001244?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a56f9854f11573ec7b08c79a72dcb0d2",
@@ -6534,7 +6538,7 @@
       "slug": "kid-boogie-down-halloween-spooktacular-dance-party-2026-10-31"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/01/79/34_Edp.jpg?v=4",
+      "img": "https://i.ticketweb.com/i/00/13/01/79/34_Edp.jpg?v=5",
       "price": 19.3,
       "date": "2026-10-31",
       "time": "15:00",
@@ -6822,6 +6826,7 @@
     },
     {
       "img": "https://i.ticketweb.com/i/00/12/93/46/14_Edp.jpg?v=3",
+      "status": "cancelled",
       "price": 40.93,
       "date": "2026-11-02",
       "time": "19:00",
@@ -7203,6 +7208,30 @@
     {
       "date": "2026-11-05",
       "time": "20:00",
+      "title": "Brigitte Calls Me Baby",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
+        "track": "Slumber Party",
+        "artist": "Brigitte Calls Me Baby",
+        "kind": "Alternative"
+      },
+      "slug": "brigitte-calls-me-baby-2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:00",
       "title": "Levi Bloom",
       "support": null,
       "venue": "The Argo",
@@ -7228,30 +7257,6 @@
         "kind": "Country"
       },
       "slug": "levi-bloom-2026-11-05"
-    },
-    {
-      "date": "2026-11-05",
-      "time": "20:00",
-      "title": "Brigitte Calls Me Baby",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
-        "track": "Slumber Party",
-        "artist": "Brigitte Calls Me Baby",
-        "kind": "Alternative"
-      },
-      "slug": "brigitte-calls-me-baby-2026-11-05"
     },
     {
       "date": "2026-11-05",
@@ -7456,6 +7461,24 @@
       "slug": "goose-2026-11-06"
     },
     {
+      "date": "2026-11-06",
+      "time": "19:30",
+      "title": "Bela Fleck",
+      "support": null,
+      "venue": "Sharon Lynne Wilson Center for the Arts",
+      "hood": "Brookfield",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bela-fleck-tickets/brookfield-wisconsin-sharon-lynne-wilson-center-for-the-arts-2026-11-06-7-30-pm/concert/18609255",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bela-fleck-tickets/brookfield-wisconsin-sharon-lynne-wilson-center-for-the-arts-2026-11-06-7-30-pm/concert/18609255"
+        }
+      ],
+      "slug": "bela-fleck-2026-11-06"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/12d/16f49980-34d3-42ba-b0be-0ed89249912d_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-06",
       "time": "20:00",
@@ -7590,17 +7613,17 @@
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187367778%2F285524009645%2F1%2Foriginal.20260622-004721?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.51&fp-y=0.737&s=69ab7cfb50286f22662d7328a3bbfbd2",
       "date": "2026-11-06",
       "time": "20:00",
-      "title": "The Wldlfe",
+      "title": "The Wldlfe w/ Landon Conrath",
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
       "genre": "indie",
       "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-wldlfe-tickets-1991792351541",
+      "url": "https://www.eventbrite.com/e/the-wldlfe-w-landon-conrath-tickets-1991792351541",
       "offers": [
         {
           "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-wldlfe-tickets-1991792351541"
+          "url": "https://www.eventbrite.com/e/the-wldlfe-w-landon-conrath-tickets-1991792351541"
         }
       ],
       "preview": {
@@ -7609,7 +7632,7 @@
         "artist": "The Wldlfe",
         "kind": "Alternative"
       },
-      "slug": "the-wldlfe-2026-11-06"
+      "slug": "the-wldlfe-w-landon-conrath-2026-11-06"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188785733%2F285524009645%2F1%2Foriginal.20260713-210100?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.554&s=7699bd5a5d198400650f899646eaebf3",
@@ -7923,17 +7946,17 @@
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190830099%2F285524009645%2F1%2Foriginal.20260811-193326?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e3ae8276b3d22cd755215133784cd3ae",
       "date": "2026-11-08",
       "time": "20:00",
-      "title": "Bill Callahan",
+      "title": "Bill Callahan w/ Rick Maguire(of Pile)",
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
       "genre": "indie",
       "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/bill-callahan-tickets-1997613696340",
+      "url": "https://www.eventbrite.com/e/bill-callahan-w-rick-maguireof-pile-tickets-1997613696340",
       "offers": [
         {
           "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/bill-callahan-tickets-1997613696340"
+          "url": "https://www.eventbrite.com/e/bill-callahan-w-rick-maguireof-pile-tickets-1997613696340"
         }
       ],
       "preview": {
@@ -7942,7 +7965,7 @@
         "artist": "Bill Callahan",
         "kind": "Alternative"
       },
-      "slug": "bill-callahan-2026-11-08"
+      "slug": "bill-callahan-w-rick-maguire-of-pile-2026-11-08"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193209906%2F285524009645%2F1%2Foriginal.20260910-215730?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c38185ee7f96215083c981b84a0ac9c1",
