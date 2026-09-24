@@ -299,6 +299,43 @@ test('mergeTitleVariants folds spelling variants but keeps distinct shows', () =
   assert.equal(kept.length, 2, 'different shows in the same building must stay separate');
 });
 
+test('dedupe folds a show billed with and without its support act', () => {
+  // Real case: SeatGeek had "Russian Circles", the Argo's feed had
+  // "Russian Circles w/ Pelican" — same room, same night, listed twice.
+  const out = dedupe([
+    { date: '2026-09-25', time: '20:00', title: 'Russian Circles', venue: 'The Argo', ticketer: 'SeatGeek', url: 'a' },
+    { date: '2026-09-25', time: '20:00', title: 'Russian Circles w/ Pelican', venue: 'The Argo', ticketer: 'Eventbrite', url: 'b' },
+  ]);
+  assert.equal(out.length, 1);
+  assert.equal(out[0].title, 'Russian Circles', 'the plain name is the title');
+  assert.equal(out[0].support, 'Pelican', 'and the support act survives');
+  assert.equal(out[0].offers.length, 2);
+});
+
+test('sameAct: one billing is the other plus a band, tour or subtitle', () => {
+  const { sameAct } = require('./build-shows.js');
+  // 11 of these were listed twice on the live calendar
+  assert.ok(sameAct('Duane Betts', 'Duane Betts & Palmetto Motel'));
+  assert.ok(sameAct('Mannheim Steamroller', 'Mannheim Steamroller Christmas'));
+  assert.ok(sameAct('Billy Prine', 'Billy Prine presents Songs and Stories of John Prine'));
+  assert.ok(sameAct('Rave Jesus', 'Rave Jesus – Rave Revival Fall Tour'));
+  // …but never across genuinely different acts
+  assert.ok(!sameAct('Nonpoint', 'Poke-RAVE'));
+  // a one-word name must not swallow a longer act that starts with it
+  assert.ok(!sameAct('Rave', 'Rave Jesus'));
+  assert.ok(!sameAct('Kiss', 'Kiss the Sky'));
+});
+
+test('mergeTitleVariants folds longer billings and drops the headliner from its own support', () => {
+  const merged = mergeTitleVariants([
+    { date: '2026-12-06', time: '15:00', title: 'Mannheim Steamroller', support: 'Mannheim Steamroller Christmas, Chip Davis', venue: 'Miller High Life Theatre', ticketer: 'SeatGeek', offers: [{ src: 'SeatGeek', url: 'a' }] },
+    { date: '2026-12-06', time: '15:00', title: 'Mannheim Steamroller Christmas', support: null, venue: 'Miller High Life Theatre', ticketer: 'Ticketmaster', offers: [{ src: 'Ticketmaster', url: 'b' }] },
+  ]);
+  assert.equal(merged.length, 1);
+  assert.equal(merged[0].support, 'Chip Davis');
+  assert.equal(merged[0].offers.length, 2);
+});
+
 // --- artist name cleanup for preview lookup --------------------------------
 
 test('cleanArtist strips the noise that breaks music lookups', () => {

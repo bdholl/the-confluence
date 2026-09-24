@@ -15,18 +15,28 @@ the site itself.
 | `index.html` | The entire site — markup, CSS, JS, and a baked-in copy of the show data for `file://` use |
 | `shows.json` | The live feed the page fetches on load |
 | `show/` | One small shareable page per show, written by the feed builder |
+| `day/` | One page per day with shows — what Google indexes for "live music Milwaukee Friday" |
+| `sitemap.xml`, `robots.txt` | Regenerated every build |
+| `og-card.png` | The default share image (1200×630); rendered once from `promo/templates.js` |
 | `confluence.ics` | Calendar subscription file, regenerated each build |
 | `guestbook.json` | Read-only fallback if the guestbook Worker is unreachable |
 | `feed/build-shows.js` | Pulls, normalizes, dedupes, and writes the feed |
+| `feed/seo.js` | Structured data, day pages, sitemap, venue addresses |
+| `feed/lib.js` | Shared by the builder and the bots: dates, timezone, escaping, affiliate links |
+| `feed/venues.json` | Venue street addresses, learned from the APIs |
+| `feed/affiliate.json` | Affiliate tracking templates — the one place to set them |
 | `feed/preview-cache.json` | Artist → song-preview lookups, so builds only fetch new names |
 | `feed/manual-extras.json` | Hand-added shows the APIs miss |
+| `promo/` | The social bot, the weekend email, their card templates and posted-state |
+| `social/` | Card images the social bot has published (Instagram fetches them by URL) |
 | `worker/` | Cloudflare Worker + KV backing the guestbook |
-| `.github/workflows/update-feed.yml` | The daily rebuild |
+| `.github/workflows/` | The daily feed, the social posts, the weekend email |
+| `PROMOTION.md` | **How the bots run, how to dry-run them, setup, and what to do when one breaks** |
 
 ## Running it
 
 ```bash
-npm test                                   # 41 tests
+npm test                                   # 73 tests
 TICKETMASTER_API_KEY=… SEATGEEK_CLIENT_ID=… npm run build-feed
 npm run build-pages                        # previews, genres, slugs, share pages
                                            # — no ticketing keys, iTunes only
@@ -133,9 +143,58 @@ shared link. Links shared in iMessage or a private group chat arrive with no
 referrer and land in "direct" — unavoidable, but the path still says which
 show traveled.
 
-Note that these pages are written by Node and never run `index.html`'s JS, so
-they carry their own copy of the `AFFILIATE` map. If those params are ever
-filled in, fill them in **both** places.
+## Search
+
+Google puts properly marked-up events straight into "live music milwaukee
+tonight" results, event carousels and Maps. `feed/seo.js` does the three things
+that takes:
+
+- **Full event markup on every show page** — `MusicEvent` or `ComedyEvent`,
+  performers, street address, ticket offer, status, and a start time in the
+  right timezone. That last one was a real bug: the offset was hardcoded to
+  `-05:00`, so every show from November to March was an hour off in Google.
+- **Plain-HTML day pages** at `/day/YYYY-MM-DD.html`, each with an `ItemList`
+  pointing at its shows — Google's documented pattern for a page that
+  summarizes several events. The homepage footer links the next two weeks of
+  them, because the calendar itself is drawn by JavaScript and gives a crawler
+  nothing to follow.
+- **`sitemap.xml` and `robots.txt`**, regenerated daily, listing only upcoming
+  pages.
+
+**Addresses are learned, not typed.** Google won't give an event rich results
+without a street address, and typing ~40 of them invites mistakes. The builder
+reads each venue's address off the ticketing APIs into `feed/venues.json` and
+logs any venue still missing one. Mark an entry `"manual": true` to correct it;
+the build never overwrites those.
+
+The test suite validates every generated page's structured data, so a change
+that breaks the markup fails the daily build instead of quietly dropping the
+events out of search.
+
+## Promotion
+
+A daily "Tonight in Milwaukee" post, a Friday "This weekend" post (Bluesky,
+Facebook, Instagram) and a Thursday weekend email (Buttondown), all from the
+same `shows.json`. **See [PROMOTION.md](PROMOTION.md)** — schedules, dry runs,
+setup, and what to do when a token expires.
+
+The rules worth knowing without opening it: nothing publishes until a repo
+variable switches it on; a rerun never double-posts (state is recorded per
+platform, so if Instagram fails and Bluesky didn't, the rerun only retries
+Instagram); and any failure opens a GitHub issue.
+
+## Affiliate links
+
+`feed/affiliate.json` is the single source. Both programs (SeatGeek,
+Ticketmaster — which also covers TicketWeb) run on impact.com, which tracks by
+*wrapping* the ticket URL in a redirect, not by adding a query parameter, so
+each rule is a host pattern plus a wrap template. The builder applies it to
+every generated page and copies it into `index.html` for the calendar.
+
+(This replaced an earlier design that appended query parameters and kept two
+hand-synced copies of the config — which also would never have worked with
+Impact. Three links on the homepage, including the featured card, bypassed it
+entirely; they're routed through `ticketUrl()` now.)
 
 ## Little moments
 
@@ -211,8 +270,8 @@ they're emo, and there's no emo bucket.
 
 ## Not finished
 
-- **Affiliate links earn nothing yet.** The plumbing is in `index.html` as
-  `AFFILIATE` and every outbound ticket link already routes through
-  `ticketUrl()`. It stays inert until the entries are filled in, which needs
-  approval from Ticketmaster (via Impact) and SeatGeek first.
-- **A sponsor** — the slot renders a pitch until `SPONSOR` is filled in.
+- **Affiliate links earn nothing yet** — waiting on approval from impact.com.
+  Then it's one line per program in `feed/affiliate.json`.
+- **The bots are built but off** until their accounts exist. See PROMOTION.md.
+- **A sponsor** — the site slot renders a pitch until `SPONSOR` is filled in;
+  the newsletter has its own slot (`newsletterSponsor` in `promo/config.js`).

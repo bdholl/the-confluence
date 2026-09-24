@@ -1,0 +1,111 @@
+name: Social posts
+
+# "Tonight in Milwaukee" every afternoon, "This weekend" Friday mornings, to
+# Bluesky, Facebook and Instagram.
+#
+# GitHub's scheduler runs hours late (median ~4h in this repo), so rather than
+# one trigger at a set time this fires every two hours; the script acts only
+# inside its Milwaukee-time window (promo/config.js), and the state file means
+# the first run to land there posts and every later one does nothing. Minute
+# :07 avoids the top-of-the-hour pileup that makes the delays worse.
+#
+# Dry run until the repo variable SOCIAL_LIVE is set to "true"
+# (Settings → Secrets and variables → Actions → Variables).
+
+on:
+  schedule:
+    - cron: '7 13-23/2 * * *'   # 13:07, 15:07 … 23:07 UTC
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Which post
+        type: choice
+        options: [tonight, weekend, auto]
+        default: tonight
+      live:
+        description: Actually post (leave unchecked for a dry run — prints the posts and attaches the card)
+        type: boolean
+        default: false
+
+permissions:
+  contents: write     # commit the card (Instagram fetches it from the site) and the posted-state file
+  issues: write       # open an issue if a post fails
+
+concurrency:
+  group: social
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Live or dry run?
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            LIVE="${{ inputs.live }}"; MODE="${{ inputs.mode }}"
+          else
+            LIVE="${{ vars.SOCIAL_LIVE == 'true' }}"; MODE=auto
+          fi
+          [ "$LIVE" = "true" ] && echo "LIVE_FLAG=--live" >> "$GITHUB_ENV"
+          echo "MODE=$MODE" >> "$GITHUB_ENV"
+          echo "Mode: $MODE   Live: $LIVE"
+          git config user.name "promo-bot"
+          git config user.email "promo-bot@users.noreply.github.com"
+
+      - name: Image tools
+        # Chrome is preinstalled on the runner; Instagram needs JPEG, so make
+        # sure ImageMagick is there for the PNG → JPEG step
+        run: command -v convert >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick)
+
+      - name: Prepare the post and render the card
+        id: prep
+        run: node promo/social.js --step=prepare --mode="$MODE" $LIVE_FLAG
+
+      - name: Put the card on the site
+        if: steps.prep.outputs.due == 'true' && env.LIVE_FLAG == '--live'
+        run: |
+          git add social
+          git diff --staged --quiet || git commit -m "promo: card for $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
+
+      - name: Post
+        if: steps.prep.outputs.due == 'true'
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+        run: node promo/social.js --step=publish $LIVE_FLAG
+
+      - name: Record what was posted
+        # runs even after a partial failure, so platforms that succeeded are
+        # never posted to again on the rerun
+        if: always() && steps.prep.outputs.due == 'true' && env.LIVE_FLAG == '--live'
+        run: |
+          git add promo/state.json
+          git diff --staged --quiet || git commit -m "promo: posted $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
+
+      - name: Attach the card for review
+        if: steps.prep.outputs.due == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: social-card
+          path: promo/out/*.png
+          retention-days: 14
+
+      - name: Open an issue if anything failed
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node promo/notify.js "Social post" promo/out/failures.txt

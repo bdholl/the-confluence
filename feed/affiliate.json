@@ -1,0 +1,15 @@
+{
+  "_readme": "Affiliate tracking for outbound ticket links. Both programs run on impact.com and track with a wrapped redirect, not a query parameter. Once approved, Impact gives you a tracking link per program; paste it into 'wrap' with {url} where the destination goes (Impact calls this the 'u' parameter). Empty 'wrap' = links pass through untouched. Rules match the ticket URL's host, first match wins. Applied to every generated page and injected into index.html on each build.",
+  "rules": [
+    {
+      "program": "SeatGeek (impact.com) — ~1% of ticket sales, 30-day cookie",
+      "match": "(^|\\.)seatgeek\\.com$",
+      "wrap": ""
+    },
+    {
+      "program": "Ticketmaster (impact.com) — covers ticketmaster.com and ticketweb.com",
+      "match": "(^|\\.)(ticketmaster|ticketweb)\\.com$",
+      "wrap": ""
+    }
+  ]
+}

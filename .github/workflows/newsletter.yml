@@ -1,0 +1,85 @@
+name: Weekend email
+
+# "This weekend in MKE" — Thursdays, through Buttondown. Fires every two hours
+# on Thursday because GitHub's scheduler runs hours late; the script only sends
+# inside its window (7 AM–4 PM Milwaukee time) and never sends a weekend twice.
+#
+# Dry run until the repo variable NEWSLETTER_LIVE is set to "true".
+
+on:
+  schedule:
+    - cron: '7 12-20/2 * * 4'   # Thursday 12:07, 14:07 … 20:07 UTC
+  workflow_dispatch:
+    inputs:
+      action:
+        description: dry-run prints it; draft puts it in Buttondown to preview; send sends it
+        type: choice
+        options: [dry-run, draft, send]
+        default: dry-run
+      friday:
+        description: Weekend to use, as its Friday (YYYY-MM-DD). Blank = the coming weekend.
+        required: false
+
+permissions:
+  contents: write     # commit the sent-state file
+  issues: write       # open an issue if sending fails
+
+concurrency:
+  group: newsletter
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Live, draft, or dry run?
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            case "${{ inputs.action }}" in
+              send)  echo "FLAGS=--live" >> "$GITHUB_ENV"; echo "LIVE=true" >> "$GITHUB_ENV" ;;
+              draft) echo "FLAGS=--draft" >> "$GITHUB_ENV" ;;
+            esac
+            [ -n "${{ inputs.friday }}" ] && echo "FRIDAY=--friday=${{ inputs.friday }}" >> "$GITHUB_ENV"
+          else
+            echo "FLAGS=--auto" >> "$GITHUB_ENV"
+            if [ "${{ vars.NEWSLETTER_LIVE }}" = "true" ]; then
+              echo "FLAGS=--auto --live" >> "$GITHUB_ENV"; echo "LIVE=true" >> "$GITHUB_ENV"
+            fi
+          fi
+          git config user.name "promo-bot"
+          git config user.email "promo-bot@users.noreply.github.com"
+
+      - name: Build and send
+        id: send
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: node promo/newsletter.js $FLAGS $FRIDAY
+
+      - name: Record that it went out
+        if: steps.send.outputs.due == 'true' && env.LIVE == 'true'
+        run: |
+          git add promo/state.json
+          git diff --staged --quiet || git commit -m "promo: weekend email sent $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
+
+      - name: Attach the rendered email for review
+        if: steps.send.outputs.due == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekend-email
+          path: promo/out/newsletter.html
+          retention-days: 14
+
+      - name: Open an issue if sending failed
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node promo/notify.js "Weekend email" promo/out/failures.txt

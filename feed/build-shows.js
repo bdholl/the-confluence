@@ -17,6 +17,8 @@
 
 const fs = require('fs');
 const path = require('path');
+const { SITE, ymd, escH, fmt12, longDate, ticketUrl, buyOffer, loadAffiliate } = require('./lib');
+const seo = require('./seo');
 
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, 'shows.json');
@@ -28,9 +30,6 @@ const LAT = 43.0389, LON = -87.9065, RADIUS = 35;
 
 // ---------- normalization helpers ----------
 
-function ymd(d) {
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-}
 function hm(t) { return t ? t.slice(0, 5) : '20:00'; } // "HH:MM"; default 8pm when unknown
 
 // Best-effort neighborhood by venue name (matched as a substring), else the
@@ -236,8 +235,13 @@ function tmEventToShow(e) {
   const price = e.priceRanges?.length
     ? Math.min(...e.priceRanges.map(p => p.min).filter(n => typeof n === 'number'))
     : undefined;
+  // venue address, for the structured data (learned into feed/venues.json)
+  const addr = venue.address?.line1 && venue.city?.name
+    ? { street: venue.address.line1, city: venue.city.name, region: venue.state?.stateCode, postal: venue.postalCode, source: 'ticketmaster' }
+    : undefined;
   return {
     ...(img ? { img } : {}),
+    ...(addr ? { addr } : {}),
     ...(tbd ? { tbd: true } : {}),
     ...(status ? { status } : {}),
     ...(onsale ? { onsale } : {}),
@@ -347,8 +351,10 @@ async function fromSeatGeek(startD, endD) {
       const head = perfs.find(p => p.primary) || perfs[0] || {};
       const img = head.image || head.images?.huge || head.images?.large;
       const taxo = (e.taxonomies || []).map(t => t.name).join(' ');
+      const ven = e.venue || {};
       out.push({
         ...(img ? { img } : {}),
+        ...(ven.address && ven.city ? { addr: { street: ven.address, city: ven.city, region: ven.state, postal: ven.postal_code, source: 'seatgeek' } } : {}),
         ...(e.time_tbd || e.datetime_tbd ? { tbd: true } : {}),
         date,
         time: hm(time),
@@ -377,6 +383,14 @@ function unentity(s) {
     .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').trim();
 }
 
+// "The Argo, 334 East Silver Spring Drive, Whitefish Bay, WI 53217"
+function argoAddress(loc) {
+  const parts = String(loc || '').split(/,\s*/);
+  if (parts.length < 4) return undefined;
+  const [region, postal] = parts[parts.length - 1].split(/\s+/);
+  return { street: parts[1], city: parts[2], region, postal, source: 'argo' };
+}
+
 async function fromArgo() {
   try {
     const res = await fetch(ARGO_FEED, { headers: { 'User-Agent': 'Mozilla/5.0' } });
@@ -391,6 +405,7 @@ async function fromArgo() {
       if (loc && !loc.includes('argo')) continue;
       out.push({
         ...(e.pic_big ? { img: e.pic_big } : {}),
+        ...(argoAddress(e.location) ? { addr: argoAddress(e.location) } : {}),
         date: e.date_start,
         time: hm((e.local_date_time || '').slice(11, 16) || null),
         title: unentity(e.name),
@@ -444,35 +459,10 @@ function buildIcs(shows) {
 // gets its own small page carrying its own og: tags — paste it into iMessage
 // or Facebook and the artist's photo, name, venue and date do the selling.
 // The page itself is one screen with one job: a button straight to tickets.
-const SITE = 'https://theconfluencemke.com';
 const PAGES_DIR = path.join(ROOT, 'show');
-// How long a page outlives its show, so a link shared the week of the gig
-// still resolves for the people who go back to it afterwards.
-const PAGE_GRACE_DAYS = 30;
-
-// Keep in sync with AFFILIATE in index.html — these pages are written by Node
-// and never run that file's JS, so the params have to be applied here too.
-const AFFILIATE = { Ticketmaster: {}, SeatGeek: {}, AXS: {}, Eventbrite: {} };
-
-// Cloudflare Web Analytics site token. Public by design (it ships in the HTML),
-// so it lives here rather than in an env var. Same token as index.html.
-const CF_ANALYTICS_TOKEN = '5a2a6db87bcb490689d0cf58825d61e5';
-
-function ticketUrl(src, url) {
-  const params = AFFILIATE[src];
-  if (!params || !Object.keys(params).length) return url;
-  try {
-    const u = new URL(url);
-    for (const [k, v] of Object.entries(params)) if (v) u.searchParams.set(k, v);
-    return u.toString();
-  } catch { return url; }
-}
-
-// Escapes quotes too, unlike the page's own esc() — these strings land in
-// attributes (og:title, alt, href).
-const escH = s => String(s == null ? '' : s)
-  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+// Affiliate links, the analytics token, escaping and date formatting now live
+// in lib.js / seo.js, shared with the day pages and the promo bots.
+const { CF_ANALYTICS_TOKEN, OG_CARD } = seo;
 
 function slugify(s) {
   const base = String(s || '')
@@ -501,19 +491,6 @@ function assignSlugs(shows) {
   return shows;
 }
 
-const fmt12 = t => {
-  const [h, m] = String(t).split(':').map(Number);
-  return `${h % 12 || 12}:${String(m).padStart(2, '0')} ${h >= 12 ? 'PM' : 'AM'}`;
-};
-
-const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-
-function longDate(date) {
-  const d = new Date(date + 'T12:00:00');
-  return `${WEEKDAYS[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
-}
-
 // Only the statuses that still show a buy button need explaining — "Cancelled"
 // and "Off sale" already say it where the button would have been.
 const STATUS_NOTE = {
@@ -521,17 +498,20 @@ const STATUS_NOTE = {
   rescheduled: 'This show has been rescheduled — check the date on the ticket page.',
 };
 
-function showPageHtml(s) {
+function showPageHtml(s, { venues = {} } = {}) {
   const when = s.tbd ? 'Time TBA' : (s.times && s.times.length > 1
     ? s.times.map(fmt12).join(' & ') : fmt12(s.time));
   const dateLine = `${longDate(s.date)} · ${when}`;
   const where = `${s.venue}${s.hood && s.hood !== s.venue ? ' · ' + s.hood : ''}`;
   const desc = `${s.title} plays ${s.venue} in Milwaukee on ${longDate(s.date)}${s.tbd ? '' : ' at ' + fmt12(s.time)}.`;
   const url = `${SITE}/show/${s.slug}.html`;
-  const buy = (s.offers && s.offers[0]) || { src: s.ticketer, url: s.url };
+  const buy = buyOffer(s);
+  // Every shared link gets a picture: the act's photo when there is one, the
+  // site's own card when there isn't. A bare text preview gets scrolled past.
+  const shareImg = s.img || OG_CARD;
 
   // one button, straight to the ticket page — same promise the calendar makes
-  let action = `<a class="buy" href="${escH(ticketUrl(buy.src, buy.url))}" target="_blank" rel="noopener noreferrer">Get Tickets →</a>`;
+  let action = `<a class="buy" href="${escH(ticketUrl(buy.url))}" target="_blank" rel="noopener noreferrer">Get Tickets →</a>`;
   if (s.status === 'cancelled') action = '<span class="dead">Cancelled</span>';
   else if (s.status === 'offsale') action = '<span class="dead">Off sale</span>';
 
@@ -544,19 +524,9 @@ function showPageHtml(s) {
   const note = s.status && STATUS_NOTE[s.status]
     ? `<p class="note ${s.status}">${STATUS_NOTE[s.status]}</p>` : '';
 
-  // structured data, so search results and some chat apps read the event
-  // rather than guessing from the page text
-  const ld = {
-    '@context': 'https://schema.org', '@type': 'MusicEvent',
-    name: s.title, url,
-    startDate: `${s.date}T${s.time}:00-05:00`,
-    eventStatus: `https://schema.org/Event${s.status === 'cancelled' ? 'Cancelled'
-      : s.status === 'postponed' ? 'Postponed'
-      : s.status === 'rescheduled' ? 'Rescheduled' : 'Scheduled'}`,
-    location: { '@type': 'Place', name: s.venue, address: { '@type': 'PostalAddress', addressLocality: 'Milwaukee', addressRegion: 'WI', addressCountry: 'US' } },
-    ...(s.img ? { image: s.img } : {}),
-    ...(buy.url ? { offers: { '@type': 'Offer', url: buy.url, ...(buy.price != null ? { price: buy.price, priceCurrency: 'USD' } : {}) } } : {}),
-  };
+  // structured data, so Google can list the event in search, carousels and
+  // Maps — see seo.js for what goes in and why
+  const ld = seo.eventJsonLd(s, { url, performer: cleanArtist(s.title), table: venues });
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -571,7 +541,8 @@ function showPageHtml(s) {
 <meta property="og:site_name" content="The Confluence" />
 <meta property="og:title" content="${escH(s.title)} · ${escH(s.venue)}" />
 <meta property="og:description" content="${escH(dateLine)} — Milwaukee" />
-${s.img ? `<meta property="og:image" content="${escH(s.img)}" />\n<meta name="twitter:card" content="summary_large_image" />` : '<meta name="twitter:card" content="summary" />'}
+<meta property="og:image" content="${escH(shareImg)}" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="${escH(s.title)} · ${escH(s.venue)}" />
 <meta name="twitter:description" content="${escH(dateLine)} — Milwaukee" />
 <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png" />
@@ -624,10 +595,10 @@ footer.wrap{padding-bottom:44px;font-size:12.5px;color:var(--faint)}
   ${s.img ? `<img class="art${s.status === 'cancelled' ? ' off' : ''}" src="${escH(s.img)}" alt="${escH(s.title)}" />` : ''}
   <div class="actions">${action}${save}</div>
   ${note}
-  <p class="back">Every show in Milwaukee, updated every morning — <a href="../">see the full calendar →</a></p>
+  <p class="back"><a href="../day/${escH(s.date)}.html">Everything else on ${escH(longDate(s.date).split(',')[0])} →</a><br>Every show in Milwaukee, updated every morning — <a href="../">see the full calendar →</a></p>
 </main>
 <footer class="wrap">The Confluence · Milwaukee live music calendar</footer>
-<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
+${seo.ldScript(ld)}
 <script>
 // Same key and same id format the calendar uses, so a show saved here turns up
 // under My List over there — one browser, one list.
@@ -665,26 +636,39 @@ footer.wrap{padding-bottom:44px;font-size:12.5px;color:var(--faint)}
 
 // Writes one page per show and clears out pages whose show is long gone, so
 // the directory tracks the feed instead of growing forever.
-function buildShowPages(shows, today) {
+function buildShowPages(shows, today, venues) {
   fs.mkdirSync(PAGES_DIR, { recursive: true });
   const live = new Set();
   for (const s of shows) {
     live.add(`${s.slug}.html`);
-    fs.writeFileSync(path.join(PAGES_DIR, `${s.slug}.html`), showPageHtml(s));
+    fs.writeFileSync(path.join(PAGES_DIR, `${s.slug}.html`), showPageHtml(s, { venues }));
   }
-
-  const cutoff = new Date(today + 'T12:00:00');
-  cutoff.setDate(cutoff.getDate() - PAGE_GRACE_DAYS);
-  const cutoffStr = ymd(cutoff);
-  let pruned = 0;
-  for (const f of fs.readdirSync(PAGES_DIR)) {
-    if (!f.endsWith('.html') || live.has(f)) continue;
-    const d = f.match(/(\d{4}-\d{2}-\d{2})(?:-\d+)?\.html$/);
-    if (d && d[1] >= cutoffStr) continue;      // still inside the grace window
-    fs.unlinkSync(path.join(PAGES_DIR, f));
-    pruned++;
-  }
+  // pages outlive their show by 30 days, so a link shared that week still works
+  const pruned = seo.prunePages(PAGES_DIR, live, today);
   console.log(`• Show pages: ${shows.length} written${pruned ? `, ${pruned} expired removed` : ''}`);
+}
+
+// Everything that's generated from the finished show list, in one place, so
+// the full build and the keyless --pages rebuild can't drift apart.
+function writeSite(payload, today, venues) {
+  const { shows } = payload;
+  fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
+  fs.writeFileSync(path.join(ROOT, 'confluence.ics'), buildIcs(shows));
+  updateEmbedded(payload);
+  buildShowPages(shows, today, venues);
+  const dates = seo.buildDayPages(shows, today);
+  seo.writeSitemap(shows, dates, payload.updated, today);
+
+  const htmlPath = path.join(ROOT, 'index.html');
+  try {
+    const html = fs.readFileSync(htmlPath, 'utf8');
+    fs.writeFileSync(htmlPath, seo.updateIndex(html, { dates, affiliate: loadAffiliate() }));
+  } catch { /* no index.html in a test checkout */ }
+
+  // Google won't give an event rich results without a street address. Say
+  // which venues are still missing one so it's visible in every build log.
+  const missing = seo.venuesMissingStreet(shows, venues);
+  if (missing.length) console.log(`  ! No street address yet for ${missing.length} venue(s): ${missing.join(', ')}  → add to feed/venues.json with "manual": true`);
 }
 
 // ---------- artist previews (iTunes Search) ----------
@@ -957,6 +941,22 @@ const SEPARATE_SHOW_MIN = 120;
 const toMin = t => { const [h, m] = String(t).split(':').map(Number); return h * 60 + m; };
 const toHM = n => `${String(Math.floor(n / 60)).padStart(2, '0')}:${String(n % 60).padStart(2, '0')}`;
 
+// Same act, same room, same night — billed two ways. Either the names are
+// near-identical (spelling, accents), or one is the other plus a band name,
+// tour or subtitle: "Duane Betts" / "Duane Betts & Palmetto Motel", "Mannheim
+// Steamroller" / "Mannheim Steamroller Christmas". That second pattern was
+// listing 11 shows twice.
+//
+// The shorter name must be at least two words, so a one-word act can never
+// swallow a different act whose name happens to start with it.
+function sameAct(a, b) {
+  const x = normKey(cleanArtist(a)), y = normKey(cleanArtist(b));
+  if (similarity(x, y) >= TITLE_MATCH) return true;
+  const [short, long] = x.length <= y.length ? [x, y] : [y, x];
+  const sw = short.split(' '), lw = long.split(' ');
+  return sw.length >= 2 && sw.length < lw.length && sw.every((w, i) => lw[i] === w);
+}
+
 // Second pass: within one date+venue, fold near-identical titles into a single
 // listing. Showtimes are clustered — a real double-header keeps both times,
 // while a source disagreement collapses to one.
@@ -965,7 +965,7 @@ function mergeTitleVariants(shows) {
   for (const s of shows) {
     const slot = `${s.date}|${normKey(s.venue)}`;
     const list = slots.get(slot) || [];
-    const twin = list.find(x => similarity(normKey(x.title), normKey(s.title)) >= TITLE_MATCH);
+    const twin = list.find(x => sameAct(x.title, s.title));
     if (twin) {
       for (const o of s.offers || []) if (!twin.offers.some(t => t.src === o.src)) twin.offers.push(o);
       if (!twin.img && s.img) twin.img = s.img;
@@ -999,6 +999,12 @@ function mergeTitleVariants(shows) {
     delete s._t;
     s.time = toHM(times[0]);
     if (times.length > 1) s.times = times.map(toHM);
+    // sources sometimes list the headliner among its own support acts
+    // ("Mannheim Steamroller, with Mannheim Steamroller")
+    if (s.support) {
+      const support = s.support.split(/,\s*/).filter(n => !sameAct(n, s.title) && normKey(n) !== normKey(s.title));
+      s.support = support.join(', ') || null;
+    }
     out.push(s);
   }
   return out;
@@ -1050,14 +1056,31 @@ function pointAtBestOffer(shows) {
 
 // Merge rather than discard: the same show on two platforms becomes one
 // listing carrying both places to buy.
+// "Russian Circles w/ Pelican" → "Pelican"
+const supportFromTitle = t => (String(t).match(/\s+w\/\s*(.+)$/i) || [])[1] || null;
+
 function dedupe(shows) {
   const seen = new Map();
   for (const s of shows) {
     // time is part of the key so a comedy club's 7:00 + 9:45 double-header
     // survives, while duplicate records of one show still collapse.
-    const k = `${s.date}|${s.time}|${normKey(s.title)}|${normKey(s.venue)}`;
+    //
+    // The title goes through cleanArtist() first: sources bill the same show
+    // as "Russian Circles" and "Russian Circles w/ Pelican", or "Rave Jesus"
+    // and "Rave Jesus – Rave Revival Fall Tour", and keyed on the raw title
+    // those were listed twice.
+    const k = `${s.date}|${s.time}|${normKey(cleanArtist(s.title))}|${normKey(s.venue)}`;
     const prev = seen.get(k);
     if (!prev) { seen.set(k, { ...s, offers: [toOffer(s)] }); continue; }
+
+    // Same show, billed two ways: the plain name reads better as the title,
+    // but don't lose a support act that one source only put in its title.
+    if (s.title.length < prev.title.length) {
+      if (!prev.support) prev.support = supportFromTitle(prev.title);
+      prev.title = s.title;
+    } else if (!prev.support && s.title !== prev.title) {
+      prev.support = supportFromTitle(s.title);
+    }
 
     // fold this source's offer in (skip if that source is already present)
     if (!prev.offers.some(o => o.src === s.ticketer)) prev.offers.push(toOffer(s));
@@ -1098,6 +1121,13 @@ async function main() {
   }
   shows.push(...loadExtras());
 
+  // learn venue addresses from every source's raw record, before dedupe folds
+  // them together — see seo.js
+  const venues = seo.loadVenues();
+  const learned = seo.learnVenues(shows, venues);
+  seo.saveVenues(venues);
+  if (learned) console.log(`• Venues: ${learned} address(es) learned or updated`);
+
   const todayStr = ymd(now);
   shows = shows.filter(s => s.date && s.title && s.url && s.date >= todayStr);
   shows = mergeTitleVariants(dedupe(shows))
@@ -1118,10 +1148,7 @@ async function main() {
   assignSlugs(shows);            // every show gets its own shareable address
 
   const payload = { updated: todayStr, shows };
-  fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
-  fs.writeFileSync(path.join(ROOT, 'confluence.ics'), buildIcs(shows));
-  updateEmbedded(payload);
-  buildShowPages(shows, todayStr);
+  writeSite(payload, todayStr, venues);
   const days = new Set(shows.map(s => s.date)).size;
   console.log(`\n✓ Wrote ${shows.length} shows across ${days} days to shows.json (updated ${todayStr})`);
 }
@@ -1139,9 +1166,7 @@ async function pagesOnly() {
   refineGenres(payload.shows, cache);               // idempotent; safe to re-run
   pointAtBestOffer(payload.shows);
   assignSlugs(payload.shows);
-  fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
-  updateEmbedded(payload);
-  buildShowPages(payload.shows, ymd(new Date()));
+  writeSite(payload, ymd(new Date()), seo.loadVenues());
 }
 
 // Run only when invoked directly (`node feed/build-shows.js`), so the pure
@@ -1154,4 +1179,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, pointAtBestOffer, dropPlaceholderImages, tagVenueGenres, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
+module.exports = { ymd, hm, hoodFor, genreFor, geohash, dedupe, normKey, similarity, mergeTitleVariants, cleanArtist, statusRank, keepEvent, tmEventToShow, tmImage, unentity, buildIcs, slugify, assignSlugs, showPageHtml, itunesGenre, refineGenres, pointAtBestOffer, dropPlaceholderImages, tagVenueGenres, sameAct, argoAddress, GENRE_MAP, VENUE_HOODS, MKE_VENUES };
