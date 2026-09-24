@@ -33,6 +33,11 @@ function saveVenues(table) {
   fs.writeFileSync(VENUES_FILE, JSON.stringify(sorted, null, 2) + '\n');
 }
 
+// Which source to believe when they disagree. SeatGeek's venue records are the
+// sloppiest — it has the Improv at "20110 Lower" (the street name cut off) —
+// and without a ranking the sources overwrote each other on every build.
+const SOURCE_TRUST = { ticketmaster: 3, argo: 2, seatgeek: 1 };
+
 // Runs over the raw per-source records, before dedupe, so every source gets a
 // chance to contribute an address. Strips s.addr afterwards — the table is the
 // store, shows.json doesn't need a copy on every listing.
@@ -44,8 +49,10 @@ function learnVenues(shows, table) {
     if (!a || !a.city || !s.venue) continue;
     const have = table[s.venue];
     if (have && have.manual) continue;
-    // never trade a street address for a vaguer record
+    // never trade a street address for a vaguer record…
     if (have && have.street && !a.street) continue;
+    // …or a trusted source's address for a less trusted one's
+    if (have && have.street && (SOURCE_TRUST[a.source] || 0) < (SOURCE_TRUST[have.source] || 0)) continue;
     if (have && have.street === a.street && have.postal === a.postal) continue;
     table[s.venue] = { street: a.street || '', city: a.city, region: a.region || 'WI', postal: a.postal || '', source: a.source };
     learned++;

@@ -81,6 +81,18 @@ test('learnVenues keeps the best address and never overrides a manual one', () =
   assert.ok(shows.every(s => !('addr' in s)), 'addr is stripped off the show once learned');
 });
 
+test('learnVenues trusts Ticketmaster over SeatGeek, and settles instead of flapping', () => {
+  // Real case: SeatGeek has the Improv at "20110 Lower" — street name cut off.
+  // Without a ranking the two sources overwrote each other on every build.
+  const table = {};
+  const tm = { venue: 'Milwaukee Improv', addr: { street: '20110 Lower Union St', city: 'Brookfield', region: 'WI', postal: '53045', source: 'ticketmaster' } };
+  const sg = { venue: 'Milwaukee Improv', addr: { street: '20110 Lower', city: 'Brookfield', region: 'WI', postal: '53045', source: 'seatgeek' } };
+  seo.learnVenues([{ ...sg }, { ...tm }], table);
+  assert.equal(table['Milwaukee Improv'].street, '20110 Lower Union St', 'the trusted source wins whatever the order');
+  const again = seo.learnVenues([{ ...tm, addr: { ...tm.addr } }, { ...sg, addr: { ...sg.addr } }], table);
+  assert.equal(again, 0, 'a second build changes nothing');
+});
+
 test('addressFor falls back to the right town, not always Milwaukee', () => {
   assert.equal(seo.addressFor({ venue: 'X', hood: 'Bay View' }, {}).addressLocality, 'Milwaukee');   // a neighborhood
   assert.equal(seo.addressFor({ venue: 'X', hood: 'Brookfield' }, {}).addressLocality, 'Brookfield'); // a suburb
