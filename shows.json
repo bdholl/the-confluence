@@ -1,296 +1,6 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/21b/10b80d4f-74a9-475c-97b3-cc94fa04321b_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-26",
-      "time": "18:30",
-      "title": "Dying Fetus",
-      "support": "Sanguisugabogg",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/dying-fetus-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-26-6-30-pm/concert/18345854",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/dying-fetus-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-26-6-30-pm/concert/18345854"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZaF"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d1/38/bc/d138bc62-1f57-b109-44a0-2d23ad09d53a/mzaf_278516774162899451.plus.aac.p.m4a",
-        "track": "Praise the Lord (Opium of the Masses)",
-        "artist": "Dying Fetus",
-        "kind": "Rock"
-      },
-      "slug": "dying-fetus-2026-09-26"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/05/17/94_Edp.jpg?v=3",
-      "price": 32.39,
-      "date": "2026-09-26",
-      "time": "18:30",
-      "title": "Justin Silva",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/justin-silva-milwaukee-improv-main-room-tickets/14970753",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/justin-silva-milwaukee-improv-main-room-tickets/14970753",
-          "price": 32.39
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/justin-silva-tickets/comedy/2026-09-26-6-30-pm/18400886"
-        }
-      ],
-      "times": [
-        "18:30",
-        "21:00"
-      ],
-      "slug": "justin-silva-2026-09-26"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/645/93aebf2c-60e7-46d5-8df0-5b8e0f88c645_1031631_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "title": "The Appleseed Cast",
-      "support": "The Casket Lottery",
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-appleseed-cast-tickets/milwaukee-wisconsin-cactus-club-2026-09-26-7-pm/concert/18400689",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-appleseed-cast-tickets/milwaukee-wisconsin-cactus-club-2026-09-26-7-pm/concert/18400689"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgvE"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/6e/04/0b6e044e-fbde-f027-20aa-465abd860a2b/mzaf_12490060853072002842.plus.aac.p.m4a",
-        "track": "Innocent Vigilant Ordinary",
-        "artist": "The Appleseed Cast",
-        "kind": "Rock"
-      },
-      "slug": "the-appleseed-cast-2026-09-26"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/975/02e31abe-ffb0-4ccc-9185-ae6fcc229975_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "title": "Luke Bryan",
-      "support": "Drew Baldridge, Lauren Watkins, RaeLynn, DJ Rock",
-      "venue": "Alpine Valley Music Theatre",
-      "hood": "East Troy",
-      "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/luke-bryan-word-on-the-street-east-troy-wisconsin-09-26-2026/event/07006435FF239820",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/luke-bryan-word-on-the-street-east-troy-wisconsin-09-26-2026/event/07006435FF239820"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/luke-bryan-tickets/east-troy-wisconsin-alpine-valley-music-theatre-2026-09-26-7-pm/concert/18028943"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/9d/f4/c89df4ca-36a7-ae78-b685-d2ad79cb5f49/mzaf_9766439164727040261.plus.aac.p.m4a",
-        "track": "Country Girl (Shake It For Me)",
-        "artist": "Luke Bryan",
-        "kind": "Country"
-      },
-      "slug": "luke-bryan-2026-09-26"
-    },
-    {
-      "date": "2026-09-26",
-      "time": "19:00",
-      "title": "Matt McCusker",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/matt-mccusker-tickets/comedy/2026-09-26-7-pm/18400617",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/matt-mccusker-tickets/comedy/2026-09-26-7-pm/18400617"
-        }
-      ],
-      "slug": "matt-mccusker-2026-09-26"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/776/a92e1163-d8d9-4f26-add7-1002e3294776_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "title": "Kota the Friend",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "folk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/kota-the-friend-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-26-8-pm/concert/18587488",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/kota-the-friend-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-26-8-pm/concert/18587488"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZza6"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/71/78/c5/7178c54c-8351-745b-5288-14dc0e0c7573/mzaf_7300214475411472304.plus.aac.p.m4a",
-        "track": "Oh Darling How I Love You .",
-        "artist": "Kota the Friend",
-        "kind": "Traditional Folk"
-      },
-      "slug": "kota-the-friend-2026-09-26"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/ef5/20a94c54-a473-4431-969e-a349b084def5_179891_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "title": "Supertramp Tribute",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/supertramp-tribute-tickets/milwaukee-wisconsin-pabst-theater-2026-09-26-8-pm/concert/18513235",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/supertramp-tribute-tickets/milwaukee-wisconsin-pabst-theater-2026-09-26-8-pm/concert/18513235"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709ZJ"
-        }
-      ],
-      "slug": "supertramp-tribute-2026-09-26"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/12/96/73/64_Edp.jpg?v=8",
-      "price": 30.37,
-      "date": "2026-09-26",
-      "time": "20:00",
-      "title": "Franklin Jonas & The Byzantines",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/franklin-jonas-the-byzantines-shank-hall-tickets/14251104",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/franklin-jonas-the-byzantines-shank-hall-tickets/14251104",
-          "price": 30.37
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/franklin-jonas-tickets/milwaukee-wisconsin-shank-hall-2026-09-26-8-pm/concert/18400600"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/72/f7/9272f749-a79c-6fe3-fa94-36271ed6e0b5/mzaf_16839066239000952885.plus.aac.p.m4a",
-        "track": "Break the Levee",
-        "artist": "Franklin Jonas & The Byzantines",
-        "kind": "Alternative Country"
-      },
-      "slug": "franklin-jonas-and-the-byzantines-2026-09-26"
-    },
-    {
-      "date": "2026-09-26",
-      "time": "20:00",
-      "title": "Paul Cebar",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "rnb",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/paul-cebar-tickets/milwaukee-wisconsin-vivarium-2026-09-26-8-pm/concert/18400954",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/paul-cebar-tickets/milwaukee-wisconsin-vivarium-2026-09-26-8-pm/concert/18400954"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/95/ec/be95ecb6-b146-138f-ed7b-bad499679e80/mzaf_11636637871643938514.plus.aac.p.m4a",
-        "track": "Sunday Ride",
-        "artist": "Paul Cebar",
-        "kind": "R&B/Soul"
-      },
-      "slug": "paul-cebar-2026-09-26"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186082380%2F285524009645%2F1%2Foriginal.20260603-174454?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.555&fp-y=0.402&s=b9108a21633b45ae637b2a2784bc09e3",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "title": "Big Richard",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "country",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/big-richard-tickets-1990612374197",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/big-richard-tickets-1990612374197"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/56/b6/1f56b61f-36a5-e58f-8b04-d62d24343d14/mzaf_14753540136731523774.plus.aac.p.m4a",
-        "track": "Millionaire",
-        "artist": "Big Richard",
-        "kind": "Country"
-      },
-      "slug": "big-richard-2026-09-26"
-    },
-    {
-      "date": "2026-09-26",
-      "time": "21:00",
-      "title": "Caspa",
-      "support": null,
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/caspa-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-09-26-9-pm/concert/18587704",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/caspa-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-09-26-9-pm/concert/18587704"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/11/d0/bc11d068-e4c2-e1ce-3083-e2a2524fb63a/mzaf_12879528822050212528.plus.aac.p.m4a",
-        "track": "The Gate",
-        "artist": "Caspa",
-        "kind": "Dance"
-      },
-      "slug": "caspa-2026-09-26"
-    },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192522190%2F285524009645%2F1%2Foriginal.20260902-214625?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fceeefc831200a76abda77fc67c804f7",
       "date": "2026-09-27",
@@ -3674,24 +3384,6 @@
     {
       "date": "2026-10-16",
       "time": "20:00",
-      "title": "Ben Schwartz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
-        }
-      ],
-      "slug": "ben-schwartz-2026-10-16"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "20:00",
       "title": "Friko",
       "support": null,
       "venue": "Vivarium",
@@ -3712,6 +3404,24 @@
         "kind": "Alternative"
       },
       "slug": "friko-2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "20:00",
+      "title": "Ben Schwartz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
+        }
+      ],
+      "slug": "ben-schwartz-2026-10-16"
     },
     {
       "date": "2026-10-16",
@@ -11356,6 +11066,28 @@
         "kind": "Pop"
       },
       "slug": "the-docksiders-2027-01-23"
+    },
+    {
+      "date": "2027-01-24",
+      "time": "20:00",
+      "title": "Denny Love",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-7-pm/18526324",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-7-pm/18526324"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd0f"
+        }
+      ],
+      "slug": "denny-love-2027-01-24"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187966534%2F285524009645%2F1%2Foriginal.20260630-235741?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=885882f82b5738ef5120043022a9cf83",

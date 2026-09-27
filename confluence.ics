@@ -4,105 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-09-26-18:30-DyingFetusTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20260926T183000
-DTEND;TZID=America/Chicago:20260926T203000
-SUMMARY:Dying Fetus @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:With Sanguisugabogg. Tickets: https://seatgeek.com/dying-fetus-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-26-6-30-pm/concert/18345854
-URL:https://seatgeek.com/dying-fetus-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-26-6-30-pm/concert/18345854
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-26-18:30-JustinSilvaMilwaukeeImprov@theconfluence
-DTSTART;TZID=America/Chicago:20260926T183000
-DTEND;TZID=America/Chicago:20260926T203000
-SUMMARY:Justin Silva @ Milwaukee Improv
-LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/justin-silva-milwaukee-improv-main-room-tickets/14970753
-URL:https://www.ticketweb.com/event/justin-silva-milwaukee-improv-main-room-tickets/14970753
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-26-19:00-TheAppleseedCastCactusClub@theconfluence
-DTSTART;TZID=America/Chicago:20260926T190000
-DTEND;TZID=America/Chicago:20260926T210000
-SUMMARY:The Appleseed Cast @ Cactus Club
-LOCATION:Cactus Club\, Bay View
-DESCRIPTION:With The Casket Lottery. Tickets: https://seatgeek.com/the-appleseed-cast-tickets/milwaukee-wisconsin-cactus-club-2026-09-26-7-pm/concert/18400689
-URL:https://seatgeek.com/the-appleseed-cast-tickets/milwaukee-wisconsin-cactus-club-2026-09-26-7-pm/concert/18400689
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-26-19:00-LukeBryanAlpineValleyMusicTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20260926T190000
-DTEND;TZID=America/Chicago:20260926T210000
-SUMMARY:Luke Bryan @ Alpine Valley Music Theatre
-LOCATION:Alpine Valley Music Theatre\, East Troy
-DESCRIPTION:With Drew Baldridge\, Lauren Watkins\, RaeLynn\, DJ Rock. Tickets: https://www.ticketmaster.com/luke-bryan-word-on-the-street-east-troy-wisconsin-09-26-2026/event/07006435FF239820
-URL:https://www.ticketmaster.com/luke-bryan-word-on-the-street-east-troy-wisconsin-09-26-2026/event/07006435FF239820
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-26-19:00-MattMcCuskerRiversideTheater@theconfluence
-DTSTART;TZID=America/Chicago:20260926T190000
-DTEND;TZID=America/Chicago:20260926T210000
-SUMMARY:Matt McCusker @ Riverside Theater
-LOCATION:Riverside Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/matt-mccusker-tickets/comedy/2026-09-26-7-pm/18400617
-URL:https://seatgeek.com/matt-mccusker-tickets/comedy/2026-09-26-7-pm/18400617
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-26-20:00-KotatheFriendTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20260926T200000
-DTEND;TZID=America/Chicago:20260926T220000
-SUMMARY:Kota the Friend @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/kota-the-friend-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-26-8-pm/concert/18587488
-URL:https://seatgeek.com/kota-the-friend-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-09-26-8-pm/concert/18587488
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-26-20:00-SupertrampTributePabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20260926T200000
-DTEND;TZID=America/Chicago:20260926T220000
-SUMMARY:Supertramp Tribute @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/supertramp-tribute-tickets/milwaukee-wisconsin-pabst-theater-2026-09-26-8-pm/concert/18513235
-URL:https://seatgeek.com/supertramp-tribute-tickets/milwaukee-wisconsin-pabst-theater-2026-09-26-8-pm/concert/18513235
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-26-20:00-FranklinJonasTheByzantinesShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20260926T200000
-DTEND;TZID=America/Chicago:20260926T220000
-SUMMARY:Franklin Jonas & The Byzantines @ Shank Hall
-LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/franklin-jonas-the-byzantines-shank-hall-tickets/14251104
-URL:https://www.ticketweb.com/event/franklin-jonas-the-byzantines-shank-hall-tickets/14251104
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-26-20:00-PaulCebarVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20260926T200000
-DTEND;TZID=America/Chicago:20260926T220000
-SUMMARY:Paul Cebar @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/paul-cebar-tickets/milwaukee-wisconsin-vivarium-2026-09-26-8-pm/concert/18400954
-URL:https://seatgeek.com/paul-cebar-tickets/milwaukee-wisconsin-vivarium-2026-09-26-8-pm/concert/18400954
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-26-20:00-BigRichardTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20260926T200000
-DTEND;TZID=America/Chicago:20260926T220000
-SUMMARY:Big Richard @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/big-richard-tickets-1990612374197
-URL:https://www.eventbrite.com/e/big-richard-tickets-1990612374197
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-09-26-21:00-CaspaMiramarTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20260926T210000
-DTEND;TZID=America/Chicago:20260926T230000
-SUMMARY:Caspa @ Miramar Theatre
-LOCATION:Miramar Theatre\, Milwaukee
-DESCRIPTION:Tickets: https://seatgeek.com/caspa-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-09-26-9-pm/concert/18587704
-URL:https://seatgeek.com/caspa-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-09-26-9-pm/concert/18587704
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-09-27-12:00-OktoberfestattheArgoTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20260927T120000
 DTEND;TZID=America/Chicago:20260927T140000
@@ -1318,15 +1219,6 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70VrZ
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70VrZ
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-16-20:00-BenSchwartzRiversideTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261016T200000
-DTEND;TZID=America/Chicago:20261016T220000
-SUMMARY:Ben Schwartz @ Riverside Theater
-LOCATION:Riverside Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
-URL:https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-16-20:00-FrikoVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261016T200000
 DTEND;TZID=America/Chicago:20261016T220000
@@ -1334,6 +1226,15 @@ SUMMARY:Friko @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
 URL:https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-16-20:00-BenSchwartzRiversideTheater@theconfluence
+DTSTART;TZID=America/Chicago:20261016T200000
+DTEND;TZID=America/Chicago:20261016T220000
+SUMMARY:Ben Schwartz @ Riverside Theater
+LOCATION:Riverside Theater\, Downtown
+DESCRIPTION:Tickets: https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
+URL:https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-16-20:00-BrianPosehnFalconBowl@theconfluence
@@ -4052,6 +3953,15 @@ SUMMARY:The Docksiders @ Riverside Theater
 LOCATION:Riverside Theater\, Downtown
 DESCRIPTION:Tickets: https://seatgeek.com/the-docksiders-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-01-23-8-pm/concert/18608592
 URL:https://seatgeek.com/the-docksiders-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-01-23-8-pm/concert/18608592
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-24-20:00-DennyLoveTurnerHallBallroom@theconfluence
+DTSTART;TZID=America/Chicago:20270124T200000
+DTEND;TZID=America/Chicago:20270124T220000
+SUMMARY:Denny Love @ Turner Hall Ballroom
+LOCATION:Turner Hall Ballroom\, Westown
+DESCRIPTION:Tickets: https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-7-pm/18526324
+URL:https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-7-pm/18526324
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-31-20:00-SkerryvoreTheArgo@theconfluence
