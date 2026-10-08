@@ -4,69 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-10-07-14:00-NicholasRodriguezSincerelySondheimSharon@theconfluence
-DTSTART;TZID=America/Chicago:20261007T140000
-DTEND;TZID=America/Chicago:20261007T160000
-SUMMARY:Nicholas Rodriguez - Sincerely\, Sondheim @ Sharon Lynne Wilson Center for the Arts
-LOCATION:Sharon Lynne Wilson Center for the Arts\, Brookfield
-DESCRIPTION:Tickets: https://seatgeek.com/nicholas-rodriguez-sincerely-sondheim-tickets/brookfield-wisconsin-sharon-lynne-wilson-center-for-the-arts-2026-10-07-2-pm/concert/18637068
-URL:https://seatgeek.com/nicholas-rodriguez-sincerely-sondheim-tickets/brookfield-wisconsin-sharon-lynne-wilson-center-for-the-arts-2026-10-07-2-pm/concert/18637068
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-07-19:00-WeezerFiservForum@theconfluence
-DTSTART;TZID=America/Chicago:20261007T190000
-DTEND;TZID=America/Chicago:20261007T210000
-SUMMARY:Weezer @ Fiserv Forum
-LOCATION:Fiserv Forum\, Deer District
-DESCRIPTION:With The Shins\, Silversun Pickups. Tickets: https://www.ticketmaster.com/weezer-the-gathering-milwaukee-wisconsin-10-07-2026/event/0700646DDB9D984D
-URL:https://www.ticketmaster.com/weezer-the-gathering-milwaukee-wisconsin-10-07-2026/event/0700646DDB9D984D
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-07-19:00-RhettMillerShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20261007T190000
-DTEND;TZID=America/Chicago:20261007T210000
-SUMMARY:Rhett Miller @ Shank Hall
-LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/rhett-miller-shank-hall-tickets/14229534
-URL:https://www.ticketweb.com/event/rhett-miller-shank-hall-tickets/14229534
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-07-19:00-THROWNTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261007T190000
-DTEND;TZID=America/Chicago:20261007T210000
-SUMMARY:THROWN @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:With Norma Jean. Tickets: https://seatgeek.com/thrown-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-07-7-pm/concert/18327338
-URL:https://seatgeek.com/thrown-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-07-7-pm/concert/18327338
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-07-19:00-SwingJazzWednesdaysFreeTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261007T190000
-DTEND;TZID=America/Chicago:20261007T210000
-SUMMARY:Swing Jazz Wednesdays (Free) @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-free-tickets-2002177422568
-URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-free-tickets-2002177422568
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-07-19:00-TriviaNightFreeTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261007T190000
-DTEND;TZID=America/Chicago:20261007T210000
-SUMMARY:Trivia Night (Free) @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/trivia-night-free-tickets-2002178113635
-URL:https://www.eventbrite.com/e/trivia-night-free-tickets-2002178113635
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-07-20:00-UB40PabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261007T200000
-DTEND;TZID=America/Chicago:20261007T220000
-SUMMARY:UB40 @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/ub40-tickets/milwaukee-wisconsin-pabst-theater-2026-10-07-8-pm/concert/18035211
-URL:https://seatgeek.com/ub40-tickets/milwaukee-wisconsin-pabst-theater-2026-10-07-8-pm/concert/18035211
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-08-18:30-LiveintheLoungewJustJakeFreeTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20261008T183000
 DTEND;TZID=America/Chicago:20261008T203000
@@ -211,15 +148,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/kevin-sullivan-tickets/comedy/2026-10-
 URL:https://seatgeek.com/kevin-sullivan-tickets/comedy/2026-10-09-8-pm/18400968
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-09-20:00-ChasingAbbeyFalconBowl@theconfluence
-DTSTART;TZID=America/Chicago:20261009T200000
-DTEND;TZID=America/Chicago:20261009T220000
-SUMMARY:Chasing Abbey @ Falcon Bowl
-LOCATION:Falcon Bowl\, Milwaukee
-DESCRIPTION:Tickets: https://seatgeek.com/chasing-abbey-tickets/milwaukee-wisconsin-falcon-bowl-2026-10-09-8-pm/concert/18256468
-URL:https://seatgeek.com/chasing-abbey-tickets/milwaukee-wisconsin-falcon-bowl-2026-10-09-8-pm/concert/18256468
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-09-20:00-SoDownMiramarTheatre@theconfluence
 DTSTART;TZID=America/Chicago:20261009T200000
 DTEND;TZID=America/Chicago:20261009T220000
@@ -227,6 +155,15 @@ SUMMARY:SoDown @ Miramar Theatre
 LOCATION:Miramar Theatre\, Milwaukee
 DESCRIPTION:Tickets: https://seatgeek.com/sodown-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-10-09-8-pm/concert/18587709
 URL:https://seatgeek.com/sodown-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-10-09-8-pm/concert/18587709
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-09-20:00-ChasingAbbeyFalconBowl@theconfluence
+DTSTART;TZID=America/Chicago:20261009T200000
+DTEND;TZID=America/Chicago:20261009T220000
+SUMMARY:Chasing Abbey @ Falcon Bowl
+LOCATION:Falcon Bowl\, Milwaukee
+DESCRIPTION:Tickets: https://seatgeek.com/chasing-abbey-tickets/milwaukee-wisconsin-falcon-bowl-2026-10-09-8-pm/concert/18256468
+URL:https://seatgeek.com/chasing-abbey-tickets/milwaukee-wisconsin-falcon-bowl-2026-10-09-8-pm/concert/18256468
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-09-20:00-DigDeepwBillyBronstedTheLootTheArgo@theconfluence
@@ -454,13 +391,13 @@ DESCRIPTION:Tickets: https://seatgeek.com/north-mississippi-allstars-tickets/mil
 URL:https://seatgeek.com/north-mississippi-allstars-tickets/milwaukee-wisconsin-vivarium-2026-10-13-8-pm/concert/18312255
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-14-19:00-SwingJazzWednesdaysFreeTheArgo@theconfluence
+UID:2026-10-14-19:00-SwingJazzWednesdaysTheSazerac5FreeTheArg@theconfluence
 DTSTART;TZID=America/Chicago:20261014T190000
 DTEND;TZID=America/Chicago:20261014T210000
-SUMMARY:Swing Jazz Wednesdays (Free) @ The Argo
+SUMMARY:Swing Jazz Wednesdays: The Sazerac 5 (Free) @ The Argo
 LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-free-tickets-2002177581042
-URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-free-tickets-2002177581042
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-2002177581042
+URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-2002177581042
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-14-19:00-TriviaNightFreeTheArgo@theconfluence
@@ -688,15 +625,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/brian-posehn-tickets/comedy/2026-10-16
 URL:https://seatgeek.com/brian-posehn-tickets/comedy/2026-10-16-8-pm/18400836
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-16-20:00-FrikoVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261016T200000
-DTEND;TZID=America/Chicago:20261016T220000
-SUMMARY:Friko @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
-URL:https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-16-20:00-BenSchwartzRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261016T200000
 DTEND;TZID=America/Chicago:20261016T220000
@@ -704,6 +632,15 @@ SUMMARY:Ben Schwartz @ Riverside Theater
 LOCATION:Riverside Theater\, Downtown
 DESCRIPTION:Tickets: https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
 URL:https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-16-20:00-FrikoVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261016T200000
+DTEND;TZID=America/Chicago:20261016T220000
+SUMMARY:Friko @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
+URL:https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-16-20:00-FreeKaraokeNight21TheArgo@theconfluence
@@ -958,13 +895,13 @@ DESCRIPTION:Tickets: https://seatgeek.com/catacombs-and-comedians-tickets/comedy
 URL:https://seatgeek.com/catacombs-and-comedians-tickets/comedy/2026-10-21-7-pm/18368376
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-21-19:00-TriviaNightFreeTheArgo@theconfluence
+UID:2026-10-21-19:00-QuizmasterTriviaNightTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20261021T190000
 DTEND;TZID=America/Chicago:20261021T210000
-SUMMARY:Trivia Night (Free) @ The Argo
+SUMMARY:Quizmaster Trivia Night @ The Argo
 LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/trivia-night-free-tickets-2002178634192
-URL:https://www.eventbrite.com/e/trivia-night-free-tickets-2002178634192
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2002178634192
+URL:https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2002178634192
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-21-20:00-SylvanEssoRiversideTheater@theconfluence
@@ -1001,6 +938,15 @@ SUMMARY:Maggie Koerner: Upstate Tour @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/maggie-koerner-upstate-tour-tickets-1998249299446
 URL:https://www.eventbrite.com/e/maggie-koerner-upstate-tour-tickets-1998249299446
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-22-18:30-LiveintheLoungewCarlErikstrupFreeTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261022T183000
+DTEND;TZID=America/Chicago:20261022T203000
+SUMMARY:Live in the Lounge w/ Carl Erikstrup (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-carl-erikstrup-free-tickets-2003099209658
+URL:https://www.eventbrite.com/e/live-in-the-lounge-w-carl-erikstrup-free-tickets-2003099209658
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22-19:00-RandyFeltfaceVivarium@theconfluence
@@ -1363,6 +1309,15 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-haha-yeah-yeahs-w-pecking-
 URL:https://www.eventbrite.com/e/the-haha-yeah-yeahs-w-pecking-order-pspsps-18-tickets-2000323230630
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-28-19:00-QuizmasterTriviaNightTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261028T190000
+DTEND;TZID=America/Chicago:20261028T210000
+SUMMARY:Quizmaster Trivia Night @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2003092229781
+URL:https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2003092229781
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-28-20:00-BlueOctoberPabstTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261028T200000
 DTEND;TZID=America/Chicago:20261028T220000
@@ -1379,6 +1334,15 @@ SUMMARY:Angel @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/angel-shank-hall-tickets/14255864
 URL:https://www.ticketweb.com/event/angel-shank-hall-tickets/14255864
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-29-18:30-LiveintheLoungewSawdustSymphonyTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261029T183000
+DTEND;TZID=America/Chicago:20261029T203000
+SUMMARY:Live in the Lounge w/ Sawdust Symphony @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/live-in-the-lounge-w-sawdust-symphony-tickets-2003100015067
+URL:https://www.eventbrite.com/e/live-in-the-lounge-w-sawdust-symphony-tickets-2003100015067
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-29-19:00-UAU2026FANCONPlaylistYourYouthinMilwauke@theconfluence
@@ -1795,6 +1759,15 @@ DESCRIPTION:With Abbie Callahan. Tickets: https://www.ticketmaster.com/orville-p
 URL:https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-milwaukee-wisconsin-11-05-2026/event/070064EDB20E2C46
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-05-20:00-WaterparksTheRaveEaglesClub@theconfluence
+DTSTART;TZID=America/Chicago:20261105T200000
+DTEND;TZID=America/Chicago:20261105T220000
+SUMMARY:Waterparks @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
+DESCRIPTION:Tickets: https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-05-8-pm/concert/18526289
+URL:https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-05-8-pm/concert/18526289
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-05-20:00-BrigitteCallsMeBabyVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261105T200000
 DTEND;TZID=America/Chicago:20261105T220000
@@ -1811,15 +1784,6 @@ SUMMARY:Levi Bloom @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/levi-bloom-tickets-1998799667612
 URL:https://www.eventbrite.com/e/levi-bloom-tickets-1998799667612
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-05-20:00-WaterparksTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261105T200000
-DTEND;TZID=America/Chicago:20261105T220000
-SUMMARY:Waterparks @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-05-8-pm/concert/18526289
-URL:https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-05-8-pm/concert/18526289
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05-21:30-JoanneMcNallyUihleinHall@theconfluence
@@ -2218,6 +2182,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/michelle-branch-tickets/milwaukee-wisc
 URL:https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-12-20:00-TellMeLiesATributetoFleetwoodMacTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261112T200000
+DTEND;TZID=America/Chicago:20261112T220000
+SUMMARY:Tell Me Lies: A Tribute to Fleetwood Mac @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/tell-me-lies-a-tribute-to-fleetwood-mac-tickets-2003095185622
+URL:https://www.eventbrite.com/e/tell-me-lies-a-tribute-to-fleetwood-mac-tickets-2003095185622
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-13-18:30-MotionlessInWhiteFiservForum@theconfluence
 DTSTART;TZID=America/Chicago:20261113T183000
 DTEND;TZID=America/Chicago:20261113T203000
@@ -2317,15 +2290,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/3ballmty-tickets/milwaukee-wisconsin-t
 URL:https://seatgeek.com/3ballmty-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18587502
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-13-20:00-HovvdyVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261113T200000
-DTEND;TZID=America/Chicago:20261113T220000
-SUMMARY:Hovvdy @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991
-URL:https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-13-20:00-SteveMartinMillerHighLifeTheatre@theconfluence
 DTSTART;TZID=America/Chicago:20261113T200000
 DTEND;TZID=America/Chicago:20261113T220000
@@ -2335,13 +2299,22 @@ DESCRIPTION:With Martin Short\, Jeff Babko\, The Steep Canyon Rangers. Tickets: 
 URL:https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-13-20:00-TheSpooklightsTheArgo@theconfluence
+UID:2026-11-13-20:00-HovvdyVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261113T200000
 DTEND;TZID=America/Chicago:20261113T220000
-SUMMARY:The Spooklights @ The Argo
+SUMMARY:Hovvdy @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991
+URL:https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-20:00-TheSpooklightswBodhicittaTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261113T200000
+DTEND;TZID=America/Chicago:20261113T220000
+SUMMARY:The Spooklights w/ Bodhicitta @ The Argo
 LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-spooklights-tickets-2000996867496
-URL:https://www.eventbrite.com/e/the-spooklights-tickets-2000996867496
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-spooklights-w-bodhicitta-tickets-2000996867496
+URL:https://www.eventbrite.com/e/the-spooklights-w-bodhicitta-tickets-2000996867496
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-18:30-TJMillerMilwaukeeImprov@theconfluence
@@ -2479,15 +2452,6 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/alicia-villarreal-bendita-locu
 URL:https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-20:00-LukeKidgellVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261115T200000
-DTEND;TZID=America/Chicago:20261115T220000
-SUMMARY:Luke Kidgell @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
-URL:https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-15-20:00-TheWoodBrothersTurnerHallBallroom@theconfluence
 DTSTART;TZID=America/Chicago:20261115T200000
 DTEND;TZID=America/Chicago:20261115T220000
@@ -2495,6 +2459,15 @@ SUMMARY:The Wood Brothers @ Turner Hall Ballroom
 LOCATION:Turner Hall Ballroom\, Westown
 DESCRIPTION:With Amelia Day. Tickets: https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153
 URL:https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-20:00-LukeKidgellVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261115T200000
+DTEND;TZID=America/Chicago:20261115T220000
+SUMMARY:Luke Kidgell @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
+URL:https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-20:00-88NINEPresentsPostAnimalMaybeYouHaveToTo@theconfluence
@@ -3116,6 +3089,15 @@ SUMMARY:Mannheim Steamroller @ Miller High Life Theatre
 LOCATION:Miller High Life Theatre\, Westown
 DESCRIPTION:With Chip Davis. Tickets: https://seatgeek.com/mannheim-steamroller-christmas-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-12-06-3-pm/concert/18392268
 URL:https://seatgeek.com/mannheim-steamroller-christmas-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-12-06-3-pm/concert/18392268
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-06-18:00-RexNavarreteMilwaukeeImprov@theconfluence
+DTSTART;TZID=America/Chicago:20261206T180000
+DTEND;TZID=America/Chicago:20261206T200000
+SUMMARY:Rex Navarrete @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/rex-navarrete-milwaukee-improv-main-room-tickets/14368494
+URL:https://www.ticketweb.com/event/rex-navarrete-milwaukee-improv-main-room-tickets/14368494
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-06-20:00-aurorawaveTheRaveEaglesClub@theconfluence
