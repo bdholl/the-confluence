@@ -1,106 +1,6 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "shows": [
-    {
-      "date": "2026-10-11",
-      "time": "11:00",
-      "title": "St. Louis Blues Festival",
-      "support": null,
-      "venue": "Wisconsin Center",
-      "hood": "Milwaukee",
-      "genre": "festival",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/st-louis-blues-festival-tickets/milwaukee-wisconsin-wisconsin-center-2026-10-11-11-am/music-festival/18390909",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/st-louis-blues-festival-tickets/milwaukee-wisconsin-wisconsin-center-2026-10-11-11-am/music-festival/18390909"
-        }
-      ],
-      "slug": "st-louis-blues-festival-2026-10-11"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/4bb/71868cde-7ce8-4cae-b269-f199bbedd4bb_RETINA_PORTRAIT_16_9.jpg",
-      "price": 38.67,
-      "date": "2026-10-11",
-      "time": "18:00",
-      "title": "Arnez J",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982123",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/arnez-j-milwaukee-improv-main-room-tickets/14982123",
-          "price": 38.67
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/arnez-j-tickets/comedy/2026-10-11-6-pm/18400892"
-        }
-      ],
-      "slug": "arnez-j-2026-10-11"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/6c0/caaa06a1-3c7a-4b3c-bc4b-ca255f0936c0_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-11",
-      "time": "20:00",
-      "title": "Samara Joy",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "jazz",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/samara-joy-tickets/milwaukee-wisconsin-pabst-theater-2026-10-11-8-pm/concert/18400546",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/samara-joy-tickets/milwaukee-wisconsin-pabst-theater-2026-10-11-8-pm/concert/18400546"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70-po"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/47/3b/6f473bff-7507-40df-fa0d-49aaf959634a/mzaf_15695108739708354829.plus.aac.p.m4a",
-        "track": "Flor de Lis (Upside Down)",
-        "artist": "Samara Joy",
-        "kind": "Jazz"
-      },
-      "slug": "samara-joy-2026-10-11"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "20:00",
-      "title": "Holywatr",
-      "support": "Mercury",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "metal",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/holywatr-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-11-8-pm/concert/18321498",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/holywatr-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-11-8-pm/concert/18321498"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jea7"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/a4/d1/cea4d1bf-6711-48d0-c4ae-4d9bd16d41ab/mzaf_1995923081430804460.plus.aac.p.m4a",
-        "track": "Nightmares",
-        "artist": "Holywatr",
-        "kind": "Metal"
-      },
-      "slug": "holywatr-2026-10-11"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/469/f6db8121-664a-4972-9853-b1eb4d318469_RETINA_PORTRAIT_16_9.jpg",
       "status": "rescheduled",
@@ -1194,7 +1094,7 @@
     },
     {
       "date": "2026-10-17",
-      "time": "22:00",
+      "time": "21:00",
       "title": "The Sponges",
       "support": null,
       "venue": "Miramar Theatre",
@@ -1206,6 +1106,10 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/the-sponges-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-10-17-10-pm/concert/18608611"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvz-y"
         }
       ],
       "preview": {
@@ -2235,21 +2139,16 @@
       "slug": "zacarias-ferreira-2026-10-23"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/64c/76cc8226-9c36-4d1a-b616-d5acc3fa564c_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-24",
       "time": "18:00",
       "title": "Trap Karaoke",
       "support": null,
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
-      "genre": "hiphop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/trap-karaoke-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-24-6-pm/concert/18499236",
       "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster"
-        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/trap-karaoke-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-24-6-pm/concert/18499236"
@@ -4064,6 +3963,30 @@
     {
       "date": "2026-11-05",
       "time": "20:00",
+      "title": "Brigitte Calls Me Baby",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
+        "track": "Slumber Party",
+        "artist": "Brigitte Calls Me Baby",
+        "kind": "Alternative"
+      },
+      "slug": "brigitte-calls-me-baby-2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:00",
       "title": "Levi Bloom",
       "support": null,
       "venue": "The Argo",
@@ -4089,30 +4012,6 @@
         "kind": "Country"
       },
       "slug": "levi-bloom-2026-11-05"
-    },
-    {
-      "date": "2026-11-05",
-      "time": "20:00",
-      "title": "Brigitte Calls Me Baby",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
-        "track": "Slumber Party",
-        "artist": "Brigitte Calls Me Baby",
-        "kind": "Alternative"
-      },
-      "slug": "brigitte-calls-me-baby-2026-11-05"
     },
     {
       "date": "2026-11-05",
@@ -4699,30 +4598,6 @@
     {
       "date": "2026-11-07",
       "time": "20:00",
-      "title": "Better Than Ezra",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/33/7a/0a/337a0af3-faf7-11b7-58ae-719a9589b966/mzaf_4280286902317630645.plus.aac.p.m4a",
-        "track": "Good",
-        "artist": "Better Than Ezra",
-        "kind": "Rock"
-      },
-      "slug": "better-than-ezra-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "20:00",
       "title": "Matt Rife",
       "support": null,
       "venue": "Fiserv Forum",
@@ -4743,6 +4618,30 @@
         "kind": "Comedy"
       },
       "slug": "matt-rife-2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "20:00",
+      "title": "Better Than Ezra",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/33/7a/0a/337a0af3-faf7-11b7-58ae-719a9589b966/mzaf_4280286902317630645.plus.aac.p.m4a",
+        "track": "Good",
+        "artist": "Better Than Ezra",
+        "kind": "Rock"
+      },
+      "slug": "better-than-ezra-2026-11-07"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194304955%2F285524009645%2F1%2Foriginal.20260924-182958?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=827d284adc958b5f0547ffaf3d94391c",
@@ -5222,6 +5121,30 @@
       "slug": "michelle-branch-2026-11-12"
     },
     {
+      "date": "2026-11-12",
+      "time": "20:00",
+      "title": "Peyton Parrish",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/peyton-parrish-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-12-8-pm/concert/18669826",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/peyton-parrish-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-12-8-pm/concert/18669826"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/97/db/d097dbc8-47d8-fa37-1392-b432e75debcf/mzaf_1551140102508203280.plus.aac.p.m4a",
+        "track": "I'll Make a Man Out of You",
+        "artist": "Peyton Parrish",
+        "kind": "Rock"
+      },
+      "slug": "peyton-parrish-2026-11-12"
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195321764%2F285524009645%2F1%2Foriginal.20261007-220146?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=23ade8093142b79df3429d24b476bbab",
       "date": "2026-11-12",
       "time": "20:00",
@@ -5619,6 +5542,54 @@
         "kind": "Electronic"
       },
       "slug": "the-spooklights-w-bodhicitta-2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "21:00",
+      "title": "Phrva",
+      "support": null,
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "electronic",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK_4",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK_4"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/d8/66/41d8666b-03ad-06b5-ffe0-a9ded028678b/mzaf_6964074659929248481.plus.aac.p.m4a",
+        "track": "Is It All",
+        "artist": "Phrva",
+        "kind": "Dubstep"
+      },
+      "slug": "phrva-2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "21:00",
+      "title": "Emo Night Karaoke",
+      "support": null,
+      "venue": "Falcon Bowl",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/f0/4a/fef04a61-3dae-0bd6-9220-9b10010011c8/mzaf_14475222405771659306.plus.aac.p.m4a",
+        "track": "Drivers License",
+        "artist": "Emo Night Karaoke",
+        "kind": "Rock"
+      },
+      "slug": "emo-night-karaoke-2026-11-13"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/776/41a7cf38-9dd4-4ae9-bafc-04a5067cd776_RETINA_PORTRAIT_16_9.jpg",
@@ -6312,6 +6283,25 @@
         "kind": "Alternative"
       },
       "slug": "squirrel-flower-2026-11-19"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/64c/76cc8226-9c36-4d1a-b616-d5acc3fa564c_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-20",
+      "time": "18:00",
+      "title": "Trap Karaoke",
+      "support": null,
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "hiphop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster"
+        }
+      ],
+      "slug": "trap-karaoke-2026-11-20"
     },
     {
       "date": "2026-11-20",
@@ -7045,6 +7035,10 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/seth-david-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-11-27-9-pm/concert/18400687"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JoQv"
         }
       ],
       "preview": {
@@ -9670,6 +9664,30 @@
         "kind": "Worldwide"
       },
       "slug": "skerryvore-2027-01-31"
+    },
+    {
+      "date": "2027-02-06",
+      "time": "19:00",
+      "title": "Kameron Marlowe",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/kameron-marlowe-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-06-7-pm/concert/18672396",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/kameron-marlowe-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-06-7-pm/concert/18672396"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/ce/84/51ce84a9-db62-ea0e-10cd-35d99227bcd4/mzaf_12204599413403793800.plus.aac.p.m4a",
+        "track": "No Need For Leavin'",
+        "artist": "Kameron Marlowe",
+        "kind": "Country"
+      },
+      "slug": "kameron-marlowe-2027-02-06"
     },
     {
       "img": "https://s1.ticketm.net/dam/e/695/2a94d2c7-9be4-41c1-a1c6-a1462bfd3695_RETINA_PORTRAIT_16_9.jpg",
