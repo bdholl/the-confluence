@@ -1,78 +1,6 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/469/f6db8121-664a-4972-9853-b1eb4d318469_RETINA_PORTRAIT_16_9.jpg",
-      "status": "rescheduled",
-      "date": "2026-10-12",
-      "time": "19:00",
-      "title": "Earl Sweatshirt",
-      "support": "MIKE",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/earl-sweatshirt-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-12-7-pm/concert/18152530",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/earl-sweatshirt-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-12-7-pm/concert/18152530"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-t7N"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0a/e9/82/0ae982ca-a752-ef24-49c2-57e7a6c799e2/mzaf_10017905884231889568.plus.aac.p.m4a",
-        "track": "523",
-        "artist": "Earl Sweatshirt",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "earl-sweatshirt-2026-10-12"
-    },
-    {
-      "date": "2026-10-12",
-      "time": "19:00",
-      "title": "Armand Hammer",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/armand-hammer-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-12-7-pm/concert/18261141",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/armand-hammer-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-12-7-pm/concert/18261141"
-        }
-      ],
-      "slug": "armand-hammer-2026-10-12"
-    },
-    {
-      "date": "2026-10-12",
-      "time": "20:00",
-      "title": "Robert Ellis",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "folk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/robert-ellis-tickets/milwaukee-wisconsin-shank-hall-2026-10-12-8-pm/concert/18400628",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/robert-ellis-tickets/milwaukee-wisconsin-shank-hall-2026-10-12-8-pm/concert/18400628"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9d/87/cc/9d87ccec-0158-3d1f-8ae5-ee563911ec2d/mzaf_15166059156801087351.plus.aac.p.m4a",
-        "track": "Topo Chico",
-        "artist": "Robert Ellis",
-        "kind": "Singer/Songwriter"
-      },
-      "slug": "robert-ellis-2026-10-12"
-    },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188319857%2F285524009645%2F1%2Foriginal.20260706-204612?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f603db872e6de66d9f639dbc7248f3ee",
       "date": "2026-10-13",
@@ -841,6 +769,24 @@
     {
       "date": "2026-10-16",
       "time": "20:00",
+      "title": "Ben Schwartz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
+        }
+      ],
+      "slug": "ben-schwartz-2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "20:00",
       "title": "Friko",
       "support": null,
       "venue": "Vivarium",
@@ -863,24 +809,6 @@
       "slug": "friko-2026-10-16"
     },
     {
-      "date": "2026-10-16",
-      "time": "20:00",
-      "title": "Ben Schwartz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
-        }
-      ],
-      "slug": "ben-schwartz-2026-10-16"
-    },
-    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194768675%2F285524009645%2F1%2Foriginal.20260930-214604?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=016cbe2f4440a454cd333f520414b32b",
       "date": "2026-10-16",
       "time": "20:00",
@@ -898,6 +826,24 @@
         }
       ],
       "slug": "free-karaoke-night-21-2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "21:00",
+      "title": "Slayground MKE",
+      "support": null,
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76x3",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76x3"
+        }
+      ],
+      "slug": "slayground-mke-2026-10-16"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/da9/e244b269-a579-4c18-9104-2f8f21c13da9_RETINA_PORTRAIT_16_9.jpg",
@@ -1902,6 +1848,26 @@
       "slug": "the-wrecks-2026-10-23"
     },
     {
+      "status": "offsale",
+      "onsale": "9999-12-31T06:00:00Z",
+      "date": "2026-10-23",
+      "time": "19:00",
+      "title": "WURK",
+      "support": null,
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xK",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xK"
+        }
+      ],
+      "slug": "wurk-2026-10-23"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/4af/a7091ede-2fb7-4276-a6fc-5d1f208d74af_RETINA_PORTRAIT_16_9.jpg",
       "price": 51.22,
       "date": "2026-10-23",
@@ -2139,24 +2105,6 @@
       "slug": "zacarias-ferreira-2026-10-23"
     },
     {
-      "date": "2026-10-24",
-      "time": "18:00",
-      "title": "Trap Karaoke",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/trap-karaoke-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-24-6-pm/concert/18499236",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/trap-karaoke-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-24-6-pm/concert/18499236"
-        }
-      ],
-      "slug": "trap-karaoke-2026-10-24"
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/4af/a7091ede-2fb7-4276-a6fc-5d1f208d74af_RETINA_PORTRAIT_16_9.jpg",
       "price": 51.22,
       "date": "2026-10-24",
@@ -2390,6 +2338,24 @@
         "kind": "Alternative Folk"
       },
       "slug": "the-longest-johns-w-sean-dagher-2026-10-24"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "21:00",
+      "title": "IT GIRL",
+      "support": "Jae Hanz",
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xf",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xf"
+        }
+      ],
+      "slug": "it-girl-2026-10-24"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/1df/4b675206-d18a-4bc0-999a-efb3fdf981df_1860851_RETINA_PORTRAIT_16_9.jpg",
@@ -3745,6 +3711,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/steve-forbert-shank-hall-tickets/14351454",
           "price": 30.37
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/steve-forbert-tickets/milwaukee-wisconsin-shank-hall-2026-11-04-8-pm/concert/18673230"
         }
       ],
       "preview": {
@@ -4598,30 +4568,6 @@
     {
       "date": "2026-11-07",
       "time": "20:00",
-      "title": "Matt Rife",
-      "support": null,
-      "venue": "Fiserv Forum",
-      "hood": "Deer District",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/e0/6b/34/e06b3434-987a-8821-0cfc-a1183ddeb53a/mzaf_1171878245085044427.plus.aac.p.m4a",
-        "track": "Skanky Strip Clubs",
-        "artist": "Matt Rife",
-        "kind": "Comedy"
-      },
-      "slug": "matt-rife-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "20:00",
       "title": "Better Than Ezra",
       "support": null,
       "venue": "Pabst Theater",
@@ -4642,6 +4588,30 @@
         "kind": "Rock"
       },
       "slug": "better-than-ezra-2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "20:00",
+      "title": "Matt Rife",
+      "support": null,
+      "venue": "Fiserv Forum",
+      "hood": "Deer District",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/e0/6b/34/e06b3434-987a-8821-0cfc-a1183ddeb53a/mzaf_1171878245085044427.plus.aac.p.m4a",
+        "track": "Skanky Strip Clubs",
+        "artist": "Matt Rife",
+        "kind": "Comedy"
+      },
+      "slug": "matt-rife-2026-11-07"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194304955%2F285524009645%2F1%2Foriginal.20260924-182958?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=827d284adc958b5f0547ffaf3d94391c",
@@ -4679,6 +4649,32 @@
         }
       ],
       "slug": "candlelight-coldplay-and-imagine-dragons-2026-11-07"
+    },
+    {
+      "status": "offsale",
+      "onsale": "9999-12-31T06:00:00Z",
+      "date": "2026-11-07",
+      "time": "21:00",
+      "title": "INSISON",
+      "support": null,
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "electronic",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76x9",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76x9"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/ef/ef/f4efef49-9fe7-c1b8-0c70-a3588e6abc5f/mzaf_4932887969220455854.plus.aac.p.m4a",
+        "track": "I LIKE EM FAT",
+        "artist": "Insison",
+        "kind": "Dubstep"
+      },
+      "slug": "insison-2026-11-07"
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/56/57/93_Edp.jpg?v=3",
@@ -5568,28 +5564,22 @@
       "slug": "phrva-2026-11-13"
     },
     {
-      "date": "2026-11-13",
-      "time": "21:00",
-      "title": "Emo Night Karaoke",
+      "date": "2026-11-14",
+      "time": "18:00",
+      "title": "Icons of Country",
       "support": null,
-      "venue": "Falcon Bowl",
-      "hood": "Milwaukee",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837",
+      "venue": "Route 20",
+      "hood": "Sturtevant",
+      "genre": "country",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/icons-of-country-route-20-tickets/14376474?REFERRAL_ID=tmfeed",
       "offers": [
         {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837"
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/icons-of-country-route-20-tickets/14376474?REFERRAL_ID=tmfeed"
         }
       ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/f0/4a/fef04a61-3dae-0bd6-9220-9b10010011c8/mzaf_14475222405771659306.plus.aac.p.m4a",
-        "track": "Drivers License",
-        "artist": "Emo Night Karaoke",
-        "kind": "Rock"
-      },
-      "slug": "emo-night-karaoke-2026-11-13"
+      "slug": "icons-of-country-2026-11-14"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/776/41a7cf38-9dd4-4ae9-bafc-04a5067cd776_RETINA_PORTRAIT_16_9.jpg",
@@ -5923,6 +5913,31 @@
         }
       ],
       "slug": "tee-sanders-2026-11-15"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/2f9/aae8a86d-7191-49cc-976a-7364dfcc42f9_1053861_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-15",
+      "time": "19:00",
+      "title": "OMB Peezy",
+      "support": null,
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "hiphop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xb",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xb"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/df/9f/c7/df9fc78c-1aaf-6540-ae52-f1181489c2c1/mzaf_15193342648550060160.plus.aac.p.m4a",
+        "track": "Big Homie",
+        "artist": "OMB Peezy",
+        "kind": "Hip-Hop/Rap"
+      },
+      "slug": "omb-peezy-2026-11-15"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/3f6/c4a80336-03fe-439f-ae7d-7e8a91c6f3f6_RETINA_PORTRAIT_16_9.jpg",
@@ -6463,6 +6478,24 @@
         }
       ],
       "slug": "gimme-gimme-disco-2026-11-20"
+    },
+    {
+      "date": "2026-11-21",
+      "time": "18:00",
+      "title": "Ride the Lightning",
+      "support": null,
+      "venue": "Route 20",
+      "hood": "Sturtevant",
+      "genre": "metal",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/ride-the-lightning-route-20-tickets/14376734?REFERRAL_ID=tmfeed",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/ride-the-lightning-route-20-tickets/14376734?REFERRAL_ID=tmfeed"
+        }
+      ],
+      "slug": "ride-the-lightning-2026-11-21"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RETINA_PORTRAIT_16_9.jpg",
@@ -7662,6 +7695,10 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/kyle-watson-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-04-9-pm/concert/18526390"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76x_"
         }
       ],
       "preview": {
@@ -8178,7 +8215,7 @@
       "date": "2026-12-11",
       "time": "21:00",
       "title": "Lumasi",
-      "support": null,
+      "support": "Ferrofluid",
       "venue": "Miramar Theatre",
       "hood": "Milwaukee",
       "genre": "electronic",
@@ -8188,6 +8225,10 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/lumasi-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-11-9-pm/concert/18587711"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA760Z"
         }
       ],
       "preview": {
@@ -9468,6 +9509,30 @@
       "slug": "the-docksiders-2027-01-23"
     },
     {
+      "date": "2027-01-23",
+      "time": "21:00",
+      "title": "Medicine Place",
+      "support": null,
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "electronic",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA760v",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA760v"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ad/51/d7/ad51d76c-a943-4dfe-2e1b-241af8103942/mzaf_5481229301484791923.plus.aac.p.m4a",
+        "track": "Wake up.",
+        "artist": "Medicine Place",
+        "kind": "Dubstep"
+      },
+      "slug": "medicine-place-2027-01-23"
+    },
+    {
       "date": "2027-01-24",
       "time": "20:00",
       "title": "Denny Love",
@@ -9621,8 +9686,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/a/8b9/e5a81b39-6f6c-4aa6-b955-097e809a68b9_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-10-13T15:00:00Z",
       "date": "2027-01-31",
       "time": "19:30",
       "title": "Dancing with the Stars",
@@ -9664,6 +9727,32 @@
         "kind": "Worldwide"
       },
       "slug": "skerryvore-2027-01-31"
+    },
+    {
+      "status": "offsale",
+      "onsale": "2026-10-16T15:00:00Z",
+      "date": "2027-02-05",
+      "time": "19:00",
+      "title": "Gianmarco Soresi",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7FFk",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7FFk"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/a8/c6/e7a8c6cd-66a1-360b-f8ea-00675f7a11ce/mzaf_3481433698815765082.plus.aac.p.m4a",
+        "track": "Contradictions",
+        "artist": "Gianmarco Soresi",
+        "kind": "Comedy"
+      },
+      "slug": "gianmarco-soresi-2027-02-05"
     },
     {
       "date": "2027-02-06",
@@ -9771,6 +9860,43 @@
       "slug": "as-i-lay-dying-2027-02-07"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/1e5/4d6c01b5-4c75-41cb-adba-2d1db3f741e5_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-02-09",
+      "time": "19:30",
+      "title": "Letterkenny",
+      "support": null,
+      "venue": "Miller High Life Theatre",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf0K",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf0K"
+        }
+      ],
+      "slug": "letterkenny-2027-02-09"
+    },
+    {
+      "date": "2027-02-09",
+      "time": "19:30",
+      "title": "LETTERKENNY LIVE!",
+      "support": null,
+      "venue": "Miller High Life Theatre",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/letterkenny-live-tickets/comedy/2027-02-09-7-30-pm/18299549",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/letterkenny-live-tickets/comedy/2027-02-09-7-30-pm/18299549"
+        }
+      ],
+      "slug": "letterkenny-live-2027-02-09"
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193574977%2F285524009645%2F1%2Foriginal.20260915-170332?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=1.0&fp-y=0.571&s=2c6bfc1d14a5a55336d862519e439abd",
       "date": "2027-02-13",
       "time": "20:00",
@@ -9813,6 +9939,31 @@
         "kind": "Singer/Songwriter"
       },
       "slug": "the-mary-wallopers-2027-03-23"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195109167%2F285524009645%2F1%2Foriginal.20261005-191604?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=06ed70e1aa3b761c2fc708ffeb5eee3f",
+      "date": "2027-04-23",
+      "time": "20:00",
+      "title": "We Three: She Left For America Tour - Flight Two",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "pop",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/we-three-she-left-for-america-tour-flight-two-tickets-2002961209897",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/we-three-she-left-for-america-tour-flight-two-tickets-2002961209897"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/97/50/2d9750ce-67b9-57e7-88eb-393e5ab754f6/mzaf_3166283986358370475.plus.aac.p.m4a",
+        "track": "Heaven's Not Too Far",
+        "artist": "We Three",
+        "kind": "Pop"
+      },
+      "slug": "we-three-she-left-for-america-tour-flight-two-2027-04-23"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191450474%2F285524009645%2F1%2Foriginal.20260819-184150?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=82f1104e65141a94a210e3d8b32b1338",

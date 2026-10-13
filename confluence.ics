@@ -4,33 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-10-12-19:00-EarlSweatshirtTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261012T190000
-DTEND;TZID=America/Chicago:20261012T210000
-SUMMARY:Earl Sweatshirt @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:With MIKE. Tickets: https://seatgeek.com/earl-sweatshirt-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-12-7-pm/concert/18152530
-URL:https://seatgeek.com/earl-sweatshirt-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-12-7-pm/concert/18152530
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-12-19:00-ArmandHammerXRayArcade@theconfluence
-DTSTART;TZID=America/Chicago:20261012T190000
-DTEND;TZID=America/Chicago:20261012T210000
-SUMMARY:Armand Hammer @ X-Ray Arcade
-LOCATION:X-Ray Arcade\, Cudahy
-DESCRIPTION:Tickets: https://seatgeek.com/armand-hammer-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-12-7-pm/concert/18261141
-URL:https://seatgeek.com/armand-hammer-tickets/cudahy-wisconsin-x-ray-arcade-2026-10-12-7-pm/concert/18261141
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-12-20:00-RobertEllisShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20261012T200000
-DTEND;TZID=America/Chicago:20261012T220000
-SUMMARY:Robert Ellis @ Shank Hall
-LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/robert-ellis-tickets/milwaukee-wisconsin-shank-hall-2026-10-12-8-pm/concert/18400628
-URL:https://seatgeek.com/robert-ellis-tickets/milwaukee-wisconsin-shank-hall-2026-10-12-8-pm/concert/18400628
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-13-19:30-FirstToElevenwKEEPSAKETheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20261013T193000
 DTEND;TZID=America/Chicago:20261013T213000
@@ -310,15 +283,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/brian-posehn-tickets/comedy/2026-10-16
 URL:https://seatgeek.com/brian-posehn-tickets/comedy/2026-10-16-8-pm/18400836
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-16-20:00-FrikoVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261016T200000
-DTEND;TZID=America/Chicago:20261016T220000
-SUMMARY:Friko @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
-URL:https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-16-20:00-BenSchwartzRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261016T200000
 DTEND;TZID=America/Chicago:20261016T220000
@@ -328,6 +292,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16
 URL:https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-16-20:00-FrikoVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261016T200000
+DTEND;TZID=America/Chicago:20261016T220000
+SUMMARY:Friko @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
+URL:https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-16-20:00-FreeKaraokeNight21TheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20261016T200000
 DTEND;TZID=America/Chicago:20261016T220000
@@ -335,6 +308,15 @@ SUMMARY:Free Karaoke Night (21+) @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/free-karaoke-night-21-tickets-2002664287795
 URL:https://www.eventbrite.com/e/free-karaoke-night-21-tickets-2002664287795
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-16-21:00-SlaygroundMKEMiramarTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20261016T210000
+DTEND;TZID=America/Chicago:20261016T230000
+SUMMARY:Slayground MKE @ Miramar Theatre
+LOCATION:Miramar Theatre\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA76x3
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA76x3
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-17-16:00-LeanneMorganMillerHighLifeTheatre@theconfluence
@@ -697,6 +679,15 @@ DESCRIPTION:With Worry Club. Tickets: https://seatgeek.com/the-wrecks-tickets/mi
 URL:https://seatgeek.com/the-wrecks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-23-7-pm/concert/18327444
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-23-19:00-WURKMiramarTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20261023T190000
+DTEND;TZID=America/Chicago:20261023T210000
+SUMMARY:WURK @ Miramar Theatre
+LOCATION:Miramar Theatre\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA76xK
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA76xK
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-23-19:00-DLHughleyMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261023T190000
 DTEND;TZID=America/Chicago:20261023T210000
@@ -776,15 +767,6 @@ SUMMARY:Zacarias Ferreira @ The Rave / Eagles Club
 LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://seatgeek.com/zacarias-ferreira-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-23-8-30-pm/concert/18354045
 URL:https://seatgeek.com/zacarias-ferreira-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-23-8-30-pm/concert/18354045
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-24-18:00-TrapKaraokeLandmarkCreditUnionLive@theconfluence
-DTSTART;TZID=America/Chicago:20261024T180000
-DTEND;TZID=America/Chicago:20261024T200000
-SUMMARY:Trap Karaoke @ Landmark Credit Union Live
-LOCATION:Landmark Credit Union Live\, Milwaukee
-DESCRIPTION:Tickets: https://seatgeek.com/trap-karaoke-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-24-6-pm/concert/18499236
-URL:https://seatgeek.com/trap-karaoke-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-24-6-pm/concert/18499236
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-18:30-DLHughleyMilwaukeeImprov@theconfluence
@@ -875,6 +857,15 @@ SUMMARY:The Longest Johns w/ Sean Dagher @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-longest-johns-w-sean-dagher-tickets-1990993982598
 URL:https://www.eventbrite.com/e/the-longest-johns-w-sean-dagher-tickets-1990993982598
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-21:00-ITGIRLMiramarTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20261024T210000
+DTEND;TZID=America/Chicago:20261024T230000
+SUMMARY:IT GIRL @ Miramar Theatre
+LOCATION:Miramar Theatre\, Milwaukee
+DESCRIPTION:With Jae Hanz. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA76xf
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA76xf
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-25-18:00-PatMcGannMilwaukeeImprov@theconfluence
@@ -1687,15 +1678,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/austin-giorgio-tickets/menomonee-falls
 URL:https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-07-20:00-MattRifeFiservForum@theconfluence
-DTSTART;TZID=America/Chicago:20261107T200000
-DTEND;TZID=America/Chicago:20261107T220000
-SUMMARY:Matt Rife @ Fiserv Forum
-LOCATION:Fiserv Forum\, Deer District
-DESCRIPTION:Tickets: https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290
-URL:https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-07-20:00-BetterThanEzraPabstTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261107T200000
 DTEND;TZID=America/Chicago:20261107T220000
@@ -1703,6 +1685,15 @@ SUMMARY:Better Than Ezra @ Pabst Theater
 LOCATION:Pabst Theater\, Downtown
 DESCRIPTION:Tickets: https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245
 URL:https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-20:00-MattRifeFiservForum@theconfluence
+DTSTART;TZID=America/Chicago:20261107T200000
+DTEND;TZID=America/Chicago:20261107T220000
+SUMMARY:Matt Rife @ Fiserv Forum
+LOCATION:Fiserv Forum\, Deer District
+DESCRIPTION:Tickets: https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290
+URL:https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07-20:00-SmartMouthTheArgo@theconfluence
@@ -1721,6 +1712,15 @@ SUMMARY:Candlelight: Coldplay & Imagine Dragons @ Mo's Irish Pub (Downtown)
 LOCATION:Mo's Irish Pub (Downtown)\, Milwaukee
 DESCRIPTION:Tickets: https://seatgeek.com/candlelight-coldplay-and-imagine-dragons-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2026-11-07-8-45-pm/concert/18587822
 URL:https://seatgeek.com/candlelight-coldplay-and-imagine-dragons-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2026-11-07-8-45-pm/concert/18587822
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-21:00-INSISONMiramarTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20261107T210000
+DTEND;TZID=America/Chicago:20261107T230000
+SUMMARY:INSISON @ Miramar Theatre
+LOCATION:Miramar Theatre\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA76x9
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA76x9
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08-18:00-JoeyAveryMilwaukeeImprov@theconfluence
@@ -2029,13 +2029,13 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAvK_4
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvK_4
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-13-21:00-EmoNightKaraokeFalconBowl@theconfluence
-DTSTART;TZID=America/Chicago:20261113T210000
-DTEND;TZID=America/Chicago:20261113T230000
-SUMMARY:Emo Night Karaoke @ Falcon Bowl
-LOCATION:Falcon Bowl\, Milwaukee
-DESCRIPTION:Tickets: https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837
-URL:https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837
+UID:2026-11-14-18:00-IconsofCountryRoute20@theconfluence
+DTSTART;TZID=America/Chicago:20261114T180000
+DTEND;TZID=America/Chicago:20261114T200000
+SUMMARY:Icons of Country @ Route 20
+LOCATION:Route 20\, Sturtevant
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/icons-of-country-route-20-tickets/14376474?REFERRAL_ID=tmfeed
+URL:https://www.ticketweb.com/event/icons-of-country-route-20-tickets/14376474?REFERRAL_ID=tmfeed
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-18:30-TJMillerMilwaukeeImprov@theconfluence
@@ -2153,6 +2153,15 @@ SUMMARY:Tee Sanders @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/tee-sanders-milwaukee-improv-main-room-tickets/15043603
 URL:https://www.ticketweb.com/event/tee-sanders-milwaukee-improv-main-room-tickets/15043603
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-19:00-OMBPeezyMiramarTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20261115T190000
+DTEND;TZID=America/Chicago:20261115T210000
+SUMMARY:OMB Peezy @ Miramar Theatre
+LOCATION:Miramar Theatre\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA76xb
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA76xb
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-20:00-BrandiCarlilePabstTheater@theconfluence
@@ -2342,6 +2351,15 @@ SUMMARY:Gimme Gimme Disco @ The Rave / Eagles Club
 LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAvpGz
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvpGz
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-18:00-RidetheLightningRoute20@theconfluence
+DTSTART;TZID=America/Chicago:20261121T180000
+DTEND;TZID=America/Chicago:20261121T200000
+SUMMARY:Ride the Lightning @ Route 20
+LOCATION:Route 20\, Sturtevant
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/ride-the-lightning-route-20-tickets/14376734?REFERRAL_ID=tmfeed
+URL:https://www.ticketweb.com/event/ride-the-lightning-route-20-tickets/14376734?REFERRAL_ID=tmfeed
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-18:30-DonnellRawlingsMilwaukeeImprov@theconfluence
@@ -2934,7 +2952,7 @@ DTSTART;TZID=America/Chicago:20261211T210000
 DTEND;TZID=America/Chicago:20261211T230000
 SUMMARY:Lumasi @ Miramar Theatre
 LOCATION:Miramar Theatre\, Milwaukee
-DESCRIPTION:Tickets: https://seatgeek.com/lumasi-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-11-9-pm/concert/18587711
+DESCRIPTION:With Ferrofluid. Tickets: https://seatgeek.com/lumasi-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-11-9-pm/concert/18587711
 URL:https://seatgeek.com/lumasi-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-11-9-pm/concert/18587711
 END:VEVENT
 BEGIN:VEVENT
@@ -3397,6 +3415,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/the-docksiders-tickets/milwaukee-wisco
 URL:https://seatgeek.com/the-docksiders-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-01-23-8-pm/concert/18608592
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-01-23-21:00-MedicinePlaceMiramarTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20270123T210000
+DTEND;TZID=America/Chicago:20270123T230000
+SUMMARY:Medicine Place @ Miramar Theatre
+LOCATION:Miramar Theatre\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA760v
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA760v
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-01-24-20:00-DennyLoveTurnerHallBallroom@theconfluence
 DTSTART;TZID=America/Chicago:20270124T200000
 DTEND;TZID=America/Chicago:20270124T220000
@@ -3469,6 +3496,15 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/skerryvore-tickets-19926723656
 URL:https://www.eventbrite.com/e/skerryvore-tickets-1992672365687
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-02-05-19:00-GianmarcoSoresiPabstTheater@theconfluence
+DTSTART;TZID=America/Chicago:20270205T190000
+DTEND;TZID=America/Chicago:20270205T210000
+SUMMARY:Gianmarco Soresi @ Pabst Theater
+LOCATION:Pabst Theater\, Downtown
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA7FFk
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA7FFk
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-02-06-19:00-KameronMarloweTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20270206T190000
 DTEND;TZID=America/Chicago:20270206T210000
@@ -3505,6 +3541,24 @@ DESCRIPTION:Tickets: https://seatgeek.com/as-i-lay-dying-tickets/milwaukee-wisco
 URL:https://seatgeek.com/as-i-lay-dying-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-07-7-30-pm/concert/18608567
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-02-09-19:30-LetterkennyMillerHighLifeTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20270209T193000
+DTEND;TZID=America/Chicago:20270209T213000
+SUMMARY:Letterkenny @ Miller High Life Theatre
+LOCATION:Miller High Life Theatre\, Westown
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7Pf0K
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pf0K
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-09-19:30-LETTERKENNYLIVEMillerHighLifeTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20270209T193000
+DTEND;TZID=America/Chicago:20270209T213000
+SUMMARY:LETTERKENNY LIVE! @ Miller High Life Theatre
+LOCATION:Miller High Life Theatre\, Westown
+DESCRIPTION:Tickets: https://seatgeek.com/letterkenny-live-tickets/comedy/2027-02-09-7-30-pm/18299549
+URL:https://seatgeek.com/letterkenny-live-tickets/comedy/2027-02-09-7-30-pm/18299549
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-02-13-20:00-JUMPAmericasVanHalenExperienceTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20270213T200000
 DTEND;TZID=America/Chicago:20270213T220000
@@ -3521,6 +3575,15 @@ SUMMARY:The Mary Wallopers @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-mary-wallopers-tickets-1996258847952
 URL:https://www.eventbrite.com/e/the-mary-wallopers-tickets-1996258847952
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-23-20:00-WeThreeSheLeftForAmericaTourFlightTwoThe@theconfluence
+DTSTART;TZID=America/Chicago:20270423T200000
+DTEND;TZID=America/Chicago:20270423T220000
+SUMMARY:We Three: She Left For America Tour - Flight Two @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/we-three-she-left-for-america-tour-flight-two-tickets-2002961209897
+URL:https://www.eventbrite.com/e/we-three-she-left-for-america-tour-flight-two-tickets-2002961209897
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-30-20:00-CarsieBlantonTheArgo@theconfluence
