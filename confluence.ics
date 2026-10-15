@@ -4,69 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-10-14-19:00-SwingJazzWednesdaysTheSazerac5FreeTheArg@theconfluence
-DTSTART;TZID=America/Chicago:20261014T190000
-DTEND;TZID=America/Chicago:20261014T210000
-SUMMARY:Swing Jazz Wednesdays: The Sazerac 5 (Free) @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-2002177581042
-URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-2002177581042
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-14-19:00-TriviaNightFreeTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261014T190000
-DTEND;TZID=America/Chicago:20261014T210000
-SUMMARY:Trivia Night (Free) @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/trivia-night-free-tickets-2002178584042
-URL:https://www.eventbrite.com/e/trivia-night-free-tickets-2002178584042
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-14-19:30-JazzAtLincolnCenterOrchestraWilsonTheate@theconfluence
-DTSTART;TZID=America/Chicago:20261014T193000
-DTEND;TZID=America/Chicago:20261014T213000
-SUMMARY:Jazz At Lincoln Center Orchestra @ Wilson Theater at Vogel Hall
-LOCATION:Wilson Theater at Vogel Hall\, Milwaukee
-DESCRIPTION:Tickets: https://www.ticketmaster.com/jazz-at-lincoln-center-orchestra-milwaukee-wisconsin-10-14-2026/event/0700651F9CA120EE
-URL:https://www.ticketmaster.com/jazz-at-lincoln-center-orchestra-milwaukee-wisconsin-10-14-2026/event/0700651F9CA120EE
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-14-20:00-HeyNothingTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261014T200000
-DTEND;TZID=America/Chicago:20261014T220000
-SUMMARY:Hey\, Nothing @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/hey-nothing-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18301723
-URL:https://seatgeek.com/hey-nothing-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18301723
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-14-20:00-StanleySimmonsTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261014T200000
-DTEND;TZID=America/Chicago:20261014T220000
-SUMMARY:Stanley Simmons @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/stanley-simmons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18324781
-URL:https://seatgeek.com/stanley-simmons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18324781
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-14-20:00-TheMidnightPabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261014T200000
-DTEND;TZID=America/Chicago:20261014T220000
-SUMMARY:The Midnight @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/the-midnight-tickets/milwaukee-wisconsin-pabst-theater-2026-10-14-8-pm/concert/18261705
-URL:https://seatgeek.com/the-midnight-tickets/milwaukee-wisconsin-pabst-theater-2026-10-14-8-pm/concert/18261705
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-14-20:00-MikeDawesVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261014T200000
-DTEND;TZID=America/Chicago:20261014T220000
-SUMMARY:Mike Dawes @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/mike-dawes-tickets/milwaukee-wisconsin-vivarium-2026-10-14-8-pm/concert/18081840
-URL:https://seatgeek.com/mike-dawes-tickets/milwaukee-wisconsin-vivarium-2026-10-14-8-pm/concert/18081840
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-15-18:00-ArtfulSipsAPortraitinPetals21TheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20261015T180000
 DTEND;TZID=America/Chicago:20261015T200000
@@ -229,15 +166,6 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70VrZ
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A70VrZ
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-16-20:00-BenSchwartzRiversideTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261016T200000
-DTEND;TZID=America/Chicago:20261016T220000
-SUMMARY:Ben Schwartz @ Riverside Theater
-LOCATION:Riverside Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
-URL:https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-16-20:00-FrikoVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261016T200000
 DTEND;TZID=America/Chicago:20261016T220000
@@ -245,6 +173,15 @@ SUMMARY:Friko @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
 URL:https://seatgeek.com/friko-tickets/milwaukee-wisconsin-vivarium-2026-10-16-8-pm/concert/18166893
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-16-20:00-BenSchwartzRiversideTheater@theconfluence
+DTSTART;TZID=America/Chicago:20261016T200000
+DTEND;TZID=America/Chicago:20261016T220000
+SUMMARY:Ben Schwartz @ Riverside Theater
+LOCATION:Riverside Theater\, Downtown
+DESCRIPTION:Tickets: https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
+URL:https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-16-20:00-BrianPosehnFalconBowl@theconfluence
@@ -1408,15 +1345,6 @@ DESCRIPTION:With Abbie Callahan. Tickets: https://www.ticketmaster.com/orville-p
 URL:https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-milwaukee-wisconsin-11-05-2026/event/070064EDB20E2C46
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-05-20:00-BrigitteCallsMeBabyVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261105T200000
-DTEND;TZID=America/Chicago:20261105T220000
-SUMMARY:Brigitte Calls Me Baby @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574
-URL:https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-05-20:00-LeviBloomTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20261105T200000
 DTEND;TZID=America/Chicago:20261105T220000
@@ -1424,6 +1352,15 @@ SUMMARY:Levi Bloom @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/levi-bloom-tickets-1998799667612
 URL:https://www.eventbrite.com/e/levi-bloom-tickets-1998799667612
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-20:00-BrigitteCallsMeBabyVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261105T200000
+DTEND;TZID=America/Chicago:20261105T220000
+SUMMARY:Brigitte Calls Me Baby @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574
+URL:https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05-20:00-WaterparksTheRaveEaglesClub@theconfluence
@@ -2254,6 +2191,15 @@ DESCRIPTION:With Sour Widows. Tickets: https://seatgeek.com/squirrel-flower-tick
 URL:https://seatgeek.com/squirrel-flower-tickets/milwaukee-wisconsin-cactus-club-2026-11-19-8-pm/concert/18400697
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-19-20:00-LilyDeTaeyeFalconBowl@theconfluence
+DTSTART;TZID=America/Chicago:20261119T200000
+DTEND;TZID=America/Chicago:20261119T220000
+SUMMARY:Lily DeTaeye @ Falcon Bowl
+LOCATION:Falcon Bowl\, Milwaukee
+DESCRIPTION:Tickets: https://seatgeek.com/lily-detaeye-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-19-8-pm/concert/18688582
+URL:https://seatgeek.com/lily-detaeye-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-19-8-pm/concert/18688582
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-20-18:00-TrapKaraokeLandmarkCreditUnionLive@theconfluence
 DTSTART;TZID=America/Chicago:20261120T180000
 DTEND;TZID=America/Chicago:20261120T200000
@@ -2965,6 +2911,15 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/greg-koch-and-the-koch-marshal
 URL:https://www.eventbrite.com/e/greg-koch-and-the-koch-marshall-trio-tickets-2002362839154
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-13-12:00-TheRockandRollPlayhouseVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261213T120000
+DTEND;TZID=America/Chicago:20261213T140000
+SUMMARY:The Rock and Roll Playhouse @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA7A_f
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA7A_f
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-16-19:30-ChrisIsaakRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261216T193000
 DTEND;TZID=America/Chicago:20261216T213000
@@ -3289,6 +3244,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4V
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4V
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-01-15-19:00-PreacherLawsonMilwaukeeImprov@theconfluence
+DTSTART;TZID=America/Chicago:20270115T190000
+DTEND;TZID=America/Chicago:20270115T210000
+SUMMARY:Preacher Lawson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346224
+URL:https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346224
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-01-15-20:00-GalacticMasqueradeBallTurnerHallBallroom@theconfluence
 DTSTART;TZID=America/Chicago:20270115T200000
 DTEND;TZID=America/Chicago:20270115T220000
@@ -3307,6 +3271,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/jeff-dean-milwaukee-improv-
 URL:https://www.ticketweb.com/event/jeff-dean-milwaukee-improv-main-room-tickets/14365464
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-01-16-18:30-PreacherLawsonMilwaukeeImprov@theconfluence
+DTSTART;TZID=America/Chicago:20270116T183000
+DTEND;TZID=America/Chicago:20270116T203000
+SUMMARY:Preacher Lawson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346244
+URL:https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346244
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-01-16-20:00-GalacticMasqueradeBallTurnerHallBallroom@theconfluence
 DTSTART;TZID=America/Chicago:20270116T200000
 DTEND;TZID=America/Chicago:20270116T220000
@@ -3314,6 +3287,15 @@ SUMMARY:Galactic Masquerade Ball @ Turner Hall Ballroom
 LOCATION:Turner Hall Ballroom\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZepo
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZepo
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-17-18:00-PreacherLawsonMilwaukeeImprov@theconfluence
+DTSTART;TZID=America/Chicago:20270117T180000
+DTEND;TZID=America/Chicago:20270117T200000
+SUMMARY:Preacher Lawson @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346264
+URL:https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346264
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-20-19:00-TheAnswerisMurderMilwaukeeImprov@theconfluence
@@ -3557,6 +3539,15 @@ SUMMARY:JUMP: America's Van Halen Experience @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/jump-americas-van-halen-experience-tickets-2000653824445
 URL:https://www.eventbrite.com/e/jump-americas-van-halen-experience-tickets-2000653824445
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-13-20:00-FoolHouseTheUltimate90sPartyWOWThatsWhat@theconfluence
+DTSTART;TZID=America/Chicago:20270313T200000
+DTEND;TZID=America/Chicago:20270313T220000
+SUMMARY:Fool House - The Ultimate 90’s Party: WOW - That's What I Call 90's Tour! @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/fool-house-the-ultimate-90s-party-wow-thats-what-i-call-90s-tour-tickets-2002828289328
+URL:https://www.eventbrite.com/e/fool-house-the-ultimate-90s-party-wow-thats-what-i-call-90s-tour-tickets-2002828289328
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-23-20:00-TheMaryWallopersTheArgo@theconfluence

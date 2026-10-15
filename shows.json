@@ -1,172 +1,6 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "shows": [
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195309413%2F285524009645%2F1%2Foriginal.20261007-192940?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fac493f8ed2d1d80e57bb3dcb8b276a8",
-      "date": "2026-10-14",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesdays: The Sazerac 5 (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "jazz",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-2002177581042",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-the-sazerac-5-free-tickets-2002177581042"
-        }
-      ],
-      "slug": "swing-jazz-wednesdays-the-sazerac-5-free-2026-10-14"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191291788%2F2748863006061%2F1%2Foriginal.20260817-232926?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=42d6d9761e1decc66811da6cb590f12c",
-      "date": "2026-10-14",
-      "time": "19:00",
-      "title": "Trivia Night (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/trivia-night-free-tickets-2002178584042",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/trivia-night-free-tickets-2002178584042"
-        }
-      ],
-      "slug": "trivia-night-free-2026-10-14"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/ec1/43b67cdc-2051-4dff-94c4-c7c39ea9fec1_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-14",
-      "time": "19:30",
-      "title": "Jazz At Lincoln Center Orchestra",
-      "support": null,
-      "venue": "Wilson Theater at Vogel Hall",
-      "hood": "Milwaukee",
-      "genre": "jazz",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/jazz-at-lincoln-center-orchestra-milwaukee-wisconsin-10-14-2026/event/0700651F9CA120EE",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/jazz-at-lincoln-center-orchestra-milwaukee-wisconsin-10-14-2026/event/0700651F9CA120EE"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jazz-at-lincoln-center-orchestra-tickets/milwaukee-wisconsin-vogel-hall-at-marcus-center-2026-10-14-7-30-pm/concert/18587741"
-        }
-      ],
-      "slug": "jazz-at-lincoln-center-orchestra-2026-10-14"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/7ae/7e905deb-b3b8-4c97-90c9-89a6b96437ae_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-14",
-      "time": "20:00",
-      "title": "Hey, Nothing",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/hey-nothing-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18301723",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/hey-nothing-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18301723"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PpbJ"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/cd/f5/64cdf5b7-3089-48e4-85ed-f8f98a7c51b6/mzaf_14541112090486560736.plus.aac.p.m4a",
-        "track": "Maine",
-        "artist": "hey, nothing",
-        "kind": "Alternative Folk"
-      },
-      "slug": "hey-nothing-2026-10-14"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "20:00",
-      "title": "Stanley Simmons",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/stanley-simmons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18324781",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/stanley-simmons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-14-8-pm/concert/18324781"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jeak"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/6b/a2/596ba297-9f37-edd0-11d2-5315b2236c32/mzaf_13961052966840279751.plus.aac.p.m4a",
-        "track": "Cellophane",
-        "artist": "Stanley Simmons",
-        "kind": "Rock"
-      },
-      "slug": "stanley-simmons-2026-10-14"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "20:00",
-      "title": "The Midnight",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-midnight-tickets/milwaukee-wisconsin-pabst-theater-2026-10-14-8-pm/concert/18261705",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-midnight-tickets/milwaukee-wisconsin-pabst-theater-2026-10-14-8-pm/concert/18261705"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/1a/3a/991a3a0e-2c88-ea48-c669-6b9c66f7ad13/mzaf_375640438879048672.plus.aac.p.m4a",
-        "track": "Los Angeles",
-        "artist": "The Midnight",
-        "kind": "Electronica"
-      },
-      "slug": "the-midnight-2026-10-14"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "20:00",
-      "title": "Mike Dawes",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/mike-dawes-tickets/milwaukee-wisconsin-vivarium-2026-10-14-8-pm/concert/18081840",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/mike-dawes-tickets/milwaukee-wisconsin-vivarium-2026-10-14-8-pm/concert/18081840"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/eb/58/bfeb58c5-4203-4c80-0268-06ba159f720c/mzaf_4471836646032756647.plus.aac.p.m4a",
-        "track": "Goliath",
-        "artist": "Mike Dawes",
-        "kind": "Instrumental"
-      },
-      "slug": "mike-dawes-2026-10-14"
-    },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191904747%2F285524009645%2F1%2Foriginal.20260826-001244?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a56f9854f11573ec7b08c79a72dcb0d2",
       "date": "2026-10-15",
@@ -607,24 +441,6 @@
     {
       "date": "2026-10-16",
       "time": "20:00",
-      "title": "Ben Schwartz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
-        }
-      ],
-      "slug": "ben-schwartz-2026-10-16"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "20:00",
       "title": "Friko",
       "support": null,
       "venue": "Vivarium",
@@ -645,6 +461,24 @@
         "kind": "Alternative"
       },
       "slug": "friko-2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "20:00",
+      "title": "Ben Schwartz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/ben-schwartz-tickets/comedy/2026-10-16-8-pm/18341981"
+        }
+      ],
+      "slug": "ben-schwartz-2026-10-16"
     },
     {
       "date": "2026-10-16",
@@ -3327,7 +3161,7 @@
       "slug": "tvboo-2026-10-31"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/12/97/56/24_Edp.jpg?v=3",
+      "img": "https://i.ticketweb.com/i/00/12/97/56/24_Edp.jpg?v=4",
       "price": 26.22,
       "date": "2026-11-01",
       "time": "18:00",
@@ -3813,30 +3647,6 @@
     {
       "date": "2026-11-05",
       "time": "20:00",
-      "title": "Brigitte Calls Me Baby",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
-        "track": "Slumber Party",
-        "artist": "Brigitte Calls Me Baby",
-        "kind": "Alternative"
-      },
-      "slug": "brigitte-calls-me-baby-2026-11-05"
-    },
-    {
-      "date": "2026-11-05",
-      "time": "20:00",
       "title": "Levi Bloom",
       "support": null,
       "venue": "The Argo",
@@ -3862,6 +3672,30 @@
         "kind": "Country"
       },
       "slug": "levi-bloom-2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:00",
+      "title": "Brigitte Calls Me Baby",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
+        "track": "Slumber Party",
+        "artist": "Brigitte Calls Me Baby",
+        "kind": "Alternative"
+      },
+      "slug": "brigitte-calls-me-baby-2026-11-05"
     },
     {
       "date": "2026-11-05",
@@ -6180,6 +6014,30 @@
       "slug": "squirrel-flower-2026-11-19"
     },
     {
+      "date": "2026-11-19",
+      "time": "20:00",
+      "title": "Lily DeTaeye",
+      "support": null,
+      "venue": "Falcon Bowl",
+      "hood": "Milwaukee",
+      "genre": "folk",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/lily-detaeye-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-19-8-pm/concert/18688582",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/lily-detaeye-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-19-8-pm/concert/18688582"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c6/2e/9f/c62e9f07-70a8-100d-80b0-e93067c73e1a/mzaf_11643442269131811303.plus.aac.p.m4a",
+        "track": "Father's Daughter",
+        "artist": "Lily DeTaeye",
+        "kind": "Folk"
+      },
+      "slug": "lily-detaeye-2026-11-19"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/64c/76cc8226-9c36-4d1a-b616-d5acc3fa564c_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-20",
       "time": "18:00",
@@ -8248,6 +8106,31 @@
       "slug": "greg-koch-and-the-koch-marshall-trio-2026-12-12"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/0bb/e65394ae-9746-4063-b803-d25e9a6460bb_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-13",
+      "time": "12:00",
+      "title": "The Rock and Roll Playhouse",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7A_f",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7A_f"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/61/5b/33615b63-3875-c2df-e975-6d46b7d78e0f/mzaf_9213010952818159532.plus.aac.p.m4a",
+        "track": "The Rock and Roll Playhouse Anthem",
+        "artist": "The Rock and Roll Playhouse",
+        "kind": "Children's Music"
+      },
+      "slug": "the-rock-and-roll-playhouse-2026-12-13"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/bc7/45eea68d-adda-4327-8f5e-904ebae81bc7_1175961_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-16",
       "time": "19:30",
@@ -9170,6 +9053,33 @@
       "slug": "graham-barham-2027-01-14"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/bcb/bdca4383-77db-4732-874c-8f3ecea28bcb_RETINA_PORTRAIT_16_9.jpg",
+      "price": 32.39,
+      "date": "2027-01-15",
+      "time": "19:00",
+      "title": "Preacher Lawson",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346224",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346224",
+          "price": 32.39
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/e2/49/fce24974-1dfb-92ae-0fb6-9bda3dc695b0/mzaf_14722011449996287219.plus.aac.p.m4a",
+        "track": "Strict Mom",
+        "artist": "Preacher Lawson",
+        "kind": "Standup Comedy"
+      },
+      "slug": "preacher-lawson-2027-01-15"
+    },
+    {
       "date": "2027-01-15",
       "time": "20:00",
       "title": "Galactic Masquerade Ball",
@@ -9209,6 +9119,37 @@
       "slug": "jeff-dean-2027-01-15"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/bcb/bdca4383-77db-4732-874c-8f3ecea28bcb_RETINA_PORTRAIT_16_9.jpg",
+      "price": 32.39,
+      "date": "2027-01-16",
+      "time": "18:30",
+      "title": "Preacher Lawson",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346244",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346244",
+          "price": 32.39
+        }
+      ],
+      "times": [
+        "18:30",
+        "21:00"
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/e2/49/fce24974-1dfb-92ae-0fb6-9bda3dc695b0/mzaf_14722011449996287219.plus.aac.p.m4a",
+        "track": "Strict Mom",
+        "artist": "Preacher Lawson",
+        "kind": "Standup Comedy"
+      },
+      "slug": "preacher-lawson-2027-01-16"
+    },
+    {
       "date": "2027-01-16",
       "time": "20:00",
       "title": "Galactic Masquerade Ball",
@@ -9225,6 +9166,33 @@
         }
       ],
       "slug": "galactic-masquerade-ball-2027-01-16"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/bcb/bdca4383-77db-4732-874c-8f3ecea28bcb_RETINA_PORTRAIT_16_9.jpg",
+      "price": 32.39,
+      "date": "2027-01-17",
+      "time": "18:00",
+      "title": "Preacher Lawson",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346264",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346264",
+          "price": 32.39
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/e2/49/fce24974-1dfb-92ae-0fb6-9bda3dc695b0/mzaf_14722011449996287219.plus.aac.p.m4a",
+        "track": "Strict Mom",
+        "artist": "Preacher Lawson",
+        "kind": "Standup Comedy"
+      },
+      "slug": "preacher-lawson-2027-01-17"
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/06/19/44_Edp.jpg?v=3",
@@ -9873,6 +9841,25 @@
         }
       ],
       "slug": "jump-america-s-van-halen-experience-2027-02-13"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195316171%2F285524009645%2F1%2Foriginal.20261007-204738?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=793d1a97b2a51c854a281542a9ee440f",
+      "date": "2027-03-13",
+      "time": "20:00",
+      "title": "Fool House - The Ultimate 90’s Party: WOW - That's What I Call 90's Tour!",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/fool-house-the-ultimate-90s-party-wow-thats-what-i-call-90s-tour-tickets-2002828289328",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/fool-house-the-ultimate-90s-party-wow-thats-what-i-call-90s-tour-tickets-2002828289328"
+        }
+      ],
+      "slug": "fool-house-the-ultimate-90-s-party-wow-that-s-what-i-call-2027-03-13"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190405031%2F285524009645%2F1%2Foriginal.20260805-195322?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0f612da5bfbbfb7f983aad99e3916457",
