@@ -1,186 +1,6 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "shows": [
-    {
-      "img": "https://i.ticketweb.com/i/00/12/96/74/44_Edp.jpg?v=5",
-      "price": 32.39,
-      "date": "2026-10-18",
-      "time": "13:00",
-      "title": "Hocus Pocus Drag Brunch",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/hocus-pocus-drag-brunch-milwaukee-improv-main-room-tickets/14251184",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/hocus-pocus-drag-brunch-milwaukee-improv-main-room-tickets/14251184",
-          "price": 32.39
-        }
-      ],
-      "slug": "hocus-pocus-drag-brunch-2026-10-18"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/12/88/58/24_Edp.jpg?v=4",
-      "price": 35.78,
-      "date": "2026-10-18",
-      "time": "15:00",
-      "title": "Roger Clyne & The Peacemakers",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/roger-clyne-and-the-peacemakers-shank-hall-tickets/14166944",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/roger-clyne-and-the-peacemakers-shank-hall-tickets/14166944",
-          "price": 35.78
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/roger-clyne-tickets/milwaukee-wisconsin-shank-hall-2026-10-18-3-pm/concert/18084218"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/43/c0/4443c017-d72e-019e-675b-176a3a9b361b/mzaf_13032100132807583192.plus.aac.p.m4a",
-        "track": "Green & Dumb (Remastered)",
-        "artist": "Roger Clyne & The Peacemakers",
-        "kind": "Alternative"
-      },
-      "slug": "roger-clyne-and-the-peacemakers-2026-10-18"
-    },
-    {
-      "date": "2026-10-18",
-      "time": "19:00",
-      "title": "DAMAG3",
-      "support": null,
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/damag3-tickets/milwaukee-wisconsin-cactus-club-2026-10-18-7-pm/concert/18656032",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/damag3-tickets/milwaukee-wisconsin-cactus-club-2026-10-18-7-pm/concert/18656032"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/e6/2b/21e62b6e-b4bd-6e84-a3fc-947fd4697251/mzaf_6501659830513137271.plus.aac.p.m4a",
-        "track": "3L3PHANT",
-        "artist": "DAMAG3",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "damag3-2026-10-18"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/b34/4069e75d-5ce2-43f6-91eb-4124d61ceb34_RETINA_PORTRAIT_16_9.jpg",
-      "status": "rescheduled",
-      "date": "2026-10-18",
-      "time": "19:30",
-      "title": "Big Head Todd & the Monsters",
-      "support": "The Monsters",
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "blues",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/big-head-todd-the-monsters-tickets/milwaukee-wisconsin-pabst-theater-2026-10-18-7-30-pm/concert/17848790",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/big-head-todd-the-monsters-tickets/milwaukee-wisconsin-pabst-theater-2026-10-18-7-30-pm/concert/17848790"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7QFad"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/e5/52/79/e55279d2-6ed3-d298-943d-672b3c4ae6e5/mzaf_14408985089043840840.plus.aac.p.m4a",
-        "track": "Bittersweet",
-        "artist": "Big Head Todd & The Monsters",
-        "kind": "Pop"
-      },
-      "slug": "big-head-todd-and-the-monsters-2026-10-18"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/fdc/03ff1f31-3768-449e-9e74-109b2e2acfdc_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-18",
-      "time": "20:00",
-      "title": "Christone Kingfish Ingram",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/christone-kingfish-ingram-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-10-18-8-pm/concert/18355390",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/christone-kingfish-ingram-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-10-18-8-pm/concert/18355390"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptr_"
-        }
-      ],
-      "slug": "christone-kingfish-ingram-2026-10-18"
-    },
-    {
-      "date": "2026-10-18",
-      "time": "20:00",
-      "title": "Son Rompe Pera",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/son-rompe-pera-tickets/milwaukee-wisconsin-vivarium-2026-10-18-8-pm/concert/18526571",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/son-rompe-pera-tickets/milwaukee-wisconsin-vivarium-2026-10-18-8-pm/concert/18526571"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1d/5a/fe/1d5afe37-fd33-fed2-ea71-35ad631722b3/mzaf_14014569767323953469.plus.aac.p.m4a",
-        "track": "Pájaro Cenzontle",
-        "artist": "Son Rompe Pera",
-        "kind": "Worldwide"
-      },
-      "slug": "son-rompe-pera-2026-10-18"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/3e2/11eb8fd3-3b69-46b5-a7b8-5feb2d6a53e2_RETINA_PORTRAIT_16_9.jpg",
-      "price": 30.31,
-      "date": "2026-10-18",
-      "time": "21:00",
-      "title": "Saliva",
-      "support": "Drowning Pool, Beyond Threshold",
-      "venue": "Live at 1175",
-      "hood": "Kansasville",
-      "genre": "indie",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/1175s-rockin-halloween-party-live-at-1175-tickets/14997213",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/1175s-rockin-halloween-party-live-at-1175-tickets/14997213",
-          "price": 30.31
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3a/5a/04/3a5a049f-23f2-1591-4cf4-026ba71ae5d7/mzaf_7514159657088716614.plus.aac.p.m4a",
-        "track": "Click Click Boom",
-        "artist": "Saliva",
-        "kind": "Hard Rock"
-      },
-      "slug": "saliva-2026-10-18"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/a19/11068b3c-afc0-4a6b-a3a9-623e7f31ba19_76611_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-19",
@@ -396,31 +216,6 @@
         "kind": "Alternative"
       },
       "slug": "dogstar-2026-10-20"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191368410%2F285524009645%2F1%2Foriginal.20260818-200539?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.591&fp-y=0.481&s=9fe1226f82e26ba4c4c9065a6c56778f",
-      "date": "2026-10-20",
-      "time": "20:00",
-      "title": "Mexican Slum Rats w/ Rotundos",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "indie",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/mexican-slum-rats-w-rotundos-tickets-1998387125688",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/mexican-slum-rats-w-rotundos-tickets-1998387125688"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/39/72/57397280-7ec5-5e06-9c2e-6e5d81be66e1/mzaf_14554325220746926802.plus.aac.p.m4a",
-        "track": "Away",
-        "artist": "Mexican Slum Rats",
-        "kind": "Alternative"
-      },
-      "slug": "mexican-slum-rats-w-rotundos-2026-10-20"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/a34/70d5dad0-2ee1-435d-9b85-da5833847a34_RETINA_PORTRAIT_16_9.jpg",
@@ -921,26 +716,26 @@
     {
       "date": "2026-10-23",
       "time": "20:00",
-      "title": "The Buena Vista Orchestra",
+      "title": "Wolfman Jack",
       "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "latin",
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "hiphop",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495",
+      "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495"
+          "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/dc/bb/60dcbb20-93ab-4a5d-6b2e-8564678ebff7/mzaf_14207648578104142895.plus.aac.p.m4a",
-        "track": "Chan Chan (Live in Austin, TX)",
-        "artist": "The Buena Vista Orchestra",
-        "kind": "Latin"
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/1a/7c/951a7c0d-731a-71f6-073f-0504a227eb9d/mzaf_2955758073806199377.plus.aac.p.m4a",
+        "track": "Lay Your Hand On the Radio",
+        "artist": "Wolfman Jack",
+        "kind": "Hip-Hop/Rap"
       },
-      "slug": "the-buena-vista-orchestra-2026-10-23"
+      "slug": "wolfman-jack-2026-10-23"
     },
     {
       "date": "2026-10-23",
@@ -963,26 +758,26 @@
     {
       "date": "2026-10-23",
       "time": "20:00",
-      "title": "Wolfman Jack",
+      "title": "The Buena Vista Orchestra",
       "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "hiphop",
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "latin",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636",
+      "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/wolfman-jack-tickets/milwaukee-wisconsin-shank-hall-2026-10-23-8-pm/concert/18400636"
+          "url": "https://seatgeek.com/the-buena-vista-orchestra-tickets/milwaukee-wisconsin-pabst-theater-2026-10-23-8-pm/concert/18400495"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/1a/7c/951a7c0d-731a-71f6-073f-0504a227eb9d/mzaf_2955758073806199377.plus.aac.p.m4a",
-        "track": "Lay Your Hand On the Radio",
-        "artist": "Wolfman Jack",
-        "kind": "Hip-Hop/Rap"
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/dc/bb/60dcbb20-93ab-4a5d-6b2e-8564678ebff7/mzaf_14207648578104142895.plus.aac.p.m4a",
+        "track": "Chan Chan (Live in Austin, TX)",
+        "artist": "The Buena Vista Orchestra",
+        "kind": "Latin"
       },
-      "slug": "wolfman-jack-2026-10-23"
+      "slug": "the-buena-vista-orchestra-2026-10-23"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191713669%2F285524009645%2F1%2Foriginal.20260823-203759?w=640&auto=format%2Ccompress&q=75&sharp=10&s=8db720497a5a3bd0249d3dfe7dce6b68",
@@ -1519,10 +1314,10 @@
       "slug": "all-them-witches-2026-10-26"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/12/96/98/64_Edp.jpg?v=6",
+      "img": "https://i.ticketweb.com/i/00/12/96/98/64_Edp.jpg?v=7",
       "price": 30.37,
       "date": "2026-10-27",
-      "time": "19:00",
+      "time": "18:00",
       "title": " Nosferatu Undead",
       "support": null,
       "venue": "Shank Hall",
@@ -2196,7 +1991,7 @@
       "slug": "it-s-a-2000-s-party-halloween-2026-10-30"
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192703617%2F285524009645%2F1%2Foriginal.20260904-175942?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=13dd5f646d7620377753e49ef56c30f0",
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196009507%2F285524009645%2F1%2Foriginal.20261017-173436?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=16280c3486c1bb6b6bdb6b52b06e1b9e",
       "date": "2026-10-31",
       "time": "11:00",
       "title": "Kid Boogie Down: Halloween Spooktacular Dance Party",
@@ -2301,6 +2096,24 @@
     {
       "date": "2026-10-31",
       "time": "20:00",
+      "title": "Outlander in Concert",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221"
+        }
+      ],
+      "slug": "outlander-in-concert-2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
+      "time": "20:00",
       "title": "Daniel Donato",
       "support": null,
       "venue": "Pabst Theater",
@@ -2345,24 +2158,6 @@
         "kind": "Pop/Rock"
       },
       "slug": "the-paradox-2026-10-31"
-    },
-    {
-      "date": "2026-10-31",
-      "time": "20:00",
-      "title": "Outlander in Concert",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221"
-        }
-      ],
-      "slug": "outlander-in-concert-2026-10-31"
     },
     {
       "date": "2026-10-31",
@@ -2674,30 +2469,6 @@
     {
       "date": "2026-11-04",
       "time": "20:00",
-      "title": "Waterparks",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-04-8-pm/concert/18526288",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-04-8-pm/concert/18526288"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b1/1a/78/b11a780b-7358-b99d-7894-02f2201e63e0/mzaf_14301038776466085566.plus.aac.p.m4a",
-        "track": "Stupid for You",
-        "artist": "Waterparks",
-        "kind": "Alternative"
-      },
-      "slug": "waterparks-2026-11-04"
-    },
-    {
-      "date": "2026-11-04",
-      "time": "20:00",
       "title": "Charlie Parr",
       "support": null,
       "venue": "Vivarium",
@@ -2718,6 +2489,30 @@
         "kind": "Country"
       },
       "slug": "charlie-parr-2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "20:00",
+      "title": "Waterparks",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-04-8-pm/concert/18526288",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-04-8-pm/concert/18526288"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b1/1a/78/b11a780b-7358-b99d-7894-02f2201e63e0/mzaf_14301038776466085566.plus.aac.p.m4a",
+        "track": "Stupid for You",
+        "artist": "Waterparks",
+        "kind": "Alternative"
+      },
+      "slug": "waterparks-2026-11-04"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191449522%2F285524009645%2F1%2Foriginal.20260819-183102?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=307b2253e82667c6cd69274c261a0889",
@@ -2879,30 +2674,6 @@
     {
       "date": "2026-11-05",
       "time": "20:00",
-      "title": "Brigitte Calls Me Baby",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
-        "track": "Slumber Party",
-        "artist": "Brigitte Calls Me Baby",
-        "kind": "Alternative"
-      },
-      "slug": "brigitte-calls-me-baby-2026-11-05"
-    },
-    {
-      "date": "2026-11-05",
-      "time": "20:00",
       "title": "Levi Bloom",
       "support": null,
       "venue": "The Argo",
@@ -2928,6 +2699,30 @@
         "kind": "Country"
       },
       "slug": "levi-bloom-2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:00",
+      "title": "Brigitte Calls Me Baby",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
+        "track": "Slumber Party",
+        "artist": "Brigitte Calls Me Baby",
+        "kind": "Alternative"
+      },
+      "slug": "brigitte-calls-me-baby-2026-11-05"
     },
     {
       "date": "2026-11-05",
@@ -3049,24 +2844,6 @@
     {
       "date": "2026-11-06",
       "time": "19:00",
-      "title": "Mojo Brookzz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363"
-        }
-      ],
-      "slug": "mojo-brookzz-2026-11-06"
-    },
-    {
-      "date": "2026-11-06",
-      "time": "19:00",
       "title": "Ax and the Hatchetmen",
       "support": null,
       "venue": "Turner Hall Ballroom",
@@ -3087,6 +2864,24 @@
         "kind": "Indie Rock"
       },
       "slug": "ax-and-the-hatchetmen-2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "19:00",
+      "title": "Mojo Brookzz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363"
+        }
+      ],
+      "slug": "mojo-brookzz-2026-11-06"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/ff9/230bc504-e335-44b6-9d57-24509c477ff9_RETINA_PORTRAIT_16_9.jpg",
@@ -3490,30 +3285,6 @@
     {
       "date": "2026-11-07",
       "time": "20:00",
-      "title": "Austin Giorgio",
-      "support": null,
-      "venue": "Caribou Room - Menomonee Falls",
-      "hood": "Menomonee Falls",
-      "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/d7/20/f1d720b6-f9dd-2c3b-4e94-71a1857eae36/mzaf_234417470227365002.plus.aac.p.m4a",
-        "track": "You Put a Spell on Me",
-        "artist": "Austin Giorgio",
-        "kind": "Pop"
-      },
-      "slug": "austin-giorgio-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "20:00",
       "title": "Matt Rife",
       "support": null,
       "venue": "Fiserv Forum",
@@ -3534,6 +3305,30 @@
         "kind": "Comedy"
       },
       "slug": "matt-rife-2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "20:00",
+      "title": "Austin Giorgio",
+      "support": null,
+      "venue": "Caribou Room - Menomonee Falls",
+      "hood": "Menomonee Falls",
+      "genre": "pop",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/d7/20/f1d720b6-f9dd-2c3b-4e94-71a1857eae36/mzaf_234417470227365002.plus.aac.p.m4a",
+        "track": "You Put a Spell on Me",
+        "artist": "Austin Giorgio",
+        "kind": "Pop"
+      },
+      "slug": "austin-giorgio-2026-11-07"
     },
     {
       "date": "2026-11-07",
@@ -5779,6 +5574,30 @@
     {
       "date": "2026-11-22",
       "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:00",
       "title": "Hot Freaks",
       "support": "Thesaurus Rex",
       "venue": "The Argo",
@@ -5804,30 +5623,6 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-2026-11-22"
-    },
-    {
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://i.ticketweb.com/i/00/12/99/90/44_Edp.jpg?v=5",
@@ -7342,7 +7137,7 @@
         },
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/think-floyd-usa-tickets/milwaukee-wisconsin-shank-hall-2026-12-12-8-pm/concert/18400647"
+          "url": "https://seatgeek.com/think-floyd-usa-tickets/milwaukee-wisconsin-shank-hall-2026-12-12-7-30-pm/concert/18400647"
         }
       ],
       "slug": "think-floyd-usa-2026-12-12"
