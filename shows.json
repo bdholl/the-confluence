@@ -1,112 +1,6 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/a19/11068b3c-afc0-4a6b-a3a9-623e7f31ba19_76611_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-19",
-      "time": "19:00",
-      "title": "Indigo Girls",
-      "support": "Linda Perry",
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/indigo-girls-tickets/milwaukee-wisconsin-pabst-theater-2026-10-19-7-pm/concert/18400503",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/indigo-girls-tickets/milwaukee-wisconsin-pabst-theater-2026-10-19-7-pm/concert/18400503"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptqg"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/99/60/18/99601846-8b2b-7112-13a5-2d2d3edb46ec/mzaf_17421027446740697494.plus.aac.p.m4a",
-        "track": "Closer to Fine",
-        "artist": "Indigo Girls",
-        "kind": "Singer/Songwriter"
-      },
-      "slug": "indigo-girls-2026-10-19"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/461/e58a2592-728f-4741-be53-6a7a6d97b461_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-19",
-      "time": "19:30",
-      "title": "BEAT",
-      "support": "Adrian Belew, Steve Vai, Tony Levin, Terry Bozzio",
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/beat-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-19-7-30-pm/concert/18449970",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/beat-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-19-7-30-pm/concert/18449970"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ9f7"
-        }
-      ],
-      "slug": "beat-2026-10-19"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/ee1/bdb7ed52-a897-4277-82db-95d09e224ee1_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-19",
-      "time": "19:30",
-      "title": "Lords of Acid",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/lords-of-acid-tickets/milwaukee-wisconsin-vivarium-2026-10-19-7-30-pm/concert/18400973",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/lords-of-acid-tickets/milwaukee-wisconsin-vivarium-2026-10-19-7-30-pm/concert/18400973"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgG-"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/11/f6/d2/11f6d256-49f8-3d8f-146b-fdb73797027b/mzaf_3340672901165032739.plus.aac.p.m4a",
-        "track": "Sexbomb",
-        "artist": "Lords of Acid",
-        "kind": "Techno"
-      },
-      "slug": "lords-of-acid-2026-10-19"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/44/92/03_Edp.jpg?v=4",
-      "price": 40.93,
-      "date": "2026-10-19",
-      "time": "20:00",
-      "title": "Duane Betts & Palmetto Motel",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/duane-betts-palmetto-motel-shank-hall-tickets/14849103",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/duane-betts-palmetto-motel-shank-hall-tickets/14849103",
-          "price": 40.93
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/duane-betts-tickets/milwaukee-wisconsin-shank-hall-2026-10-19-8-pm/concert/18284249"
-        }
-      ],
-      "slug": "duane-betts-and-palmetto-motel-2026-10-19"
-    },
     {
       "img": "https://i.ticketweb.com/i/00/13/01/61/94_Edp.jpg?v=4",
       "price": 26.22,
@@ -5574,30 +5468,6 @@
     {
       "date": "2026-11-22",
       "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
-    },
-    {
-      "date": "2026-11-22",
-      "time": "20:00",
       "title": "Hot Freaks",
       "support": "Thesaurus Rex",
       "venue": "The Argo",
@@ -5623,6 +5493,49 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195614820%2F285524009645%2F1%2Foriginal.20261012-160533?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d7d13c0e8b26357843d249469f87d5b",
+      "date": "2026-11-23",
+      "time": "17:30",
+      "title": "Whitefish Bay Public Library: Community Reads",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/whitefish-bay-public-library-community-reads-tickets-2003302693283",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/whitefish-bay-public-library-community-reads-tickets-2003302693283"
+        }
+      ],
+      "slug": "whitefish-bay-public-library-community-reads-2026-11-23"
     },
     {
       "img": "https://i.ticketweb.com/i/00/12/99/90/44_Edp.jpg?v=5",
@@ -6524,6 +6437,24 @@
         }
       ],
       "slug": "sister-s-christmas-catechism-2026-12-05"
+    },
+    {
+      "date": "2026-12-05",
+      "time": "18:00",
+      "title": "Without U2 & Wonderwall",
+      "support": null,
+      "venue": "Route 20",
+      "hood": "Sturtevant",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/without-u2-wonderwall-route-20-tickets/14392684?REFERRAL_ID=tmfeed",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/without-u2-wonderwall-route-20-tickets/14392684?REFERRAL_ID=tmfeed"
+        }
+      ],
+      "slug": "without-u2-and-wonderwall-2026-12-05"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/61e/6a3c4cc4-f3e5-4106-bf6a-8a7833cd061e_RETINA_PORTRAIT_16_9.jpg",
@@ -8430,6 +8361,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/michael-mcdermott-shank-hall-tickets/14378824",
           "price": 30.37
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michael-mcdermott-tickets/milwaukee-wisconsin-shank-hall-2027-01-23-8-pm/concert/18700895"
         }
       ],
       "preview": {
@@ -8618,6 +8553,25 @@
         }
       ],
       "slug": "hypnotized-the-music-of-fleetwood-mac-2027-01-29"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195795123%2F285524009645%2F1%2Foriginal.20261014-164303?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=62d6f53347f23aeb26d5ef4069efd8ac",
+      "date": "2027-01-29",
+      "time": "20:00",
+      "title": "Noise Pollution: The AC/DC Experience",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/noise-pollution-the-acdc-experience-tickets-2003418763452",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/noise-pollution-the-acdc-experience-tickets-2003418763452"
+        }
+      ],
+      "slug": "noise-pollution-the-ac-dc-experience-2027-01-29"
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/04/84/14_Edp.jpg?v=4",

@@ -4,42 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-10-19-19:00-IndigoGirlsPabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261019T190000
-DTEND;TZID=America/Chicago:20261019T210000
-SUMMARY:Indigo Girls @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:With Linda Perry. Tickets: https://seatgeek.com/indigo-girls-tickets/milwaukee-wisconsin-pabst-theater-2026-10-19-7-pm/concert/18400503
-URL:https://seatgeek.com/indigo-girls-tickets/milwaukee-wisconsin-pabst-theater-2026-10-19-7-pm/concert/18400503
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-19-19:30-BEATRiversideTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261019T193000
-DTEND;TZID=America/Chicago:20261019T213000
-SUMMARY:BEAT @ Riverside Theater
-LOCATION:Riverside Theater\, Downtown
-DESCRIPTION:With Adrian Belew\, Steve Vai\, Tony Levin\, Terry Bozzio. Tickets: https://seatgeek.com/beat-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-19-7-30-pm/concert/18449970
-URL:https://seatgeek.com/beat-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-19-7-30-pm/concert/18449970
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-19-19:30-LordsofAcidVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261019T193000
-DTEND;TZID=America/Chicago:20261019T213000
-SUMMARY:Lords of Acid @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/lords-of-acid-tickets/milwaukee-wisconsin-vivarium-2026-10-19-7-30-pm/concert/18400973
-URL:https://seatgeek.com/lords-of-acid-tickets/milwaukee-wisconsin-vivarium-2026-10-19-7-30-pm/concert/18400973
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-19-20:00-DuaneBettsPalmettoMotelShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20261019T200000
-DTEND;TZID=America/Chicago:20261019T220000
-SUMMARY:Duane Betts & Palmetto Motel @ Shank Hall
-LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/duane-betts-palmetto-motel-shank-hall-tickets/14849103
-URL:https://www.ticketweb.com/event/duane-betts-palmetto-motel-shank-hall-tickets/14849103
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-20-19:00-ChaosCrawlersMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261020T190000
 DTEND;TZID=America/Chicago:20261020T210000
@@ -2011,6 +1975,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactu
 URL:https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactus-club-2026-11-22-7-pm/concert/18400698
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261122T200000
+DTEND;TZID=America/Chicago:20261122T220000
+SUMMARY:Hot Freaks @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:With Thesaurus Rex. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-tickets-1993842013134
+URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-tickets-1993842013134
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261122T200000
 DTEND;TZID=America/Chicago:20261122T220000
@@ -2020,13 +1993,13 @@ DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsi
 URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261122T200000
-DTEND;TZID=America/Chicago:20261122T220000
-SUMMARY:Hot Freaks @ The Argo
+UID:2026-11-23-17:30-WhitefishBayPublicLibraryCommunityReadsT@theconfluence
+DTSTART;TZID=America/Chicago:20261123T173000
+DTEND;TZID=America/Chicago:20261123T193000
+SUMMARY:Whitefish Bay Public Library: Community Reads @ The Argo
 LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:With Thesaurus Rex. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-tickets-1993842013134
-URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-tickets-1993842013134
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/whitefish-bay-public-library-community-reads-tickets-2003302693283
+URL:https://www.eventbrite.com/e/whitefish-bay-public-library-community-reads-tickets-2003302693283
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24-19:00-LizGlazerMilwaukeeImprov@theconfluence
@@ -2333,6 +2306,15 @@ SUMMARY:Sister's Christmas Catechism @ Wilson Theater at Vogel Hall
 LOCATION:Wilson Theater at Vogel Hall\, Milwaukee
 DESCRIPTION:Tickets: https://seatgeek.com/sisters-christmas-catechism-tickets/comedy/2026-12-05-3-pm/18397324
 URL:https://seatgeek.com/sisters-christmas-catechism-tickets/comedy/2026-12-05-3-pm/18397324
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-05-18:00-WithoutU2WonderwallRoute20@theconfluence
+DTSTART;TZID=America/Chicago:20261205T180000
+DTEND;TZID=America/Chicago:20261205T200000
+SUMMARY:Without U2 & Wonderwall @ Route 20
+LOCATION:Route 20\, Sturtevant
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/without-u2-wonderwall-route-20-tickets/14392684?REFERRAL_ID=tmfeed
+URL:https://www.ticketweb.com/event/without-u2-wonderwall-route-20-tickets/14392684?REFERRAL_ID=tmfeed
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-05-18:30-JessicaKirsonMilwaukeeImprov@theconfluence
@@ -3089,6 +3071,15 @@ SUMMARY:Hypnotized: The Music of Fleetwood Mac @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/hypnotized-the-music-of-fleetwood-shank-hall-tickets/14378804
 URL:https://www.ticketweb.com/event/hypnotized-the-music-of-fleetwood-shank-hall-tickets/14378804
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-29-20:00-NoisePollutionTheACDCExperienceTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20270129T200000
+DTEND;TZID=America/Chicago:20270129T220000
+SUMMARY:Noise Pollution: The AC/DC Experience @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/noise-pollution-the-acdc-experience-tickets-2003418763452
+URL:https://www.eventbrite.com/e/noise-pollution-the-acdc-experience-tickets-2003418763452
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-30-18:30-JamieLissowMilwaukeeImprov@theconfluence
