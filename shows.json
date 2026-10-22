@@ -1,195 +1,6 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/a34/70d5dad0-2ee1-435d-9b85-da5833847a34_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-21",
-      "time": "19:00",
-      "title": "Tedeschi Trucks Band",
-      "support": "Lukas Nelson",
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/tedeschi-trucks-band-future-soul-2026-milwaukee-wisconsin-10-21-2026/event/07006435C62274A2",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/tedeschi-trucks-band-future-soul-2026-milwaukee-wisconsin-10-21-2026/event/07006435C62274A2"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/tedeschi-trucks-band-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-10-21-7-pm/concert/18029017"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/c9/3b/19c93b8b-4c72-2483-8908-576e59b6b2bf/mzaf_8606273096861664826.plus.aac.p.m4a",
-        "track": "Midnight in Harlem",
-        "artist": "Tedeschi Trucks Band",
-        "kind": "Rock"
-      },
-      "slug": "tedeschi-trucks-band-2026-10-21"
-    },
-    {
-      "date": "2026-10-21",
-      "time": "19:00",
-      "title": "Catacombs & Comedians",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/catacombs-and-comedians-tickets/comedy/2026-10-21-7-pm/18368376",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/catacombs-and-comedians-tickets/comedy/2026-10-21-7-pm/18368376"
-        }
-      ],
-      "slug": "catacombs-and-comedians-2026-10-21"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195307286%2F285524009645%2F1%2Foriginal.20261007-190633?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f193a418bdf39832d08f520a3664e0e1",
-      "date": "2026-10-21",
-      "time": "19:00",
-      "title": "Quizmaster Trivia Night",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2002178634192",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2002178634192"
-        }
-      ],
-      "slug": "quizmaster-trivia-night-2026-10-21"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180188256%2F285524009645%2F1%2Foriginal.20260318-225034?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=91897fb4bec846e2bfe6e5558b7f15ef",
-      "date": "2026-10-21",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesdays: Troubadours of Rhythm (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "jazz",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-troubadours-of-rhythm-free-tickets-2003176122707",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-troubadours-of-rhythm-free-tickets-2003176122707"
-        }
-      ],
-      "slug": "swing-jazz-wednesdays-troubadours-of-rhythm-free-2026-10-21"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/676/983a21d6-933e-4fb7-9f83-7d73c6e16676_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-21",
-      "time": "20:00",
-      "title": "Sylvan Esso",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sylvan-esso-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-21-8-pm/concert/18299151",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sylvan-esso-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-21-8-pm/concert/18299151"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfOs"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/87/4c/25/874c250d-cdf0-3b39-4075-ba93d3eb593c/mzaf_6567645334714689999.plus.aac.p.m4a",
-        "track": "Coffee",
-        "artist": "Sylvan Esso",
-        "kind": "Alternative"
-      },
-      "slug": "sylvan-esso-2026-10-21"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/12/91/26/74_Edp.jpg?v=3",
-      "price": 30.37,
-      "date": "2026-10-21",
-      "time": "20:00",
-      "title": "Windborne",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "folk",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/windborne-shank-hall-tickets/14196254",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/windborne-shank-hall-tickets/14196254",
-          "price": 30.37
-        }
-      ],
-      "slug": "windborne-2026-10-21"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/0f9/1e878bcf-e4fc-425d-8d4f-e90b90a4d0f9_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-21",
-      "time": "20:00",
-      "title": "Ryan Bingham",
-      "support": "The Texas Gentlemen",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ryan-bingham-and-the-texas-gentlemen-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-21-8-pm/concert/18398496",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ryan-bingham-and-the-texas-gentlemen-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-21-8-pm/concert/18398496"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdOO"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/d6/c3/8dd6c360-f872-e1e0-06df-0b490444b72d/mzaf_1038187628335875717.plus.aac.p.m4a",
-        "track": "Southside of Heaven",
-        "artist": "Ryan Bingham",
-        "kind": "Country"
-      },
-      "slug": "ryan-bingham-2026-10-21"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191382789%2F285524009645%2F1%2Foriginal.20260818-231413?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.034&fp-y=0.549&s=150523fbcffc292f67267c5304f578c3",
-      "date": "2026-10-21",
-      "time": "20:00",
-      "title": "Maggie Koerner: Upstate Tour w/ J.R. Wesley",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "indie",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/maggie-koerner-upstate-tour-w-jr-wesley-tickets-1998249299446",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/maggie-koerner-upstate-tour-w-jr-wesley-tickets-1998249299446"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f9/ec/5c/f9ec5ce1-fddb-c9f7-e24b-a485dde7e6f4/mzaf_10176783438827116230.plus.aac.p.m4a",
-        "track": "The Prophecy",
-        "artist": "Maggie Koerner",
-        "kind": "Alternative"
-      },
-      "slug": "maggie-koerner-upstate-tour-w-j-r-wesley-2026-10-21"
-    },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177751399%2F2971726526301%2F1%2Foriginal.20260217-182453?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e9d09fc7883db58df38e82274930985c",
       "date": "2026-10-22",
@@ -409,6 +220,25 @@
         "21:15"
       ],
       "slug": "d-l-hughley-2026-10-23"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196301045%2F2971726526301%2F1%2Foriginal.20261021-182038?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=247c24c08bf782cbbcd07fe46bb74fe3",
+      "date": "2026-10-23",
+      "time": "19:00",
+      "title": "World Series Watch Party",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003735270132",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003735270132"
+        }
+      ],
+      "slug": "world-series-watch-party-2026-10-23"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/e5c/da64314c-fd7c-4d1c-8baa-65d955255e5c_RETINA_PORTRAIT_16_9.jpg",
@@ -694,6 +524,25 @@
         }
       ],
       "slug": "urban-and-soul-line-dancing-2026-10-24"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196301045%2F2971726526301%2F1%2Foriginal.20261021-182038?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=247c24c08bf782cbbcd07fe46bb74fe3",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "title": "World Series Watch Party",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737673320",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737673320"
+        }
+      ],
+      "slug": "world-series-watch-party-2026-10-24"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RETINA_PORTRAIT_16_9.jpg",
@@ -1042,6 +891,25 @@
       "slug": "spite-2026-10-26"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196301045%2F2971726526301%2F1%2Foriginal.20261021-182038?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=247c24c08bf782cbbcd07fe46bb74fe3",
+      "date": "2026-10-26",
+      "time": "19:00",
+      "title": "World Series Watch Party",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737796689",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737796689"
+        }
+      ],
+      "slug": "world-series-watch-party-2026-10-26"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/13/58/32/13_Edp.jpg?v=4",
       "status": "cancelled",
       "price": 24.96,
@@ -1136,6 +1004,25 @@
         }
       ],
       "slug": "fr-mike-schmitz-2026-10-27"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196301045%2F2971726526301%2F1%2Foriginal.20261021-182038?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=247c24c08bf782cbbcd07fe46bb74fe3",
+      "date": "2026-10-27",
+      "time": "19:00",
+      "title": "World Series Watch Party",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737956166",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737956166"
+        }
+      ],
+      "slug": "world-series-watch-party-2026-10-27"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/3e6/a5887c53-4a2a-4c10-baa4-fa9f23df23e6_RETINA_PORTRAIT_16_9.jpg",
@@ -1904,24 +1791,6 @@
     {
       "date": "2026-10-31",
       "time": "20:00",
-      "title": "Outlander in Concert",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221"
-        }
-      ],
-      "slug": "outlander-in-concert-2026-10-31"
-    },
-    {
-      "date": "2026-10-31",
-      "time": "20:00",
       "title": "The Paradox",
       "support": null,
       "venue": "The Rave / Eagles Club",
@@ -1942,6 +1811,24 @@
         "kind": "Pop/Rock"
       },
       "slug": "the-paradox-2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
+      "time": "20:00",
+      "title": "Outlander in Concert",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221"
+        }
+      ],
+      "slug": "outlander-in-concert-2026-10-31"
     },
     {
       "date": "2026-10-31",
@@ -2253,30 +2140,6 @@
     {
       "date": "2026-11-04",
       "time": "20:00",
-      "title": "Charlie Parr",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/charlie-parr-tickets/milwaukee-wisconsin-vivarium-2026-11-04-8-pm/concert/18526572",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/charlie-parr-tickets/milwaukee-wisconsin-vivarium-2026-11-04-8-pm/concert/18526572"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/f5/68/4af56859-d134-e3c1-4ae3-1acb3c8a2d03/mzaf_5457159552632818811.plus.aac.p.m4a",
-        "track": "Over the Red Cedar",
-        "artist": "Charlie Parr",
-        "kind": "Country"
-      },
-      "slug": "charlie-parr-2026-11-04"
-    },
-    {
-      "date": "2026-11-04",
-      "time": "20:00",
       "title": "Waterparks",
       "support": null,
       "venue": "The Rave / Eagles Club",
@@ -2297,6 +2160,30 @@
         "kind": "Alternative"
       },
       "slug": "waterparks-2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "20:00",
+      "title": "Charlie Parr",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/charlie-parr-tickets/milwaukee-wisconsin-vivarium-2026-11-04-8-pm/concert/18526572",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/charlie-parr-tickets/milwaukee-wisconsin-vivarium-2026-11-04-8-pm/concert/18526572"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/f5/68/4af56859-d134-e3c1-4ae3-1acb3c8a2d03/mzaf_5457159552632818811.plus.aac.p.m4a",
+        "track": "Over the Red Cedar",
+        "artist": "Charlie Parr",
+        "kind": "Country"
+      },
+      "slug": "charlie-parr-2026-11-04"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191449522%2F285524009645%2F1%2Foriginal.20260819-183102?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=307b2253e82667c6cd69274c261a0889",
@@ -2356,7 +2243,7 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/a/3ec/8c140ad6-da9e-4949-b008-c6441e1d53ec_RETINA_PORTRAIT_16_9.jpg",
-      "price": 26.22,
+      "price": 11.67,
       "date": "2026-11-05",
       "time": "19:00",
       "title": "Andrew Stanley",
@@ -2370,7 +2257,7 @@
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/andrew-stanley-milwaukee-improv-main-room-tickets/14278604",
-          "price": 26.22
+          "price": 11.67
         }
       ],
       "slug": "andrew-stanley-2026-11-05"
@@ -2628,6 +2515,24 @@
     {
       "date": "2026-11-06",
       "time": "19:00",
+      "title": "Mojo Brookzz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363"
+        }
+      ],
+      "slug": "mojo-brookzz-2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "19:00",
       "title": "Ax and the Hatchetmen",
       "support": null,
       "venue": "Turner Hall Ballroom",
@@ -2648,24 +2553,6 @@
         "kind": "Indie Rock"
       },
       "slug": "ax-and-the-hatchetmen-2026-11-06"
-    },
-    {
-      "date": "2026-11-06",
-      "time": "19:00",
-      "title": "Mojo Brookzz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363"
-        }
-      ],
-      "slug": "mojo-brookzz-2026-11-06"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/ff9/230bc504-e335-44b6-9d57-24509c477ff9_RETINA_PORTRAIT_16_9.jpg",
@@ -5645,9 +5532,13 @@
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
       "genre": "other",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekpk",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/durango-fest-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-27-8-pm/music-festival/18707955",
       "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/durango-fest-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-27-8-pm/music-festival/18707955"
+        },
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekpk"
@@ -6475,7 +6366,7 @@
       "slug": "excision-2026-12-05"
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187489348%2F285524009645%2F1%2Foriginal.20260623-155601?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.017&fp-y=0.117&s=5a3c26afb5f317ddd678134ab2510cf8",
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196315389%2F2971726526301%2F1%2Foriginal.20261021-210911?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=141e5c8aa2441862c667def30da90f2a",
       "date": "2026-12-05",
       "time": "20:00",
       "title": "The Gringos",
@@ -7929,9 +7820,13 @@
       "venue": "The Rave / Eagles Club",
       "hood": "Westown",
       "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4V",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/graham-barham-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-01-14-8-pm/concert/18707956",
       "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/graham-barham-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-01-14-8-pm/concert/18707956"
+        },
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4V"
@@ -8469,6 +8364,25 @@
       "slug": "noise-pollution-the-ac-dc-experience-2027-01-29"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196008702%2F285524009645%2F1%2Foriginal.20261017-171538?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=db8aa418ff53d66baad90cf5773dc9e7",
+      "date": "2027-01-29",
+      "time": "20:00",
+      "title": "Alash: Tuvan Throat Singers",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/alash-tuvan-throat-singers-tickets-2003550061167",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/alash-tuvan-throat-singers-tickets-2003550061167"
+        }
+      ],
+      "slug": "alash-tuvan-throat-singers-2027-01-29"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/13/04/84/14_Edp.jpg?v=4",
       "price": 38.67,
       "date": "2027-01-30",
@@ -8965,6 +8879,88 @@
         "kind": "Pop"
       },
       "slug": "pink-martini-2027-02-17"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/3a5/55aa9e8e-e22d-4d25-868b-d692810473a5_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-02-18",
+      "time": "19:30",
+      "title": "Rhiannon Giddens",
+      "support": null,
+      "venue": "Uihlein Hall",
+      "hood": "Milwaukee",
+      "genre": "country",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/rhiannon-giddens-milwaukee-wisconsin-02-18-2027/event/0700652EAE3629F3",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/rhiannon-giddens-milwaukee-wisconsin-02-18-2027/event/0700652EAE3629F3"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/rhiannon-giddens-tickets/milwaukee-wisconsin-uihlein-hall-at-marcus-center-for-the-performing-arts-2027-02-18-7-30-pm/concert/18600609"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/0f/f5/eb0ff507-3464-2a5e-1f30-42e4740e306a/mzaf_18415958195676738138.plus.aac.p.m4a",
+        "track": "Mountain Hymn",
+        "artist": "Rhiannon Giddens",
+        "kind": "Soundtrack"
+      },
+      "slug": "rhiannon-giddens-2027-02-18"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/6b8/e402dce6-04f8-42ad-8e48-339a6504a6b8_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-02-18",
+      "time": "20:00",
+      "title": "Little Stranger",
+      "support": "Shwayze, Damn Skippy",
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "hiphop",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/little-stranger-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-02-18-8-pm/concert/18694079",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/little-stranger-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-02-18-8-pm/concert/18694079"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7a-p"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/3d/05/433d0524-59bc-25a1-d9e3-649055c4762a/mzaf_17778334931700319199.plus.aac.p.m4a",
+        "track": "Me & You",
+        "artist": "Little Stranger",
+        "kind": "Hip-Hop/Rap"
+      },
+      "slug": "little-stranger-2027-02-18"
+    },
+    {
+      "date": "2027-02-18",
+      "time": "20:00",
+      "title": "Eluveitie",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "metal",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/eluveitie-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-18-8-pm/concert/18608565",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/eluveitie-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-18-8-pm/concert/18608565"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/70/bf/3370bf0a-3f81-ecff-e71f-859f75388658/mzaf_8745090615210540151.plus.aac.p.m4a",
+        "track": "Inis Mona",
+        "artist": "Eluveitie",
+        "kind": "Death Metal/Black Metal"
+      },
+      "slug": "eluveitie-2027-02-18"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195316171%2F285524009645%2F1%2Foriginal.20261007-204738?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=793d1a97b2a51c854a281542a9ee440f",
