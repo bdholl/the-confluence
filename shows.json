@@ -1,148 +1,6 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "shows": [
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177751399%2F2971726526301%2F1%2Foriginal.20260217-182453?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e9d09fc7883db58df38e82274930985c",
-      "date": "2026-10-22",
-      "time": "18:30",
-      "title": "Live in the Lounge w/ Carl Erikstrup (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-carl-erikstrup-free-tickets-2003099209658",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/live-in-the-lounge-w-carl-erikstrup-free-tickets-2003099209658"
-        }
-      ],
-      "slug": "live-in-the-lounge-w-carl-erikstrup-free-2026-10-22"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/9d8/df700c0e-81ec-4a0b-af0c-fe9e2d5739d8_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-22",
-      "time": "19:00",
-      "title": "Randy Feltface",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/randy-feltface-tickets/comedy/2026-10-22-9-30-pm/18400976",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/randy-feltface-tickets/comedy/2026-10-22-9-30-pm/18400976"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NP9"
-        }
-      ],
-      "times": [
-        "19:00",
-        "21:30"
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/10/71/951071f1-2946-c7b2-632c-f362c99f5585/mzaf_1103437172467234902.plus.aac.p.m4a",
-        "track": "Grade One",
-        "artist": "Randy Feltface",
-        "kind": "Comedy"
-      },
-      "slug": "randy-feltface-2026-10-22"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/63/36/53_Edp.jpg?v=5",
-      "price": 38.67,
-      "date": "2026-10-22",
-      "time": "19:00",
-      "title": "Justin Whitehead",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/justin-whitehead-milwaukee-improv-main-room-tickets/15036443",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/justin-whitehead-milwaukee-improv-main-room-tickets/15036443",
-          "price": 38.67
-        }
-      ],
-      "slug": "justin-whitehead-2026-10-22"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/471/baa8d341-9743-4748-958c-9c634d2f9471_RETINA_PORTRAIT_16_9.jpg",
-      "status": "cancelled",
-      "date": "2026-10-22",
-      "time": "19:30",
-      "title": "Marshall Charloff & The Purple Xperience",
-      "support": null,
-      "venue": "Uihlein Hall",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/marshall-charloff-the-purple-xperience-milwaukee-wisconsin-10-22-2026/event/070060CABD2F2289",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/marshall-charloff-the-purple-xperience-milwaukee-wisconsin-10-22-2026/event/070060CABD2F2289"
-        }
-      ],
-      "slug": "marshall-charloff-and-the-purple-xperience-2026-10-22"
-    },
-    {
-      "date": "2026-10-22",
-      "time": "20:00",
-      "title": "Ian Sweet",
-      "support": null,
-      "venue": "Falcon Bowl",
-      "hood": "Milwaukee",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ian-sweet-tickets/milwaukee-wisconsin-falcon-bowl-2026-10-22-8-pm/concert/18198363",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ian-sweet-tickets/milwaukee-wisconsin-falcon-bowl-2026-10-22-8-pm/concert/18198363"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/f0/5c/6bf05c64-3802-87a1-337a-800eb13919df/mzaf_2207501963171495925.plus.aac.p.m4a",
-        "track": "Criminal Kissing",
-        "artist": "IAN SWEET",
-        "kind": "Alternative"
-      },
-      "slug": "ian-sweet-2026-10-22"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187436570%2F2971726526301%2F1%2Foriginal.20260622-221330?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.519&s=167ed9cd62861146a22b60e4c3e02450",
-      "date": "2026-10-22",
-      "time": "20:00",
-      "title": "The Jack Wharff Band w/ Jonas Conner",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "country",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-jack-wharff-band-w-jonas-conner-tickets-1992375559933",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-jack-wharff-band-w-jonas-conner-tickets-1992375559933"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/cf/69/06cf694e-fc32-7d5b-466b-12260a6dd868/mzaf_11435275329888723354.plus.aac.p.m4a",
-        "track": "Washed",
-        "artist": "The Jack Wharff Band",
-        "kind": "Country"
-      },
-      "slug": "the-jack-wharff-band-w-jonas-conner-2026-10-22"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/937/0fe4c5fc-e193-488a-859b-2ac5df614937_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-10-23",
@@ -392,31 +250,6 @@
         "kind": "Latin"
       },
       "slug": "the-buena-vista-orchestra-2026-10-23"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191713669%2F285524009645%2F1%2Foriginal.20260823-203759?w=640&auto=format%2Ccompress&q=75&sharp=10&s=8db720497a5a3bd0249d3dfe7dce6b68",
-      "date": "2026-10-23",
-      "time": "20:00",
-      "title": "The Band Memo w/ BAMM",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "rock",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-band-memo-w-bamm-tickets-1998691702686",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-band-memo-w-bamm-tickets-1998691702686"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/da/c5/65dac538-e0b9-311a-c984-7d4217b8db73/mzaf_16959110356498188302.plus.aac.p.m4a",
-        "track": "Treading Water",
-        "artist": "The Band Memo",
-        "kind": "Rock"
-      },
-      "slug": "the-band-memo-w-bamm-2026-10-23"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/1a6/2d346343-859f-4e91-b997-36b46e5091a6_RETINA_PORTRAIT_16_9.jpg",
@@ -1074,7 +907,7 @@
       "slug": "old-crow-medicine-show-2026-10-27-2"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/63/09/63_Edp.jpg?v=6",
+      "img": "https://i.ticketweb.com/i/00/13/63/09/63_Edp.jpg?v=7",
       "price": 20.82,
       "date": "2026-10-28",
       "time": "19:00",
@@ -1767,30 +1600,6 @@
     {
       "date": "2026-10-31",
       "time": "20:00",
-      "title": "Daniel Donato",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "folk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/67/72/e2677282-2dba-99e6-a630-51129847f768/mzaf_16119325956718764931.plus.aac.p.m4a",
-        "track": "Fire on the Mountain",
-        "artist": "Daniel Donato",
-        "kind": "Americana"
-      },
-      "slug": "daniel-donato-2026-10-31"
-    },
-    {
-      "date": "2026-10-31",
-      "time": "20:00",
       "title": "The Paradox",
       "support": null,
       "venue": "The Rave / Eagles Club",
@@ -1832,6 +1641,30 @@
     },
     {
       "date": "2026-10-31",
+      "time": "20:00",
+      "title": "Daniel Donato",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "folk",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/67/72/e2677282-2dba-99e6-a630-51129847f768/mzaf_16119325956718764931.plus.aac.p.m4a",
+        "track": "Fire on the Mountain",
+        "artist": "Daniel Donato",
+        "kind": "Americana"
+      },
+      "slug": "daniel-donato-2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
       "time": "21:00",
       "title": "TVBOO",
       "support": "Mport",
@@ -1859,7 +1692,7 @@
       "slug": "tvboo-2026-10-31"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/12/97/56/24_Edp.jpg?v=7",
+      "img": "https://i.ticketweb.com/i/00/12/97/56/24_Edp.jpg?v=8",
       "price": 26.22,
       "date": "2026-11-01",
       "time": "18:00",
@@ -2956,30 +2789,6 @@
     {
       "date": "2026-11-07",
       "time": "20:00",
-      "title": "Austin Giorgio",
-      "support": null,
-      "venue": "Caribou Room - Menomonee Falls",
-      "hood": "Menomonee Falls",
-      "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/d7/20/f1d720b6-f9dd-2c3b-4e94-71a1857eae36/mzaf_234417470227365002.plus.aac.p.m4a",
-        "track": "You Put a Spell on Me",
-        "artist": "Austin Giorgio",
-        "kind": "Pop"
-      },
-      "slug": "austin-giorgio-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "20:00",
       "title": "Better Than Ezra",
       "support": null,
       "venue": "Pabst Theater",
@@ -3024,6 +2833,30 @@
         "kind": "Comedy"
       },
       "slug": "matt-rife-2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "20:00",
+      "title": "Austin Giorgio",
+      "support": null,
+      "venue": "Caribou Room - Menomonee Falls",
+      "hood": "Menomonee Falls",
+      "genre": "pop",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/d7/20/f1d720b6-f9dd-2c3b-4e94-71a1857eae36/mzaf_234417470227365002.plus.aac.p.m4a",
+        "track": "You Put a Spell on Me",
+        "artist": "Austin Giorgio",
+        "kind": "Pop"
+      },
+      "slug": "austin-giorgio-2026-11-07"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194304955%2F285524009645%2F1%2Foriginal.20260924-182958?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=827d284adc958b5f0547ffaf3d94391c",
@@ -3425,30 +3258,6 @@
     {
       "date": "2026-11-11",
       "time": "20:00",
-      "title": "Tyler Ballgame",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/18/47/1e1847a2-7b54-1d60-b276-0ad4e070af50/mzaf_11625053578229540426.plus.aac.p.m4a",
-        "track": "I Believe In Love",
-        "artist": "Tyler Ballgame",
-        "kind": "Alternative"
-      },
-      "slug": "tyler-ballgame-2026-11-11"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "20:00",
       "title": "Micky Dolenz",
       "support": null,
       "venue": "Pabst Theater",
@@ -3469,6 +3278,30 @@
         "kind": "Rock"
       },
       "slug": "micky-dolenz-2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "time": "20:00",
+      "title": "Tyler Ballgame",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/18/47/1e1847a2-7b54-1d60-b276-0ad4e070af50/mzaf_11625053578229540426.plus.aac.p.m4a",
+        "track": "I Believe In Love",
+        "artist": "Tyler Ballgame",
+        "kind": "Alternative"
+      },
+      "slug": "tyler-ballgame-2026-11-11"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/19a/5916bf6f-8c45-479b-9492-388ae74ab19a_RETINA_PORTRAIT_16_9.jpg",
@@ -3881,30 +3714,6 @@
     {
       "date": "2026-11-13",
       "time": "20:00",
-      "title": "Steve Martin",
-      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
-        "track": "King Tut",
-        "artist": "Steve Martin",
-        "kind": "Comedy"
-      },
-      "slug": "steve-martin-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "20:00",
       "title": "Hovvdy",
       "support": null,
       "venue": "Vivarium",
@@ -3925,6 +3734,30 @@
         "kind": "Alternative"
       },
       "slug": "hovvdy-2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Steve Martin",
+      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
+      "venue": "Miller High Life Theatre",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
+        "track": "King Tut",
+        "artist": "Steve Martin",
+        "kind": "Comedy"
+      },
+      "slug": "steve-martin-2026-11-13"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193495971%2F285524009645%2F1%2Foriginal.20260914-214620?w=640&auto=format%2Ccompress&q=75&sharp=10&s=7f06fb5f53025a5b2cdea07e83bc1c19",
@@ -4242,23 +4075,23 @@
       "slug": "kelsey-hart-2026-11-14"
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191968197%2F285524009645%2F1%2Foriginal.20260826-181647?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=996b92e14abfd5e1361a5beb4d9e50f2",
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196405657%2F2971726526301%2F1%2Foriginal.20261022-224339?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ac2e8051707778902bc138d5e3b505f1",
       "date": "2026-11-14",
       "time": "20:00",
-      "title": "BOY MOB: The Ultimate Boy Band Experience",
+      "title": "Boy Band Party w/ BOY MOB!",
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
       "genre": "other",
       "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/boy-mob-the-ultimate-boy-band-experience-tickets-1998442182364",
+      "url": "https://www.eventbrite.com/e/boy-band-party-w-boy-mob-tickets-1998442182364",
       "offers": [
         {
           "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/boy-mob-the-ultimate-boy-band-experience-tickets-1998442182364"
+          "url": "https://www.eventbrite.com/e/boy-band-party-w-boy-mob-tickets-1998442182364"
         }
       ],
-      "slug": "boy-mob-the-ultimate-boy-band-experience-2026-11-14"
+      "slug": "boy-band-party-w-boy-mob-2026-11-14"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194442977%2F285524009645%2F1%2Foriginal.20260927-022840?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e1c43feb1b8042b96f0a45754e264601",
@@ -4434,6 +4267,24 @@
     {
       "date": "2026-11-15",
       "time": "20:00",
+      "title": "Luke Kidgell",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
+        }
+      ],
+      "slug": "luke-kidgell-2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "time": "20:00",
       "title": "The Wood Brothers",
       "support": "Amelia Day",
       "venue": "Turner Hall Ballroom",
@@ -4454,24 +4305,6 @@
         "kind": "Country"
       },
       "slug": "the-wood-brothers-2026-11-15"
-    },
-    {
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "Luke Kidgell",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
-        }
-      ],
-      "slug": "luke-kidgell-2026-11-15"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190501470%2F285524009645%2F1%2Foriginal.20260806-215239?w=640&auto=format%2Ccompress&q=75&sharp=10&s=b72f6b76147f929a4ae8419c2db73fbe",
@@ -5245,6 +5078,30 @@
     {
       "date": "2026-11-22",
       "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:00",
       "title": "Hot Freaks",
       "support": "Thesaurus Rex",
       "venue": "The Argo",
@@ -5270,30 +5127,6 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-2026-11-22"
-    },
-    {
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195614820%2F285524009645%2F1%2Foriginal.20261012-160533?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d7d13c0e8b26357843d249469f87d5b",
@@ -8547,9 +8380,13 @@
       "venue": "Pabst Theater",
       "hood": "Downtown",
       "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7FFk",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2027-02-05-7-pm/18711031",
       "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2027-02-05-7-pm/18711031"
+        },
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7FFk"
@@ -8961,6 +8798,34 @@
         "kind": "Death Metal/Black Metal"
       },
       "slug": "eluveitie-2027-02-18"
+    },
+    {
+      "date": "2027-02-19",
+      "time": "20:00",
+      "title": "Hairball",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/hairball-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-19-8-pm/concert/18670034",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/hairball-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-19-8-pm/concert/18670034"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-ea"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/cd/27/3fcd27f1-df4b-7add-9e0b-75eb4bbc172c/mzaf_16633973507991369109.plus.aac.p.m4a",
+        "track": "Make Some Noise",
+        "artist": "Hairball",
+        "kind": "Rock"
+      },
+      "slug": "hairball-2027-02-19"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195316171%2F285524009645%2F1%2Foriginal.20261007-204738?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=793d1a97b2a51c854a281542a9ee440f",
