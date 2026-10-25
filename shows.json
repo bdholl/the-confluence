@@ -1,259 +1,6 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/4af/a7091ede-2fb7-4276-a6fc-5d1f208d74af_RETINA_PORTRAIT_16_9.jpg",
-      "price": 51.22,
-      "date": "2026-10-24",
-      "time": "18:30",
-      "title": "D.L. Hughley",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869393",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/dl-hughley-milwaukee-improv-main-room-tickets/14869393",
-          "price": 51.22
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/dl-hughley-tickets/comedy/2026-10-24-6-30-pm/18400870"
-        }
-      ],
-      "times": [
-        "18:30",
-        "21:00"
-      ],
-      "slug": "d-l-hughley-2026-10-24"
-    },
-    {
-      "date": "2026-10-24",
-      "time": "19:00",
-      "title": "Milo Rossi - Ages 13+",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PtOY",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PtOY"
-        }
-      ],
-      "slug": "milo-rossi-ages-13-2026-10-24"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196301045%2F2971726526301%2F1%2Foriginal.20261021-182038?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=247c24c08bf782cbbcd07fe46bb74fe3",
-      "date": "2026-10-24",
-      "time": "19:00",
-      "title": "World Series Watch Party",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737673320",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737673320"
-        }
-      ],
-      "slug": "world-series-watch-party-2026-10-24"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-24",
-      "time": "20:00",
-      "title": "Widespread Panic",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "blues",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-24-8-pm/concert/18327290",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/widespread-panic-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-24-8-pm/concert/18327290"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POfx"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/97/2c/ed/972ced45-9864-5470-caf9-321e612191c8/mzaf_10403575814145893179.plus.aac.p.m4a",
-        "track": "Up All Night",
-        "artist": "Widespread Panic",
-        "kind": "Rock"
-      },
-      "slug": "widespread-panic-2026-10-24"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/51/48/23_Edp.jpg?v=8",
-      "price": 30.37,
-      "date": "2026-10-24",
-      "time": "20:00",
-      "title": "In Her Own Words x Every Avenue",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/in-her-own-words-x-shank-hall-tickets/14919153",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/in-her-own-words-x-shank-hall-tickets/14919153",
-          "price": 30.37
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/in-her-own-words-tickets/milwaukee-wisconsin-shank-hall-2026-10-24-8-pm/concert/18400608"
-        }
-      ],
-      "slug": "in-her-own-words-x-every-avenue-2026-10-24"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/33d/dd46a09c-8864-4c1f-84e3-8cf950c6833d_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-24",
-      "time": "20:00",
-      "title": "Zoso The Ultimate Led Zeppelin Experience",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7pe",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7pe"
-        }
-      ],
-      "slug": "zoso-the-ultimate-led-zeppelin-experience-2026-10-24"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/734/8ee3aa34-1d10-4a99-a45b-36de87456734_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-24",
-      "time": "20:00",
-      "title": "Dylan Scott",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/dylan-scott-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18526286",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/dylan-scott-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18526286"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9f/6e/09/9f6e0931-5d95-9f85-6b3f-4f25e2125f4c/mzaf_11111717011070617742.plus.aac.p.m4a",
-        "track": "My Girl",
-        "artist": "Dylan Scott",
-        "kind": "Country"
-      },
-      "slug": "dylan-scott-2026-10-24"
-    },
-    {
-      "date": "2026-10-24",
-      "time": "20:00",
-      "title": "ZOSO - The Ultimate Led Zeppelin Experience",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/zoso-the-ultimate-led-zeppelin-experience-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18587490",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/zoso-the-ultimate-led-zeppelin-experience-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18587490"
-        }
-      ],
-      "slug": "zoso-the-ultimate-led-zeppelin-experience-2026-10-24-2"
-    },
-    {
-      "date": "2026-10-24",
-      "time": "20:00",
-      "title": "Vincent Neil Emerson",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/vincent-neil-emerson-tickets/milwaukee-wisconsin-vivarium-2026-10-24-8-pm/concert/18587852",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/vincent-neil-emerson-tickets/milwaukee-wisconsin-vivarium-2026-10-24-8-pm/concert/18587852"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/f6/b5/f0/f6b5f053-cd2b-cbea-241f-a838e3c38b17/mzaf_5812716478340809703.plus.aac.p.m4a",
-        "track": "Texas Moon",
-        "artist": "Vincent Neil Emerson",
-        "kind": "Country"
-      },
-      "slug": "vincent-neil-emerson-2026-10-24"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186104394%2F285524009645%2F1%2Foriginal.20260603-214338?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=32e76eef0a2ff92e46c83fff40c7ff07",
-      "date": "2026-10-24",
-      "time": "20:00",
-      "title": "The Longest Johns w/ Sean Dagher",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "folk",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-longest-johns-w-sean-dagher-tickets-1990993982598",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-longest-johns-w-sean-dagher-tickets-1990993982598"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5e/ab/8b/5eab8b2a-35ea-d984-07de-e679a383b548/mzaf_14943642109895982267.plus.aac.p.m4a",
-        "track": "Wellerman",
-        "artist": "The Longest Johns",
-        "kind": "Alternative Folk"
-      },
-      "slug": "the-longest-johns-w-sean-dagher-2026-10-24"
-    },
-    {
-      "date": "2026-10-24",
-      "time": "21:00",
-      "title": "IT GIRL",
-      "support": "Jae Hanz",
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xf",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xf"
-        }
-      ],
-      "slug": "it-girl-2026-10-24"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/1df/4b675206-d18a-4bc0-999a-efb3fdf981df_1860851_RETINA_PORTRAIT_16_9.jpg",
       "price": 32.39,
@@ -1319,30 +1066,6 @@
     {
       "date": "2026-10-31",
       "time": "20:00",
-      "title": "The Paradox",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/54/d3/4454d38b-7713-6432-d781-546102625080/mzaf_9180604864890607563.plus.aac.p.m4a",
-        "track": "Bender (feat. Travis Barker)",
-        "artist": "The Paradox",
-        "kind": "Pop/Rock"
-      },
-      "slug": "the-paradox-2026-10-31"
-    },
-    {
-      "date": "2026-10-31",
-      "time": "20:00",
       "title": "Daniel Donato",
       "support": null,
       "venue": "Pabst Theater",
@@ -1363,6 +1086,30 @@
         "kind": "Americana"
       },
       "slug": "daniel-donato-2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
+      "time": "20:00",
+      "title": "The Paradox",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/54/d3/4454d38b-7713-6432-d781-546102625080/mzaf_9180604864890607563.plus.aac.p.m4a",
+        "track": "Bender (feat. Travis Barker)",
+        "artist": "The Paradox",
+        "kind": "Pop/Rock"
+      },
+      "slug": "the-paradox-2026-10-31"
     },
     {
       "date": "2026-10-31",
@@ -2959,30 +2706,6 @@
     {
       "date": "2026-11-11",
       "time": "20:00",
-      "title": "Micky Dolenz",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/ea/7a/e2ea7aa3-4232-129e-b167-dcc0919df961/mzaf_3825163222081962595.plus.aac.p.m4a",
-        "track": "Good Morning Good Morning",
-        "artist": "Micky Dolenz",
-        "kind": "Rock"
-      },
-      "slug": "micky-dolenz-2026-11-11"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "20:00",
       "title": "Tyler Ballgame",
       "support": null,
       "venue": "Vivarium",
@@ -3003,6 +2726,30 @@
         "kind": "Alternative"
       },
       "slug": "tyler-ballgame-2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "time": "20:00",
+      "title": "Micky Dolenz",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/ea/7a/e2ea7aa3-4232-129e-b167-dcc0919df961/mzaf_3825163222081962595.plus.aac.p.m4a",
+        "track": "Good Morning Good Morning",
+        "artist": "Micky Dolenz",
+        "kind": "Rock"
+      },
+      "slug": "micky-dolenz-2026-11-11"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/19a/5916bf6f-8c45-479b-9492-388ae74ab19a_RETINA_PORTRAIT_16_9.jpg",
@@ -3287,6 +3034,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/welshly-arms-shank-hall-tickets/15036363",
           "price": 24.96
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/welshly-arms-tickets/milwaukee-wisconsin-shank-hall-2026-11-13-8-pm/concert/18526347"
         }
       ],
       "preview": {
@@ -3504,30 +3255,6 @@
         "kind": "Dubstep"
       },
       "slug": "phrva-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "21:00",
-      "title": "Emo Night Karaoke",
-      "support": null,
-      "venue": "Falcon Bowl",
-      "hood": "Milwaukee",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/f0/4a/fef04a61-3dae-0bd6-9220-9b10010011c8/mzaf_14475222405771659306.plus.aac.p.m4a",
-        "track": "Drivers License",
-        "artist": "Emo Night Karaoke",
-        "kind": "Rock"
-      },
-      "slug": "emo-night-karaoke-2026-11-13"
     },
     {
       "date": "2026-11-14",
@@ -8606,6 +8333,24 @@
         }
       ],
       "slug": "sonic-live-in-concert-2027-02-20"
+    },
+    {
+      "date": "2027-02-21",
+      "time": "10:00",
+      "title": "Mama Tried Motorcycle Show",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw_F",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw_F"
+        }
+      ],
+      "slug": "mama-tried-motorcycle-show-2027-02-21"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195316171%2F285524009645%2F1%2Foriginal.20261007-204738?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=793d1a97b2a51c854a281542a9ee440f",
