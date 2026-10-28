@@ -1,113 +1,24 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "shows": [
     {
-      "img": "https://i.ticketweb.com/i/00/12/96/98/64_Edp.jpg?v=7",
-      "price": 30.37,
-      "date": "2026-10-27",
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196775290%2F2748863006061%2F1%2Foriginal.20261028-152036?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=05bc577bcc5a86688d033879c51cdf28",
+      "date": "2026-10-28",
       "time": "18:00",
-      "title": " Nosferatu Undead",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/-nosferatu-undead-shank-hall-tickets/14253924",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/-nosferatu-undead-shank-hall-tickets/14253924",
-          "price": 30.37
-        }
-      ],
-      "slug": "nosferatu-undead-2026-10-27"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196601096%2F2748863006061%2F1%2Foriginal.20261026-151438?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1d66625abcce1cf2c902b06b7f6fd5df",
-      "date": "2026-10-27",
-      "time": "18:00",
-      "title": "World Series Watch Party",
+      "title": "Game 5 World Series Watch Party",
       "support": null,
       "venue": "The Argo",
       "hood": "Whitefish Bay",
       "genre": "other",
       "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737956166",
+      "url": "https://www.eventbrite.com/e/game-5-world-series-watch-party-tickets-2004022869349",
       "offers": [
         {
           "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737956166"
+          "url": "https://www.eventbrite.com/e/game-5-world-series-watch-party-tickets-2004022869349"
         }
       ],
-      "slug": "world-series-watch-party-2026-10-27"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/8ae/76dadbb0-93e3-4c6c-b1da-3a0158a228ae_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-27",
-      "time": "19:00",
-      "title": "Fr. Mike Schmitz",
-      "support": null,
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZy4Y",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZy4Y"
-        }
-      ],
-      "slug": "fr-mike-schmitz-2026-10-27"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/3e6/a5887c53-4a2a-4c10-baa4-fa9f23df23e6_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-10-27",
-      "time": "20:00",
-      "title": "Old Crow Medicine Show",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-S",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_-S"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/93/ad/c893ad2f-c1ac-e598-5e1b-ff88bae0a9f0/mzaf_5692155206557567243.plus.aac.p.m4a",
-        "track": "Wagon Wheel",
-        "artist": "Old Crow Medicine Show",
-        "kind": "Americana"
-      },
-      "slug": "old-crow-medicine-show-2026-10-27"
-    },
-    {
-      "date": "2026-10-27",
-      "time": "20:00",
-      "title": "Old Crow Medicine Show",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "folk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/old-crow-medicine-show-tickets/milwaukee-wisconsin-pabst-theater-2026-10-27-8-pm/concert/18526308",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/old-crow-medicine-show-tickets/milwaukee-wisconsin-pabst-theater-2026-10-27-8-pm/concert/18526308"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/93/ad/c893ad2f-c1ac-e598-5e1b-ff88bae0a9f0/mzaf_5692155206557567243.plus.aac.p.m4a",
-        "track": "Wagon Wheel",
-        "artist": "Old Crow Medicine Show",
-        "kind": "Americana"
-      },
-      "slug": "old-crow-medicine-show-2026-10-27-2"
+      "slug": "game-5-world-series-watch-party-2026-10-28"
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/63/09/63_Edp.jpg?v=7",
@@ -129,44 +40,6 @@
         }
       ],
       "slug": "the-granny-horror-bingo-show-2026-10-28"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193111918%2F285524009645%2F1%2Foriginal.20260909-225140?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6d9296159e2c4081fa75409248cce81f",
-      "date": "2026-10-28",
-      "time": "19:00",
-      "title": "The Haha Yeah Yeah's w/ Pecking Order & Pspsps (18+)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-haha-yeah-yeahs-w-pecking-order-pspsps-18-tickets-2000323230630",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-haha-yeah-yeahs-w-pecking-order-pspsps-18-tickets-2000323230630"
-        }
-      ],
-      "slug": "the-haha-yeah-yeah-s-w-pecking-order-and-pspsps-18-2026-10-28"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195307286%2F285524009645%2F1%2Foriginal.20261007-190633?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f193a418bdf39832d08f520a3664e0e1",
-      "date": "2026-10-28",
-      "time": "19:00",
-      "title": "Quizmaster Trivia Night",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2003092229781",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2003092229781"
-        }
-      ],
-      "slug": "quizmaster-trivia-night-2026-10-28"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/472/1426901f-6f24-44ff-986e-54c2f1743472_RETINA_PORTRAIT_16_9.jpg",
@@ -479,8 +352,8 @@
       "slug": "rehash-2026-10-29"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/04/66/64_Edp.jpg?v=5",
-      "price": 26.22,
+      "img": "https://i.ticketweb.com/i/00/13/04/66/64_Edp.jpg?v=7",
+      "price": 32.39,
       "date": "2026-10-30",
       "time": "19:00",
       "title": "Ryan Davis",
@@ -494,7 +367,7 @@
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/ryan-davis-milwaukee-improv-main-room-tickets/14330454",
-          "price": 26.22
+          "price": 32.39
         }
       ],
       "times": [
@@ -754,8 +627,8 @@
       "slug": "trapper-schoepp-s-tribute-to-tom-petty-2026-10-31"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/04/66/64_Edp.jpg?v=5",
-      "price": 26.22,
+      "img": "https://i.ticketweb.com/i/00/13/11/89/94_Edp.jpg?v=2",
+      "price": 32.39,
       "date": "2026-10-31",
       "time": "18:30",
       "title": "Ryan Davis",
@@ -769,7 +642,7 @@
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/ryan-davis-milwaukee-improv-main-room-tickets/14330464",
-          "price": 26.22
+          "price": 32.39
         }
       ],
       "slug": "ryan-davis-2026-10-31"
@@ -906,7 +779,7 @@
       "slug": "tvboo-2026-10-31"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/12/97/56/24_Edp.jpg?v=11",
+      "img": "https://i.ticketweb.com/i/00/12/97/56/24_Edp.jpg?v=12",
       "price": 26.22,
       "date": "2026-11-01",
       "time": "18:00",
@@ -1392,6 +1265,35 @@
     {
       "date": "2026-11-05",
       "time": "20:00",
+      "title": "Levi Bloom",
+      "support": "Caldwell & Alyssia Dominguez",
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "country",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/levi-bloom-w-caldwell-alyssia-dominguez-tickets-1998799667612",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/levi-bloom-w-caldwell-alyssia-dominguez-tickets-1998799667612"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/levi-bloom-tickets/whitefish-bay-wisconsin-the-argo-2026-11-05-8-pm/concert/18537573"
+        }
+      ],
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191898542%2F285524009645%2F1%2Foriginal.20260825-222902?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f5d2725180a38711917a7c5b1b1da481",
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/dd/37/28dd37dc-a6cb-2923-571b-341b77e97d12/mzaf_5829380922169106009.plus.aac.p.m4a",
+        "track": "Mama Said",
+        "artist": "Levi Bloom",
+        "kind": "Country"
+      },
+      "slug": "levi-bloom-2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:00",
       "title": "Brigitte Calls Me Baby",
       "support": null,
       "venue": "Vivarium",
@@ -1412,35 +1314,6 @@
         "kind": "Alternative"
       },
       "slug": "brigitte-calls-me-baby-2026-11-05"
-    },
-    {
-      "date": "2026-11-05",
-      "time": "20:00",
-      "title": "Levi Bloom",
-      "support": "Alyssia Dominguez",
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "country",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/levi-bloom-w-alyssia-dominguez-tickets-1998799667612",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/levi-bloom-w-alyssia-dominguez-tickets-1998799667612"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/levi-bloom-tickets/whitefish-bay-wisconsin-the-argo-2026-11-05-8-pm/concert/18537573"
-        }
-      ],
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191898542%2F285524009645%2F1%2Foriginal.20260825-222902?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f5d2725180a38711917a7c5b1b1da481",
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/dd/37/28dd37dc-a6cb-2923-571b-341b77e97d12/mzaf_5829380922169106009.plus.aac.p.m4a",
-        "track": "Mama Said",
-        "artist": "Levi Bloom",
-        "kind": "Country"
-      },
-      "slug": "levi-bloom-2026-11-05"
     },
     {
       "date": "2026-11-05",
@@ -1649,6 +1522,31 @@
       "slug": "bela-fleck-2026-11-06"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187367778%2F285524009645%2F1%2Foriginal.20260622-004721?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.51&fp-y=0.737&s=69ab7cfb50286f22662d7328a3bbfbd2",
+      "date": "2026-11-06",
+      "time": "19:30",
+      "title": "The Wldlfe w/ Landon Conrath & Secret Menu",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "indie",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/the-wldlfe-w-landon-conrath-secret-menu-tickets-1991792351541",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/the-wldlfe-w-landon-conrath-secret-menu-tickets-1991792351541"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/f3/ce/d5f3ce96-cb8f-c111-c768-885e9b0dc478/mzaf_5874417366977152013.plus.aac.p.m4a",
+        "track": "Heart",
+        "artist": "The Wldlfe",
+        "kind": "Alternative"
+      },
+      "slug": "the-wldlfe-w-landon-conrath-and-secret-menu-2026-11-06"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/12d/16f49980-34d3-42ba-b0be-0ed89249912d_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-06",
       "time": "20:00",
@@ -1805,31 +1703,6 @@
         }
       ],
       "slug": "agriculture-2026-11-06"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187367778%2F285524009645%2F1%2Foriginal.20260622-004721?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.51&fp-y=0.737&s=69ab7cfb50286f22662d7328a3bbfbd2",
-      "date": "2026-11-06",
-      "time": "20:00",
-      "title": "The Wldlfe w/ Landon Conrath & Secret Menu",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "indie",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-wldlfe-w-landon-conrath-secret-menu-tickets-1991792351541",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-wldlfe-w-landon-conrath-secret-menu-tickets-1991792351541"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/f3/ce/d5f3ce96-cb8f-c111-c768-885e9b0dc478/mzaf_5874417366977152013.plus.aac.p.m4a",
-        "track": "Heart",
-        "artist": "The Wldlfe",
-        "kind": "Alternative"
-      },
-      "slug": "the-wldlfe-w-landon-conrath-and-secret-menu-2026-11-06"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188785733%2F285524009645%2F1%2Foriginal.20260713-210100?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.554&s=7699bd5a5d198400650f899646eaebf3",
@@ -2003,6 +1876,30 @@
     {
       "date": "2026-11-07",
       "time": "20:00",
+      "title": "Better Than Ezra",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/33/7a/0a/337a0af3-faf7-11b7-58ae-719a9589b966/mzaf_4280286902317630645.plus.aac.p.m4a",
+        "track": "Good",
+        "artist": "Better Than Ezra",
+        "kind": "Rock"
+      },
+      "slug": "better-than-ezra-2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "20:00",
       "title": "Austin Giorgio",
       "support": null,
       "venue": "Caribou Room - Menomonee Falls",
@@ -2047,30 +1944,6 @@
         "kind": "Comedy"
       },
       "slug": "matt-rife-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "20:00",
-      "title": "Better Than Ezra",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/33/7a/0a/337a0af3-faf7-11b7-58ae-719a9589b966/mzaf_4280286902317630645.plus.aac.p.m4a",
-        "track": "Good",
-        "artist": "Better Than Ezra",
-        "kind": "Rock"
-      },
-      "slug": "better-than-ezra-2026-11-07"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194304955%2F285524009645%2F1%2Foriginal.20260924-182958?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=827d284adc958b5f0547ffaf3d94391c",
@@ -2407,6 +2280,25 @@
         }
       ],
       "slug": "anthony-mrocka-2026-11-11"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196613669%2F285524009645%2F1%2Foriginal.20261026-172332?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8880abd5cd6a2a907829c042158c8c65",
+      "date": "2026-11-11",
+      "time": "19:30",
+      "title": "The Milwaukee American Legion Band: Veteran's Day Performance",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/the-milwaukee-american-legion-band-veterans-day-performance-tickets-2003928809012",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/the-milwaukee-american-legion-band-veterans-day-performance-tickets-2003928809012"
+        }
+      ],
+      "slug": "the-milwaukee-american-legion-band-veteran-s-day-performance-2026-11-11"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/113/a6487484-f2b3-4bca-a28b-32f016487113_RETINA_PORTRAIT_16_9.jpg",
@@ -3021,6 +2913,30 @@
         "kind": "Dubstep"
       },
       "slug": "phrva-2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "21:00",
+      "title": "Emo Night Karaoke",
+      "support": null,
+      "venue": "Falcon Bowl",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/f0/4a/fef04a61-3dae-0bd6-9220-9b10010011c8/mzaf_14475222405771659306.plus.aac.p.m4a",
+        "track": "Drivers License",
+        "artist": "Emo Night Karaoke",
+        "kind": "Rock"
+      },
+      "slug": "emo-night-karaoke-2026-11-13"
     },
     {
       "date": "2026-11-14",
@@ -5594,7 +5510,7 @@
       "slug": "story-of-the-year-2026-12-08"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/58/63/13_Edp.jpg?v=3",
+      "img": "https://i.ticketweb.com/i/00/13/58/63/13_Edp.jpg?v=5",
       "price": 44.94,
       "date": "2026-12-08",
       "time": "19:00",
@@ -6330,25 +6246,31 @@
       "slug": "lil-mo-mozzarella-2026-12-19"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/12/93/41/04_Edp.jpg?v=5",
+      "img": "https://i.ticketweb.com/i/00/12/93/41/04_Edp.jpg?v=6",
       "price": 30.37,
       "date": "2026-12-21",
       "time": "19:00",
-      "title": "The Sleighriders XLIII",
+      "title": "The Sleighriders",
       "support": null,
       "venue": "Shank Hall",
       "hood": "East Side",
       "genre": "rock",
       "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/the-sleighriders-xliii-shank-hall-tickets/14215624",
+      "url": "https://www.ticketweb.com/event/the-sleighriders-shank-hall-tickets/14215624",
       "offers": [
         {
           "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/the-sleighriders-xliii-shank-hall-tickets/14215624",
+          "url": "https://www.ticketweb.com/event/the-sleighriders-shank-hall-tickets/14215624",
           "price": 30.37
         }
       ],
-      "slug": "the-sleighriders-xliii-2026-12-21"
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/Music4/v4/d9/ea/f0/d9eaf0ec-5b0c-fb1e-e709-8853771dab20/mzaf_2869889541109299635.plus.aac.p.m4a",
+        "track": "Mr Santa",
+        "artist": "The Sleighriders",
+        "kind": "Soundtrack"
+      },
+      "slug": "the-sleighriders-2026-12-21"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
@@ -8174,6 +8096,105 @@
         }
       ],
       "slug": "mama-tried-motorcycle-show-2027-02-21"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/d0c/4429459a-7a75-4e95-899b-955fa0bded0c_RETINA_PORTRAIT_16_9.jpg",
+      "status": "rescheduled",
+      "date": "2027-02-24",
+      "time": "19:30",
+      "title": "Polyphia",
+      "support": "Ladrones, RJ Pasin",
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-milwaukee-wisconsin-02-24-2027/event/070064C9A3332F5D",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-milwaukee-wisconsin-02-24-2027/event/070064C9A3332F5D"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/polyphia-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-02-24-7-30-pm/concert/18312323"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/64/cc/da/64ccdac7-e8b2-9e08-bbef-8df8aecdcee0/mzaf_13623943434837930607.plus.aac.p.m4a",
+        "track": "Playing God",
+        "artist": "Polyphia",
+        "kind": "Hard Rock"
+      },
+      "slug": "polyphia-2027-02-24"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/56a/3e8efeec-66d8-48f1-87e7-6d05e91b956a_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-02-24",
+      "time": "19:30",
+      "title": "Professor Brian Cox",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwbg",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwbg"
+        }
+      ],
+      "slug": "professor-brian-cox-2027-02-24"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/09/44/24_Edp.jpg?v=3",
+      "price": 24.96,
+      "date": "2027-02-24",
+      "time": "20:00",
+      "title": "THE QUEERS + TOXIC ENERGY",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/the-queers-toxic-energy-shank-hall-tickets/14378674",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/the-queers-toxic-energy-shank-hall-tickets/14378674",
+          "price": 24.96
+        }
+      ],
+      "slug": "the-queers-toxic-energy-2027-02-24"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/059/8070547d-bbbd-4e18-aeda-59028003c059_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-02-24",
+      "time": "20:00",
+      "title": "Wheeler Walker Jr.",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/wheeler-walker-jr-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-24-8-pm/concert/18526291",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/wheeler-walker-jr-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-24-8-pm/concert/18526291"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PojS"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/8d/70/1e8d70c4-da51-d4e6-c872-e8c81d8037a3/mzaf_6137918486594514152.plus.aac.p.m4a",
+        "track": "She's a Country Music Fan",
+        "artist": "Wheeler Walker Jr.",
+        "kind": "Country"
+      },
+      "slug": "wheeler-walker-jr-2027-02-24"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195316171%2F285524009645%2F1%2Foriginal.20261007-204738?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=793d1a97b2a51c854a281542a9ee440f",

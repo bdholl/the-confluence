@@ -4,49 +4,13 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-10-27-18:00-NosferatuUndeadShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20261027T180000
-DTEND;TZID=America/Chicago:20261027T200000
-SUMMARY: Nosferatu Undead @ Shank Hall
-LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/-nosferatu-undead-shank-hall-tickets/14253924
-URL:https://www.ticketweb.com/event/-nosferatu-undead-shank-hall-tickets/14253924
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-27-18:00-WorldSeriesWatchPartyTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261027T180000
-DTEND;TZID=America/Chicago:20261027T200000
-SUMMARY:World Series Watch Party @ The Argo
+UID:2026-10-28-18:00-Game5WorldSeriesWatchPartyTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261028T180000
+DTEND;TZID=America/Chicago:20261028T200000
+SUMMARY:Game 5 World Series Watch Party @ The Argo
 LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737956166
-URL:https://www.eventbrite.com/e/world-series-watch-party-tickets-2003737956166
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-27-19:00-FrMikeSchmitzMillerHighLifeTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20261027T190000
-DTEND;TZID=America/Chicago:20261027T210000
-SUMMARY:Fr. Mike Schmitz @ Miller High Life Theatre
-LOCATION:Miller High Life Theatre\, Westown
-DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZy4Y
-URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZy4Y
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-27-20:00-OldCrowMedicineShowRiversideTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261027T200000
-DTEND;TZID=America/Chicago:20261027T220000
-SUMMARY:Old Crow Medicine Show @ Riverside Theater
-LOCATION:Riverside Theater\, Downtown
-DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_-S
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_-S
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-27-20:00-OldCrowMedicineShowPabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261027T200000
-DTEND;TZID=America/Chicago:20261027T220000
-SUMMARY:Old Crow Medicine Show @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/old-crow-medicine-show-tickets/milwaukee-wisconsin-pabst-theater-2026-10-27-8-pm/concert/18526308
-URL:https://seatgeek.com/old-crow-medicine-show-tickets/milwaukee-wisconsin-pabst-theater-2026-10-27-8-pm/concert/18526308
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/game-5-world-series-watch-party-tickets-2004022869349
+URL:https://www.eventbrite.com/e/game-5-world-series-watch-party-tickets-2004022869349
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-28-19:00-TheGrannyHorrorBingoShowMilwaukeeImprov@theconfluence
@@ -56,24 +20,6 @@ SUMMARY:The Granny Horror Bingo Show @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/the-granny-horror-bingo-show-milwaukee-improv-main-room-tickets/15033513
 URL:https://www.ticketweb.com/event/the-granny-horror-bingo-show-milwaukee-improv-main-room-tickets/15033513
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-28-19:00-TheHahaYeahYeahswPeckingOrderPspsps18The@theconfluence
-DTSTART;TZID=America/Chicago:20261028T190000
-DTEND;TZID=America/Chicago:20261028T210000
-SUMMARY:The Haha Yeah Yeah's w/ Pecking Order & Pspsps (18+) @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-haha-yeah-yeahs-w-pecking-order-pspsps-18-tickets-2000323230630
-URL:https://www.eventbrite.com/e/the-haha-yeah-yeahs-w-pecking-order-pspsps-18-tickets-2000323230630
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-28-19:00-QuizmasterTriviaNightTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261028T190000
-DTEND;TZID=America/Chicago:20261028T210000
-SUMMARY:Quizmaster Trivia Night @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2003092229781
-URL:https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2003092229781
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-28-20:00-BlueOctoberPabstTheater@theconfluence
@@ -526,6 +472,15 @@ DESCRIPTION:With Abbie Callahan. Tickets: https://www.ticketmaster.com/orville-p
 URL:https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-milwaukee-wisconsin-11-05-2026/event/070064EDB20E2C46
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-05-20:00-LeviBloomTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261105T200000
+DTEND;TZID=America/Chicago:20261105T220000
+SUMMARY:Levi Bloom @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:With Caldwell & Alyssia Dominguez. Tickets: https://www.eventbrite.com/e/levi-bloom-w-caldwell-alyssia-dominguez-tickets-1998799667612
+URL:https://www.eventbrite.com/e/levi-bloom-w-caldwell-alyssia-dominguez-tickets-1998799667612
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-05-20:00-BrigitteCallsMeBabyVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261105T200000
 DTEND;TZID=America/Chicago:20261105T220000
@@ -533,15 +488,6 @@ SUMMARY:Brigitte Calls Me Baby @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574
 URL:https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-05-20:00-LeviBloomTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261105T200000
-DTEND;TZID=America/Chicago:20261105T220000
-SUMMARY:Levi Bloom @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:With Alyssia Dominguez. Tickets: https://www.eventbrite.com/e/levi-bloom-w-alyssia-dominguez-tickets-1998799667612
-URL:https://www.eventbrite.com/e/levi-bloom-w-alyssia-dominguez-tickets-1998799667612
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05-20:00-WaterparksTheRaveEaglesClub@theconfluence
@@ -625,6 +571,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/bela-fleck-tickets/brookfield-wisconsi
 URL:https://seatgeek.com/bela-fleck-tickets/brookfield-wisconsin-sharon-lynne-wilson-center-for-the-arts-2026-11-06-7-30-pm/concert/18609255
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-06-19:30-TheWldlfewLandonConrathSecretMenuTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261106T193000
+DTEND;TZID=America/Chicago:20261106T213000
+SUMMARY:The Wldlfe w/ Landon Conrath & Secret Menu @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-wldlfe-w-landon-conrath-secret-menu-tickets-1991792351541
+URL:https://www.eventbrite.com/e/the-wldlfe-w-landon-conrath-secret-menu-tickets-1991792351541
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-06-20:00-BrigitteCallsMeBabyVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261106T200000
 DTEND;TZID=America/Chicago:20261106T220000
@@ -677,15 +632,6 @@ SUMMARY:Agriculture @ Falcon Bowl
 LOCATION:Falcon Bowl\, Milwaukee
 DESCRIPTION:Tickets: https://seatgeek.com/agriculture-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-06-8-pm/concert/18343769
 URL:https://seatgeek.com/agriculture-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-06-8-pm/concert/18343769
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-06-20:00-TheWldlfewLandonConrathSecretMenuTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261106T200000
-DTEND;TZID=America/Chicago:20261106T220000
-SUMMARY:The Wldlfe w/ Landon Conrath & Secret Menu @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-wldlfe-w-landon-conrath-secret-menu-tickets-1991792351541
-URL:https://www.eventbrite.com/e/the-wldlfe-w-landon-conrath-secret-menu-tickets-1991792351541
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06-20:00-BrotherAliMidwestTrek26wDJAbilitiesTheAr@theconfluence
@@ -751,6 +697,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/teddy-thompson-shank-hall-t
 URL:https://www.ticketweb.com/event/teddy-thompson-shank-hall-tickets/14930243
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-07-20:00-BetterThanEzraPabstTheater@theconfluence
+DTSTART;TZID=America/Chicago:20261107T200000
+DTEND;TZID=America/Chicago:20261107T220000
+SUMMARY:Better Than Ezra @ Pabst Theater
+LOCATION:Pabst Theater\, Downtown
+DESCRIPTION:Tickets: https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245
+URL:https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-07-20:00-AustinGiorgioCaribouRoomMenomoneeFalls@theconfluence
 DTSTART;TZID=America/Chicago:20261107T200000
 DTEND;TZID=America/Chicago:20261107T220000
@@ -767,15 +722,6 @@ SUMMARY:Matt Rife @ Fiserv Forum
 LOCATION:Fiserv Forum\, Deer District
 DESCRIPTION:Tickets: https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290
 URL:https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-20:00-BetterThanEzraPabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261107T200000
-DTEND;TZID=America/Chicago:20261107T220000
-SUMMARY:Better Than Ezra @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245
-URL:https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07-20:00-SmartMouthTheArgo@theconfluence
@@ -902,6 +848,15 @@ SUMMARY:Anthony Mrocka @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/anthony-mrocka-milwaukee-improv-main-room-tickets/14775323
 URL:https://www.ticketweb.com/event/anthony-mrocka-milwaukee-improv-main-room-tickets/14775323
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-19:30-TheMilwaukeeAmericanLegionBandVeteransDa@theconfluence
+DTSTART;TZID=America/Chicago:20261111T193000
+DTEND;TZID=America/Chicago:20261111T213000
+SUMMARY:The Milwaukee American Legion Band: Veteran's Day Performance @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-milwaukee-american-legion-band-veterans-day-performance-tickets-2003928809012
+URL:https://www.eventbrite.com/e/the-milwaukee-american-legion-band-veterans-day-performance-tickets-2003928809012
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11-20:00-ChiefKeefLandmarkCreditUnionLive@theconfluence
@@ -1109,6 +1064,15 @@ SUMMARY:Phrva @ Miramar Theatre
 LOCATION:Miramar Theatre\, Milwaukee
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAvK_4
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvK_4
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-21:00-EmoNightKaraokeFalconBowl@theconfluence
+DTSTART;TZID=America/Chicago:20261113T210000
+DTEND;TZID=America/Chicago:20261113T230000
+SUMMARY:Emo Night Karaoke @ Falcon Bowl
+LOCATION:Falcon Bowl\, Milwaukee
+DESCRIPTION:Tickets: https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837
+URL:https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-18:00-IconsofCountryRoute20@theconfluence
@@ -2263,13 +2227,13 @@ DESCRIPTION:Tickets: https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-
 URL:https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-12-19-8-pm/18400980
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-21-19:00-TheSleighridersXLIIIShankHall@theconfluence
+UID:2026-12-21-19:00-TheSleighridersShankHall@theconfluence
 DTSTART;TZID=America/Chicago:20261221T190000
 DTEND;TZID=America/Chicago:20261221T210000
-SUMMARY:The Sleighriders XLIII @ Shank Hall
+SUMMARY:The Sleighriders @ Shank Hall
 LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/the-sleighriders-xliii-shank-hall-tickets/14215624
-URL:https://www.ticketweb.com/event/the-sleighriders-xliii-shank-hall-tickets/14215624
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/the-sleighriders-shank-hall-tickets/14215624
+URL:https://www.ticketweb.com/event/the-sleighriders-shank-hall-tickets/14215624
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-26-10:00-BlueysBigPlayMillerHighLifeTheatre@theconfluence
@@ -2936,6 +2900,42 @@ SUMMARY:Mama Tried Motorcycle Show @ The Rave / Eagles Club
 LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAvw_F
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvw_F
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-24-19:30-PolyphiaLandmarkCreditUnionLive@theconfluence
+DTSTART;TZID=America/Chicago:20270224T193000
+DTEND;TZID=America/Chicago:20270224T213000
+SUMMARY:Polyphia @ Landmark Credit Union Live
+LOCATION:Landmark Credit Union Live\, Milwaukee
+DESCRIPTION:With Ladrones\, RJ Pasin. Tickets: https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-milwaukee-wisconsin-02-24-2027/event/070064C9A3332F5D
+URL:https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-milwaukee-wisconsin-02-24-2027/event/070064C9A3332F5D
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-24-19:30-ProfessorBrianCoxPabstTheater@theconfluence
+DTSTART;TZID=America/Chicago:20270224T193000
+DTEND;TZID=America/Chicago:20270224T213000
+SUMMARY:Professor Brian Cox @ Pabst Theater
+LOCATION:Pabst Theater\, Downtown
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAvwbg
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvwbg
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-24-20:00-THEQUEERSTOXICENERGYShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270224T200000
+DTEND;TZID=America/Chicago:20270224T220000
+SUMMARY:THE QUEERS + TOXIC ENERGY @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/the-queers-toxic-energy-shank-hall-tickets/14378674
+URL:https://www.ticketweb.com/event/the-queers-toxic-energy-shank-hall-tickets/14378674
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-24-20:00-WheelerWalkerJrTheRaveEaglesClub@theconfluence
+DTSTART;TZID=America/Chicago:20270224T200000
+DTEND;TZID=America/Chicago:20270224T220000
+SUMMARY:Wheeler Walker Jr. @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
+DESCRIPTION:Tickets: https://seatgeek.com/wheeler-walker-jr-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-24-8-pm/concert/18526291
+URL:https://seatgeek.com/wheeler-walker-jr-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-24-8-pm/concert/18526291
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-13-20:00-FoolHouseTheUltimate90sPartyWOWThatsWhat@theconfluence
