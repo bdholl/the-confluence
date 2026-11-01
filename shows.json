@@ -1,203 +1,6 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "shows": [
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196009507%2F285524009645%2F1%2Foriginal.20261017-173436?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=16280c3486c1bb6b6bdb6b52b06e1b9e",
-      "date": "2026-10-31",
-      "time": "11:00",
-      "title": "Kid Boogie Down: Halloween Spooktacular Dance Party",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/kid-boogie-down-halloween-spooktacular-dance-party-tickets-1999796540285",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/kid-boogie-down-halloween-spooktacular-dance-party-tickets-1999796540285"
-        }
-      ],
-      "slug": "kid-boogie-down-halloween-spooktacular-dance-party-2026-10-31"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/01/79/34_Edp.jpg?v=5",
-      "status": "cancelled",
-      "price": 19.3,
-      "date": "2026-10-31",
-      "time": "15:00",
-      "title": "Trapper Schoepp's tribute to Tom Petty",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/trapper-schoepps-tribute-to-tom-shank-hall-tickets/14301774",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/trapper-schoepps-tribute-to-tom-shank-hall-tickets/14301774",
-          "price": 19.3
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/trapper-schoepp-tickets/milwaukee-wisconsin-shank-hall-2026-10-31-3-pm/concert/18587609"
-        }
-      ],
-      "slug": "trapper-schoepp-s-tribute-to-tom-petty-2026-10-31"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/11/89/94_Edp.jpg?v=2",
-      "price": 32.39,
-      "date": "2026-10-31",
-      "time": "18:30",
-      "title": "Ryan Davis",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/ryan-davis-milwaukee-improv-main-room-tickets/14330464",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/ryan-davis-milwaukee-improv-main-room-tickets/14330464",
-          "price": 32.39
-        }
-      ],
-      "slug": "ryan-davis-2026-10-31"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195294998%2F285524009645%2F1%2Foriginal.20261007-165907?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=66c0b64fdbd6eb21bc90dcb22f58f85e",
-      "date": "2026-10-31",
-      "time": "19:00",
-      "title": "Halloween Karaoke & Costume Contest (21+)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/halloween-karaoke-costume-contest-21-tickets-2003019435050",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/halloween-karaoke-costume-contest-21-tickets-2003019435050"
-        }
-      ],
-      "slug": "halloween-karaoke-and-costume-contest-21-2026-10-31"
-    },
-    {
-      "date": "2026-10-31",
-      "time": "19:30",
-      "title": "Peter Antoniou",
-      "support": null,
-      "venue": "The Bend Theater",
-      "hood": "West Bend",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/peter-antoniou-tickets/comedy/2026-10-31-7-30-pm/18029530",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/peter-antoniou-tickets/comedy/2026-10-31-7-30-pm/18029530"
-        }
-      ],
-      "slug": "peter-antoniou-2026-10-31"
-    },
-    {
-      "date": "2026-10-31",
-      "time": "20:00",
-      "title": "Outlander in Concert",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/outlander-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-31-8-pm/concert/18151221"
-        }
-      ],
-      "slug": "outlander-in-concert-2026-10-31"
-    },
-    {
-      "date": "2026-10-31",
-      "time": "20:00",
-      "title": "Daniel Donato",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "folk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/daniel-donato-tickets/milwaukee-wisconsin-pabst-theater-2026-10-31-8-pm/concert/18400508"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/67/72/e2677282-2dba-99e6-a630-51129847f768/mzaf_16119325956718764931.plus.aac.p.m4a",
-        "track": "Fire on the Mountain",
-        "artist": "Daniel Donato",
-        "kind": "Americana"
-      },
-      "slug": "daniel-donato-2026-10-31"
-    },
-    {
-      "date": "2026-10-31",
-      "time": "20:00",
-      "title": "The Paradox",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/paradox-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-31-8-pm/concert/18356862"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/54/d3/4454d38b-7713-6432-d781-546102625080/mzaf_9180604864890607563.plus.aac.p.m4a",
-        "track": "Bender (feat. Travis Barker)",
-        "artist": "The Paradox",
-        "kind": "Pop/Rock"
-      },
-      "slug": "the-paradox-2026-10-31"
-    },
-    {
-      "date": "2026-10-31",
-      "time": "21:00",
-      "title": "TVBOO",
-      "support": "Mport",
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/tvboo-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-10-31-9-pm/concert/18427692",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/tvboo-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-10-31-9-pm/concert/18427692"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZK4-"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/30/03/15/30031529-1411-dcd5-5936-a9510ea2adbc/mzaf_6657019587903186681.plus.aac.p.m4a",
-        "track": "Skrawberries",
-        "artist": "TVBOO",
-        "kind": "Dubstep"
-      },
-      "slug": "tvboo-2026-10-31"
-    },
     {
       "img": "https://i.ticketweb.com/i/00/12/97/56/24_Edp.jpg?v=13",
       "price": 26.22,
@@ -518,30 +321,6 @@
     {
       "date": "2026-11-04",
       "time": "20:00",
-      "title": "Charlie Parr",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/charlie-parr-tickets/milwaukee-wisconsin-vivarium-2026-11-04-8-pm/concert/18526572",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/charlie-parr-tickets/milwaukee-wisconsin-vivarium-2026-11-04-8-pm/concert/18526572"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/f5/68/4af56859-d134-e3c1-4ae3-1acb3c8a2d03/mzaf_5457159552632818811.plus.aac.p.m4a",
-        "track": "Over the Red Cedar",
-        "artist": "Charlie Parr",
-        "kind": "Country"
-      },
-      "slug": "charlie-parr-2026-11-04"
-    },
-    {
-      "date": "2026-11-04",
-      "time": "20:00",
       "title": "Waterparks",
       "support": null,
       "venue": "The Rave / Eagles Club",
@@ -562,6 +341,30 @@
         "kind": "Alternative"
       },
       "slug": "waterparks-2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "20:00",
+      "title": "Charlie Parr",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/charlie-parr-tickets/milwaukee-wisconsin-vivarium-2026-11-04-8-pm/concert/18526572",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/charlie-parr-tickets/milwaukee-wisconsin-vivarium-2026-11-04-8-pm/concert/18526572"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/f5/68/4af56859-d134-e3c1-4ae3-1acb3c8a2d03/mzaf_5457159552632818811.plus.aac.p.m4a",
+        "track": "Over the Red Cedar",
+        "artist": "Charlie Parr",
+        "kind": "Country"
+      },
+      "slug": "charlie-parr-2026-11-04"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191449522%2F285524009645%2F1%2Foriginal.20260819-183102?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=307b2253e82667c6cd69274c261a0889",
@@ -621,7 +424,7 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/a/3ec/8c140ad6-da9e-4949-b008-c6441e1d53ec_RETINA_PORTRAIT_16_9.jpg",
-      "price": 11.67,
+      "price": 26.22,
       "date": "2026-11-05",
       "time": "19:00",
       "title": "Andrew Stanley",
@@ -635,7 +438,7 @@
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/andrew-stanley-milwaukee-improv-main-room-tickets/14278604",
-          "price": 11.67
+          "price": 26.22
         }
       ],
       "slug": "andrew-stanley-2026-11-05"
@@ -747,26 +550,26 @@
     {
       "date": "2026-11-05",
       "time": "20:00",
-      "title": "Waterparks",
+      "title": "Brigitte Calls Me Baby",
       "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
+      "venue": "Vivarium",
+      "hood": "East Side",
       "genre": "indie",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-05-8-pm/concert/18526289",
+      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-05-8-pm/concert/18526289"
+          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b1/1a/78/b11a780b-7358-b99d-7894-02f2201e63e0/mzaf_14301038776466085566.plus.aac.p.m4a",
-        "track": "Stupid for You",
-        "artist": "Waterparks",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
+        "track": "Slumber Party",
+        "artist": "Brigitte Calls Me Baby",
         "kind": "Alternative"
       },
-      "slug": "waterparks-2026-11-05"
+      "slug": "brigitte-calls-me-baby-2026-11-05"
     },
     {
       "date": "2026-11-05",
@@ -800,26 +603,26 @@
     {
       "date": "2026-11-05",
       "time": "20:00",
-      "title": "Brigitte Calls Me Baby",
+      "title": "Waterparks",
       "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
       "genre": "indie",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574",
+      "url": "https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-05-8-pm/concert/18526289",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/brigitte-calls-me-baby-tickets/milwaukee-wisconsin-vivarium-2026-11-05-8-pm/concert/18526574"
+          "url": "https://seatgeek.com/waterparks-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-05-8-pm/concert/18526289"
         }
       ],
       "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/88/ef/0888efb5-d63b-3ab9-249a-8dc2b9e72dc9/mzaf_129967017842137800.plus.aac.p.m4a",
-        "track": "Slumber Party",
-        "artist": "Brigitte Calls Me Baby",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b1/1a/78/b11a780b-7358-b99d-7894-02f2201e63e0/mzaf_14301038776466085566.plus.aac.p.m4a",
+        "track": "Stupid for You",
+        "artist": "Waterparks",
         "kind": "Alternative"
       },
-      "slug": "brigitte-calls-me-baby-2026-11-05"
+      "slug": "waterparks-2026-11-05"
     },
     {
       "date": "2026-11-05",
@@ -917,6 +720,24 @@
     {
       "date": "2026-11-06",
       "time": "19:00",
+      "title": "Mojo Brookzz",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363"
+        }
+      ],
+      "slug": "mojo-brookzz-2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "19:00",
       "title": "Ax and the Hatchetmen",
       "support": null,
       "venue": "Turner Hall Ballroom",
@@ -937,24 +758,6 @@
         "kind": "Indie Rock"
       },
       "slug": "ax-and-the-hatchetmen-2026-11-06"
-    },
-    {
-      "date": "2026-11-06",
-      "time": "19:00",
-      "title": "Mojo Brookzz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/mojo-brookzz-tickets/comedy/2026-11-06-7-pm/18374363"
-        }
-      ],
-      "slug": "mojo-brookzz-2026-11-06"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/ff9/230bc504-e335-44b6-9d57-24509c477ff9_RETINA_PORTRAIT_16_9.jpg",
@@ -1358,30 +1161,6 @@
     {
       "date": "2026-11-07",
       "time": "20:00",
-      "title": "Matt Rife",
-      "support": null,
-      "venue": "Fiserv Forum",
-      "hood": "Deer District",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/e0/6b/34/e06b3434-987a-8821-0cfc-a1183ddeb53a/mzaf_1171878245085044427.plus.aac.p.m4a",
-        "track": "Skanky Strip Clubs",
-        "artist": "Matt Rife",
-        "kind": "Comedy"
-      },
-      "slug": "matt-rife-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "20:00",
       "title": "Austin Giorgio",
       "support": null,
       "venue": "Caribou Room - Menomonee Falls",
@@ -1402,6 +1181,30 @@
         "kind": "Pop"
       },
       "slug": "austin-giorgio-2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "20:00",
+      "title": "Matt Rife",
+      "support": null,
+      "venue": "Fiserv Forum",
+      "hood": "Deer District",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/e0/6b/34/e06b3434-987a-8821-0cfc-a1183ddeb53a/mzaf_1171878245085044427.plus.aac.p.m4a",
+        "track": "Skanky Strip Clubs",
+        "artist": "Matt Rife",
+        "kind": "Comedy"
+      },
+      "slug": "matt-rife-2026-11-07"
     },
     {
       "date": "2026-11-07",
@@ -2335,30 +2138,6 @@
     {
       "date": "2026-11-13",
       "time": "20:00",
-      "title": "Steve Martin",
-      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
-        "track": "King Tut",
-        "artist": "Steve Martin",
-        "kind": "Comedy"
-      },
-      "slug": "steve-martin-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "20:00",
       "title": "Hovvdy",
       "support": null,
       "venue": "Vivarium",
@@ -2379,6 +2158,30 @@
         "kind": "Alternative"
       },
       "slug": "hovvdy-2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Steve Martin",
+      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
+      "venue": "Miller High Life Theatre",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
+        "track": "King Tut",
+        "artist": "Steve Martin",
+        "kind": "Comedy"
+      },
+      "slug": "steve-martin-2026-11-13"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193495971%2F285524009645%2F1%2Foriginal.20260914-214620?w=640&auto=format%2Ccompress&q=75&sharp=10&s=7f06fb5f53025a5b2cdea07e83bc1c19",
@@ -2908,6 +2711,24 @@
     {
       "date": "2026-11-15",
       "time": "20:00",
+      "title": "Luke Kidgell",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
+        }
+      ],
+      "slug": "luke-kidgell-2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "time": "20:00",
       "title": "The Wood Brothers",
       "support": "Amelia Day",
       "venue": "Turner Hall Ballroom",
@@ -2928,24 +2749,6 @@
         "kind": "Country"
       },
       "slug": "the-wood-brothers-2026-11-15"
-    },
-    {
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "Luke Kidgell",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
-        }
-      ],
-      "slug": "luke-kidgell-2026-11-15"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190501470%2F285524009645%2F1%2Foriginal.20260806-215239?w=640&auto=format%2Ccompress&q=75&sharp=10&s=b72f6b76147f929a4ae8419c2db73fbe",
@@ -5469,6 +5272,24 @@
         }
       ],
       "slug": "dolly-parton-hard-candy-christmas-drag-brunch-2026-12-13"
+    },
+    {
+      "date": "2026-12-15",
+      "time": "19:00",
+      "title": "Little High Little Low",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/little-high-little-low-tickets/cudahy-wisconsin-x-ray-arcade-2026-12-15-7-pm/concert/18736016",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/little-high-little-low-tickets/cudahy-wisconsin-x-ray-arcade-2026-12-15-7-pm/concert/18736016"
+        }
+      ],
+      "slug": "little-high-little-low-2026-12-15"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/bc7/45eea68d-adda-4327-8f5e-904ebae81bc7_1175961_RETINA_PORTRAIT_16_9.jpg",
@@ -8160,6 +7981,31 @@
         "21:00"
       ],
       "slug": "ben-bankas-on-thin-ice-2027-02-27"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/12/97/07/24_Edp.jpg?v=6",
+      "price": 44.94,
+      "date": "2027-02-28",
+      "time": "18:00",
+      "title": "BEN BANKAS: ON THIN ICE",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/ben-bankas-on-thin-ice-milwaukee-improv-main-room-tickets/14255094",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/ben-bankas-on-thin-ice-milwaukee-improv-main-room-tickets/14255094",
+          "price": 44.94
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/ben-bankas-tickets/comedy/2027-02-28-6-pm/18649935"
+        }
+      ],
+      "slug": "ben-bankas-on-thin-ice-2027-02-28"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195316171%2F285524009645%2F1%2Foriginal.20261007-204738?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=793d1a97b2a51c854a281542a9ee440f",
