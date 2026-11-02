@@ -4,42 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-01-18:00-KeithPedroMilwaukeeImprov@theconfluence
-DTSTART;TZID=America/Chicago:20261101T180000
-DTEND;TZID=America/Chicago:20261101T200000
-SUMMARY:Keith Pedro @ Milwaukee Improv
-LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/keith-pedro-milwaukee-improv-main-room-tickets/14260564
-URL:https://www.ticketweb.com/event/keith-pedro-milwaukee-improv-main-room-tickets/14260564
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-01-19:30-JonasBrothersFiservForum@theconfluence
-DTSTART;TZID=America/Chicago:20261101T193000
-DTEND;TZID=America/Chicago:20261101T213000
-SUMMARY:Jonas Brothers @ Fiserv Forum
-LOCATION:Fiserv Forum\, Deer District
-DESCRIPTION:With Magnus Ferrell\, Deleasa. Tickets: https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB
-URL:https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-01-20:00-SophieHunterVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261101T200000
-DTEND;TZID=America/Chicago:20261101T220000
-SUMMARY:Sophie Hunter @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:With Reysha Rami. Tickets: https://seatgeek.com/sophie-hunter-tickets/milwaukee-wisconsin-vivarium-2026-11-01-8-pm/concert/18332818
-URL:https://seatgeek.com/sophie-hunter-tickets/milwaukee-wisconsin-vivarium-2026-11-01-8-pm/concert/18332818
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-01-20:00-ChrisWebbyTurnerHallBallroom@theconfluence
-DTSTART;TZID=America/Chicago:20261101T200000
-DTEND;TZID=America/Chicago:20261101T220000
-SUMMARY:Chris Webby @ Turner Hall Ballroom
-LOCATION:Turner Hall Ballroom\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/chris-webby-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-01-8-pm/concert/18540471
-URL:https://seatgeek.com/chris-webby-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-01-8-pm/concert/18540471
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-02-19:00-BillyPrinepresentsSongsandStoriesofJohnP@theconfluence
 DTSTART;TZID=America/Chicago:20261102T190000
 DTEND;TZID=America/Chicago:20261102T210000
@@ -1273,15 +1237,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactu
 URL:https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactus-club-2026-11-22-7-pm/concert/18400698
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261122T200000
-DTEND;TZID=America/Chicago:20261122T220000
-SUMMARY:Hot Freaks @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:With Thesaurus Rex & Known Moons. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
-URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261122T200000
 DTEND;TZID=America/Chicago:20261122T220000
@@ -1289,6 +1244,15 @@ SUMMARY:Michigander @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
 URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261122T200000
+DTEND;TZID=America/Chicago:20261122T220000
+SUMMARY:Hot Freaks @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:With Thesaurus Rex & Known Moons. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
+URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-17:30-WhitefishBayPublicLibraryCommunityReadsT@theconfluence
@@ -2020,6 +1984,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-
 URL:https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-12-19-8-pm/18400980
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-19-20:00-TheCommercialistsPresentTheMusicOfACharl@theconfluence
+DTSTART;TZID=America/Chicago:20261219T200000
+DTEND;TZID=America/Chicago:20261219T220000
+SUMMARY:The Commercialists Present: The Music Of A Charlie Brown Christmas (Seated) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2003991405239
+URL:https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2003991405239
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-21-19:00-TheSleighridersShankHall@theconfluence
 DTSTART;TZID=America/Chicago:20261221T190000
 DTEND;TZID=America/Chicago:20261221T210000
@@ -2533,6 +2506,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/miles-nielsen-the-rusted-sh
 URL:https://www.ticketweb.com/event/miles-nielsen-the-rusted-shank-hall-tickets/14254104
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-02-05-20:00-WeThemOnesComedyTourFiservForum@theconfluence
+DTSTART;TZID=America/Chicago:20270205T200000
+DTEND;TZID=America/Chicago:20270205T220000
+SUMMARY:We Them Ones Comedy Tour @ Fiserv Forum
+LOCATION:Fiserv Forum\, Deer District
+DESCRIPTION:With Mike Epps\, Deon Cole\, DC Young Fly\, Kountry Wayne. Tickets: https://seatgeek.com/we-them-ones-comedy-tour-tickets/comedy/2027-02-05-8-pm/18738129
+URL:https://seatgeek.com/we-them-ones-comedy-tour-tickets/comedy/2027-02-05-8-pm/18738129
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-02-06-19:30-BennyBenackIIISharonLynneWilsonCenterfor@theconfluence
 DTSTART;TZID=America/Chicago:20270206T193000
 DTEND;TZID=America/Chicago:20270206T213000
@@ -2673,8 +2655,8 @@ DTSTART;TZID=America/Chicago:20270218T200000
 DTEND;TZID=America/Chicago:20270218T220000
 SUMMARY:Little Stranger @ Turner Hall Ballroom
 LOCATION:Turner Hall Ballroom\, Westown
-DESCRIPTION:With Shwayze\, Damn Skippy. Tickets: https://seatgeek.com/little-stranger-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-02-18-8-pm/concert/18694079
-URL:https://seatgeek.com/little-stranger-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-02-18-8-pm/concert/18694079
+DESCRIPTION:With Shwayze\, Damn Skippy. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA7a-p
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA7a-p
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-18-20:00-EluveitieTheRaveEaglesClub@theconfluence
@@ -2718,8 +2700,8 @@ DTSTART;TZID=America/Chicago:20270220T200000
 DTEND;TZID=America/Chicago:20270220T220000
 SUMMARY:Sonic Live In Concert @ Riverside Theater
 LOCATION:Riverside Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/sonic-live-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-20-8-pm/concert/18526369
-URL:https://seatgeek.com/sonic-live-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-20-8-pm/concert/18526369
+DESCRIPTION:Tickets: https://seatgeek.com/sonic-live-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-20-8-pm/music-festival/18526369
+URL:https://seatgeek.com/sonic-live-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-20-8-pm/music-festival/18526369
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-21-10:00-MamaTriedMotorcycleShowTheRaveEaglesClub@theconfluence

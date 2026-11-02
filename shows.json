@@ -1,115 +1,6 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "shows": [
-    {
-      "img": "https://i.ticketweb.com/i/00/12/97/56/24_Edp.jpg?v=13",
-      "price": 26.22,
-      "date": "2026-11-01",
-      "time": "18:00",
-      "title": "Keith Pedro",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/keith-pedro-milwaukee-improv-main-room-tickets/14260564",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/keith-pedro-milwaukee-improv-main-room-tickets/14260564",
-          "price": 26.22
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/7b/dc/b7/7bdcb7ec-6575-6936-9f0d-9aaefe27c702/mzaf_12725714200030999610.plus.aac.p.m4a",
-        "track": "Batman's a lil' Bitch",
-        "artist": "Keith Pedro",
-        "kind": "Comedy"
-      },
-      "slug": "keith-pedro-2026-11-01"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/378/809a1187-1545-43be-b5ab-e2d220621378_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-01",
-      "time": "19:30",
-      "title": "Jonas Brothers",
-      "support": "Magnus Ferrell, Deleasa",
-      "venue": "Fiserv Forum",
-      "hood": "Deer District",
-      "genre": "pop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jonas-brothers-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-01-7-30-pm/concert/18503891"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/84/c8/9a84c8e2-06c6-2035-cb14-3328cc78246b/mzaf_10606044621508595579.plus.aac.p.m4a",
-        "track": "Burnin' Up",
-        "artist": "Jonas Brothers",
-        "kind": "Pop"
-      },
-      "slug": "jonas-brothers-2026-11-01"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/c87/076f8133-0e85-4add-a34a-a7b891795c87_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-01",
-      "time": "20:00",
-      "title": "Sophie Hunter",
-      "support": "Reysha Rami",
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sophie-hunter-tickets/milwaukee-wisconsin-vivarium-2026-11-01-8-pm/concert/18332818",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sophie-hunter-tickets/milwaukee-wisconsin-vivarium-2026-11-01-8-pm/concert/18332818"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PY-P"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/9b/67/5b9b670e-7955-9809-368d-52a718310ed4/mzaf_9829752745247406543.plus.aac.p.m4a",
-        "track": "Goon Squad",
-        "artist": "Sophie Hunter",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "sophie-hunter-2026-11-01"
-    },
-    {
-      "date": "2026-11-01",
-      "time": "20:00",
-      "title": "Chris Webby",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/chris-webby-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-01-8-pm/concert/18540471",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/chris-webby-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-01-8-pm/concert/18540471"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/17/d4/fb/17d4fbc6-1aeb-347d-a884-8c5d10a0678f/mzaf_12729375870623480799.plus.aac.p.m4a",
-        "track": "Our Way (feat. Skrizzly Adams)",
-        "artist": "Chris Webby",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "chris-webby-2026-11-01"
-    },
     {
       "img": "https://i.ticketweb.com/i/00/12/93/46/14_Edp.jpg?v=3",
       "status": "cancelled",
@@ -3559,6 +3450,30 @@
     {
       "date": "2026-11-22",
       "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:00",
       "title": "Hot Freaks",
       "support": "Thesaurus Rex & Known Moons",
       "venue": "The Argo",
@@ -3584,30 +3499,6 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-2026-11-22"
-    },
-    {
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195614820%2F285524009645%2F1%2Foriginal.20261012-160533?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d7d13c0e8b26357843d249469f87d5b",
@@ -5675,6 +5566,25 @@
       "slug": "lil-mo-mozzarella-2026-12-19"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196947207%2F285524009645%2F1%2Foriginal.20261030-181330?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.306&fp-y=0.5&s=16e273e550073e3fd4027ba0db72c7ab",
+      "date": "2026-12-19",
+      "time": "20:00",
+      "title": "The Commercialists Present: The Music Of A Charlie Brown Christmas (Seated)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2003991405239",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2003991405239"
+        }
+      ],
+      "slug": "the-commercialists-present-the-music-of-a-charlie-brown-2026-12-19"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/12/93/41/04_Edp.jpg?v=6",
       "price": 30.37,
       "date": "2026-12-21",
@@ -7080,6 +6990,24 @@
       "slug": "miles-nielsen-and-the-rusted-hearts-2027-02-05"
     },
     {
+      "date": "2027-02-05",
+      "time": "20:00",
+      "title": "We Them Ones Comedy Tour",
+      "support": "Mike Epps, Deon Cole, DC Young Fly, Kountry Wayne",
+      "venue": "Fiserv Forum",
+      "hood": "Deer District",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/we-them-ones-comedy-tour-tickets/comedy/2027-02-05-8-pm/18738129",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/we-them-ones-comedy-tour-tickets/comedy/2027-02-05-8-pm/18738129"
+        }
+      ],
+      "slug": "we-them-ones-comedy-tour-2027-02-05"
+    },
+    {
       "date": "2027-02-06",
       "time": "19:30",
       "title": "Benny Benack III",
@@ -7458,13 +7386,9 @@
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
       "genre": "hiphop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/little-stranger-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-02-18-8-pm/concert/18694079",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7a-p",
       "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/little-stranger-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-02-18-8-pm/concert/18694079"
-        },
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7a-p"
@@ -7599,13 +7523,13 @@
       "support": null,
       "venue": "Riverside Theater",
       "hood": "Downtown",
-      "genre": "other",
+      "genre": "festival",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sonic-live-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-20-8-pm/concert/18526369",
+      "url": "https://seatgeek.com/sonic-live-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-20-8-pm/music-festival/18526369",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/sonic-live-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-20-8-pm/concert/18526369"
+          "url": "https://seatgeek.com/sonic-live-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-20-8-pm/music-festival/18526369"
         }
       ],
       "slug": "sonic-live-in-concert-2027-02-20"
