@@ -4,114 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-07-18:00-LavellCrawfordMilwaukeeImprov@theconfluence
-DTSTART;TZID=America/Chicago:20261107T180000
-DTEND;TZID=America/Chicago:20261107T200000
-SUMMARY:Lavell Crawford @ Milwaukee Improv
-LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/lavell-crawford-milwaukee-improv-main-room-tickets/14323274
-URL:https://www.ticketweb.com/event/lavell-crawford-milwaukee-improv-main-room-tickets/14323274
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-18:30-CandlelightTributetoQueenandTheBeatlesMo@theconfluence
-DTSTART;TZID=America/Chicago:20261107T183000
-DTEND;TZID=America/Chicago:20261107T203000
-SUMMARY:Candlelight - Tribute to Queen and The Beatles @ Mo's Irish Pub (Downtown)
-LOCATION:Mo's Irish Pub (Downtown)\, Milwaukee
-DESCRIPTION:Tickets: https://seatgeek.com/candlelight-tribute-to-queen-and-the-beatles-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2026-11-07-6-30-pm/concert/18587821
-URL:https://seatgeek.com/candlelight-tribute-to-queen-and-the-beatles-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2026-11-07-6-30-pm/concert/18587821
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-19:00-JoeyDiazRiversideTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261107T190000
-DTEND;TZID=America/Chicago:20261107T210000
-SUMMARY:Joey Diaz @ Riverside Theater
-LOCATION:Riverside Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/joey-diaz-tickets/comedy/2026-11-07-7-pm/18452627
-URL:https://seatgeek.com/joey-diaz-tickets/comedy/2026-11-07-7-pm/18452627
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-19:30-GooseMillerHighLifeTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20261107T193000
-DTEND;TZID=America/Chicago:20261107T213000
-SUMMARY:Goose @ Miller High Life Theatre
-LOCATION:Miller High Life Theatre\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/goose-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-11-07-7-30-pm/concert/18280623
-URL:https://seatgeek.com/goose-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-11-07-7-30-pm/concert/18280623
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-19:30-TheMaineTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261107T193000
-DTEND;TZID=America/Chicago:20261107T213000
-SUMMARY:The Maine @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/the-maine-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-07-7-30-pm/concert/18400468
-URL:https://seatgeek.com/the-maine-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-07-7-30-pm/concert/18400468
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-20:00-TeddyThompsonShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20261107T200000
-DTEND;TZID=America/Chicago:20261107T220000
-SUMMARY:Teddy Thompson @ Shank Hall
-LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/teddy-thompson-shank-hall-tickets/14930243
-URL:https://www.ticketweb.com/event/teddy-thompson-shank-hall-tickets/14930243
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-20:00-AustinGiorgioCaribouRoomMenomoneeFalls@theconfluence
-DTSTART;TZID=America/Chicago:20261107T200000
-DTEND;TZID=America/Chicago:20261107T220000
-SUMMARY:Austin Giorgio @ Caribou Room - Menomonee Falls
-LOCATION:Caribou Room - Menomonee Falls\, Menomonee Falls
-DESCRIPTION:Tickets: https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934
-URL:https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-20:00-MattRifeFiservForum@theconfluence
-DTSTART;TZID=America/Chicago:20261107T200000
-DTEND;TZID=America/Chicago:20261107T220000
-SUMMARY:Matt Rife @ Fiserv Forum
-LOCATION:Fiserv Forum\, Deer District
-DESCRIPTION:Tickets: https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290
-URL:https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-20:00-BetterThanEzraPabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261107T200000
-DTEND;TZID=America/Chicago:20261107T220000
-SUMMARY:Better Than Ezra @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245
-URL:https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-20:00-SmartMouthTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261107T200000
-DTEND;TZID=America/Chicago:20261107T220000
-SUMMARY:Smart Mouth @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/smart-mouth-tickets-2002227546490
-URL:https://www.eventbrite.com/e/smart-mouth-tickets-2002227546490
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-20:45-CandlelightColdplayImagineDragonsMosIris@theconfluence
-DTSTART;TZID=America/Chicago:20261107T204500
-DTEND;TZID=America/Chicago:20261107T224500
-SUMMARY:Candlelight: Coldplay & Imagine Dragons @ Mo's Irish Pub (Downtown)
-LOCATION:Mo's Irish Pub (Downtown)\, Milwaukee
-DESCRIPTION:Tickets: https://seatgeek.com/candlelight-coldplay-and-imagine-dragons-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2026-11-07-8-45-pm/concert/18587822
-URL:https://seatgeek.com/candlelight-coldplay-and-imagine-dragons-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2026-11-07-8-45-pm/concert/18587822
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-07-21:00-INSISONMiramarTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20261107T210000
-DTEND;TZID=America/Chicago:20261107T230000
-SUMMARY:INSISON @ Miramar Theatre
-LOCATION:Miramar Theatre\, Milwaukee
-DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA76x9
-URL:https://www.ticketmaster.com/event/Z7r9jZ1AA76x9
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-08-18:00-JoeyAveryMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261108T180000
 DTEND;TZID=America/Chicago:20261108T200000
@@ -904,15 +796,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactu
 URL:https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactus-club-2026-11-22-7-pm/concert/18400698
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261122T200000
-DTEND;TZID=America/Chicago:20261122T220000
-SUMMARY:Hot Freaks @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:With Thesaurus Rex & Known Moons. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
-URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261122T200000
 DTEND;TZID=America/Chicago:20261122T220000
@@ -920,6 +803,15 @@ SUMMARY:Michigander @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
 URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261122T200000
+DTEND;TZID=America/Chicago:20261122T220000
+SUMMARY:Hot Freaks @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:With Thesaurus Rex & Known Moons. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
+URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-17:30-WhitefishBayPublicLibraryCommunityReadsT@theconfluence

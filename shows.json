@@ -1,291 +1,6 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/466/3f59eaa9-7387-4c1f-8553-e3099702f466_352711_RETINA_PORTRAIT_16_9.jpg",
-      "price": 44.94,
-      "date": "2026-11-07",
-      "time": "18:00",
-      "title": "Lavell Crawford",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/lavell-crawford-milwaukee-improv-main-room-tickets/14323274",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/lavell-crawford-milwaukee-improv-main-room-tickets/14323274",
-          "price": 44.94
-        }
-      ],
-      "times": [
-        "18:00",
-        "20:45"
-      ],
-      "slug": "lavell-crawford-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "18:30",
-      "title": "Candlelight - Tribute to Queen and The Beatles",
-      "support": null,
-      "venue": "Mo's Irish Pub (Downtown)",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/candlelight-tribute-to-queen-and-the-beatles-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2026-11-07-6-30-pm/concert/18587821",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/candlelight-tribute-to-queen-and-the-beatles-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2026-11-07-6-30-pm/concert/18587821"
-        }
-      ],
-      "slug": "candlelight-tribute-to-queen-and-the-beatles-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "19:00",
-      "title": "Joey Diaz",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/joey-diaz-tickets/comedy/2026-11-07-7-pm/18452627",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/joey-diaz-tickets/comedy/2026-11-07-7-pm/18452627"
-        }
-      ],
-      "slug": "joey-diaz-2026-11-07"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/ff9/230bc504-e335-44b6-9d57-24509c477ff9_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-07",
-      "time": "19:30",
-      "title": "Goose",
-      "support": null,
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/goose-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-11-07-7-30-pm/concert/18280623",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/goose-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-11-07-7-30-pm/concert/18280623"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pe0A"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/8a/44/f48a4430-85de-78ea-6f17-81999863fe06/mzaf_10796242735312757024.plus.aac.p.m4a",
-        "track": "Your Direction",
-        "artist": "Goose",
-        "kind": "Indie Rock"
-      },
-      "slug": "goose-2026-11-07"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/ad7/afffca04-e20b-433d-a0b7-3bd1a5853ad7_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-07",
-      "time": "19:30",
-      "title": "The Maine",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-maine-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-07-7-30-pm/concert/18400468",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-maine-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-07-7-30-pm/concert/18400468"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeGV"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/39/89/85/39898539-adf0-5df5-8c86-3ad2575ca20d/mzaf_13823511290221031660.plus.aac.p.m4a",
-        "track": "Girls Do What They Want",
-        "artist": "The Maine",
-        "kind": "Alternative"
-      },
-      "slug": "the-maine-2026-11-07"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/52/57/93_Edp.jpg?v=4",
-      "price": 30.37,
-      "date": "2026-11-07",
-      "time": "20:00",
-      "title": "Teddy Thompson",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "pop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/teddy-thompson-shank-hall-tickets/14930243",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/teddy-thompson-shank-hall-tickets/14930243",
-          "price": 30.37
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/teddy-thompson-tickets/milwaukee-wisconsin-shank-hall-2026-11-07-8-pm/concert/18400643"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/82/8a/29828acc-1701-8c26-7e30-b9ff95963928/mzaf_6487839800312953964.plus.aac.p.m4a",
-        "track": "I Don't Want To Say Goodbye",
-        "artist": "Teddy Thompson",
-        "kind": "Pop"
-      },
-      "slug": "teddy-thompson-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "20:00",
-      "title": "Austin Giorgio",
-      "support": null,
-      "venue": "Caribou Room - Menomonee Falls",
-      "hood": "Menomonee Falls",
-      "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/austin-giorgio-tickets/menomonee-falls-wisconsin-caribou-room-menomonee-falls-2026-11-07-8-pm/concert/18638934"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/d7/20/f1d720b6-f9dd-2c3b-4e94-71a1857eae36/mzaf_234417470227365002.plus.aac.p.m4a",
-        "track": "You Put a Spell on Me",
-        "artist": "Austin Giorgio",
-        "kind": "Pop"
-      },
-      "slug": "austin-giorgio-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "20:00",
-      "title": "Matt Rife",
-      "support": null,
-      "venue": "Fiserv Forum",
-      "hood": "Deer District",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-11-07-8-pm/17895290"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/e0/6b/34/e06b3434-987a-8821-0cfc-a1183ddeb53a/mzaf_1171878245085044427.plus.aac.p.m4a",
-        "track": "Skanky Strip Clubs",
-        "artist": "Matt Rife",
-        "kind": "Comedy"
-      },
-      "slug": "matt-rife-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "20:00",
-      "title": "Better Than Ezra",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/better-than-ezra-tickets/milwaukee-wisconsin-pabst-theater-2026-11-07-8-pm/concert/18513245"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/33/7a/0a/337a0af3-faf7-11b7-58ae-719a9589b966/mzaf_4280286902317630645.plus.aac.p.m4a",
-        "track": "Good",
-        "artist": "Better Than Ezra",
-        "kind": "Rock"
-      },
-      "slug": "better-than-ezra-2026-11-07"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194304955%2F285524009645%2F1%2Foriginal.20260924-182958?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=827d284adc958b5f0547ffaf3d94391c",
-      "date": "2026-11-07",
-      "time": "20:00",
-      "title": "Smart Mouth",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/smart-mouth-tickets-2002227546490",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/smart-mouth-tickets-2002227546490"
-        }
-      ],
-      "slug": "smart-mouth-2026-11-07"
-    },
-    {
-      "date": "2026-11-07",
-      "time": "20:45",
-      "title": "Candlelight: Coldplay & Imagine Dragons",
-      "support": null,
-      "venue": "Mo's Irish Pub (Downtown)",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/candlelight-coldplay-and-imagine-dragons-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2026-11-07-8-45-pm/concert/18587822",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/candlelight-coldplay-and-imagine-dragons-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2026-11-07-8-45-pm/concert/18587822"
-        }
-      ],
-      "slug": "candlelight-coldplay-and-imagine-dragons-2026-11-07"
-    },
-    {
-      "status": "offsale",
-      "onsale": "9999-12-31T06:00:00Z",
-      "date": "2026-11-07",
-      "time": "21:00",
-      "title": "INSISON",
-      "support": null,
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "electronic",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76x9",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76x9"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/ef/ef/f4efef49-9fe7-c1b8-0c70-a3588e6abc5f/mzaf_4932887969220455854.plus.aac.p.m4a",
-        "track": "I LIKE EM FAT",
-        "artist": "Insison",
-        "kind": "Dubstep"
-      },
-      "slug": "insison-2026-11-07"
-    },
     {
       "img": "https://i.ticketweb.com/i/00/13/56/57/93_Edp.jpg?v=5",
       "price": 26.22,
@@ -2433,6 +2148,7 @@
       "slug": "lm35-the-lovemonkeys-35th-anniversary-show-2026-11-21"
     },
     {
+      "price": 14.11,
       "date": "2026-11-21",
       "time": "21:00",
       "title": "Lunch Money Bullies",
@@ -2445,7 +2161,8 @@
       "offers": [
         {
           "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/lunch-money-bullies-live-at-1175-tickets/14407944"
+          "url": "https://www.ticketweb.com/event/lunch-money-bullies-live-at-1175-tickets/14407944",
+          "price": 14.11
         }
       ],
       "slug": "lunch-money-bullies-2026-11-21"
@@ -2533,6 +2250,30 @@
     {
       "date": "2026-11-22",
       "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:00",
       "title": "Hot Freaks",
       "support": "Thesaurus Rex & Known Moons",
       "venue": "The Argo",
@@ -2558,30 +2299,6 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-2026-11-22"
-    },
-    {
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195614820%2F285524009645%2F1%2Foriginal.20261012-160533?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d7d13c0e8b26357843d249469f87d5b",
