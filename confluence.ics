@@ -4,51 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-08-18:00-JoeyAveryMilwaukeeImprov@theconfluence
-DTSTART;TZID=America/Chicago:20261108T180000
-DTEND;TZID=America/Chicago:20261108T200000
-SUMMARY:Joey Avery @ Milwaukee Improv
-LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/joey-avery-milwaukee-improv-main-room-tickets/14959903
-URL:https://www.ticketweb.com/event/joey-avery-milwaukee-improv-main-room-tickets/14959903
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-08-19:30-GooseMillerHighLifeTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20261108T193000
-DTEND;TZID=America/Chicago:20261108T213000
-SUMMARY:Goose @ Miller High Life Theatre
-LOCATION:Miller High Life Theatre\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/goose-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-11-08-7-30-pm/concert/18280624
-URL:https://seatgeek.com/goose-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-11-08-7-30-pm/concert/18280624
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-08-20:00-KurtVileandtheViolatorsTurnerHallBallroo@theconfluence
-DTSTART;TZID=America/Chicago:20261108T200000
-DTEND;TZID=America/Chicago:20261108T220000
-SUMMARY:Kurt Vile and the Violators @ Turner Hall Ballroom
-LOCATION:Turner Hall Ballroom\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/kurt-vile-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-08-8-pm/concert/18201296
-URL:https://seatgeek.com/kurt-vile-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-08-8-pm/concert/18201296
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-08-20:00-BillCallahanwRickMaguireofPileTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261108T200000
-DTEND;TZID=America/Chicago:20261108T220000
-SUMMARY:Bill Callahan w/ Rick Maguire (of Pile) @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/bill-callahan-w-rick-maguire-of-pile-tickets-1997613696340
-URL:https://www.eventbrite.com/e/bill-callahan-w-rick-maguire-of-pile-tickets-1997613696340
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-08-20:00-CertainlySowBowveeTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261108T200000
-DTEND;TZID=America/Chicago:20261108T220000
-SUMMARY:Certainly So w/ Bowvee @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/certainly-so-w-bowvee-tickets-2000316930787
-URL:https://www.eventbrite.com/e/certainly-so-w-bowvee-tickets-2000316930787
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-09-20:00-TheMusicofHeyArnoldLiveTurnerHallBallroo@theconfluence
 DTSTART;TZID=America/Chicago:20261109T200000
 DTEND;TZID=America/Chicago:20261109T220000
@@ -81,7 +36,7 @@ DTSTART;TZID=America/Chicago:20261110T200000
 DTEND;TZID=America/Chicago:20261110T220000
 SUMMARY:Jack White @ Landmark Credit Union Live
 LOCATION:Landmark Credit Union Live\, Milwaukee
-DESCRIPTION:Tickets: https://www.ticketmaster.com/jack-white-live-2026-milwaukee-wisconsin-11-10-2026/event/070064868A011FF3
+DESCRIPTION:With Ladybird. Tickets: https://www.ticketmaster.com/jack-white-live-2026-milwaukee-wisconsin-11-10-2026/event/070064868A011FF3
 URL:https://www.ticketmaster.com/jack-white-live-2026-milwaukee-wisconsin-11-10-2026/event/070064868A011FF3
 END:VEVENT
 BEGIN:VEVENT
@@ -139,15 +94,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/alison-brown-tickets/milwaukee-wiscons
 URL:https://seatgeek.com/alison-brown-tickets/milwaukee-wisconsin-shank-hall-2026-11-11-8-pm/concert/18400645
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-11-20:00-TylerBallgameVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261111T200000
-DTEND;TZID=America/Chicago:20261111T220000
-SUMMARY:Tyler Ballgame @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989
-URL:https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-11-20:00-MickyDolenzPabstTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261111T200000
 DTEND;TZID=America/Chicago:20261111T220000
@@ -155,6 +101,15 @@ SUMMARY:Micky Dolenz @ Pabst Theater
 LOCATION:Pabst Theater\, Downtown
 DESCRIPTION:Tickets: https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706
 URL:https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-20:00-TylerBallgameVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261111T200000
+DTEND;TZID=America/Chicago:20261111T220000
+SUMMARY:Tyler Ballgame @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989
+URL:https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-19:00-AlterBridgeTheRaveEaglesClub@theconfluence
@@ -292,15 +247,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/3ballmty-tickets/milwaukee-wisconsin-t
 URL:https://seatgeek.com/3ballmty-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18587502
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-13-20:00-SteveMartinMillerHighLifeTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20261113T200000
-DTEND;TZID=America/Chicago:20261113T220000
-SUMMARY:Steve Martin @ Miller High Life Theatre
-LOCATION:Miller High Life Theatre\, Westown
-DESCRIPTION:With Martin Short\, Jeff Babko\, The Steep Canyon Rangers. Tickets: https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400
-URL:https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-13-20:00-HovvdyVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261113T200000
 DTEND;TZID=America/Chicago:20261113T220000
@@ -308,6 +254,15 @@ SUMMARY:Hovvdy @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991
 URL:https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-20:00-SteveMartinMillerHighLifeTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20261113T200000
+DTEND;TZID=America/Chicago:20261113T220000
+SUMMARY:Steve Martin @ Miller High Life Theatre
+LOCATION:Miller High Life Theatre\, Westown
+DESCRIPTION:With Martin Short\, Jeff Babko\, The Steep Canyon Rangers. Tickets: https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400
+URL:https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13-20:00-TheSpooklightswBodhicittaTheArgo@theconfluence
@@ -499,15 +454,6 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/alicia-villarreal-bendita-locu
 URL:https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-20:00-TheWoodBrothersTurnerHallBallroom@theconfluence
-DTSTART;TZID=America/Chicago:20261115T200000
-DTEND;TZID=America/Chicago:20261115T220000
-SUMMARY:The Wood Brothers @ Turner Hall Ballroom
-LOCATION:Turner Hall Ballroom\, Westown
-DESCRIPTION:With Amelia Day. Tickets: https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153
-URL:https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-15-20:00-LukeKidgellVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261115T200000
 DTEND;TZID=America/Chicago:20261115T220000
@@ -515,6 +461,15 @@ SUMMARY:Luke Kidgell @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
 URL:https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-20:00-TheWoodBrothersTurnerHallBallroom@theconfluence
+DTSTART;TZID=America/Chicago:20261115T200000
+DTEND;TZID=America/Chicago:20261115T220000
+SUMMARY:The Wood Brothers @ Turner Hall Ballroom
+LOCATION:Turner Hall Ballroom\, Westown
+DESCRIPTION:With Amelia Day. Tickets: https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153
+URL:https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-20:00-88NINEPresentsPostAnimalMaybeYouHaveToTo@theconfluence
@@ -796,15 +751,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactu
 URL:https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactus-club-2026-11-22-7-pm/concert/18400698
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261122T200000
-DTEND;TZID=America/Chicago:20261122T220000
-SUMMARY:Michigander @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
-URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20261122T200000
 DTEND;TZID=America/Chicago:20261122T220000
@@ -812,6 +758,15 @@ SUMMARY:Hot Freaks @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:With Thesaurus Rex & Known Moons. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
 URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261122T200000
+DTEND;TZID=America/Chicago:20261122T220000
+SUMMARY:Michigander @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
+URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-17:30-WhitefishBayPublicLibraryCommunityReadsT@theconfluence
@@ -1534,6 +1489,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/celtic-christmas-tickets/milwaukee-wis
 URL:https://seatgeek.com/celtic-christmas-tickets/milwaukee-wisconsin-vogel-hall-at-marcus-center-2026-12-19-2-pm/concert/18400705
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-19-17:30-TheCommercialistsPresentTheMusicOfACharl@theconfluence
+DTSTART;TZID=America/Chicago:20261219T173000
+DTEND;TZID=America/Chicago:20261219T193000
+SUMMARY:The Commercialists Present: The Music Of A Charlie Brown Christmas (Seated) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2004549116368
+URL:https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2004549116368
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-19-18:30-ShulerKingMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261219T183000
 DTEND;TZID=America/Chicago:20261219T203000
@@ -1559,15 +1523,6 @@ SUMMARY:Lil Mo Mozzarella @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-12-19-8-pm/18400980
 URL:https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-12-19-8-pm/18400980
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-12-19-20:00-TheCommercialistsPresentTheMusicOfACharl@theconfluence
-DTSTART;TZID=America/Chicago:20261219T200000
-DTEND;TZID=America/Chicago:20261219T220000
-SUMMARY:The Commercialists Present: The Music Of A Charlie Brown Christmas (Seated) @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2003991405239
-URL:https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2003991405239
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-21-19:00-TheSleighridersShankHall@theconfluence
@@ -1962,8 +1917,8 @@ DTSTART;TZID=America/Chicago:20270124T200000
 DTEND;TZID=America/Chicago:20270124T220000
 SUMMARY:Denny Love @ Turner Hall Ballroom
 LOCATION:Turner Hall Ballroom\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-7-pm/18526324
-URL:https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-7-pm/18526324
+DESCRIPTION:Tickets: https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-8-pm/18526324
+URL:https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-8-pm/18526324
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-28-19:30-MilwaukeeRoastChampionshipRound1Milwauke@theconfluence

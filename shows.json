@@ -1,134 +1,6 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "shows": [
-    {
-      "img": "https://i.ticketweb.com/i/00/13/56/57/93_Edp.jpg?v=5",
-      "price": 26.22,
-      "date": "2026-11-08",
-      "time": "18:00",
-      "title": "Joey Avery",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/joey-avery-milwaukee-improv-main-room-tickets/14959903",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/joey-avery-milwaukee-improv-main-room-tickets/14959903",
-          "price": 26.22
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/joey-avery-tickets/comedy/2026-11-08-6-pm/18587844"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cf/b8/52/cfb8526d-375d-eaca-9032-95634435dd33/mzaf_15862942205135859103.plus.aac.p.m4a",
-        "track": "Joey Avery",
-        "artist": "Joey Avery",
-        "kind": "Comedy"
-      },
-      "slug": "joey-avery-2026-11-08"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/ff9/230bc504-e335-44b6-9d57-24509c477ff9_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-08",
-      "time": "19:30",
-      "title": "Goose",
-      "support": null,
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/goose-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-11-08-7-30-pm/concert/18280624",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/goose-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-11-08-7-30-pm/concert/18280624"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pe0k"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/8a/44/f48a4430-85de-78ea-6f17-81999863fe06/mzaf_10796242735312757024.plus.aac.p.m4a",
-        "track": "Your Direction",
-        "artist": "Goose",
-        "kind": "Indie Rock"
-      },
-      "slug": "goose-2026-11-08"
-    },
-    {
-      "date": "2026-11-08",
-      "time": "20:00",
-      "title": "Kurt Vile and the Violators",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/kurt-vile-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-08-8-pm/concert/18201296",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/kurt-vile-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-08-8-pm/concert/18201296"
-        }
-      ],
-      "slug": "kurt-vile-and-the-violators-2026-11-08"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190830099%2F285524009645%2F1%2Foriginal.20260811-193326?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e3ae8276b3d22cd755215133784cd3ae",
-      "date": "2026-11-08",
-      "time": "20:00",
-      "title": "Bill Callahan w/ Rick Maguire (of Pile)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "indie",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/bill-callahan-w-rick-maguire-of-pile-tickets-1997613696340",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/bill-callahan-w-rick-maguire-of-pile-tickets-1997613696340"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/16/f2/e9/16f2e949-a1c5-d11c-4b1f-62882a40acc7/mzaf_1115438766315114845.plus.aac.p.m4a",
-        "track": "One Fine Morning",
-        "artist": "Bill Callahan",
-        "kind": "Alternative"
-      },
-      "slug": "bill-callahan-w-rick-maguire-of-pile-2026-11-08"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193209906%2F285524009645%2F1%2Foriginal.20260910-215730?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c38185ee7f96215083c981b84a0ac9c1",
-      "date": "2026-11-08",
-      "time": "20:00",
-      "title": "Certainly So w/ Bowvee",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "indie",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/certainly-so-w-bowvee-tickets-2000316930787",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/certainly-so-w-bowvee-tickets-2000316930787"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/f7/a8/e1f7a80d-9f9e-5a12-e20c-88c35c69e9f0/mzaf_5166485413211246287.plus.aac.p.m4a",
-        "track": "Foreign Ties",
-        "artist": "Certainly So",
-        "kind": "Indie Rock"
-      },
-      "slug": "certainly-so-w-bowvee-2026-11-08"
-    },
     {
       "date": "2026-11-09",
       "time": "20:00",
@@ -204,7 +76,7 @@
       "date": "2026-11-10",
       "time": "20:00",
       "title": "Jack White",
-      "support": null,
+      "support": "Ladybird",
       "venue": "Landmark Credit Union Live",
       "hood": "Milwaukee",
       "genre": "rock",
@@ -371,30 +243,6 @@
     {
       "date": "2026-11-11",
       "time": "20:00",
-      "title": "Tyler Ballgame",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/18/47/1e1847a2-7b54-1d60-b276-0ad4e070af50/mzaf_11625053578229540426.plus.aac.p.m4a",
-        "track": "I Believe In Love",
-        "artist": "Tyler Ballgame",
-        "kind": "Alternative"
-      },
-      "slug": "tyler-ballgame-2026-11-11"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "20:00",
       "title": "Micky Dolenz",
       "support": null,
       "venue": "Pabst Theater",
@@ -415,6 +263,30 @@
         "kind": "Rock"
       },
       "slug": "micky-dolenz-2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "time": "20:00",
+      "title": "Tyler Ballgame",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/18/47/1e1847a2-7b54-1d60-b276-0ad4e070af50/mzaf_11625053578229540426.plus.aac.p.m4a",
+        "track": "I Believe In Love",
+        "artist": "Tyler Ballgame",
+        "kind": "Alternative"
+      },
+      "slug": "tyler-ballgame-2026-11-11"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/19a/5916bf6f-8c45-479b-9492-388ae74ab19a_RETINA_PORTRAIT_16_9.jpg",
@@ -827,30 +699,6 @@
     {
       "date": "2026-11-13",
       "time": "20:00",
-      "title": "Steve Martin",
-      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
-        "track": "King Tut",
-        "artist": "Steve Martin",
-        "kind": "Comedy"
-      },
-      "slug": "steve-martin-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "20:00",
       "title": "Hovvdy",
       "support": null,
       "venue": "Vivarium",
@@ -871,6 +719,30 @@
         "kind": "Alternative"
       },
       "slug": "hovvdy-2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Steve Martin",
+      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
+      "venue": "Miller High Life Theatre",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
+        "track": "King Tut",
+        "artist": "Steve Martin",
+        "kind": "Comedy"
+      },
+      "slug": "steve-martin-2026-11-13"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193495971%2F285524009645%2F1%2Foriginal.20260914-214620?w=640&auto=format%2Ccompress&q=75&sharp=10&s=7f06fb5f53025a5b2cdea07e83bc1c19",
@@ -1400,6 +1272,24 @@
     {
       "date": "2026-11-15",
       "time": "20:00",
+      "title": "Luke Kidgell",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
+        }
+      ],
+      "slug": "luke-kidgell-2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "time": "20:00",
       "title": "The Wood Brothers",
       "support": "Amelia Day",
       "venue": "Turner Hall Ballroom",
@@ -1420,24 +1310,6 @@
         "kind": "Country"
       },
       "slug": "the-wood-brothers-2026-11-15"
-    },
-    {
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "Luke Kidgell",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
-        }
-      ],
-      "slug": "luke-kidgell-2026-11-15"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190501470%2F285524009645%2F1%2Foriginal.20260806-215239?w=640&auto=format%2Ccompress&q=75&sharp=10&s=b72f6b76147f929a4ae8419c2db73fbe",
@@ -2250,30 +2122,6 @@
     {
       "date": "2026-11-22",
       "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
-    },
-    {
-      "date": "2026-11-22",
-      "time": "20:00",
       "title": "Hot Freaks",
       "support": "Thesaurus Rex & Known Moons",
       "venue": "The Argo",
@@ -2299,6 +2147,30 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195614820%2F285524009645%2F1%2Foriginal.20261012-160533?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d7d13c0e8b26357843d249469f87d5b",
@@ -4334,6 +4206,29 @@
       "slug": "a-celtic-christmas-2026-12-19"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197605053%2F2971726526301%2F1%2Foriginal.20261109-163830?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=81bfdefbf3f50dd3ec94355c65791545",
+      "date": "2026-12-19",
+      "time": "17:30",
+      "title": "The Commercialists Present: The Music Of A Charlie Brown Christmas (Seated)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2004549116368",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2004549116368"
+        }
+      ],
+      "times": [
+        "17:30",
+        "20:00"
+      ],
+      "slug": "the-commercialists-present-the-music-of-a-charlie-brown-2026-12-19"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/13/57/36/23_Edp.jpg?v=5",
       "price": 32.39,
       "date": "2026-12-19",
@@ -4404,25 +4299,6 @@
         }
       ],
       "slug": "lil-mo-mozzarella-2026-12-19"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196947207%2F285524009645%2F1%2Foriginal.20261030-181330?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.306&fp-y=0.5&s=16e273e550073e3fd4027ba0db72c7ab",
-      "date": "2026-12-19",
-      "time": "20:00",
-      "title": "The Commercialists Present: The Music Of A Charlie Brown Christmas (Seated)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2003991405239",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-commercialists-present-the-music-of-a-charlie-brown-christmas-seated-tickets-2003991405239"
-        }
-      ],
-      "slug": "the-commercialists-present-the-music-of-a-charlie-brown-2026-12-19"
     },
     {
       "img": "https://i.ticketweb.com/i/00/12/93/41/04_Edp.jpg?v=7",
@@ -5510,11 +5386,11 @@
       "hood": "Westown",
       "genre": "other",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-7-pm/18526324",
+      "url": "https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-8-pm/18526324",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-7-pm/18526324"
+          "url": "https://seatgeek.com/denny-love-tickets/comedy/2027-01-24-8-pm/18526324"
         },
         {
           "src": "Ticketmaster",
@@ -5545,7 +5421,7 @@
       "slug": "milwaukee-roast-championship-round-1-2027-01-28"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/04/84/14_Edp.jpg?v=4",
+      "img": "https://i.ticketweb.com/i/00/13/04/84/14_Edp.jpg?v=5",
       "price": 38.67,
       "date": "2027-01-29",
       "time": "19:00",
@@ -5653,7 +5529,7 @@
       "slug": "alash-tuvan-throat-singers-2027-01-29"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/04/84/14_Edp.jpg?v=4",
+      "img": "https://i.ticketweb.com/i/00/13/04/84/14_Edp.jpg?v=5",
       "price": 38.67,
       "date": "2027-01-30",
       "time": "18:30",
