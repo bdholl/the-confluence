@@ -4,15 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-09-20:00-TheMusicofHeyArnoldLiveTurnerHallBallroo@theconfluence
-DTSTART;TZID=America/Chicago:20261109T200000
-DTEND;TZID=America/Chicago:20261109T220000
-SUMMARY:The Music of Hey Arnold! Live @ Turner Hall Ballroom
-LOCATION:Turner Hall Ballroom\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/the-music-of-hey-arnold-live-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-09-8-pm/concert/18509114
-URL:https://seatgeek.com/the-music-of-hey-arnold-live-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-09-8-pm/concert/18509114
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-10-19:00-DanielSlossPabstTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261110T190000
 DTEND;TZID=America/Chicago:20261110T210000
@@ -94,15 +85,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/alison-brown-tickets/milwaukee-wiscons
 URL:https://seatgeek.com/alison-brown-tickets/milwaukee-wisconsin-shank-hall-2026-11-11-8-pm/concert/18400645
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-11-20:00-MickyDolenzPabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261111T200000
-DTEND;TZID=America/Chicago:20261111T220000
-SUMMARY:Micky Dolenz @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706
-URL:https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-11-20:00-TylerBallgameVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261111T200000
 DTEND;TZID=America/Chicago:20261111T220000
@@ -110,6 +92,15 @@ SUMMARY:Tyler Ballgame @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989
 URL:https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-20:00-MickyDolenzPabstTheater@theconfluence
+DTSTART;TZID=America/Chicago:20261111T200000
+DTEND;TZID=America/Chicago:20261111T220000
+SUMMARY:Micky Dolenz @ Pabst Theater
+LOCATION:Pabst Theater\, Downtown
+DESCRIPTION:Tickets: https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706
+URL:https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-19:00-AlterBridgeTheRaveEaglesClub@theconfluence
@@ -128,6 +119,15 @@ SUMMARY:Michelle Branch @ Pabst Theater
 LOCATION:Pabst Theater\, Downtown
 DESCRIPTION:Tickets: https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511
 URL:https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-12-20:00-PatrickWolfXRayArcade@theconfluence
+DTSTART;TZID=America/Chicago:20261112T200000
+DTEND;TZID=America/Chicago:20261112T220000
+SUMMARY:Patrick Wolf @ X-Ray Arcade
+LOCATION:X-Ray Arcade\, Cudahy
+DESCRIPTION:With Friend of a Friend. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA7-AS
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA7-AS
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-20:00-PeytonParrishTurnerHallBallroom@theconfluence
@@ -155,6 +155,15 @@ SUMMARY:Motionless In White @ Fiserv Forum
 LOCATION:Fiserv Forum\, Deer District
 DESCRIPTION:With Dayseeker\, The Devil Wears Prada\, Dark Divine. Tickets: https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249
 URL:https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-19:00-PsycropticXRayArcade@theconfluence
+DTSTART;TZID=America/Chicago:20261113T190000
+DTEND;TZID=America/Chicago:20261113T210000
+SUMMARY:Psycroptic @ X-Ray Arcade
+LOCATION:X-Ray Arcade\, Cudahy
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-s
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-s
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13-19:00-TJMillerMilwaukeeImprov@theconfluence
@@ -247,15 +256,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/3ballmty-tickets/milwaukee-wisconsin-t
 URL:https://seatgeek.com/3ballmty-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18587502
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-13-20:00-HovvdyVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261113T200000
-DTEND;TZID=America/Chicago:20261113T220000
-SUMMARY:Hovvdy @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991
-URL:https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-13-20:00-SteveMartinMillerHighLifeTheatre@theconfluence
 DTSTART;TZID=America/Chicago:20261113T200000
 DTEND;TZID=America/Chicago:20261113T220000
@@ -263,6 +263,15 @@ SUMMARY:Steve Martin @ Miller High Life Theatre
 LOCATION:Miller High Life Theatre\, Westown
 DESCRIPTION:With Martin Short\, Jeff Babko\, The Steep Canyon Rangers. Tickets: https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400
 URL:https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-20:00-HovvdyVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261113T200000
+DTEND;TZID=America/Chicago:20261113T220000
+SUMMARY:Hovvdy @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991
+URL:https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13-20:00-TheSpooklightswBodhicittaTheArgo@theconfluence
@@ -454,15 +463,6 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/alicia-villarreal-bendita-locu
 URL:https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-20:00-LukeKidgellVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261115T200000
-DTEND;TZID=America/Chicago:20261115T220000
-SUMMARY:Luke Kidgell @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
-URL:https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-15-20:00-TheWoodBrothersTurnerHallBallroom@theconfluence
 DTSTART;TZID=America/Chicago:20261115T200000
 DTEND;TZID=America/Chicago:20261115T220000
@@ -470,6 +470,15 @@ SUMMARY:The Wood Brothers @ Turner Hall Ballroom
 LOCATION:Turner Hall Ballroom\, Westown
 DESCRIPTION:With Amelia Day. Tickets: https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153
 URL:https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-20:00-LukeKidgellVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261115T200000
+DTEND;TZID=America/Chicago:20261115T220000
+SUMMARY:Luke Kidgell @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
+URL:https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-20:00-88NINEPresentsPostAnimalMaybeYouHaveToTo@theconfluence
@@ -1093,15 +1102,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/kyle-watson-tickets/milwaukee-wisconsi
 URL:https://seatgeek.com/kyle-watson-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-04-9-pm/concert/18526390
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-05-15:00-SistersChristmasCatechismWilsonTheaterat@theconfluence
-DTSTART;TZID=America/Chicago:20261205T150000
-DTEND;TZID=America/Chicago:20261205T170000
-SUMMARY:Sister's Christmas Catechism @ Wilson Theater at Vogel Hall
-LOCATION:Wilson Theater at Vogel Hall\, Milwaukee
-DESCRIPTION:Tickets: https://seatgeek.com/sisters-christmas-catechism-tickets/comedy/2026-12-05-3-pm/18397324
-URL:https://seatgeek.com/sisters-christmas-catechism-tickets/comedy/2026-12-05-3-pm/18397324
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-12-05-18:00-NonpointRoute20@theconfluence
 DTSTART;TZID=America/Chicago:20261205T180000
 DTEND;TZID=America/Chicago:20261205T200000
@@ -1478,6 +1478,15 @@ SUMMARY:The Bad Plus @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/the-bad-plus-tickets/milwaukee-wisconsin-vivarium-2026-12-18-8-pm/concert/18363608
 URL:https://seatgeek.com/the-bad-plus-tickets/milwaukee-wisconsin-vivarium-2026-12-18-8-pm/concert/18363608
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-18-20:00-AnotherOneThePremierGratefulDeadExperien@theconfluence
+DTSTART;TZID=America/Chicago:20261218T200000
+DTEND;TZID=America/Chicago:20261218T220000
+SUMMARY:Another One: The Premier Grateful Dead Experience! @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/another-one-the-premier-grateful-dead-experience-tickets-2004457581585
+URL:https://www.eventbrite.com/e/another-one-the-premier-grateful-dead-experience-tickets-2004457581585
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-19-14:00-ACelticChristmasWilsonTheateratVogelHall@theconfluence
@@ -2155,6 +2164,24 @@ DESCRIPTION:Tickets: https://seatgeek.com/letterkenny-live-tickets/comedy/2027-0
 URL:https://seatgeek.com/letterkenny-live-tickets/comedy/2027-02-09-7-30-pm/18299549
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-02-10-20:00-PlanetPurpleATRIBUTETODEEPPURPLEShankHal@theconfluence
+DTSTART;TZID=America/Chicago:20270210T200000
+DTEND;TZID=America/Chicago:20270210T220000
+SUMMARY:Planet Purple - A TRIBUTE TO DEEP PURPLE @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/planet-purple-a-shank-hall-tickets/14437394
+URL:https://www.ticketweb.com/event/planet-purple-a-shank-hall-tickets/14437394
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-11-19:30-GracePotterPabstTheater@theconfluence
+DTSTART;TZID=America/Chicago:20270211T193000
+DTEND;TZID=America/Chicago:20270211T213000
+SUMMARY:Grace Potter @ Pabst Theater
+LOCATION:Pabst Theater\, Downtown
+DESCRIPTION:Tickets: https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534
+URL:https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-02-11-20:00-CJChenierTheRedHotLouisianaBandShankHall@theconfluence
 DTSTART;TZID=America/Chicago:20270211T200000
 DTEND;TZID=America/Chicago:20270211T220000
@@ -2540,6 +2567,24 @@ SUMMARY:Seaside Zoo - Grateful Dead Tribute @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/seaside-zoo-grateful-shank-hall-tickets/14415744
 URL:https://www.ticketweb.com/event/seaside-zoo-grateful-shank-hall-tickets/14415744
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-09-20:00-BeastInBlackTheRaveEaglesClub@theconfluence
+DTSTART;TZID=America/Chicago:20270309T200000
+DTEND;TZID=America/Chicago:20270309T220000
+SUMMARY:Beast In Black @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
+DESCRIPTION:With Gloryhammer. Tickets: https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582
+URL:https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-11-20:00-PinkTalkingFishAnimals50TheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20270311T200000
+DTEND;TZID=America/Chicago:20270311T220000
+SUMMARY:Pink Talking Fish: Animals 50 @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/pink-talking-fish-animals-50-tickets-2004457445177
+URL:https://www.eventbrite.com/e/pink-talking-fish-animals-50-tickets-2004457445177
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-13-20:00-FoolHouseTheUltimate90sPartyWOWThatsWhat@theconfluence

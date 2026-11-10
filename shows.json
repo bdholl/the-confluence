@@ -1,24 +1,6 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "shows": [
-    {
-      "date": "2026-11-09",
-      "time": "20:00",
-      "title": "The Music of Hey Arnold! Live",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-music-of-hey-arnold-live-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-09-8-pm/concert/18509114",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-music-of-hey-arnold-live-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-09-8-pm/concert/18509114"
-        }
-      ],
-      "slug": "the-music-of-hey-arnold-live-2026-11-09"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/cfa/e476394e-b2ce-4a11-8230-879e15686cfa_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-10",
@@ -243,30 +225,6 @@
     {
       "date": "2026-11-11",
       "time": "20:00",
-      "title": "Micky Dolenz",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/ea/7a/e2ea7aa3-4232-129e-b167-dcc0919df961/mzaf_3825163222081962595.plus.aac.p.m4a",
-        "track": "Good Morning Good Morning",
-        "artist": "Micky Dolenz",
-        "kind": "Rock"
-      },
-      "slug": "micky-dolenz-2026-11-11"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "20:00",
       "title": "Tyler Ballgame",
       "support": null,
       "venue": "Vivarium",
@@ -287,6 +245,30 @@
         "kind": "Alternative"
       },
       "slug": "tyler-ballgame-2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "time": "20:00",
+      "title": "Micky Dolenz",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/ea/7a/e2ea7aa3-4232-129e-b167-dcc0919df961/mzaf_3825163222081962595.plus.aac.p.m4a",
+        "track": "Good Morning Good Morning",
+        "artist": "Micky Dolenz",
+        "kind": "Rock"
+      },
+      "slug": "micky-dolenz-2026-11-11"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/19a/5916bf6f-8c45-479b-9492-388ae74ab19a_RETINA_PORTRAIT_16_9.jpg",
@@ -345,6 +327,31 @@
         "kind": "Pop"
       },
       "slug": "michelle-branch-2026-11-12"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/d85/8ad68006-7c60-40bd-9db4-76e596d27d85_517051_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-12",
+      "time": "20:00",
+      "title": "Patrick Wolf",
+      "support": "Friend of a Friend",
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-AS",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-AS"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/ce/7b/99ce7b3c-8db2-711f-3382-a4afe466051c/mzaf_597730994122108518.plus.aac.p.m4a",
+        "track": "The Days",
+        "artist": "Patrick Wolf",
+        "kind": "Alternative"
+      },
+      "slug": "patrick-wolf-2026-11-12"
     },
     {
       "date": "2026-11-12",
@@ -417,6 +424,31 @@
         "kind": "Hard Rock"
       },
       "slug": "motionless-in-white-2026-11-13"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/c17/9e496d0b-8ab1-4cd5-b4da-9ce1f17c7c17_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-13",
+      "time": "19:00",
+      "title": "Psycroptic",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "metal",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-s",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-s"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/4b/76/964b76d9-787d-ceb7-99ae-cca51a9bfeed/mzaf_7143293914600674430.plus.aac.p.m4a",
+        "track": "Gathering a Venomous Herd",
+        "artist": "Psycroptic",
+        "kind": "Metal"
+      },
+      "slug": "psycroptic-2026-11-13"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/776/41a7cf38-9dd4-4ae9-bafc-04a5067cd776_RETINA_PORTRAIT_16_9.jpg",
@@ -699,30 +731,6 @@
     {
       "date": "2026-11-13",
       "time": "20:00",
-      "title": "Hovvdy",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/74/31/28743140-499b-132c-d297-6da06afa36a8/mzaf_16470713996483116806.plus.aac.p.m4a",
-        "track": "Jean",
-        "artist": "Hovvdy",
-        "kind": "Alternative"
-      },
-      "slug": "hovvdy-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "20:00",
       "title": "Steve Martin",
       "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
       "venue": "Miller High Life Theatre",
@@ -743,6 +751,30 @@
         "kind": "Comedy"
       },
       "slug": "steve-martin-2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Hovvdy",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/74/31/28743140-499b-132c-d297-6da06afa36a8/mzaf_16470713996483116806.plus.aac.p.m4a",
+        "track": "Jean",
+        "artist": "Hovvdy",
+        "kind": "Alternative"
+      },
+      "slug": "hovvdy-2026-11-13"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193495971%2F285524009645%2F1%2Foriginal.20260914-214620?w=640&auto=format%2Ccompress&q=75&sharp=10&s=7f06fb5f53025a5b2cdea07e83bc1c19",
@@ -1272,24 +1304,6 @@
     {
       "date": "2026-11-15",
       "time": "20:00",
-      "title": "Luke Kidgell",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
-        }
-      ],
-      "slug": "luke-kidgell-2026-11-15"
-    },
-    {
-      "date": "2026-11-15",
-      "time": "20:00",
       "title": "The Wood Brothers",
       "support": "Amelia Day",
       "venue": "Turner Hall Ballroom",
@@ -1312,6 +1326,24 @@
       "slug": "the-wood-brothers-2026-11-15"
     },
     {
+      "date": "2026-11-15",
+      "time": "20:00",
+      "title": "Luke Kidgell",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
+        }
+      ],
+      "slug": "luke-kidgell-2026-11-15"
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190501470%2F285524009645%2F1%2Foriginal.20260806-215239?w=640&auto=format%2Ccompress&q=75&sharp=10&s=b72f6b76147f929a4ae8419c2db73fbe",
       "date": "2026-11-15",
       "time": "20:00",
@@ -1331,6 +1363,7 @@
       "slug": "88nine-presents-post-animal-maybe-you-have-to-tour-2026-11-15"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/684/319c2099-cbdf-416e-b154-fae7c2ea3684_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-16",
       "time": "19:30",
       "title": "Spanish Love Songs",
@@ -1344,6 +1377,10 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/spanish-love-songs-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-16-7-30-pm/concert/18593272"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPv7"
         }
       ],
       "preview": {
@@ -1783,7 +1820,7 @@
       "slug": "slaughter-to-prevail-2026-11-20"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/118/4eb4c022-ae5b-49b0-8875-3991a9baa118_RETINA_PORTRAIT_16_9.jpg",
+      "img": "https://s1.ticketm.net/dam/a/61d/eba5cfb8-4fd8-41df-ae51-5136d75c361d_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-20",
       "time": "20:30",
       "title": "Gimme Gimme Disco",
@@ -3112,24 +3149,6 @@
       "slug": "kyle-watson-2026-12-04"
     },
     {
-      "date": "2026-12-05",
-      "time": "15:00",
-      "title": "Sister's Christmas Catechism",
-      "support": null,
-      "venue": "Wilson Theater at Vogel Hall",
-      "hood": "Milwaukee",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sisters-christmas-catechism-tickets/comedy/2026-12-05-3-pm/18397324",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sisters-christmas-catechism-tickets/comedy/2026-12-05-3-pm/18397324"
-        }
-      ],
-      "slug": "sister-s-christmas-catechism-2026-12-05"
-    },
-    {
       "img": "https://s1.ticketm.net/dam/a/834/36bd28bc-32a5-45fd-a48c-915a2131d834_1654091_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-05",
       "time": "18:00",
@@ -4182,6 +4201,25 @@
         "kind": "Contemporary Jazz"
       },
       "slug": "the-bad-plus-2026-12-18"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197618568%2F285524009645%2F1%2Foriginal.20261109-190839?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d4f79e952261062e7dc3d9e92c6e31ba",
+      "date": "2026-12-18",
+      "time": "20:00",
+      "title": "Another One: The Premier Grateful Dead Experience!",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/another-one-the-premier-grateful-dead-experience-tickets-2004457581585",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/another-one-the-premier-grateful-dead-experience-tickets-2004457581585"
+        }
+      ],
+      "slug": "another-one-the-premier-grateful-dead-experience-2026-12-18"
     },
     {
       "date": "2026-12-19",
@@ -5421,7 +5459,7 @@
       "slug": "milwaukee-roast-championship-round-1-2027-01-28"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/04/84/14_Edp.jpg?v=5",
+      "img": "https://i.ticketweb.com/i/00/13/04/84/14_Edp.jpg?v=6",
       "price": 38.67,
       "date": "2027-01-29",
       "time": "19:00",
@@ -5529,7 +5567,7 @@
       "slug": "alash-tuvan-throat-singers-2027-01-29"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/04/84/14_Edp.jpg?v=5",
+      "img": "https://i.ticketweb.com/i/00/13/04/84/14_Edp.jpg?v=6",
       "price": 38.67,
       "date": "2027-01-30",
       "time": "18:30",
@@ -6036,6 +6074,53 @@
         }
       ],
       "slug": "letterkenny-live-2027-02-09"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/14/40/64_Edp.jpg?v=3",
+      "status": "offsale",
+      "onsale": "2026-11-13T16:00:00Z",
+      "price": 19.3,
+      "date": "2027-02-10",
+      "time": "20:00",
+      "title": "Planet Purple - A TRIBUTE TO DEEP PURPLE",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "metal",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/planet-purple-a-shank-hall-tickets/14437394",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/planet-purple-a-shank-hall-tickets/14437394",
+          "price": 19.3
+        }
+      ],
+      "slug": "planet-purple-a-tribute-to-deep-purple-2027-02-10"
+    },
+    {
+      "date": "2027-02-11",
+      "time": "19:30",
+      "title": "Grace Potter",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/d6/20/28d620ca-e8fd-b049-9837-647b74c6fa1e/mzaf_13120188357731912785.plus.aac.p.m4a",
+        "track": "Paris (Ooh La La)",
+        "artist": "Grace Potter",
+        "kind": "Rock"
+      },
+      "slug": "grace-potter-2027-02-11"
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/12/58/74_Edp.jpg?v=4",
@@ -7105,6 +7190,49 @@
         }
       ],
       "slug": "seaside-zoo-grateful-dead-tribute-2027-03-06"
+    },
+    {
+      "date": "2027-03-09",
+      "time": "20:00",
+      "title": "Beast In Black",
+      "support": "Gloryhammer",
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "metal",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/2a/8c/942a8c83-7e7e-0cb6-04bb-71dd2ea1f6c1/mzaf_10187418627358981008.plus.aac.p.m4a",
+        "track": "They Don't Care About Us",
+        "artist": "Beast in Black",
+        "kind": "Metal"
+      },
+      "slug": "beast-in-black-2027-03-09"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197450925%2F285524009645%2F1%2Foriginal.20261106-191727?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7cafd8b29f5350688d0fda526553166a",
+      "date": "2027-03-11",
+      "time": "20:00",
+      "title": "Pink Talking Fish: Animals 50",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/pink-talking-fish-animals-50-tickets-2004457445177",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/pink-talking-fish-animals-50-tickets-2004457445177"
+        }
+      ],
+      "slug": "pink-talking-fish-animals-50-2027-03-11"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195316171%2F285524009645%2F1%2Foriginal.20261007-204738?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=793d1a97b2a51c854a281542a9ee440f",
