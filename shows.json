@@ -1,188 +1,6 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "shows": [
-    {
-      "img": "https://i.ticketweb.com/i/00/13/38/09/93_Edp.jpg?v=4",
-      "price": 38.67,
-      "date": "2026-11-11",
-      "time": "19:00",
-      "title": "Anthony Mrocka",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/anthony-mrocka-milwaukee-improv-main-room-tickets/14775323",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/anthony-mrocka-milwaukee-improv-main-room-tickets/14775323",
-          "price": 38.67
-        }
-      ],
-      "slug": "anthony-mrocka-2026-11-11"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180190187%2F285524009645%2F1%2Foriginal.20260318-232035?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1762c7bb766471c01a6ffe0605022f22",
-      "date": "2026-11-11",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesdays: Sweet Sheiks (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "jazz",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-sweet-sheiks-free-tickets-2004095962974",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-sweet-sheiks-free-tickets-2004095962974"
-        }
-      ],
-      "slug": "swing-jazz-wednesdays-sweet-sheiks-free-2026-11-11"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195307286%2F285524009645%2F1%2Foriginal.20261007-190633?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f193a418bdf39832d08f520a3664e0e1",
-      "date": "2026-11-11",
-      "time": "19:00",
-      "title": "Quizmaster Trivia Night",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004677332867",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004677332867"
-        }
-      ],
-      "slug": "quizmaster-trivia-night-2026-11-11"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/113/a6487484-f2b3-4bca-a28b-32f016487113_RETINA_PORTRAIT_16_9.jpg",
-      "status": "rescheduled",
-      "date": "2026-11-11",
-      "time": "20:00",
-      "title": "Chief Keef",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "hiphop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/chief-keef-milwaukee-wisconsin-11-11-2026/event/0700651C98BE2A46",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/chief-keef-milwaukee-wisconsin-11-11-2026/event/0700651C98BE2A46"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/chief-keef-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-11-8-pm/concert/18550639"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/c5/08/3dc50869-d6bd-ef4c-1e77-08a1c8783544/mzaf_2659196068499875111.plus.aac.p.m4a",
-        "track": "Love Sosa",
-        "artist": "Chief Keef",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "chief-keef-2026-11-11"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/12/96/74/14_Edp.jpg?v=5",
-      "price": 40.93,
-      "date": "2026-11-11",
-      "time": "20:00",
-      "title": "Allison Brown Quintet",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "folk",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/allison-brown-quintet-shank-hall-tickets/14251154",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/allison-brown-quintet-shank-hall-tickets/14251154",
-          "price": 40.93
-        }
-      ],
-      "slug": "allison-brown-quintet-2026-11-11"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "20:00",
-      "title": "Alison Brown",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "folk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/alison-brown-tickets/milwaukee-wisconsin-shank-hall-2026-11-11-8-pm/concert/18400645",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/alison-brown-tickets/milwaukee-wisconsin-shank-hall-2026-11-11-8-pm/concert/18400645"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fb/00/60/fb0060f2-57a9-7a55-0825-98b7030e54d4/mzaf_5824127552506464423.plus.aac.p.m4a",
-        "track": "Foggy Morning Breaking (feat. Steve Martin)",
-        "artist": "Alison Brown",
-        "kind": "Bluegrass"
-      },
-      "slug": "alison-brown-2026-11-11"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "20:00",
-      "title": "Tyler Ballgame",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/tyler-ballgame-tickets/milwaukee-wisconsin-vivarium-2026-11-11-8-pm/concert/18400989"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/18/47/1e1847a2-7b54-1d60-b276-0ad4e070af50/mzaf_11625053578229540426.plus.aac.p.m4a",
-        "track": "I Believe In Love",
-        "artist": "Tyler Ballgame",
-        "kind": "Alternative"
-      },
-      "slug": "tyler-ballgame-2026-11-11"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "20:00",
-      "title": "Micky Dolenz",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/micky-dolenz-tickets/milwaukee-wisconsin-pabst-theater-2026-11-11-8-pm/concert/18261706"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/ea/7a/e2ea7aa3-4232-129e-b167-dcc0919df961/mzaf_3825163222081962595.plus.aac.p.m4a",
-        "track": "Good Morning Good Morning",
-        "artist": "Micky Dolenz",
-        "kind": "Rock"
-      },
-      "slug": "micky-dolenz-2026-11-11"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/19a/5916bf6f-8c45-479b-9492-388ae74ab19a_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-12",
@@ -759,6 +577,30 @@
       "slug": "phrva-2026-11-13"
     },
     {
+      "date": "2026-11-13",
+      "time": "21:00",
+      "title": "Emo Night Karaoke",
+      "support": null,
+      "venue": "Falcon Bowl",
+      "hood": "Milwaukee",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/f0/4a/fef04a61-3dae-0bd6-9220-9b10010011c8/mzaf_14475222405771659306.plus.aac.p.m4a",
+        "track": "Drivers License",
+        "artist": "Emo Night Karaoke",
+        "kind": "Rock"
+      },
+      "slug": "emo-night-karaoke-2026-11-13"
+    },
+    {
       "date": "2026-11-14",
       "time": "18:00",
       "title": "Icons of Country",
@@ -1114,7 +956,7 @@
       "slug": "the-wild-kratts-live-2026-11-15"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/64/07/63_Edp.jpg?v=4",
+      "img": "https://i.ticketweb.com/i/00/13/64/07/63_Edp.jpg?v=6",
       "price": 32.39,
       "date": "2026-11-15",
       "time": "18:00",
@@ -1465,7 +1307,7 @@
       "slug": "nicole-atkins-2026-11-18"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/04/39/94_Edp.jpg?v=5",
+      "img": "https://i.ticketweb.com/i/00/13/04/39/94_Edp.jpg?v=6",
       "price": 26.22,
       "date": "2026-11-19",
       "time": "19:30",
@@ -3257,28 +3099,27 @@
       "slug": "harry-potter-and-the-chamber-of-secrets-in-concert-2026-12-05"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/12/97/04/44_Edp.jpg?v=3",
-      "price": 40.93,
+      "img": "https://s1.ticketm.net/dam/a/c7c/a5850082-2957-4070-b09b-e17a97333c7c_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-05",
       "time": "20:00",
       "title": "Anthony Gomes",
       "support": null,
       "venue": "Shank Hall",
       "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/anthony-gomes-shank-hall-tickets/14254464",
+      "genre": "blues",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/anthony-gomes-tickets/milwaukee-wisconsin-shank-hall-2026-12-05-8-pm/concert/18587601",
       "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/anthony-gomes-shank-hall-tickets/14254464",
-          "price": 40.93
-        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/anthony-gomes-tickets/milwaukee-wisconsin-shank-hall-2026-12-05-8-pm/concert/18587601"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv40w"
         }
       ],
+      "price": 40.93,
       "preview": {
         "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/dc/85/cadc858f-af8b-ae50-d12a-abf1d44fa748/mzaf_10493272780024888049.plus.aac.p.m4a",
         "track": "The Whiskey Made Me Do It",
@@ -5360,6 +5201,30 @@
       "slug": "russell-peters-2027-01-22"
     },
     {
+      "date": "2027-01-22",
+      "time": "20:00",
+      "title": "Jess Williamson",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Z0O",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Z0O"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/a8/a6/83a8a633-1fa8-cee7-b109-bf964850ea15/mzaf_4187300082185672052.plus.aac.p.m4a",
+        "track": "Goodbye to All That",
+        "artist": "Jess Williamson",
+        "kind": "Alternative"
+      },
+      "slug": "jess-williamson-2027-01-22"
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193492424%2F285524009645%2F1%2Foriginal.20260914-211045?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fc87a0e51e41b5918470e4ad3e548c7a",
       "date": "2027-01-22",
       "time": "20:00",
@@ -5552,6 +5417,27 @@
       "slug": "medicine-place-2027-01-23"
     },
     {
+      "img": "https://i.ticketweb.com/i/00/13/14/76/44_Edp.jpg?v=4",
+      "price": 32.39,
+      "date": "2027-01-24",
+      "time": "18:00",
+      "title": "Denny Love",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/denny-love-milwaukee-improv-main-room-tickets/14441384",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/denny-love-milwaukee-improv-main-room-tickets/14441384",
+          "price": 32.39
+        }
+      ],
+      "slug": "denny-love-2027-01-24"
+    },
+    {
       "date": "2027-01-24",
       "time": "20:00",
       "title": "Denny Love",
@@ -5571,7 +5457,7 @@
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd0f"
         }
       ],
-      "slug": "denny-love-2027-01-24"
+      "slug": "denny-love-2027-01-24-2"
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/04/90/14_Edp.jpg?v=7",
@@ -5903,10 +5789,10 @@
       "slug": "marchfourth-2027-02-03"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/14/48/34_Edp.jpg?v=4",
+      "img": "https://i.ticketweb.com/i/00/13/14/48/34_Edp.jpg?v=5",
       "price": 32.39,
       "date": "2027-02-04",
-      "time": "19:00",
+      "time": "19:30",
       "title": "Heroes Off Duty Presents: Scrubs & Badges LIVE",
       "support": null,
       "venue": "Milwaukee Improv",
@@ -6233,41 +6119,10 @@
       "slug": "letterkenny-live-2027-02-09"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/223/fb14a9e0-e0a3-4924-8124-2626c26fd223_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-11-13T18:00:00Z",
-      "date": "2027-02-11",
-      "time": "19:30",
-      "title": "Grace Potter",
-      "support": "Pokey LaFarge",
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_J"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/d6/20/28d620ca-e8fd-b049-9837-647b74c6fa1e/mzaf_13120188357731912785.plus.aac.p.m4a",
-        "track": "Paris (Ooh La La)",
-        "artist": "Grace Potter",
-        "kind": "Rock"
-      },
-      "slug": "grace-potter-2027-02-11"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/12/58/74_Edp.jpg?v=4",
+      "img": "https://i.ticketweb.com/i/00/13/12/58/74_Edp.jpg?v=5",
       "price": 30.37,
       "date": "2027-02-11",
-      "time": "20:00",
+      "time": "19:30",
       "title": "C.J. Chenier & The Red Hot Louisiana Band",
       "support": null,
       "venue": "Shank Hall",
@@ -6289,6 +6144,30 @@
         "kind": "Blues"
       },
       "slug": "c-j-chenier-and-the-red-hot-louisiana-band-2027-02-11"
+    },
+    {
+      "date": "2027-02-11",
+      "time": "19:30",
+      "title": "Grace Potter",
+      "support": "Pokey LaFarge",
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/d6/20/28d620ca-e8fd-b049-9837-647b74c6fa1e/mzaf_13120188357731912785.plus.aac.p.m4a",
+        "track": "Paris (Ooh La La)",
+        "artist": "Grace Potter",
+        "kind": "Rock"
+      },
+      "slug": "grace-potter-2027-02-11"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/881/853bc405-3922-4368-bed0-127532b30881_RETINA_PORTRAIT_16_9.jpg",
@@ -7073,6 +6952,30 @@
     {
       "date": "2027-02-27",
       "time": "19:00",
+      "title": "Youth Fountain",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ejv",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ejv"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/51/a6/0351a67e-d495-1da3-531a-8bc21a3f65bb/mzaf_14772340774294830020.plus.aac.p.m4a",
+        "track": "Rose Coloured Glass",
+        "artist": "Youth Fountain",
+        "kind": "Rock"
+      },
+      "slug": "youth-fountain-2027-02-27"
+    },
+    {
+      "date": "2027-02-27",
+      "time": "19:00",
       "title": "Liquid Stranger",
       "support": "Sully, Twopercent",
       "venue": "Miramar Theatre",
@@ -7205,6 +7108,37 @@
         "kind": "Rock"
       },
       "slug": "pigeons-playing-ping-pong-2027-03-04"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/8bf/03985c53-fb10-4d38-ab4f-662df14e78bf_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "date": "2027-03-04",
+      "time": "19:30",
+      "title": "Phoebe Bridgers",
+      "support": "Paper Wings",
+      "venue": "Fiserv Forum",
+      "hood": "Deer District",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-milwaukee-wisconsin-03-04-2027/event/0700656996C12A6E",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-milwaukee-wisconsin-03-04-2027/event/0700656996C12A6E"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/phoebe-bridgers-tickets/milwaukee-wisconsin-fiserv-forum-2027-03-04-7-30-pm/concert/18760629"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/0d/3c/880d3c6d-70f6-4628-a1dc-5b07ef90421c/mzaf_7359776133976251843.plus.aac.p.m4a",
+        "track": "Motion Sickness",
+        "artist": "Phoebe Bridgers",
+        "kind": "Alternative"
+      },
+      "slug": "phoebe-bridgers-2027-03-04"
     },
     {
       "date": "2027-03-04",
@@ -7360,11 +7294,11 @@
       "hood": "Westown",
       "genre": "metal",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582",
+      "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-ii-2027-03-09-8-pm/concert/18727586",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582"
+          "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-ii-2027-03-09-8-pm/concert/18727586"
         }
       ],
       "preview": {
@@ -7374,6 +7308,60 @@
         "kind": "Metal"
       },
       "slug": "beast-in-black-2027-03-09"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/82e/a67a24ce-b7b1-4e00-857a-ff008b6cf82e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-11",
+      "time": "19:00",
+      "title": "Zach Williams",
+      "support": "Emerson Day",
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/zach-williams-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-11-7-pm/concert/18727269",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/zach-williams-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-11-7-pm/concert/18727269"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7U-J"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/ae/47/3bae47c7-0675-f1b9-9906-6b7284fab12d/mzaf_7945411756439985225.plus.aac.p.m4a",
+        "track": "Chain Breaker",
+        "artist": "Zach Williams",
+        "kind": "Christian"
+      },
+      "slug": "zach-williams-2027-03-11"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/1e0/f3b3ab21-5791-4a86-a221-d2d9a75621e0_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-11",
+      "time": "19:30",
+      "title": "Anna Shoemaker",
+      "support": null,
+      "venue": "Cactus Club",
+      "hood": "Bay View",
+      "genre": "pop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvyoA",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvyoA"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/32/81/6e328136-8cc0-347d-112f-a62d667253d7/mzaf_7274572611761217923.plus.aac.p.m4a",
+        "track": "Back to Pennsylvania",
+        "artist": "Anna Shoemaker",
+        "kind": "Pop"
+      },
+      "slug": "anna-shoemaker-2027-03-11"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197450925%2F285524009645%2F1%2Foriginal.20261106-191727?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7cafd8b29f5350688d0fda526553166a",
