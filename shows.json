@@ -1,132 +1,6 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/19a/5916bf6f-8c45-479b-9492-388ae74ab19a_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-12",
-      "time": "19:00",
-      "title": "Alter Bridge",
-      "support": "Big Wreck",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/alter-bridge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-12-7-pm/concert/18266554",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/alter-bridge-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-12-7-pm/concert/18266554"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U7e"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/bb/f1/4fbbf144-a50a-6d02-f149-a7f83f866f91/mzaf_13144643142746709129.plus.aac.p.m4a",
-        "track": "Metalingus",
-        "artist": "Alter Bridge",
-        "kind": "Hard Rock"
-      },
-      "slug": "alter-bridge-2026-11-12"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/56d/9638c963-033e-415a-a69b-754e19edb56d_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-12",
-      "time": "20:00",
-      "title": "Michelle Branch",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZyfA"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/86/6e/53866e75-ec78-3973-5b6a-70ba411ce805/mzaf_13782215738281412572.plus.aac.p.m4a",
-        "track": "Everywhere",
-        "artist": "Michelle Branch",
-        "kind": "Pop"
-      },
-      "slug": "michelle-branch-2026-11-12"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/d85/8ad68006-7c60-40bd-9db4-76e596d27d85_517051_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-12",
-      "time": "20:00",
-      "title": "Patrick Wolf",
-      "support": "Friend of a Friend",
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "indie",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-AS",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-AS"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/ce/7b/99ce7b3c-8db2-711f-3382-a4afe466051c/mzaf_597730994122108518.plus.aac.p.m4a",
-        "track": "The Days",
-        "artist": "Patrick Wolf",
-        "kind": "Alternative"
-      },
-      "slug": "patrick-wolf-2026-11-12"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "20:00",
-      "title": "Peyton Parrish",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/peyton-parrish-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-12-8-pm/concert/18669826",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/peyton-parrish-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-12-8-pm/concert/18669826"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/97/db/d097dbc8-47d8-fa37-1392-b432e75debcf/mzaf_1551140102508203280.plus.aac.p.m4a",
-        "track": "I'll Make a Man Out of You",
-        "artist": "Peyton Parrish",
-        "kind": "Rock"
-      },
-      "slug": "peyton-parrish-2026-11-12"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195321764%2F285524009645%2F1%2Foriginal.20261007-220146?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=23ade8093142b79df3429d24b476bbab",
-      "date": "2026-11-12",
-      "time": "20:00",
-      "title": "Tell Me Lies: A Tribute to Fleetwood Mac",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/tell-me-lies-a-tribute-to-fleetwood-mac-tickets-2003095185622",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/tell-me-lies-a-tribute-to-fleetwood-mac-tickets-2003095185622"
-        }
-      ],
-      "slug": "tell-me-lies-a-tribute-to-fleetwood-mac-2026-11-12"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/ae8/69667459-3c21-434e-af03-1dd0420c9ae8_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-13",
@@ -462,30 +336,6 @@
     {
       "date": "2026-11-13",
       "time": "20:00",
-      "title": "Steve Martin",
-      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
-        "track": "King Tut",
-        "artist": "Steve Martin",
-        "kind": "Comedy"
-      },
-      "slug": "steve-martin-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "20:00",
       "title": "Hovvdy",
       "support": null,
       "venue": "Vivarium",
@@ -506,6 +356,30 @@
         "kind": "Alternative"
       },
       "slug": "hovvdy-2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "20:00",
+      "title": "Steve Martin",
+      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
+      "venue": "Miller High Life Theatre",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
+        "track": "King Tut",
+        "artist": "Steve Martin",
+        "kind": "Comedy"
+      },
+      "slug": "steve-martin-2026-11-13"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193495971%2F285524009645%2F1%2Foriginal.20260914-214620?w=640&auto=format%2Ccompress&q=75&sharp=10&s=7f06fb5f53025a5b2cdea07e83bc1c19",
@@ -1059,6 +933,24 @@
     {
       "date": "2026-11-15",
       "time": "20:00",
+      "title": "Luke Kidgell",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
+        }
+      ],
+      "slug": "luke-kidgell-2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "time": "20:00",
       "title": "The Wood Brothers",
       "support": "Amelia Day",
       "venue": "Turner Hall Ballroom",
@@ -1079,24 +971,6 @@
         "kind": "Country"
       },
       "slug": "the-wood-brothers-2026-11-15"
-    },
-    {
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "Luke Kidgell",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
-        }
-      ],
-      "slug": "luke-kidgell-2026-11-15"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190501470%2F285524009645%2F1%2Foriginal.20260806-215239?w=640&auto=format%2Ccompress&q=75&sharp=10&s=b72f6b76147f929a4ae8419c2db73fbe",
@@ -1278,6 +1152,25 @@
       "slug": "swing-jazz-wednesdays-the-sazerac-5-free-2026-11-18"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195307286%2F285524009645%2F1%2Foriginal.20261007-190633?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f193a418bdf39832d08f520a3664e0e1",
+      "date": "2026-11-18",
+      "time": "19:00",
+      "title": "Quizmaster Trivia Night",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739117667",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739117667"
+        }
+      ],
+      "slug": "quizmaster-trivia-night-2026-11-18"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/cb0/9805cc76-e56e-41b1-91fd-148c66faccb0_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-18",
       "time": "20:00",
@@ -1307,7 +1200,7 @@
       "slug": "nicole-atkins-2026-11-18"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/04/39/94_Edp.jpg?v=6",
+      "img": "https://i.ticketweb.com/i/00/13/04/39/94_Edp.jpg?v=7",
       "price": 26.22,
       "date": "2026-11-19",
       "time": "19:30",
@@ -2446,6 +2339,30 @@
       "slug": "bleood-2026-11-28"
     },
     {
+      "date": "2026-11-28",
+      "time": "20:00",
+      "title": "Driveway Thriftdwellers",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/driveway-thriftdwellers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-28-8-pm/concert/18762176",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/driveway-thriftdwellers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-28-8-pm/concert/18762176"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/88/e2/0188e2f7-87d4-d6c4-e2d8-7239e17c0840/mzaf_5015662656034188681.plus.aac.p.m4a",
+        "track": "Dance With You",
+        "artist": "Driveway Thriftdwellers",
+        "kind": "Rock"
+      },
+      "slug": "driveway-thriftdwellers-2026-11-28"
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189819911%2F285524009645%2F1%2Foriginal.20260728-195518?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cb1fbf4580a2f97e3a67e9a50377be80",
       "date": "2026-11-28",
       "time": "20:00",
@@ -2544,6 +2461,25 @@
       "slug": "the-collingsworth-family-2026-11-30"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197796896%2F285524009645%2F1%2Foriginal.20261111-203742?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=39109ae3f573b0c2df5f2ff9fd1e3771",
+      "date": "2026-12-02",
+      "time": "18:30",
+      "title": "Made Here: The Story U.S. Manufacturing Deserves (Screening)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/made-here-the-story-us-manufacturing-deserves-screening-tickets-2004732866971",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/made-here-the-story-us-manufacturing-deserves-screening-tickets-2004732866971"
+        }
+      ],
+      "slug": "made-here-the-story-u-s-manufacturing-deserves-screening-2026-12-02"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/13/13/29/64_Edp.jpg?v=4",
       "price": 32.39,
       "date": "2026-12-02",
@@ -2582,6 +2518,25 @@
         }
       ],
       "slug": "swing-jazz-wednesdays-troubadours-of-rhythm-free-2026-12-02"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195307286%2F285524009645%2F1%2Foriginal.20261007-190633?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f193a418bdf39832d08f520a3664e0e1",
+      "date": "2026-12-02",
+      "time": "19:00",
+      "title": "Quizmaster Trivia Night",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739255078",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739255078"
+        }
+      ],
+      "slug": "quizmaster-trivia-night-2026-12-02"
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/64/10/73_Edp.jpg?v=4",
@@ -3426,6 +3381,44 @@
       "slug": "love-actually-live-in-concert-2026-12-09"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195307286%2F285524009645%2F1%2Foriginal.20261007-190633?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f193a418bdf39832d08f520a3664e0e1",
+      "date": "2026-12-09",
+      "time": "19:00",
+      "title": "Quizmaster Trivia Night",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739472729",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739472729"
+        }
+      ],
+      "slug": "quizmaster-trivia-night-2026-12-09"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180190187%2F285524009645%2F1%2Foriginal.20260318-232035?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1762c7bb766471c01a6ffe0605022f22",
+      "date": "2026-12-09",
+      "time": "19:00",
+      "title": "Swing Jazz Wednesdays: Sweet Sheiks (Free)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "jazz",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-sweet-sheiks-free-tickets-2004739993286",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-sweet-sheiks-free-tickets-2004739993286"
+        }
+      ],
+      "slug": "swing-jazz-wednesdays-sweet-sheiks-free-2026-12-09"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/13/61/91/63_Edp.jpg?v=5",
       "price": 32.39,
       "date": "2026-12-09",
@@ -3833,6 +3826,44 @@
         }
       ],
       "slug": "little-high-little-low-2026-12-15"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195307286%2F285524009645%2F1%2Foriginal.20261007-190633?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f193a418bdf39832d08f520a3664e0e1",
+      "date": "2026-12-16",
+      "time": "19:00",
+      "title": "Quizmaster Trivia Night",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739519870",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739519870"
+        }
+      ],
+      "slug": "quizmaster-trivia-night-2026-12-16"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1165039593%2F2668491103591%2F1%2Foriginal.20251029-013742?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fa36b64ac9228fa00fb79e4f9d76c8e5",
+      "date": "2026-12-16",
+      "time": "19:00",
+      "title": "Swing Jazz Wednesday:  Old Sam & The Teardrops (Free)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "jazz",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/swing-jazz-wednesday-old-sam-the-teardrops-free-tickets-2004740336312",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/swing-jazz-wednesday-old-sam-the-teardrops-free-tickets-2004740336312"
+        }
+      ],
+      "slug": "swing-jazz-wednesday-old-sam-and-the-teardrops-free-2026-12-16"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/bc7/45eea68d-adda-4327-8f5e-904ebae81bc7_1175961_RETINA_PORTRAIT_16_9.jpg",
@@ -4305,6 +4336,44 @@
       "slug": "the-sleighriders-2026-12-21"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195307286%2F285524009645%2F1%2Foriginal.20261007-190633?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f193a418bdf39832d08f520a3664e0e1",
+      "date": "2026-12-23",
+      "time": "19:00",
+      "title": "Quizmaster Trivia Night",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739557984",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739557984"
+        }
+      ],
+      "slug": "quizmaster-trivia-night-2026-12-23"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180188256%2F285524009645%2F1%2Foriginal.20260318-225034?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=91897fb4bec846e2bfe6e5558b7f15ef",
+      "date": "2026-12-23",
+      "time": "19:00",
+      "title": "A Jazz Holiday Special w/ Troubadours of Rhythm (Free)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "jazz",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/a-jazz-holiday-special-w-troubadours-of-rhythm-free-tickets-2004740477735",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/a-jazz-holiday-special-w-troubadours-of-rhythm-free-tickets-2004740477735"
+        }
+      ],
+      "slug": "a-jazz-holiday-special-w-troubadours-of-rhythm-free-2026-12-23"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-26",
       "time": "10:00",
@@ -4527,6 +4596,44 @@
         "kind": "Rock"
       },
       "slug": "spafford-2026-12-30"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195307286%2F285524009645%2F1%2Foriginal.20261007-190633?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f193a418bdf39832d08f520a3664e0e1",
+      "date": "2026-12-30",
+      "time": "19:00",
+      "title": "Quizmaster Trivia Night",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739825785",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/quizmaster-trivia-night-tickets-2004739825785"
+        }
+      ],
+      "slug": "quizmaster-trivia-night-2026-12-30"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180189102%2F285524009645%2F1%2Foriginal.20260318-230308?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6ce92e9b9d38dc104f206c7572737acd",
+      "date": "2026-12-30",
+      "time": "19:00",
+      "title": "Swing Jazz Wednesdays: Micro Brew Swing Band (Free)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "jazz",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-2004740630191",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-2004740630191"
+        }
+      ],
+      "slug": "swing-jazz-wednesdays-micro-brew-swing-band-free-2026-12-30"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/a4d/26156485-7691-4eee-af12-e660eca55a4d_RETINA_PORTRAIT_16_9.jpg",
@@ -4959,6 +5066,24 @@
       "slug": "galactic-masquerade-ball-2027-01-15"
     },
     {
+      "date": "2027-01-15",
+      "time": "20:00",
+      "title": "Masquerade Ball",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/masquerade-ball-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-01-15-8-pm/concert/18762184",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/masquerade-ball-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-01-15-8-pm/concert/18762184"
+        }
+      ],
+      "slug": "masquerade-ball-2027-01-15"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/13/07/86/34_Edp.jpg?v=3",
       "price": 26.22,
       "date": "2027-01-15",
@@ -5027,6 +5152,24 @@
         }
       ],
       "slug": "galactic-masquerade-ball-2027-01-16"
+    },
+    {
+      "date": "2027-01-16",
+      "time": "20:00",
+      "title": "Masquerade Ball",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/masquerade-ball-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-01-16-8-pm/concert/18762185",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/masquerade-ball-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-01-16-8-pm/concert/18762185"
+        }
+      ],
+      "slug": "masquerade-ball-2027-01-16"
     },
     {
       "date": "2027-01-16",
@@ -5838,7 +5981,7 @@
       "slug": "gianmarco-soresi-2027-02-05"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/9ad/98cb1375-6bbc-492a-a72b-cec9fde559ad_RETINA_PORTRAIT_16_9.jpg",
+      "img": "https://s1.ticketm.net/dam/a/939/e9983c3b-750c-455b-9b85-d7470a893939_RETINA_PORTRAIT_16_9.jpg",
       "price": 64.03,
       "date": "2027-02-05",
       "time": "19:00",
@@ -5908,7 +6051,7 @@
       "slug": "we-them-ones-comedy-tour-2027-02-05"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/9ad/98cb1375-6bbc-492a-a72b-cec9fde559ad_RETINA_PORTRAIT_16_9.jpg",
+      "img": "https://s1.ticketm.net/dam/a/939/e9983c3b-750c-455b-9b85-d7470a893939_RETINA_PORTRAIT_16_9.jpg",
       "price": 64.03,
       "date": "2027-02-06",
       "time": "18:30",
@@ -6119,6 +6262,35 @@
       "slug": "letterkenny-live-2027-02-09"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/fd0/f3e16521-21f6-44a8-8d48-e6c591995fd0_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-02-11",
+      "time": "19:30",
+      "title": "Grace Potter",
+      "support": "Pokey LaFarge",
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "pop",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_J"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/d6/20/28d620ca-e8fd-b049-9837-647b74c6fa1e/mzaf_13120188357731912785.plus.aac.p.m4a",
+        "track": "Paris (Ooh La La)",
+        "artist": "Grace Potter",
+        "kind": "Rock"
+      },
+      "slug": "grace-potter-2027-02-11"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/13/12/58/74_Edp.jpg?v=5",
       "price": 30.37,
       "date": "2027-02-11",
@@ -6144,30 +6316,6 @@
         "kind": "Blues"
       },
       "slug": "c-j-chenier-and-the-red-hot-louisiana-band-2027-02-11"
-    },
-    {
-      "date": "2027-02-11",
-      "time": "19:30",
-      "title": "Grace Potter",
-      "support": "Pokey LaFarge",
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/d6/20/28d620ca-e8fd-b049-9837-647b74c6fa1e/mzaf_13120188357731912785.plus.aac.p.m4a",
-        "track": "Paris (Ooh La La)",
-        "artist": "Grace Potter",
-        "kind": "Rock"
-      },
-      "slug": "grace-potter-2027-02-11"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/881/853bc405-3922-4368-bed0-127532b30881_RETINA_PORTRAIT_16_9.jpg",
@@ -6903,6 +7051,30 @@
       "slug": "mccoy-moore-2027-02-26"
     },
     {
+      "date": "2027-02-26",
+      "time": "20:00",
+      "title": "Twin Temple",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/twin-temple-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-02-26-8-pm/concert/18762192",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/twin-temple-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-02-26-8-pm/concert/18762192"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/49/0e/20490e84-51d6-f235-4c2c-62908bdc7d06/mzaf_8994395844031905326.plus.aac.p.m4a",
+        "track": "Doomed Lovers",
+        "artist": "Twin Temple",
+        "kind": "Rock"
+      },
+      "slug": "twin-temple-2027-02-26"
+    },
+    {
       "date": "2027-02-27",
       "time": "14:00",
       "title": "Sesame Street Live! Elmos Got The Moves",
@@ -7093,9 +7265,13 @@
       "venue": "Turner Hall Ballroom",
       "hood": "Westown",
       "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA78aM",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181",
       "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181"
+        },
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA78aM"
@@ -7383,6 +7559,98 @@
       "slug": "pink-talking-fish-animals-50-2027-03-11"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/dd0/6249797d-9753-46d0-9f7a-97a273a5bdd0_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-12",
+      "time": "19:00",
+      "title": "Desi Banks",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7xGU",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7xGU"
+        }
+      ],
+      "price": 38.67,
+      "times": [
+        "19:00",
+        "21:15"
+      ],
+      "slug": "desi-banks-2027-03-12"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/a34/bdd67261-2ded-4061-b070-e6960884aa34_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-12",
+      "time": "19:30",
+      "title": "Bored Teachers",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/bored-teachers-tickets/comedy/2027-03-12-7-30-pm/18724947",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/bored-teachers-tickets/comedy/2027-03-12-7-30-pm/18724947"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7KP6"
+        }
+      ],
+      "slug": "bored-teachers-2027-03-12"
+    },
+    {
+      "date": "2027-03-12",
+      "time": "20:00",
+      "title": "Jeffrey Martin",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "folk",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk8y",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk8y"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/81/02/fc/8102fcc6-9146-ec0b-2bc4-6ad782246370/mzaf_9858004334604095464.plus.aac.p.m4a",
+        "track": "The Middle",
+        "artist": "Jeffrey Martin",
+        "kind": "Singer/Songwriter"
+      },
+      "slug": "jeffrey-martin-2027-03-12"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/12/96/74_Edp.jpg?v=3",
+      "price": 19.3,
+      "date": "2027-03-12",
+      "time": "20:00",
+      "title": "U2Zoo",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/u2zoo-shank-hall-tickets/14416234",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/u2zoo-shank-hall-tickets/14416234",
+          "price": 19.3
+        }
+      ],
+      "slug": "u2zoo-2027-03-12"
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195316171%2F285524009645%2F1%2Foriginal.20261007-204738?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=793d1a97b2a51c854a281542a9ee440f",
       "date": "2027-03-13",
       "time": "20:00",
@@ -7475,6 +7743,31 @@
         "kind": "Hip-Hop/Rap"
       },
       "slug": "jack-and-jack-2027-03-30"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197451287%2F285524009645%2F1%2Foriginal.20261106-192213?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f27c39c188172d5b130d821f3e99d00b",
+      "date": "2027-04-14",
+      "time": "20:00",
+      "title": "Earth to Eve: Oversharing On The Internet Tour",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "pop",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/earth-to-eve-oversharing-on-the-internet-tour-tickets-2004495047647",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/earth-to-eve-oversharing-on-the-internet-tour-tickets-2004495047647"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/38/af/bb38aff5-aabc-ec7b-34d3-39e3b48cd340/mzaf_11782023671526728125.plus.aac.p.m4a",
+        "track": "NO KINGS",
+        "artist": "Earth to Eve",
+        "kind": "Pop"
+      },
+      "slug": "earth-to-eve-oversharing-on-the-internet-tour-2027-04-14"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195109167%2F285524009645%2F1%2Foriginal.20261005-191604?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=06ed70e1aa3b761c2fc708ffeb5eee3f",
