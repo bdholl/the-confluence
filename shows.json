@@ -1,480 +1,8 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "shows": [
     {
-      "img": "https://s1.ticketm.net/dam/a/ae8/69667459-3c21-434e-af03-1dd0420c9ae8_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-13",
-      "time": "18:30",
-      "title": "Motionless In White",
-      "support": "Dayseeker, The Devil Wears Prada, Dark Divine",
-      "venue": "Fiserv Forum",
-      "hood": "Deer District",
-      "genre": "metal",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/motionless-in-white-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-13-6-30-pm/concert/18281907"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c0/af/ae/c0afaeb3-aea5-3c20-788f-64017d7db37b/mzaf_13680975937059509813.plus.aac.p.m4a",
-        "track": "Another Life",
-        "artist": "Motionless In White",
-        "kind": "Hard Rock"
-      },
-      "slug": "motionless-in-white-2026-11-13"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/c17/9e496d0b-8ab1-4cd5-b4da-9ce1f17c7c17_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-13",
-      "time": "19:00",
-      "title": "Psycroptic",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "metal",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-s",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-s"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/4b/76/964b76d9-787d-ceb7-99ae-cca51a9bfeed/mzaf_7143293914600674430.plus.aac.p.m4a",
-        "track": "Gathering a Venomous Herd",
-        "artist": "Psycroptic",
-        "kind": "Metal"
-      },
-      "slug": "psycroptic-2026-11-13"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/776/41a7cf38-9dd4-4ae9-bafc-04a5067cd776_RETINA_PORTRAIT_16_9.jpg",
-      "price": 32.39,
-      "date": "2026-11-13",
-      "time": "19:00",
-      "title": "T.J. Miller",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939153",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939153",
-          "price": 32.39
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/t-j-miller-tickets/comedy/2026-11-13-7-pm/18400871"
-        }
-      ],
-      "times": [
-        "19:00",
-        "21:15"
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/03/fe/46/03fe4673-577f-26e6-5a92-3602178a76bb/mzaf_1050441911156995295.plus.aac.p.m4a",
-        "track": "I've Located the Drunks",
-        "artist": "T.J. Miller",
-        "kind": "Comedy"
-      },
-      "slug": "t-j-miller-2026-11-13"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/b9a/21e3268e-901c-489a-8b5e-ce70d6a94b9a_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Charles Wesley Godwin",
-      "support": "Tyler Nance",
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/charles-wesley-godwin-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-13-8-pm/concert/18354424",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/charles-wesley-godwin-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-13-8-pm/concert/18354424"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_fV"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/39/a4/9a39a438-2ed4-87a2-5295-a5e8b32c9d63/mzaf_16929281132567801034.plus.aac.p.m4a",
-        "track": "Dance in Rain",
-        "artist": "Charles Wesley Godwin",
-        "kind": "Country"
-      },
-      "slug": "charles-wesley-godwin-2026-11-13"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/685/fe1a2630-070a-4eb3-b9d6-2cd7c2bfa685_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "The Mavericks",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-mavericks-tickets/milwaukee-wisconsin-pabst-theater-2026-11-13-8-pm/concert/18226467",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-mavericks-tickets/milwaukee-wisconsin-pabst-theater-2026-11-13-8-pm/concert/18226467"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Kkd"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e4/75/8a/e4758a8c-f0f0-c56c-5ca8-b6a8684a5905/mzaf_5598777930256231635.plus.aac.p.m4a",
-        "track": "What a Crying Shame",
-        "artist": "The Mavericks",
-        "kind": "Country"
-      },
-      "slug": "the-mavericks-2026-11-13"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/c7d/705f2eed-23d5-4ce6-b9e9-cf49d6859c7d_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "STS9",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/sts9-human-dream-tour-milwaukee-wisconsin-11-13-2026/event/070064CAA7C54DEF",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/sts9-human-dream-tour-milwaukee-wisconsin-11-13-2026/event/070064CAA7C54DEF"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/77/cf/60/77cf60e6-2ba8-c4d3-027f-6c46be6928c6/mzaf_1909593991510754453.plus.aac.p.m4a",
-        "track": "When the Dust Settles",
-        "artist": "STS9",
-        "kind": "Jam Bands"
-      },
-      "slug": "sts9-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Sound Tribe Sector 9 - STS9",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sound-tribe-sector-9-sts9-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-13-8-pm/concert/18319540",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sound-tribe-sector-9-sts9-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-13-8-pm/concert/18319540"
-        }
-      ],
-      "slug": "sound-tribe-sector-9-sts9-2026-11-13"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/63/35/43_Edp.jpg?v=4",
-      "price": 24.96,
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Welshly Arms",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/welshly-arms-shank-hall-tickets/15036363",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/welshly-arms-shank-hall-tickets/15036363",
-          "price": 24.96
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/welshly-arms-tickets/milwaukee-wisconsin-shank-hall-2026-11-13-8-pm/concert/18526347"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7a/2c/cf/7a2ccfe1-15db-84ea-a31a-373e12ea8062/mzaf_9197516673507092341.plus.aac.p.m4a",
-        "track": "Legendary",
-        "artist": "Welshly Arms",
-        "kind": "Alternative"
-      },
-      "slug": "welshly-arms-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Lil' Ed & The Blues Imperials",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "blues",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/lil-ed-the-blues-imperials-tickets/milwaukee-wisconsin-shank-hall-2026-11-13-8-pm/concert/18526348",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/lil-ed-the-blues-imperials-tickets/milwaukee-wisconsin-shank-hall-2026-11-13-8-pm/concert/18526348"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/98/c4/4398c42a-8dfa-535b-e0e7-b750f2e7480c/mzaf_10000287116856500272.plus.aac.p.m4a",
-        "track": "Kick Me To The Curb",
-        "artist": "Lil' Ed & The Blues Imperials",
-        "kind": "Blues"
-      },
-      "slug": "lil-ed-and-the-blues-imperials-2026-11-13"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/5f3/84b4425c-3306-4e11-875b-8e62599c75f3_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Black Stone Cherry",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/black-stone-cherry-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18637121",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/black-stone-cherry-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18637121"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8Ot"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/7c/75/e17c755c-423d-c7a3-c3e0-f5f18565cf19/mzaf_16284935505935746969.plus.aac.p.m4a",
-        "track": "Stay",
-        "artist": "Black Stone Cherry",
-        "kind": "Hard Rock"
-      },
-      "slug": "black-stone-cherry-2026-11-13"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/cc3/aae3a935-ca19-4fc2-9c40-37eac6334cc3_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Bryan Andrews",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bryan-andrews-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18398482"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeGg"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/46/a1/8c46a1b0-879c-2fa9-1912-3259ca773a16/mzaf_6523337656613776054.plus.aac.p.m4a",
-        "track": "Are We Great Yet?",
-        "artist": "Bryan Andrews",
-        "kind": "Country"
-      },
-      "slug": "bryan-andrews-2026-11-13"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/f06/48603ef9-a21d-4e79-9a55-5653d741cf06_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "3BallMTY",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/3ballmty-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18587502",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/3ballmty-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18587502"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNuy"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/19/35/af19357d-a24a-994d-b5e8-3ba9ce620ddd/mzaf_14991358818066239735.plus.aac.p.m4a",
-        "track": "Inténtalo (feat. América Sierra & El Bebeto)",
-        "artist": "3BallMTY",
-        "kind": "Música Mexicana"
-      },
-      "slug": "3ballmty-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Hovvdy",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/hovvdy-tickets/milwaukee-wisconsin-vivarium-2026-11-13-8-pm/concert/18400991"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/74/31/28743140-499b-132c-d297-6da06afa36a8/mzaf_16470713996483116806.plus.aac.p.m4a",
-        "track": "Jean",
-        "artist": "Hovvdy",
-        "kind": "Alternative"
-      },
-      "slug": "hovvdy-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "Steve Martin",
-      "support": "Martin Short, Jeff Babko, The Steep Canyon Rangers",
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/steve-martin-tickets/comedy/2026-11-13-8-pm/17754400"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/f7/cc/30f7ccfb-8bde-3f7e-6247-5824a1593f63/mzaf_4241269762502244921.plus.aac.p.m4a",
-        "track": "King Tut",
-        "artist": "Steve Martin",
-        "kind": "Comedy"
-      },
-      "slug": "steve-martin-2026-11-13"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193495971%2F285524009645%2F1%2Foriginal.20260914-214620?w=640&auto=format%2Ccompress&q=75&sharp=10&s=7f06fb5f53025a5b2cdea07e83bc1c19",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "title": "The Spooklights w/ Bodhicitta",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "electronic",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/the-spooklights-w-bodhicitta-tickets-2000996867496",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/the-spooklights-w-bodhicitta-tickets-2000996867496"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0f/55/12/0f551202-977c-08c4-5828-b2e5754eeecf/mzaf_18069911601208805923.plus.aac.p.m4a",
-        "track": "Red Rocking Chair",
-        "artist": "The Spooklights",
-        "kind": "Electronic"
-      },
-      "slug": "the-spooklights-w-bodhicitta-2026-11-13"
-    },
-    {
-      "price": 14.11,
-      "date": "2026-11-13",
-      "time": "21:00",
-      "title": "Bella Cain",
-      "support": null,
-      "venue": "Live at 1175",
-      "hood": "Kansasville",
-      "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/bella-cain-live-at-1175-tickets/14407924",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/bella-cain-live-at-1175-tickets/14407924",
-          "price": 14.11
-        }
-      ],
-      "slug": "bella-cain-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "21:00",
-      "title": "Phrva",
-      "support": null,
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "electronic",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK_4",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK_4"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/d8/66/41d8666b-03ad-06b5-ffe0-a9ded028678b/mzaf_6964074659929248481.plus.aac.p.m4a",
-        "track": "Is It All",
-        "artist": "Phrva",
-        "kind": "Dubstep"
-      },
-      "slug": "phrva-2026-11-13"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "21:00",
-      "title": "Emo Night Karaoke",
-      "support": null,
-      "venue": "Falcon Bowl",
-      "hood": "Milwaukee",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/emo-night-karaoke-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-13-9-pm/concert/18400837"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/f0/4a/fef04a61-3dae-0bd6-9220-9b10010011c8/mzaf_14475222405771659306.plus.aac.p.m4a",
-        "track": "Drivers License",
-        "artist": "Emo Night Karaoke",
-        "kind": "Rock"
-      },
-      "slug": "emo-night-karaoke-2026-11-13"
-    },
-    {
+      "status": "offsale",
       "date": "2026-11-14",
       "time": "18:00",
       "title": "Icons of Country",
@@ -493,39 +21,25 @@
       "slug": "icons-of-country-2026-11-14"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/776/41a7cf38-9dd4-4ae9-bafc-04a5067cd776_RETINA_PORTRAIT_16_9.jpg",
-      "price": 32.39,
+      "img": "https://i.ticketweb.com/i/00/13/15/48/84_Edp.jpg?v=5",
+      "price": 0,
       "date": "2026-11-14",
       "time": "18:30",
-      "title": "T.J. Miller",
+      "title": "Tonight at the Improv ft. CJ Sullivan, Carly Malison & more",
       "support": null,
       "venue": "Milwaukee Improv",
       "hood": "Brookfield",
       "genre": "comedy",
       "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939163",
+      "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-milwaukee-improv-main-room-tickets/14448194",
       "offers": [
         {
           "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/tj-miller-milwaukee-improv-main-room-tickets/14939163",
-          "price": 32.39
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/t-j-miller-tickets/comedy/2026-11-14-9-pm/18400901"
+          "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-milwaukee-improv-main-room-tickets/14448194",
+          "price": 0
         }
       ],
-      "times": [
-        "18:30",
-        "21:00"
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/03/fe/46/03fe4673-577f-26e6-5a92-3602178a76bb/mzaf_1050441911156995295.plus.aac.p.m4a",
-        "track": "I've Located the Drunks",
-        "artist": "T.J. Miller",
-        "kind": "Comedy"
-      },
-      "slug": "t-j-miller-2026-11-14"
+      "slug": "tonight-at-the-improv-ft-cj-sullivan-carly-malison-and-more-2026-11-14"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/2dd/442cd707-df65-4781-9aa8-eec39540d2dd_1619761_RETINA_PORTRAIT_16_9.jpg",
@@ -578,6 +92,34 @@
         "kind": "Holiday"
       },
       "slug": "pentatonix-2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "time": "19:00",
+      "title": "T.J. Miller",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/t-j-miller-tickets/comedy/2026-11-14-7-pm/18517250",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/t-j-miller-tickets/comedy/2026-11-14-7-pm/18517250"
+        }
+      ],
+      "times": [
+        "19:00",
+        "21:00"
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/03/fe/46/03fe4673-577f-26e6-5a92-3602178a76bb/mzaf_1050441911156995295.plus.aac.p.m4a",
+        "track": "I've Located the Drunks",
+        "artist": "T.J. Miller",
+        "kind": "Comedy"
+      },
+      "slug": "t-j-miller-2026-11-14"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/f26/172e167f-a3f6-44bf-8343-f9bb8df70f26_351421_RETINA_PORTRAIT_16_9.jpg",
@@ -1108,7 +650,7 @@
       "slug": "cheap-trick-2026-11-18"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/56/44/23_Edp.jpg?v=6",
+      "img": "https://i.ticketweb.com/i/00/13/56/44/23_Edp.jpg?v=7",
       "price": 44.94,
       "date": "2026-11-18",
       "time": "19:00",
@@ -1200,7 +742,7 @@
       "slug": "nicole-atkins-2026-11-18"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/04/39/94_Edp.jpg?v=7",
+      "img": "https://i.ticketweb.com/i/00/13/04/39/94_Edp.jpg?v=9",
       "price": 26.22,
       "date": "2026-11-19",
       "time": "19:30",
@@ -4309,6 +3851,27 @@
       "slug": "lil-mo-mozzarella-2026-12-19"
     },
     {
+      "img": "https://i.ticketweb.com/i/00/13/14/96/94_Edp.jpg?v=4",
+      "price": 20.82,
+      "date": "2026-12-20",
+      "time": "19:00",
+      "title": "Granny Bingo: Grinchmas Edition",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/granny-bingo-grinchmas-edition-milwaukee-improv-main-room-tickets/14443434",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/granny-bingo-grinchmas-edition-milwaukee-improv-main-room-tickets/14443434",
+          "price": 20.82
+        }
+      ],
+      "slug": "granny-bingo-grinchmas-edition-2026-12-20"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/12/93/41/04_Edp.jpg?v=7",
       "price": 30.37,
       "date": "2026-12-21",
@@ -7266,11 +6829,11 @@
       "hood": "Westown",
       "genre": "rock",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181",
+      "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181"
+          "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181"
         },
         {
           "src": "Ticketmaster",
@@ -7649,6 +7212,141 @@
         }
       ],
       "slug": "u2zoo-2027-03-12"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/dd0/6249797d-9753-46d0-9f7a-97a273a5bdd0_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-13",
+      "time": "18:30",
+      "title": "Desi Banks",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-J8",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-J8"
+        }
+      ],
+      "price": 44.94,
+      "times": [
+        "18:30",
+        "21:00"
+      ],
+      "slug": "desi-banks-2027-03-13"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/129/460ac8c0-a54b-4292-a3d5-57fd640be129_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-13",
+      "time": "19:00",
+      "title": "The Plot In You",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-plot-in-you-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-13-7-pm/concert/18724700",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-plot-in-you-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-13-7-pm/concert/18724700"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tPY"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/13/26/1f13262b-ce25-f617-b948-e09f2eba1ae4/mzaf_5185927239526627030.plus.aac.p.m4a",
+        "track": "Left Behind",
+        "artist": "The Plot In You",
+        "kind": "Hard Rock"
+      },
+      "slug": "the-plot-in-you-2027-03-13"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/2fb/c34d8807-4bf6-4a72-8c83-e3c2379e82fb_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-13",
+      "time": "19:30",
+      "title": "Greensky Bluegrass",
+      "support": "Miles Miller",
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/greensky-bluegrass-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-13-7-30-pm/concert/18753756",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/greensky-bluegrass-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-13-7-30-pm/concert/18753756"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t0w"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/10/9c/76/109c76df-2514-d772-6810-740f386c3abc/mzaf_14197417869557641952.plus.aac.p.m4a",
+        "track": "Time/Breathe Reprise (Live)",
+        "artist": "Greensky Bluegrass",
+        "kind": "Rock"
+      },
+      "slug": "greensky-bluegrass-2027-03-13"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/42f/e30c470d-5e84-4e4b-a388-9aeb07f4142f_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-13",
+      "time": "20:00",
+      "title": "Remi Wolf",
+      "support": "Emma Ogier",
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "pop",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-milwaukee-wisconsin-03-13-2027/event/07006546AC2956C5",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-milwaukee-wisconsin-03-13-2027/event/07006546AC2956C5"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/remi-wolf-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-03-13-8-pm/concert/18664770"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/b8/8c/e4b88c3a-882c-244f-d2d0-1caec97d06da/mzaf_4261596819870939871.plus.aac.p.m4a",
+        "track": "I Won’t Cry",
+        "artist": "Remi Wolf",
+        "kind": "Pop"
+      },
+      "slug": "remi-wolf-2027-03-13"
+    },
+    {
+      "date": "2027-03-13",
+      "time": "20:00",
+      "title": "Almost Queen - A Tribute to Queen",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/almost-queen-a-tribute-to-queen-tickets/milwaukee-wisconsin-pabst-theater-2027-03-13-8-pm/concert/18761584",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/almost-queen-a-tribute-to-queen-tickets/milwaukee-wisconsin-pabst-theater-2027-03-13-8-pm/concert/18761584"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/68/d9/f568d961-8d07-6faf-9ad6-520cef2c4d41/mzaf_4637616591761849328.plus.aac.p.m4a",
+        "track": "Almost",
+        "artist": "Almost Queen",
+        "kind": "Rock"
+      },
+      "slug": "almost-queen-a-tribute-to-queen-2027-03-13"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195316171%2F285524009645%2F1%2Foriginal.20261007-204738?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=793d1a97b2a51c854a281542a9ee440f",
