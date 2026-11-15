@@ -1,353 +1,6 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "shows": [
-    {
-      "status": "offsale",
-      "date": "2026-11-14",
-      "time": "18:00",
-      "title": "Icons of Country",
-      "support": null,
-      "venue": "Route 20",
-      "hood": "Sturtevant",
-      "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/icons-of-country-route-20-tickets/14376474?REFERRAL_ID=tmfeed",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/icons-of-country-route-20-tickets/14376474?REFERRAL_ID=tmfeed"
-        }
-      ],
-      "slug": "icons-of-country-2026-11-14"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/15/48/84_Edp.jpg?v=5",
-      "price": 0,
-      "date": "2026-11-14",
-      "time": "18:30",
-      "title": "Tonight at the Improv ft. CJ Sullivan, Carly Malison & more",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-milwaukee-improv-main-room-tickets/14448194",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-milwaukee-improv-main-room-tickets/14448194",
-          "price": 0
-        }
-      ],
-      "slug": "tonight-at-the-improv-ft-cj-sullivan-carly-malison-and-more-2026-11-14"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/2dd/442cd707-df65-4781-9aa8-eec39540d2dd_1619761_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-14",
-      "time": "19:00",
-      "title": "Jason Bonham's Led Zeppelin Evening",
-      "support": null,
-      "venue": "Riverside Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/jason-bonham-s-led-zeppelin-evening-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-14-8-pm/concert/18608593",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jason-bonham-s-led-zeppelin-evening-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-14-8-pm/concert/18608593"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw_4"
-        }
-      ],
-      "slug": "jason-bonham-s-led-zeppelin-evening-2026-11-14"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/34e/c0868e12-82eb-434c-a1aa-05b9402be34e_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-14",
-      "time": "19:00",
-      "title": "Pentatonix",
-      "support": null,
-      "venue": "Fiserv Forum",
-      "hood": "Deer District",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/pentatonix-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-14-7-pm/concert/18427195"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/af/7d/68af7d1c-f649-2015-ab37-c23f21081d4d/mzaf_7497355821501099151.plus.aac.p.m4a",
-        "track": "Hallelujah",
-        "artist": "Pentatonix",
-        "kind": "Holiday"
-      },
-      "slug": "pentatonix-2026-11-14"
-    },
-    {
-      "date": "2026-11-14",
-      "time": "19:00",
-      "title": "T.J. Miller",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/t-j-miller-tickets/comedy/2026-11-14-7-pm/18517250",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/t-j-miller-tickets/comedy/2026-11-14-7-pm/18517250"
-        }
-      ],
-      "times": [
-        "19:00",
-        "21:00"
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/03/fe/46/03fe4673-577f-26e6-5a92-3602178a76bb/mzaf_1050441911156995295.plus.aac.p.m4a",
-        "track": "I've Located the Drunks",
-        "artist": "T.J. Miller",
-        "kind": "Comedy"
-      },
-      "slug": "t-j-miller-2026-11-14"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/f26/172e167f-a3f6-44bf-8343-f9bb8df70f26_351421_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-14",
-      "time": "19:30",
-      "title": "Mustard Plug",
-      "support": "Devon Kay & the Solutions",
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "indie",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeQ7",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeQ7"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5f/be/49/5fbe4914-5b04-7e63-a06a-660ca3fa074a/mzaf_15494184492630301435.plus.aac.p.m4a",
-        "track": "Beer (Song)",
-        "artist": "Mustard Plug",
-        "kind": "Alternative"
-      },
-      "slug": "mustard-plug-2026-11-14"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/3f6/c4a80336-03fe-439f-ae7d-7e8a91c6f3f6_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-14",
-      "time": "20:00",
-      "title": "Brandi Carlile",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-14-8-pm/concert/18626684",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-14-8-pm/concert/18626684"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeajv"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/c9/fb/d9c9fb65-b639-6efa-9d5b-5a12fa300d56/mzaf_10312257208933463840.plus.aac.p.m4a",
-        "track": "The Story",
-        "artist": "Brandi Carlile",
-        "kind": "Singer/Songwriter"
-      },
-      "slug": "brandi-carlile-2026-11-14"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/a05/864074ba-2f52-49e8-94cb-3aef94581a05_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-14",
-      "time": "20:00",
-      "title": "Daily Bread",
-      "support": "Vincent Antone, Motifv",
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "electronic",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/daily-bread-vanishing-point-tour-milwaukee-wisconsin-11-14-2026/event/070064E691811849",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/daily-bread-vanishing-point-tour-milwaukee-wisconsin-11-14-2026/event/070064E691811849"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/daily-bread-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-14-8-pm/concert/18372630"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/99/27/7a/99277a38-2a83-9582-8c17-33115c4ddf6a/mzaf_177624539375254197.plus.aac.p.m4a",
-        "track": "Snickerz",
-        "artist": "Daily Bread",
-        "kind": "Funk"
-      },
-      "slug": "daily-bread-2026-11-14"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/58/85/73_Edp.jpg?v=4",
-      "price": 16.21,
-      "date": "2026-11-14",
-      "time": "20:00",
-      "title": "Damaged Justice with Hellbilly Deluxe",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/damaged-justice-with-hellbilly-deluxe-shank-hall-tickets/14985523",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/damaged-justice-with-hellbilly-deluxe-shank-hall-tickets/14985523",
-          "price": 16.21
-        }
-      ],
-      "slug": "damaged-justice-with-hellbilly-deluxe-2026-11-14"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/c56/187bca83-9e8f-44d7-8d46-ecc0f9c06c56_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-14",
-      "time": "20:00",
-      "title": "Rival Sons",
-      "support": "The Blue Stones, The Velveteers",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/rival-sons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-8-pm/concert/18334192",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/rival-sons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-8-pm/concert/18334192"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps48"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/73/63/7c/73637cd6-cf05-40da-1621-971530e27d8e/mzaf_14465993585087440105.plus.aac.p.m4a",
-        "track": "Do Your Worst",
-        "artist": "Rival Sons",
-        "kind": "Rock"
-      },
-      "slug": "rival-sons-2026-11-14"
-    },
-    {
-      "date": "2026-11-14",
-      "time": "20:00",
-      "title": "Kelsey Hart",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/kelsey-hart-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-8-pm/concert/18587504",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/kelsey-hart-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-8-pm/concert/18587504"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeGM"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/3d/44/553d4496-1a50-eeb5-e121-e116aac25987/mzaf_3171094124361741153.plus.aac.p.m4a",
-        "track": "Crazy 'bout You",
-        "artist": "Kelsey Hart",
-        "kind": "Country"
-      },
-      "slug": "kelsey-hart-2026-11-14"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196405657%2F2971726526301%2F1%2Foriginal.20261022-224339?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ac2e8051707778902bc138d5e3b505f1",
-      "date": "2026-11-14",
-      "time": "20:00",
-      "title": "Boy Band Party w/ BOY MOB!",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/boy-band-party-w-boy-mob-tickets-1998442182364",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/boy-band-party-w-boy-mob-tickets-1998442182364"
-        }
-      ],
-      "slug": "boy-band-party-w-boy-mob-2026-11-14"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194442977%2F285524009645%2F1%2Foriginal.20260927-022840?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e1c43feb1b8042b96f0a45754e264601",
-      "date": "2026-11-14",
-      "time": "20:00",
-      "title": "LowDown Brass Band w/ Something To Do",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "pop",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/lowdown-brass-band-w-something-to-do-tickets-2002229387998",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/lowdown-brass-band-w-something-to-do-tickets-2002229387998"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/f3/36/5af3367f-5502-286b-aa59-09aa7bf4fc3e/mzaf_1350433661684856746.plus.aac.p.m4a",
-        "track": "We Dem Boys",
-        "artist": "Lowdown Brass Band",
-        "kind": "Pop"
-      },
-      "slug": "lowdown-brass-band-w-something-to-do-2026-11-14"
-    },
-    {
-      "date": "2026-11-14",
-      "time": "21:30",
-      "title": "House Party",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "festival",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/house-party-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-9-30-pm/concert/18617040",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/house-party-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-9-30-pm/concert/18617040"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeGU"
-        }
-      ],
-      "slug": "house-party-2026-11-14"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/241/941e4b5a-5117-4186-882f-ef96ae19b241_952621_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-15",
@@ -1373,6 +1026,30 @@
     {
       "date": "2026-11-22",
       "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:00",
       "title": "Hot Freaks",
       "support": "Thesaurus Rex & Known Moons",
       "venue": "The Argo",
@@ -1398,30 +1075,6 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-2026-11-22"
-    },
-    {
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195614820%2F285524009645%2F1%2Foriginal.20261012-160533?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d7d13c0e8b26357843d249469f87d5b",
@@ -7366,6 +7019,27 @@
         }
       ],
       "slug": "fool-house-the-ultimate-90-s-party-wow-that-s-what-i-call-2027-03-13"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/dd0/6249797d-9753-46d0-9f7a-97a273a5bdd0_RETINA_PORTRAIT_16_9.jpg",
+      "price": 38.67,
+      "date": "2027-03-14",
+      "time": "18:00",
+      "title": "Desi Banks",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/desi-banks-milwaukee-improv-main-room-tickets/14383634",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/desi-banks-milwaukee-improv-main-room-tickets/14383634",
+          "price": 38.67
+        }
+      ],
+      "slug": "desi-banks-2027-03-14"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195874433%2F2971726526301%2F1%2Foriginal.20261015-154152?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.412&fp-y=0.342&s=1494a6f3eeb0577e2dc9ea9ca8281f73",

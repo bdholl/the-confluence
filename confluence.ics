@@ -4,132 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-14-18:00-IconsofCountryRoute20@theconfluence
-DTSTART;TZID=America/Chicago:20261114T180000
-DTEND;TZID=America/Chicago:20261114T200000
-SUMMARY:Icons of Country @ Route 20
-LOCATION:Route 20\, Sturtevant
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/icons-of-country-route-20-tickets/14376474?REFERRAL_ID=tmfeed
-URL:https://www.ticketweb.com/event/icons-of-country-route-20-tickets/14376474?REFERRAL_ID=tmfeed
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-18:30-TonightattheImprovftCJSullivanCarlyMalis@theconfluence
-DTSTART;TZID=America/Chicago:20261114T183000
-DTEND;TZID=America/Chicago:20261114T203000
-SUMMARY:Tonight at the Improv ft. CJ Sullivan\, Carly Malison & more @ Milwaukee Improv
-LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/tonight-at-the-improv-ft-milwaukee-improv-main-room-tickets/14448194
-URL:https://www.ticketweb.com/event/tonight-at-the-improv-ft-milwaukee-improv-main-room-tickets/14448194
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-19:00-JasonBonhamsLedZeppelinEveningRiversideT@theconfluence
-DTSTART;TZID=America/Chicago:20261114T190000
-DTEND;TZID=America/Chicago:20261114T210000
-SUMMARY:Jason Bonham's Led Zeppelin Evening @ Riverside Theater
-LOCATION:Riverside Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/jason-bonham-s-led-zeppelin-evening-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-14-8-pm/concert/18608593
-URL:https://seatgeek.com/jason-bonham-s-led-zeppelin-evening-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-11-14-8-pm/concert/18608593
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-19:00-PentatonixFiservForum@theconfluence
-DTSTART;TZID=America/Chicago:20261114T190000
-DTEND;TZID=America/Chicago:20261114T210000
-SUMMARY:Pentatonix @ Fiserv Forum
-LOCATION:Fiserv Forum\, Deer District
-DESCRIPTION:Tickets: https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C
-URL:https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-19:00-TJMillerMilwaukeeImprov@theconfluence
-DTSTART;TZID=America/Chicago:20261114T190000
-DTEND;TZID=America/Chicago:20261114T210000
-SUMMARY:T.J. Miller @ Milwaukee Improv
-LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://seatgeek.com/t-j-miller-tickets/comedy/2026-11-14-7-pm/18517250
-URL:https://seatgeek.com/t-j-miller-tickets/comedy/2026-11-14-7-pm/18517250
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-19:30-MustardPlugXRayArcade@theconfluence
-DTSTART;TZID=America/Chicago:20261114T193000
-DTEND;TZID=America/Chicago:20261114T213000
-SUMMARY:Mustard Plug @ X-Ray Arcade
-LOCATION:X-Ray Arcade\, Cudahy
-DESCRIPTION:With Devon Kay & the Solutions. Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAZeQ7
-URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZeQ7
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-20:00-BrandiCarlilePabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261114T200000
-DTEND;TZID=America/Chicago:20261114T220000
-SUMMARY:Brandi Carlile @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-14-8-pm/concert/18626684
-URL:https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-14-8-pm/concert/18626684
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-20:00-DailyBreadLandmarkCreditUnionLive@theconfluence
-DTSTART;TZID=America/Chicago:20261114T200000
-DTEND;TZID=America/Chicago:20261114T220000
-SUMMARY:Daily Bread @ Landmark Credit Union Live
-LOCATION:Landmark Credit Union Live\, Milwaukee
-DESCRIPTION:With Vincent Antone\, Motifv. Tickets: https://www.ticketmaster.com/daily-bread-vanishing-point-tour-milwaukee-wisconsin-11-14-2026/event/070064E691811849
-URL:https://www.ticketmaster.com/daily-bread-vanishing-point-tour-milwaukee-wisconsin-11-14-2026/event/070064E691811849
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-20:00-DamagedJusticewithHellbillyDeluxeShankHa@theconfluence
-DTSTART;TZID=America/Chicago:20261114T200000
-DTEND;TZID=America/Chicago:20261114T220000
-SUMMARY:Damaged Justice with Hellbilly Deluxe @ Shank Hall
-LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/damaged-justice-with-hellbilly-deluxe-shank-hall-tickets/14985523
-URL:https://www.ticketweb.com/event/damaged-justice-with-hellbilly-deluxe-shank-hall-tickets/14985523
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-20:00-RivalSonsTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261114T200000
-DTEND;TZID=America/Chicago:20261114T220000
-SUMMARY:Rival Sons @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:With The Blue Stones\, The Velveteers. Tickets: https://seatgeek.com/rival-sons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-8-pm/concert/18334192
-URL:https://seatgeek.com/rival-sons-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-8-pm/concert/18334192
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-20:00-KelseyHartTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261114T200000
-DTEND;TZID=America/Chicago:20261114T220000
-SUMMARY:Kelsey Hart @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/kelsey-hart-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-8-pm/concert/18587504
-URL:https://seatgeek.com/kelsey-hart-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-8-pm/concert/18587504
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-20:00-BoyBandPartywBOYMOBTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261114T200000
-DTEND;TZID=America/Chicago:20261114T220000
-SUMMARY:Boy Band Party w/ BOY MOB! @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/boy-band-party-w-boy-mob-tickets-1998442182364
-URL:https://www.eventbrite.com/e/boy-band-party-w-boy-mob-tickets-1998442182364
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-20:00-LowDownBrassBandwSomethingToDoTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261114T200000
-DTEND;TZID=America/Chicago:20261114T220000
-SUMMARY:LowDown Brass Band w/ Something To Do @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/lowdown-brass-band-w-something-to-do-tickets-2002229387998
-URL:https://www.eventbrite.com/e/lowdown-brass-band-w-something-to-do-tickets-2002229387998
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-14-21:30-HousePartyTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261114T213000
-DTEND;TZID=America/Chicago:20261114T233000
-SUMMARY:House Party @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/house-party-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-9-30-pm/concert/18617040
-URL:https://seatgeek.com/house-party-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-14-9-30-pm/concert/18617040
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-15-13:00-TheWildKrattsLiveMillerHighLifeTheatre@theconfluence
 DTSTART;TZID=America/Chicago:20261115T130000
 DTEND;TZID=America/Chicago:20261115T150000
@@ -490,15 +364,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactu
 URL:https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactus-club-2026-11-22-7-pm/concert/18400698
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261122T200000
-DTEND;TZID=America/Chicago:20261122T220000
-SUMMARY:Hot Freaks @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:With Thesaurus Rex & Known Moons. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
-URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261122T200000
 DTEND;TZID=America/Chicago:20261122T220000
@@ -506,6 +371,15 @@ SUMMARY:Michigander @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
 URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261122T200000
+DTEND;TZID=America/Chicago:20261122T220000
+SUMMARY:Hot Freaks @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:With Thesaurus Rex & Known Moons. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
+URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-17:30-WhitefishBayPublicLibraryCommunityReadsT@theconfluence
@@ -2684,6 +2558,15 @@ SUMMARY:Fool House - The Ultimate 90’s Party: WOW - That's What I Call 90's To
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/fool-house-the-ultimate-90s-party-wow-thats-what-i-call-90s-tour-tickets-2002828289328
 URL:https://www.eventbrite.com/e/fool-house-the-ultimate-90s-party-wow-thats-what-i-call-90s-tour-tickets-2002828289328
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-14-18:00-DesiBanksMilwaukeeImprov@theconfluence
+DTSTART;TZID=America/Chicago:20270314T180000
+DTEND;TZID=America/Chicago:20270314T200000
+SUMMARY:Desi Banks @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/desi-banks-milwaukee-improv-main-room-tickets/14383634
+URL:https://www.ticketweb.com/event/desi-banks-milwaukee-improv-main-room-tickets/14383634
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-20-20:00-AlexCameronTheArgo@theconfluence
