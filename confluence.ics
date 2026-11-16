@@ -4,78 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-15-13:00-TheWildKrattsLiveMillerHighLifeTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20261115T130000
-DTEND;TZID=America/Chicago:20261115T150000
-SUMMARY:The Wild Kratts Live! @ Miller High Life Theatre
-LOCATION:Miller High Life Theatre\, Westown
-DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7xKb3
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A7xKb3
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-18:00-TeeSandersMilwaukeeImprov@theconfluence
-DTSTART;TZID=America/Chicago:20261115T180000
-DTEND;TZID=America/Chicago:20261115T200000
-SUMMARY:Tee Sanders @ Milwaukee Improv
-LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/tee-sanders-milwaukee-improv-main-room-tickets/15043603
-URL:https://www.ticketweb.com/event/tee-sanders-milwaukee-improv-main-room-tickets/15043603
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-19:00-OMBPeezyMiramarTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20261115T190000
-DTEND;TZID=America/Chicago:20261115T210000
-SUMMARY:OMB Peezy @ Miramar Theatre
-LOCATION:Miramar Theatre\, Milwaukee
-DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA76xb
-URL:https://www.ticketmaster.com/event/Z7r9jZ1AA76xb
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-20:00-BrandiCarlilePabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20261115T200000
-DTEND;TZID=America/Chicago:20261115T220000
-SUMMARY:Brandi Carlile @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-15-8-pm/concert/18626686
-URL:https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-15-8-pm/concert/18626686
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-20:00-AliciaVillarrealLandmarkCreditUnionLive@theconfluence
-DTSTART;TZID=America/Chicago:20261115T200000
-DTEND;TZID=America/Chicago:20261115T220000
-SUMMARY:Alicia Villarreal @ Landmark Credit Union Live
-LOCATION:Landmark Credit Union Live\, Milwaukee
-DESCRIPTION:Tickets: https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A
-URL:https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-20:00-LukeKidgellVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261115T200000
-DTEND;TZID=America/Chicago:20261115T220000
-SUMMARY:Luke Kidgell @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
-URL:https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-20:00-TheWoodBrothersTurnerHallBallroom@theconfluence
-DTSTART;TZID=America/Chicago:20261115T200000
-DTEND;TZID=America/Chicago:20261115T220000
-SUMMARY:The Wood Brothers @ Turner Hall Ballroom
-LOCATION:Turner Hall Ballroom\, Westown
-DESCRIPTION:With Amelia Day. Tickets: https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153
-URL:https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-20:00-88NINEPresentsPostAnimalMaybeYouHaveToTo@theconfluence
-DTSTART;TZID=America/Chicago:20261115T200000
-DTEND;TZID=America/Chicago:20261115T220000
-SUMMARY:88NINE Presents: Post Animal - Maybe You Have To Tour @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/88nine-presents-post-animal-maybe-you-have-to-tour-tickets-1996497370379
-URL:https://www.eventbrite.com/e/88nine-presents-post-animal-maybe-you-have-to-tour-tickets-1996497370379
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-16-19:30-SpanishLoveSongsXRayArcade@theconfluence
 DTSTART;TZID=America/Chicago:20261116T193000
 DTEND;TZID=America/Chicago:20261116T213000
@@ -364,15 +292,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactu
 URL:https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactus-club-2026-11-22-7-pm/concert/18400698
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261122T200000
-DTEND;TZID=America/Chicago:20261122T220000
-SUMMARY:Michigander @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
-URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20261122T200000
 DTEND;TZID=America/Chicago:20261122T220000
@@ -380,6 +299,15 @@ SUMMARY:Hot Freaks @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:With Thesaurus Rex & Known Moons. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
 URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261122T200000
+DTEND;TZID=America/Chicago:20261122T220000
+SUMMARY:Michigander @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
+URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-17:30-WhitefishBayPublicLibraryCommunityReadsT@theconfluence
@@ -648,8 +576,8 @@ DTSTART;TZID=America/Chicago:20261203T190000
 DTEND;TZID=America/Chicago:20261203T210000
 SUMMARY:Jackyl @ Route 20
 LOCATION:Route 20\, Sturtevant
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/jackyl-route-20-tickets/14291584
-URL:https://www.ticketweb.com/event/jackyl-route-20-tickets/14291584
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/jackyl-buster-daizy-route-20-tickets/14291584
+URL:https://www.ticketweb.com/event/jackyl-buster-daizy-route-20-tickets/14291584
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-03-19:00-DarrenFleetMilwaukeeImprov@theconfluence
@@ -2594,6 +2522,15 @@ SUMMARY:Jack & Jack @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/jack-jack-tickets-2003466875356
 URL:https://www.eventbrite.com/e/jack-jack-tickets-2003466875356
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-09-19:30-76thStreetTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20270409T193000
+DTEND;TZID=America/Chicago:20270409T213000
+SUMMARY:76th Street @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/76th-street-tickets-2004725110772
+URL:https://www.eventbrite.com/e/76th-street-tickets-2004725110772
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-14-20:00-EarthtoEveOversharingOnTheInternetTourTh@theconfluence

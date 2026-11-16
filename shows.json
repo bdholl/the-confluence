@@ -1,191 +1,6 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/241/941e4b5a-5117-4186-882f-ef96ae19b241_952621_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-15",
-      "time": "13:00",
-      "title": "The Wild Kratts Live!",
-      "support": null,
-      "venue": "Miller High Life Theatre",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xKb3",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xKb3"
-        }
-      ],
-      "times": [
-        "13:00",
-        "17:00"
-      ],
-      "slug": "the-wild-kratts-live-2026-11-15"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/64/07/63_Edp.jpg?v=6",
-      "price": 32.39,
-      "date": "2026-11-15",
-      "time": "18:00",
-      "title": "Tee Sanders",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/tee-sanders-milwaukee-improv-main-room-tickets/15043603",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/tee-sanders-milwaukee-improv-main-room-tickets/15043603",
-          "price": 32.39
-        }
-      ],
-      "slug": "tee-sanders-2026-11-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/2f9/aae8a86d-7191-49cc-976a-7364dfcc42f9_1053861_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-15",
-      "time": "19:00",
-      "title": "OMB Peezy",
-      "support": null,
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "hiphop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xb",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xb"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/df/9f/c7/df9fc78c-1aaf-6540-ae52-f1181489c2c1/mzaf_15193342648550060160.plus.aac.p.m4a",
-        "track": "Big Homie",
-        "artist": "OMB Peezy",
-        "kind": "Hip-Hop/Rap"
-      },
-      "slug": "omb-peezy-2026-11-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/3f6/c4a80336-03fe-439f-ae7d-7e8a91c6f3f6_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "Brandi Carlile",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-15-8-pm/concert/18626686",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-15-8-pm/concert/18626686"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaje"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/c9/fb/d9c9fb65-b639-6efa-9d5b-5a12fa300d56/mzaf_10312257208933463840.plus.aac.p.m4a",
-        "track": "The Story",
-        "artist": "Brandi Carlile",
-        "kind": "Singer/Songwriter"
-      },
-      "slug": "brandi-carlile-2026-11-15"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/4ca/5c9545d5-be9f-4824-869b-42bf3734f4ca_RETINA_PORTRAIT_16_9.jpg",
-      "status": "cancelled",
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "Alicia Villarreal",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "latin",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-milwaukee-wisconsin-11-15-2026/event/070064C9DAF85C7A"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/be/34/fd/be34fdd6-2630-00d1-03c9-697be172df38/mzaf_16868978806472471299.plus.aac.p.m4a",
-        "track": "Te Quedó Grande la Yegua",
-        "artist": "Alicia Villarreal",
-        "kind": "Latin"
-      },
-      "slug": "alicia-villarreal-2026-11-15"
-    },
-    {
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "Luke Kidgell",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/luke-kidgell-tickets/comedy/2026-11-15-8-pm/18400994"
-        }
-      ],
-      "slug": "luke-kidgell-2026-11-15"
-    },
-    {
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "The Wood Brothers",
-      "support": "Amelia Day",
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-wood-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-11-15-8-pm/concert/18500153"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/67/c3/f6/67c3f6e4-38e6-6167-49f4-9e0c8c38f940/mzaf_1525483130211597519.plus.aac.p.m4a",
-        "track": "Luckiest Man",
-        "artist": "The Wood Brothers",
-        "kind": "Country"
-      },
-      "slug": "the-wood-brothers-2026-11-15"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190501470%2F285524009645%2F1%2Foriginal.20260806-215239?w=640&auto=format%2Ccompress&q=75&sharp=10&s=b72f6b76147f929a4ae8419c2db73fbe",
-      "date": "2026-11-15",
-      "time": "20:00",
-      "title": "88NINE Presents: Post Animal - Maybe You Have To Tour",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/88nine-presents-post-animal-maybe-you-have-to-tour-tickets-1996497370379",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/88nine-presents-post-animal-maybe-you-have-to-tour-tickets-1996497370379"
-        }
-      ],
-      "slug": "88nine-presents-post-animal-maybe-you-have-to-tour-2026-11-15"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/684/319c2099-cbdf-416e-b154-fae7c2ea3684_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-16",
@@ -1026,30 +841,6 @@
     {
       "date": "2026-11-22",
       "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
-    },
-    {
-      "date": "2026-11-22",
-      "time": "20:00",
       "title": "Hot Freaks",
       "support": "Thesaurus Rex & Known Moons",
       "venue": "The Argo",
@@ -1075,6 +866,30 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195614820%2F285524009645%2F1%2Foriginal.20261012-160533?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d7d13c0e8b26357843d249469f87d5b",
@@ -1805,11 +1620,11 @@
       "hood": "Sturtevant",
       "genre": "rock",
       "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/jackyl-route-20-tickets/14291584",
+      "url": "https://www.ticketweb.com/event/jackyl-buster-daizy-route-20-tickets/14291584",
       "offers": [
         {
           "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/jackyl-route-20-tickets/14291584",
+          "url": "https://www.ticketweb.com/event/jackyl-buster-daizy-route-20-tickets/14291584",
           "price": 29.25
         }
       ],
@@ -7115,6 +6930,31 @@
         "kind": "Hip-Hop/Rap"
       },
       "slug": "jack-and-jack-2027-03-30"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198029668%2F285524009645%2F1%2Foriginal.20261115-200203?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=16b75b4f2188743d5dbc80fd7c1b677e",
+      "date": "2027-04-09",
+      "time": "19:30",
+      "title": "76th Street",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "pop",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/76th-street-tickets-2004725110772",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/76th-street-tickets-2004725110772"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/73/a5/a0/73a5a0d3-d7f0-c8f9-c06f-ce73e02fdcae/mzaf_9379163292005781973.plus.aac.p.m4a",
+        "track": "Girl",
+        "artist": "76th Street",
+        "kind": "Pop"
+      },
+      "slug": "76th-street-2027-04-09"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197451287%2F285524009645%2F1%2Foriginal.20261106-192213?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f27c39c188172d5b130d821f3e99d00b",
