@@ -1,64 +1,6 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/684/319c2099-cbdf-416e-b154-fae7c2ea3684_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-16",
-      "time": "19:30",
-      "title": "Spanish Love Songs",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/spanish-love-songs-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-16-7-30-pm/concert/18593272",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/spanish-love-songs-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-16-7-30-pm/concert/18593272"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPv7"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/95/54/8795540f-13bc-bba6-7a9a-ede620fda851/mzaf_14565892386443762594.plus.aac.p.m4a",
-        "track": "Good American",
-        "artist": "Spanish Love Songs",
-        "kind": "Alternative"
-      },
-      "slug": "spanish-love-songs-2026-11-16"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/2c6/c179b975-2dc4-4d7b-bbcd-45c41ac7a2c6_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-16",
-      "time": "21:00",
-      "title": "Victoria Monét",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "pop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/victoria-monet-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-16-7-30-pm/concert/18579773"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/e9/76/5ce97680-6268-facb-3988-e5f2455fbf67/mzaf_1999276628298445898.plus.aac.p.m4a",
-        "track": "That's Why I Love You (feat. Bruno Mars)",
-        "artist": "Victoria Monét",
-        "kind": "R&B/Soul"
-      },
-      "slug": "victoria-monet-2026-11-16"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/4ea/3585b221-3e42-4f12-8eaf-1ebe054e84ea_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-17",
@@ -841,6 +783,30 @@
     {
       "date": "2026-11-22",
       "time": "20:00",
+      "title": "Michigander",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
+        "track": "Freaking Out",
+        "artist": "Michigander",
+        "kind": "Alternative"
+      },
+      "slug": "michigander-2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:00",
       "title": "Hot Freaks",
       "support": "Thesaurus Rex & Known Moons",
       "venue": "The Argo",
@@ -866,30 +832,6 @@
         "kind": "Pop"
       },
       "slug": "hot-freaks-2026-11-22"
-    },
-    {
-      "date": "2026-11-22",
-      "time": "20:00",
-      "title": "Michigander",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/87/ad/2f87ade4-b2be-e524-d8a3-d1e0f8921459/mzaf_12146244052098787443.plus.aac.p.m4a",
-        "track": "Freaking Out",
-        "artist": "Michigander",
-        "kind": "Alternative"
-      },
-      "slug": "michigander-2026-11-22"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195614820%2F285524009645%2F1%2Foriginal.20261012-160533?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d7d13c0e8b26357843d249469f87d5b",
@@ -1579,6 +1521,25 @@
         "kind": "Rock"
       },
       "slug": "jared-james-nichols-2026-12-02"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198114459%2F285524009645%2F1%2Foriginal.20261116-221305?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.114&fp-y=0.481&s=27994fb40bee1e1a220d5e55c2ed93e2",
+      "date": "2026-12-03",
+      "time": "16:00",
+      "title": "Dad's Happy Hour",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/dads-happy-hour-tickets-2004920795069",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/dads-happy-hour-tickets-2004920795069"
+        }
+      ],
+      "slug": "dad-s-happy-hour-2026-12-03"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/fb2/3a21ec04-36e3-4510-baa9-d04f58b81fb2_RETINA_PORTRAIT_16_9.jpg",
@@ -3319,10 +3280,10 @@
       "slug": "lil-mo-mozzarella-2026-12-19"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/14/96/94_Edp.jpg?v=4",
+      "img": "https://i.ticketweb.com/i/00/13/14/96/94_Edp.jpg?v=5",
       "price": 20.82,
       "date": "2026-12-20",
-      "time": "19:00",
+      "time": "13:00",
       "title": "Granny Bingo: Grinchmas Edition",
       "support": null,
       "venue": "Milwaukee Improv",
@@ -5293,6 +5254,33 @@
       "slug": "letterkenny-live-2027-02-09"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/c3f/416fd0e6-0b21-4a3a-ae66-3af844eb9c3f_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "date": "2027-02-09",
+      "time": "20:00",
+      "title": "Xscape",
+      "support": "Lloyd, Eric Benet",
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "rnb",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/the-xscape-room-tour-milwaukee-wisconsin-02-09-2027/event/0700656B08C4C7DB",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/the-xscape-room-tour-milwaukee-wisconsin-02-09-2027/event/0700656B08C4C7DB"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/88/de/c488de20-fb3f-8093-f91d-95ad195a0d48/mzaf_7427691295839156433.plus.aac.p.m4a",
+        "track": "Who Can I Run To",
+        "artist": "Xscape",
+        "kind": "R&B/Soul"
+      },
+      "slug": "xscape-2027-02-09"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/fd0/f3e16521-21f6-44a8-8d48-e6c591995fd0_RETINA_PORTRAIT_16_9.jpg",
       "date": "2027-02-11",
       "time": "19:30",
@@ -5521,6 +5509,35 @@
       "slug": "jump-america-s-van-halen-experience-2027-02-13"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/331/59b2e836-bf9a-486b-8070-3812381e3331_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "price": 24.96,
+      "date": "2027-02-15",
+      "time": "20:00",
+      "title": "That 1 Guy",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "jazz",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/that-1-guy-shank-hall-tickets/14452954",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/that-1-guy-shank-hall-tickets/14452954",
+          "price": 24.96
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4e/74/ae/4e74aec1-a3c2-3990-3351-eb14e11f0697/mzaf_13062623724601887151.plus.aac.p.m4a",
+        "track": "Buttmachine",
+        "artist": "That 1 Guy",
+        "kind": "Rock"
+      },
+      "slug": "that-1-guy-2027-02-15"
+    },
+    {
       "date": "2027-02-17",
       "time": "20:00",
       "title": "Pink Martini",
@@ -5684,6 +5701,29 @@
         "kind": "Rock"
       },
       "slug": "hairball-2027-02-19"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/ca7/4eb83498-fdaf-4acb-9344-f53d8f26bca7_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "price": 35.78,
+      "date": "2027-02-19",
+      "time": "20:00",
+      "title": "Tommy Castro and the Painkillers",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/tommy-castro-the-painkillers-shank-hall-tickets/14453104",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/tommy-castro-the-painkillers-shank-hall-tickets/14453104",
+          "price": 35.78
+        }
+      ],
+      "slug": "tommy-castro-and-the-painkillers-2027-02-19"
     },
     {
       "date": "2027-02-20",
@@ -6288,6 +6328,35 @@
       "slug": "twilight-in-concert-2027-03-02"
     },
     {
+      "img": "https://i.ticketweb.com/i/00/13/15/97/14_Edp.jpg?v=3",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "price": 24.96,
+      "date": "2027-03-02",
+      "time": "20:00",
+      "title": "Albert lee",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "folk",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/albert-lee-shank-hall-tickets/14453174",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/albert-lee-shank-hall-tickets/14453174",
+          "price": 24.96
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ad/60/20/ad602059-caf2-376c-b54c-220b0b94dbe8/mzaf_4742471758903332716.plus.aac.p.m4a",
+        "track": "Country Boy",
+        "artist": "Albert Lee",
+        "kind": "Country"
+      },
+      "slug": "albert-lee-2027-03-02"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/346/50895d1f-ff30-4fcc-bc71-afe8db759346_RETINA_PORTRAIT_16_9.jpg",
       "date": "2027-03-04",
       "time": "19:00",
@@ -6297,11 +6366,11 @@
       "hood": "Westown",
       "genre": "rock",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181",
+      "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181"
+          "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181"
         },
         {
           "src": "Ticketmaster",
@@ -6399,6 +6468,35 @@
         "21:15"
       ],
       "slug": "trey-kennedy-2027-03-05"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/15/97/44_Edp.jpg?v=4",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "price": 24.96,
+      "date": "2027-03-05",
+      "time": "20:00",
+      "title": "Josh Rouse",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "folk",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/josh-rouse-shank-hall-tickets/14453194",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/josh-rouse-shank-hall-tickets/14453194",
+          "price": 24.96
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/88/46/c78846cb-ad6b-f783-1a30-0f0829f33684/mzaf_17546000204502505914.plus.aac.p.m4a",
+        "track": "Flight Attendant",
+        "artist": "Josh Rouse",
+        "kind": "Alternative"
+      },
+      "slug": "josh-rouse-2027-03-05"
     },
     {
       "date": "2027-03-05",
@@ -6764,6 +6862,31 @@
       "slug": "greensky-bluegrass-2027-03-13"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/8df/8da28419-b592-43b9-a87c-da9ac276f8df_RETINA_PORTRAIT_16_9.jpg",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "date": "2027-03-13",
+      "time": "19:30",
+      "title": "Jhene Aiko",
+      "support": "Swae Lee, Karri",
+      "venue": "Fiserv Forum",
+      "hood": "Deer District",
+      "genre": "rnb",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/jhene-aiko-tickets/milwaukee-wisconsin-fiserv-forum-2027-03-13-7-30-pm/concert/18783857"
+        }
+      ],
+      "slug": "jhene-aiko-2027-03-13"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/42f/e30c470d-5e84-4e4b-a388-9aeb07f4142f_RETINA_PORTRAIT_16_9.jpg",
       "date": "2027-03-13",
       "time": "20:00",
@@ -6880,6 +7003,31 @@
         "kind": "Alternative"
       },
       "slug": "alex-cameron-2027-03-20"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197636216%2F285524009645%2F1%2Foriginal.20261109-223905?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f3e7b0033ecc73683c310032cbea7ea2",
+      "date": "2027-03-20",
+      "time": "20:00",
+      "title": "Horseshoes & Hand Grenades",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "country",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/horseshoes-hand-grenades-tickets-2004618394581",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/horseshoes-hand-grenades-tickets-2004618394581"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/25/a9/5c/25a95c36-bace-79a6-f5b8-4bb20a1f1a5a/mzaf_17657771697327308278.plus.aac.p.m4a",
+        "track": "Whiskey",
+        "artist": "Horseshoes & Hand Grenades",
+        "kind": "Country"
+      },
+      "slug": "horseshoes-and-hand-grenades-2027-03-20"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190405031%2F285524009645%2F1%2Foriginal.20260805-195322?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0f612da5bfbbfb7f983aad99e3916457",

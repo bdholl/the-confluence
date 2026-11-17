@@ -4,24 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-16-19:30-SpanishLoveSongsXRayArcade@theconfluence
-DTSTART;TZID=America/Chicago:20261116T193000
-DTEND;TZID=America/Chicago:20261116T213000
-SUMMARY:Spanish Love Songs @ X-Ray Arcade
-LOCATION:X-Ray Arcade\, Cudahy
-DESCRIPTION:Tickets: https://seatgeek.com/spanish-love-songs-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-16-7-30-pm/concert/18593272
-URL:https://seatgeek.com/spanish-love-songs-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-16-7-30-pm/concert/18593272
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-16-21:00-VictoriaMontLandmarkCreditUnionLive@theconfluence
-DTSTART;TZID=America/Chicago:20261116T210000
-DTEND;TZID=America/Chicago:20261116T230000
-SUMMARY:Victoria Monét @ Landmark Credit Union Live
-LOCATION:Landmark Credit Union Live\, Milwaukee
-DESCRIPTION:Tickets: https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74
-URL:https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-17-19:00-SaosinTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20261117T190000
 DTEND;TZID=America/Chicago:20261117T210000
@@ -292,15 +274,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactu
 URL:https://seatgeek.com/jady-tickets/milwaukee-wisconsin-cactus-club-2026-11-22-7-pm/concert/18400698
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261122T200000
-DTEND;TZID=America/Chicago:20261122T220000
-SUMMARY:Hot Freaks @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:With Thesaurus Rex & Known Moons. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
-URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-22-20:00-MichiganderVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261122T200000
 DTEND;TZID=America/Chicago:20261122T220000
@@ -308,6 +281,15 @@ SUMMARY:Michigander @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
 URL:https://seatgeek.com/michigander-tickets/milwaukee-wisconsin-vivarium-2026-11-22-8-pm/concert/18401007
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-20:00-HotFreaksTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261122T200000
+DTEND;TZID=America/Chicago:20261122T220000
+SUMMARY:Hot Freaks @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:With Thesaurus Rex & Known Moons. Tickets: https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
+URL:https://www.eventbrite.com/e/hot-freaks-soft-body-tour-w-thesaurus-rex-known-moons-tickets-1993842013134
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-17:30-WhitefishBayPublicLibraryCommunityReadsT@theconfluence
@@ -560,6 +542,15 @@ SUMMARY:JARED JAMES NICHOLS @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/jared-james-nichols-shank-hall-tickets/15043863
 URL:https://www.ticketweb.com/event/jared-james-nichols-shank-hall-tickets/15043863
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-03-16:00-DadsHappyHourTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261203T160000
+DTEND;TZID=America/Chicago:20261203T180000
+SUMMARY:Dad's Happy Hour @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/dads-happy-hour-tickets-2004920795069
+URL:https://www.eventbrite.com/e/dads-happy-hour-tickets-2004920795069
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-03-19:00-GWARTheRaveEaglesClub@theconfluence
@@ -1192,9 +1183,9 @@ DESCRIPTION:Tickets: https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-
 URL:https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-12-19-8-pm/18400980
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-20-19:00-GrannyBingoGrinchmasEditionMilwaukeeImpr@theconfluence
-DTSTART;TZID=America/Chicago:20261220T190000
-DTEND;TZID=America/Chicago:20261220T210000
+UID:2026-12-20-13:00-GrannyBingoGrinchmasEditionMilwaukeeImpr@theconfluence
+DTSTART;TZID=America/Chicago:20261220T130000
+DTEND;TZID=America/Chicago:20261220T150000
 SUMMARY:Granny Bingo: Grinchmas Edition @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/granny-bingo-grinchmas-edition-milwaukee-improv-main-room-tickets/14443434
@@ -1930,6 +1921,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/letterkenny-live-tickets/comedy/2027-0
 URL:https://seatgeek.com/letterkenny-live-tickets/comedy/2027-02-09-7-30-pm/18299549
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-02-09-20:00-XscapeLandmarkCreditUnionLive@theconfluence
+DTSTART;TZID=America/Chicago:20270209T200000
+DTEND;TZID=America/Chicago:20270209T220000
+SUMMARY:Xscape @ Landmark Credit Union Live
+LOCATION:Landmark Credit Union Live\, Milwaukee
+DESCRIPTION:With Lloyd\, Eric Benet. Tickets: https://www.ticketmaster.com/the-xscape-room-tour-milwaukee-wisconsin-02-09-2027/event/0700656B08C4C7DB
+URL:https://www.ticketmaster.com/the-xscape-room-tour-milwaukee-wisconsin-02-09-2027/event/0700656B08C4C7DB
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-02-11-19:30-GracePotterPabstTheater@theconfluence
 DTSTART;TZID=America/Chicago:20270211T193000
 DTEND;TZID=America/Chicago:20270211T213000
@@ -2011,6 +2011,15 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/jump-americas-van-halen-experi
 URL:https://www.eventbrite.com/e/jump-americas-van-halen-experience-tickets-2000653824445
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-02-15-20:00-That1GuyShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270215T200000
+DTEND;TZID=America/Chicago:20270215T220000
+SUMMARY:That 1 Guy @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/that-1-guy-shank-hall-tickets/14452954
+URL:https://www.ticketweb.com/event/that-1-guy-shank-hall-tickets/14452954
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-02-17-20:00-PinkMartiniPabstTheater@theconfluence
 DTSTART;TZID=America/Chicago:20270217T200000
 DTEND;TZID=America/Chicago:20270217T220000
@@ -2063,6 +2072,15 @@ SUMMARY:Hairball @ Riverside Theater
 LOCATION:Riverside Theater\, Downtown
 DESCRIPTION:Tickets: https://seatgeek.com/hairball-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-19-8-pm/concert/18670034
 URL:https://seatgeek.com/hairball-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-19-8-pm/concert/18670034
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-19-20:00-TommyCastroandthePainkillersShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270219T200000
+DTEND;TZID=America/Chicago:20270219T220000
+SUMMARY:Tommy Castro and the Painkillers @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/tommy-castro-the-painkillers-shank-hall-tickets/14453104
+URL:https://www.ticketweb.com/event/tommy-castro-the-painkillers-shank-hall-tickets/14453104
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-20-10:00-MamaTriedMotorcycleShowTheRaveEaglesClub@theconfluence
@@ -2290,13 +2308,22 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAeeQk
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAeeQk
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-03-02-20:00-AlbertleeShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270302T200000
+DTEND;TZID=America/Chicago:20270302T220000
+SUMMARY:Albert lee @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/albert-lee-shank-hall-tickets/14453174
+URL:https://www.ticketweb.com/event/albert-lee-shank-hall-tickets/14453174
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-03-04-19:00-PigeonsPlayingPingPongTurnerHallBallroom@theconfluence
 DTSTART;TZID=America/Chicago:20270304T190000
 DTEND;TZID=America/Chicago:20270304T210000
 SUMMARY:Pigeons Playing Ping Pong @ Turner Hall Ballroom
 LOCATION:Turner Hall Ballroom\, Westown
-DESCRIPTION:With Hot Like Mars. Tickets: https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181
-URL:https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181
+DESCRIPTION:With Hot Like Mars. Tickets: https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181
+URL:https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-04-19:30-PhoebeBridgersFiservForum@theconfluence
@@ -2324,6 +2351,15 @@ SUMMARY:Trey Kennedy @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/trey-kennedy-milwaukee-improv-main-room-tickets/14255114
 URL:https://www.ticketweb.com/event/trey-kennedy-milwaukee-improv-main-room-tickets/14255114
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-05-20:00-JoshRouseShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270305T200000
+DTEND;TZID=America/Chicago:20270305T220000
+SUMMARY:Josh Rouse @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/josh-rouse-shank-hall-tickets/14453194
+URL:https://www.ticketweb.com/event/josh-rouse-shank-hall-tickets/14453194
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-05-20:00-HyryderVivarium@theconfluence
@@ -2461,6 +2497,15 @@ DESCRIPTION:With Miles Miller. Tickets: https://seatgeek.com/greensky-bluegrass-
 URL:https://seatgeek.com/greensky-bluegrass-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-13-7-30-pm/concert/18753756
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-03-13-19:30-JheneAikoFiservForum@theconfluence
+DTSTART;TZID=America/Chicago:20270313T193000
+DTEND;TZID=America/Chicago:20270313T213000
+SUMMARY:Jhene Aiko @ Fiserv Forum
+LOCATION:Fiserv Forum\, Deer District
+DESCRIPTION:With Swae Lee\, Karri. Tickets: https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E
+URL:https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-03-13-20:00-RemiWolfLandmarkCreditUnionLive@theconfluence
 DTSTART;TZID=America/Chicago:20270313T200000
 DTEND;TZID=America/Chicago:20270313T220000
@@ -2504,6 +2549,15 @@ SUMMARY:Alex Cameron @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/alex-cameron-tickets-2003464327736
 URL:https://www.eventbrite.com/e/alex-cameron-tickets-2003464327736
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-20-20:00-HorseshoesHandGrenadesTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20270320T200000
+DTEND;TZID=America/Chicago:20270320T220000
+SUMMARY:Horseshoes & Hand Grenades @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/horseshoes-hand-grenades-tickets-2004618394581
+URL:https://www.eventbrite.com/e/horseshoes-hand-grenades-tickets-2004618394581
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-23-20:00-TheMaryWallopersTheArgo@theconfluence
