@@ -4,15 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-17-19:00-SaosinTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261117T190000
-DTEND;TZID=America/Chicago:20261117T210000
-SUMMARY:Saosin @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:With Silent Planet\, Like Moths To Flames. Tickets: https://seatgeek.com/saosin-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-17-6-pm/concert/18237300
-URL:https://seatgeek.com/saosin-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-17-6-pm/concert/18237300
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-18-19:00-CheapTrickLandmarkCreditUnionLive@theconfluence
 DTSTART;TZID=America/Chicago:20261118T190000
 DTEND;TZID=America/Chicago:20261118T210000
@@ -1057,6 +1048,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/chris-tomlin-tickets/milwaukee-wiscons
 URL:https://seatgeek.com/chris-tomlin-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-12-17-7-pm/concert/18549322
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-17-19:00-MikeSalazarenEspaolMilwaukeeImprov@theconfluence
+DTSTART;TZID=America/Chicago:20261217T190000
+DTEND;TZID=America/Chicago:20261217T210000
+SUMMARY:Mike Salazar (en Español) @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/mike-salazar-en-espaol-milwaukee-improv-main-room-tickets/14453584
+URL:https://www.ticketweb.com/event/mike-salazar-en-espaol-milwaukee-improv-main-room-tickets/14453584
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-17-19:30-HunterFlynnCaribouRoomMenomoneeFalls@theconfluence
 DTSTART;TZID=America/Chicago:20261217T193000
 DTEND;TZID=America/Chicago:20261217T213000
@@ -1498,6 +1498,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/preacher-lawson-milwaukee-i
 URL:https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346244
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-01-16-20:00-NIVRANATributetoNirvanaShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270116T200000
+DTEND;TZID=America/Chicago:20270116T220000
+SUMMARY:NIVRANA - Tribute to Nirvana @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/nivrana-tribute-to-shank-hall-tickets/14454494
+URL:https://www.ticketweb.com/event/nivrana-tribute-to-shank-hall-tickets/14454494
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-01-16-20:00-GalacticMasqueradeBallTurnerHallBallroom@theconfluence
 DTSTART;TZID=America/Chicago:20270116T200000
 DTEND;TZID=America/Chicago:20270116T220000
@@ -1876,6 +1885,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/kameron-marlowe-tickets/milwaukee-wisc
 URL:https://seatgeek.com/kameron-marlowe-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-06-7-pm/concert/18672396
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-02-06-20:00-GregoryAlanIsakovMillerHighLifeTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20270206T200000
+DTEND;TZID=America/Chicago:20270206T220000
+SUMMARY:Gregory Alan Isakov @ Miller High Life Theatre
+LOCATION:Miller High Life Theatre\, Westown
+DESCRIPTION:Tickets: https://seatgeek.com/gregory-alan-isakov-tickets/milwaukee-wisconsin-miller-high-life-theatre-2027-02-06-8-pm/concert/18786428
+URL:https://seatgeek.com/gregory-alan-isakov-tickets/milwaukee-wisconsin-miller-high-life-theatre-2027-02-06-8-pm/concert/18786428
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-02-07-15:00-JimBrickmanWilsonTheateratVogelHall@theconfluence
 DTSTART;TZID=America/Chicago:20270207T150000
 DTEND;TZID=America/Chicago:20270207T170000
@@ -2011,9 +2029,9 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/jump-americas-van-halen-experi
 URL:https://www.eventbrite.com/e/jump-americas-van-halen-experience-tickets-2000653824445
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-02-15-20:00-That1GuyShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20270215T200000
-DTEND;TZID=America/Chicago:20270215T220000
+UID:2027-02-15-19:30-That1GuyShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270215T193000
+DTEND;TZID=America/Chicago:20270215T213000
 SUMMARY:That 1 Guy @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/that-1-guy-shank-hall-tickets/14452954
@@ -2083,6 +2101,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/tommy-castro-the-painkiller
 URL:https://www.ticketweb.com/event/tommy-castro-the-painkillers-shank-hall-tickets/14453104
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-02-19-20:00-AdrienNunezTheRaveEaglesClub@theconfluence
+DTSTART;TZID=America/Chicago:20270219T200000
+DTEND;TZID=America/Chicago:20270219T220000
+SUMMARY:Adrien Nunez @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
+DESCRIPTION:Tickets: https://seatgeek.com/adrien-nunez-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-19-8-pm/concert/18786509
+URL:https://seatgeek.com/adrien-nunez-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-19-8-pm/concert/18786509
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-02-20-10:00-MamaTriedMotorcycleShowTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20270220T100000
 DTEND;TZID=America/Chicago:20270220T120000
@@ -2108,6 +2135,15 @@ SUMMARY:Sonic Live In Concert @ Riverside Theater
 LOCATION:Riverside Theater\, Downtown
 DESCRIPTION:Tickets: https://seatgeek.com/sonic-live-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-20-8-pm/concert/18526369
 URL:https://seatgeek.com/sonic-live-in-concert-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-02-20-8-pm/concert/18526369
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-20-20:00-SmellsLikeNirvanaATributetoNirvanawDeadO@theconfluence
+DTSTART;TZID=America/Chicago:20270220T200000
+DTEND;TZID=America/Chicago:20270220T220000
+SUMMARY:Smells Like Nirvana: A Tribute to Nirvana  w/ Dead Original (18+) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/smells-like-nirvana-a-tribute-to-nirvana-w-dead-original-18-tickets-2004723513996
+URL:https://www.eventbrite.com/e/smells-like-nirvana-a-tribute-to-nirvana-w-dead-original-18-tickets-2004723513996
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-21-10:00-MamaTriedMotorcycleShowTheRaveEaglesClub@theconfluence
@@ -2308,9 +2344,9 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAeeQk
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAeeQk
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-03-02-20:00-AlbertleeShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20270302T200000
-DTEND;TZID=America/Chicago:20270302T220000
+UID:2027-03-02-19:30-AlbertleeShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270302T193000
+DTEND;TZID=America/Chicago:20270302T213000
 SUMMARY:Albert lee @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/albert-lee-shank-hall-tickets/14453174
@@ -2322,8 +2358,8 @@ DTSTART;TZID=America/Chicago:20270304T190000
 DTEND;TZID=America/Chicago:20270304T210000
 SUMMARY:Pigeons Playing Ping Pong @ Turner Hall Ballroom
 LOCATION:Turner Hall Ballroom\, Westown
-DESCRIPTION:With Hot Like Mars. Tickets: https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181
-URL:https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181
+DESCRIPTION:With Hot Like Mars. Tickets: https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181
+URL:https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-04-19:30-PhoebeBridgersFiservForum@theconfluence
@@ -2515,6 +2551,15 @@ DESCRIPTION:With Emma Ogier. Tickets: https://www.ticketmaster.com/remi-wolf-the
 URL:https://www.ticketmaster.com/remi-wolf-the-mud-tour-milwaukee-wisconsin-03-13-2027/event/07006546AC2956C5
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-03-13-20:00-JaggedLittlePillALilithAffairShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270313T200000
+DTEND;TZID=America/Chicago:20270313T220000
+SUMMARY:Jagged Little Pill + A Lilith Affair @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/jagged-little-pill-a-shank-hall-tickets/14453554
+URL:https://www.ticketweb.com/event/jagged-little-pill-a-shank-hall-tickets/14453554
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-03-13-20:00-AlmostQueenATributetoQueenPabstTheater@theconfluence
 DTSTART;TZID=America/Chicago:20270313T200000
 DTEND;TZID=America/Chicago:20270313T220000
@@ -2540,6 +2585,42 @@ SUMMARY:Desi Banks @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/desi-banks-milwaukee-improv-main-room-tickets/14383634
 URL:https://www.ticketweb.com/event/desi-banks-milwaukee-improv-main-room-tickets/14383634
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-14-19:30-JeremiahHarmonShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270314T193000
+DTEND;TZID=America/Chicago:20270314T213000
+SUMMARY: Jeremiah Harmon @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/-jeremiah-harmon-shank-hall-tickets/14454424
+URL:https://www.ticketweb.com/event/-jeremiah-harmon-shank-hall-tickets/14454424
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-14-20:00-TheStrikeTurnerHallBallroom@theconfluence
+DTSTART;TZID=America/Chicago:20270314T200000
+DTEND;TZID=America/Chicago:20270314T220000
+SUMMARY:The Strike @ Turner Hall Ballroom
+LOCATION:Turner Hall Ballroom\, Westown
+DESCRIPTION:Tickets: https://seatgeek.com/the-strike-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-14-8-pm/concert/18785035
+URL:https://seatgeek.com/the-strike-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-14-8-pm/concert/18785035
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-17-19:30-TREVERMKEITHLILLYHIATTShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270317T193000
+DTEND;TZID=America/Chicago:20270317T213000
+SUMMARY:TREVER M. KEITH & LILLY HIATT @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/trever-m-keith-lilly-shank-hall-tickets/14451684
+URL:https://www.ticketweb.com/event/trever-m-keith-lilly-shank-hall-tickets/14451684
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-17-20:00-GaelicStormPabstTheater@theconfluence
+DTSTART;TZID=America/Chicago:20270317T200000
+DTEND;TZID=America/Chicago:20270317T220000
+SUMMARY:Gaelic Storm @ Pabst Theater
+LOCATION:Pabst Theater\, Downtown
+DESCRIPTION:Tickets: https://seatgeek.com/gaelic-storm-tickets/milwaukee-wisconsin-pabst-theater-2027-03-17-8-pm/music-festival/18736454
+URL:https://seatgeek.com/gaelic-storm-tickets/milwaukee-wisconsin-pabst-theater-2027-03-17-8-pm/music-festival/18736454
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-20-20:00-AlexCameronTheArgo@theconfluence

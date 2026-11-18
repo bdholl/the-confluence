@@ -1,35 +1,6 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/4ea/3585b221-3e42-4f12-8eaf-1ebe054e84ea_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-17",
-      "time": "19:00",
-      "title": "Saosin",
-      "support": "Silent Planet, Like Moths To Flames",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/saosin-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-17-6-pm/concert/18237300",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/saosin-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-17-6-pm/concert/18237300"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_44"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/81/f0/61/81f061f4-c7cc-a6c5-53a8-1c5ef4fc1b0b/mzaf_17863187115390582015.plus.aac.p.m4a",
-        "track": "Seven Years",
-        "artist": "Saosin",
-        "kind": "Rock"
-      },
-      "slug": "saosin-2026-11-17"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/d20/752b570b-6c6a-4ceb-9c05-306e46a69d20_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-18",
@@ -2592,7 +2563,7 @@
       "slug": "lumasi-2026-12-11"
     },
     {
-      "img": "https://s1.ticketm.net/dam/a/1c3/fab2b51a-f809-44ab-a500-b00fb6bd81c3_RETINA_PORTRAIT_16_9.jpg",
+      "img": "https://s1.ticketm.net/dam/a/f7e/b252b440-16a5-487e-86c0-7c0b11497f7e_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-12",
       "time": "15:30",
       "title": "Ben Rector",
@@ -2944,6 +2915,27 @@
       "slug": "chris-tomlin-2026-12-17"
     },
     {
+      "img": "https://i.ticketweb.com/i/00/13/16/01/14_Edp.jpg?v=4",
+      "price": 64.03,
+      "date": "2026-12-17",
+      "time": "19:00",
+      "title": "Mike Salazar (en Español)",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/mike-salazar-en-espaol-milwaukee-improv-main-room-tickets/14453584",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/mike-salazar-en-espaol-milwaukee-improv-main-room-tickets/14453584",
+          "price": 64.03
+        }
+      ],
+      "slug": "mike-salazar-en-espanol-2026-12-17"
+    },
+    {
       "date": "2026-12-17",
       "time": "19:30",
       "title": "Hunter Flynn",
@@ -3258,13 +3250,14 @@
       "slug": "southbound-allman-bros-tribute-2026-12-19"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/686/64dd4253-ed2b-47a4-ae7a-29a107886686_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-19",
       "time": "20:00",
       "title": "Lil Mo Mozzarella",
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "comedy",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-12-19-8-pm/18400980",
       "offers": [
@@ -3280,7 +3273,7 @@
       "slug": "lil-mo-mozzarella-2026-12-19"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/14/96/94_Edp.jpg?v=5",
+      "img": "https://i.ticketweb.com/i/00/13/14/96/94_Edp.jpg?v=6",
       "price": 20.82,
       "date": "2026-12-20",
       "time": "13:00",
@@ -4126,6 +4119,29 @@
         "kind": "Standup Comedy"
       },
       "slug": "preacher-lawson-2027-01-16"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/16/09/04_Edp.jpg?v=3",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "price": 19.3,
+      "date": "2027-01-16",
+      "time": "20:00",
+      "title": "NIVRANA - Tribute to Nirvana",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/nivrana-tribute-to-shank-hall-tickets/14454494",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/nivrana-tribute-to-shank-hall-tickets/14454494",
+          "price": 19.3
+        }
+      ],
+      "slug": "nivrana-tribute-to-nirvana-2027-01-16"
     },
     {
       "date": "2027-01-16",
@@ -5127,6 +5143,30 @@
       "slug": "kameron-marlowe-2027-02-06"
     },
     {
+      "date": "2027-02-06",
+      "time": "20:00",
+      "title": "Gregory Alan Isakov",
+      "support": null,
+      "venue": "Miller High Life Theatre",
+      "hood": "Westown",
+      "genre": "folk",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/gregory-alan-isakov-tickets/milwaukee-wisconsin-miller-high-life-theatre-2027-02-06-8-pm/concert/18786428",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/gregory-alan-isakov-tickets/milwaukee-wisconsin-miller-high-life-theatre-2027-02-06-8-pm/concert/18786428"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/da/a7/c1daa7c0-6eaf-fec0-f208-2276c0c34df8/mzaf_12714097300844677961.plus.aac.p.m4a",
+        "track": "Amsterdam",
+        "artist": "Gregory Alan Isakov",
+        "kind": "Singer/Songwriter"
+      },
+      "slug": "gregory-alan-isakov-2027-02-06"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/e/695/2a94d2c7-9be4-41c1-a1c6-a1462bfd3695_RETINA_PORTRAIT_16_9.jpg",
       "status": "rescheduled",
       "date": "2027-02-07",
@@ -5270,6 +5310,10 @@
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketmaster.com/the-xscape-room-tour-milwaukee-wisconsin-02-09-2027/event/0700656B08C4C7DB"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/xscape-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-02-09-8-pm/concert/18786247"
         }
       ],
       "preview": {
@@ -5514,7 +5558,7 @@
       "onsale": "2026-11-20T16:00:00Z",
       "price": 24.96,
       "date": "2027-02-15",
-      "time": "20:00",
+      "time": "19:30",
       "title": "That 1 Guy",
       "support": null,
       "venue": "Shank Hall",
@@ -5726,6 +5770,30 @@
       "slug": "tommy-castro-and-the-painkillers-2027-02-19"
     },
     {
+      "date": "2027-02-19",
+      "time": "20:00",
+      "title": "Adrien Nunez",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "country",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/adrien-nunez-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-19-8-pm/concert/18786509",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/adrien-nunez-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-19-8-pm/concert/18786509"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/7b/97/237b97e3-ca51-00ed-234d-513f1a236a0f/mzaf_585506881692791639.plus.aac.p.m4a",
+        "track": "LOW ROAD (feat. Avery Anna)",
+        "artist": "Adrien Nunez",
+        "kind": "Country"
+      },
+      "slug": "adrien-nunez-2027-02-19"
+    },
+    {
       "date": "2027-02-20",
       "time": "10:00",
       "title": "Mama Tried Motorcycle Show",
@@ -5791,6 +5859,25 @@
         }
       ],
       "slug": "sonic-live-in-concert-2027-02-20"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198202406%2F285524009645%2F1%2Foriginal.20261117-230153?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b99b947fe5733d88f250e051b7246768",
+      "date": "2027-02-20",
+      "time": "20:00",
+      "title": "Smells Like Nirvana: A Tribute to Nirvana  w/ Dead Original (18+)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/smells-like-nirvana-a-tribute-to-nirvana-w-dead-original-18-tickets-2004723513996",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/smells-like-nirvana-a-tribute-to-nirvana-w-dead-original-18-tickets-2004723513996"
+        }
+      ],
+      "slug": "smells-like-nirvana-a-tribute-to-nirvana-w-dead-original-18-2027-02-20"
     },
     {
       "date": "2027-02-21",
@@ -6328,12 +6415,12 @@
       "slug": "twilight-in-concert-2027-03-02"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/15/97/14_Edp.jpg?v=3",
+      "img": "https://i.ticketweb.com/i/00/13/15/97/14_Edp.jpg?v=4",
       "status": "offsale",
       "onsale": "2026-11-20T16:00:00Z",
       "price": 24.96,
       "date": "2027-03-02",
-      "time": "20:00",
+      "time": "19:30",
       "title": "Albert lee",
       "support": null,
       "venue": "Shank Hall",
@@ -6366,11 +6453,11 @@
       "hood": "Westown",
       "genre": "rock",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181",
+      "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181"
+          "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181"
         },
         {
           "src": "Ticketmaster",
@@ -6916,6 +7003,29 @@
       "slug": "remi-wolf-2027-03-13"
     },
     {
+      "img": "https://i.ticketweb.com/i/00/13/16/00/84_Edp.jpg?v=3",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "price": 24.96,
+      "date": "2027-03-13",
+      "time": "20:00",
+      "title": "Jagged Little Pill + A Lilith Affair",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/jagged-little-pill-a-shank-hall-tickets/14453554",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/jagged-little-pill-a-shank-hall-tickets/14453554",
+          "price": 24.96
+        }
+      ],
+      "slug": "jagged-little-pill-a-lilith-affair-2027-03-13"
+    },
+    {
       "date": "2027-03-13",
       "time": "20:00",
       "title": "Almost Queen - A Tribute to Queen",
@@ -6978,6 +7088,100 @@
         }
       ],
       "slug": "desi-banks-2027-03-14"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/16/08/04_Edp.jpg?v=4",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "price": 30.37,
+      "date": "2027-03-14",
+      "time": "19:30",
+      "title": " Jeremiah Harmon",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "folk",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/-jeremiah-harmon-shank-hall-tickets/14454424",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/-jeremiah-harmon-shank-hall-tickets/14454424",
+          "price": 30.37
+        }
+      ],
+      "slug": "jeremiah-harmon-2027-03-14"
+    },
+    {
+      "date": "2027-03-14",
+      "time": "20:00",
+      "title": "The Strike",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-strike-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-14-8-pm/concert/18785035",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-strike-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-14-8-pm/concert/18785035"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fa/4a/94/fa4a94df-03fc-0761-50e6-3f09493f6270/mzaf_12484138980887149648.plus.aac.p.m4a",
+        "track": "The Getaway",
+        "artist": "The Strike",
+        "kind": "Alternative"
+      },
+      "slug": "the-strike-2027-03-14"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/15/81/34_Edp.jpg?v=4",
+      "status": "offsale",
+      "onsale": "2026-11-20T16:00:00Z",
+      "price": 30.37,
+      "date": "2027-03-17",
+      "time": "19:30",
+      "title": "TREVER M. KEITH & LILLY HIATT",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "country",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/trever-m-keith-lilly-shank-hall-tickets/14451684",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/trever-m-keith-lilly-shank-hall-tickets/14451684",
+          "price": 30.37
+        }
+      ],
+      "slug": "trever-m-keith-and-lilly-hiatt-2027-03-17"
+    },
+    {
+      "date": "2027-03-17",
+      "time": "20:00",
+      "title": "Gaelic Storm",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "festival",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/gaelic-storm-tickets/milwaukee-wisconsin-pabst-theater-2027-03-17-8-pm/music-festival/18736454",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/gaelic-storm-tickets/milwaukee-wisconsin-pabst-theater-2027-03-17-8-pm/music-festival/18736454"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/fb/50/0afb50c9-2165-0fbe-1d62-555afa232273/mzaf_1089350272406732254.plus.aac.p.m4a",
+        "track": "Scalliwag",
+        "artist": "Gaelic Storm",
+        "kind": "Worldwide"
+      },
+      "slug": "gaelic-storm-2027-03-17"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195874433%2F2971726526301%2F1%2Foriginal.20261015-154152?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.412&fp-y=0.342&s=1494a6f3eeb0577e2dc9ea9ca8281f73",
