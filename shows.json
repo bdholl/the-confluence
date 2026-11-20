@@ -1,133 +1,6 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "shows": [
-    {
-      "img": "https://i.ticketweb.com/i/00/13/04/39/94_Edp.jpg?v=9",
-      "price": 26.22,
-      "date": "2026-11-19",
-      "time": "19:30",
-      "title": "Aidan McCluskey",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/aidan-mccluskey-milwaukee-improv-main-room-tickets/14327724",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/aidan-mccluskey-milwaukee-improv-main-room-tickets/14327724",
-          "price": 26.22
-        }
-      ],
-      "slug": "aidan-mccluskey-2026-11-19"
-    },
-    {
-      "date": "2026-11-19",
-      "time": "19:30",
-      "title": "Ghostwoman",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/ghostwoman-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-19-7-30-pm/concert/18827508",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ghostwoman-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-19-7-30-pm/concert/18827508"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/eb/82/f4/eb82f416-ceeb-f970-7344-1e54d6d8efe7/mzaf_7170461601017639605.plus.aac.p.m4a",
-        "track": "Do You",
-        "artist": "GHOSTWOMAN",
-        "kind": "Rock"
-      },
-      "slug": "ghostwoman-2026-11-19"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/67c/790aa490-119a-4401-8608-8678908b067c_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-19",
-      "time": "20:00",
-      "title": "Craig Finn",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/craig-finn-tickets/milwaukee-wisconsin-vivarium-2026-11-19-8-pm/concert/18400997",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/craig-finn-tickets/milwaukee-wisconsin-vivarium-2026-11-19-8-pm/concert/18400997"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0je"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/ee/af/d8eeafb6-f866-e5df-9113-951fb6cd2c35/mzaf_11098695861613478222.plus.aac.p.m4a",
-        "track": "Bethany",
-        "artist": "Craig Finn",
-        "kind": "Indie Rock"
-      },
-      "slug": "craig-finn-2026-11-19"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/200/2a4ad9f3-6b0c-47d5-891b-9cc54f001200_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-19",
-      "time": "20:00",
-      "title": "Squirrel Flower",
-      "support": "Sour Widows",
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "indie",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/squirrel-flower-tickets/milwaukee-wisconsin-cactus-club-2026-11-19-8-pm/concert/18400697",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/squirrel-flower-tickets/milwaukee-wisconsin-cactus-club-2026-11-19-8-pm/concert/18400697"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PVJv"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/4d/a7/ec4da7e1-2f16-f394-266d-0f0fec41812d/mzaf_8820267873745384408.plus.aac.p.m4a",
-        "track": "So Hot You're Hurting My Feelings",
-        "artist": "Squirrel Flower",
-        "kind": "Alternative"
-      },
-      "slug": "squirrel-flower-2026-11-19"
-    },
-    {
-      "date": "2026-11-19",
-      "time": "20:00",
-      "title": "Lily DeTaeye",
-      "support": null,
-      "venue": "Falcon Bowl",
-      "hood": "Milwaukee",
-      "genre": "folk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/lily-detaeye-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-19-8-pm/concert/18688582",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/lily-detaeye-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-19-8-pm/concert/18688582"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c6/2e/9f/c62e9f07-70a8-100d-80b0-e93067c73e1a/mzaf_11643442269131811303.plus.aac.p.m4a",
-        "track": "Father's Daughter",
-        "artist": "Lily DeTaeye",
-        "kind": "Folk"
-      },
-      "slug": "lily-detaeye-2026-11-19"
-    },
     {
       "img": "https://s1.ticketm.net/dam/a/64c/76cc8226-9c36-4d1a-b616-d5acc3fa564c_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-20",
@@ -4179,6 +4052,27 @@
       "slug": "greg-warren-2027-01-01"
     },
     {
+      "img": "https://i.ticketweb.com/i/00/13/65/83/43_Edp.jpg?v=3",
+      "price": 24.96,
+      "date": "2027-01-01",
+      "time": "20:00",
+      "title": "Pat McDonald and John Sieger",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "folk",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/pat-mcdonald-and-john-sieger-shank-hall-tickets/15060933",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/pat-mcdonald-and-john-sieger-shank-hall-tickets/15060933",
+          "price": 24.96
+        }
+      ],
+      "slug": "pat-mcdonald-and-john-sieger-2027-01-01"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/a4d/26156485-7691-4eee-af12-e660eca55a4d_RETINA_PORTRAIT_16_9.jpg",
       "price": 32.39,
       "date": "2027-01-02",
@@ -4570,8 +4464,6 @@
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/16/09/04_Edp.jpg?v=3",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "price": 19.3,
       "date": "2027-01-16",
       "time": "20:00",
@@ -6080,8 +5972,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/a/c3f/416fd0e6-0b21-4a3a-ae66-3af844eb9c3f_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "date": "2027-02-09",
       "time": "20:00",
       "title": "Xscape",
@@ -6419,8 +6309,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/a/331/59b2e836-bf9a-486b-8070-3812381e3331_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "price": 24.96,
       "date": "2027-02-15",
       "time": "19:30",
@@ -6641,8 +6529,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/a/ca7/4eb83498-fdaf-4acb-9344-f53d8f26bca7_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "price": 35.78,
       "date": "2027-02-19",
       "time": "20:00",
@@ -6871,7 +6757,7 @@
       "support": null,
       "venue": "Shank Hall",
       "hood": "East Side",
-      "genre": "other",
+      "genre": "indie",
       "ticketer": "SeatGeek",
       "url": "https://seatgeek.com/the-queers-tickets/milwaukee-wisconsin-shank-hall-2027-02-24-8-pm/concert/18797590",
       "offers": [
@@ -6880,6 +6766,12 @@
           "url": "https://seatgeek.com/the-queers-tickets/milwaukee-wisconsin-shank-hall-2027-02-24-8-pm/concert/18797590"
         }
       ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bd/b0/d5/bdb0d55d-2451-ad0f-277f-872c2c87da76/mzaf_2666902604261132851.plus.aac.p.m4a",
+        "track": "Punk Rock Girls",
+        "artist": "The Queers",
+        "kind": "Alternative"
+      },
       "slug": "the-queers-2027-02-24"
     },
     {
@@ -7387,8 +7279,6 @@
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/15/97/14_Edp.jpg?v=4",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "price": 24.96,
       "date": "2027-03-02",
       "time": "19:30",
@@ -7445,8 +7335,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/a/8bf/03985c53-fb10-4d38-ab4f-662df14e78bf_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "date": "2027-03-04",
       "time": "19:30",
       "title": "Phoebe Bridgers",
@@ -7533,8 +7421,6 @@
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/15/97/44_Edp.jpg?v=4",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "price": 24.96,
       "date": "2027-03-05",
       "time": "20:00",
@@ -8035,8 +7921,6 @@
     },
     {
       "img": "https://s1.ticketm.net/dam/a/8df/8da28419-b592-43b9-a87c-da9ac276f8df_RETINA_PORTRAIT_16_9.jpg",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "date": "2027-03-13",
       "time": "19:30",
       "title": "Jhene Aiko",
@@ -8089,8 +7973,6 @@
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/16/00/84_Edp.jpg?v=3",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "price": 24.96,
       "date": "2027-03-13",
       "time": "20:00",
@@ -8180,8 +8062,6 @@
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/16/08/04_Edp.jpg?v=4",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "price": 30.37,
       "date": "2027-03-14",
       "time": "19:30",
@@ -8202,6 +8082,7 @@
       "slug": "jeremiah-harmon-2027-03-14"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/b4e/1cbf7d03-2f48-49ed-95b5-3704bbf2fb4e_RETINA_PORTRAIT_16_9.jpg",
       "date": "2027-03-14",
       "time": "20:00",
       "title": "The Strike",
@@ -8215,6 +8096,10 @@
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/the-strike-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-14-8-pm/concert/18785035"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf_Y"
         }
       ],
       "preview": {
@@ -8227,8 +8112,6 @@
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/15/81/34_Edp.jpg?v=4",
-      "status": "offsale",
-      "onsale": "2026-11-20T16:00:00Z",
       "price": 30.37,
       "date": "2027-03-17",
       "time": "19:30",
@@ -8317,6 +8200,134 @@
         }
       ],
       "slug": "stanley-jordan-solo-2027-03-18"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/d5a/33f2832f-5ee6-40dc-a687-5a8c8a43ad5a_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-19",
+      "time": "19:00",
+      "title": "From Ashes To New",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/from-ashes-to-new-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-19-7-pm/concert/18655316",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/from-ashes-to-new-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-19-7-pm/concert/18655316"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Yro"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/8a/08/718a0800-c38e-acd9-2f28-f6742a5c5ee6/mzaf_8272932777083330062.plus.aac.p.m4a",
+        "track": "Die for You",
+        "artist": "From Ashes to New",
+        "kind": "Hard Rock"
+      },
+      "slug": "from-ashes-to-new-2027-03-19"
+    },
+    {
+      "date": "2027-03-19",
+      "time": "19:00",
+      "title": "Lucas Zelnick",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/lucas-zelnick-tickets/comedy/2027-03-19-7-pm/18526331",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/lucas-zelnick-tickets/comedy/2027-03-19-7-pm/18526331"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvZb9"
+        }
+      ],
+      "slug": "lucas-zelnick-2027-03-19"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/1e9/3a0b7475-c977-4e81-b1fc-59db47cf11e9_1480271_RETINA_PORTRAIT_16_9.jpg",
+      "price": 32.39,
+      "date": "2027-03-19",
+      "time": "19:00",
+      "title": "Steve-O",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/steve-o-crash-and-burn-milwaukee-improv-main-room-tickets/14360024",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/steve-o-crash-and-burn-milwaukee-improv-main-room-tickets/14360024",
+          "price": 32.39
+        }
+      ],
+      "times": [
+        "19:00",
+        "21:15"
+      ],
+      "slug": "steve-o-2027-03-19"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/900/8c7dbcd1-b8c3-4832-a342-ba04304da900_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-19",
+      "time": "20:00",
+      "title": "Sullivan King",
+      "support": "TYNAN, Ahee, Benda",
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/sullivan-king-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-19-8-pm/concert/18788937",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/sullivan-king-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-19-8-pm/concert/18788937"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4PV"
+        }
+      ],
+      "slug": "sullivan-king-2027-03-19"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/099/89f6f388-4ea2-4f9f-96b2-0fb24d893099_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-19",
+      "time": "20:00",
+      "title": "Ladysmith Black Mambazo",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/ladysmith-black-mambazo-tickets/milwaukee-wisconsin-pabst-theater-2027-03-19-8-pm/concert/18668682",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/ladysmith-black-mambazo-tickets/milwaukee-wisconsin-pabst-theater-2027-03-19-8-pm/concert/18668682"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvYfV"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/77/39/f0/7739f0c5-f1d5-baf6-3aca-1919bbfab589/mzaf_3495926370105116715.plus.aac.p.m4a",
+        "track": "Mbube (The Lion Sleeps Tonight)",
+        "artist": "Ladysmith Black Mambazo",
+        "kind": "Children's Music"
+      },
+      "slug": "ladysmith-black-mambazo-2027-03-19"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195874433%2F2971726526301%2F1%2Foriginal.20261015-154152?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.412&fp-y=0.342&s=1494a6f3eeb0577e2dc9ea9ca8281f73",

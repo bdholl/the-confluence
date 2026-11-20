@@ -4,51 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-19-19:30-AidanMcCluskeyMilwaukeeImprov@theconfluence
-DTSTART;TZID=America/Chicago:20261119T193000
-DTEND;TZID=America/Chicago:20261119T213000
-SUMMARY:Aidan McCluskey @ Milwaukee Improv
-LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/aidan-mccluskey-milwaukee-improv-main-room-tickets/14327724
-URL:https://www.ticketweb.com/event/aidan-mccluskey-milwaukee-improv-main-room-tickets/14327724
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-19-19:30-GhostwomanXRayArcade@theconfluence
-DTSTART;TZID=America/Chicago:20261119T193000
-DTEND;TZID=America/Chicago:20261119T213000
-SUMMARY:Ghostwoman @ X-Ray Arcade
-LOCATION:X-Ray Arcade\, Cudahy
-DESCRIPTION:Tickets: https://seatgeek.com/ghostwoman-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-19-7-30-pm/concert/18827508
-URL:https://seatgeek.com/ghostwoman-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-19-7-30-pm/concert/18827508
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-19-20:00-CraigFinnVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261119T200000
-DTEND;TZID=America/Chicago:20261119T220000
-SUMMARY:Craig Finn @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/craig-finn-tickets/milwaukee-wisconsin-vivarium-2026-11-19-8-pm/concert/18400997
-URL:https://seatgeek.com/craig-finn-tickets/milwaukee-wisconsin-vivarium-2026-11-19-8-pm/concert/18400997
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-19-20:00-SquirrelFlowerCactusClub@theconfluence
-DTSTART;TZID=America/Chicago:20261119T200000
-DTEND;TZID=America/Chicago:20261119T220000
-SUMMARY:Squirrel Flower @ Cactus Club
-LOCATION:Cactus Club\, Bay View
-DESCRIPTION:With Sour Widows. Tickets: https://seatgeek.com/squirrel-flower-tickets/milwaukee-wisconsin-cactus-club-2026-11-19-8-pm/concert/18400697
-URL:https://seatgeek.com/squirrel-flower-tickets/milwaukee-wisconsin-cactus-club-2026-11-19-8-pm/concert/18400697
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-19-20:00-LilyDeTaeyeFalconBowl@theconfluence
-DTSTART;TZID=America/Chicago:20261119T200000
-DTEND;TZID=America/Chicago:20261119T220000
-SUMMARY:Lily DeTaeye @ Falcon Bowl
-LOCATION:Falcon Bowl\, Milwaukee
-DESCRIPTION:Tickets: https://seatgeek.com/lily-detaeye-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-19-8-pm/concert/18688582
-URL:https://seatgeek.com/lily-detaeye-tickets/milwaukee-wisconsin-falcon-bowl-2026-11-19-8-pm/concert/18688582
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-20-18:00-TrapKaraokeLandmarkCreditUnionLive@theconfluence
 DTSTART;TZID=America/Chicago:20261120T180000
 DTEND;TZID=America/Chicago:20261120T200000
@@ -1496,6 +1451,15 @@ SUMMARY:Greg Warren @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/greg-warren-impulse-buy-milwaukee-improv-main-room-tickets/14963553
 URL:https://www.ticketweb.com/event/greg-warren-impulse-buy-milwaukee-improv-main-room-tickets/14963553
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-01-20:00-PatMcDonaldandJohnSiegerShankHall@theconfluence
+DTSTART;TZID=America/Chicago:20270101T200000
+DTEND;TZID=America/Chicago:20270101T220000
+SUMMARY:Pat McDonald and John Sieger @ Shank Hall
+LOCATION:Shank Hall\, East Side
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/pat-mcdonald-and-john-sieger-shank-hall-tickets/15060933
+URL:https://www.ticketweb.com/event/pat-mcdonald-and-john-sieger-shank-hall-tickets/15060933
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-02-18:00-GregWarrenMilwaukeeImprov@theconfluence
@@ -2990,6 +2954,51 @@ SUMMARY:Stanley Jordan Solo @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/stanley-jordan-solo-shank-hall-tickets/14378744
 URL:https://www.ticketweb.com/event/stanley-jordan-solo-shank-hall-tickets/14378744
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-19-19:00-FromAshesToNewTheRaveEaglesClub@theconfluence
+DTSTART;TZID=America/Chicago:20270319T190000
+DTEND;TZID=America/Chicago:20270319T210000
+SUMMARY:From Ashes To New @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
+DESCRIPTION:Tickets: https://seatgeek.com/from-ashes-to-new-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-19-7-pm/concert/18655316
+URL:https://seatgeek.com/from-ashes-to-new-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-19-7-pm/concert/18655316
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-19-19:00-LucasZelnickTurnerHallBallroom@theconfluence
+DTSTART;TZID=America/Chicago:20270319T190000
+DTEND;TZID=America/Chicago:20270319T210000
+SUMMARY:Lucas Zelnick @ Turner Hall Ballroom
+LOCATION:Turner Hall Ballroom\, Westown
+DESCRIPTION:Tickets: https://seatgeek.com/lucas-zelnick-tickets/comedy/2027-03-19-7-pm/18526331
+URL:https://seatgeek.com/lucas-zelnick-tickets/comedy/2027-03-19-7-pm/18526331
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-19-19:00-SteveOMilwaukeeImprov@theconfluence
+DTSTART;TZID=America/Chicago:20270319T190000
+DTEND;TZID=America/Chicago:20270319T210000
+SUMMARY:Steve-O @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/steve-o-crash-and-burn-milwaukee-improv-main-room-tickets/14360024
+URL:https://www.ticketweb.com/event/steve-o-crash-and-burn-milwaukee-improv-main-room-tickets/14360024
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-19-20:00-SullivanKingTheRaveEaglesClub@theconfluence
+DTSTART;TZID=America/Chicago:20270319T200000
+DTEND;TZID=America/Chicago:20270319T220000
+SUMMARY:Sullivan King @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
+DESCRIPTION:With TYNAN\, Ahee\, Benda. Tickets: https://seatgeek.com/sullivan-king-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-19-8-pm/concert/18788937
+URL:https://seatgeek.com/sullivan-king-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-19-8-pm/concert/18788937
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-19-20:00-LadysmithBlackMambazoPabstTheater@theconfluence
+DTSTART;TZID=America/Chicago:20270319T200000
+DTEND;TZID=America/Chicago:20270319T220000
+SUMMARY:Ladysmith Black Mambazo @ Pabst Theater
+LOCATION:Pabst Theater\, Downtown
+DESCRIPTION:Tickets: https://seatgeek.com/ladysmith-black-mambazo-tickets/milwaukee-wisconsin-pabst-theater-2027-03-19-8-pm/concert/18668682
+URL:https://seatgeek.com/ladysmith-black-mambazo-tickets/milwaukee-wisconsin-pabst-theater-2027-03-19-8-pm/concert/18668682
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-20-20:00-AlexCameronTheArgo@theconfluence
