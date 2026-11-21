@@ -1,242 +1,6 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "shows": [
-    {
-      "img": "https://s1.ticketm.net/dam/a/64c/76cc8226-9c36-4d1a-b616-d5acc3fa564c_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-20",
-      "time": "18:00",
-      "title": "Trap Karaoke",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "hiphop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.universe.com/events/trap-karaoke-milwaukee-tickets-V52JCY?ref=ticketmaster"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/trap-karaoke-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-20-6-pm/concert/18674501"
-        }
-      ],
-      "slug": "trap-karaoke-2026-11-20"
-    },
-    {
-      "date": "2026-11-20",
-      "time": "18:00",
-      "title": "Miss B Haven @ Route 20",
-      "support": null,
-      "venue": "Route 20",
-      "hood": "Sturtevant",
-      "genre": "blues",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/miss-b-haven-route-route-20-tickets/14353094?REFERRAL_ID=tmfeed",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/miss-b-haven-route-route-20-tickets/14353094?REFERRAL_ID=tmfeed"
-        }
-      ],
-      "slug": "miss-b-haven-route-20-2026-11-20"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RETINA_PORTRAIT_16_9.jpg",
-      "price": 38.67,
-      "date": "2026-11-20",
-      "time": "19:00",
-      "title": "Donnell Rawlings",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984823",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984823",
-          "price": 38.67
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/donnell-rawlings-tickets/comedy/2026-11-20-7-pm/18400872"
-        }
-      ],
-      "times": [
-        "19:00",
-        "21:15"
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/84/1a/7c/841a7cfa-8c16-d73c-fc73-784386e2800c/mzaf_1833608671846148638.plus.aac.p.m4a",
-        "track": "Jungle Fever (Jfl 2017)",
-        "artist": "Donnell Rawlings",
-        "kind": "Comedy"
-      },
-      "slug": "donnell-rawlings-2026-11-20"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/12/98/83/94_Edp.jpg?v=4",
-      "price": 24.96,
-      "date": "2026-11-20",
-      "time": "20:00",
-      "title": "Lil' Ed & The Blues Imperials",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "blues",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/lil-ed-and-the-blues-shank-hall-tickets/14273574",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/lil-ed-and-the-blues-shank-hall-tickets/14273574",
-          "price": 24.96
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/lil-ed-the-blues-imperials-tickets/milwaukee-wisconsin-shank-hall-2026-11-20-8-pm/concert/18526360"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/98/c4/4398c42a-8dfa-535b-e0e7-b750f2e7480c/mzaf_10000287116856500272.plus.aac.p.m4a",
-        "track": "Kick Me To The Curb",
-        "artist": "Lil' Ed & The Blues Imperials",
-        "kind": "Blues"
-      },
-      "slug": "lil-ed-and-the-blues-imperials-2026-11-20"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/c8c/8457ddc4-3cbb-436f-9d74-57989ff3cc8c_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-20",
-      "time": "20:00",
-      "title": "Dax",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/dax-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-20-8-pm/concert/18498649",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/dax-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-20-8-pm/concert/18498649"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70trv"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/42/89/614289c6-6019-2b1a-f64f-f73e178938ce/mzaf_8047417635122304138.plus.aac.p.m4a",
-        "track": "Lonely Dirt Road",
-        "artist": "Dax",
-        "kind": "Country"
-      },
-      "slug": "dax-2026-11-20"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/33b/84a91251-6cd7-450c-9499-c987189ec33b_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-20",
-      "time": "20:00",
-      "title": "Slaughter To Prevail",
-      "support": "Rev3rent",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "metal",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/slaughter-to-prevail-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-20-8-pm/concert/18374418",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/slaughter-to-prevail-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-20-8-pm/concert/18374418"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeGz"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/10/b2/2a10b20b-8cdb-8c8f-083e-0c0e236d573e/mzaf_12166955423899524316.plus.aac.p.m4a",
-        "track": "VIKING",
-        "artist": "Slaughter to Prevail",
-        "kind": "Metal"
-      },
-      "slug": "slaughter-to-prevail-2026-11-20"
-    },
-    {
-      "date": "2026-11-20",
-      "time": "20:00",
-      "title": "Geordie Kieffer",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/geordie-kieffer-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-20-8-pm/concert/18827497",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/geordie-kieffer-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-20-8-pm/concert/18827497"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpGJ"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/3e/fd/033efdf5-b602-cb8a-23b7-d2567221e745/mzaf_12573105460821210280.plus.aac.p.m4a",
-        "track": "Lit Cig",
-        "artist": "Geordie Kieffer",
-        "kind": "Pop"
-      },
-      "slug": "geordie-kieffer-2026-11-20"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/61d/eba5cfb8-4fd8-41df-ae51-5136d75c361d_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-20",
-      "time": "20:30",
-      "title": "Gimme Gimme Disco",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpGz",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpGz"
-        }
-      ],
-      "slug": "gimme-gimme-disco-2026-11-20"
-    },
-    {
-      "date": "2026-11-20",
-      "time": "21:00",
-      "title": "Bommer",
-      "support": null,
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "festival",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/bommer-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-11-20-9-pm/music-festival/18804688",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bommer-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-11-20-9-pm/music-festival/18804688"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5e/a7/90/5ea79050-4cf2-aae3-f65b-371ccaeec724/mzaf_11563872556605121543.plus.aac.p.m4a",
-        "track": "Like Ahh! (Zubah Remix)",
-        "artist": "Bommer",
-        "kind": "Dance"
-      },
-      "slug": "bommer-2026-11-20"
-    },
     {
       "date": "2026-11-21",
       "time": "18:00",
@@ -1004,6 +768,30 @@
         "kind": "Electronic"
       },
       "slug": "seth-david-2026-11-27"
+    },
+    {
+      "date": "2026-11-27",
+      "time": "21:00",
+      "title": "DJay Mando",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "electronic",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/djay-mando-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-27-9-pm/concert/18842276",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/djay-mando-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-27-9-pm/concert/18842276"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/f3/90/ccf390ab-e914-f841-6438-547c4d36269e/mzaf_9011470346113589155.plus.aac.p.m4a",
+        "track": "MIA MIA",
+        "artist": "DJay Mando",
+        "kind": "Dance"
+      },
+      "slug": "djay-mando-2026-11-27"
     },
     {
       "img": "https://i.ticketweb.com/i/00/12/98/84/14_Edp.jpg?v=4",
@@ -1808,6 +1596,30 @@
     {
       "date": "2026-12-04",
       "time": "20:00",
+      "title": "The Big Wu",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/4a/24/cb4a2407-7b9b-2d38-23ea-8405937c5c64/mzaf_17114292731078519746.plus.aac.p.m4a",
+        "track": "Red Sky",
+        "artist": "The Big Wu",
+        "kind": "Rock"
+      },
+      "slug": "the-big-wu-2026-12-04"
+    },
+    {
+      "date": "2026-12-04",
+      "time": "20:00",
       "title": "The Gufs",
       "support": null,
       "venue": "The Argo",
@@ -1847,30 +1659,6 @@
         }
       ],
       "slug": "1-year-anniversary-party-the-gufs-w-brett-newski-2026-12-04"
-    },
-    {
-      "date": "2026-12-04",
-      "time": "20:00",
-      "title": "The Big Wu",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/4a/24/cb4a2407-7b9b-2d38-23ea-8405937c5c64/mzaf_17114292731078519746.plus.aac.p.m4a",
-        "track": "Red Sky",
-        "artist": "The Big Wu",
-        "kind": "Rock"
-      },
-      "slug": "the-big-wu-2026-12-04"
     },
     {
       "date": "2026-12-04",
@@ -2092,30 +1880,6 @@
     {
       "date": "2026-12-05",
       "time": "20:00",
-      "title": "Willy Porter",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/willy-porter-tickets/milwaukee-wisconsin-vivarium-2026-12-05-8-pm/concert/18832140",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/willy-porter-tickets/milwaukee-wisconsin-vivarium-2026-12-05-8-pm/concert/18832140"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/cf/4b/c8cf4bb7-664a-e854-ca7b-dff3d7d44eb7/mzaf_490455261681074214.plus.aac.p.m4a",
-        "track": "Watercolor",
-        "artist": "Willy Porter",
-        "kind": "Rock"
-      },
-      "slug": "willy-porter-2026-12-05"
-    },
-    {
-      "date": "2026-12-05",
-      "time": "20:00",
       "title": "The Gringos",
       "support": "Yolk",
       "venue": "The Argo",
@@ -2141,6 +1905,30 @@
         "kind": "Indie Rock"
       },
       "slug": "the-gringos-2026-12-05"
+    },
+    {
+      "date": "2026-12-05",
+      "time": "20:00",
+      "title": "Willy Porter",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/willy-porter-tickets/milwaukee-wisconsin-vivarium-2026-12-05-8-pm/concert/18832140",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/willy-porter-tickets/milwaukee-wisconsin-vivarium-2026-12-05-8-pm/concert/18832140"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/cf/4b/c8cf4bb7-664a-e854-ca7b-dff3d7d44eb7/mzaf_490455261681074214.plus.aac.p.m4a",
+        "track": "Watercolor",
+        "artist": "Willy Porter",
+        "kind": "Rock"
+      },
+      "slug": "willy-porter-2026-12-05"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/5e4/89593bbf-0a48-4be1-95a4-8ffba46375e4_1065341_RETINA_PORTRAIT_16_9.jpg",
@@ -3956,30 +3744,6 @@
     {
       "date": "2026-12-31",
       "time": "21:00",
-      "title": "Artifakts",
-      "support": null,
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/81/ab/78/81ab788b-c9a9-642f-03df-f5d67b988210/mzaf_16688945772541310957.plus.aac.p.m4a",
-        "track": "Sputnik IV",
-        "artist": "Artifakts",
-        "kind": "Electronic"
-      },
-      "slug": "artifakts-2026-12-31"
-    },
-    {
-      "date": "2026-12-31",
-      "time": "21:00",
       "title": "Spafford",
       "support": null,
       "venue": "Vivarium",
@@ -4000,6 +3764,30 @@
         "kind": "Rock"
       },
       "slug": "spafford-2026-12-31"
+    },
+    {
+      "date": "2026-12-31",
+      "time": "21:00",
+      "title": "Artifakts",
+      "support": null,
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "electronic",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/81/ab/78/81ab788b-c9a9-642f-03df-f5d67b988210/mzaf_16688945772541310957.plus.aac.p.m4a",
+        "track": "Sputnik IV",
+        "artist": "Artifakts",
+        "kind": "Electronic"
+      },
+      "slug": "artifakts-2026-12-31"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196894020%2F285524009645%2F1%2Foriginal.20261029-224235?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=45f434a8603646bd057b0003ed8a57cf",
@@ -4479,6 +4267,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/nivrana-tribute-to-shank-hall-tickets/14454494",
           "price": 19.3
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/nivrana-tribute-to-nirvana-tickets/milwaukee-wisconsin-shank-hall-2027-01-16-8-pm/concert/18845510"
         }
       ],
       "slug": "nivrana-tribute-to-nirvana-2027-01-16"
@@ -5529,6 +5321,30 @@
     {
       "date": "2027-02-03",
       "time": "20:00",
+      "title": "Howl Owl Howl",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/howl-owl-howl-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-03-8-pm/concert/18788925",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/howl-owl-howl-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-03-8-pm/concert/18788925"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/82/68/74/826874f8-a420-8827-9949-bbef3fbe870a/mzaf_13445972932766140430.plus.aac.p.m4a",
+        "track": "Everybody Wants Her",
+        "artist": "Howl Owl Howl",
+        "kind": "Roots Rock"
+      },
+      "slug": "howl-owl-howl-2027-02-03"
+    },
+    {
+      "date": "2027-02-03",
+      "time": "20:00",
       "title": "MarchFourth",
       "support": null,
       "venue": "The Argo",
@@ -5554,30 +5370,6 @@
         "kind": "Dance"
       },
       "slug": "marchfourth-2027-02-03"
-    },
-    {
-      "date": "2027-02-03",
-      "time": "20:00",
-      "title": "Howl Owl Howl",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/howl-owl-howl-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-03-8-pm/concert/18788925",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/howl-owl-howl-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-03-8-pm/concert/18788925"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/82/68/74/826874f8-a420-8827-9949-bbef3fbe870a/mzaf_13445972932766140430.plus.aac.p.m4a",
-        "track": "Everybody Wants Her",
-        "artist": "Howl Owl Howl",
-        "kind": "Roots Rock"
-      },
-      "slug": "howl-owl-howl-2027-02-03"
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/14/48/34_Edp.jpg?v=5",
@@ -5703,6 +5495,24 @@
       "slug": "we-them-ones-comedy-tour-2027-02-05"
     },
     {
+      "date": "2027-02-05",
+      "time": "20:30",
+      "title": "Can't Feel My Face: 2010s Dance Party",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/can-t-feel-my-face-2010s-dance-party-tickets/milwaukee-wisconsin-vivarium-2027-02-05-8-30-pm/concert/18858931",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/can-t-feel-my-face-2010s-dance-party-tickets/milwaukee-wisconsin-vivarium-2027-02-05-8-30-pm/concert/18858931"
+        }
+      ],
+      "slug": "can-t-feel-my-face-2010s-dance-party-2027-02-05"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/939/e9983c3b-750c-455b-9b85-d7470a893939_RETINA_PORTRAIT_16_9.jpg",
       "price": 64.03,
       "date": "2027-02-06",
@@ -5820,6 +5630,30 @@
       "slug": "kameron-marlowe-2027-02-06"
     },
     {
+      "date": "2027-02-06",
+      "time": "20:00",
+      "title": "Hogslop String Band",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "folk",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/hogslop-string-band-tickets/milwaukee-wisconsin-vivarium-2027-02-06-8-pm/concert/18858929",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/hogslop-string-band-tickets/milwaukee-wisconsin-vivarium-2027-02-06-8-pm/concert/18858929"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/17/f1/d717f150-47be-03c0-221b-01b8a83b8aa4/mzaf_16721405623240094943.plus.aac.p.m4a",
+        "track": "Rag Mama Rag",
+        "artist": "Hogslop String Band",
+        "kind": "Singer/Songwriter"
+      },
+      "slug": "hogslop-string-band-2027-02-06"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/e/695/2a94d2c7-9be4-41c1-a1c6-a1462bfd3695_RETINA_PORTRAIT_16_9.jpg",
       "status": "rescheduled",
       "date": "2027-02-07",
@@ -5911,18 +5745,18 @@
     },
     {
       "date": "2027-02-07",
-      "time": "20:00",
+      "time": "19:30",
       "title": "Shemekia Copeland",
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
       "genre": "blues",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-8-pm/concert/18832150",
+      "url": "https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-7-30-pm/concert/18832150",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-8-pm/concert/18832150"
+          "url": "https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-7-30-pm/concert/18832150"
         }
       ],
       "preview": {
@@ -6111,24 +5945,6 @@
     {
       "date": "2027-02-12",
       "time": "19:30",
-      "title": "Jay Leno",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004"
-        }
-      ],
-      "slug": "jay-leno-2027-02-12"
-    },
-    {
-      "date": "2027-02-12",
-      "time": "19:30",
       "title": "Aries Spears",
       "support": null,
       "venue": "Landmark Credit Union Live",
@@ -6143,6 +5959,24 @@
         }
       ],
       "slug": "aries-spears-2027-02-12"
+    },
+    {
+      "date": "2027-02-12",
+      "time": "19:30",
+      "title": "Jay Leno",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004"
+        }
+      ],
+      "slug": "jay-leno-2027-02-12"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/68d/19b97376-00f9-46dc-953e-47d5823d268d_RETINA_PORTRAIT_16_9.jpg",
@@ -6190,6 +6024,24 @@
         }
       ],
       "slug": "liberacion-2027-02-12"
+    },
+    {
+      "date": "2027-02-12",
+      "time": "21:00",
+      "title": "Minnesota",
+      "support": null,
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/minnesota-1-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-12-9-pm/concert/18848489",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/minnesota-1-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-12-9-pm/concert/18848489"
+        }
+      ],
+      "slug": "minnesota-2027-02-12"
     },
     {
       "date": "2027-02-13",
@@ -6324,6 +6176,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/that-1-guy-shank-hall-tickets/14452954",
           "price": 24.96
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/that-1-guy-tickets/milwaukee-wisconsin-shank-hall-2027-02-15-7-30-pm/concert/18845519"
         }
       ],
       "preview": {
@@ -6544,6 +6400,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/tommy-castro-the-painkillers-shank-hall-tickets/14453104",
           "price": 35.78
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/tommy-castro-tickets/milwaukee-wisconsin-shank-hall-2027-02-19-8-pm/concert/18845518"
         }
       ],
       "slug": "tommy-castro-and-the-painkillers-2027-02-19"
@@ -6571,6 +6431,24 @@
         "kind": "Country"
       },
       "slug": "adrien-nunez-2027-02-19"
+    },
+    {
+      "date": "2027-02-19",
+      "time": "20:00",
+      "title": "SHAHERI",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243"
+        }
+      ],
+      "slug": "shaheri-2027-02-19"
     },
     {
       "date": "2027-02-20",
@@ -7141,6 +7019,24 @@
     {
       "date": "2027-02-27",
       "time": "20:00",
+      "title": "Matt Friend",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/matt-friend-tickets/comedy/2027-02-27-8-pm/18793253",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/matt-friend-tickets/comedy/2027-02-27-8-pm/18793253"
+        }
+      ],
+      "slug": "matt-friend-2027-02-27"
+    },
+    {
+      "date": "2027-02-27",
+      "time": "20:00",
       "title": "Corduroy Cadets",
       "support": null,
       "venue": "The Argo",
@@ -7166,24 +7062,6 @@
         "kind": "Country"
       },
       "slug": "corduroy-cadets-2027-02-27"
-    },
-    {
-      "date": "2027-02-27",
-      "time": "20:00",
-      "title": "Matt Friend",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/matt-friend-tickets/comedy/2027-02-27-8-pm/18793253",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/matt-friend-tickets/comedy/2027-02-27-8-pm/18793253"
-        }
-      ],
-      "slug": "matt-friend-2027-02-27"
     },
     {
       "img": "https://i.ticketweb.com/i/00/12/97/07/24_Edp.jpg?v=6",
@@ -7213,30 +7091,6 @@
     {
       "date": "2027-02-28",
       "time": "19:00",
-      "title": "Mike Viola",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/mike-viola-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-28-7-pm/concert/18827507",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/mike-viola-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-28-7-pm/concert/18827507"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/a8/87/77a887e1-8000-a551-1d21-7e8c5df83012/mzaf_4283521553607767968.plus.aac.p.m4a",
-        "track": "The Biggest Fan",
-        "artist": "Mike Viola",
-        "kind": "Rock"
-      },
-      "slug": "mike-viola-2027-02-28"
-    },
-    {
-      "date": "2027-02-28",
-      "time": "19:00",
       "title": "Liquid Stranger",
       "support": "Sully, Twopercent",
       "venue": "Miramar Theatre",
@@ -7257,6 +7111,30 @@
         "kind": "Electronic"
       },
       "slug": "liquid-stranger-2027-02-28"
+    },
+    {
+      "date": "2027-02-28",
+      "time": "19:00",
+      "title": "Mike Viola",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/mike-viola-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-28-7-pm/concert/18827507",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/mike-viola-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-28-7-pm/concert/18827507"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/a8/87/77a887e1-8000-a551-1d21-7e8c5df83012/mzaf_4283521553607767968.plus.aac.p.m4a",
+        "track": "The Biggest Fan",
+        "artist": "Mike Viola",
+        "kind": "Rock"
+      },
+      "slug": "mike-viola-2027-02-28"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/c7c/abcff54a-2554-4f27-b7ce-539e34d50c7c_RETINA_PORTRAIT_16_9.jpg",
@@ -7294,6 +7172,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/albert-lee-shank-hall-tickets/14453174",
           "price": 24.96
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/albert-lee-tickets/milwaukee-wisconsin-shank-hall-2027-03-02-7-30-pm/concert/18845517"
         }
       ],
       "preview": {
@@ -7436,6 +7318,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/josh-rouse-shank-hall-tickets/14453194",
           "price": 24.96
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/josh-rouse-tickets/milwaukee-wisconsin-shank-hall-2027-03-05-8-pm/concert/18845516"
         }
       ],
       "preview": {
@@ -7579,11 +7465,11 @@
       "hood": "Westown",
       "genre": "metal",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582",
+      "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-ii-2027-03-09-8-pm/concert/18727586",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582"
+          "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-ii-2027-03-09-8-pm/concert/18727586"
         }
       ],
       "preview": {
@@ -7620,18 +7506,18 @@
     },
     {
       "date": "2027-03-10",
-      "time": "19:00",
+      "time": "19:30",
       "title": "Oscar Lindsey",
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
       "genre": "indie",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-pm/concert/18804678",
+      "url": "https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-30-pm/concert/18804678",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-pm/concert/18804678"
+          "url": "https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-30-pm/concert/18804678"
         }
       ],
       "preview": {
@@ -7778,9 +7664,13 @@
       "venue": "Vivarium",
       "hood": "East Side",
       "genre": "folk",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk8y",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/jeffrey-martin-tickets/milwaukee-wisconsin-vivarium-2027-03-12-8-pm/concert/18858926",
       "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/jeffrey-martin-tickets/milwaukee-wisconsin-vivarium-2027-03-12-8-pm/concert/18858926"
+        },
         {
           "src": "Ticketmaster",
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk8y"
@@ -8082,6 +7972,30 @@
       "slug": "jeremiah-harmon-2027-03-14"
     },
     {
+      "date": "2027-03-14",
+      "time": "19:30",
+      "title": "Jeremiah Lloyd Harmon",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "pop",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/jeremiah-lloyd-harmon-tickets/milwaukee-wisconsin-shank-hall-2027-03-14-7-30-pm/concert/18845513",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/jeremiah-lloyd-harmon-tickets/milwaukee-wisconsin-shank-hall-2027-03-14-7-30-pm/concert/18845513"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/e8/34/03e83467-fffb-c020-ed19-c62f357c04a2/mzaf_2959541984837400283.plus.aac.p.m4a",
+        "track": "Almost Heaven",
+        "artist": "Jeremiah Lloyd Harmon",
+        "kind": "Pop"
+      },
+      "slug": "jeremiah-lloyd-harmon-2027-03-14"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/b4e/1cbf7d03-2f48-49ed-95b5-3704bbf2fb4e_RETINA_PORTRAIT_16_9.jpg",
       "date": "2027-03-14",
       "time": "20:00",
@@ -8130,6 +8044,30 @@
         }
       ],
       "slug": "trever-m-keith-and-lilly-hiatt-2027-03-17"
+    },
+    {
+      "date": "2027-03-17",
+      "time": "19:30",
+      "title": "Trever Keith",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/trever-keith-tickets/milwaukee-wisconsin-shank-hall-2027-03-17-7-30-pm/concert/18845515",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/trever-keith-tickets/milwaukee-wisconsin-shank-hall-2027-03-17-7-30-pm/concert/18845515"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/Music1/v4/02/26/60/022660ab-2e80-4e30-da17-1a0440c7e7eb/mzaf_632981593180801419.plus.aac.p.m4a",
+        "track": "Another Diversion",
+        "artist": "Trever Keith",
+        "kind": "Alternative"
+      },
+      "slug": "trever-keith-2027-03-17"
     },
     {
       "date": "2027-03-17",
@@ -8328,6 +8266,94 @@
         "kind": "Children's Music"
       },
       "slug": "ladysmith-black-mambazo-2027-03-19"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/1e9/3a0b7475-c977-4e81-b1fc-59db47cf11e9_1480271_RETINA_PORTRAIT_16_9.jpg",
+      "price": 32.39,
+      "date": "2027-03-20",
+      "time": "18:30",
+      "title": "Steve-O",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/steve-o-crash-and-burn-milwaukee-improv-main-room-tickets/14360044",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/steve-o-crash-and-burn-milwaukee-improv-main-room-tickets/14360044",
+          "price": 32.39
+        }
+      ],
+      "times": [
+        "18:30",
+        "21:00"
+      ],
+      "slug": "steve-o-2027-03-20"
+    },
+    {
+      "date": "2027-03-20",
+      "time": "19:00",
+      "title": "The Body",
+      "support": null,
+      "venue": "Cactus Club",
+      "hood": "Bay View",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-body-tickets/milwaukee-wisconsin-cactus-club-2027-03-20-7-pm/concert/18804676",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-body-tickets/milwaukee-wisconsin-cactus-club-2027-03-20-7-pm/concert/18804676"
+        }
+      ],
+      "slug": "the-body-2027-03-20"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/14/52/84_Edp.jpg?v=3",
+      "price": 19.3,
+      "date": "2027-03-20",
+      "time": "20:00",
+      "title": "Fluffy",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "indie",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/fluffy-shank-hall-tickets/14438574",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/fluffy-shank-hall-tickets/14438574",
+          "price": 19.3
+        }
+      ],
+      "slug": "fluffy-2027-03-20"
+    },
+    {
+      "date": "2027-03-20",
+      "time": "20:00",
+      "title": "Sammy Rae & The Friends",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "pop",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/sammy-rae-the-friends-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-20-8-pm/concert/18793264",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/sammy-rae-the-friends-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-20-8-pm/concert/18793264"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/4a/86/8e4a869a-ba1d-59ca-8709-88e8a65f5bc7/mzaf_6459755023891693813.plus.aac.p.m4a",
+        "track": "Kick It to Me",
+        "artist": "Sammy Rae & The Friends",
+        "kind": "Pop"
+      },
+      "slug": "sammy-rae-and-the-friends-2027-03-20"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195874433%2F2971726526301%2F1%2Foriginal.20261015-154152?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.412&fp-y=0.342&s=1494a6f3eeb0577e2dc9ea9ca8281f73",
