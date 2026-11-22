@@ -1,292 +1,6 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "shows": [
-    {
-      "date": "2026-11-21",
-      "time": "18:00",
-      "title": "Ride the Lightning",
-      "support": null,
-      "venue": "Route 20",
-      "hood": "Sturtevant",
-      "genre": "metal",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/ride-the-lightning-route-20-tickets/14376734?REFERRAL_ID=tmfeed",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/ride-the-lightning-route-20-tickets/14376734?REFERRAL_ID=tmfeed"
-        }
-      ],
-      "slug": "ride-the-lightning-2026-11-21"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RETINA_PORTRAIT_16_9.jpg",
-      "price": 38.67,
-      "date": "2026-11-21",
-      "time": "18:30",
-      "title": "Donnell Rawlings",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984843",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/donnell-rawlings-milwaukee-improv-main-room-tickets/14984843",
-          "price": 38.67
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/donnell-rawlings-tickets/comedy/2026-11-21-6-30-pm/18400874"
-        }
-      ],
-      "times": [
-        "18:30",
-        "21:00"
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/84/1a/7c/841a7cfa-8c16-d73c-fc73-784386e2800c/mzaf_1833608671846148638.plus.aac.p.m4a",
-        "track": "Jungle Fever (Jfl 2017)",
-        "artist": "Donnell Rawlings",
-        "kind": "Comedy"
-      },
-      "slug": "donnell-rawlings-2026-11-21"
-    },
-    {
-      "date": "2026-11-21",
-      "time": "18:30",
-      "title": "Humbird",
-      "support": null,
-      "venue": "Cactus Club",
-      "hood": "Bay View",
-      "genre": "folk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/humbird-tickets/milwaukee-wisconsin-cactus-club-2026-11-21-6-30-pm/concert/18804680",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/humbird-tickets/milwaukee-wisconsin-cactus-club-2026-11-21-6-30-pm/concert/18804680"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/5b/b3/4b5bb363-626b-122b-d42d-0a37b7481f8a/mzaf_2192581465074640050.plus.aac.p.m4a",
-        "track": "Daughter of Empire",
-        "artist": "Humbird",
-        "kind": "Americana"
-      },
-      "slug": "humbird-2026-11-21"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/6af/faa2c053-7247-49f9-9cd2-9dd6512986af_RETINA_PORTRAIT_16_9.jpg",
-      "status": "rescheduled",
-      "date": "2026-11-21",
-      "time": "19:00",
-      "title": "Sabaton",
-      "support": "Pop Evil, Wings of Steel",
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "metal",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sabaton-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-21-7-pm/concert/17857308"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/29/fd/1b/29fd1b14-0632-2504-fcdb-c3d375384bf8/mzaf_3802331025524681809.plus.aac.p.m4a",
-        "track": "The Last Stand",
-        "artist": "Sabaton",
-        "kind": "Metal"
-      },
-      "slug": "sabaton-2026-11-21"
-    },
-    {
-      "date": "2026-11-21",
-      "time": "20:00",
-      "title": "The Dead Bolts",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-dead-bolts-tickets/milwaukee-wisconsin-vivarium-2026-11-21-8-pm/concert/18400978",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-dead-bolts-tickets/milwaukee-wisconsin-vivarium-2026-11-21-8-pm/concert/18400978"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pv8b"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/ad/d2/03add2b7-cb8b-f3f2-e883-5984a1f04d89/mzaf_4264610981410039981.plus.aac.p.m4a",
-        "track": "IDCIYDC",
-        "artist": "The Dead Bolts",
-        "kind": "Rock"
-      },
-      "slug": "the-dead-bolts-2026-11-21"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/00/69/44_Edp.jpg?v=5",
-      "price": 24.96,
-      "date": "2026-11-21",
-      "time": "20:00",
-      "title": "Rave Jesus",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "electronic",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/rave-jesus-rave-revival-shank-hall-tickets/14291224",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/rave-jesus-rave-revival-shank-hall-tickets/14291224",
-          "price": 24.96
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/rave-jesus-tickets/milwaukee-wisconsin-shank-hall-2026-11-21-8-pm/concert/18587600"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/02/28/5c02284c-fdd0-7779-7caa-58c526fe3cf9/mzaf_279225223119317201.plus.aac.p.m4a",
-        "track": "I Met God On The Dancefloor",
-        "artist": "Rave Jesus",
-        "kind": "Christian"
-      },
-      "slug": "rave-jesus-2026-11-21"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/ec2/bf8203ff-83bb-4f34-84ae-b27ee0ebeec2_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-21",
-      "time": "20:00",
-      "title": "Zingara",
-      "support": "ProbCause",
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/zingara-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-21-8-pm/concert/18400458",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/zingara-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-21-8-pm/concert/18400458"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek4a"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0f/6c/19/0f6c193e-4614-b288-311a-40bb005051de/mzaf_11815207496583768679.plus.aac.p.m4a",
-        "track": "Deeper",
-        "artist": "Zingara",
-        "kind": "Bass"
-      },
-      "slug": "zingara-2026-11-21"
-    },
-    {
-      "date": "2026-11-21",
-      "time": "20:00",
-      "title": "Jackson Dean",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "country",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/jackson-dean-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-21-8-pm/concert/18560380",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jackson-dean-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-21-8-pm/concert/18560380"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv3fE"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/5a/77/ad5a7733-b515-26f8-93f6-728e505a1bde/mzaf_6967758353110238234.plus.aac.p.m4a",
-        "track": "The Moon And The Wolf (feat. Laci Kaye Booth)",
-        "artist": "Jackson Dean",
-        "kind": "Country"
-      },
-      "slug": "jackson-dean-2026-11-21"
-    },
-    {
-      "date": "2026-11-21",
-      "time": "20:00",
-      "title": "The LoveMonkeys",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "pop",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-lovemonkeys-tickets/whitefish-bay-wisconsin-the-argo-2026-11-21-8-pm/concert/18835453",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-lovemonkeys-tickets/whitefish-bay-wisconsin-the-argo-2026-11-21-8-pm/concert/18835453"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/6f/1b/44/mzm.lfuxgxsg.aac.p.m4a",
-        "track": "Don't Borrow Trouble",
-        "artist": "The Lovemonkeys",
-        "kind": "Pop"
-      },
-      "slug": "the-lovemonkeys-2026-11-21"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191447722%2F285524009645%2F1%2Foriginal.20260819-180854?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3d4121fb23c36dcdf7a7734f6ee46cae",
-      "date": "2026-11-21",
-      "time": "20:00",
-      "title": "#LM35 - The LoveMonkeys 35th Anniversary Show",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/lm35-the-lovemonkeys-35th-anniversary-show-tickets-1998439621705",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/lm35-the-lovemonkeys-35th-anniversary-show-tickets-1998439621705"
-        }
-      ],
-      "slug": "lm35-the-lovemonkeys-35th-anniversary-show-2026-11-21"
-    },
-    {
-      "price": 14.11,
-      "date": "2026-11-21",
-      "time": "21:00",
-      "title": "Lunch Money Bullies",
-      "support": null,
-      "venue": "Live at 1175",
-      "hood": "Kansasville",
-      "genre": "pop",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/lunch-money-bullies-live-at-1175-tickets/14407944",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/lunch-money-bullies-live-at-1175-tickets/14407944",
-          "price": 14.11
-        }
-      ],
-      "slug": "lunch-money-bullies-2026-11-21"
-    },
     {
       "img": "https://i.ticketweb.com/i/00/13/01/37/74_Edp.jpg?v=4",
       "price": 19.3,
@@ -1596,30 +1310,6 @@
     {
       "date": "2026-12-04",
       "time": "20:00",
-      "title": "The Big Wu",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/4a/24/cb4a2407-7b9b-2d38-23ea-8405937c5c64/mzaf_17114292731078519746.plus.aac.p.m4a",
-        "track": "Red Sky",
-        "artist": "The Big Wu",
-        "kind": "Rock"
-      },
-      "slug": "the-big-wu-2026-12-04"
-    },
-    {
-      "date": "2026-12-04",
-      "time": "20:00",
       "title": "The Gufs",
       "support": null,
       "venue": "The Argo",
@@ -1662,6 +1352,30 @@
     },
     {
       "date": "2026-12-04",
+      "time": "20:00",
+      "title": "The Big Wu",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/4a/24/cb4a2407-7b9b-2d38-23ea-8405937c5c64/mzaf_17114292731078519746.plus.aac.p.m4a",
+        "track": "Red Sky",
+        "artist": "The Big Wu",
+        "kind": "Rock"
+      },
+      "slug": "the-big-wu-2026-12-04"
+    },
+    {
+      "date": "2026-12-04",
       "time": "21:00",
       "title": "Kyle Watson",
       "support": null,
@@ -1691,7 +1405,7 @@
     {
       "img": "https://s1.ticketm.net/dam/a/834/36bd28bc-32a5-45fd-a48c-915a2131d834_1654091_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-05",
-      "time": "18:00",
+      "time": "18:30",
       "title": "Nonpoint",
       "support": null,
       "venue": "Route 20",
@@ -2621,6 +2335,24 @@
     {
       "date": "2026-12-12",
       "time": "20:00",
+      "title": "Sam Jay",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/sam-jay-tickets/comedy/2026-12-12-8-pm/18401009",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/sam-jay-tickets/comedy/2026-12-12-8-pm/18401009"
+        }
+      ],
+      "slug": "sam-jay-2026-12-12"
+    },
+    {
+      "date": "2026-12-12",
+      "time": "20:00",
       "title": "Greg Koch",
       "support": null,
       "venue": "The Argo",
@@ -2646,24 +2378,6 @@
         "kind": "Rock & Roll"
       },
       "slug": "greg-koch-2026-12-12"
-    },
-    {
-      "date": "2026-12-12",
-      "time": "20:00",
-      "title": "Sam Jay",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sam-jay-tickets/comedy/2026-12-12-8-pm/18401009",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sam-jay-tickets/comedy/2026-12-12-8-pm/18401009"
-        }
-      ],
-      "slug": "sam-jay-2026-12-12"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/0bb/e65394ae-9746-4063-b803-d25e9a6460bb_RETINA_PORTRAIT_16_9.jpg",
@@ -6411,6 +6125,24 @@
     {
       "date": "2027-02-19",
       "time": "20:00",
+      "title": "SHAHERI",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243"
+        }
+      ],
+      "slug": "shaheri-2027-02-19"
+    },
+    {
+      "date": "2027-02-19",
+      "time": "20:00",
       "title": "Adrien Nunez",
       "support": null,
       "venue": "The Rave / Eagles Club",
@@ -6431,24 +6163,6 @@
         "kind": "Country"
       },
       "slug": "adrien-nunez-2027-02-19"
-    },
-    {
-      "date": "2027-02-19",
-      "time": "20:00",
-      "title": "SHAHERI",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243"
-        }
-      ],
-      "slug": "shaheri-2027-02-19"
     },
     {
       "date": "2027-02-20",
@@ -7091,30 +6805,6 @@
     {
       "date": "2027-02-28",
       "time": "19:00",
-      "title": "Liquid Stranger",
-      "support": "Sully, Twopercent",
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/75/fc/41/75fc41cf-b22c-c503-fc2d-26ce3f6980bd/mzaf_17419461686366392936.plus.aac.p.m4a",
-        "track": "Dissolve",
-        "artist": "Liquid Stranger",
-        "kind": "Electronic"
-      },
-      "slug": "liquid-stranger-2027-02-28"
-    },
-    {
-      "date": "2027-02-28",
-      "time": "19:00",
       "title": "Mike Viola",
       "support": null,
       "venue": "X-Ray Arcade",
@@ -7135,6 +6825,30 @@
         "kind": "Rock"
       },
       "slug": "mike-viola-2027-02-28"
+    },
+    {
+      "date": "2027-02-28",
+      "time": "19:00",
+      "title": "Liquid Stranger",
+      "support": "Sully, Twopercent",
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "electronic",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/75/fc/41/75fc41cf-b22c-c503-fc2d-26ce3f6980bd/mzaf_17419461686366392936.plus.aac.p.m4a",
+        "track": "Dissolve",
+        "artist": "Liquid Stranger",
+        "kind": "Electronic"
+      },
+      "slug": "liquid-stranger-2027-02-28"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/c7c/abcff54a-2554-4f27-b7ce-539e34d50c7c_RETINA_PORTRAIT_16_9.jpg",
@@ -8404,6 +8118,61 @@
         "kind": "Country"
       },
       "slug": "horseshoes-and-hand-grenades-2027-03-20"
+    },
+    {
+      "date": "2027-03-21",
+      "time": "11:00",
+      "title": "The Okee Dokee Brothers",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-okee-dokee-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-21-11-am/concert/18843971",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-okee-dokee-brothers-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-21-11-am/concert/18843971"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/43/81/f843812b-ab31-725b-b032-b4c4ee761e60/mzaf_6810483394561359974.plus.aac.p.m4a",
+        "track": "Baby Mine",
+        "artist": "The Okee Dokee Brothers",
+        "kind": "Children's Music"
+      },
+      "slug": "the-okee-dokee-brothers-2027-03-21"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/02/93/84_Edp.jpg?v=3",
+      "price": 0,
+      "date": "2027-03-21",
+      "time": "20:00",
+      "title": "The Lemonheads",
+      "support": null,
+      "venue": "Shank Hall",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-shank-hall-tickets/14313084",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-shank-hall-tickets/14313084",
+          "price": 0
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-lemonheads-tickets/milwaukee-wisconsin-shank-hall-2027-03-21-8-pm/concert/18595351"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/07/33/54/073354ed-f351-d8ec-a323-5cd4bed8fda7/mzaf_6027463103125780476.plus.aac.p.m4a",
+        "track": "Into Your Arms",
+        "artist": "The Lemonheads",
+        "kind": "Rock"
+      },
+      "slug": "the-lemonheads-2027-03-21"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190405031%2F285524009645%2F1%2Foriginal.20260805-195322?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0f612da5bfbbfb7f983aad99e3916457",
