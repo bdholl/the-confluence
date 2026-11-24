@@ -1,54 +1,6 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "shows": [
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195614820%2F285524009645%2F1%2Foriginal.20261012-160533?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d7d13c0e8b26357843d249469f87d5b",
-      "date": "2026-11-23",
-      "time": "17:30",
-      "title": "Whitefish Bay Public Library: Community Reads",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/whitefish-bay-public-library-community-reads-tickets-2003302693283",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/whitefish-bay-public-library-community-reads-tickets-2003302693283"
-        }
-      ],
-      "slug": "whitefish-bay-public-library-community-reads-2026-11-23"
-    },
-    {
-      "img": "https://s1.ticketm.net/dam/a/487/f6cbedd2-891b-422a-99bd-11579d301487_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-11-23",
-      "time": "19:00",
-      "title": "The Mainliners",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "punk",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-mainliners-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-23-7-pm/concert/18827502",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-mainliners-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-23-7-pm/concert/18827502"
-        },
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAev1k"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/83/9c/3c839c17-f524-0a33-65d2-2f099c979d43/mzaf_16173276310536703920.plus.aac.p.m4a",
-        "track": "Woman's Got Me Drinkin",
-        "artist": "The Mainliners",
-        "kind": "Punk"
-      },
-      "slug": "the-mainliners-2026-11-23"
-    },
     {
       "img": "https://i.ticketweb.com/i/00/13/04/57/44_Edp.jpg?v=3",
       "price": 30.37,
@@ -79,35 +31,6 @@
         "kind": "Singer/Songwriter"
       },
       "slug": "ike-reilly-2026-11-24"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/12/99/96/14_Edp.jpg?v=9",
-      "price": 32.39,
-      "date": "2026-11-25",
-      "time": "18:30",
-      "title": "Kelly Kellz Pre-Thanksgiving Day Comedy Show",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
-      "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234",
-          "price": 32.39
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/kelly-kellz-tickets/comedy/2026-11-25-6-30-pm/18830293"
-        }
-      ],
-      "times": [
-        "18:30",
-        "21:00"
-      ],
-      "slug": "kelly-kellz-pre-thanksgiving-day-comedy-show-2026-11-25"
     },
     {
       "date": "2026-11-25",
@@ -149,6 +72,31 @@
         }
       ],
       "slug": "swing-jazz-wednesdays-micro-brew-swing-band-free-2026-11-25"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/66/32/03_Edp.jpg?v=4",
+      "price": 32.39,
+      "date": "2026-11-25",
+      "time": "19:30",
+      "title": "Kelly Kellz Pre-Thanksgiving Day Comedy Show",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234",
+          "price": 32.39
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/kelly-kellz-tickets/comedy/2026-11-25-6-30-pm/18830293"
+        }
+      ],
+      "slug": "kelly-kellz-pre-thanksgiving-day-comedy-show-2026-11-25"
     },
     {
       "date": "2026-11-25",
@@ -824,6 +772,25 @@
         "kind": "Rock"
       },
       "slug": "jared-james-nichols-2026-12-02"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198544743%2F2765693943641%2F1%2Foriginal.20261123-170441?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b3865567941be2cf712a68fd27cc8073",
+      "date": "2026-12-03",
+      "time": "15:30",
+      "title": "One-Year Anniversary Ribbon Cutting & Happy Hour",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/one-year-anniversary-ribbon-cutting-happy-hour-tickets-2005296027399",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/one-year-anniversary-ribbon-cutting-happy-hour-tickets-2005296027399"
+        }
+      ],
+      "slug": "one-year-anniversary-ribbon-cutting-and-happy-hour-2026-12-03"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198114459%2F285524009645%2F1%2Foriginal.20261116-221305?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.114&fp-y=0.481&s=27994fb40bee1e1a220d5e55c2ed93e2",
@@ -1736,21 +1703,21 @@
       "slug": "story-of-the-year-2026-12-08"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/58/63/13_Edp.jpg?v=7",
+      "img": "https://i.ticketweb.com/i/00/13/58/63/13_Edp.jpg?v=8",
       "price": 44.94,
       "date": "2026-12-08",
       "time": "19:00",
-      "title": "Don McMillan 2.0 *Now Powered By AI",
+      "title": "Don McMillan: Holiday Office Party Show",
       "support": null,
       "venue": "Milwaukee Improv",
       "hood": "Brookfield",
       "genre": "comedy",
       "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/don-mcmillan-20-now-powered-milwaukee-improv-main-room-tickets/14982493",
+      "url": "https://www.ticketweb.com/event/don-mcmillan-holiday-office-party-milwaukee-improv-main-room-tickets/14982493",
       "offers": [
         {
           "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/don-mcmillan-20-now-powered-milwaukee-improv-main-room-tickets/14982493",
+          "url": "https://www.ticketweb.com/event/don-mcmillan-holiday-office-party-milwaukee-improv-main-room-tickets/14982493",
           "price": 44.94
         },
         {
@@ -1758,7 +1725,7 @@
           "url": "https://seatgeek.com/don-mcmillan-tickets/comedy/2026-12-08-7-pm/18587846"
         }
       ],
-      "slug": "don-mcmillan-2-0-now-powered-by-ai-2026-12-08"
+      "slug": "don-mcmillan-holiday-office-party-show-2026-12-08"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/7a6/8e2f2d7e-9b99-4768-a2f2-f8ef0c6607a6_RETINA_PORTRAIT_16_9.jpg",
@@ -5538,6 +5505,27 @@
       "slug": "xscape-2027-02-09"
     },
     {
+      "img": "https://i.ticketweb.com/i/00/13/66/66/33_Edp.jpg?v=3",
+      "price": 32.39,
+      "date": "2027-02-11",
+      "time": "19:00",
+      "title": "Conor Janda",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/conor-janda-milwaukee-improv-main-room-tickets/15070323",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/conor-janda-milwaukee-improv-main-room-tickets/15070323",
+          "price": 32.39
+        }
+      ],
+      "slug": "conor-janda-2027-02-11"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/fd0/f3e16521-21f6-44a8-8d48-e6c591995fd0_RETINA_PORTRAIT_16_9.jpg",
       "date": "2027-02-11",
       "time": "19:30",
@@ -8175,7 +8163,6 @@
       "slug": "the-lemonheads-2027-03-21"
     },
     {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190405031%2F285524009645%2F1%2Foriginal.20260805-195322?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0f612da5bfbbfb7f983aad99e3916457",
       "date": "2027-03-23",
       "time": "20:00",
       "title": "The Mary Wallopers",
@@ -8189,8 +8176,13 @@
         {
           "src": "Eventbrite",
           "url": "https://www.eventbrite.com/e/the-mary-wallopers-tickets-1996258847952"
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-mary-wallopers-tickets/whitefish-bay-wisconsin-the-argo-2027-03-23-8-pm/concert/18835451"
         }
       ],
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190405031%2F285524009645%2F1%2Foriginal.20260805-195322?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0f612da5bfbbfb7f983aad99e3916457",
       "preview": {
         "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/2c/9b/8f/2c9b8f3c-aa50-c6ed-f605-1e67266ff766/mzaf_9378286523078755997.plus.aac.p.m4a",
         "track": "Cod Liver Oil & the Orange Juice (Single Version)",

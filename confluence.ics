@@ -4,24 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-23-17:30-WhitefishBayPublicLibraryCommunityReadsT@theconfluence
-DTSTART;TZID=America/Chicago:20261123T173000
-DTEND;TZID=America/Chicago:20261123T193000
-SUMMARY:Whitefish Bay Public Library: Community Reads @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/whitefish-bay-public-library-community-reads-tickets-2003302693283
-URL:https://www.eventbrite.com/e/whitefish-bay-public-library-community-reads-tickets-2003302693283
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-23-19:00-TheMainlinersXRayArcade@theconfluence
-DTSTART;TZID=America/Chicago:20261123T190000
-DTEND;TZID=America/Chicago:20261123T210000
-SUMMARY:The Mainliners @ X-Ray Arcade
-LOCATION:X-Ray Arcade\, Cudahy
-DESCRIPTION:Tickets: https://seatgeek.com/the-mainliners-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-23-7-pm/concert/18827502
-URL:https://seatgeek.com/the-mainliners-tickets/cudahy-wisconsin-x-ray-arcade-2026-11-23-7-pm/concert/18827502
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-24-20:00-IkeReillyShankHall@theconfluence
 DTSTART;TZID=America/Chicago:20261124T200000
 DTEND;TZID=America/Chicago:20261124T220000
@@ -29,15 +11,6 @@ SUMMARY:Ike Reilly @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/ike-reilly-shank-hall-tickets/14329514
 URL:https://www.ticketweb.com/event/ike-reilly-shank-hall-tickets/14329514
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-25-18:30-KellyKellzPreThanksgivingDayComedyShowMi@theconfluence
-DTSTART;TZID=America/Chicago:20261125T183000
-DTEND;TZID=America/Chicago:20261125T203000
-SUMMARY:Kelly Kellz Pre-Thanksgiving Day Comedy Show @ Milwaukee Improv
-LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234
-URL:https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-19:00-BellaCainPerformingLiveRoute20@theconfluence
@@ -56,6 +29,15 @@ SUMMARY:Swing Jazz Wednesdays: Micro Brew Swing Band (Free) @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-2004096605897
 URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-2004096605897
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-19:30-KellyKellzPreThanksgivingDayComedyShowMi@theconfluence
+DTSTART;TZID=America/Chicago:20261125T193000
+DTEND;TZID=America/Chicago:20261125T213000
+SUMMARY:Kelly Kellz Pre-Thanksgiving Day Comedy Show @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234
+URL:https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-20:00-VonOff1700TheRaveEaglesClub@theconfluence
@@ -308,6 +290,15 @@ SUMMARY:JARED JAMES NICHOLS @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/jared-james-nichols-shank-hall-tickets/15043863
 URL:https://www.ticketweb.com/event/jared-james-nichols-shank-hall-tickets/15043863
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-03-15:30-OneYearAnniversaryRibbonCuttingHappyHour@theconfluence
+DTSTART;TZID=America/Chicago:20261203T153000
+DTEND;TZID=America/Chicago:20261203T173000
+SUMMARY:One-Year Anniversary Ribbon Cutting & Happy Hour @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/one-year-anniversary-ribbon-cutting-happy-hour-tickets-2005296027399
+URL:https://www.eventbrite.com/e/one-year-anniversary-ribbon-cutting-happy-hour-tickets-2005296027399
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-03-16:00-DadsHappyHourTheArgo@theconfluence
@@ -616,13 +607,13 @@ DESCRIPTION:Tickets: https://seatgeek.com/story-of-the-year-tickets/milwaukee-wi
 URL:https://seatgeek.com/story-of-the-year-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-12-08-7-pm/concert/18526302
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-08-19:00-DonMcMillan20NowPoweredByAIMilwaukeeImpr@theconfluence
+UID:2026-12-08-19:00-DonMcMillanHolidayOfficePartyShowMilwauk@theconfluence
 DTSTART;TZID=America/Chicago:20261208T190000
 DTEND;TZID=America/Chicago:20261208T210000
-SUMMARY:Don McMillan 2.0 *Now Powered By AI @ Milwaukee Improv
+SUMMARY:Don McMillan: Holiday Office Party Show @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/don-mcmillan-20-now-powered-milwaukee-improv-main-room-tickets/14982493
-URL:https://www.ticketweb.com/event/don-mcmillan-20-now-powered-milwaukee-improv-main-room-tickets/14982493
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/don-mcmillan-holiday-office-party-milwaukee-improv-main-room-tickets/14982493
+URL:https://www.ticketweb.com/event/don-mcmillan-holiday-office-party-milwaukee-improv-main-room-tickets/14982493
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08-20:00-BrettEldredgeMillerHighLifeTheatre@theconfluence
@@ -2009,6 +2000,15 @@ SUMMARY:Xscape @ Landmark Credit Union Live
 LOCATION:Landmark Credit Union Live\, Milwaukee
 DESCRIPTION:With Lloyd\, Eric Benet. Tickets: https://www.ticketmaster.com/the-xscape-room-tour-milwaukee-wisconsin-02-09-2027/event/0700656B08C4C7DB
 URL:https://www.ticketmaster.com/the-xscape-room-tour-milwaukee-wisconsin-02-09-2027/event/0700656B08C4C7DB
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-11-19:00-ConorJandaMilwaukeeImprov@theconfluence
+DTSTART;TZID=America/Chicago:20270211T190000
+DTEND;TZID=America/Chicago:20270211T210000
+SUMMARY:Conor Janda @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/conor-janda-milwaukee-improv-main-room-tickets/15070323
+URL:https://www.ticketweb.com/event/conor-janda-milwaukee-improv-main-room-tickets/15070323
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-11-19:30-GracePotterPabstTheater@theconfluence
