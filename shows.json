@@ -1,38 +1,8 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "shows": [
     {
-      "img": "https://i.ticketweb.com/i/00/13/04/57/44_Edp.jpg?v=3",
-      "price": 30.37,
-      "date": "2026-11-24",
-      "time": "20:00",
-      "title": "Ike Reilly",
-      "support": null,
-      "venue": "Shank Hall",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/ike-reilly-shank-hall-tickets/14329514",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/ike-reilly-shank-hall-tickets/14329514",
-          "price": 30.37
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/ike-reilly-tickets/milwaukee-wisconsin-shank-hall-2026-11-24-8-pm/concert/18690478"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/d3/e4/ebd3e4c8-1ff4-44fe-4282-5c1423bcebc6/mzaf_6357874166373098873.plus.aac.p.m4a",
-        "track": "Life & Death In East Moline (feat. Shane Reilly)",
-        "artist": "Ike Reilly",
-        "kind": "Singer/Songwriter"
-      },
-      "slug": "ike-reilly-2026-11-24"
-    },
-    {
+      "status": "offsale",
       "date": "2026-11-25",
       "time": "19:00",
       "title": "Bella Cain Performing Live",
@@ -872,7 +842,7 @@
       "slug": "jackyl-2026-12-03"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/06/95/74_Edp.jpg?v=5",
+      "img": "https://i.ticketweb.com/i/00/13/06/95/74_Edp.jpg?v=7",
       "price": 32.39,
       "date": "2026-12-03",
       "time": "19:00",
@@ -1162,30 +1132,6 @@
     {
       "date": "2026-12-04",
       "time": "20:00",
-      "title": "The Big Wu",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/4a/24/cb4a2407-7b9b-2d38-23ea-8405937c5c64/mzaf_17114292731078519746.plus.aac.p.m4a",
-        "track": "Red Sky",
-        "artist": "The Big Wu",
-        "kind": "Rock"
-      },
-      "slug": "the-big-wu-2026-12-04"
-    },
-    {
-      "date": "2026-12-04",
-      "time": "20:00",
       "title": "The Gufs",
       "support": null,
       "venue": "The Argo",
@@ -1225,6 +1171,30 @@
         }
       ],
       "slug": "1-year-anniversary-party-the-gufs-w-brett-newski-2026-12-04"
+    },
+    {
+      "date": "2026-12-04",
+      "time": "20:00",
+      "title": "The Big Wu",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/4a/24/cb4a2407-7b9b-2d38-23ea-8405937c5c64/mzaf_17114292731078519746.plus.aac.p.m4a",
+        "track": "Red Sky",
+        "artist": "The Big Wu",
+        "kind": "Rock"
+      },
+      "slug": "the-big-wu-2026-12-04"
     },
     {
       "date": "2026-12-04",
@@ -1446,6 +1416,30 @@
     {
       "date": "2026-12-05",
       "time": "20:00",
+      "title": "Willy Porter",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/willy-porter-tickets/milwaukee-wisconsin-vivarium-2026-12-05-8-pm/concert/18832140",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/willy-porter-tickets/milwaukee-wisconsin-vivarium-2026-12-05-8-pm/concert/18832140"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/cf/4b/c8cf4bb7-664a-e854-ca7b-dff3d7d44eb7/mzaf_490455261681074214.plus.aac.p.m4a",
+        "track": "Watercolor",
+        "artist": "Willy Porter",
+        "kind": "Rock"
+      },
+      "slug": "willy-porter-2026-12-05"
+    },
+    {
+      "date": "2026-12-05",
+      "time": "20:00",
       "title": "The Gringos",
       "support": "Yolk",
       "venue": "The Argo",
@@ -1471,30 +1465,6 @@
         "kind": "Indie Rock"
       },
       "slug": "the-gringos-2026-12-05"
-    },
-    {
-      "date": "2026-12-05",
-      "time": "20:00",
-      "title": "Willy Porter",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/willy-porter-tickets/milwaukee-wisconsin-vivarium-2026-12-05-8-pm/concert/18832140",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/willy-porter-tickets/milwaukee-wisconsin-vivarium-2026-12-05-8-pm/concert/18832140"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/cf/4b/c8cf4bb7-664a-e854-ca7b-dff3d7d44eb7/mzaf_490455261681074214.plus.aac.p.m4a",
-        "track": "Watercolor",
-        "artist": "Willy Porter",
-        "kind": "Rock"
-      },
-      "slug": "willy-porter-2026-12-05"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/5e4/89593bbf-0a48-4be1-95a4-8ffba46375e4_1065341_RETINA_PORTRAIT_16_9.jpg",
@@ -3310,30 +3280,6 @@
     {
       "date": "2026-12-31",
       "time": "21:00",
-      "title": "Artifakts",
-      "support": null,
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/81/ab/78/81ab788b-c9a9-642f-03df-f5d67b988210/mzaf_16688945772541310957.plus.aac.p.m4a",
-        "track": "Sputnik IV",
-        "artist": "Artifakts",
-        "kind": "Electronic"
-      },
-      "slug": "artifakts-2026-12-31"
-    },
-    {
-      "date": "2026-12-31",
-      "time": "21:00",
       "title": "Spafford",
       "support": null,
       "venue": "Vivarium",
@@ -3354,6 +3300,30 @@
         "kind": "Rock"
       },
       "slug": "spafford-2026-12-31"
+    },
+    {
+      "date": "2026-12-31",
+      "time": "21:00",
+      "title": "Artifakts",
+      "support": null,
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "electronic",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/81/ab/78/81ab788b-c9a9-642f-03df-f5d67b988210/mzaf_16688945772541310957.plus.aac.p.m4a",
+        "track": "Sputnik IV",
+        "artist": "Artifakts",
+        "kind": "Electronic"
+      },
+      "slug": "artifakts-2026-12-31"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196894020%2F285524009645%2F1%2Foriginal.20261029-224235?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=45f434a8603646bd057b0003ed8a57cf",
@@ -5637,24 +5607,6 @@
     {
       "date": "2027-02-12",
       "time": "19:30",
-      "title": "Jay Leno",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004"
-        }
-      ],
-      "slug": "jay-leno-2027-02-12"
-    },
-    {
-      "date": "2027-02-12",
-      "time": "19:30",
       "title": "Aries Spears",
       "support": null,
       "venue": "Landmark Credit Union Live",
@@ -5669,6 +5621,24 @@
         }
       ],
       "slug": "aries-spears-2027-02-12"
+    },
+    {
+      "date": "2027-02-12",
+      "time": "19:30",
+      "title": "Jay Leno",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004"
+        }
+      ],
+      "slug": "jay-leno-2027-02-12"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/68d/19b97376-00f9-46dc-953e-47d5823d268d_RETINA_PORTRAIT_16_9.jpg",
@@ -5850,6 +5820,24 @@
         }
       ],
       "slug": "jump-america-s-van-halen-experience-2027-02-13"
+    },
+    {
+      "date": "2027-02-13",
+      "time": "20:00",
+      "title": "After The Love Has Gone 2",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/after-the-love-has-gone-2-tickets/milwaukee-wisconsin-pabst-theater-2027-02-13-8-pm/concert/18870289",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/after-the-love-has-gone-2-tickets/milwaukee-wisconsin-pabst-theater-2027-02-13-8-pm/concert/18870289"
+        }
+      ],
+      "slug": "after-the-love-has-gone-2-2027-02-13"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/331/59b2e836-bf9a-486b-8070-3812381e3331_RETINA_PORTRAIT_16_9.jpg",
@@ -6788,30 +6776,6 @@
     {
       "date": "2027-02-28",
       "time": "19:00",
-      "title": "Liquid Stranger",
-      "support": "Sully, Twopercent",
-      "venue": "Miramar Theatre",
-      "hood": "Milwaukee",
-      "genre": "electronic",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/75/fc/41/75fc41cf-b22c-c503-fc2d-26ce3f6980bd/mzaf_17419461686366392936.plus.aac.p.m4a",
-        "track": "Dissolve",
-        "artist": "Liquid Stranger",
-        "kind": "Electronic"
-      },
-      "slug": "liquid-stranger-2027-02-28"
-    },
-    {
-      "date": "2027-02-28",
-      "time": "19:00",
       "title": "Mike Viola",
       "support": null,
       "venue": "X-Ray Arcade",
@@ -6832,6 +6796,30 @@
         "kind": "Rock"
       },
       "slug": "mike-viola-2027-02-28"
+    },
+    {
+      "date": "2027-02-28",
+      "time": "19:00",
+      "title": "Liquid Stranger",
+      "support": "Sully, Twopercent",
+      "venue": "Miramar Theatre",
+      "hood": "Milwaukee",
+      "genre": "electronic",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/75/fc/41/75fc41cf-b22c-c503-fc2d-26ce3f6980bd/mzaf_17419461686366392936.plus.aac.p.m4a",
+        "track": "Dissolve",
+        "artist": "Liquid Stranger",
+        "kind": "Electronic"
+      },
+      "slug": "liquid-stranger-2027-02-28"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/c7c/abcff54a-2554-4f27-b7ce-539e34d50c7c_RETINA_PORTRAIT_16_9.jpg",

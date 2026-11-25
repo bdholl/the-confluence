@@ -4,15 +4,6 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-24-20:00-IkeReillyShankHall@theconfluence
-DTSTART;TZID=America/Chicago:20261124T200000
-DTEND;TZID=America/Chicago:20261124T220000
-SUMMARY:Ike Reilly @ Shank Hall
-LOCATION:Shank Hall\, East Side
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/ike-reilly-shank-hall-tickets/14329514
-URL:https://www.ticketweb.com/event/ike-reilly-shank-hall-tickets/14329514
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-25-19:00-BellaCainPerformingLiveRoute20@theconfluence
 DTSTART;TZID=America/Chicago:20261125T190000
 DTEND;TZID=America/Chicago:20261125T210000
@@ -418,15 +409,6 @@ DESCRIPTION:Tickets: https://seatgeek.com/bryce-alakai-tickets/milwaukee-wiscons
 URL:https://seatgeek.com/bryce-alakai-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-12-04-8-pm/concert/18646099
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-04-20:00-TheBigWuVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20261204T200000
-DTEND;TZID=America/Chicago:20261204T220000
-SUMMARY:The Big Wu @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159
-URL:https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-12-04-20:00-TheGufsTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20261204T200000
 DTEND;TZID=America/Chicago:20261204T220000
@@ -443,6 +425,15 @@ SUMMARY:1 Year Anniversary Party: The Gufs w/ Brett Newski @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/1-year-anniversary-party-the-gufs-w-brett-newski-tickets-2002923633505
 URL:https://www.eventbrite.com/e/1-year-anniversary-party-the-gufs-w-brett-newski-tickets-2002923633505
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04-20:00-TheBigWuVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20261204T200000
+DTEND;TZID=America/Chicago:20261204T220000
+SUMMARY:The Big Wu @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159
+URL:https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04-21:00-KyleWatsonMiramarTheatre@theconfluence
@@ -517,15 +508,6 @@ DESCRIPTION:With Space Laces\, Cyclops\, AlienPark\, Pretty Sweet. Tickets: http
 URL:https://seatgeek.com/excision-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-12-05-8-pm/concert/18526301
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-05-20:00-TheGringosTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261205T200000
-DTEND;TZID=America/Chicago:20261205T220000
-SUMMARY:The Gringos @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:With Yolk. Tickets: https://www.eventbrite.com/e/the-gringos-w-yolk-tickets-1992178379160
-URL:https://www.eventbrite.com/e/the-gringos-w-yolk-tickets-1992178379160
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-12-05-20:00-WillyPorterVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261205T200000
 DTEND;TZID=America/Chicago:20261205T220000
@@ -533,6 +515,15 @@ SUMMARY:Willy Porter @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/willy-porter-tickets/milwaukee-wisconsin-vivarium-2026-12-05-8-pm/concert/18832140
 URL:https://seatgeek.com/willy-porter-tickets/milwaukee-wisconsin-vivarium-2026-12-05-8-pm/concert/18832140
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-05-20:00-TheGringosTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261205T200000
+DTEND;TZID=America/Chicago:20261205T220000
+SUMMARY:The Gringos @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:With Yolk. Tickets: https://www.eventbrite.com/e/the-gringos-w-yolk-tickets-1992178379160
+URL:https://www.eventbrite.com/e/the-gringos-w-yolk-tickets-1992178379160
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-06-14:30-HarryPotterandtheChamberofSecretsinConce@theconfluence
@@ -1201,15 +1192,6 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAeeA8
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAeeA8
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-31-21:00-ArtifaktsMiramarTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20261231T210000
-DTEND;TZID=America/Chicago:20261231T230000
-SUMMARY:Artifakts @ Miramar Theatre
-LOCATION:Miramar Theatre\, Milwaukee
-DESCRIPTION:Tickets: https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692
-URL:https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-12-31-21:00-SpaffordVivarium@theconfluence
 DTSTART;TZID=America/Chicago:20261231T210000
 DTEND;TZID=America/Chicago:20261231T230000
@@ -1217,6 +1199,15 @@ SUMMARY:Spafford @ Vivarium
 LOCATION:Vivarium\, East Side
 DESCRIPTION:Tickets: https://seatgeek.com/spafford-tickets/milwaukee-wisconsin-vivarium-2026-12-31-9-pm/concert/18526578
 URL:https://seatgeek.com/spafford-tickets/milwaukee-wisconsin-vivarium-2026-12-31-9-pm/concert/18526578
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-31-21:00-ArtifaktsMiramarTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20261231T210000
+DTEND;TZID=America/Chicago:20261231T230000
+SUMMARY:Artifakts @ Miramar Theatre
+LOCATION:Miramar Theatre\, Milwaukee
+DESCRIPTION:Tickets: https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692
+URL:https://seatgeek.com/artifakts-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-31-9-pm/concert/18804692
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-31-21:00-DaftDiskoNYE202721TheArgo@theconfluence
@@ -2047,15 +2038,6 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/margaret-cho-milwaukee-impr
 URL:https://www.ticketweb.com/event/margaret-cho-milwaukee-improv-main-room-tickets/14327294
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-02-12-19:30-JayLenoPabstTheater@theconfluence
-DTSTART;TZID=America/Chicago:20270212T193000
-DTEND;TZID=America/Chicago:20270212T213000
-SUMMARY:Jay Leno @ Pabst Theater
-LOCATION:Pabst Theater\, Downtown
-DESCRIPTION:Tickets: https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004
-URL:https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004
-END:VEVENT
-BEGIN:VEVENT
 UID:2027-02-12-19:30-AriesSpearsLandmarkCreditUnionLive@theconfluence
 DTSTART;TZID=America/Chicago:20270212T193000
 DTEND;TZID=America/Chicago:20270212T213000
@@ -2063,6 +2045,15 @@ SUMMARY:Aries Spears @ Landmark Credit Union Live
 LOCATION:Landmark Credit Union Live\, Milwaukee
 DESCRIPTION:Tickets: https://seatgeek.com/aries-spears-tickets/comedy/2027-02-12-7-30-pm/18535098
 URL:https://seatgeek.com/aries-spears-tickets/comedy/2027-02-12-7-30-pm/18535098
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-12-19:30-JayLenoPabstTheater@theconfluence
+DTSTART;TZID=America/Chicago:20270212T193000
+DTEND;TZID=America/Chicago:20270212T213000
+SUMMARY:Jay Leno @ Pabst Theater
+LOCATION:Pabst Theater\, Downtown
+DESCRIPTION:Tickets: https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004
+URL:https://seatgeek.com/jay-leno-tickets/comedy/2027-02-12-7-30-pm/18787004
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-12-20:00-JoeBonamassaRiversideTheater@theconfluence
@@ -2135,6 +2126,15 @@ SUMMARY:JUMP: America's Van Halen Experience @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/jump-americas-van-halen-experience-tickets-2000653824445
 URL:https://www.eventbrite.com/e/jump-americas-van-halen-experience-tickets-2000653824445
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-13-20:00-AfterTheLoveHasGone2PabstTheater@theconfluence
+DTSTART;TZID=America/Chicago:20270213T200000
+DTEND;TZID=America/Chicago:20270213T220000
+SUMMARY:After The Love Has Gone 2 @ Pabst Theater
+LOCATION:Pabst Theater\, Downtown
+DESCRIPTION:Tickets: https://seatgeek.com/after-the-love-has-gone-2-tickets/milwaukee-wisconsin-pabst-theater-2027-02-13-8-pm/concert/18870289
+URL:https://seatgeek.com/after-the-love-has-gone-2-tickets/milwaukee-wisconsin-pabst-theater-2027-02-13-8-pm/concert/18870289
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-15-19:30-That1GuyShankHall@theconfluence
@@ -2470,15 +2470,6 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/ben-bankas-on-thin-ice-milw
 URL:https://www.ticketweb.com/event/ben-bankas-on-thin-ice-milwaukee-improv-main-room-tickets/14255094
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-02-28-19:00-LiquidStrangerMiramarTheatre@theconfluence
-DTSTART;TZID=America/Chicago:20270228T190000
-DTEND;TZID=America/Chicago:20270228T210000
-SUMMARY:Liquid Stranger @ Miramar Theatre
-LOCATION:Miramar Theatre\, Milwaukee
-DESCRIPTION:With Sully\, Twopercent. Tickets: https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436
-URL:https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436
-END:VEVENT
-BEGIN:VEVENT
 UID:2027-02-28-19:00-MikeViolaXRayArcade@theconfluence
 DTSTART;TZID=America/Chicago:20270228T190000
 DTEND;TZID=America/Chicago:20270228T210000
@@ -2486,6 +2477,15 @@ SUMMARY:Mike Viola @ X-Ray Arcade
 LOCATION:X-Ray Arcade\, Cudahy
 DESCRIPTION:Tickets: https://seatgeek.com/mike-viola-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-28-7-pm/concert/18827507
 URL:https://seatgeek.com/mike-viola-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-28-7-pm/concert/18827507
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-28-19:00-LiquidStrangerMiramarTheatre@theconfluence
+DTSTART;TZID=America/Chicago:20270228T190000
+DTEND;TZID=America/Chicago:20270228T210000
+SUMMARY:Liquid Stranger @ Miramar Theatre
+LOCATION:Miramar Theatre\, Milwaukee
+DESCRIPTION:With Sully\, Twopercent. Tickets: https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436
+URL:https://seatgeek.com/liquid-stranger-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-28-7-pm/concert/18748436
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-02-19:30-TwilightInConcertRiversideTheater@theconfluence
