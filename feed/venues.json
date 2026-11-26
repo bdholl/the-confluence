@@ -69,6 +69,13 @@
     "postal": "53189",
     "source": "seatgeek"
   },
+  "Hilton Milwaukee": {
+    "street": "1230 North Old World 3rd Street",
+    "city": "Milwaukee",
+    "region": "WI",
+    "postal": "53203",
+    "source": "seatgeek"
+  },
   "Landmark Credit Union Live": {
     "street": "1051 N. Vel R. Phillips Avenue",
     "city": "Milwaukee",
@@ -109,6 +116,13 @@
     "city": "Milwaukee",
     "region": "WI",
     "postal": "53203",
+    "source": "seatgeek"
+  },
+  "Oconomowoc Arts Center": {
+    "street": "641 East Forest Street",
+    "city": "Oconomowoc",
+    "region": "WI",
+    "postal": "53066",
     "source": "seatgeek"
   },
   "Pabst Theater": {
@@ -181,8 +195,15 @@
     "postal": "53233",
     "source": "ticketmaster"
   },
+  "Todd Wehr Theater at Marcus Center": {
+    "street": "121 E State St",
+    "city": "Milwaukee",
+    "region": "WI",
+    "postal": "53202",
+    "source": "ticketmaster"
+  },
   "Turner Hall Ballroom": {
-    "street": "1034 N. 4th Street",
+    "street": "1034 N 4th St.",
     "city": "Milwaukee",
     "region": "WI",
     "postal": "53203",

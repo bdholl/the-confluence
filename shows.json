@@ -1,156 +1,28 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "shows": [
     {
-      "status": "offsale",
-      "date": "2026-11-25",
-      "time": "19:00",
-      "title": "Bella Cain Performing Live",
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-27",
+      "time": "13:00",
+      "title": "How the Grinch Stole Christmas",
       "support": null,
-      "venue": "Route 20",
-      "hood": "Sturtevant",
-      "genre": "country",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/bella-cain-performing-live-route-20-tickets/14308324?REFERRAL_ID=tmfeed",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/bella-cain-performing-live-route-20-tickets/14308324?REFERRAL_ID=tmfeed"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/bella-cain-tickets/sturtevant-wisconsin-route-20-outhouse-2026-11-25-8-pm/concert/18816316"
-        }
-      ],
-      "slug": "bella-cain-performing-live-2026-11-25"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180189102%2F285524009645%2F1%2Foriginal.20260318-230308?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6ce92e9b9d38dc104f206c7572737acd",
-      "date": "2026-11-25",
-      "time": "19:00",
-      "title": "Swing Jazz Wednesdays: Micro Brew Swing Band (Free)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "jazz",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-2004096605897",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-2004096605897"
-        }
-      ],
-      "slug": "swing-jazz-wednesdays-micro-brew-swing-band-free-2026-11-25"
-    },
-    {
-      "img": "https://i.ticketweb.com/i/00/13/66/32/03_Edp.jpg?v=4",
-      "price": 32.39,
-      "date": "2026-11-25",
-      "time": "19:30",
-      "title": "Kelly Kellz Pre-Thanksgiving Day Comedy Show",
-      "support": null,
-      "venue": "Milwaukee Improv",
-      "hood": "Brookfield",
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
       "genre": "comedy",
       "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OZA",
       "offers": [
         {
           "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234",
-          "price": 32.39
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/kelly-kellz-tickets/comedy/2026-11-25-6-30-pm/18830293"
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OZA"
         }
       ],
-      "slug": "kelly-kellz-pre-thanksgiving-day-comedy-show-2026-11-25"
-    },
-    {
-      "date": "2026-11-25",
-      "time": "20:00",
-      "title": "VonOff1700",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/vonoff1700-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-25-8-pm/concert/18788943",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/vonoff1700-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-25-8-pm/concert/18788943"
-        }
+      "times": [
+        "13:00",
+        "16:00"
       ],
-      "slug": "vonoff1700-2026-11-25"
-    },
-    {
-      "date": "2026-11-25",
-      "time": "20:00",
-      "title": "Chrissy Chlapecka",
-      "support": "Slajer",
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "pop",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/chrissy-chlapecka-w-slajer-tickets-1993023002451",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/chrissy-chlapecka-w-slajer-tickets-1993023002451"
-        },
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/chrissy-chlapecka-tickets/whitefish-bay-wisconsin-the-argo-2026-11-25-8-pm/concert/18835448"
-        }
-      ],
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188315677%2F285524009645%2F1%2Foriginal.20260706-200346?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.465&s=dc67ad9d307bed6c892bf884acfab0cd",
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/12/00/b61200b3-7ff0-010e-eb5a-0e666dca2e4e/mzaf_10257595990423095919.plus.aac.p.m4a",
-        "track": "Passionfruit",
-        "artist": "Chrissy Chlapecka",
-        "kind": "Pop"
-      },
-      "slug": "chrissy-chlapecka-2026-11-25"
-    },
-    {
-      "date": "2026-11-25",
-      "time": "21:00",
-      "title": "Punchis Punchis",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek4f",
-      "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek4f"
-        }
-      ],
-      "slug": "punchis-punchis-2026-11-25"
-    },
-    {
-      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198259491%2F285524009645%2F1%2Foriginal.20261118-175618?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a3767a30a20c61b1f74bd9d0233efc51",
-      "date": "2026-11-25",
-      "time": "21:00",
-      "title": "Free Karaoke Night (21+)",
-      "support": null,
-      "venue": "The Argo",
-      "hood": "Whitefish Bay",
-      "genre": "other",
-      "ticketer": "Eventbrite",
-      "url": "https://www.eventbrite.com/e/free-karaoke-night-21-tickets-2005043332582",
-      "offers": [
-        {
-          "src": "Eventbrite",
-          "url": "https://www.eventbrite.com/e/free-karaoke-night-21-tickets-2005043332582"
-        }
-      ],
-      "slug": "free-karaoke-night-21-2026-11-25"
+      "slug": "how-the-grinch-stole-christmas-2026-11-27"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/bdc/f89406d0-9aa9-4034-bbe3-42d8d32f3bdc_RETINA_PORTRAIT_16_9.jpg",
@@ -309,6 +181,30 @@
         "kind": "Dance"
       },
       "slug": "djay-mando-2026-11-27"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-28",
+      "time": "11:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_JF",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_JF"
+        }
+      ],
+      "times": [
+        "11:00",
+        "14:00",
+        "17:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-11-28"
     },
     {
       "img": "https://i.ticketweb.com/i/00/12/98/84/14_Edp.jpg?v=4",
@@ -541,6 +437,29 @@
         "kind": "Metal"
       },
       "slug": "beatallica-w-velocihamster-2026-11-28"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-11-29",
+      "time": "13:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_J4",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_J4"
+        }
+      ],
+      "times": [
+        "13:00",
+        "16:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-11-29"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/bdc/f89406d0-9aa9-4034-bbe3-42d8d32f3bdc_RETINA_PORTRAIT_16_9.jpg",
@@ -979,6 +898,25 @@
       "slug": "the-wildwoods-2026-12-03"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-04",
+      "time": "19:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OZd",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OZd"
+        }
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-04"
+    },
+    {
       "date": "2026-12-04",
       "time": "19:00",
       "title": "Colin Bracewell",
@@ -1225,6 +1163,29 @@
       "slug": "kyle-watson-2026-12-04"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-05",
+      "time": "11:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Oob",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Oob"
+        }
+      ],
+      "times": [
+        "11:00",
+        "17:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-05"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/0f4/aaacb28b-0c87-40f2-b745-e2480e2a60f4_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-05",
       "time": "18:30",
@@ -1465,6 +1426,29 @@
         "kind": "Indie Rock"
       },
       "slug": "the-gringos-2026-12-05"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-06",
+      "time": "13:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Jf",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Jf"
+        }
+      ],
+      "times": [
+        "13:00",
+        "16:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-06"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/5e4/89593bbf-0a48-4be1-95a4-8ffba46375e4_1065341_RETINA_PORTRAIT_16_9.jpg",
@@ -2068,6 +2052,29 @@
       "slug": "lumasi-2026-12-11"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-12",
+      "time": "11:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Ja",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Ja"
+        }
+      ],
+      "times": [
+        "11:00",
+        "17:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-12"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/f7e/b252b440-16a5-487e-86c0-7c0b11497f7e_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-12",
       "time": "15:30",
@@ -2227,6 +2234,29 @@
       "slug": "the-rock-and-roll-playhouse-2026-12-13"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-13",
+      "time": "13:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OZe",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OZe"
+        }
+      ],
+      "times": [
+        "13:00",
+        "16:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-13"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/13/09/87/54_Edp.jpg?v=6",
       "price": 32.39,
       "date": "2026-12-13",
@@ -2246,6 +2276,44 @@
         }
       ],
       "slug": "dolly-parton-hard-candy-christmas-drag-brunch-2026-12-13"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198704717%2F285524009645%2F1%2Foriginal.20261125-203011?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f350dabf62d089d1d7ab536c2da496d",
+      "date": "2026-12-13",
+      "time": "13:00",
+      "title": "Christmas at The Argo | Whitefish Bay Community Market (Free)",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/christmas-at-the-argo-whitefish-bay-community-market-free-tickets-2005484181172",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/christmas-at-the-argo-whitefish-bay-community-market-free-tickets-2005484181172"
+        }
+      ],
+      "slug": "christmas-at-the-argo-whitefish-bay-community-market-free-2026-12-13"
+    },
+    {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198697721%2F285524009645%2F1%2Foriginal.20261125-182847?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ab68d22223160bd5086b2f01bbce71a2",
+      "date": "2026-12-13",
+      "time": "15:00",
+      "title": "Generations in Blues",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "blues",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/generations-in-blues-tickets-2005480061851",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/generations-in-blues-tickets-2005480061851"
+        }
+      ],
+      "slug": "generations-in-blues-2026-12-13"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/5b8/e52c89db-615a-4428-89ea-5ec18c74d5b8_RETINA_PORTRAIT_16_9.jpg",
@@ -2477,6 +2545,25 @@
       "slug": "mike-salazar-en-espanol-2026-12-17"
     },
     {
+      "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198705341%2F285524009645%2F1%2Foriginal.20261125-204009?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.831&fp-y=0.481&s=5699c5d246a74ea89bce61072696d91d",
+      "date": "2026-12-17",
+      "time": "19:00",
+      "title": "Kitten Yoga with Cats at Large MKE",
+      "support": null,
+      "venue": "The Argo",
+      "hood": "Whitefish Bay",
+      "genre": "other",
+      "ticketer": "Eventbrite",
+      "url": "https://www.eventbrite.com/e/kitten-yoga-with-cats-at-large-mke-tickets-2005484702732",
+      "offers": [
+        {
+          "src": "Eventbrite",
+          "url": "https://www.eventbrite.com/e/kitten-yoga-with-cats-at-large-mke-tickets-2005484702732"
+        }
+      ],
+      "slug": "kitten-yoga-with-cats-at-large-mke-2026-12-17"
+    },
+    {
       "date": "2026-12-17",
       "time": "19:30",
       "title": "Hunter Flynn",
@@ -2590,6 +2677,25 @@
       "slug": "rene-vaca-2026-12-18"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-18",
+      "time": "19:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Jp",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Jp"
+        }
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-18"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/9d2/5f0ebea2-3344-4065-8ea3-1a9f6412b9d2_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-18",
       "time": "19:00",
@@ -2619,8 +2725,30 @@
       "slug": "jerry-seinfeld-2026-12-18"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/57/36/23_Edp.jpg?v=5",
-      "price": 32.39,
+      "date": "2026-12-18",
+      "time": "19:00",
+      "title": "Lorie Line",
+      "support": null,
+      "venue": "Oconomowoc Arts Center",
+      "hood": "Oconomowoc",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/lorie-line-tickets/oconomowoc-wisconsin-oconomowoc-arts-center-2026-12-18-7-pm/concert/18936079",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/lorie-line-tickets/oconomowoc-wisconsin-oconomowoc-arts-center-2026-12-18-7-pm/concert/18936079"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b9/67/20/b967203b-f2eb-fb58-311c-2179e14658be/mzaf_6803985813987815569.plus.aac.p.m4a",
+        "track": "Time To Say Goodbye",
+        "artist": "Lorie Line",
+        "kind": "Easy Listening"
+      },
+      "slug": "lorie-line-2026-12-18"
+    },
+    {
       "date": "2026-12-18",
       "time": "19:00",
       "title": "Shuler King",
@@ -2628,14 +2756,9 @@
       "venue": "Milwaukee Improv",
       "hood": "Brookfield",
       "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/shuler-king-milwaukee-improv-main-room-tickets/14968083",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/shuler-king-tickets/comedy/2026-12-18-7-pm/18526506",
       "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/shuler-king-milwaukee-improv-main-room-tickets/14968083",
-          "price": 32.39
-        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/shuler-king-tickets/comedy/2026-12-18-7-pm/18526506"
@@ -2744,6 +2867,30 @@
       "slug": "drezo-2026-12-18"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-19",
+      "time": "11:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_J7",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_J7"
+        }
+      ],
+      "times": [
+        "11:00",
+        "14:00",
+        "17:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-19"
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197605053%2F2971726526301%2F1%2Foriginal.20261109-163830?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=81bfdefbf3f50dd3ec94355c65791545",
       "date": "2026-12-19",
       "time": "17:30",
@@ -2767,8 +2914,6 @@
       "slug": "the-commercialists-present-the-music-of-a-charlie-brown-2026-12-19"
     },
     {
-      "img": "https://i.ticketweb.com/i/00/13/57/36/23_Edp.jpg?v=5",
-      "price": 32.39,
       "date": "2026-12-19",
       "time": "18:30",
       "title": "Shuler King",
@@ -2776,14 +2921,9 @@
       "venue": "Milwaukee Improv",
       "hood": "Brookfield",
       "genre": "comedy",
-      "ticketer": "Ticketmaster",
-      "url": "https://www.ticketweb.com/event/shuler-king-milwaukee-improv-main-room-tickets/14968113",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/shuler-king-tickets/comedy/2026-12-19-6-30-pm/18526508",
       "offers": [
-        {
-          "src": "Ticketmaster",
-          "url": "https://www.ticketweb.com/event/shuler-king-milwaukee-improv-main-room-tickets/14968113",
-          "price": 32.39
-        },
         {
           "src": "SeatGeek",
           "url": "https://seatgeek.com/shuler-king-tickets/comedy/2026-12-19-6-30-pm/18526508"
@@ -2840,6 +2980,29 @@
       "slug": "lil-mo-mozzarella-2026-12-19"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-20",
+      "time": "13:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Jk",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Jk"
+        }
+      ],
+      "times": [
+        "13:00",
+        "16:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-20"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/13/14/96/94_Edp.jpg?v=6",
       "price": 20.82,
       "date": "2026-12-20",
@@ -2888,6 +3051,52 @@
       "slug": "the-sleighriders-2026-12-21"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-22",
+      "time": "13:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OoO",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OoO"
+        }
+      ],
+      "times": [
+        "13:00",
+        "16:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-22"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-23",
+      "time": "13:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OZ6",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OZ6"
+        }
+      ],
+      "times": [
+        "13:00",
+        "16:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-23"
+    },
+    {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195307286%2F285524009645%2F1%2Foriginal.20261007-190633?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f193a418bdf39832d08f520a3664e0e1",
       "date": "2026-12-23",
       "time": "19:00",
@@ -2926,6 +3135,25 @@
       "slug": "a-jazz-holiday-special-w-troubadours-of-rhythm-free-2026-12-23"
     },
     {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-24",
+      "time": "13:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Jv",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Jv"
+        }
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-24"
+    },
+    {
       "img": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-12-26",
       "time": "10:00",
@@ -2947,6 +3175,29 @@
         "13:00"
       ],
       "slug": "bluey-s-big-play-2026-12-26"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-26",
+      "time": "11:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Oox",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Oox"
+        }
+      ],
+      "times": [
+        "11:00",
+        "14:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-26"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/e8b/b5409ed1-4af0-44a7-bccd-83fef3b0ae8b_RETINA_PORTRAIT_16_9.jpg",
@@ -3056,6 +3307,29 @@
         "16:00"
       ],
       "slug": "bluey-s-big-play-2026-12-27"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-12-27",
+      "time": "13:00",
+      "title": "How the Grinch Stole Christmas",
+      "support": null,
+      "venue": "Todd Wehr Theater at Marcus Center",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Jb",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Jb"
+        }
+      ],
+      "times": [
+        "13:00",
+        "16:00"
+      ],
+      "slug": "how-the-grinch-stole-christmas-2026-12-27"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/247/694df156-67e4-43ed-a8d0-8aded28d3247_1240861_RETINA_PORTRAIT_16_9.jpg",
@@ -3955,30 +4229,6 @@
     {
       "date": "2027-01-17",
       "time": "20:00",
-      "title": "The Last Revel",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "festival",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-last-revel-tickets/milwaukee-wisconsin-vivarium-2027-01-17-8-pm/music-festival/18832124",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-last-revel-tickets/milwaukee-wisconsin-vivarium-2027-01-17-8-pm/music-festival/18832124"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/c2/2f/67c22f21-3312-8a07-3dea-ad5bec3fe397/mzaf_1546078836429492975.plus.aac.p.m4a",
-        "track": "Engine Trouble",
-        "artist": "The Last Revel",
-        "kind": "Singer/Songwriter"
-      },
-      "slug": "the-last-revel-2027-01-17"
-    },
-    {
-      "date": "2027-01-17",
-      "time": "20:00",
       "title": "Rebirth Brass Band",
       "support": null,
       "venue": "The Rave / Eagles Club",
@@ -3999,6 +4249,30 @@
         "kind": "Jazz"
       },
       "slug": "rebirth-brass-band-2027-01-17"
+    },
+    {
+      "date": "2027-01-17",
+      "time": "20:00",
+      "title": "The Last Revel",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "festival",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-last-revel-tickets/milwaukee-wisconsin-vivarium-2027-01-17-8-pm/music-festival/18832124",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-last-revel-tickets/milwaukee-wisconsin-vivarium-2027-01-17-8-pm/music-festival/18832124"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/c2/2f/67c22f21-3312-8a07-3dea-ad5bec3fe397/mzaf_1546078836429492975.plus.aac.p.m4a",
+        "track": "Engine Trouble",
+        "artist": "The Last Revel",
+        "kind": "Singer/Songwriter"
+      },
+      "slug": "the-last-revel-2027-01-17"
     },
     {
       "img": "https://i.ticketweb.com/i/00/13/06/19/44_Edp.jpg?v=3",
@@ -4280,7 +4554,7 @@
       "time": "18:30",
       "title": "Candlelight - Tribute to Queen and The Beatles",
       "support": null,
-      "venue": "Mo's Irish Pub (Downtown)",
+      "venue": "Hilton Milwaukee",
       "hood": "Milwaukee",
       "genre": "other",
       "ticketer": "SeatGeek",
@@ -4349,11 +4623,11 @@
       "hood": "East Side",
       "genre": "hiphop",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/she-s-crafty-tickets/milwaukee-wisconsin-vivarium-2027-01-23-8-pm/concert/18724533",
+      "url": "https://seatgeek.com/she-s-crafty-all-female-beastie-boys-tribute-tickets/milwaukee-wisconsin-vivarium-2027-01-23-8-pm/concert/18724533",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/she-s-crafty-tickets/milwaukee-wisconsin-vivarium-2027-01-23-8-pm/concert/18724533"
+          "url": "https://seatgeek.com/she-s-crafty-all-female-beastie-boys-tribute-tickets/milwaukee-wisconsin-vivarium-2027-01-23-8-pm/concert/18724533"
         },
         {
           "src": "Ticketmaster",
@@ -5386,18 +5660,18 @@
     },
     {
       "date": "2027-02-07",
-      "time": "19:30",
+      "time": "20:00",
       "title": "Shemekia Copeland",
       "support": null,
       "venue": "Vivarium",
       "hood": "East Side",
       "genre": "blues",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-7-30-pm/concert/18832150",
+      "url": "https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-8-pm/concert/18832150",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-7-30-pm/concert/18832150"
+          "url": "https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-8-pm/concert/18832150"
         }
       ],
       "preview": {
@@ -5787,6 +6061,30 @@
     {
       "date": "2027-02-13",
       "time": "20:00",
+      "title": "HOL!",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "electronic",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/hol-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-13-8-pm/concert/18871117",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/hol-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-13-8-pm/concert/18871117"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/d2/a4/94d2a427-60e6-24f4-fe58-8478d5ed3277/mzaf_981322563284789792.plus.aac.p.m4a",
+        "track": "SHE LISTENS TO RIDDIM (feat. IANROCKS)",
+        "artist": "HOL!",
+        "kind": "Dance"
+      },
+      "slug": "hol-2027-02-13"
+    },
+    {
+      "date": "2027-02-13",
+      "time": "20:00",
       "title": "Jump - Van Halen Experience",
       "support": null,
       "venue": "The Argo",
@@ -6096,24 +6394,6 @@
     {
       "date": "2027-02-19",
       "time": "20:00",
-      "title": "SHAHERI",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243"
-        }
-      ],
-      "slug": "shaheri-2027-02-19"
-    },
-    {
-      "date": "2027-02-19",
-      "time": "20:00",
       "title": "Adrien Nunez",
       "support": null,
       "venue": "The Rave / Eagles Club",
@@ -6134,6 +6414,24 @@
         "kind": "Country"
       },
       "slug": "adrien-nunez-2027-02-19"
+    },
+    {
+      "date": "2027-02-19",
+      "time": "20:00",
+      "title": "SHAHERI",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243"
+        }
+      ],
+      "slug": "shaheri-2027-02-19"
     },
     {
       "date": "2027-02-20",
@@ -6749,6 +7047,24 @@
       "slug": "matt-friend-2027-02-27"
     },
     {
+      "date": "2027-02-27",
+      "time": "20:00",
+      "title": "The Prince Experience",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-prince-experience-tickets/milwaukee-wisconsin-pabst-theater-2027-02-27-8-pm/concert/18876266",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-prince-experience-tickets/milwaukee-wisconsin-pabst-theater-2027-02-27-8-pm/concert/18876266"
+        }
+      ],
+      "slug": "the-prince-experience-2027-02-27"
+    },
+    {
       "img": "https://i.ticketweb.com/i/00/12/97/07/24_Edp.jpg?v=6",
       "price": 44.94,
       "date": "2027-02-28",
@@ -6881,11 +7197,11 @@
       "hood": "Westown",
       "genre": "rock",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181",
+      "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181"
+          "url": "https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181"
         },
         {
           "src": "Ticketmaster",
@@ -7151,11 +7467,11 @@
       "hood": "Westown",
       "genre": "metal",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582",
+      "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-ii-2027-03-09-8-pm/concert/18727586",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582"
+          "url": "https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-ii-2027-03-09-8-pm/concert/18727586"
         },
         {
           "src": "Ticketmaster",
@@ -7196,18 +7512,18 @@
     },
     {
       "date": "2027-03-10",
-      "time": "19:30",
+      "time": "19:00",
       "title": "Oscar Lindsey",
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
       "genre": "indie",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-30-pm/concert/18804678",
+      "url": "https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-pm/concert/18804678",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-30-pm/concert/18804678"
+          "url": "https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-pm/concert/18804678"
         }
       ],
       "preview": {
@@ -7228,11 +7544,11 @@
       "hood": "Downtown",
       "genre": "rock",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/zach-williams-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-11-7-pm/concert/18727269",
+      "url": "https://seatgeek.com/zach-williams-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-11-7-pm/concert/18797639",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/zach-williams-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-11-7-pm/concert/18727269"
+          "url": "https://seatgeek.com/zach-williams-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-11-7-pm/concert/18797639"
         },
         {
           "src": "Ticketmaster",
@@ -7897,6 +8213,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/steve-o-crash-and-burn-milwaukee-improv-main-room-tickets/14360024",
           "price": 32.39
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/steve-o-tickets/comedy/2027-03-19-7-pm/18974366"
         }
       ],
       "times": [
@@ -7974,6 +8294,10 @@
           "src": "Ticketmaster",
           "url": "https://www.ticketweb.com/event/steve-o-crash-and-burn-milwaukee-improv-main-room-tickets/14360044",
           "price": 32.39
+        },
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/steve-o-tickets/comedy/2027-03-20-6-30-pm/18974362"
         }
       ],
       "times": [
@@ -7984,18 +8308,18 @@
     },
     {
       "date": "2027-03-20",
-      "time": "19:00",
+      "time": "18:30",
       "title": "The Body",
       "support": null,
       "venue": "Cactus Club",
       "hood": "Bay View",
       "genre": "other",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-body-tickets/milwaukee-wisconsin-cactus-club-2027-03-20-7-pm/concert/18804676",
+      "url": "https://seatgeek.com/the-body-tickets/milwaukee-wisconsin-cactus-club-2027-03-20-6-30-pm/concert/18804676",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-body-tickets/milwaukee-wisconsin-cactus-club-2027-03-20-7-pm/concert/18804676"
+          "url": "https://seatgeek.com/the-body-tickets/milwaukee-wisconsin-cactus-club-2027-03-20-6-30-pm/concert/18804676"
         }
       ],
       "slug": "the-body-2027-03-20"
@@ -8178,6 +8502,80 @@
         "kind": "Singer/Songwriter"
       },
       "slug": "the-mary-wallopers-2027-03-23"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/39d/182e6764-d114-46b5-844d-d3e8d72fd39d_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-25",
+      "time": "18:30",
+      "title": "The Funeral Portrait",
+      "support": "Archers, Creeper, If Not For Me, FKA Rayne",
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "metal",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-funeral-portrait-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-25-6-30-pm/concert/18755085",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-funeral-portrait-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-25-6-30-pm/concert/18755085"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkod"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/07/26/0507261c-b8f4-331d-ea8b-ef479862b691/mzaf_5284470359063213078.plus.aac.p.m4a",
+        "track": "Dark Thoughts",
+        "artist": "The Funeral Portrait",
+        "kind": "Metal"
+      },
+      "slug": "the-funeral-portrait-2027-03-25"
+    },
+    {
+      "img": "https://i.ticketweb.com/i/00/13/04/90/34_Edp.jpg?v=4",
+      "price": 26.22,
+      "date": "2027-03-25",
+      "time": "19:30",
+      "title": "Milwaukee Roast Championship: Semi-Finals",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/milwaukee-roast-championship-semi-finals-milwaukee-improv-main-room-tickets/14333674",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/milwaukee-roast-championship-semi-finals-milwaukee-improv-main-room-tickets/14333674",
+          "price": 26.22
+        }
+      ],
+      "slug": "milwaukee-roast-championship-semi-finals-2027-03-25"
+    },
+    {
+      "date": "2027-03-25",
+      "time": "19:30",
+      "title": "The Toasters",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-toasters-tickets/cudahy-wisconsin-x-ray-arcade-2027-03-25-7-30-pm/concert/18867062",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-toasters-tickets/cudahy-wisconsin-x-ray-arcade-2027-03-25-7-30-pm/concert/18867062"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/20/97/fb209796-5987-a5e7-798d-753aa30242bb/mzaf_11079486314247742277.plus.aac.p.m4a",
+        "track": "Don't Let the Bastards Grind You Down",
+        "artist": "The Toasters",
+        "kind": "Reggae"
+      },
+      "slug": "the-toasters-2027-03-25"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195955455%2F285524009645%2F1%2Foriginal.20261016-162659?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ede734c95ca1ce23365b56c34da8d0d7",

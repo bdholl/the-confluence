@@ -4,67 +4,13 @@ PRODID:-//The Confluence//Milwaukee Live Music//EN
 X-WR-CALNAME:The Confluence — Milwaukee Live Music
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:2026-11-25-19:00-BellaCainPerformingLiveRoute20@theconfluence
-DTSTART;TZID=America/Chicago:20261125T190000
-DTEND;TZID=America/Chicago:20261125T210000
-SUMMARY:Bella Cain Performing Live @ Route 20
-LOCATION:Route 20\, Sturtevant
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/bella-cain-performing-live-route-20-tickets/14308324?REFERRAL_ID=tmfeed
-URL:https://www.ticketweb.com/event/bella-cain-performing-live-route-20-tickets/14308324?REFERRAL_ID=tmfeed
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-25-19:00-SwingJazzWednesdaysMicroBrewSwingBandFre@theconfluence
-DTSTART;TZID=America/Chicago:20261125T190000
-DTEND;TZID=America/Chicago:20261125T210000
-SUMMARY:Swing Jazz Wednesdays: Micro Brew Swing Band (Free) @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-2004096605897
-URL:https://www.eventbrite.com/e/swing-jazz-wednesdays-micro-brew-swing-band-free-tickets-2004096605897
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-25-19:30-KellyKellzPreThanksgivingDayComedyShowMi@theconfluence
-DTSTART;TZID=America/Chicago:20261125T193000
-DTEND;TZID=America/Chicago:20261125T213000
-SUMMARY:Kelly Kellz Pre-Thanksgiving Day Comedy Show @ Milwaukee Improv
-LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234
-URL:https://www.ticketweb.com/event/kelly-kellz-pre-thanksgiving-day-milwaukee-improv-main-room-tickets/14284234
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-25-20:00-VonOff1700TheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261125T200000
-DTEND;TZID=America/Chicago:20261125T220000
-SUMMARY:VonOff1700 @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:Tickets: https://seatgeek.com/vonoff1700-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-25-8-pm/concert/18788943
-URL:https://seatgeek.com/vonoff1700-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-25-8-pm/concert/18788943
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-25-20:00-ChrissyChlapeckaTheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261125T200000
-DTEND;TZID=America/Chicago:20261125T220000
-SUMMARY:Chrissy Chlapecka @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:With Slajer. Tickets: https://www.eventbrite.com/e/chrissy-chlapecka-w-slajer-tickets-1993023002451
-URL:https://www.eventbrite.com/e/chrissy-chlapecka-w-slajer-tickets-1993023002451
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-25-21:00-PunchisPunchisTheRaveEaglesClub@theconfluence
-DTSTART;TZID=America/Chicago:20261125T210000
-DTEND;TZID=America/Chicago:20261125T230000
-SUMMARY:Punchis Punchis @ The Rave / Eagles Club
-LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAek4f
-URL:https://www.ticketmaster.com/event/Z7r9jZ1AAek4f
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-25-21:00-FreeKaraokeNight21TheArgo@theconfluence
-DTSTART;TZID=America/Chicago:20261125T210000
-DTEND;TZID=America/Chicago:20261125T230000
-SUMMARY:Free Karaoke Night (21+) @ The Argo
-LOCATION:The Argo\, Whitefish Bay
-DESCRIPTION:Tickets: https://www.eventbrite.com/e/free-karaoke-night-21-tickets-2005043332582
-URL:https://www.eventbrite.com/e/free-karaoke-night-21-tickets-2005043332582
+UID:2026-11-27-13:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261127T130000
+DTEND;TZID=America/Chicago:20261127T150000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70OZA
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70OZA
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-19:00-PeteLeeMilwaukeeImprov@theconfluence
@@ -119,6 +65,15 @@ SUMMARY:DJay Mando @ The Rave / Eagles Club
 LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://seatgeek.com/djay-mando-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-27-9-pm/concert/18842276
 URL:https://seatgeek.com/djay-mando-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-27-9-pm/concert/18842276
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-28-11:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261128T110000
+DTEND;TZID=America/Chicago:20261128T130000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_JF
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_JF
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-12:00-TheRBCadetsShankHall@theconfluence
@@ -200,6 +155,15 @@ SUMMARY:Beatallica w/ Velocihamster @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/beatallica-w-velocihamster-tickets-1995006165144
 URL:https://www.eventbrite.com/e/beatallica-w-velocihamster-tickets-1995006165144
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-29-13:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261129T130000
+DTEND;TZID=America/Chicago:20261129T150000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_J4
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_J4
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-18:00-PeteLeeMilwaukeeImprov@theconfluence
@@ -364,6 +328,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/the-wildwoods-tickets/milwaukee-wiscon
 URL:https://seatgeek.com/the-wildwoods-tickets/milwaukee-wisconsin-vivarium-2026-12-03-8-pm/concert/18832109
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-04-19:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261204T190000
+DTEND;TZID=America/Chicago:20261204T210000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70OZd
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70OZd
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-04-19:00-ColinBracewellCactusClub@theconfluence
 DTSTART;TZID=America/Chicago:20261204T190000
 DTEND;TZID=America/Chicago:20261204T210000
@@ -445,6 +418,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/kyle-watson-tickets/milwaukee-wisconsi
 URL:https://seatgeek.com/kyle-watson-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-04-9-pm/concert/18526390
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-05-11:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261205T110000
+DTEND;TZID=America/Chicago:20261205T130000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70Oob
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70Oob
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-05-18:30-NonpointRoute20@theconfluence
 DTSTART;TZID=America/Chicago:20261205T183000
 DTEND;TZID=America/Chicago:20261205T203000
@@ -524,6 +506,15 @@ SUMMARY:The Gringos @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:With Yolk. Tickets: https://www.eventbrite.com/e/the-gringos-w-yolk-tickets-1992178379160
 URL:https://www.eventbrite.com/e/the-gringos-w-yolk-tickets-1992178379160
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-06-13:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261206T130000
+DTEND;TZID=America/Chicago:20261206T150000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_Jf
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_Jf
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-06-14:30-HarryPotterandtheChamberofSecretsinConce@theconfluence
@@ -742,6 +733,15 @@ DESCRIPTION:With Ferrofluid. Tickets: https://seatgeek.com/lumasi-tickets/milwau
 URL:https://seatgeek.com/lumasi-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-11-9-pm/concert/18587711
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-12-11:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261212T110000
+DTEND;TZID=America/Chicago:20261212T130000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_Ja
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_Ja
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-12-15:30-BenRectorRiversideTheater@theconfluence
 DTSTART;TZID=America/Chicago:20261212T153000
 DTEND;TZID=America/Chicago:20261212T173000
@@ -796,6 +796,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AA7A_f
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AA7A_f
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-13-13:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261213T130000
+DTEND;TZID=America/Chicago:20261213T150000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70OZe
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70OZe
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-13-13:00-DollyPartonHardCandyChristmasDragBrunchM@theconfluence
 DTSTART;TZID=America/Chicago:20261213T130000
 DTEND;TZID=America/Chicago:20261213T150000
@@ -803,6 +812,24 @@ SUMMARY:Dolly Parton Hard Candy Christmas Drag Brunch @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/dolly-parton-hard-candy-christmas-milwaukee-improv-main-room-tickets/14383364
 URL:https://www.ticketweb.com/event/dolly-parton-hard-candy-christmas-milwaukee-improv-main-room-tickets/14383364
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-13-13:00-ChristmasatTheArgoWhitefishBayCommunityM@theconfluence
+DTSTART;TZID=America/Chicago:20261213T130000
+DTEND;TZID=America/Chicago:20261213T150000
+SUMMARY:Christmas at The Argo | Whitefish Bay Community Market (Free) @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/christmas-at-the-argo-whitefish-bay-community-market-free-tickets-2005484181172
+URL:https://www.eventbrite.com/e/christmas-at-the-argo-whitefish-bay-community-market-free-tickets-2005484181172
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-13-15:00-GenerationsinBluesTheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261213T150000
+DTEND;TZID=America/Chicago:20261213T170000
+SUMMARY:Generations in Blues @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/generations-in-blues-tickets-2005480061851
+URL:https://www.eventbrite.com/e/generations-in-blues-tickets-2005480061851
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-13-19:30-KoffinKatsXRayArcade@theconfluence
@@ -895,6 +922,15 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/mike-salazar-en-espaol-milw
 URL:https://www.ticketweb.com/event/mike-salazar-en-espaol-milwaukee-improv-main-room-tickets/14453584
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-17-19:00-KittenYogawithCatsatLargeMKETheArgo@theconfluence
+DTSTART;TZID=America/Chicago:20261217T190000
+DTEND;TZID=America/Chicago:20261217T210000
+SUMMARY:Kitten Yoga with Cats at Large MKE @ The Argo
+LOCATION:The Argo\, Whitefish Bay
+DESCRIPTION:Tickets: https://www.eventbrite.com/e/kitten-yoga-with-cats-at-large-mke-tickets-2005484702732
+URL:https://www.eventbrite.com/e/kitten-yoga-with-cats-at-large-mke-tickets-2005484702732
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-17-19:30-HunterFlynnCaribouRoomMenomoneeFalls@theconfluence
 DTSTART;TZID=America/Chicago:20261217T193000
 DTEND;TZID=America/Chicago:20261217T213000
@@ -940,6 +976,15 @@ DESCRIPTION:With That Mexican OT. Tickets: https://seatgeek.com/rene-vaca-ticket
 URL:https://seatgeek.com/rene-vaca-tickets/comedy/2026-12-18-7-pm/18608596
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-18-19:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261218T190000
+DTEND;TZID=America/Chicago:20261218T210000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_Jp
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_Jp
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-18-19:00-JerrySeinfeldMillerHighLifeTheatre@theconfluence
 DTSTART;TZID=America/Chicago:20261218T190000
 DTEND;TZID=America/Chicago:20261218T210000
@@ -949,13 +994,22 @@ DESCRIPTION:Tickets: https://seatgeek.com/jerry-seinfeld-tickets/comedy/2026-12-
 URL:https://seatgeek.com/jerry-seinfeld-tickets/comedy/2026-12-18-7-pm/18499829
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-18-19:00-LorieLineOconomowocArtsCenter@theconfluence
+DTSTART;TZID=America/Chicago:20261218T190000
+DTEND;TZID=America/Chicago:20261218T210000
+SUMMARY:Lorie Line @ Oconomowoc Arts Center
+LOCATION:Oconomowoc Arts Center\, Oconomowoc
+DESCRIPTION:Tickets: https://seatgeek.com/lorie-line-tickets/oconomowoc-wisconsin-oconomowoc-arts-center-2026-12-18-7-pm/concert/18936079
+URL:https://seatgeek.com/lorie-line-tickets/oconomowoc-wisconsin-oconomowoc-arts-center-2026-12-18-7-pm/concert/18936079
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-18-19:00-ShulerKingMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20261218T190000
 DTEND;TZID=America/Chicago:20261218T210000
 SUMMARY:Shuler King @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/shuler-king-milwaukee-improv-main-room-tickets/14968083
-URL:https://www.ticketweb.com/event/shuler-king-milwaukee-improv-main-room-tickets/14968083
+DESCRIPTION:Tickets: https://seatgeek.com/shuler-king-tickets/comedy/2026-12-18-7-pm/18526506
+URL:https://seatgeek.com/shuler-king-tickets/comedy/2026-12-18-7-pm/18526506
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-18-19:30-CherryPoppinDaddiesTheBendTheater@theconfluence
@@ -994,6 +1048,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/drezo-tickets/milwaukee-wisconsin-mira
 URL:https://seatgeek.com/drezo-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2026-12-18-9-pm/concert/18804694
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-19-11:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261219T110000
+DTEND;TZID=America/Chicago:20261219T130000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_J7
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_J7
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-19-17:30-TheCommercialistsPresentTheMusicOfACharl@theconfluence
 DTSTART;TZID=America/Chicago:20261219T173000
 DTEND;TZID=America/Chicago:20261219T193000
@@ -1008,8 +1071,8 @@ DTSTART;TZID=America/Chicago:20261219T183000
 DTEND;TZID=America/Chicago:20261219T203000
 SUMMARY:Shuler King @ Milwaukee Improv
 LOCATION:Milwaukee Improv\, Brookfield
-DESCRIPTION:Tickets: https://www.ticketweb.com/event/shuler-king-milwaukee-improv-main-room-tickets/14968113
-URL:https://www.ticketweb.com/event/shuler-king-milwaukee-improv-main-room-tickets/14968113
+DESCRIPTION:Tickets: https://seatgeek.com/shuler-king-tickets/comedy/2026-12-19-6-30-pm/18526508
+URL:https://seatgeek.com/shuler-king-tickets/comedy/2026-12-19-6-30-pm/18526508
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-19-20:00-SouthboundAllmanBrostributeShankHall@theconfluence
@@ -1030,6 +1093,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-
 URL:https://seatgeek.com/lil-mo-mozzarella-tickets/comedy/2026-12-19-8-pm/18400980
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-20-13:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261220T130000
+DTEND;TZID=America/Chicago:20261220T150000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_Jk
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_Jk
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-20-13:00-GrannyBingoGrinchmasEditionMilwaukeeImpr@theconfluence
 DTSTART;TZID=America/Chicago:20261220T130000
 DTEND;TZID=America/Chicago:20261220T150000
@@ -1046,6 +1118,24 @@ SUMMARY:The Sleighriders @ Shank Hall
 LOCATION:Shank Hall\, East Side
 DESCRIPTION:Tickets: https://www.ticketweb.com/event/the-sleighriders-shank-hall-tickets/14215624
 URL:https://www.ticketweb.com/event/the-sleighriders-shank-hall-tickets/14215624
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-22-13:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261222T130000
+DTEND;TZID=America/Chicago:20261222T150000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70OoO
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70OoO
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-23-13:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261223T130000
+DTEND;TZID=America/Chicago:20261223T150000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70OZ6
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70OZ6
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-23-19:00-QuizmasterTriviaNightTheArgo@theconfluence
@@ -1066,6 +1156,15 @@ DESCRIPTION:Tickets: https://www.eventbrite.com/e/a-jazz-holiday-special-w-troub
 URL:https://www.eventbrite.com/e/a-jazz-holiday-special-w-troubadours-of-rhythm-free-tickets-2004740477735
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-24-13:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261224T130000
+DTEND;TZID=America/Chicago:20261224T150000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_Jv
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_Jv
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-26-10:00-BlueysBigPlayMillerHighLifeTheatre@theconfluence
 DTSTART;TZID=America/Chicago:20261226T100000
 DTEND;TZID=America/Chicago:20261226T120000
@@ -1073,6 +1172,15 @@ SUMMARY:Bluey's Big Play @ Miller High Life Theatre
 LOCATION:Miller High Life Theatre\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7xv4w
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7xv4w
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-26-11:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261226T110000
+DTEND;TZID=America/Chicago:20261226T130000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70Oox
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70Oox
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-26-15:00-TransSiberianOrchestraFiservForum@theconfluence
@@ -1109,6 +1217,15 @@ SUMMARY:Bluey's Big Play @ Miller High Life Theatre
 LOCATION:Miller High Life Theatre\, Westown
 DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A7xv4g
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7xv4g
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-27-13:00-HowtheGrinchStoleChristmasToddWehrTheate@theconfluence
+DTSTART;TZID=America/Chicago:20261227T130000
+DTEND;TZID=America/Chicago:20261227T150000
+SUMMARY:How the Grinch Stole Christmas @ Todd Wehr Theater at Marcus Center
+LOCATION:Todd Wehr Theater at Marcus Center\, Milwaukee
+DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1A70_Jb
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70_Jb
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-27-18:00-JackieKashianMilwaukeeImprov@theconfluence
@@ -1435,15 +1552,6 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/preacher-lawson-milwaukee-i
 URL:https://www.ticketweb.com/event/preacher-lawson-milwaukee-improv-main-room-tickets/14346264
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-01-17-20:00-TheLastRevelVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20270117T200000
-DTEND;TZID=America/Chicago:20270117T220000
-SUMMARY:The Last Revel @ Vivarium
-LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/the-last-revel-tickets/milwaukee-wisconsin-vivarium-2027-01-17-8-pm/music-festival/18832124
-URL:https://seatgeek.com/the-last-revel-tickets/milwaukee-wisconsin-vivarium-2027-01-17-8-pm/music-festival/18832124
-END:VEVENT
-BEGIN:VEVENT
 UID:2027-01-17-20:00-RebirthBrassBandTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20270117T200000
 DTEND;TZID=America/Chicago:20270117T220000
@@ -1451,6 +1559,15 @@ SUMMARY:Rebirth Brass Band @ The Rave / Eagles Club
 LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://seatgeek.com/rebirth-brass-band-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-01-17-8-pm/concert/18865242
 URL:https://seatgeek.com/rebirth-brass-band-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-01-17-8-pm/concert/18865242
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-17-20:00-TheLastRevelVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20270117T200000
+DTEND;TZID=America/Chicago:20270117T220000
+SUMMARY:The Last Revel @ Vivarium
+LOCATION:Vivarium\, East Side
+DESCRIPTION:Tickets: https://seatgeek.com/the-last-revel-tickets/milwaukee-wisconsin-vivarium-2027-01-17-8-pm/music-festival/18832124
+URL:https://seatgeek.com/the-last-revel-tickets/milwaukee-wisconsin-vivarium-2027-01-17-8-pm/music-festival/18832124
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-20-19:00-TheAnswerisMurderMilwaukeeImprov@theconfluence
@@ -1552,11 +1669,11 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/russell-peters-milwaukee-im
 URL:https://www.ticketweb.com/event/russell-peters-milwaukee-improv-main-room-tickets/14982153
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-01-23-18:30-CandlelightTributetoQueenandTheBeatlesMo@theconfluence
+UID:2027-01-23-18:30-CandlelightTributetoQueenandTheBeatlesHi@theconfluence
 DTSTART;TZID=America/Chicago:20270123T183000
 DTEND;TZID=America/Chicago:20270123T203000
-SUMMARY:Candlelight - Tribute to Queen and The Beatles @ Mo's Irish Pub (Downtown)
-LOCATION:Mo's Irish Pub (Downtown)\, Milwaukee
+SUMMARY:Candlelight - Tribute to Queen and The Beatles @ Hilton Milwaukee
+LOCATION:Hilton Milwaukee\, Milwaukee
 DESCRIPTION:Tickets: https://seatgeek.com/candlelight-tribute-to-queen-and-the-beatles-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2027-01-23-6-30-pm/concert/18819902
 URL:https://seatgeek.com/candlelight-tribute-to-queen-and-the-beatles-tickets/milwaukee-wisconsin-mo-s-irish-pub-downtown-2027-01-23-6-30-pm/concert/18819902
 END:VEVENT
@@ -1584,8 +1701,8 @@ DTSTART;TZID=America/Chicago:20270123T200000
 DTEND;TZID=America/Chicago:20270123T220000
 SUMMARY:She's Crafty @ Vivarium
 LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/she-s-crafty-tickets/milwaukee-wisconsin-vivarium-2027-01-23-8-pm/concert/18724533
-URL:https://seatgeek.com/she-s-crafty-tickets/milwaukee-wisconsin-vivarium-2027-01-23-8-pm/concert/18724533
+DESCRIPTION:Tickets: https://seatgeek.com/she-s-crafty-all-female-beastie-boys-tribute-tickets/milwaukee-wisconsin-vivarium-2027-01-23-8-pm/concert/18724533
+URL:https://seatgeek.com/she-s-crafty-all-female-beastie-boys-tribute-tickets/milwaukee-wisconsin-vivarium-2027-01-23-8-pm/concert/18724533
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-23-20:00-MichaelMcDermottShankHall@theconfluence
@@ -1957,13 +2074,13 @@ DESCRIPTION:With Immortal Disfigurement. Tickets: https://seatgeek.com/as-i-lay-
 URL:https://seatgeek.com/as-i-lay-dying-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-07-7-30-pm/concert/18608567
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-02-07-19:30-ShemekiaCopelandVivarium@theconfluence
-DTSTART;TZID=America/Chicago:20270207T193000
-DTEND;TZID=America/Chicago:20270207T213000
+UID:2027-02-07-20:00-ShemekiaCopelandVivarium@theconfluence
+DTSTART;TZID=America/Chicago:20270207T200000
+DTEND;TZID=America/Chicago:20270207T220000
 SUMMARY:Shemekia Copeland @ Vivarium
 LOCATION:Vivarium\, East Side
-DESCRIPTION:Tickets: https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-7-30-pm/concert/18832150
-URL:https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-7-30-pm/concert/18832150
+DESCRIPTION:Tickets: https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-8-pm/concert/18832150
+URL:https://seatgeek.com/shemekia-copeland-tickets/milwaukee-wisconsin-vivarium-2027-02-07-8-pm/concert/18832150
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-09-19:30-LetterkennyMillerHighLifeTheatre@theconfluence
@@ -2110,6 +2227,15 @@ DESCRIPTION:Tickets: https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9
 URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-02-13-20:00-HOLTheRaveEaglesClub@theconfluence
+DTSTART;TZID=America/Chicago:20270213T200000
+DTEND;TZID=America/Chicago:20270213T220000
+SUMMARY:HOL! @ The Rave / Eagles Club
+LOCATION:The Rave / Eagles Club\, Westown
+DESCRIPTION:Tickets: https://seatgeek.com/hol-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-13-8-pm/concert/18871117
+URL:https://seatgeek.com/hol-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-13-8-pm/concert/18871117
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-02-13-20:00-JumpVanHalenExperienceTheArgo@theconfluence
 DTSTART;TZID=America/Chicago:20270213T200000
 DTEND;TZID=America/Chicago:20270213T220000
@@ -2218,15 +2344,6 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/tommy-castro-the-painkiller
 URL:https://www.ticketweb.com/event/tommy-castro-the-painkillers-shank-hall-tickets/14453104
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-02-19-20:00-SHAHERIXRayArcade@theconfluence
-DTSTART;TZID=America/Chicago:20270219T200000
-DTEND;TZID=America/Chicago:20270219T220000
-SUMMARY:SHAHERI @ X-Ray Arcade
-LOCATION:X-Ray Arcade\, Cudahy
-DESCRIPTION:Tickets: https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243
-URL:https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243
-END:VEVENT
-BEGIN:VEVENT
 UID:2027-02-19-20:00-AdrienNunezTheRaveEaglesClub@theconfluence
 DTSTART;TZID=America/Chicago:20270219T200000
 DTEND;TZID=America/Chicago:20270219T220000
@@ -2234,6 +2351,15 @@ SUMMARY:Adrien Nunez @ The Rave / Eagles Club
 LOCATION:The Rave / Eagles Club\, Westown
 DESCRIPTION:Tickets: https://seatgeek.com/adrien-nunez-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-19-8-pm/concert/18786509
 URL:https://seatgeek.com/adrien-nunez-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-02-19-8-pm/concert/18786509
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-19-20:00-SHAHERIXRayArcade@theconfluence
+DTSTART;TZID=America/Chicago:20270219T200000
+DTEND;TZID=America/Chicago:20270219T220000
+SUMMARY:SHAHERI @ X-Ray Arcade
+LOCATION:X-Ray Arcade\, Cudahy
+DESCRIPTION:Tickets: https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243
+URL:https://seatgeek.com/shaheri-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-19-8-pm/concert/18857243
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-20-10:00-MamaTriedMotorcycleShowTheRaveEaglesClub@theconfluence
@@ -2461,6 +2587,15 @@ DESCRIPTION:Tickets: https://seatgeek.com/matt-friend-tickets/comedy/2027-02-27-
 URL:https://seatgeek.com/matt-friend-tickets/comedy/2027-02-27-8-pm/18793253
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-02-27-20:00-ThePrinceExperiencePabstTheater@theconfluence
+DTSTART;TZID=America/Chicago:20270227T200000
+DTEND;TZID=America/Chicago:20270227T220000
+SUMMARY:The Prince Experience @ Pabst Theater
+LOCATION:Pabst Theater\, Downtown
+DESCRIPTION:Tickets: https://seatgeek.com/the-prince-experience-tickets/milwaukee-wisconsin-pabst-theater-2027-02-27-8-pm/concert/18876266
+URL:https://seatgeek.com/the-prince-experience-tickets/milwaukee-wisconsin-pabst-theater-2027-02-27-8-pm/concert/18876266
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-02-28-18:00-BENBANKASONTHINICEMilwaukeeImprov@theconfluence
 DTSTART;TZID=America/Chicago:20270228T180000
 DTEND;TZID=America/Chicago:20270228T200000
@@ -2511,8 +2646,8 @@ DTSTART;TZID=America/Chicago:20270304T190000
 DTEND;TZID=America/Chicago:20270304T210000
 SUMMARY:Pigeons Playing Ping Pong @ Turner Hall Ballroom
 LOCATION:Turner Hall Ballroom\, Westown
-DESCRIPTION:With Hot Like Mars. Tickets: https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181
-URL:https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-7-pm/concert/18762181
+DESCRIPTION:With Hot Like Mars. Tickets: https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181
+URL:https://seatgeek.com/pigeons-playing-ping-pong-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-04-8-pm/concert/18762181
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-04-19:30-PhoebeBridgersFiservForum@theconfluence
@@ -2601,8 +2736,8 @@ DTSTART;TZID=America/Chicago:20270309T200000
 DTEND;TZID=America/Chicago:20270309T220000
 SUMMARY:Beast In Black @ The Rave / Eagles Club
 LOCATION:The Rave / Eagles Club\, Westown
-DESCRIPTION:With Gloryhammer. Tickets: https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582
-URL:https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-09-8-pm/concert/18727582
+DESCRIPTION:With Gloryhammer. Tickets: https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-ii-2027-03-09-8-pm/concert/18727586
+URL:https://seatgeek.com/beast-in-black-tickets/milwaukee-wisconsin-the-rave-ii-2027-03-09-8-pm/concert/18727586
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-10-14:00-SpencerDayWilsonCenterfortheArtsHarrisTh@theconfluence
@@ -2614,13 +2749,13 @@ DESCRIPTION:Tickets: https://seatgeek.com/spencer-day-tickets/brookfield-wiscons
 URL:https://seatgeek.com/spencer-day-tickets/brookfield-wisconsin-wilson-center-for-the-arts-harris-theater-2027-03-10-2-pm/concert/18826685
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-03-10-19:30-OscarLindseyCactusClub@theconfluence
-DTSTART;TZID=America/Chicago:20270310T193000
-DTEND;TZID=America/Chicago:20270310T213000
+UID:2027-03-10-19:00-OscarLindseyCactusClub@theconfluence
+DTSTART;TZID=America/Chicago:20270310T190000
+DTEND;TZID=America/Chicago:20270310T210000
 SUMMARY:Oscar Lindsey @ Cactus Club
 LOCATION:Cactus Club\, Bay View
-DESCRIPTION:Tickets: https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-30-pm/concert/18804678
-URL:https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-30-pm/concert/18804678
+DESCRIPTION:Tickets: https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-pm/concert/18804678
+URL:https://seatgeek.com/oscar-lindsey-tickets/milwaukee-wisconsin-cactus-club-2027-03-10-7-pm/concert/18804678
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-11-19:00-ZachWilliamsRiversideTheater@theconfluence
@@ -2628,8 +2763,8 @@ DTSTART;TZID=America/Chicago:20270311T190000
 DTEND;TZID=America/Chicago:20270311T210000
 SUMMARY:Zach Williams @ Riverside Theater
 LOCATION:Riverside Theater\, Downtown
-DESCRIPTION:With Emerson Day. Tickets: https://seatgeek.com/zach-williams-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-11-7-pm/concert/18727269
-URL:https://seatgeek.com/zach-williams-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-11-7-pm/concert/18727269
+DESCRIPTION:With Emerson Day. Tickets: https://seatgeek.com/zach-williams-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-11-7-pm/concert/18797639
+URL:https://seatgeek.com/zach-williams-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-03-11-7-pm/concert/18797639
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-11-19:30-AnnaShoemakerCactusClub@theconfluence
@@ -2902,13 +3037,13 @@ DESCRIPTION:Tickets: https://www.ticketweb.com/event/steve-o-crash-and-burn-milw
 URL:https://www.ticketweb.com/event/steve-o-crash-and-burn-milwaukee-improv-main-room-tickets/14360044
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-03-20-19:00-TheBodyCactusClub@theconfluence
-DTSTART;TZID=America/Chicago:20270320T190000
-DTEND;TZID=America/Chicago:20270320T210000
+UID:2027-03-20-18:30-TheBodyCactusClub@theconfluence
+DTSTART;TZID=America/Chicago:20270320T183000
+DTEND;TZID=America/Chicago:20270320T203000
 SUMMARY:The Body @ Cactus Club
 LOCATION:Cactus Club\, Bay View
-DESCRIPTION:Tickets: https://seatgeek.com/the-body-tickets/milwaukee-wisconsin-cactus-club-2027-03-20-7-pm/concert/18804676
-URL:https://seatgeek.com/the-body-tickets/milwaukee-wisconsin-cactus-club-2027-03-20-7-pm/concert/18804676
+DESCRIPTION:Tickets: https://seatgeek.com/the-body-tickets/milwaukee-wisconsin-cactus-club-2027-03-20-6-30-pm/concert/18804676
+URL:https://seatgeek.com/the-body-tickets/milwaukee-wisconsin-cactus-club-2027-03-20-6-30-pm/concert/18804676
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-20-20:00-FluffyShankHall@theconfluence
@@ -2972,6 +3107,33 @@ SUMMARY:The Mary Wallopers @ The Argo
 LOCATION:The Argo\, Whitefish Bay
 DESCRIPTION:Tickets: https://www.eventbrite.com/e/the-mary-wallopers-tickets-1996258847952
 URL:https://www.eventbrite.com/e/the-mary-wallopers-tickets-1996258847952
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-25-18:30-TheFuneralPortraitTurnerHallBallroom@theconfluence
+DTSTART;TZID=America/Chicago:20270325T183000
+DTEND;TZID=America/Chicago:20270325T203000
+SUMMARY:The Funeral Portrait @ Turner Hall Ballroom
+LOCATION:Turner Hall Ballroom\, Westown
+DESCRIPTION:With Archers\, Creeper\, If Not For Me\, FKA Rayne. Tickets: https://seatgeek.com/the-funeral-portrait-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-25-6-30-pm/concert/18755085
+URL:https://seatgeek.com/the-funeral-portrait-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-25-6-30-pm/concert/18755085
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-25-19:30-MilwaukeeRoastChampionshipSemiFinalsMilw@theconfluence
+DTSTART;TZID=America/Chicago:20270325T193000
+DTEND;TZID=America/Chicago:20270325T213000
+SUMMARY:Milwaukee Roast Championship: Semi-Finals @ Milwaukee Improv
+LOCATION:Milwaukee Improv\, Brookfield
+DESCRIPTION:Tickets: https://www.ticketweb.com/event/milwaukee-roast-championship-semi-finals-milwaukee-improv-main-room-tickets/14333674
+URL:https://www.ticketweb.com/event/milwaukee-roast-championship-semi-finals-milwaukee-improv-main-room-tickets/14333674
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-25-19:30-TheToastersXRayArcade@theconfluence
+DTSTART;TZID=America/Chicago:20270325T193000
+DTEND;TZID=America/Chicago:20270325T213000
+SUMMARY:The Toasters @ X-Ray Arcade
+LOCATION:X-Ray Arcade\, Cudahy
+DESCRIPTION:Tickets: https://seatgeek.com/the-toasters-tickets/cudahy-wisconsin-x-ray-arcade-2027-03-25-7-30-pm/concert/18867062
+URL:https://seatgeek.com/the-toasters-tickets/cudahy-wisconsin-x-ray-arcade-2027-03-25-7-30-pm/concert/18867062
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-30-19:30-JackJackTheArgo@theconfluence
