@@ -1,26 +1,22 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "shows": [
     {
       "img": "https://s1.ticketm.net/dam/a/29e/036279a7-0ace-475c-b946-72b177bb029e_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-11-27",
-      "time": "13:00",
+      "time": "16:00",
       "title": "How the Grinch Stole Christmas",
       "support": null,
       "venue": "Todd Wehr Theater at Marcus Center",
       "hood": "Milwaukee",
       "genre": "comedy",
       "ticketer": "Ticketmaster",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OZA",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_JA",
       "offers": [
         {
           "src": "Ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OZA"
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_JA"
         }
-      ],
-      "times": [
-        "13:00",
-        "16:00"
       ],
       "slug": "how-the-grinch-stole-christmas-2026-11-27"
     },
@@ -1070,6 +1066,30 @@
     {
       "date": "2026-12-04",
       "time": "20:00",
+      "title": "The Big Wu",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/4a/24/cb4a2407-7b9b-2d38-23ea-8405937c5c64/mzaf_17114292731078519746.plus.aac.p.m4a",
+        "track": "Red Sky",
+        "artist": "The Big Wu",
+        "kind": "Rock"
+      },
+      "slug": "the-big-wu-2026-12-04"
+    },
+    {
+      "date": "2026-12-04",
+      "time": "20:00",
       "title": "The Gufs",
       "support": null,
       "venue": "The Argo",
@@ -1109,30 +1129,6 @@
         }
       ],
       "slug": "1-year-anniversary-party-the-gufs-w-brett-newski-2026-12-04"
-    },
-    {
-      "date": "2026-12-04",
-      "time": "20:00",
-      "title": "The Big Wu",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-big-wu-tickets/milwaukee-wisconsin-vivarium-2026-12-04-8-pm/concert/18832159"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/4a/24/cb4a2407-7b9b-2d38-23ea-8405937c5c64/mzaf_17114292731078519746.plus.aac.p.m4a",
-        "track": "Red Sky",
-        "artist": "The Big Wu",
-        "kind": "Rock"
-      },
-      "slug": "the-big-wu-2026-12-04"
     },
     {
       "date": "2026-12-04",
@@ -2164,24 +2160,6 @@
     {
       "date": "2026-12-12",
       "time": "20:00",
-      "title": "Sam Jay",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/sam-jay-tickets/comedy/2026-12-12-8-pm/18401009",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/sam-jay-tickets/comedy/2026-12-12-8-pm/18401009"
-        }
-      ],
-      "slug": "sam-jay-2026-12-12"
-    },
-    {
-      "date": "2026-12-12",
-      "time": "20:00",
       "title": "Greg Koch",
       "support": null,
       "venue": "The Argo",
@@ -2207,6 +2185,24 @@
         "kind": "Rock & Roll"
       },
       "slug": "greg-koch-2026-12-12"
+    },
+    {
+      "date": "2026-12-12",
+      "time": "20:00",
+      "title": "Sam Jay",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/sam-jay-tickets/comedy/2026-12-12-8-pm/18401009",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/sam-jay-tickets/comedy/2026-12-12-8-pm/18401009"
+        }
+      ],
+      "slug": "sam-jay-2026-12-12"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/0bb/e65394ae-9746-4063-b803-d25e9a6460bb_RETINA_PORTRAIT_16_9.jpg",
@@ -2341,20 +2337,26 @@
     {
       "date": "2026-12-14",
       "time": "19:00",
-      "title": "Filth",
+      "title": "Cradle of Filth",
       "support": null,
       "venue": "X-Ray Arcade",
       "hood": "Cudahy",
-      "genre": "other",
+      "genre": "metal",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/filth-tickets/cudahy-wisconsin-x-ray-arcade-2026-12-14-7-pm/concert/18827512",
+      "url": "https://seatgeek.com/cradle-of-filth-tickets/cudahy-wisconsin-x-ray-arcade-2026-12-14-7-pm/concert/18827512",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/filth-tickets/cudahy-wisconsin-x-ray-arcade-2026-12-14-7-pm/concert/18827512"
+          "url": "https://seatgeek.com/cradle-of-filth-tickets/cudahy-wisconsin-x-ray-arcade-2026-12-14-7-pm/concert/18827512"
         }
       ],
-      "slug": "filth-2026-12-14"
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a0/0c/d5/a00cd566-2514-c002-cc5b-da5a2057de58/mzaf_10233292784605108847.plus.aac.p.m4a",
+        "track": "Nymphetamine Fix",
+        "artist": "Cradle of Filth",
+        "kind": "Metal"
+      },
+      "slug": "cradle-of-filth-2026-12-14"
     },
     {
       "date": "2026-12-15",
@@ -3554,30 +3556,6 @@
     {
       "date": "2026-12-31",
       "time": "21:00",
-      "title": "Spafford",
-      "support": null,
-      "venue": "Vivarium",
-      "hood": "East Side",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/spafford-tickets/milwaukee-wisconsin-vivarium-2026-12-31-9-pm/concert/18526578",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/spafford-tickets/milwaukee-wisconsin-vivarium-2026-12-31-9-pm/concert/18526578"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/76/b8/a0/76b8a01d-463b-ce18-3f7a-58a08d34d898/mzaf_13382820782255863293.plus.aac.p.m4a",
-        "track": "Leave the Light On",
-        "artist": "Spafford",
-        "kind": "Rock"
-      },
-      "slug": "spafford-2026-12-31"
-    },
-    {
-      "date": "2026-12-31",
-      "time": "21:00",
       "title": "Artifakts",
       "support": null,
       "venue": "Miramar Theatre",
@@ -3598,6 +3576,30 @@
         "kind": "Electronic"
       },
       "slug": "artifakts-2026-12-31"
+    },
+    {
+      "date": "2026-12-31",
+      "time": "21:00",
+      "title": "Spafford",
+      "support": null,
+      "venue": "Vivarium",
+      "hood": "East Side",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/spafford-tickets/milwaukee-wisconsin-vivarium-2026-12-31-9-pm/concert/18526578",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/spafford-tickets/milwaukee-wisconsin-vivarium-2026-12-31-9-pm/concert/18526578"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/76/b8/a0/76b8a01d-463b-ce18-3f7a-58a08d34d898/mzaf_13382820782255863293.plus.aac.p.m4a",
+        "track": "Leave the Light On",
+        "artist": "Spafford",
+        "kind": "Rock"
+      },
+      "slug": "spafford-2026-12-31"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196894020%2F285524009645%2F1%2Foriginal.20261029-224235?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=45f434a8603646bd057b0003ed8a57cf",
@@ -4926,24 +4928,6 @@
     {
       "date": "2027-01-29",
       "time": "20:00",
-      "title": "Babytron",
-      "support": null,
-      "venue": "The Rave / Eagles Club",
-      "hood": "Westown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/babytron-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-01-29-8-pm/concert/18865243",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/babytron-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-01-29-8-pm/concert/18865243"
-        }
-      ],
-      "slug": "babytron-2027-01-29"
-    },
-    {
-      "date": "2027-01-29",
-      "time": "20:00",
       "title": "GGGAMESSS",
       "support": null,
       "venue": "Falcon Bowl",
@@ -4964,6 +4948,24 @@
         "kind": "Alternative"
       },
       "slug": "gggamesss-2027-01-29"
+    },
+    {
+      "date": "2027-01-29",
+      "time": "20:00",
+      "title": "Babytron",
+      "support": null,
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/babytron-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-01-29-8-pm/concert/18865243",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/babytron-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-01-29-8-pm/concert/18865243"
+        }
+      ],
+      "slug": "babytron-2027-01-29"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195795123%2F285524009645%2F1%2Foriginal.20261014-164303?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=62d6f53347f23aeb26d5ef4069efd8ac",
@@ -5881,24 +5883,6 @@
     {
       "date": "2027-02-12",
       "time": "19:30",
-      "title": "Aries Spears",
-      "support": null,
-      "venue": "Landmark Credit Union Live",
-      "hood": "Milwaukee",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/aries-spears-tickets/comedy/2027-02-12-7-30-pm/18535098",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/aries-spears-tickets/comedy/2027-02-12-7-30-pm/18535098"
-        }
-      ],
-      "slug": "aries-spears-2027-02-12"
-    },
-    {
-      "date": "2027-02-12",
-      "time": "19:30",
       "title": "Jay Leno",
       "support": null,
       "venue": "Pabst Theater",
@@ -5913,6 +5897,24 @@
         }
       ],
       "slug": "jay-leno-2027-02-12"
+    },
+    {
+      "date": "2027-02-12",
+      "time": "19:30",
+      "title": "Aries Spears",
+      "support": null,
+      "venue": "Landmark Credit Union Live",
+      "hood": "Milwaukee",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/aries-spears-tickets/comedy/2027-02-12-7-30-pm/18535098",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/aries-spears-tickets/comedy/2027-02-12-7-30-pm/18535098"
+        }
+      ],
+      "slug": "aries-spears-2027-02-12"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/68d/19b97376-00f9-46dc-953e-47d5823d268d_RETINA_PORTRAIT_16_9.jpg",
@@ -5970,11 +5972,11 @@
       "hood": "Milwaukee",
       "genre": "other",
       "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/minnesota-1-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-12-9-pm/concert/18848489",
+      "url": "https://seatgeek.com/minnesota-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-12-9-pm/concert/18848489",
       "offers": [
         {
           "src": "SeatGeek",
-          "url": "https://seatgeek.com/minnesota-1-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-12-9-pm/concert/18848489"
+          "url": "https://seatgeek.com/minnesota-tickets/milwaukee-wisconsin-miramar-theatre-milwaukee-2027-02-12-9-pm/concert/18848489"
         }
       ],
       "slug": "minnesota-2027-02-12"
@@ -6085,6 +6087,24 @@
     {
       "date": "2027-02-13",
       "time": "20:00",
+      "title": "After The Love Has Gone 2",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/after-the-love-has-gone-2-tickets/milwaukee-wisconsin-pabst-theater-2027-02-13-8-pm/concert/18870289",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/after-the-love-has-gone-2-tickets/milwaukee-wisconsin-pabst-theater-2027-02-13-8-pm/concert/18870289"
+        }
+      ],
+      "slug": "after-the-love-has-gone-2-2027-02-13"
+    },
+    {
+      "date": "2027-02-13",
+      "time": "20:00",
       "title": "Jump - Van Halen Experience",
       "support": null,
       "venue": "The Argo",
@@ -6118,24 +6138,6 @@
         }
       ],
       "slug": "jump-america-s-van-halen-experience-2027-02-13"
-    },
-    {
-      "date": "2027-02-13",
-      "time": "20:00",
-      "title": "After The Love Has Gone 2",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/after-the-love-has-gone-2-tickets/milwaukee-wisconsin-pabst-theater-2027-02-13-8-pm/concert/18870289",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/after-the-love-has-gone-2-tickets/milwaukee-wisconsin-pabst-theater-2027-02-13-8-pm/concert/18870289"
-        }
-      ],
-      "slug": "after-the-love-has-gone-2-2027-02-13"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/331/59b2e836-bf9a-486b-8070-3812381e3331_RETINA_PORTRAIT_16_9.jpg",
@@ -7002,6 +7004,42 @@
     {
       "date": "2027-02-27",
       "time": "20:00",
+      "title": "The Prince Experience",
+      "support": null,
+      "venue": "Pabst Theater",
+      "hood": "Downtown",
+      "genre": "other",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/the-prince-experience-tickets/milwaukee-wisconsin-pabst-theater-2027-02-27-8-pm/concert/18876266",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/the-prince-experience-tickets/milwaukee-wisconsin-pabst-theater-2027-02-27-8-pm/concert/18876266"
+        }
+      ],
+      "slug": "the-prince-experience-2027-02-27"
+    },
+    {
+      "date": "2027-02-27",
+      "time": "20:00",
+      "title": "Matt Friend",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/matt-friend-tickets/comedy/2027-02-27-8-pm/18793253",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/matt-friend-tickets/comedy/2027-02-27-8-pm/18793253"
+        }
+      ],
+      "slug": "matt-friend-2027-02-27"
+    },
+    {
+      "date": "2027-02-27",
+      "time": "20:00",
       "title": "Corduroy Cadets",
       "support": null,
       "venue": "The Argo",
@@ -7027,42 +7065,6 @@
         "kind": "Country"
       },
       "slug": "corduroy-cadets-2027-02-27"
-    },
-    {
-      "date": "2027-02-27",
-      "time": "20:00",
-      "title": "Matt Friend",
-      "support": null,
-      "venue": "Turner Hall Ballroom",
-      "hood": "Westown",
-      "genre": "comedy",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/matt-friend-tickets/comedy/2027-02-27-8-pm/18793253",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/matt-friend-tickets/comedy/2027-02-27-8-pm/18793253"
-        }
-      ],
-      "slug": "matt-friend-2027-02-27"
-    },
-    {
-      "date": "2027-02-27",
-      "time": "20:00",
-      "title": "The Prince Experience",
-      "support": null,
-      "venue": "Pabst Theater",
-      "hood": "Downtown",
-      "genre": "other",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/the-prince-experience-tickets/milwaukee-wisconsin-pabst-theater-2027-02-27-8-pm/concert/18876266",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/the-prince-experience-tickets/milwaukee-wisconsin-pabst-theater-2027-02-27-8-pm/concert/18876266"
-        }
-      ],
-      "slug": "the-prince-experience-2027-02-27"
     },
     {
       "img": "https://i.ticketweb.com/i/00/12/97/07/24_Edp.jpg?v=6",
@@ -7092,30 +7094,6 @@
     {
       "date": "2027-02-28",
       "time": "19:00",
-      "title": "Mike Viola",
-      "support": null,
-      "venue": "X-Ray Arcade",
-      "hood": "Cudahy",
-      "genre": "rock",
-      "ticketer": "SeatGeek",
-      "url": "https://seatgeek.com/mike-viola-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-28-7-pm/concert/18827507",
-      "offers": [
-        {
-          "src": "SeatGeek",
-          "url": "https://seatgeek.com/mike-viola-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-28-7-pm/concert/18827507"
-        }
-      ],
-      "preview": {
-        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/a8/87/77a887e1-8000-a551-1d21-7e8c5df83012/mzaf_4283521553607767968.plus.aac.p.m4a",
-        "track": "The Biggest Fan",
-        "artist": "Mike Viola",
-        "kind": "Rock"
-      },
-      "slug": "mike-viola-2027-02-28"
-    },
-    {
-      "date": "2027-02-28",
-      "time": "19:00",
       "title": "Liquid Stranger",
       "support": "Sully, Twopercent",
       "venue": "Miramar Theatre",
@@ -7136,6 +7114,30 @@
         "kind": "Electronic"
       },
       "slug": "liquid-stranger-2027-02-28"
+    },
+    {
+      "date": "2027-02-28",
+      "time": "19:00",
+      "title": "Mike Viola",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "rock",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/mike-viola-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-28-7-pm/concert/18827507",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/mike-viola-tickets/cudahy-wisconsin-x-ray-arcade-2027-02-28-7-pm/concert/18827507"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/a8/87/77a887e1-8000-a551-1d21-7e8c5df83012/mzaf_4283521553607767968.plus.aac.p.m4a",
+        "track": "The Biggest Fan",
+        "artist": "Mike Viola",
+        "kind": "Rock"
+      },
+      "slug": "mike-viola-2027-02-28"
     },
     {
       "img": "https://s1.ticketm.net/dam/a/c7c/abcff54a-2554-4f27-b7ce-539e34d50c7c_RETINA_PORTRAIT_16_9.jpg",
@@ -8576,6 +8578,142 @@
         "kind": "Reggae"
       },
       "slug": "the-toasters-2027-03-25"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/8df/83e96761-5858-4c7e-9ef9-f76c9ccc98df_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2027-03-26",
+      "time": "19:00",
+      "title": "Four Year Strong",
+      "support": "Drug Church, Heart Attack Man",
+      "venue": "The Rave / Eagles Club",
+      "hood": "Westown",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/four-year-strong-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-26-7-pm/concert/18701703",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/four-year-strong-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-03-26-7-pm/concert/18701703"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA7g"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/70/00/4a7000dd-f704-24c6-ac68-1c5108c49356/mzaf_7235167069194806998.plus.aac.p.m4a",
+        "track": "Heroes Get Remembered, Legends Never Die",
+        "artist": "Four Year Strong",
+        "kind": "Alternative"
+      },
+      "slug": "four-year-strong-2027-03-26"
+    },
+    {
+      "img": "https://s1.ticketm.net/dam/a/701/0218ef6e-f216-4974-b26b-39a242706701_RETINA_PORTRAIT_16_9.jpg",
+      "price": 44.94,
+      "date": "2027-03-26",
+      "time": "19:00",
+      "title": "Rickey Smiley",
+      "support": null,
+      "venue": "Milwaukee Improv",
+      "hood": "Brookfield",
+      "genre": "comedy",
+      "ticketer": "Ticketmaster",
+      "url": "https://www.ticketweb.com/event/rickey-smiley-milwaukee-improv-main-room-tickets/15056913",
+      "offers": [
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketweb.com/event/rickey-smiley-milwaukee-improv-main-room-tickets/15056913",
+          "price": 44.94
+        }
+      ],
+      "times": [
+        "19:00",
+        "21:15"
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/e4/ed/e7/e4ede7cd-cfa2-0b8c-6fe7-118f477f7b85/mzaf_11877507222842795509.plus.aac.p.m4a",
+        "track": "Funeral Arrangements",
+        "artist": "Rickey Smiley",
+        "kind": "Comedy"
+      },
+      "slug": "rickey-smiley-2027-03-26"
+    },
+    {
+      "date": "2027-03-26",
+      "time": "19:00",
+      "title": "Midrift",
+      "support": null,
+      "venue": "X-Ray Arcade",
+      "hood": "Cudahy",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/midrift-tickets/cudahy-wisconsin-x-ray-arcade-2027-03-26-7-pm/concert/18857245",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/midrift-tickets/cudahy-wisconsin-x-ray-arcade-2027-03-26-7-pm/concert/18857245"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/f1/a6/04f1a671-21c0-375f-9264-a9e695d8e444/mzaf_9684743772628488896.plus.aac.p.m4a",
+        "track": "unrequited",
+        "artist": "Midrift",
+        "kind": "Alternative"
+      },
+      "slug": "midrift-2027-03-26"
+    },
+    {
+      "date": "2027-03-26",
+      "time": "19:30",
+      "title": "John Cleese",
+      "support": null,
+      "venue": "Riverside Theater",
+      "hood": "Downtown",
+      "genre": "comedy",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/john-cleese-tickets/comedy/2027-03-26-7-30-pm/18797654",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/john-cleese-tickets/comedy/2027-03-26-7-30-pm/18797654"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ad/92/52/ad925210-efd0-4456-1e54-11c6085ced2a/mzaf_9544799828107796347.plus.aac.p.m4a",
+        "track": "The Rhubarb Tart Song (with The 1948 Show Choir) [with The 1948 Show Choir]",
+        "artist": "John Cleese",
+        "kind": "Comedy"
+      },
+      "slug": "john-cleese-2027-03-26"
+    },
+    {
+      "date": "2027-03-26",
+      "time": "20:00",
+      "title": "Goldie Boutilier",
+      "support": null,
+      "venue": "Turner Hall Ballroom",
+      "hood": "Westown",
+      "genre": "indie",
+      "ticketer": "SeatGeek",
+      "url": "https://seatgeek.com/goldie-boutilier-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-26-8-pm/concert/18793263",
+      "offers": [
+        {
+          "src": "SeatGeek",
+          "url": "https://seatgeek.com/goldie-boutilier-tickets/milwaukee-wisconsin-turner-hall-ballroom-2027-03-26-8-pm/concert/18793263"
+        },
+        {
+          "src": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4G-"
+        }
+      ],
+      "preview": {
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/50/44/b35044b6-8caf-5291-4a1a-bd9a962b0218/mzaf_16327863173187728665.plus.aac.p.m4a",
+        "track": "King of Possibilities",
+        "artist": "Goldie Boutilier",
+        "kind": "Alternative"
+      },
+      "slug": "goldie-boutilier-2027-03-26"
     },
     {
       "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195955455%2F285524009645%2F1%2Foriginal.20261016-162659?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ede734c95ca1ce23365b56c34da8d0d7",
